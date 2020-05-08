@@ -1,5 +1,5 @@
 <iati-activities>
- <iati-activity dataset="undp-alb" default-currency="USD" generated-datetime="2020-03-27T18:14:51" hierarchy="2" humanitarian="0" last-updated-datetime="2020-03-01T00:02:02" version="2.03" xml:lang="EN" xmlns:iati-extra="http://datastore.iatistandard.org/ns" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity dataset="undp-alb" default-currency="USD" generated-datetime="2020-05-04T16:26:31" hierarchy="2" humanitarian="0" last-updated-datetime="2020-05-01T00:02:02" version="2.03" xml:lang="EN" xmlns:iati-extra="http://datastore.iatistandard.org/ns" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <activity-date iso-date="2020-03-25" type="1"></activity-date>
   <activity-date iso-date="2020-03-25" type="2"></activity-date>
   <activity-date iso-date="2020-12-31" type="3"></activity-date>
@@ -7,7 +7,7 @@
   <budget status="2" type="2">
    <period-end iso-date="2020-12-31"></period-end>
    <period-start iso-date="2020-01-01"></period-start>
-   <value currency="USD" value-date="2020-02-29">
+   <value currency="USD" value-date="2020-04-30">
    </value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
@@ -41,15 +41,28 @@
   <participating-org ref="XM-DAC-41114" role="1">
    <narrative xml:lang="EN">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
   </participating-org>
+  <participating-org ref="10503" role="1" type="10">
+   <narrative xml:lang="EN">MINISTRY OF FOREIGN AFFAIRS, NORWAY</narrative>
+  </participating-org>
+  <participating-org ref="00029" role="1" type="22">
+   <narrative xml:lang="EN">INTERNATIONAL NON-GOVERNMENTAL ORGANIZATION</narrative>
+  </participating-org>
   <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <recipient-country code="AL" percentage="100">
    <narrative xml:lang="EN">Albania</narrative>
   </recipient-country>
   <related-activity ref="XM-DAC-41114-PROJECT-00126696" type="1"></related-activity>
+  <related-activity ref="XM-DAC-41114-OUTPUT-00120982" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-OUTPUT-00120983" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-OUTPUT-00120984" type="3"></related-activity>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </reporting-org>
-  <sector code="51010" percentage="100" vocabulary="1"></sector>
+  <sector code="16062" percentage="100" vocabulary="1"></sector>
+  <sector code="16.7" percentage="100" vocabulary="8"></sector>
+  <sector code="18" percentage="100" vocabulary="99">
+   <narrative xml:lang="EN">Accelerate structural transformations</narrative>
+  </sector>
   <title>
    <narrative xml:lang="EN">Response to COVID-19</narrative>
   </title>
@@ -62,9 +75,65 @@
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </receiver-org>
    <recipient-region vocabulary="1"></recipient-region>
-   <transaction-date iso-date="2020-02-29"></transaction-date>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
    <transaction-type code="11"></transaction-type>
-   <value currency="USD" value-date="2020-02-29">
+   <value currency="USD" value-date="2020-04-30">
+   </value>
+  </transaction>
+  <transaction>
+   <disbursement-channel code="2"></disbursement-channel>
+   <provider-org ref="00029" type="22">
+    <narrative xml:lang="EN">INTERNATIONAL NON-GOVERNMENTAL ORGANIZATION</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120679" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <transaction-type code="11"></transaction-type>
+   <value currency="USD" value-date="2020-04-30">
+   </value>
+  </transaction>
+  <transaction>
+   <disbursement-channel code="2"></disbursement-channel>
+   <provider-org ref="10503" type="10">
+    <narrative xml:lang="EN">MINISTRY OF FOREIGN AFFAIRS, NORWAY</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120679" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <transaction-type code="11"></transaction-type>
+   <value currency="USD" value-date="2020-04-30">
+   </value>
+  </transaction>
+  <transaction>
+   <disbursement-channel code="2"></disbursement-channel>
+   <provider-org ref="00029" type="22">
+    <narrative xml:lang="EN">INTERNATIONAL NON-GOVERNMENTAL ORGANIZATION</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120679" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <transaction-type code="1"></transaction-type>
+   <value currency="USD" value-date="2020-04-30">
+   </value>
+  </transaction>
+  <transaction>
+   <disbursement-channel code="2"></disbursement-channel>
+   <provider-org ref="10503" type="10">
+    <narrative xml:lang="EN">MINISTRY OF FOREIGN AFFAIRS, NORWAY</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120679" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <transaction-type code="1"></transaction-type>
+   <value currency="USD" value-date="2020-04-30">
    </value>
   </transaction>
   <transaction>
@@ -73,9 +142,9 @@
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
    <recipient-region vocabulary="1"></recipient-region>
-   <transaction-date iso-date="2020-02-29"></transaction-date>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
    <transaction-type code="2"></transaction-type>
-   <value currency="USD" value-date="2020-02-29">
+   <value currency="USD" value-date="2020-04-30">
    </value>
   </transaction>
  </iati-activity>
