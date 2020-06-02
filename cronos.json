@@ -2,7 +2,7 @@
 	q:[
 		{
 			title:"COVID-19",
-			xml:"http://d-portal.org/q.xml?title_like=%25COVID-19%25&limit=-1",
+			xml:"http://d-portal.org/dquery?form=xml&sql=SELECt%20*%20FROM%20xson%20WHERE%20root%3D%27%2Fiati-activities%2Fiati-activity%27%20AND%20aid%20IN%20(%0ASELECT%20DISTINCT%20aid%20FROM%20xson%20WHERE%0A(%0A%09root%3D%27%2Fiati-activities%2Fiati-activity%2Fhumanitarian-scope%27%20AND%0A%09xson-%3E%3E%27%40type%27%3D%271%27%20AND%0A%09xson-%3E%3E%27%40vocabulary%27%3D%271-2%27%20AND%0A%09xson-%3E%3E%27%40code%27%3D%27EP-2020-000012-001%27%0A)OR(%0A%09root%3D%27%2Fiati-activities%2Fiati-activity%2Fhumanitarian-scope%27%20AND%0A%09xson-%3E%3E%27%40type%27%3D%272%27%20AND%0A%09xson-%3E%3E%27%40vocabulary%27%3D%272-1%27%20AND%0A%09xson-%3E%3E%27%40code%27%3D%27HCOVD20%27%0A)OR(%0A%09root%3D%27%2Fiati-activities%2Fiati-activity%2Ftag%27%20AND%0A%09xson-%3E%3E%27%40vocabulary%27%3D%2799%27%20AND%0A%09xson-%3E%3E%27%40vocabulary-uri%27%20IS%20NULL%20AND%0A%09UPPER(xson-%3E%3E%27%40code%27)%3D%27COVID-19%27%0A)OR(%0A%09root%3D%27%2Fiati-activities%2Fiati-activity%2Ftitle%2Fnarrative%27%20AND%0A%09to_tsvector(%27simple%27%2C%20xson-%3E%3E%27%27)%20%40%40%20to_tsquery(%27simple%27%2C%27COVID-19%27)%0A)OR(%0A%09root%3D%27%2Fiati-activities%2Fiati-activity%2Fdescription%2Fnarrative%27%20AND%0A%09to_tsvector(%27simple%27%2C%20xson-%3E%3E%27%27)%20%40%40%20to_tsquery(%27simple%27%2C%27COVID-19%27)%0A)OR(%0A%09root%3D%27%2Fiati-activities%2Fiati-activity%2Ftransaction%2Fdescription%2Fnarrative%27%20AND%0A%09to_tsvector(%27simple%27%2C%20xson-%3E%3E%27%27)%20%40%40%20to_tsquery(%27simple%27%2C%27COVID-19%27)%0A)%0A)",
 		},
 		{
 			title:"Tsunami",
