@@ -1,5 +1,5 @@
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="undp-mdg" dstore:index="51" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2020-05-04T16:25:08" iati-activities:version="2.03" last-updated-datetime="2020-05-01T00:02:02" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" dstore:dataset="undp-mdg" dstore:index="86" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2020-06-05T04:40:07" iati-activities:version="2.03" last-updated-datetime="2020-06-01T00:02:02" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <activity-date iso-date="2020-04-06" type="1"></activity-date>
   <activity-date iso-date="2020-04-06" type="2"></activity-date>
   <activity-date iso-date="2020-12-31" type="3"></activity-date>
@@ -7,7 +7,7 @@
   <budget status="2" type="2">
    <period-end iso-date="2020-12-31"></period-end>
    <period-start iso-date="2020-01-01"></period-start>
-   <value currency="USD" value-date="2020-04-30"></value>
+   <value currency="USD" value-date="2020-05-31"></value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <collaboration-type code="4"></collaboration-type>
@@ -43,11 +43,15 @@
   <participating-org ref="XM-DAC-41114" role="1">
    <narrative xml:lang="FR">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
   </participating-org>
+  <participating-org ref="44000" role="1">
+   <narrative xml:lang="FR">WORLD BANK (INT&apos;L. BANK FOR RECONSTRUCTION &amp; DEVELOPMENT)</narrative>
+  </participating-org>
   <policy-marker code="1" significance="0" vocabulary="1"></policy-marker>
   <recipient-country code="MG" percentage="100">
    <narrative xml:lang="FR">Madagascar</narrative>
   </recipient-country>
   <related-activity ref="XM-DAC-41114-PROJECT-00126918" type="1"></related-activity>
+  <related-activity ref="XM-DAC-41114-OUTPUT-00121105" type="3"></related-activity>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="FR">United Nations Development Programme</narrative>
   </reporting-org>
@@ -58,6 +62,16 @@
   <title>
    <narrative xml:lang="FR">Appui syst&#xE8;me sant&#xE9; &#xAB; COVID-19</narrative>
   </title>
+  <transaction>
+   <disbursement-channel code="2"></disbursement-channel>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </provider-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-type code="4"></transaction-type>
+   <value currency="USD" value-date="2020-05-31"></value>
+  </transaction>
   <transaction>
    <disbursement-channel code="2"></disbursement-channel>
    <provider-org ref="XM-DAC-41114" type="40">
@@ -77,9 +91,22 @@
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </receiver-org>
    <recipient-region vocabulary="1"></recipient-region>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
    <transaction-type code="11"></transaction-type>
-   <value currency="USD" value-date="2020-04-30"></value>
+   <value currency="USD" value-date="2020-05-31"></value>
+  </transaction>
+  <transaction>
+   <disbursement-channel code="2"></disbursement-channel>
+   <provider-org ref="44000">
+    <narrative xml:lang="FR">WORLD BANK (INT&apos;L. BANK FOR RECONSTRUCTION &amp; DEVELOPMENT)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120844" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </receiver-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-type code="11"></transaction-type>
+   <value currency="USD" value-date="2020-05-31"></value>
   </transaction>
   <transaction>
    <disbursement-channel code="2"></disbursement-channel>
@@ -87,9 +114,9 @@
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
    <recipient-region vocabulary="1"></recipient-region>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
    <transaction-type code="2"></transaction-type>
-   <value currency="USD" value-date="2020-04-30"></value>
+   <value currency="USD" value-date="2020-05-31"></value>
   </transaction>
  </iati-activity>
 </iati-activities>

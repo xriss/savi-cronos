@@ -1,5 +1,5 @@
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="undp-sle" dstore:index="60" hierarchy="2" humanitarian="0" iati-activities:generated-datetime="2020-05-04T16:25:17" iati-activities:version="2.03" last-updated-datetime="2020-05-01T00:02:02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" dstore:dataset="undp-sle" dstore:index="102" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2020-06-05T04:40:16" iati-activities:version="2.03" last-updated-datetime="2020-06-01T00:02:02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <activity-date iso-date="2020-04-14" type="1"></activity-date>
   <activity-date iso-date="2020-04-14" type="2"></activity-date>
   <activity-date iso-date="2020-12-31" type="3"></activity-date>
@@ -7,7 +7,7 @@
   <budget status="2" type="2">
    <period-end iso-date="2020-12-31"></period-end>
    <period-start iso-date="2020-01-01"></period-start>
-   <value currency="USD" value-date="2020-04-30"></value>
+   <value currency="USD" value-date="2020-05-31"></value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <collaboration-type code="4"></collaboration-type>
@@ -25,7 +25,7 @@
   <default-flow-type code="10"></default-flow-type>
   <default-tied-status code="5"></default-tied-status>
   <description type="1">
-   <narrative xml:lang="EN">The NDC seeks to ensure that issues of climate change are properly mainstreamed into the country&#x2019;s development intervention, to promote climate resilient investments and reduce the vulnerability of Sierra Leone&#x2019;s development to climate change shocks, as well as increase the resilience of many sectors of its economy.</narrative>
+   <narrative xml:lang="EN">The COVID-19 component of this project seeks to accelerate COVID-19 response in marginalized communities with the aim of addressing gaps in the fight against Corona virus disease.</narrative>
   </description>
   <document-link format="TEXT/HTML" url="http://open.undp.org/projects/00126338">
    <category code="A12"></category>
@@ -49,10 +49,24 @@
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </reporting-org>
-  <sector code="51010" percentage="100" vocabulary="1"></sector>
+  <sector code="74020" percentage="100" vocabulary="1"></sector>
+  <sector code="1.5" percentage="100" vocabulary="8"></sector>
+  <sector code="18" percentage="100" vocabulary="99">
+   <narrative xml:lang="EN">Accelerate structural transformations</narrative>
+  </sector>
   <title>
    <narrative xml:lang="EN">COVID-19 Response</narrative>
   </title>
+  <transaction>
+   <disbursement-channel code="2"></disbursement-channel>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-type code="4"></transaction-type>
+   <value currency="USD" value-date="2020-05-31"></value>
+  </transaction>
   <transaction>
    <disbursement-channel code="2"></disbursement-channel>
    <provider-org ref="XM-DAC-41114" type="40">
@@ -65,13 +79,26 @@
   </transaction>
   <transaction>
    <disbursement-channel code="2"></disbursement-channel>
+   <provider-org ref="XM-DAC-41114">
+    <narrative xml:lang="EN">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120995" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-type code="11"></transaction-type>
+   <value currency="USD" value-date="2020-05-31"></value>
+  </transaction>
+  <transaction>
+   <disbursement-channel code="2"></disbursement-channel>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
    <recipient-region vocabulary="1"></recipient-region>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
    <transaction-type code="2"></transaction-type>
-   <value currency="USD" value-date="2020-04-30"></value>
+   <value currency="USD" value-date="2020-05-31"></value>
   </transaction>
  </iati-activity>
 </iati-activities>
