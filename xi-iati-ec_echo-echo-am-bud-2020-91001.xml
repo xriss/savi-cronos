@@ -1,6 +1,7 @@
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="ec-echo-2020" dstore:index="50" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2020-06-08T04:00:00+02:00" iati-activities:linked-data-default="https://webgate.ec.europa.eu/hac/" iati-activities:version="2.03" last-updated-datetime="2020-06-08T04:01:58+02:00" linked-data-uri="http://ec.europa.eu/echo/funding-evaluations/funding-decisions-hips_en" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" dstore:dataset="ec-echo-2020" dstore:index="33" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2020-06-09T04:00:00+02:00" iati-activities:linked-data-default="https://webgate.ec.europa.eu/hac/" iati-activities:version="2.03" last-updated-datetime="2020-06-09T04:01:05+02:00" linked-data-uri="http://ec.europa.eu/echo/funding-evaluations/funding-decisions-hips_en" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <activity-date iso-date="2020-07-01" type="1"></activity-date>
+  <activity-date iso-date="2020-04-15" type="2"></activity-date>
   <activity-date iso-date="2021-06-30" type="3"></activity-date>
   <activity-scope code="4"></activity-scope>
   <activity-status code="2"></activity-status>
@@ -52,6 +53,11 @@
    <description>
     <narrative xml:lang="EN">National, Grande Anse, Sud, West, And Artibonite Departments</narrative>
    </description>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>18.971187 -72.285215</pos>
+   </point>
   </location>
   <other-identifier ref="-57313" type="A1">
    <owner-org ref="XI-IATI-EC_ECHO">
@@ -68,6 +74,7 @@
   </participating-org>
   <recipient-country code="HT" percentage="100"></recipient-country>
   <related-activity ref="XI-IATI-EC_ECHO-ECHO/-AM/BUD/2020/91000" type="2"></related-activity>
+  <related-activity ref="XI-IATI-EC_ECHO-ECHO/-AM/BUD/2020/91000" type="2"></related-activity>
   <reporting-org ref="XI-IATI-EC_ECHO" type="15">
    <narrative xml:lang="EN">Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)</narrative>
    <narrative xml:lang="FR">Direction g&#xE9;n&#xE9;rale de la protection civile et des op&#xE9;rations d&apos;aide humanitaire europ&#xE9;ennes (ECHO)</narrative>
@@ -81,11 +88,35 @@
 MR01-01: COVID-19 Response and Disaster risks reduction and WaSH emergency preparedness in Haiti</narrative>
   </title>
   <transaction>
+   <description>
+    <narrative xml:lang="EN">COVID-19</narrative>
+   </description>
    <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-AM/BUD/2020/91000" ref="XI-IATI-EC_ECHO" type="15"></provider-org>
    <receiver-org receiver-activity-id="XI-IATI-EC_ECHO-ECHO/-AM/BUD/2020/91001" ref="XI-IATI-EC_ECHO"></receiver-org>
    <recipient-region vocabulary="1"></recipient-region>
    <transaction-date iso-date="2020-03-24"></transaction-date>
    <transaction-type code="1"></transaction-type>
+   <value currency="EUR" value-date="2020-03-24"></value>
+  </transaction>
+  <transaction>
+   <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-AM/BUD/2020/91000" ref="XI-IATI-EC_ECHO" type="15"></provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-EC_ECHO-ECHO/-AM/BUD/2020/91001" ref="XI-IATI-EC_ECHO"></receiver-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-03-24"></transaction-date>
+   <transaction-type code="1"></transaction-type>
+   <value currency="EUR" value-date="2020-03-24"></value>
+  </transaction>
+  <transaction>
+   <description>
+    <narrative xml:lang="EN">COVID-19</narrative>
+   </description>
+   <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-AM/BUD/2020/91001" ref="XI-IATI-EC_ECHO" type="15"></provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">UNICEF</narrative>
+   </receiver-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-03-24"></transaction-date>
+   <transaction-type code="2"></transaction-type>
    <value currency="EUR" value-date="2020-03-24"></value>
   </transaction>
   <transaction>
@@ -97,6 +128,19 @@ MR01-01: COVID-19 Response and Disaster risks reduction and WaSH emergency prepa
    <transaction-date iso-date="2020-03-24"></transaction-date>
    <transaction-type code="2"></transaction-type>
    <value currency="EUR" value-date="2020-03-24"></value>
+  </transaction>
+  <transaction ref="SI2.4465172">
+   <description>
+    <narrative xml:lang="EN">COVID-19</narrative>
+   </description>
+   <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-AM/BUD/2020/91001" ref="XI-IATI-EC_ECHO" type="15"></provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">UNICEF</narrative>
+   </receiver-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-05-07"></transaction-date>
+   <transaction-type code="3"></transaction-type>
+   <value currency="EUR" value-date="2020-05-07"></value>
   </transaction>
   <transaction ref="SI2.4465172">
    <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-AM/BUD/2020/91001" ref="XI-IATI-EC_ECHO" type="15"></provider-org>
