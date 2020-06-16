@@ -1,23 +1,32 @@
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="unhabitat-activity" dstore:index="457" hierarchy="1" iati-activities:generated-datetime="2020-06-08T12:01:24" iati-activities:version="20.06.08" last-updated-datetime="2016-01-25T00:00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
-  <activity-date iso-date="2016-02-01" type="START-PLANNED">2016-02-01</activity-date>
-  <activity-date iso-date="2018-12-31" type="END-PLANNED">2018-12-31</activity-date>
+ <iati-activity default-currency="USD" dstore:dataset="unhabitat-activity" dstore:index="457" hierarchy="1" iati-activities:generated-datetime="2020-06-15T10:10:34" iati-activities:version="2.03" last-updated-datetime="2016-02-01T00:00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+  <activity-date iso-date="2016-02-01" type="1">
+   <narrative xml:lang="EN">Planned Start Date</narrative>
+  </activity-date>
+  <activity-date iso-date="2018-12-31" type="3">
+   <narrative xml:lang="EN">Planned End Date</narrative>
+  </activity-date>
   <activity-scope code="8"></activity-scope>
-  <activity-status code="2">Implementation</activity-status>
-  <activity-website>http://open.unhabitat.org/project/?iati_id=41120-3019</activity-website>
+  <activity-status code="2"></activity-status>
   <budget type="1">
-   <period-end>2018-12-31</period-end>
-   <period-start>2016-02-01</period-start>
+   <period-end iso-date="2018-12-31"></period-end>
+   <period-start iso-date="2016-02-01"></period-start>
    <value currency="USD" value-date="2016-02-01">
    </value>
   </budget>
   <collaboration-type code="1"></collaboration-type>
   <contact-info>
-   <email>tranparency@unhabitat.org</email>
-   <mailing-address>UN-HABITAT P.O. Box 30030 GPO Nairobi 00100 Kenya</mailing-address>
-   <organisation>Urban Basic Services</organisation>
-   <person-name>Andre Dzikus</person-name>
-   <telephone>+254-20 7623120</telephone>
+   <department>
+    <narrative xml:lang="EN">Urban Basic Services</narrative>
+   </department>
+   <email>Daniel.Adom@un.org</email>
+   <mailing-address>
+    <narrative xml:lang="EN">UN-HABITAT P.O. Box 30030 GPO Nairobi 00100 Kenya</narrative>
+   </mailing-address>
+   <person-name>
+    <narrative xml:lang="EN">Andre Dzikus</narrative>
+   </person-name>
+   <telephone>+254-20 7623091</telephone>
   </contact-info>
   <country-budget-items vocabulary="1"></country-budget-items>
   <crs-add>
@@ -27,7 +36,8 @@
   <default-finance-type code="110"></default-finance-type>
   <default-flow-type code="20"></default-flow-type>
   <default-tied-status code="CO1"></default-tied-status>
-  <description>The programme is a response to national priority needs
+  <description>
+   <narrative xml:lang="EN">The programme is a response to national priority needs
 and a request from the Government for UN support in the identified intervention
 
 areas. In terms of the design, governance of implementation and benefits are
@@ -56,207 +66,329 @@ second phase which it will be possible to address the sustainability factor
 with more credibility. Still, it is expected that the results of the
 intervention will remain, but they will not be ready to continue without
 outside technical and financial support. Some of the project immediate
-objectives are also long term by nature.</description>
+objectives are also long term by nature.</narrative>
+  </description>
   <iati-identifier>41120-3019</iati-identifier>
   <location>
-   <administrative country="LR" vocabulary="1"></administrative>
-   <coordinates latitude="6.428055" longitude="-9.429498999999964" precision="6"></coordinates>
-   <description>Liberia</description>
-   <location-type code="PCL"></location-type>
-   <name>Liberia</name>
+   <description>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </description>
+   <name>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </name>
   </location>
-  <participating-org role="FUNDING">UNDP (incl. one UN fund)</participating-org>
+  <participating-org role="FUNDING">
+   <narrative xml:lang="EN">UNDP (incl. one UN fund)</narrative>
+  </participating-org>
   <policy-marker code="12" significance="4" vocabulary="RO"></policy-marker>
-  <recipient-country code="LR" percentage="100">Liberia</recipient-country>
-  <recipient-region code="298" percentage="100" vocabulary="1">Africa, regional</recipient-region>
-  <reporting-org ref="41120" type="40">UN-Habitat</reporting-org>
+  <recipient-country code="LR" percentage="100">
+   <narrative xml:lang="EN">Liberia</narrative>
+  </recipient-country>
+  <recipient-region code="298" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Africa, regional</narrative>
+  </recipient-region>
+  <reporting-org ref="41120" type="40">
+   <narrative xml:lang="EN">UN-Habitat</narrative>
+  </reporting-org>
   <result aggregation-status="1" type="2">
-   <description>At least 50,000 persons have access to safe drinking water and sanitary facilities.</description>
+   <description>
+    <narrative xml:lang="EN">At least 50,000 persons have access to safe drinking water and sanitary facilities.</narrative>
+   </description>
    <indicator ascending="1" measure="1">
     <baseline value="0" year="2016">
-     <comment>Individuals</comment>
+     <comment>
+      <narrative xml:lang="EN">Individuals</narrative>
+     </comment>
     </baseline>
-    <description>Maximum distance from household to water point reduced to 200 m.</description>
+    <description>
+     <narrative xml:lang="EN">Maximum distance from household to water point reduced to 200 m.</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="50,000">
-      <comment>Individuals</comment>
+      <comment>
+       <narrative xml:lang="EN">Individuals</narrative>
+      </comment>
      </target>
     </period>
-    <title>Maximum distance from household to water point reduced to 200 m.</title>
+    <title>
+     <narrative xml:lang="EN">Maximum distance from household to water point reduced to 200 m.</narrative>
+    </title>
    </indicator>
    <indicator ascending="1" measure="1">
     <baseline value="0" year="2016">
-     <comment>Individuals</comment>
+     <comment>
+      <narrative xml:lang="EN">Individuals</narrative>
+     </comment>
     </baseline>
-    <description>At least 85% of target group accesses at least 20 liters water/day per person</description>
+    <description>
+     <narrative xml:lang="EN">At least 85% of target group accesses at least 20 liters water/day per person</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="50,000">
-      <comment>Individuals</comment>
+      <comment>
+       <narrative xml:lang="EN">Individuals</narrative>
+      </comment>
      </target>
     </period>
-    <title>At least 85% of target group accesses at least 20 liters water/day per person</title>
+    <title>
+     <narrative xml:lang="EN">At least 85% of target group accesses at least 20 liters water/day per person</narrative>
+    </title>
    </indicator>
    <indicator ascending="1" measure="1">
     <baseline value="0" year="2016">
-     <comment>Individuals</comment>
+     <comment>
+      <narrative xml:lang="EN">Individuals</narrative>
+     </comment>
     </baseline>
-    <description>Queuing time at water points reduced no more than 10 minutes</description>
+    <description>
+     <narrative xml:lang="EN">Queuing time at water points reduced no more than 10 minutes</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="50,000">
-      <comment>Individuals</comment>
+      <comment>
+       <narrative xml:lang="EN">Individuals</narrative>
+      </comment>
      </target>
     </period>
-    <title>Queuing time at water points reduced no more than 10 minutes</title>
+    <title>
+     <narrative xml:lang="EN">Queuing time at water points reduced no more than 10 minutes</narrative>
+    </title>
    </indicator>
    <indicator ascending="1" measure="1">
     <baseline value="0" year="2016">
-     <comment>Individuals</comment>
+     <comment>
+      <narrative xml:lang="EN">Individuals</narrative>
+     </comment>
     </baseline>
-    <description>20 additional latrines constructed and use;</description>
+    <description>
+     <narrative xml:lang="EN">20 additional latrines constructed and use;</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="50,000">
-      <comment>Individuals</comment>
+      <comment>
+       <narrative xml:lang="EN">Individuals</narrative>
+      </comment>
      </target>
     </period>
-    <title>20 additional latrines constructed and use;</title>
+    <title>
+     <narrative xml:lang="EN">20 additional latrines constructed and use;</narrative>
+    </title>
    </indicator>
    <indicator ascending="1" measure="1">
     <baseline value="0" year="2016">
-     <comment>Individuals</comment>
+     <comment>
+      <narrative xml:lang="EN">Individuals</narrative>
+     </comment>
     </baseline>
-    <description>Increased practice of hand washing</description>
+    <description>
+     <narrative xml:lang="EN">Increased practice of hand washing</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="50,000">
-      <comment>Individuals</comment>
+      <comment>
+       <narrative xml:lang="EN">Individuals</narrative>
+      </comment>
      </target>
     </period>
-    <title>Increased practice of hand washing</title>
+    <title>
+     <narrative xml:lang="EN">Increased practice of hand washing</narrative>
+    </title>
    </indicator>
-   <title>At least 50,000 persons have access to safe drinking water and sanitary facilities.</title>
+   <title>
+    <narrative xml:lang="EN">At least 50,000 persons have access to safe drinking water and sanitary facilities.</narrative>
+   </title>
   </result>
   <result aggregation-status="1" type="2">
-   <description>Integrated solid waste management (ISWM) system adopted by the Municipal Authority including promotion of low cost waste recycling enterprises through local community groups.</description>
+   <description>
+    <narrative xml:lang="EN">Integrated solid waste management (ISWM) system adopted by the Municipal Authority including promotion of low cost waste recycling enterprises through local community groups.</narrative>
+   </description>
    <indicator ascending="1" measure="1">
     <baseline value="N/A" year="2016">
-     <comment>Households</comment>
+     <comment>
+      <narrative xml:lang="EN">Households</narrative>
+     </comment>
     </baseline>
-    <description>At least 50% of households gain access solid waste services</description>
+    <description>
+     <narrative xml:lang="EN">At least 50% of households gain access solid waste services</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="10,000">
-      <comment>Households</comment>
+      <comment>
+       <narrative xml:lang="EN">Households</narrative>
+      </comment>
      </target>
     </period>
-    <title>At least 50% of households gain access solid waste services</title>
+    <title>
+     <narrative xml:lang="EN">At least 50% of households gain access solid waste services</narrative>
+    </title>
    </indicator>
    <indicator ascending="1" measure="1">
     <baseline value="N/A" year="2016">
-     <comment>Individuals</comment>
+     <comment>
+      <narrative xml:lang="EN">Individuals</narrative>
+     </comment>
     </baseline>
-    <description>20 youth groups trained on entrepreneurship from managing solid waste</description>
+    <description>
+     <narrative xml:lang="EN">20 youth groups trained on entrepreneurship from managing solid waste</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="50,000">
-      <comment>Individuals</comment>
+      <comment>
+       <narrative xml:lang="EN">Individuals</narrative>
+      </comment>
      </target>
     </period>
-    <title>20 youth groups trained on entrepreneurship from managing solid waste</title>
+    <title>
+     <narrative xml:lang="EN">20 youth groups trained on entrepreneurship from managing solid waste</narrative>
+    </title>
    </indicator>
-   <title>Integrated solid waste management (ISWM) system adopted by the Municipal Authority including promotion of low cost waste recycling enterprises through local community groups.</title>
+   <title>
+    <narrative xml:lang="EN">Integrated solid waste management (ISWM) system adopted by the Municipal Authority including promotion of low cost waste recycling enterprises through local community groups.</narrative>
+   </title>
   </result>
   <result aggregation-status="1" type="2">
-   <description>Key technical staff from the MCC and the LWSC are trained on how to extend services to other communities for project impact and sustainability.</description>
+   <description>
+    <narrative xml:lang="EN">Key technical staff from the MCC and the LWSC are trained on how to extend services to other communities for project impact and sustainability.</narrative>
+   </description>
    <indicator ascending="1" measure="1">
     <baseline value="N/A" year="2016">
-     <comment>water utilities</comment>
+     <comment>
+      <narrative xml:lang="EN">water utilities</narrative>
+     </comment>
     </baseline>
-    <description>Two water/sanitation utility agencies skills improved on water, sanitation and waste management</description>
+    <description>
+     <narrative xml:lang="EN">Two water/sanitation utility agencies skills improved on water, sanitation and waste management</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="2">
-      <comment>water utilities</comment>
+      <comment>
+       <narrative xml:lang="EN">water utilities</narrative>
+      </comment>
      </target>
     </period>
-    <title>Two water/sanitation utility agencies skills improved on water, sanitation and waste management</title>
+    <title>
+     <narrative xml:lang="EN">Two water/sanitation utility agencies skills improved on water, sanitation and waste management</narrative>
+    </title>
    </indicator>
-   <title>Key technical staff from the MCC and the LWSC are trained on how to extend services to other communities for project impact and sustainability.</title>
+   <title>
+    <narrative xml:lang="EN">Key technical staff from the MCC and the LWSC are trained on how to extend services to other communities for project impact and sustainability.</narrative>
+   </title>
   </result>
   <result aggregation-status="1" type="2">
-   <description>Trained youth are employed during the project and retain skills that they can rely on to seek employment.</description>
+   <description>
+    <narrative xml:lang="EN">Trained youth are employed during the project and retain skills that they can rely on to seek employment.</narrative>
+   </description>
    <indicator ascending="1" measure="1">
     <baseline value="N/A" year="2016">
-     <comment>Youth</comment>
+     <comment>
+      <narrative xml:lang="EN">Youth</narrative>
+     </comment>
     </baseline>
-    <description>At least 60 youths willing to pursue entrepreneurship mentored/trained</description>
+    <description>
+     <narrative xml:lang="EN">At least 60 youths willing to pursue entrepreneurship mentored/trained</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="60">
-      <comment>Youth</comment>
+      <comment>
+       <narrative xml:lang="EN">Youth</narrative>
+      </comment>
      </target>
     </period>
-    <title>At least 60 youths willing to pursue entrepreneurship mentored/trained</title>
+    <title>
+     <narrative xml:lang="EN">At least 60 youths willing to pursue entrepreneurship mentored/trained</narrative>
+    </title>
    </indicator>
    <indicator ascending="1" measure="1">
     <baseline value="N/A" year="2016">
-     <comment>Youth groups</comment>
+     <comment>
+      <narrative xml:lang="EN">Youth groups</narrative>
+     </comment>
     </baseline>
-    <description>At least 2500 youths directly engaged in construction of WASH systems</description>
+    <description>
+     <narrative xml:lang="EN">At least 2500 youths directly engaged in construction of WASH systems</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="2500">
-      <comment>Youth groups</comment>
+      <comment>
+       <narrative xml:lang="EN">Youth groups</narrative>
+      </comment>
      </target>
     </period>
-    <title>At least 2500 youths directly engaged in construction of WASH systems</title>
+    <title>
+     <narrative xml:lang="EN">At least 2500 youths directly engaged in construction of WASH systems</narrative>
+    </title>
    </indicator>
    <indicator ascending="1" measure="1">
     <baseline value="N/A" year="2016">
-     <comment>Groups</comment>
+     <comment>
+      <narrative xml:lang="EN">Groups</narrative>
+     </comment>
     </baseline>
-    <description>20 groups (consisting of 20 to 50 members) established and trained on maintenance of WASH systems</description>
+    <description>
+     <narrative xml:lang="EN">20 groups (consisting of 20 to 50 members) established and trained on maintenance of WASH systems</narrative>
+    </description>
     <period>
      <period-end iso-date="2017-12-31"></period-end>
      <period-start iso-date="2016-02-01"></period-start>
      <target value="20">
-      <comment>Groups</comment>
+      <comment>
+       <narrative xml:lang="EN">Groups</narrative>
+      </comment>
      </target>
     </period>
-    <title>20 groups (consisting of 20 to 50 members) established and trained on maintenance of WASH systems</title>
+    <title>
+     <narrative xml:lang="EN">20 groups (consisting of 20 to 50 members) established and trained on maintenance of WASH systems</narrative>
+    </title>
    </indicator>
-   <title>Trained youth are employed during the project and retain skills that they can rely on to seek employment.</title>
+   <title>
+    <narrative xml:lang="EN">Trained youth are employed during the project and retain skills that they can rely on to seek employment.</narrative>
+   </title>
   </result>
-  <sector code="16050" percentage="100" vocabulary="1">Multisector aid for basic social services</sector>
-  <title>Upgrading Water And Sanitation Systems Incorporating Skills-Based Training And Employment For Youth In Ebola-Affected Slum Communities</title>
+  <sector code="16050" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Multisector aid for basic social services</narrative>
+  </sector>
+  <title>
+   <narrative xml:lang="EN">Upgrading Water And Sanitation Systems Incorporating Skills-Based Training And Employment For Youth In Ebola-Affected Slum Communities</narrative>
+  </title>
   <transaction>
-   <description>Total expenditure to date</description>
+   <description>
+    <narrative xml:lang="EN">Total expenditure to date</narrative>
+   </description>
    <recipient-region vocabulary="1"></recipient-region>
-   <transaction-date iso-date="2020-06-08">2020-06-08</transaction-date>
-   <transaction-type code="E">Expenditure</transaction-type>
-   <value currency="USD" value-date="2020-06-08">
+   <transaction-date iso-date="2020-06-15"></transaction-date>
+   <transaction-type code="E"></transaction-type>
+   <value currency="USD" value-date="2020-06-15">
    </value>
   </transaction>
   <transaction>
-   <description>Total income to date</description>
+   <description>
+    <narrative xml:lang="EN">Total income to date</narrative>
+   </description>
    <disbursement-channel code="2"></disbursement-channel>
    <recipient-region vocabulary="1"></recipient-region>
-   <transaction-date iso-date="2020-06-08">2020-06-08</transaction-date>
-   <transaction-type code="IF">Incoming Funds</transaction-type>
-   <value currency="USD" value-date="2020-06-08">
+   <transaction-date iso-date="2020-06-15"></transaction-date>
+   <transaction-type code="IF"></transaction-type>
+   <value currency="USD" value-date="2020-06-15">
    </value>
   </transaction>
  </iati-activity>
