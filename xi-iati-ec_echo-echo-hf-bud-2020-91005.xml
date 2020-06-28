@@ -1,16 +1,16 @@
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="ec-echo-2020" dstore:index="281" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2020-06-26T04:00:00+02:00" iati-activities:linked-data-default="https://webgate.ec.europa.eu/hac/" iati-activities:version="2.03" last-updated-datetime="2020-06-26T04:01:25+02:00" linked-data-uri="http://ec.europa.eu/echo/funding-evaluations/funding-decisions-hips_en" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" dstore:dataset="ec-echo-2020" dstore:index="259" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2020-06-27T04:00:00+02:00" iati-activities:linked-data-default="https://webgate.ec.europa.eu/hac/" iati-activities:version="2.03" last-updated-datetime="2020-06-27T04:01:01+02:00" linked-data-uri="http://ec.europa.eu/echo/funding-evaluations/funding-decisions-hips_en" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <activity-date iso-date="2020-01-01" type="1"></activity-date>
   <activity-date iso-date="2020-01-01" type="2"></activity-date>
   <activity-date iso-date="2021-06-30" type="3"></activity-date>
   <activity-scope code="4"></activity-scope>
   <activity-status code="2"></activity-status>
-  <budget status="2" type="1">
+  <budget status="2" type="2">
    <period-end iso-date="2020-06-30"></period-end>
    <period-start iso-date="2020-04-01"></period-start>
    <value currency="EUR" value-date="2020-04-16"></value>
   </budget>
-  <budget status="2" type="1">
+  <budget status="2" type="2">
    <period-end iso-date="2021-09-30"></period-end>
    <period-start iso-date="2021-07-01"></period-start>
    <value currency="EUR" value-date="2020-04-16"></value>
@@ -78,19 +78,20 @@
   <recipient-country code="SO" percentage="100"></recipient-country>
   <related-activity ref="XI-IATI-EC_ECHO-ECHO/-HF/BUD/2020/91000" type="2"></related-activity>
   <related-activity ref="XI-IATI-EC_ECHO-ECHO/-HF/BUD/2020/91000" type="2"></related-activity>
+  <related-activity ref="XI-IATI-EC_ECHO-ECHO/DRF/BUD/2020/91000" type="2"></related-activity>
   <reporting-org ref="XI-IATI-EC_ECHO" type="15">
    <narrative xml:lang="EN">Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)</narrative>
    <narrative xml:lang="FR">Direction g&#xE9;n&#xE9;rale de la protection civile et des op&#xE9;rations d&apos;aide humanitaire europ&#xE9;ennes (ECHO)</narrative>
   </reporting-org>
-  <sector code="EDUC" percentage="43.52" vocabulary="99"></sector>
-  <sector code="NTSF" percentage="21.44" vocabulary="99"></sector>
-  <sector code="PROT" percentage="13.87" vocabulary="99"></sector>
-  <sector code="WASA" percentage="21.17" vocabulary="99"></sector>
-  <sector code="10" percentage="13.87" vocabulary="10"></sector>
-  <sector code="11" percentage="21.17" vocabulary="10"></sector>
-  <sector code="3" percentage="43.52" vocabulary="10"></sector>
-  <sector code="9" percentage="21.44" vocabulary="10"></sector>
-  <sector code="72010" percentage="100" vocabulary="1"></sector>
+  <sector code="EDUC" percentage="13.49" vocabulary="99"></sector>
+  <sector code="NTSF" percentage="73.85" vocabulary="99"></sector>
+  <sector code="PROT" percentage="4.21" vocabulary="99"></sector>
+  <sector code="WASA" percentage="8.45" vocabulary="99"></sector>
+  <sector code="10" percentage="4.21" vocabulary="10"></sector>
+  <sector code="11" percentage="8.45" vocabulary="10"></sector>
+  <sector code="3" percentage="13.49" vocabulary="10"></sector>
+  <sector code="9" percentage="73.85" vocabulary="10"></sector>
+  <sector code="72040" percentage="100" vocabulary="1"></sector>
   <title>
    <narrative xml:lang="EN">Integrated Multi-Sectoral Humanitarian Response to Natural and Complex Emergencies in Somalia (Child Protection, Education, WASH and Nutrition)</narrative>
   </title>
@@ -107,6 +108,14 @@
   </transaction>
   <transaction>
    <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-HF/BUD/2020/91000" ref="XI-IATI-EC_ECHO" type="15"></provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-EC_ECHO-ECHO/-HF/BUD/2020/91005" ref="XI-IATI-EC_ECHO"></receiver-org>
+   <recipient-region vocabulary="1"></recipient-region>
+   <transaction-date iso-date="2020-04-16"></transaction-date>
+   <transaction-type code="1"></transaction-type>
+   <value currency="EUR" value-date="2020-04-16"></value>
+  </transaction>
+  <transaction>
+   <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/DRF/BUD/2020/91000" ref="XI-IATI-EC_ECHO" type="15"></provider-org>
    <receiver-org receiver-activity-id="XI-IATI-EC_ECHO-ECHO/-HF/BUD/2020/91005" ref="XI-IATI-EC_ECHO"></receiver-org>
    <recipient-region vocabulary="1"></recipient-region>
    <transaction-date iso-date="2020-04-16"></transaction-date>
