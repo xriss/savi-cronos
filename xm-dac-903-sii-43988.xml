@@ -1,7 +1,12 @@
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="ifcwbg-ng" dstore:index="41" hierarchy="1" iati-activities:generated-datetime="2020-05-30T22:28:38" iati-activities:version="2.02" last-updated-datetime="2020-05-13T18:26:33" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
-  <activity-date iso-date="2020-06-15" type="1"></activity-date>
+ <iati-activity dstore:dataset="ifcwbg-ng" dstore:index="41" hierarchy="1" iati-activities:generated-datetime="2020-06-30T22:29:50" iati-activities:version="2.02" last-updated-datetime="2020-06-10T02:40:58" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+  <activity-date iso-date="2020-06-05" type="1"></activity-date>
   <activity-status code="1"></activity-status>
+  <budget type="1">
+   <period-end iso-date="2020-06-30"></period-end>
+   <period-start iso-date="2020-06-05"></period-start>
+   <value currency="USD" value-date="2020-06-05">100000000</value>
+  </budget>
   <collaboration-type code="6"></collaboration-type>
   <contact-info type="2">
    <mailing-address>
@@ -24,8 +29,15 @@
     <narrative xml:lang="EN"></narrative>
    </mailing-address>
   </contact-info>
-  <country-budget-items vocabulary="1"></country-budget-items>
+  <country-budget-items vocabulary="1">
+   <budget-item code="7.2.1" percentage="100" vocabulary="1">
+    <description>
+     <narrative xml:lang="EN">Total: $100.00 million</narrative>
+    </description>
+   </budget-item>
+  </country-budget-items>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-finance-type code="411"></default-finance-type>
   <default-flow-type code="35"></default-flow-type>
   <default-tied-status code="5"></default-tied-status>
   <description type="1">
@@ -78,5 +90,15 @@
   <title>
    <narrative xml:lang="EN">WCS Crisis Response Zenith Bank</narrative>
   </title>
+  <transaction>
+   <finance-type code="411"></finance-type>
+   <flow-type code="35"></flow-type>
+   <receiver-org>
+    <narrative xml:lang="EN">ZENITH BANK PLC</narrative>
+   </receiver-org>
+   <transaction-date iso-date="2020-06-05"></transaction-date>
+   <transaction-type code="2"></transaction-type>
+   <value currency="USD" value-date="2020-06-05">100000000</value>
+  </transaction>
  </iati-activity>
 </iati-activities>
