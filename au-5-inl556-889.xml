@@ -1,5 +1,5 @@
 <iati-activities version="2.03">
- <iati-activity default-currency="AUD" dstore:dataset="ausgov-889" dstore:index="214" hierarchy="1" iati-activities:generated-datetime="2019-11-29T00:00:00" iati-activities:version="2.02" last-updated-datetime="2019-11-29T00:00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="AUD" dstore:dataset="ausgov-xo" dstore:index="228" hierarchy="1" iati-activities:generated-datetime="2020-06-19T00:00:00" iati-activities:version="2.02" last-updated-datetime="2020-06-19T00:00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <activity-date iso-date="2014-10-01" type="1"></activity-date>
   <activity-date iso-date="2014-10-01" type="2"></activity-date>
   <activity-date iso-date="2015-06-30" type="3"></activity-date>
@@ -18,10 +18,6 @@
    </organisation>
    <telephone>+61 2 6261 1111</telephone>
   </contact-info>
-  <country-budget-items vocabulary="1"></country-budget-items>
-  <crs-add>
-   <loan-status currency="AUD"></loan-status>
-  </crs-add>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-finance-type code="110"></default-finance-type>
   <default-flow-type code="10"></default-flow-type>
@@ -57,7 +53,7 @@
   <policy-marker code="8" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention to Combat Desertification</narrative>
   </policy-marker>
-  <recipient-region code="889" percentage="100" vocabulary="1"></recipient-region>
+  <recipient-country code="889" percentage="100"></recipient-country>
   <reporting-org ref="AU-5" type="10">
    <narrative xml:lang="EN">Australian Aid</narrative>
   </reporting-org>
@@ -67,15 +63,18 @@
   <title>
    <narrative xml:lang="EN">West Africa Ebola Emergency Response 2014</narrative>
   </title>
+  <transaction ref="AU-5-C-INL556-889-2014/15">
+   <transaction-date iso-date="2014-10-01"></transaction-date>
+   <transaction-type code="2"></transaction-type>
+   <value currency="AUD" value-date="2014-10-01">62010</value>
+  </transaction>
   <transaction ref="AU-5-INL556-889-2014/15">
    <description>
     <narrative xml:lang="EN">Expenses incurred during the financial year 2014/15 for Investments with a start date on or after 1 July 2008</narrative>
    </description>
-   <recipient-region vocabulary="1"></recipient-region>
    <transaction-date iso-date="2015-06-30"></transaction-date>
    <transaction-type code="3"></transaction-type>
-   <value currency="AUD" value-date="2015-06-30">
-   </value>
+   <value currency="AUD" value-date="2015-06-30">63426</value>
   </transaction>
  </iati-activity>
 </iati-activities>
