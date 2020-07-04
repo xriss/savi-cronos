@@ -1,39 +1,16 @@
-<iati-activities version="2.03">
+<?xml version="1.0" encoding="UTF-8"?>
+<iati-activities version="2.02">
  <iati-activity default-currency="GBP" dstore:dataset="oxfamgb-lr" dstore:index="30" hierarchy="1" iati-activities:generated-datetime="2020-06-22T01:12:26" iati-activities:version="2.02" last-updated-datetime="2020-01-02T18:30:59" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
-  <activity-date iso-date="2016-12-01" type="2">
-   <narrative xml:lang="EN">start-actual</narrative>
-  </activity-date>
-  <activity-date iso-date="2017-11-30" type="3">
-   <narrative xml:lang="EN">end-planned</narrative>
-  </activity-date>
-  <activity-status code="2"></activity-status>
-  <budget type="2">
-   <period-end iso-date="2017-11-30"></period-end>
-   <period-start iso-date="2016-12-01"></period-start>
-   <value currency="GBP" value-date="2019-04-01">287892</value>
-  </budget>
-  <contact-info type="1">
-   <department>
-    <narrative xml:lang="EN">Supporter Relations</narrative>
-   </department>
-   <email>enquiries@oxfam.org.uk</email>
-   <mailing-address>
-    <narrative xml:lang="EN">Oxfam House, John Smith Drive, Oxford, OX4 2JY</narrative>
-   </mailing-address>
-   <organisation>
-    <narrative xml:lang="EN">Oxfam GB</narrative>
-   </organisation>
-   <person-name>
-    <narrative xml:lang="EN">Supporter Relations</narrative>
-   </person-name>
-   <telephone>+44 (0) 1865 47 3727</telephone>
-   <website>http://www.oxfam.org.uk/</website>
-   <website>http://policy-practice.oxfam.org.uk/</website>
-  </contact-info>
+  <iati-identifier>GB-CHC-202918-LIBB17</iati-identifier>
+  <reporting-org ref="GB-CHC-202918" type="21">
+   <narrative xml:lang="EN">Oxfam GB</narrative>
+  </reporting-org>
+  <title>
+   <narrative xml:lang="EN">WASH in Schools supporting Liberia Recovery from Ebola Outbreak</narrative>
+  </title>
   <description type="1">
    <narrative xml:lang="EN">This Project is designed to contribute improving access to WASH service to 15 Schools in Montserado and Margibi Counties in Liberia, thereby directly benefiting students through access to water and sanitation facilities in the school as well as capacity building of both teachers and pupils in hygiene and health.</narrative>
   </description>
-  <iati-identifier>GB-CHC-202918-LIBB17</iati-identifier>
   <participating-org ref="GB-CHC-202918" role="3" type="21">
    <narrative xml:lang="EN">Oxfam GB</narrative>
   </participating-org>
@@ -55,13 +32,35 @@
   <participating-org ref="GB-CHC-202918" role="4" type="21">
    <narrative xml:lang="EN">Oxfam GB</narrative>
   </participating-org>
+  <activity-status code="2"></activity-status>
+  <activity-date iso-date="2016-12-01" type="2">
+   <narrative xml:lang="EN">start-actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2017-11-30" type="3">
+   <narrative xml:lang="EN">end-planned</narrative>
+  </activity-date>
+  <contact-info type="1">
+   <organisation>
+    <narrative xml:lang="EN">Oxfam GB</narrative>
+   </organisation>
+   <department>
+    <narrative xml:lang="EN">Supporter Relations</narrative>
+   </department>
+   <person-name>
+    <narrative xml:lang="EN">Supporter Relations</narrative>
+   </person-name>
+   <telephone>+44 (0) 1865 47 3727</telephone>
+   <email>enquiries@oxfam.org.uk</email>
+   <website>http://www.oxfam.org.uk/</website>
+   <website>http://policy-practice.oxfam.org.uk/</website>
+   <mailing-address>
+    <narrative xml:lang="EN">Oxfam House, John Smith Drive, Oxford, OX4 2JY</narrative>
+   </mailing-address>
+  </contact-info>
   <recipient-country code="LR" percentage="100">
    <narrative xml:lang="EN">Liberia</narrative>
   </recipient-country>
   <recipient-region percentage="100" vocabulary="1"></recipient-region>
-  <reporting-org ref="GB-CHC-202918" type="21">
-   <narrative xml:lang="EN">Oxfam GB</narrative>
-  </reporting-org>
   <sector code="1" percentage="5" vocabulary="99">
    <narrative xml:lang="EN">A Sustainable Livelihood</narrative>
   </sector>
@@ -74,24 +73,29 @@
   <sector code="4" percentage="10" vocabulary="99">
    <narrative xml:lang="EN">Right to be Heard</narrative>
   </sector>
-  <title>
-   <narrative xml:lang="EN">WASH in Schools supporting Liberia Recovery from Ebola Outbreak</narrative>
-  </title>
+  <budget type="2">
+   <period-start iso-date="2016-12-01"></period-start>
+   <period-end iso-date="2017-11-30"></period-end>
+   <value currency="GBP" value-date="2019-04-01">287892</value>
+  </budget>
   <transaction>
-   <description>
-    <narrative xml:lang="EN">Income Spent  January 2017 -  March 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Oxfam America</narrative>
-   </provider-org>
-   <receiver-org ref="GB-CHC-202918">
-    <narrative xml:lang="EN">Oxfam GB</narrative>
-   </receiver-org>
-   <transaction-date iso-date="2017-03-31"></transaction-date>
    <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-03-31"></transaction-date>
    <value currency="GBP" value-date="2017-03-31">2028</value>
+   <description>
+    <narrative xml:lang="EN">Income Spent  January 2017 -  March 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Oxfam America</narrative>
+   </provider-org>
+   <receiver-org ref="GB-CHC-202918">
+    <narrative xml:lang="EN">Oxfam GB</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-03-31"></transaction-date>
+   <value currency="GBP" value-date="2017-03-31">42429</value>
    <description>
     <narrative xml:lang="EN">Income Spent  January 2017 -  March 2017</narrative>
    </description>
@@ -101,11 +105,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2017-03-31"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2017-03-31">42429</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="GBP" value-date="2017-06-30">-2028</value>
    <description>
     <narrative xml:lang="EN">Income Spent  April 2017 -  June 2017</narrative>
    </description>
@@ -115,11 +119,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2017-06-30">-2028</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="GBP" value-date="2017-06-30">114685</value>
    <description>
     <narrative xml:lang="EN">Income Spent  April 2017 -  June 2017</narrative>
    </description>
@@ -129,11 +133,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2017-06-30">114685</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="GBP" value-date="2017-09-30">62029</value>
    <description>
     <narrative xml:lang="EN">Income Spent  July 2017 -  September 2017</narrative>
    </description>
@@ -143,11 +147,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2017-09-30">62029</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="GBP" value-date="2017-09-30">143</value>
    <description>
     <narrative xml:lang="EN">Income Spent  July 2017 -  September 2017</narrative>
    </description>
@@ -157,11 +161,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2017-09-30">143</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="GBP" value-date="2017-12-31">49288</value>
    <description>
     <narrative xml:lang="EN">Income Spent  October 2017 -  December 2017</narrative>
    </description>
@@ -171,11 +175,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2017-12-31">49288</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2018-03-31"></transaction-date>
+   <value currency="GBP" value-date="2018-03-31">928</value>
    <description>
     <narrative xml:lang="EN">Income Spent  January 2018 -  March 2018</narrative>
    </description>
@@ -185,11 +189,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2018-03-31"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2018-03-31">928</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2018-03-31"></transaction-date>
+   <value currency="GBP" value-date="2018-03-31">147</value>
    <description>
     <narrative xml:lang="EN">Income Spent  January 2018 -  March 2018</narrative>
    </description>
@@ -199,11 +203,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2018-03-31"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2018-03-31">147</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2018-03-31"></transaction-date>
+   <value currency="GBP" value-date="2018-03-31">18295</value>
    <description>
     <narrative xml:lang="EN">Income Spent  January 2018 -  March 2018</narrative>
    </description>
@@ -213,11 +217,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2018-03-31"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2018-03-31">18295</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2018-03-31"></transaction-date>
+   <value currency="GBP" value-date="2018-03-31">92</value>
    <description>
     <narrative xml:lang="EN">Income Spent  January 2018 -  March 2018</narrative>
    </description>
@@ -227,11 +231,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2018-03-31"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2018-03-31">92</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="GBP" value-date="2018-12-31">-143</value>
    <description>
     <narrative xml:lang="EN">Income Spent  October 2018 -  December 2018</narrative>
    </description>
@@ -241,11 +245,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2018-12-31"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2018-12-31">-143</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-06-30"></transaction-date>
+   <value currency="GBP" value-date="2019-06-30">-34284</value>
    <description>
     <narrative xml:lang="EN">Income Spent  April 2019 -  June 2019</narrative>
    </description>
@@ -255,11 +259,11 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2019-06-30"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2019-06-30">-34284</value>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-06-30"></transaction-date>
+   <value currency="GBP" value-date="2019-06-30">34284</value>
    <description>
     <narrative xml:lang="EN">Income Spent  April 2019 -  June 2019</narrative>
    </description>
@@ -269,69 +273,66 @@
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
    </receiver-org>
-   <transaction-date iso-date="2019-06-30"></transaction-date>
-   <transaction-type code="1"></transaction-type>
-   <value currency="GBP" value-date="2019-06-30">34284</value>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-03-31"></transaction-date>
+   <value currency="GBP" value-date="2017-03-31">44457</value>
    <description>
     <narrative xml:lang="EN">Expenditure January 2017 -  March 2017</narrative>
    </description>
    <provider-org ref="GB-CHC-202918"></provider-org>
    <receiver-org ref="GB-CHC-202918"></receiver-org>
-   <transaction-date iso-date="2017-03-31"></transaction-date>
-   <transaction-type code="4"></transaction-type>
-   <value currency="GBP" value-date="2017-03-31">44457</value>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="GBP" value-date="2017-06-30">112657</value>
    <description>
     <narrative xml:lang="EN">Expenditure April 2017 -  June 2017</narrative>
    </description>
    <provider-org ref="GB-CHC-202918"></provider-org>
    <receiver-org ref="GB-CHC-202918"></receiver-org>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <transaction-type code="4"></transaction-type>
-   <value currency="GBP" value-date="2017-06-30">112657</value>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="GBP" value-date="2017-09-30">62171</value>
    <description>
     <narrative xml:lang="EN">Expenditure July 2017 -  September 2017</narrative>
    </description>
    <provider-org ref="GB-CHC-202918"></provider-org>
    <receiver-org ref="GB-CHC-202918"></receiver-org>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <transaction-type code="4"></transaction-type>
-   <value currency="GBP" value-date="2017-09-30">62171</value>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="GBP" value-date="2017-12-31">49288</value>
    <description>
     <narrative xml:lang="EN">Expenditure October 2017 -  December 2017</narrative>
    </description>
    <provider-org ref="GB-CHC-202918"></provider-org>
    <receiver-org ref="GB-CHC-202918"></receiver-org>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <transaction-type code="4"></transaction-type>
-   <value currency="GBP" value-date="2017-12-31">49288</value>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-03-31"></transaction-date>
+   <value currency="GBP" value-date="2018-03-31">19461</value>
    <description>
     <narrative xml:lang="EN">Expenditure January 2018 -  March 2018</narrative>
    </description>
    <provider-org ref="GB-CHC-202918"></provider-org>
    <receiver-org ref="GB-CHC-202918"></receiver-org>
-   <transaction-date iso-date="2018-03-31"></transaction-date>
-   <transaction-type code="4"></transaction-type>
-   <value currency="GBP" value-date="2018-03-31">19461</value>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="GBP" value-date="2018-12-31">-143</value>
    <description>
     <narrative xml:lang="EN">Expenditure October 2018 -  December 2018</narrative>
    </description>
    <provider-org ref="GB-CHC-202918"></provider-org>
    <receiver-org ref="GB-CHC-202918"></receiver-org>
-   <transaction-date iso-date="2018-12-31"></transaction-date>
-   <transaction-type code="4"></transaction-type>
-   <value currency="GBP" value-date="2018-12-31">-143</value>
   </transaction>
  </iati-activity>
 </iati-activities>

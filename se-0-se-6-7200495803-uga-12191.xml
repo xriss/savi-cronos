@@ -1,42 +1,18 @@
-<iati-activities version="2.03">
+<?xml version="1.0" encoding="UTF-8"?>
+<iati-activities version="2.02">
  <iati-activity default-currency="USD" dstore:dataset="sida-ug" dstore:index="979" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-03-24T21:07:50" iati-activities:version="2.02" last-updated-datetime="2020-03-24T00:00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
-  <activity-date iso-date="2000-07-01" type="2"></activity-date>
-  <activity-date iso-date="2004-07-28" type="4"></activity-date>
-  <activity-status code="4"></activity-status>
-  <capital-spend percentage="0"></capital-spend>
-  <collaboration-type code="1"></collaboration-type>
-  <conditions attached="0"></conditions>
-  <contact-info>
-   <email>sida@sida.se</email>
-   <mailing-address>
-    <narrative xml:lang="EN">Valhallav&#xE4;gen 199, 105 25 Stockholm, Sweden</narrative>
-   </mailing-address>
-   <organisation>
-    <narrative xml:lang="EN">Swedish International Development Cooperation Agency. Department: IUM AFRICA</narrative>
-   </organisation>
-   <telephone>+46(0)8-698 50 00</telephone>
-   <website>www.openaid.se</website>
-  </contact-info>
-  <country-budget-items vocabulary="1">
-   <budget-item code="5.1.1" percentage="100" vocabulary="1">
-    <description>
-     <narrative xml:lang="EN">&quot;Health - policy</narrative>
-    </description>
-   </budget-item>
-  </country-budget-items>
-  <crs-add>
-   <other-flags code="1" significance="0"></other-flags>
-   <other-flags code="2" significance="0"></other-flags>
-   <other-flags code="3" significance="0"></other-flags>
-  </crs-add>
-  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <default-finance-type code="110"></default-finance-type>
-  <default-flow-type code="10"></default-flow-type>
+  <iati-identifier>SE-0-SE-6-7200495803-UGA-12191</iati-identifier>
+  <reporting-org ref="SE-0" secondary-reporter="0" type="10">
+   <narrative xml:lang="EN">Sweden</narrative>
+  </reporting-org>
+  <title>
+   <narrative xml:lang="SV">UGA h&#xE4;lsost&#xF6;d &#xF6;vrigt</narrative>
+   <narrative xml:lang="EN">UGA healthsupp other - Ebola</narrative>
+  </title>
   <description type="1">
    <narrative xml:lang="SV">Kompletterande st&#xF6;d f&#xF6;r studier  lokala konsulter och andra insatser   under sektorprogrammet (t.ex. Ebola)  Komponent 04 utanordningsr&#xE4;tt delegerad till  amb Kampala f&#xF6;r lokala konsulter</narrative>
    <narrative xml:lang="EN">Additional support to various studies  local consultants and other tasks  under the sector programme (for ex Ebola)  Component 04 completely delegated to  Embassy Kampala for local consultants</narrative>
   </description>
-  <iati-identifier>SE-0-SE-6-7200495803-UGA-12191</iati-identifier>
   <participating-org ref="SE-0" role="1" type="10">
    <narrative xml:lang="EN">Sweden</narrative>
   </participating-org>
@@ -49,11 +25,33 @@
   <participating-org ref="12000" role="4" type="10">
    <narrative xml:lang="EN">Recipient Government</narrative>
   </participating-org>
-  <planned-disbursement>
-   <period-end iso-date="2001-12-31"></period-end>
-   <period-start iso-date="2001-01-01"></period-start>
-   <value currency="USD" value-date="2001-01-01">52652.151203</value>
-  </planned-disbursement>
+  <activity-status code="4"></activity-status>
+  <activity-date iso-date="2000-07-01" type="2"></activity-date>
+  <activity-date iso-date="2004-07-28" type="4"></activity-date>
+  <contact-info>
+   <organisation>
+    <narrative xml:lang="EN">Swedish International Development Cooperation Agency. Department: IUM AFRICA</narrative>
+   </organisation>
+   <telephone>+46(0)8-698 50 00</telephone>
+   <email>sida@sida.se</email>
+   <website>www.openaid.se</website>
+   <mailing-address>
+    <narrative xml:lang="EN">Valhallav&#xE4;gen 199, 105 25 Stockholm, Sweden</narrative>
+   </mailing-address>
+  </contact-info>
+  <recipient-country code="UG" percentage="100">
+   <narrative xml:lang="EN">UGANDA</narrative>
+  </recipient-country>
+  <sector code="12191" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Medical services</narrative>
+  </sector>
+  <country-budget-items vocabulary="1">
+   <budget-item code="5.1.1" percentage="100" vocabulary="1">
+    <description>
+     <narrative xml:lang="EN">&quot;Health - policy</narrative>
+    </description>
+   </budget-item>
+  </country-budget-items>
   <policy-marker code="1" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Gender Equality</narrative>
   </policy-marker>
@@ -78,27 +76,30 @@
   <policy-marker code="8" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention to Combat Desertification</narrative>
   </policy-marker>
-  <recipient-country code="UG" percentage="100">
-   <narrative xml:lang="EN">UGANDA</narrative>
-  </recipient-country>
-  <reporting-org ref="SE-0" secondary-reporter="0" type="10">
-   <narrative xml:lang="EN">Sweden</narrative>
-  </reporting-org>
-  <sector code="12191" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Medical services</narrative>
-  </sector>
+  <collaboration-type code="1"></collaboration-type>
+  <default-flow-type code="10"></default-flow-type>
+  <default-finance-type code="110"></default-finance-type>
+  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <planned-disbursement>
+   <period-start iso-date="2001-01-01"></period-start>
+   <period-end iso-date="2001-12-31"></period-end>
+   <value currency="USD" value-date="2001-01-01">52652.151203</value>
+  </planned-disbursement>
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2001-12-28"></transaction-date>
+   <value currency="USD" value-date="2001-01-01">52652.160875</value>
+  </transaction>
+  <conditions attached="0"></conditions>
+  <crs-add>
+   <other-flags code="1" significance="0"></other-flags>
+   <other-flags code="2" significance="0"></other-flags>
+   <other-flags code="3" significance="0"></other-flags>
+  </crs-add>
   <sida:strategy code="05002" xmlns:sida="http://sida.se/ns/strategy#">
    <sida:title>Uganda 2014-2018</sida:title>
    <sida:titleSV>Uganda 2014-2018</sida:titleSV>
   </sida:strategy>
-  <title>
-   <narrative xml:lang="SV">UGA h&#xE4;lsost&#xF6;d &#xF6;vrigt</narrative>
-   <narrative xml:lang="EN">UGA healthsupp other - Ebola</narrative>
-  </title>
-  <transaction>
-   <transaction-date iso-date="2001-12-28"></transaction-date>
-   <transaction-type code="3"></transaction-type>
-   <value currency="USD" value-date="2001-01-01">52652.160875</value>
-  </transaction>
  </iati-activity>
 </iati-activities>

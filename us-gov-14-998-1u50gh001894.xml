@@ -1,44 +1,16 @@
-<iati-activities version="2.03">
+<?xml version="1.0" encoding="UTF-8"?>
+<iati-activities version="2.02">
  <iati-activity default-currency="USD" dstore:dataset="unitedstates-998-part-8" dstore:index="3321" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-06-08T20:05:39" iati-activities:version="2.02" last-updated-datetime="2020-06-08T20:05:39" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="http://www.foreignassistance.gov" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <activity-date iso-date="2015-08-01" type="1"></activity-date>
-  <activity-date iso-date="2015-08-01" type="2"></activity-date>
-  <activity-date iso-date="2018-07-31" type="3"></activity-date>
-  <activity-date iso-date="2018-07-31" type="4"></activity-date>
-  <activity-scope code="1"></activity-scope>
-  <activity-status code="4"></activity-status>
-  <collaboration-type code="1"></collaboration-type>
-  <conditions attached="0"></conditions>
-  <contact-info type="1">
-   <email></email>
-   <mailing-address>
-    <narrative xml:lang="EN">200 Independence Ave SW, Washington, DC 20201</narrative>
-   </mailing-address>
-   <organisation>
-    <narrative xml:lang="EN">U.S. Department of Health and Human Services</narrative>
-   </organisation>
-   <telephone>+1 877-696-6775</telephone>
-   <website>http://www.hhs.gov</website>
-  </contact-info>
-  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <default-finance-type code="110"></default-finance-type>
-  <default-flow-type code="10"></default-flow-type>
-  <default-tied-status code="5"></default-tied-status>
+  <iati-identifier>US-GOV-14-998-1U50GH001894</iati-identifier>
+  <reporting-org ref="US-USAGOV" type="10">
+   <narrative xml:lang="EN">The federal government of the United States</narrative>
+  </reporting-org>
+  <title>
+   <narrative xml:lang="EN">EBOLA RESPONSE AND PREPAREDNESS IN AFRICAN COUNTRIES</narrative>
+  </title>
   <description>
    <narrative xml:lang="EN">WORLD HEALTH ORGANIZATION: ADDRESSING EBOLA AND OTHER HIGHLY INFECTIOUS DISEASES INTERNATIONALLY</narrative>
   </description>
-  <iati-identifier>US-GOV-14-998-1U50GH001894</iati-identifier>
-  <location ref="998">
-   <exactness code="1"></exactness>
-   <location-class code="4"></location-class>
-   <name>
-    <narrative xml:lang="EN">Developing countries, unspecified</narrative>
-   </name>
-  </location>
-  <other-identifier ref="US-GOV" type="B1">
-   <owner-org ref="US-USAGOV">
-    <narrative xml:lang="EN">The federal government of the United States</narrative>
-   </owner-org>
-  </other-identifier>
   <participating-org ref="US-USAGOV" role="1" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
   </participating-org>
@@ -53,28 +25,57 @@
    <narrative xml:lang="EN">WORLD HEALTH ORGANIZATION</narrative>
    <usg:duns-number>480997543</usg:duns-number>
   </participating-org>
+  <other-identifier ref="US-GOV" type="B1">
+   <owner-org ref="US-USAGOV">
+    <narrative xml:lang="EN">The federal government of the United States</narrative>
+   </owner-org>
+  </other-identifier>
+  <activity-status code="4"></activity-status>
+  <activity-date iso-date="2015-08-01" type="1"></activity-date>
+  <activity-date iso-date="2015-08-01" type="2"></activity-date>
+  <activity-date iso-date="2018-07-31" type="3"></activity-date>
+  <activity-date iso-date="2018-07-31" type="4"></activity-date>
+  <contact-info type="1">
+   <organisation>
+    <narrative xml:lang="EN">U.S. Department of Health and Human Services</narrative>
+   </organisation>
+   <telephone>+1 877-696-6775</telephone>
+   <email></email>
+   <website>http://www.hhs.gov</website>
+   <mailing-address>
+    <narrative xml:lang="EN">200 Independence Ave SW, Washington, DC 20201</narrative>
+   </mailing-address>
+  </contact-info>
+  <activity-scope code="1"></activity-scope>
   <recipient-region code="998" percentage="100" vocabulary="1"></recipient-region>
-  <reporting-org ref="US-USAGOV" type="10">
-   <narrative xml:lang="EN">The federal government of the United States</narrative>
-  </reporting-org>
-  <title>
-   <narrative xml:lang="EN">EBOLA RESPONSE AND PREPAREDNESS IN AFRICAN COUNTRIES</narrative>
-  </title>
+  <location ref="998">
+   <name>
+    <narrative xml:lang="EN">Developing countries, unspecified</narrative>
+   </name>
+   <exactness code="1"></exactness>
+   <location-class code="4"></location-class>
+  </location>
+  <collaboration-type code="1"></collaboration-type>
+  <default-flow-type code="10"></default-flow-type>
+  <default-finance-type code="110"></default-finance-type>
+  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
   <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-09-30"></transaction-date>
+   <value currency="USD" value-date="2015-09-30">167021</value>
    <sector code="12110" vocabulary="1">
     <narrative xml:lang="EN">Health policy and administrative management</narrative>
    </sector>
    <sector code="3000" vocabulary="99">
     <narrative xml:lang="EN">Health - General</narrative>
    </sector>
-   <transaction-date iso-date="2015-09-30"></transaction-date>
-   <transaction-type code="2"></transaction-type>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2015" end="2015"></usg:fiscal-funding-year>
     <usg:main-account code="0943">CDC-Wide Activities and Program Support, Centers for Disease Control and Prevention, Health and Human Services</usg:main-account>
     <usg:regular-account code="75"></usg:regular-account>
    </usg:treasury-account>
-   <value currency="USD" value-date="2015-09-30">167021</value>
   </transaction>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

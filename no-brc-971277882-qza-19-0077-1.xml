@@ -1,32 +1,16 @@
-<iati-activities version="2.03">
+<?xml version="1.0" encoding="UTF-8"?>
+<iati-activities version="2.01">
  <iati-activity default-currency="NOK" dstore:dataset="norad-activity_file" dstore:index="3454" hierarchy="1" iati-activities:generated-datetime="2020-02-18T16:26:36.930" iati-activities:version="2.01" last-updated-datetime="2020-02-13T17:28:20.163" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
-  <activity-date iso-date="2019-01-01" type="1">
-   <narrative xml:lang="EN">Planned start</narrative>
-  </activity-date>
-  <activity-date iso-date="2019-01-01" type="2">
-   <narrative xml:lang="EN">Agreement signed</narrative>
-  </activity-date>
-  <activity-date iso-date="2019-12-31" type="3">
-   <narrative xml:lang="EN">Planned end</narrative>
-  </activity-date>
-  <activity-scope code="4"></activity-scope>
-  <activity-status code="2"></activity-status>
-  <collaboration-type code="1"></collaboration-type>
-  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <default-finance-type code="110"></default-finance-type>
-  <default-flow-type code="10"></default-flow-type>
-  <default-tied-status code="5"></default-tied-status>
+  <iati-identifier>NO-BRC-971277882-QZA-19/0077-1</iati-identifier>
+  <reporting-org ref="NO-BRC-971277882" type="10">
+   <narrative xml:lang="EN">Norad - Norwegian Agency for Development Cooperation</narrative>
+  </reporting-org>
+  <title>
+   <narrative xml:lang="EN">Medical preparedness for ebola response</narrative>
+  </title>
   <description>
    <narrative xml:lang="EN">Preparedness for international medical evacuation of aid workers</narrative>
   </description>
-  <document-link format="APPLICATION/VND.OASIS.OPENDOCUMENT.TEXT-WEB" url="http://udtilskudd.regjeringen.no/#/en/agreement?agreementNo=QZA-19/0077-1">
-   <category code="A12"></category>
-   <language code="EN"></language>
-   <title>
-    <narrative xml:lang="EN">QZA-19/0077-1 - Medical preparedness for ebola response</narrative>
-   </title>
-  </document-link>
-  <iati-identifier>NO-BRC-971277882-QZA-19/0077-1</iati-identifier>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Norwegian Government</narrative>
   </participating-org>
@@ -39,6 +23,19 @@
   <participating-org role="4" type="15">
    <narrative xml:lang="EN">DSB - Direktoratet for samfunnssikkerhet og beredskap</narrative>
   </participating-org>
+  <activity-status code="2"></activity-status>
+  <activity-date iso-date="2019-01-01" type="1">
+   <narrative xml:lang="EN">Planned start</narrative>
+  </activity-date>
+  <activity-date iso-date="2019-01-01" type="2">
+   <narrative xml:lang="EN">Agreement signed</narrative>
+  </activity-date>
+  <activity-date iso-date="2019-12-31" type="3">
+   <narrative xml:lang="EN">Planned end</narrative>
+  </activity-date>
+  <activity-scope code="4"></activity-scope>
+  <recipient-country code="CD" percentage="100"></recipient-country>
+  <sector code="72010" percentage="100" vocabulary="1"></sector>
   <policy-marker code="1" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="2" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="3" significance="0" vocabulary="1"></policy-marker>
@@ -48,29 +45,33 @@
   <policy-marker code="7" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="9" significance="0" vocabulary="1"></policy-marker>
-  <recipient-country code="CD" percentage="100"></recipient-country>
-  <reporting-org ref="NO-BRC-971277882" type="10">
-   <narrative xml:lang="EN">Norad - Norwegian Agency for Development Cooperation</narrative>
-  </reporting-org>
-  <sector code="72010" percentage="100" vocabulary="1"></sector>
-  <title>
-   <narrative xml:lang="EN">Medical preparedness for ebola response</narrative>
-  </title>
+  <collaboration-type code="1"></collaboration-type>
+  <default-flow-type code="10"></default-flow-type>
+  <default-finance-type code="110"></default-finance-type>
+  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
   <transaction ref="QZA-19/0077-1:9F490781-C031-4157-BB40-6F9F26731493">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-01-01"></transaction-date>
+   <value currency="NOK" value-date="2019-01-01">2800000</value>
    <provider-org ref="NO-BRC-972417920">
     <narrative xml:lang="EN">Norwegian Ministry of Foreign Affairs</narrative>
    </provider-org>
-   <transaction-date iso-date="2019-01-01"></transaction-date>
-   <transaction-type code="2"></transaction-type>
-   <value currency="NOK" value-date="2019-01-01">2800000</value>
   </transaction>
   <transaction ref="QZA-19/0077-1:21DF4682-712C-478A-ABE7-0BE99EF9AD98">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-10"></transaction-date>
+   <value currency="NOK" value-date="2019-12-10">2800000</value>
    <provider-org ref="NO-BRC-972417920">
     <narrative xml:lang="EN">Norwegian Ministry of Foreign Affairs</narrative>
    </provider-org>
-   <transaction-date iso-date="2019-12-10"></transaction-date>
-   <transaction-type code="3"></transaction-type>
-   <value currency="NOK" value-date="2019-12-10">2800000</value>
   </transaction>
+  <document-link format="APPLICATION/VND.OASIS.OPENDOCUMENT.TEXT-WEB" url="http://udtilskudd.regjeringen.no/#/en/agreement?agreementNo=QZA-19/0077-1">
+   <title>
+    <narrative xml:lang="EN">QZA-19/0077-1 - Medical preparedness for ebola response</narrative>
+   </title>
+   <category code="A12"></category>
+   <language code="EN"></language>
+  </document-link>
  </iati-activity>
 </iati-activities>
