@@ -1,40 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
  <iati-activity default-currency="GBP" dstore:dataset="ss-org-activities-3" dstore:index="745" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-06-26T13:56:54.111Z" iati-activities:version="2.03" last-updated-datetime="2020-06-26T13:56:42.896Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://iatistandard.org/203/schema/downloads/iati-activities-schema.xsd">
-  <activity-date iso-date="2020-06-01" type="1"></activity-date>
-  <activity-date iso-date="2020-08-31" type="3"></activity-date>
-  <activity-status code="2"></activity-status>
-  <budget>
-   <period-end iso-date="2020-08-31"></period-end>
-   <period-start iso-date="2020-06-01"></period-start>
-   <value currency="GBP" value-date="2020-06-01">523593</value>
-  </budget>
-  <contact-info type="1">
-   <email>info@sightsavers.org</email>
-   <organisation>
-    <narrative xml:lang="EN">Sightsavers</narrative>
-   </organisation>
-   <website>www.sightsavers.org</website>
-  </contact-info>
-  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <default-finance-type code="110"></default-finance-type>
-  <default-flow-type code="30"></default-flow-type>
-  <default-tied-status code="5"></default-tied-status>
+  <iati-identifier>GB-CHC-207544-96300ASC2000</iati-identifier>
+  <reporting-org ref="GB-CHC-207544" type="21">
+   <narrative xml:lang="EN">Sightsavers</narrative>
+  </reporting-org>
+  <title>
+   <narrative xml:lang="EN">COVID-19 ASCEND Sightsavers - Sierra Leone</narrative>
+  </title>
   <description type="1">
    <narrative xml:lang="EN">COVID-19 response work carried out through repurposed ASCEND programme activity.</narrative>
   </description>
-  <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
-  <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
-  <iati-identifier>GB-CHC-207544-96300ASC2000</iati-identifier>
-  <location ref="Freetown">
-   <administrative code="SL" level="1" vocabulary="A4"></administrative>
-   <feature-designation code="ADMD"></feature-designation>
-   <name>
-    <narrative xml:lang="EN">Freetown</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>8.483333 -13.2333</pos>
-   </point>
-  </location>
   <participating-org activity-id="GB-GOV-1-205249" ref="GB-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">UK - Department for International Development (DFID)</narrative>
   </participating-org>
@@ -44,35 +20,60 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Ministry of Health and Sanitation (MoHS) - Sierra Leone</narrative>
   </participating-org>
-  <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
+  <activity-status code="2"></activity-status>
+  <activity-date iso-date="2020-06-01" type="1"></activity-date>
+  <activity-date iso-date="2020-08-31" type="3"></activity-date>
+  <contact-info type="1">
+   <organisation>
+    <narrative xml:lang="EN">Sightsavers</narrative>
+   </organisation>
+   <email>info@sightsavers.org</email>
+   <website>www.sightsavers.org</website>
+  </contact-info>
   <recipient-country code="SL" percentage="100">
    <narrative xml:lang="EN">Sierra Leone</narrative>
   </recipient-country>
-  <reporting-org ref="GB-CHC-207544" type="21">
-   <narrative xml:lang="EN">Sightsavers</narrative>
-  </reporting-org>
+  <location ref="Freetown">
+   <name>
+    <narrative xml:lang="EN">Freetown</narrative>
+   </name>
+   <administrative code="SL" level="1" vocabulary="A4"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>8.483333 -13.2333</pos>
+   </point>
+   <feature-designation code="ADMD"></feature-designation>
+  </location>
   <sector code="12250" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Infectious Disease Control</narrative>
   </sector>
-  <title>
-   <narrative xml:lang="EN">COVID-19 ASCEND Sightsavers - Sierra Leone</narrative>
-  </title>
+  <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
+  <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
+  <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
+  <default-flow-type code="30"></default-flow-type>
+  <default-finance-type code="110"></default-finance-type>
+  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <budget>
+   <period-start iso-date="2020-06-01"></period-start>
+   <period-end iso-date="2020-08-31"></period-end>
+   <value currency="GBP" value-date="2020-06-01">523593</value>
+  </budget>
   <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="GBP" value-date="2020-08-31">523593</value>
    <description>
     <narrative xml:lang="EN">Incoming commitment for COVID-19 response work 2020</narrative>
    </description>
    <provider-org provider-activity-id="GB-GOV-1-205249" ref="GB-GOV-1" type="10"></provider-org>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <transaction-type code="11"></transaction-type>
-   <value currency="GBP" value-date="2020-08-31">523593</value>
   </transaction>
   <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="GBP" value-date="2020-08-31">523593</value>
    <description>
     <narrative xml:lang="EN">Commitment for COVID-19 response work 2020</narrative>
    </description>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <transaction-type code="2"></transaction-type>
-   <value currency="GBP" value-date="2020-08-31">523593</value>
   </transaction>
  </iati-activity>
 </iati-activities>

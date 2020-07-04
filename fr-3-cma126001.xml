@@ -1,34 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
  <iati-activity default-currency="EUR" dstore:dataset="afd-global" dstore:index="1578" hierarchy="2" iati-activities:generated-datetime="2020-05-25T07:03:00" iati-activities:version="2.03" last-updated-datetime="2020-05-18T05:24:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
-  <activity-date iso-date="2019-10-03" type="1"></activity-date>
-  <activity-date iso-date="2019-10-03" type="2"></activity-date>
-  <activity-status code="2"></activity-status>
-  <budget status="1" type="1">
-   <period-end iso-date="2019-10-03"></period-end>
-   <period-start iso-date="2019-10-03"></period-start>
-   <value currency="EUR" value-date="2019-10-03">100000000</value>
-  </budget>
-  <capital-spend percentage="25"></capital-spend>
-  <collaboration-type code="1"></collaboration-type>
-  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <default-finance-type code="421"></default-finance-type>
-  <default-flow-type code="10"></default-flow-type>
-  <default-tied-status code="5"></default-tied-status>
+  <iati-identifier>FR-3-CMA126001</iati-identifier>
+  <reporting-org ref="FR-3" type="10">
+   <narrative xml:lang="FR">AFD</narrative>
+  </reporting-org>
+  <title>
+   <narrative xml:lang="FR">Pr&#xEA;t de Politique Publique pour la budg&#xE9;tisation sensible au genre au Maroc Ajout mai 2020 : r&#xE9;allocation partielle Covid-19</narrative>
+  </title>
   <description>
    <narrative xml:lang="FR">Pr&#xEA;t de politique publique pour a budg&#xE9;tisation sensible au genre au Maroc Ajout mai 2020 : r&#xE9;allocation de 50 M&#x20AC; des 100 M&#x20AC; du pr&#xEA;t dans le cadre de la crise Covid-19 Projet Sant&#xE9; en commun (HIC)</narrative>
   </description>
-  <document-link format="TEXT/HTML" url="http://www.afd.fr/base-projets/consulterProjet.action?idProjet=CMA1260">
-   <category code="A02"></category>
-   <title>
-    <narrative xml:lang="FR">Fiche Projet</narrative>
-   </title>
-  </document-link>
-  <iati-identifier>FR-3-CMA126001</iati-identifier>
-  <location>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>34.015049 -6.832720</pos>
-   </point>
-  </location>
   <participating-org ref="FR" role="1" type="10">
    <narrative xml:lang="FR">France</narrative>
   </participating-org>
@@ -38,61 +20,80 @@
   <participating-org role="4">
    <narrative xml:lang="FR">ROYAUME DU MAROC</narrative>
   </participating-org>
+  <activity-status code="2"></activity-status>
+  <activity-date iso-date="2019-10-03" type="1"></activity-date>
+  <activity-date iso-date="2019-10-03" type="2"></activity-date>
   <recipient-country code="MA" percentage="100">
    <narrative xml:lang="FR">MAROC</narrative>
   </recipient-country>
-  <related-activity ref="FR-3-CMA1260" type="1"></related-activity>
-  <reporting-org ref="FR-3" type="10">
-   <narrative xml:lang="FR">AFD</narrative>
-  </reporting-org>
+  <location>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>34.015049 -6.832720</pos>
+   </point>
+  </location>
   <sector code="15170" percentage="100" vocabulary="1">
    <narrative xml:lang="FR">Organisations et institutions &#xE9;galit&#xE9; des femmes</narrative>
   </sector>
   <sector code="7" percentage="100" vocabulary="99" vocabulary-uri="https://laruche.afd.fr/jcms/c_2135045/fr/table-correspondance-cicid-cad-v1">
    <narrative xml:lang="FR">Autre</narrative>
   </sector>
-  <title>
-   <narrative xml:lang="FR">Pr&#xEA;t de Politique Publique pour la budg&#xE9;tisation sensible au genre au Maroc Ajout mai 2020 : r&#xE9;allocation partielle Covid-19</narrative>
-  </title>
+  <collaboration-type code="1"></collaboration-type>
+  <default-flow-type code="10"></default-flow-type>
+  <default-finance-type code="421"></default-finance-type>
+  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <budget status="1" type="1">
+   <period-start iso-date="2019-10-03"></period-start>
+   <period-end iso-date="2019-10-03"></period-end>
+   <value currency="EUR" value-date="2019-10-03">100000000</value>
+  </budget>
+  <capital-spend percentage="25"></capital-spend>
   <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-05-25"></transaction-date>
+   <value currency="EUR" value-date="2018-11-22">100000000</value>
    <description>
     <narrative xml:lang="FR">Commitment</narrative>
    </description>
-   <transaction-date iso-date="2020-05-25"></transaction-date>
-   <transaction-type code="2"></transaction-type>
-   <value currency="EUR" value-date="2018-11-22">100000000</value>
   </transaction>
   <transaction>
-   <description>
-    <narrative xml:lang="FR">Disbursement</narrative>
-   </description>
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
-   <transaction-type code="3"></transaction-type>
    <value currency="EUR" value-date="2017-12-31">0</value>
-  </transaction>
-  <transaction>
    <description>
     <narrative xml:lang="FR">Disbursement</narrative>
    </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-12-31"></transaction-date>
-   <transaction-type code="3"></transaction-type>
    <value currency="EUR" value-date="2018-12-31">0</value>
-  </transaction>
-  <transaction>
    <description>
     <narrative xml:lang="FR">Disbursement</narrative>
    </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
-   <transaction-type code="3"></transaction-type>
    <value currency="EUR" value-date="2019-12-31">25000000</value>
-  </transaction>
-  <transaction>
    <description>
     <narrative xml:lang="FR">Disbursement</narrative>
    </description>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
-   <transaction-type code="3"></transaction-type>
-   <value currency="EUR" value-date="2020-04-30">0</value>
   </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <value currency="EUR" value-date="2020-04-30">0</value>
+   <description>
+    <narrative xml:lang="FR">Disbursement</narrative>
+   </description>
+  </transaction>
+  <document-link format="TEXT/HTML" url="http://www.afd.fr/base-projets/consulterProjet.action?idProjet=CMA1260">
+   <title>
+    <narrative xml:lang="FR">Fiche Projet</narrative>
+   </title>
+   <category code="A02"></category>
+  </document-link>
+  <related-activity ref="FR-3-CMA1260" type="1"></related-activity>
  </iati-activity>
 </iati-activities>

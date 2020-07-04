@@ -1,34 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
  <iati-activity default-currency="EUR" dstore:dataset="afd-global" dstore:index="2353" hierarchy="2" iati-activities:generated-datetime="2020-05-25T07:03:00" iati-activities:version="2.03" last-updated-datetime="2020-03-31T00:00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
-  <activity-date iso-date="2020-05-25" type="1"></activity-date>
-  <activity-date iso-date="2020-05-25" type="2"></activity-date>
-  <activity-status code="2"></activity-status>
-  <budget status="1" type="1">
-   <period-end iso-date="2020-05-25"></period-end>
-   <period-start iso-date="2020-05-25"></period-start>
-   <value currency="EUR" value-date="2020-05-25">1500000</value>
-  </budget>
-  <capital-spend percentage="0"></capital-spend>
-  <collaboration-type code="1"></collaboration-type>
-  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <default-finance-type code="110"></default-finance-type>
-  <default-flow-type code="21"></default-flow-type>
-  <default-tied-status code="5"></default-tied-status>
+  <iati-identifier>FR-3-CZZ283901</iati-identifier>
+  <reporting-org ref="FR-3" type="10">
+   <narrative xml:lang="FR">AFD</narrative>
+  </reporting-org>
+  <title>
+   <narrative xml:lang="FR">Appui &#xE0; la Pr&#xE9;paration des H&#xF4;pitaux dans la R&#xE9;ponse Op&#xE9;rationnelle face au COVID-19</narrative>
+  </title>
   <description>
    <narrative xml:lang="FR">Projet de r&#xE9;ponse &#xE0; l&apos;infection par le coronavirus en Afrique de l&apos;ouest, port&#xE9; par L&apos;INSERM pour renforcer les capacit&#xE9;s de diagnostic et permettre la prise en charge rapide des cas suspects d&apos;infection par le virus 2019-nCoV dans 5 pays d&apos;Afrique francophone (S&#xE9;n&#xE9;gal, RCI, Mali, Gabon, Burkina). L&apos;INSERM dispose de correspondants dans les principaux h&#xF4;pitaux de ces pays au travers du r&#xE9;seau REACTing et de contacts directs avec les minist&#xE8;res de la sant&#xE9;.</narrative>
   </description>
-  <document-link format="TEXT/HTML" url="http://www.afd.fr/base-projets/consulterProjet.action?idProjet=CZZ2839">
-   <category code="A02"></category>
-   <title>
-    <narrative xml:lang="FR">Fiche Projet</narrative>
-   </title>
-  </document-link>
-  <iati-identifier>FR-3-CZZ283901</iati-identifier>
-  <location>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>48.84423060 2.37845290</pos>
-   </point>
-  </location>
   <participating-org ref="FR" role="1" type="10">
    <narrative xml:lang="FR">France</narrative>
   </participating-org>
@@ -38,37 +20,56 @@
   <participating-org role="4">
    <narrative xml:lang="FR">INSTITUT NATIONAL SANTE RECHERCHE MEDICALE</narrative>
   </participating-org>
+  <activity-status code="2"></activity-status>
+  <activity-date iso-date="2020-05-25" type="1"></activity-date>
+  <activity-date iso-date="2020-05-25" type="2"></activity-date>
   <recipient-country code="ZZ" percentage="100">
    <narrative xml:lang="FR">MULTI-PAYS</narrative>
   </recipient-country>
-  <related-activity ref="FR-3-CZZ2839" type="1"></related-activity>
-  <reporting-org ref="FR-3" type="10">
-   <narrative xml:lang="FR">AFD</narrative>
-  </reporting-org>
+  <location>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>48.84423060 2.37845290</pos>
+   </point>
+  </location>
   <sector code="12250" percentage="100" vocabulary="1">
    <narrative xml:lang="FR">LUTTE CONTRE LES MALADIES INFECTIEUSES</narrative>
   </sector>
   <sector code="1" percentage="100" vocabulary="99" vocabulary-uri="https://laruche.afd.fr/jcms/c_2135045/fr/table-correspondance-cicid-cad-v1">
    <narrative xml:lang="FR">Sant&#xE9;</narrative>
   </sector>
-  <title>
-   <narrative xml:lang="FR">Appui &#xE0; la Pr&#xE9;paration des H&#xF4;pitaux dans la R&#xE9;ponse Op&#xE9;rationnelle face au COVID-19</narrative>
-  </title>
+  <collaboration-type code="1"></collaboration-type>
+  <default-flow-type code="21"></default-flow-type>
+  <default-finance-type code="110"></default-finance-type>
+  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <budget status="1" type="1">
+   <period-start iso-date="2020-05-25"></period-start>
+   <period-end iso-date="2020-05-25"></period-end>
+   <value currency="EUR" value-date="2020-05-25">1500000</value>
+  </budget>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-05-25"></transaction-date>
+   <value currency="EUR" value-date="2020-03-16">1500000</value>
    <description>
     <narrative xml:lang="FR">Commitment</narrative>
    </description>
-   <transaction-date iso-date="2020-05-25"></transaction-date>
-   <transaction-type code="2"></transaction-type>
-   <value currency="EUR" value-date="2020-03-16">1500000</value>
   </transaction>
   <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <value currency="EUR" value-date="2020-04-30">0</value>
    <description>
     <narrative xml:lang="FR">Disbursement</narrative>
    </description>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
-   <transaction-type code="3"></transaction-type>
-   <value currency="EUR" value-date="2020-04-30">0</value>
   </transaction>
+  <document-link format="TEXT/HTML" url="http://www.afd.fr/base-projets/consulterProjet.action?idProjet=CZZ2839">
+   <title>
+    <narrative xml:lang="FR">Fiche Projet</narrative>
+   </title>
+   <category code="A02"></category>
+  </document-link>
+  <related-activity ref="FR-3-CZZ2839" type="1"></related-activity>
  </iati-activity>
 </iati-activities>
