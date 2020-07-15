@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="GBP" dstore:dataset="ss-org-activities-3" dstore:index="359" hierarchy="1" iati-activities:generated-datetime="2020-06-26T13:56:54.111Z" iati-activities:version="2.03" last-updated-datetime="2020-06-26T13:56:42.896Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://iatistandard.org/203/schema/downloads/iati-activities-schema.xsd">
+ <iati-activity default-currency="GBP" dstore:dataset="ss-org-activities-3" dstore:index="360" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-07-14T07:57:09.718Z" iati-activities:version="2.03" last-updated-datetime="2020-07-14T07:57:04.069Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://iatistandard.org/203/schema/downloads/iati-activities-schema.xsd">
   <iati-identifier>GB-CHC-207544-56021</iati-identifier>
   <reporting-org ref="GB-CHC-207544" type="21">
    <narrative xml:lang="EN">Sightsavers</narrative>
@@ -46,9 +46,11 @@
   <sector code="12250" percentage="50" vocabulary="1">
    <narrative xml:lang="EN">Infectious Disease Control</narrative>
   </sector>
-  <sector code="16010" percentage="50" vocabulary="1">
-   <narrative xml:lang="EN">Social Protection</narrative>
+  <sector code="12261" percentage="50" vocabulary="1">
+   <narrative xml:lang="EN">Health education</narrative>
   </sector>
+  <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
+  <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
   <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -73,6 +75,14 @@
    <value currency="GBP" value-date="2020-12-31">11566</value>
    <description>
     <narrative xml:lang="EN">Incoming funds for COVID-19 response work 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-12-31">69</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
    </description>
   </transaction>
  </iati-activity>
