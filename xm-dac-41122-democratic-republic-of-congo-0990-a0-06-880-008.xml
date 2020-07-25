@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unicef-drc" dstore:index="136" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-06-15T14:30:43-04:00" iati-activities:version="2.02" last-updated-datetime="2020-06-15T14:31:21-04:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-drc" dstore:index="188" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-07-17T13:44:48-04:00" iati-activities:version="2.02" last-updated-datetime="2020-07-17T13:45:36-04:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Democratic Republic of Congo-0990/A0/06/880/008</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -15,11 +15,11 @@ results for children</narrative>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">UNOCHA</narrative>
   </participating-org>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
-  </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
@@ -30,10 +30,10 @@ results for children</narrative>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
   </participating-org>
-  <participating-org role="4" type="40">
+  <participating-org role="3" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
-  <participating-org role="3" type="40">
+  <participating-org role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
   <other-identifier ref="41122-Democratic Republic of Congo-0990/A0/06/880/008" type="B1">
@@ -148,7 +148,7 @@ B.P. 7248  Kinshasa</narrative>
   <budget type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2020-05-31">2752785</value>
+   <value currency="USD" value-date="2020-06-30">2752785</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2019-01-01"></period-start>
@@ -173,7 +173,7 @@ B.P. 7248  Kinshasa</narrative>
   <planned-disbursement type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2020-05-31">2752785</value>
+   <value currency="USD" value-date="2020-06-30">2752785</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -182,6 +182,18 @@ B.P. 7248  Kinshasa</narrative>
    </receiver-org>
   </planned-disbursement>
   <capital-spend percentage="0"></capital-spend>
+  <transaction humanitarian="0" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-01-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-31">492945</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
@@ -196,8 +208,8 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-01-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-31">492945</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">36107</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -278,18 +290,6 @@ B.P. 7248  Kinshasa</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="0" ref="Disbursement">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">62595</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction humanitarian="0" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
@@ -302,9 +302,21 @@ B.P. 7248  Kinshasa</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction humanitarian="0" ref="Disbursement">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">32283</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction humanitarian="0" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-01-01">111362</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -352,7 +364,7 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-01-01">23782</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -376,25 +388,25 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">485941</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-01-01">237857</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">European Commission / ECHO</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">485941</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -412,7 +424,7 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-01-01">74210</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -436,7 +448,7 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-01-01">111362</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -461,18 +473,6 @@ B.P. 7248  Kinshasa</narrative>
   <transaction humanitarian="0" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-01-01">9358</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-01-01">53678</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -484,7 +484,19 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">9358</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-01-01">23782</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -508,25 +520,25 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">485941</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-01-01">237857</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">European Commission / ECHO</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">485941</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -544,7 +556,7 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-01-01">74210</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -560,7 +572,7 @@ B.P. 7248  Kinshasa</narrative>
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-05-31"></document-date>
+   <document-date iso-date="2020-06-30"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://files.unicef.org/transparency/documents/0990A006880008000 Programme Implementation Plan.pdf">
    <title>
@@ -568,7 +580,7 @@ B.P. 7248  Kinshasa</narrative>
    </title>
    <category code="A05"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-05-31"></document-date>
+   <document-date iso-date="2020-06-30"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://files.unicef.org/transparency/documents/DEMOCRATIC%20REPUBLIC%20OF%20CONGO_2019_COAR.pdf">
    <title>
@@ -584,7 +596,7 @@ B.P. 7248  Kinshasa</narrative>
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-05-31"></document-date>
+   <document-date iso-date="2020-06-30"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://files.unicef.org/transparency/documents/PCA_0990_DRC_2019.pdf">
    <title>
@@ -617,7 +629,7 @@ B.P. 7248  Kinshasa</narrative>
    <category code="A12"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-05-31"></document-date>
+   <document-date iso-date="2020-06-30"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Dem_Rep_of_Congo_2018_COAR.pdf">
    <title>
