@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="scnl-id" dstore:index="2" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2019-11-29T16:17:43+00:00" iati-activities:version="2.03" last-updated-datetime="2019-11-29T16:17:43+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" dstore:dataset="scnl-id" dstore:index="2" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-07-30T12:06:27+00:00" iati-activities:version="2.03" last-updated-datetime="2020-07-30T12:06:27+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41201463-PIDNS-002</iati-identifier>
   <reporting-org ref="NL-KVK-41201463" type="21">
    <narrative xml:lang="EN">Save the Children Netherlands</narrative>
@@ -47,6 +47,7 @@
   <sector code="72010" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">WASH/Shelter</narrative>
   </sector>
+  <policy-marker code="1" vocabulary="1"></policy-marker>
   <collaboration-type code="3"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -57,6 +58,13 @@
    <period-end iso-date="2019-10-03"></period-end>
    <value currency="EUR" value-date="2018-10-04">1087275</value>
   </budget>
+  <transaction>
+   <transaction-type code="7"></transaction-type>
+   <transaction-date iso-date="2019-10-31"></transaction-date>
+   <value currency="EUR" value-date="2019-10-31">384989</value>
+   <provider-org provider-activity-id="NL-KVK-41201463-PIDNS-002" ref="NL-KVK-41201463"></provider-org>
+   <receiver-org ref="GB-CHC-1076822"></receiver-org>
+  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2018-12-31"></transaction-date>
@@ -113,15 +121,8 @@
     <narrative xml:lang="EN">Save the Children International</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="7"></transaction-type>
-   <transaction-date iso-date="2019-10-31"></transaction-date>
-   <value currency="EUR" value-date="2019-10-31">384989</value>
-   <provider-org provider-activity-id="NL-KVK-41201463-PIDNS-002" ref="NL-KVK-41201463"></provider-org>
-   <receiver-org ref="GB-CHC-1076822"></receiver-org>
-  </transaction>
   <related-activity ref="NL-KVK-27302841-201801" type="1"></related-activity>
-  <result aggregation-status="0" type="1">
+  <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">WSH-R1: Hygiene promotion</narrative>
    </title>
@@ -144,30 +145,6 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">WSH-R5: Solid waste management</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Supporting Solid waste management activities and community clean-up campaign in 5 sub-districts (int. WSH-R2-I4)</narrative>
-   </description>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">WSH-I5: Number of people living in settlements with a functional solid waste management system</narrative>
-    </title>
-    <reference code="WSH-I5" indicator-uri="https://www.savethechildren.nl/" vocabulary="99"></reference>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2018-10-04"></period-start>
-     <period-end iso-date="2019-09-30"></period-end>
-     <target value="16000">
-      <dimension name="Women" value="7896"></dimension>
-      <dimension name="Men" value="8104"></dimension>
-     </target>
-     <actual value="16000"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
     <narrative xml:lang="EN">WSH-R4: Water supply</narrative>
    </title>
    <description>
@@ -184,30 +161,6 @@
      <period-end iso-date="2019-09-30"></period-end>
      <target value="16000"></target>
      <actual value="16000"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">WSH-R2: Excreta disposal</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Targeted children and their families have increased access to safe sanitation and environmental health facilities (int. WSH-R2)</narrative>
-   </description>
-   <indicator aggregation-status="0" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">WSH-I2: Number of people having access to dignified, safe, clean and functional excreta disposal facilities</narrative>
-    </title>
-    <reference code="WSH-I2" indicator-uri="https://www.savethechildren.nl/" vocabulary="99"></reference>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2018-10-04"></period-start>
-     <period-end iso-date="2019-09-30"></period-end>
-     <target value="8000">
-      <dimension name="Women" value="3948"></dimension>
-      <dimension name="Men" value="4052"></dimension>
-     </target>
-     <actual value="8704"></actual>
     </period>
    </indicator>
   </result>
@@ -256,6 +209,54 @@
       <dimension name="Individuals" value="13016"></dimension>
       <dimension name="Households" value="3254"></dimension>
      </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">WSH-R2: Excreta disposal</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Targeted children and their families have increased access to safe sanitation and environmental health facilities (int. WSH-R2)</narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">WSH-I2: Number of people having access to dignified, safe, clean and functional excreta disposal facilities</narrative>
+    </title>
+    <reference code="WSH-I2" indicator-uri="https://www.savethechildren.nl/" vocabulary="99"></reference>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2018-10-04"></period-start>
+     <period-end iso-date="2019-09-30"></period-end>
+     <target value="8000">
+      <dimension name="Women" value="3948"></dimension>
+      <dimension name="Men" value="4052"></dimension>
+     </target>
+     <actual value="8704"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">WSH-R5: Solid waste management</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Supporting Solid waste management activities and community clean-up campaign in 5 sub-districts (int. WSH-R2-I4)</narrative>
+   </description>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">WSH-I5: Number of people living in settlements with a functional solid waste management system</narrative>
+    </title>
+    <reference code="WSH-I5" indicator-uri="https://www.savethechildren.nl/" vocabulary="99"></reference>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2018-10-04"></period-start>
+     <period-end iso-date="2019-09-30"></period-end>
+     <target value="16000">
+      <dimension name="Women" value="7896"></dimension>
+      <dimension name="Men" value="8104"></dimension>
+     </target>
+     <actual value="16000"></actual>
     </period>
    </indicator>
   </result>
