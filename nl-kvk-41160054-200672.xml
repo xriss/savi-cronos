@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-2" dstore:index="38" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-08-01T09:58:58.1093505Z" iati-activities:version="2.03" last-updated-datetime="2020-08-01T10:01:48.3027336Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-3" dstore:index="23" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-08-02T18:17:14.6201792Z" iati-activities:version="2.03" last-updated-datetime="2020-08-02T18:18:03.5879218Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200672</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -43,6 +43,20 @@
   <activity-scope code="4"></activity-scope>
   <recipient-country code="SY" percentage="100"></recipient-country>
   <recipient-region code="589" percentage="0" vocabulary="1"></recipient-region>
+  <location ref="229113">
+   <name>
+    <narrative xml:lang="EN">Aleppo</narrative>
+   </name>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+  </location>
+  <location ref="229116">
+   <name>
+    <narrative xml:lang="EN">Damascus</narrative>
+   </name>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+  </location>
   <location ref="SY">
    <name>
     <narrative xml:lang="EN">Syria</narrative>
@@ -65,20 +79,6 @@
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/432">
     <pos>33.513807 36.276528</pos>
    </point>
-  </location>
-  <location ref="229113">
-   <name>
-    <narrative xml:lang="EN">Aleppo</narrative>
-   </name>
-   <exactness code="1"></exactness>
-   <location-class code="1"></location-class>
-  </location>
-  <location ref="229116">
-   <name>
-    <narrative xml:lang="EN">Damascus</narrative>
-   </name>
-   <exactness code="1"></exactness>
-   <location-class code="1"></location-class>
   </location>
   <sector code="73010" percentage="50" vocabulary="1"></sector>
   <sector code="11120" percentage="50" vocabulary="1"></sector>
@@ -142,133 +142,11 @@
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="2">
    <title>
-    <narrative xml:lang="EN">Humanitarian Aid -- Aide Humanitaire</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">(C) # of beneficiaries reached (HUM)</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
-    </description>
-    <reference code="HUM0.1" vocabulary="99"></reference>
-    <baseline iso-date="2019-12-31" value="0" year="2019">
-     <location ref="SY"></location>
-     <dimension name="Age (-35/35+)" value="Age -35"></dimension>
-    </baseline>
-    <baseline iso-date="2019-12-31" value="0" year="2019">
-     <location ref="SY"></location>
-     <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
-    </baseline>
-    <baseline iso-date="2019-12-31" value="0" year="2019">
-     <location ref="SY"></location>
-     <dimension name="Gender - genre" value="Female - feminin"></dimension>
-    </baseline>
-    <baseline iso-date="2019-12-31" value="0" year="2019">
-     <location ref="SY"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
-    <baseline iso-date="2019-12-31" value="0" year="2019">
-     <location ref="SY"></location>
-     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-    </baseline>
-    <baseline iso-date="2019-12-31" value="0" year="2019">
-     <location ref="SY"></location>
-     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">(C) Life-saving basic services</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN"># children that received support specified to their needs</narrative>
-    </title>
-    <reference code="HUM1.25" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="9200"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
     <narrative xml:lang="EN">(C) Access to quality health services</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN"># consultancies for GBV - # consultations VBG</narrative>
+     <narrative xml:lang="EN">Number of consultancies for GBV - Number of consultations VBG</narrative>
     </title>
     <reference code="HE.04.3" vocabulary="99"></reference>
     <period>
@@ -320,11 +198,91 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
+    <narrative xml:lang="EN">(S) Project Specific Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">% of budget that went to national and local actors</narrative>
+    </title>
+    <reference code="HUM4.46" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="85"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">% of budget spent on capacity building of national an local actors</narrative>
+    </title>
+    <reference code="HUM4.47" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of national and local actors supported with capacity-building</narrative>
+    </title>
+    <reference code="HUM4.48" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
     <narrative xml:lang="EN">(C) Beneficiaries reached (HUM)</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(C) # of beneficiaries reached (HUM)</narrative>
+     <narrative xml:lang="EN">(C) Number of beneficiaries reached (HUM)</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
@@ -386,81 +344,60 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(T) Capacity Building &amp; Accountability</narrative>
+    <narrative xml:lang="EN">Child Protection</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">% of budget that went to national and local actors</narrative>
+     <narrative xml:lang="EN">Number of children that received support specified to their needs</narrative>
     </title>
-    <reference code="HUM5.1" vocabulary="99"></reference>
+    <description>
+     <narrative xml:lang="EN">1) This indicator covers response to children (girls and boys under 18). 2) Appropriate response is defined as the provision of comprehensive services/assistance based on a thorough analysis of the risks faced by persons. The protection outcome of the response must be well defined. Relevant SOPs (including functional Referral Mechanism) should be followed. 3) Use the activity description field to to describe what services (medical, MHPSS, legal, security, etc.), as well as SOPs are in place. Activities can include psychosocial support to children, Child Friendly Spaces and support to parents to fulfill their protection responsibilities towards their children.</narrative>
+    </description>
+    <reference code="PRO-I15" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
      <actual value="0">
-      <location ref="SY"></location>
+      <location ref="431525"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="443838"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="443838"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
-      <location ref="SY"></location>
+      <location ref="431525"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="443838"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="443838"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="85"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">% of budget spent on capacity building of national an local actors</narrative>
-    </title>
-    <reference code="HUM5.2" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of national and local actors supported with capacity-building</narrative>
-    </title>
-    <reference code="HUM5.3" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2"></target>
+     <target value="9200"></target>
     </period>
    </indicator>
   </result>

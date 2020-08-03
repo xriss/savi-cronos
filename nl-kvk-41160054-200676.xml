@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054" dstore:index="52" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-07-13T08:22:22.522021Z" iati-activities:version="2.03" last-updated-datetime="2020-07-13T08:26:04.9920425Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054" dstore:index="31" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-08-02T18:09:38.9652907Z" iati-activities:version="2.03" last-updated-datetime="2020-08-02T18:11:17.5272008Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200676</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="EN">CAR Joint Response 6</narrative>
+   <narrative xml:lang="EN">CAR Joint Response 6 (COVID-19)</narrative>
   </title>
   <description type="1">
    <narrative xml:lang="EN">For its 6th phase the The focus of the CARJR remains to save lives, respect basic rights and preserve human
@@ -32,14 +32,17 @@ The beneficiaries of this project are represented from :
   <participating-org role="4" type="21">
    <narrative xml:lang="EN">CORDAID RCA</narrative>
   </participating-org>
+  <participating-org ref="XM-DAC-7" role="1" type="10">
+   <narrative xml:lang="EN">Government of the Netherlands - Ministry of Foreign Affairs</narrative>
+  </participating-org>
   <participating-org role="4" type="22">
-   <narrative xml:lang="EN">Caritas Bangladesh</narrative>
+   <narrative xml:lang="EN">Caritas Bocaranga</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Union pour le d&#xE9;veloppement Agropastoral et la protection de l&apos;envirenement</narrative>
   </participating-org>
-  <participating-org ref="XM-DAC-7" role="1" type="10">
-   <narrative xml:lang="EN">Government of the Netherlands - Ministry of Foreign Affairs</narrative>
+  <participating-org role="4">
+   <narrative xml:lang="EN">Caritas Bangassou</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-01-01" type="1"></activity-date>
@@ -88,205 +91,75 @@ The beneficiaries of this project are represented from :
   <planned-disbursement type="1">
    <period-start iso-date="2020-04-01"></period-start>
    <period-end iso-date="2020-06-30"></period-end>
-   <value currency="EUR" value-date="2020-04-01">143484.39</value>
+   <value currency="EUR" value-date="2020-04-01">376384</value>
   </planned-disbursement>
+  <transaction humanitarian="1">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="EUR" value-date="2020-01-01">21848265</value>
+   <description>
+    <narrative xml:lang="EN">2020</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-28433" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Government of the Netherlands - Ministry of Foreign Affairs</narrative>
+   </provider-org>
+   <receiver-org type="21">
+    <narrative xml:lang="EN">CORDAID RCA</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="EUR" value-date="2020-06-30">4395</value>
+   <description>
+    <narrative xml:lang="EN">2020</narrative>
+   </description>
+   <provider-org type="21">
+    <narrative xml:lang="EN">CORDAID RCA</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Union pour le d&#xE9;veloppement Agropastoral et la protection de l&apos;envirenement</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="EUR" value-date="2020-06-30">5716</value>
+   <description>
+    <narrative xml:lang="EN">2020</narrative>
+   </description>
+   <provider-org type="21">
+    <narrative xml:lang="EN">CORDAID RCA</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Caritas Bocaranga</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="EUR" value-date="2020-06-30">18415</value>
+   <description>
+    <narrative xml:lang="EN">2020</narrative>
+   </description>
+   <provider-org type="21">
+    <narrative xml:lang="EN">CORDAID RCA</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Caritas Bangassou</narrative>
+   </receiver-org>
+  </transaction>
   <related-activity ref="NL-KVK-41160054-200677" type="2"></related-activity>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Strengthened Resilient Recovery &amp; Preparedness Services</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">(C) # people provided with resources to protect and start rebuilding livelihoods assets</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">No. of people who have received the needed resources to protect and rebuild their livelihoods</narrative>
-    </description>
-    <reference code="HUM2.4_x" vocabulary="99"></reference>
-    <baseline iso-date="2020-03-31" value="2437" year="2020">
-     <location ref="CF"></location>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="2437">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="4380">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="8586"></target>
-    </period>
-   </indicator>
-  </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(C) Life-saving basic services</narrative>
+    <narrative xml:lang="EN">(S) Project Specific Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN"># people having regular access to soap to meet hygienic needs</narrative>
+     <narrative xml:lang="EN">Number of national and local actors supported with capacity-building</narrative>
     </title>
-    <reference code="HUM1.02.1_x" vocabulary="99"></reference>
-    <baseline iso-date="2020-03-31" value="0" year="2020">
-     <location ref="CF"></location>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="94">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="3600"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN"># people having access to sufficient and safe water for domestic use</narrative>
-    </title>
-    <reference code="HUM1.02.2_x" vocabulary="99"></reference>
-    <baseline iso-date="2020-03-31" value="0" year="2020">
-     <location ref="CF"></location>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="4200">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="10500"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of people having access to dignified, safe, clean and functional excreta disposal facilities</narrative>
-    </title>
-    <reference code="HUM1.02.3_x" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="815">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2800"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of people reached with hygiene promotion/awareness raising activities</narrative>
-    </title>
-    <reference code="HUM1.02.4_x" vocabulary="99"></reference>
-    <baseline iso-date="2020-03-31" value="0" year="2020">
-     <location ref="CF"></location>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="8881">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="6400"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">(C) Strengthened Resilient Recovery &amp; Preparedness Services</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">(C) # people provided with resources to protect and start rebuilding livelihoods assets</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">No. of people who have received the needed resources to protect and rebuild their livelihoods</narrative>
-    </description>
-    <reference code="HUM2.4_x" vocabulary="99"></reference>
-    <baseline iso-date="2020-03-31" value="2437" year="2020">
-     <location ref="CF"></location>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="2437">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="4380">
-      <location ref="CF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="8586"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">(T) Capacity Building &amp; Accountability</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of national and local actors supported with capacity-building</narrative>
-    </title>
-    <reference code="HUM5.3" vocabulary="99"></reference>
+    <reference code="HUM4.48" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -309,9 +182,9 @@ The beneficiaries of this project are represented from :
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN"># of crisis-affected people who are also involved in the design, implementation, monitoring and/or evaluation of the programme</narrative>
+     <narrative xml:lang="EN">Number of crisis-affected people who are also involved in the design, implementation, monitoring and/or evaluation of the programme</narrative>
     </title>
-    <reference code="HUM5.4" vocabulary="99"></reference>
+    <reference code="HUM4.49" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -329,7 +202,7 @@ The beneficiaries of this project are represented from :
     <title>
      <narrative xml:lang="EN">% of budget that went to national and local actors</narrative>
     </title>
-    <reference code="HUM5.1" vocabulary="99"></reference>
+    <reference code="HUM4.46" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -347,7 +220,7 @@ The beneficiaries of this project are represented from :
     <title>
      <narrative xml:lang="EN">% of budget spent on capacity building of national an local actors</narrative>
     </title>
-    <reference code="HUM5.2" vocabulary="99"></reference>
+    <reference code="HUM4.47" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -368,7 +241,7 @@ The beneficiaries of this project are represented from :
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(S) # people receiving COVID-19 related assistance (WASH)</narrative>
+     <narrative xml:lang="EN">Number of people receiving COVID-19 related assistance (WASH)</narrative>
     </title>
     <reference code="COV.HUM.14" vocabulary="99"></reference>
     <period>
@@ -409,6 +282,195 @@ The beneficiaries of this project are represented from :
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="136589"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Short-term livelihood support</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">(C) Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Resources that enable people to protect and rebuild their livelihood assets include seeds, livestock, tools, business grant, etc. 
+Any kind of transfer modality (in-kind, voucher, restricted cash) and combination thereof to support, protect and enable the restoration/protection/access of/to livelihood assets.</narrative>
+    </description>
+    <reference code="FSC-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-03-31" value="2437" year="2020">
+     <location ref="CF"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="2437">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="4380">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="8586"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Hygiene promotion</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people having regular access to soap to meet hygienic needs</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Regular and timely access: 250g soap/p/m for personal hygiene, 200g soap/p/month for laundry. This includes hygiene/dignity kits. Access may be in-kind or though voucher distribution or through unconditional restricted cash to enable beneficiary to buy soap (without compromising access to other basic needs). 
+Distributed items need to be culturally acceptable i.e. take into account local practice and expectations.</narrative>
+    </description>
+    <reference code="WSH-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-03-31" value="0" year="2020">
+     <location ref="CF"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="94">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="3600"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Excreta disposal</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people having access to dignified, safe, clean and functional excreta disposal facilities</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Access: ratio (user/facility) of 1 toilet for a max. 20 people, distance &lt; 50 metres from dwellings, or as locally agreed. 
+Clean: regular cleaning and maintenance for public facilities.
+
+Dignified: Use of toilets respect cultural preference and is arranged by household(s) and/or segregated by sex. 
+Unsafe facilities: unstable (unlined) pits with risk of collapse, pits accessible to vectors, pits contaminating water tables and poorly sited facilities which expose women and girls to attacks, especially at night. 
+
+Functional facility: fully constructed, in working order and properly maintained, of a type and in a location acceptable to intended users, with hand washing facilities and anal cleansing material.</narrative>
+    </description>
+    <reference code="WSH-I2" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="815">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2800"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Water Supply</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people having access to sufficient and safe water for domestic use</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Access: maximum distance to water point 500m, queuing time less than 15min, filling time maximum 3 min/20 litres or as locally agreed. Water access should be during the whole period of implementation unless action is mostly related to building the local water delivery capacity. 
+Sufficient: covering basic needs, i.e. 7.5-15 l/p/d or as locally agreed. 
+
+Safe: 1) low risk of faecal contamination, 2) No faecal coliforms detectable in any 100-ml sample, 3) For piped water supplies, or for all water supplies at times of risk or presence of diarrhoea epidemic, water is treated with a disinfectant to achieve free chlorine residual at the tap of 0.5 mg per litre and turbidity is below 5 NTU, 4) If for a short period, water which is contaminated chemically or radiologically is used, no (significant probability of) negative health effect is (likely to be) detected. 
+Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
+    </description>
+    <reference code="WSH-I4" vocabulary="99"></reference>
+    <baseline iso-date="2020-03-31" value="0" year="2020">
+     <location ref="CF"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="4200">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="10500"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Hygiene promotion (Awareness)</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached with hygiene promotion/awareness raising activities</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Hygiene promotion/awareness raising activities. Could be training, campaigns, radio broadcasts, flyers etc. Excludes the distribution of Hygiene/dignity kits that should be covered under WHS-I1.</narrative>
+    </description>
+    <reference code="WSH-I6" vocabulary="99"></reference>
+    <baseline iso-date="2020-03-31" value="0" year="2020">
+     <location ref="CF"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="8881">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="6400"></target>
     </period>
    </indicator>
   </result>
