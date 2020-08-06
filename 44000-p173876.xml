@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-uy" dstore:index="13" hierarchy="1" iati-activities:generated-datetime="2020-07-24T13:37:25" iati-activities:version="2.03" last-updated-datetime="2020-06-25T12:25:22" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-uy" dstore:index="13" hierarchy="1" iati-activities:generated-datetime="2020-08-05T04:55:02" iati-activities:version="2.03" last-updated-datetime="2020-07-23T12:27:23" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P173876</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -50,16 +50,52 @@
   <recipient-country code="UY" percentage="100">
    <narrative xml:lang="EN">URUGUAY</narrative>
   </recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="0003439705" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Oriental Republic of Uruguay</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-33.0000 -56.0000</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+  </location>
   <sector code="12191" percentage="74" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12110" percentage="26" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="HG" percentage="100" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+  <sector code="HF" percentage="0" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Public Administration - Health</narrative>
+  </sector>
+  <sector code="HG" percentage="74" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health</narrative>
+  </sector>
+  <sector code="HQ" percentage="26" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Facilities and Construction</narrative>
   </sector>
   <sector code="000626" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Pandemic Response</narrative>
   </sector>
-  <sector code="000062" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+  <sector code="000812" percentage="8" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Adaptation</narrative>
+  </sector>
+  <sector code="000063" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Systems and Policies</narrative>
+  </sector>
+  <sector code="000633" percentage="51" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Finance</narrative>
+  </sector>
+  <sector code="000081" percentage="8" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Climate change</narrative>
+  </sector>
+  <sector code="000632" percentage="49" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Service Delivery</narrative>
+  </sector>
+  <sector code="000062" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disease Control</narrative>
+  </sector>
+  <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health System Strengthening</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -928,22 +964,9 @@
   </budget>
   <capital-spend percentage="100"></capital-spend>
   <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">0</value>
-   <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2020</narrative>
-   </description>
-   <provider-org ref="44001">
-    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
-   </provider-org>
-   <flow-type code="20"></flow-type>
-   <finance-type code="410"></finance-type>
-  </transaction>
-  <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">20000000</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">20000000</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Commitment in Second Quarter of 2020</narrative>
    </description>
@@ -953,6 +976,45 @@
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">0</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2020</narrative>
+   </description>
+   <provider-org ref="44001">
+    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
+   </provider-org>
+   <flow-type code="20"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/988471589231536480/pdf/Project-Information-Document-UY-COVID-19-Emergency-Response-Project-P173876.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Information Document</narrative>
+   </title>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/610781594272049636/pdf/Uruguay-COVID-19-Emergency-Response-Project.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Appraisal Document</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/477681590530619816/pdf/Uruguay-COVID-19-Emergency-Response-Project.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Appraisal Document</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+  </document-link>
   <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173876?lang=en&amp;tab=procurement">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Contract Awards</narrative>

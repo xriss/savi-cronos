@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-mw" dstore:index="17" hierarchy="1" iati-activities:generated-datetime="2020-07-24T13:36:46" iati-activities:version="2.03" last-updated-datetime="2020-06-25T15:24:12" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-mw" dstore:index="17" hierarchy="1" iati-activities:generated-datetime="2020-08-05T04:54:24" iati-activities:version="2.03" last-updated-datetime="2020-07-23T15:31:04" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P173806</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -50,16 +50,43 @@
   <recipient-country code="MW" percentage="100">
    <narrative xml:lang="EN">MALAWI</narrative>
   </recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="0000927384" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Republic of Malawi</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-13.5000 34.0000</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+  </location>
   <sector code="12191" percentage="50" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12110" percentage="50" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="HG" percentage="100" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+  <sector code="HF" percentage="24" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Public Administration - Health</narrative>
+  </sector>
+  <sector code="HQ" percentage="38" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Facilities and Construction</narrative>
+  </sector>
+  <sector code="HG" percentage="38" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health</narrative>
   </sector>
-  <sector code="000626" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Pandemic Response</narrative>
+  <sector code="000063" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Systems and Policies</narrative>
   </sector>
-  <sector code="000062" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+  <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health System Strengthening</narrative>
+  </sector>
+  <sector code="000632" percentage="86" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Service Delivery</narrative>
+  </sector>
+  <sector code="000062" percentage="86" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disease Control</narrative>
+  </sector>
+  <sector code="000626" percentage="86" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Pandemic Response</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -778,22 +805,9 @@
   </budget>
   <capital-spend percentage="100"></capital-spend>
   <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">0</value>
-   <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2020</narrative>
-   </description>
-   <provider-org ref="44002">
-    <narrative xml:lang="EN">International Development Association</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="410"></finance-type>
-  </transaction>
-  <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">7000000</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">7000000</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Commitment in Second Quarter of 2020</narrative>
    </description>
@@ -803,6 +817,43 @@
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">1926677</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2020</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">International Development Association</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/296411586271909712/pdf/Project-Information-Document-Malawi-COVID-19-Emergency-Response-and-Health-Systems-Preparedness-Project-P173806.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Information Document</narrative>
+   </title>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/569721587417745602/pdf/Malawi-COVID-19-Emergency-Response-and-Health-Systems-Preparedness-Project.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Appraisal Document</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/243011594386317188/pdf/Disclosable-Version-of-the-ISR-Malawi-COVID-19-Emergency-Response-and-Health-Systems-Preparedness-Project-P173806-Sequence-No-01.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
+  </document-link>
   <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173806?lang=en&amp;tab=procurement">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Contract Awards</narrative>
@@ -821,5 +872,194 @@
    </title>
    <category code="A10"></category>
   </document-link>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of suspected cases of COVID-19 cases reported and investigated based on national guidelines</narrative>
+    </title>
+    <baseline iso-date="2020-04-15" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-15"></period-start>
+     <period-end iso-date="2022-05-31"></period-end>
+     <target value="80.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of designated laboratories with staff trained to conduct COVID-19 diagnosis.</narrative>
+    </title>
+    <baseline iso-date="2020-04-15" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-15"></period-start>
+     <period-end iso-date="2022-05-31"></period-end>
+     <target value="80.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of designated health facilities ready to treat COVID-19</narrative>
+    </title>
+    <baseline iso-date="2020-04-15" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-15"></period-start>
+     <period-end iso-date="2022-05-31"></period-end>
+     <target value="80.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of health staff trained in infection prevention and control per MOH-approved protocols</narrative>
+    </title>
+    <baseline iso-date="2020-04-15" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-15"></period-start>
+     <period-end iso-date="2022-05-31"></period-end>
+     <target value="870.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of health staff trained in emerging infectious diseases</narrative>
+    </title>
+    <baseline iso-date="2020-04-15" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-15"></period-start>
+     <period-end iso-date="2022-05-31"></period-end>
+     <target value="180.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of grievances addressed within 4 weeks of initial complaint being recorded</narrative>
+    </title>
+    <baseline iso-date="2020-04-15" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-15"></period-start>
+     <period-end iso-date="2022-05-31"></period-end>
+     <target value="80.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of surge capacity health workers contracted and deployed</narrative>
+    </title>
+    <baseline iso-date="2020-04-15" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-15"></period-start>
+     <period-end iso-date="2022-05-31"></period-end>
+     <target value="388.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">M&amp;E system established to monitor COVID-19 preparedness and response plan</narrative>
+    </title>
+    <baseline iso-date="2020-04-15" value="No" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-15"></period-start>
+     <period-end iso-date="2022-05-31"></period-end>
+     <target value="Yes"></target>
+     <actual value="No"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of teams trained in contact tracing</narrative>
+    </title>
+    <baseline iso-date="2020-04-15" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-15"></period-start>
+     <period-end iso-date="2022-05-31"></period-end>
+     <target value="29.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>

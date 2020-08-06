@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-tj" dstore:index="27" hierarchy="1" iati-activities:generated-datetime="2020-07-24T13:37:17" iati-activities:version="2.03" last-updated-datetime="2020-06-25T13:20:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-tj" dstore:index="12" hierarchy="1" iati-activities:generated-datetime="2020-08-05T04:54:55" iati-activities:version="2.03" last-updated-datetime="2020-07-23T13:20:47" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P173765</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -50,24 +50,51 @@
   <recipient-country code="TJ" percentage="100">
    <narrative xml:lang="EN">TAJIKISTAN</narrative>
   </recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="0001220409" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Republic of Tajikistan</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>39.0000 71.0000</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+  </location>
   <sector code="12250" percentage="34" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12191" percentage="30" vocabulary="1" xml:lang="EN"></sector>
   <sector code="16050" percentage="29" vocabulary="1" xml:lang="EN"></sector>
   <sector code="22013" percentage="7" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="HF" percentage="0" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+  <sector code="HF" percentage="13" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Public Administration - Health</narrative>
   </sector>
-  <sector code="000063" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Systems and Policies</narrative>
+  <sector code="SG" percentage="31" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Public Administration - Social Protection</narrative>
   </sector>
-  <sector code="000631" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health System Strengthening</narrative>
+  <sector code="HG" percentage="56" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health</narrative>
   </sector>
-  <sector code="000626" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+  <sector code="000052" percentage="35" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Social Protection</narrative>
+  </sector>
+  <sector code="000626" percentage="73" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Pandemic Response</narrative>
   </sector>
-  <sector code="000062" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+  <sector code="000062" percentage="73" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disease Control</narrative>
+  </sector>
+  <sector code="000521" percentage="35" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Social Safety Nets</narrative>
+  </sector>
+  <sector code="000633" percentage="65" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Finance</narrative>
+  </sector>
+  <sector code="000063" percentage="73" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Systems and Policies</narrative>
+  </sector>
+  <sector code="000631" percentage="73" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health System Strengthening</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -479,6 +506,11 @@
    <period-end iso-date="2026-11-30"></period-end>
    <value currency="USD" value-date="2026-11-30">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2026-12-01"></period-start>
+   <period-end iso-date="2026-12-31"></period-end>
+   <value currency="USD" value-date="2026-12-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2020-03-01"></period-start>
    <period-end iso-date="2020-03-31"></period-end>
@@ -884,11 +916,16 @@
    <period-end iso-date="2026-11-30"></period-end>
    <value currency="USD" value-date="2026-11-30">0</value>
   </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2026-12-01"></period-start>
+   <period-end iso-date="2026-12-31"></period-end>
+   <value currency="USD" value-date="2026-12-31">0</value>
+  </budget>
   <capital-spend percentage="100"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">11300000</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">11300000</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Commitment in Second Quarter of 2020</narrative>
    </description>
@@ -900,8 +937,8 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">1000000</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">1000000</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2020</narrative>
    </description>
@@ -911,6 +948,27 @@
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">5300000</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2020</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">International Development Association</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/274761585067722387/pdf/Project-Information-Document-Tajikistan-Emergency-COVID-19-Project-P173765.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Information Document</narrative>
+   </title>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/221151586420501350/pdf/Tajikistan-Emergency-COVID-19-Project.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Project Appraisal Document</narrative>
@@ -919,6 +977,29 @@
    <category code="A02"></category>
    <category code="A03"></category>
    <category code="A05"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/756331585951394674/pdf/Tajikistan-Emergency-COVID-19-Project.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Appraisal Document</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/638011595002965297/pdf/Disclosable-Version-of-the-ISR-Tajikistan-Emergency-COVID-19-Project-P173765-Sequence-No-01.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/512561594812122841/pdf/Disclosable-Version-of-the-ISR-Tajikistan-Emergency-COVID-19-Project-P173765-Sequence-No-01.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173765?lang=en&amp;tab=procurement">
    <title xml:lang="EN">
@@ -938,5 +1019,383 @@
    </title>
    <category code="A10"></category>
   </document-link>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beds in fully equipped and functional intensive case units (ICUs) financed by the project</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="100.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of health personnel trained by the project on CoVid19 preparedness and response</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="1000.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of vulnerable who households received targeted cash assistance financed by the project</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="30000.00"></target>
+     <actual value="13773.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">A communication and outreach strategy financed by the project is developed and approved by the Multisectoral Task Force</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="No" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="Yes"></target>
+     <actual value="No"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of PPE units procured by the project.</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="300000.00"></target>
+     <actual value="23800.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of grievances addressed within the time specified in the project implementation manual</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="80.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Beneficiaries of social safety net programs</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="30000.00"></target>
+     <actual value="13773.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of community volunteers trained by the project</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="1000.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of ventilators procured by the project.</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="100.00"></target>
+     <actual value="68.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Beneficiaries of social safety net programs - Female</narrative>
+    </title>
+    <baseline iso-date="1900-01-01" value="0.00" year="1900">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="1900-01-01"></period-start>
+     <period-end iso-date="1900-01-01"></period-end>
+     <target value="0.00"></target>
+     <actual value="13773.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of COVID -19 test kits procured by the project.</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="1200.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Beneficiaries of Safety Nets programs - Unconditional cash transfers (number)</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="30000.00"></target>
+     <actual value="13773.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Beneficiaries of Safety Nets programs - Social Pensions (number)</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="0.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Beneficiaries of Safety Nets programs - Other cash transfers programs (number)</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="0.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Beneficiaries of Safety Nets programs &#xC3;&#xA2;&#xE2;&#x82;&#xAC;&#xE2;&#x80;&#x9C; School feeding programs (number)</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="0.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Beneficiaries of Safety Nets programs - In-kind transfers (number)</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="0.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Beneficiaries of Safety Nets programs - Cash-for-work, food-for-work and public works (number)</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="0.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Beneficiaries of Safety Nets programs - Other social assistance programs (number)</narrative>
+    </title>
+    <baseline iso-date="2020-04-01" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2021-10-31"></period-end>
+     <target value="0.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>
