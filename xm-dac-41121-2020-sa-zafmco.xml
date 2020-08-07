@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="unhcr-2020" dstore:index="112" hierarchy="3" humanitarian="1" iati-activities:generated-datetime="2020-07-13T10:23:18.0640+02:00" iati-activities:version="2.03" last-updated-datetime="2020-07-13T10:10:37+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:unhcr="http://reporting.unhcr.org/">
+ <iati-activity default-currency="USD" dstore:dataset="unhcr-2020" dstore:index="112" hierarchy="3" humanitarian="1" iati-activities:generated-datetime="2020-08-06T18:51:13.0394+02:00" iati-activities:version="2.03" last-updated-datetime="2020-08-06T17:54:30+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:unhcr="http://reporting.unhcr.org/">
   <iati-identifier>XM-DAC-41121-2020-SA-ZAFMCO</iati-identifier>
   <reporting-org ref="XM-DAC-41121" type="40">
    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
@@ -50,17 +50,20 @@
   <participating-org role="1" type="22">
    <narrative xml:lang="EN">USA for UNHCR</narrative>
   </participating-org>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">Government of Botswana</narrative>
-  </participating-org>
   <participating-org ref="XI-IATI-EC_DEVCO" role="1" type="15">
    <narrative xml:lang="EN">European Commission - Directorate-General for International Cooperation and Development</narrative>
   </participating-org>
   <participating-org role="1" type="10">
-   <narrative xml:lang="EN">Government of South Africa</narrative>
+   <narrative xml:lang="EN">Government of Botswana</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-41110" role="1" type="40">
    <narrative xml:lang="EN">United Nations Joint Programme on HIV and AIDS Secretariat (UNAIDS)</narrative>
+  </participating-org>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">Government of South Africa</narrative>
+  </participating-org>
+  <participating-org ref="US-USAGOV" role="1" type="10">
+   <narrative xml:lang="EN">United States</narrative>
   </participating-org>
   <participating-org role="1" type="70">
    <narrative xml:lang="EN">Private donors</narrative>
@@ -136,7 +139,7 @@
    <exactness code="1"></exactness>
    <location-class code="3"></location-class>
   </location>
-  <sector code="1" percentage="93.2" vocabulary="99">
+  <sector code="1" percentage="93.21" vocabulary="99">
    <narrative xml:lang="EN">Refugee programme</narrative>
   </sector>
   <sector code="10" percentage="57.03" vocabulary="10">
@@ -157,11 +160,11 @@
   <sector code="115" percentage="5.4" vocabulary="98">
    <narrative xml:lang="EN">Public Attitudes towards Persons of Concern</narrative>
   </sector>
-  <sector code="2" percentage="6.8" vocabulary="99">
-   <narrative xml:lang="EN">Stateless programme</narrative>
-  </sector>
   <sector code="2" percentage="17.48" vocabulary="10">
    <narrative xml:lang="EN">Early Recovery</narrative>
+  </sector>
+  <sector code="2" percentage="6.79" vocabulary="99">
+   <narrative xml:lang="EN">Stateless programme</narrative>
   </sector>
   <sector code="210" percentage="1.07" vocabulary="98">
    <narrative xml:lang="EN">Reception Conditions</narrative>
@@ -265,6 +268,9 @@
   <sector code="9" percentage="4.73" vocabulary="10">
    <narrative xml:lang="EN">Nutrition</narrative>
   </sector>
+  <humanitarian-scope code="CORONAVIRUS-EMERGENCY-2020" type="2" vocabulary="99" vocabulary-uri="https://reporting.unhcr.org/covid-19-appeal">
+   <narrative xml:lang="EN">Coronavirus Emergency Appeal</narrative>
+  </humanitarian-scope>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2" vocabulary-uri="https://data.humdata.org/dataset/unocha-glides">
    <narrative xml:lang="EN">Novel Coronavirus Outbreak - Jan 2020</narrative>
   </humanitarian-scope>
@@ -283,13 +289,13 @@
   <budget>
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2019-10-11">26818411.87</value>
+   <value currency="USD" value-date="2019-10-11">26853865.46</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-07-13"></transaction-date>
-   <value currency="USD" value-date="2020-07-13">29016.747</value>
+   <transaction-date iso-date="2020-08-06"></transaction-date>
+   <value currency="USD" value-date="2020-08-06">29016.747</value>
    <description>
     <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19) Annual contribution summary</narrative>
    </description>
@@ -300,15 +306,15 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-02-14"></transaction-date>
-   <value currency="EUR" value-date="2020-02-14">123050</value>
+   <transaction-date iso-date="2020-07-16"></transaction-date>
+   <value currency="USD" value-date="2020-07-16">700000</value>
    <description>
     <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
    </description>
-   <provider-org ref="XI-IATI-EC_DEVCO" type="15">
-    <narrative xml:lang="EN">European Commission - Directorate-General for International Cooperation and Development</narrative>
+   <provider-org ref="US-USAGOV" type="10">
+    <narrative xml:lang="EN">United States</narrative>
    </provider-org>
-   <unhcr:value-USD>135667.034</unhcr:value-USD>
+   <unhcr:value-USD>700000</unhcr:value-USD>
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
@@ -330,6 +336,15 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-07-16"></transaction-date>
+   <value currency="USD" value-date="2020-07-16">2000000</value>
+   <provider-org ref="US-USAGOV" type="10">
+    <narrative xml:lang="EN">United States</narrative>
+   </provider-org>
+   <unhcr:value-USD>2000000</unhcr:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-06-16"></transaction-date>
    <value currency="USD" value-date="2020-06-16">15236.02</value>
    <provider-org type="10">
@@ -337,13 +352,22 @@
    </provider-org>
    <unhcr:value-USD>15236.02</unhcr:value-USD>
   </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-02-14"></transaction-date>
+   <value currency="EUR" value-date="2020-02-14">123050</value>
+   <provider-org ref="XI-IATI-EC_DEVCO" type="15">
+    <narrative xml:lang="EN">European Commission - Directorate-General for International Cooperation and Development</narrative>
+   </provider-org>
+   <unhcr:value-USD>135667.034</unhcr:value-USD>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/node/2524">
    <title>
     <narrative xml:lang="EN">Operation Website</narrative>
    </title>
    <category code="A12"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://help.unhcr.org/">
    <title>
@@ -351,7 +375,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unhcr.org/">
    <title>
@@ -359,7 +383,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/iati">
    <title>
@@ -367,7 +391,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unhcr.org/search?page=search&amp;skip=0&amp;docid=&amp;cid=49aea93a7d&amp;coi=ZAF&amp;comid=4a098fdd6">
    <title>
@@ -375,7 +399,7 @@
    </title>
    <category code="B17"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://app.powerbi.com/view?r=eyJrIjoiM2M2NDMyZTgtZmQ4OC00ZDE1LWEyYWMtMTAxZDY2NzMyY2QxIiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9">
    <title>
@@ -383,7 +407,7 @@
    </title>
    <category code="B17"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/covid-19">
    <title>
@@ -391,7 +415,7 @@
    </title>
    <category code="B18"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <related-activity ref="XM-DAC-41121-2020-SAO" type="1"></related-activity>
   <related-activity ref="XM-DAC-41121-2021-SA-ZAFMCO" type="3"></related-activity>

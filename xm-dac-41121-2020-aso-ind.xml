@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="unhcr-2020" dstore:index="29" hierarchy="3" humanitarian="1" iati-activities:generated-datetime="2020-07-13T10:23:18.0640+02:00" iati-activities:version="2.03" last-updated-datetime="2020-07-13T10:10:37+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:unhcr="http://reporting.unhcr.org/">
+ <iati-activity default-currency="USD" dstore:dataset="unhcr-2020" dstore:index="29" hierarchy="3" humanitarian="1" iati-activities:generated-datetime="2020-08-06T18:51:13.0394+02:00" iati-activities:version="2.03" last-updated-datetime="2020-08-06T17:54:30+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:unhcr="http://reporting.unhcr.org/">
   <iati-identifier>XM-DAC-41121-2020-ASO-IND</iati-identifier>
   <reporting-org ref="XM-DAC-41121" type="40">
    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
@@ -53,12 +53,15 @@
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Government of Japan</narrative>
   </participating-org>
+  <participating-org ref="US-USAGOV" role="1" type="10">
+   <narrative xml:lang="EN">United States</narrative>
+  </participating-org>
   <participating-org role="1" type="70">
    <narrative xml:lang="EN">Private donors</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
   <activity-date iso-date="2020-01-01" type="2"></activity-date>
+  <activity-date iso-date="2020-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
@@ -114,11 +117,11 @@
   <sector code="115" percentage="2.27" vocabulary="98">
    <narrative xml:lang="EN">Public Attitudes towards Persons of Concern</narrative>
   </sector>
-  <sector code="2" percentage="1.19" vocabulary="99">
-   <narrative xml:lang="EN">Stateless programme</narrative>
-  </sector>
   <sector code="2" percentage="26.02" vocabulary="10">
    <narrative xml:lang="EN">Early Recovery</narrative>
+  </sector>
+  <sector code="2" percentage="1.19" vocabulary="99">
+   <narrative xml:lang="EN">Stateless programme</narrative>
   </sector>
   <sector code="211" percentage="1.17" vocabulary="98">
    <narrative xml:lang="EN">Identification of Statelessness</narrative>
@@ -195,6 +198,9 @@
   <sector code="811" percentage="2.24" vocabulary="98">
    <narrative xml:lang="EN">Operations management, Coordination and Support</narrative>
   </sector>
+  <humanitarian-scope code="CORONAVIRUS-EMERGENCY-2020" type="2" vocabulary="99" vocabulary-uri="https://reporting.unhcr.org/covid-19-appeal">
+   <narrative xml:lang="EN">Coronavirus Emergency Appeal</narrative>
+  </humanitarian-scope>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2" vocabulary-uri="https://data.humdata.org/dataset/unocha-glides">
    <narrative xml:lang="EN">Novel Coronavirus Outbreak - Jan 2020</narrative>
   </humanitarian-scope>
@@ -230,8 +236,8 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-07-13"></transaction-date>
-   <value currency="USD" value-date="2020-07-13">33259.946</value>
+   <transaction-date iso-date="2020-08-06"></transaction-date>
+   <value currency="USD" value-date="2020-08-06">33259.946</value>
    <description>
     <narrative xml:lang="EN">Annual contribution summary</narrative>
    </description>
@@ -242,8 +248,20 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-07-13"></transaction-date>
-   <value currency="USD" value-date="2020-07-13">19057.991</value>
+   <transaction-date iso-date="2020-08-06"></transaction-date>
+   <value currency="USD" value-date="2020-08-06">22727.272</value>
+   <description>
+    <narrative xml:lang="EN">Annual contribution summary</narrative>
+   </description>
+   <provider-org type="70">
+    <narrative xml:lang="EN">Private donors in Austria</narrative>
+   </provider-org>
+   <unhcr:value-USD>22727.272</unhcr:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-08-06"></transaction-date>
+   <value currency="USD" value-date="2020-08-06">19057.991</value>
    <description>
     <narrative xml:lang="EN">Annual contribution summary</narrative>
    </description>
@@ -252,13 +270,22 @@
    </provider-org>
    <unhcr:value-USD>19057.991</unhcr:value-USD>
   </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-07-16"></transaction-date>
+   <value currency="USD" value-date="2020-07-16">900000</value>
+   <provider-org ref="US-USAGOV" type="10">
+    <narrative xml:lang="EN">United States</narrative>
+   </provider-org>
+   <unhcr:value-USD>900000</unhcr:value-USD>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/node/10314">
    <title>
     <narrative xml:lang="EN">Operation Website</narrative>
    </title>
    <category code="A12"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://help.unhcr.org/">
    <title>
@@ -266,7 +293,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unhcr.org/">
    <title>
@@ -274,7 +301,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/iati">
    <title>
@@ -282,7 +309,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unhcr.org/search?page=search&amp;skip=0&amp;docid=&amp;cid=49aea93a7d&amp;coi=IND&amp;comid=4a098fdd6">
    <title>
@@ -290,7 +317,7 @@
    </title>
    <category code="B17"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://app.powerbi.com/view?r=eyJrIjoiM2M2NDMyZTgtZmQ4OC00ZDE1LWEyYWMtMTAxZDY2NzMyY2QxIiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9">
    <title>
@@ -298,7 +325,7 @@
    </title>
    <category code="B17"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/covid-19">
    <title>
@@ -306,7 +333,7 @@
    </title>
    <category code="B18"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-07-12"></document-date>
+   <document-date iso-date="2020-08-02"></document-date>
   </document-link>
   <related-activity ref="XM-DAC-41121-2020-ASO" type="1"></related-activity>
   <related-activity ref="XM-DAC-41121-2019-ASO-IND" type="3"></related-activity>
@@ -525,6 +552,25 @@
     <narrative xml:lang="EN">Health</narrative>
    </title>
    <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Emergency response</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of persons referred to secondary and tertiary medical care</narrative>
+    </title>
+    <baseline year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="200"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Health</narrative>
+   </title>
+   <description>
     <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
    </description>
    <indicator measure="1">
@@ -653,6 +699,25 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">SGBV prevention and response</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Emergency response</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Extent known SGBV survivors receive appropriate support</narrative>
+    </title>
+    <baseline year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="80"></target>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
     <narrative xml:lang="EN">SGBV prevention and response</narrative>
@@ -707,6 +772,25 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="80"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Services for persons with specific needs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Emergency response</narrative>
+   </description>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">% of persons of concern with disabilities who receive services for their specific needs</narrative>
+    </title>
+    <baseline value="53" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="65"></target>
     </period>
    </indicator>
   </result>
