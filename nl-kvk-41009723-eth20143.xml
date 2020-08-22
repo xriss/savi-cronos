@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="zoa-activities" dstore:index="85" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-08-20T08:37:40+00:00" iati-activities:version="2.03" last-updated-datetime="2020-06-26T17:23:12+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" dstore:dataset="zoa-activities" dstore:index="85" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-08-21T16:47:58+00:00" iati-activities:version="2.03" last-updated-datetime="2020-08-21T12:13:42+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41009723-ETH20143</iati-identifier>
   <reporting-org ref="NL-KVK-41009723" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">ZOA</narrative>
@@ -17,7 +17,7 @@
   <participating-org activity-id="NL-KVK-41197577-2020DLJR-L" ref="NL-KVK-41197577" role="1" type="21">
    <narrative xml:lang="EN">SOS Children&apos;s Villages The Netherlands</narrative>
   </participating-org>
-  <participating-org ref="NL-KVK-41009723" role="4" type="21">
+  <participating-org activity-id="NL-KVK-41009723-ETH20143" ref="NL-KVK-41009723" role="4" type="21">
    <narrative xml:lang="EN">ZOA</narrative>
   </participating-org>
   <participating-org activity-id="NL-KVK-41009723-ETH20143" ref="NL-KVK-41009723" role="2" type="21">
@@ -45,10 +45,18 @@
    <period-end iso-date="2020-10-21"></period-end>
    <value currency="EUR" value-date="2020-04-22">481068.73</value>
   </budget>
+  <transaction humanitarian="1" ref="Incoming commitment">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="EUR" value-date="2020-03-31">481069</value>
+   <provider-org provider-activity-id="NL-KVK-41197577-2020DLJR-L" ref="NL-KVK-41197577" type="21">
+    <narrative xml:lang="EN">SOS Children&apos;s Villages The Netherlands</narrative>
+   </provider-org>
+  </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-26"></transaction-date>
-   <value currency="EUR" value-date="2020-06-26">2776.1</value>
+   <transaction-date iso-date="2020-08-21"></transaction-date>
+   <value currency="EUR" value-date="2020-08-21">31028</value>
    <description>
     <narrative xml:lang="EN">Expenditure 2020</narrative>
    </description>
@@ -60,35 +68,30 @@
    <description>
     <narrative xml:lang="EN">NLD to ETH Recved fro ETH20143</narrative>
    </description>
-   <provider-org provider-activity-id="NL-KVK-41197577-2020DLJR-L" ref="NL-KVK-41197577"></provider-org>
-   <receiver-org ref="NL-KVK-41009723" type="21">
-    <narrative xml:lang="EN">ZOA</narrative>
-   </receiver-org>
+   <provider-org provider-activity-id="NL-KVK-41197577-2020DLJR-L" ref="NL-KVK-41197577" type="21">
+    <narrative xml:lang="EN">SOS Children&apos;s Villages The Netherlands</narrative>
+   </provider-org>
   </transaction>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">FSC-R1 Short-term livelihood support</narrative>
+    <narrative xml:lang="EN">Capacity Building (localisation)</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">FSCI1 - FSC-R1 Short-term livelihood support</narrative>
+    <narrative xml:lang="EN">LOCR2 - Capacity Building (localisation)</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">FSC-I1 - Number of people provided with resources to protect and start rebuilding livelihood assets</narrative>
+     <narrative xml:lang="EN">LOC-R2 - % of budget spent on capacity building of national an local actors</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Procurement and distribution of specialized crop and grass seeds for vulnerable households, procurement and distribution of agricultural tools, restocking for female headed households as per LEGS standard and capacity building                                                                                                                   on DL control</narrative>
+     <narrative xml:lang="EN">Percentage of budget spent on capacity building of local government and community on Desert Locust control</narrative>
     </description>
-    <reference code="Indicator Code from ZOA Manager" indicator-uri="https://www.zoa-international.com" vocabulary="99"></reference>
+    <reference code="LOC-I2" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-22"></period-start>
      <period-end iso-date="2020-10-21"></period-end>
-     <target value="9000">
-      <dimension name="Girls"></dimension>
-      <dimension name="Boys"></dimension>
-      <dimension name="Women"></dimension>
-      <dimension name="Men"></dimension>
-     </target>
+     <target value="2.15%"></target>
+     <actual value="0.1"></actual>
     </period>
    </indicator>
   </result>
@@ -106,7 +109,7 @@
     <description>
      <narrative xml:lang="EN">Procurement and distribution of Hygiene Kits and NFIs, incl. soap, for 150 HHs, hand sanitizers for government institutions and jerry cans for 600 HHs</narrative>
     </description>
-    <reference code="Indicator Code from ZOA Manager" indicator-uri="https://www.zoa-international.com" vocabulary="99"></reference>
+    <reference code="WSH-I1" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-22"></period-start>
      <period-end iso-date="2020-10-21"></period-end>
@@ -125,7 +128,7 @@
     <description>
      <narrative xml:lang="EN">Hygiene promotion: launch public information campaigns on how to protect yourself and others from the COVID-19 virus</narrative>
     </description>
-    <reference code="Indicator Code from ZOA Manager" indicator-uri="https://www.zoa-international.com" vocabulary="99"></reference>
+    <reference code="WSH-I6" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-22"></period-start>
      <period-end iso-date="2020-10-21"></period-end>
@@ -152,7 +155,7 @@
     <description>
      <narrative xml:lang="EN">Installation/preparation of bore holes</narrative>
     </description>
-    <reference code="Indicator Code from ZOA Manager" indicator-uri="https://www.zoa-international.com" vocabulary="99"></reference>
+    <reference code="WSH-I4" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-22"></period-start>
      <period-end iso-date="2020-10-21"></period-end>
@@ -162,55 +165,6 @@
       <dimension name="Women"></dimension>
       <dimension name="Men"></dimension>
      </target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Unconditional and unrestricted cash</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">CSHR1 - Unconditional and unrestricted cash</narrative>
-   </description>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">CSH-R1 - Number of people benefitting unconditional and unrestricted cash</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Provsion of Multipurpose Cash</narrative>
-    </description>
-    <reference code="Indicator Code from ZOA Manager" indicator-uri="https://www.zoa-international.com" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-04-22"></period-start>
-     <period-end iso-date="2020-10-21"></period-end>
-     <target value="1500">
-      <dimension name="Girls"></dimension>
-      <dimension name="Boys"></dimension>
-      <dimension name="Women"></dimension>
-      <dimension name="Men"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Capacity Building (localisation)</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">LOCR2 - Capacity Building (localisation)</narrative>
-   </description>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">LOC-R2 - % of budget spent on capacity building of national an local actors</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Percentage of budget spent on capacity building of local government and community on Desert Locust control</narrative>
-    </description>
-    <reference code="Indicator Code from ZOA Manager" indicator-uri="https://www.zoa-international.com" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-04-22"></period-start>
-     <period-end iso-date="2020-10-21"></period-end>
-     <target value="2.15%"></target>
     </period>
    </indicator>
   </result>
@@ -228,11 +182,77 @@
     <description>
      <narrative xml:lang="EN">Local community members, including local leaders, women representatives and government officials involved in decision-making, design and implementation of the project, especially in terms of beneficiary selection</narrative>
     </description>
-    <reference code="Indicator Code from ZOA Manager" indicator-uri="https://www.zoa-international.com" vocabulary="99"></reference>
+    <reference code="ACC-I1" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-22"></period-start>
      <period-end iso-date="2020-10-21"></period-end>
      <target value="82">
+      <dimension name="Girls"></dimension>
+      <dimension name="Boys"></dimension>
+      <dimension name="Women"></dimension>
+      <dimension name="Men"></dimension>
+     </target>
+     <actual value="128">
+      <dimension name="Girls" value="26"></dimension>
+      <dimension name="Boys" value="25"></dimension>
+      <dimension name="Women" value="36"></dimension>
+      <dimension name="Men" value="41"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">FSC-R1 Short-term livelihood support</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">FSCI1 - FSC-R1 Short-term livelihood support</narrative>
+   </description>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">FSC-I1 - Number of people provided with resources to protect and start rebuilding livelihood assets</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Procurement and distribution of specialized crop and grass seeds for vulnerable households, procurement and distribution of agricultural tools, restocking for female headed households as per LEGS standard and capacity building on DL control</narrative>
+    </description>
+    <reference code="FSC-I1" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-04-22"></period-start>
+     <period-end iso-date="2020-10-21"></period-end>
+     <target value="9000">
+      <dimension name="Girls"></dimension>
+      <dimension name="Boys"></dimension>
+      <dimension name="Women"></dimension>
+      <dimension name="Men"></dimension>
+     </target>
+     <actual value="2775">
+      <dimension name="Girls" value="953"></dimension>
+      <dimension name="Boys" value="834"></dimension>
+      <dimension name="Women" value="533"></dimension>
+      <dimension name="Men" value="455"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Unconditional and unrestricted cash</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">CSHR1 - Unconditional and unrestricted cash</narrative>
+   </description>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">CSH-R1 - Number of people benefitting unconditional and unrestricted cash</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Provsion of Multipurpose Cash</narrative>
+    </description>
+    <reference code="CSH-I1" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-04-22"></period-start>
+     <period-end iso-date="2020-10-21"></period-end>
+     <target value="1500">
       <dimension name="Girls"></dimension>
       <dimension name="Boys"></dimension>
       <dimension name="Women"></dimension>
