@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="iom-activity" dstore:index="1109" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-07-30T05:51:17.216338+00:00" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1223" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-08-28T17:16:00.768044+00:00" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-MP.0462</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -17,7 +17,7 @@
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-05-01" type="1">
    <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
@@ -26,6 +26,9 @@
   </activity-date>
   <activity-date iso-date="2020-07-31" type="3">
    <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-07-31" type="4">
+   <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -47,6 +50,9 @@
   <sector code="72010" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
+  <policy-marker code="1" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
+   <narrative xml:lang="EN">Project with some but insufficient inclusion of gender issues</narrative>
+  </policy-marker>
   <budget status="2" type="1">
    <period-start iso-date="2020-05-01"></period-start>
    <period-end iso-date="2020-07-31"></period-end>
@@ -57,10 +63,10 @@
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-05-01"></transaction-date>
    <value currency="USD" value-date="2020-05-01">79999.99</value>
-   <provider-org ref="XM-DAC-928" type="40">
+   <provider-org provider-activity-id="XM-DAC-928" ref="XM-DAC-928" type="40">
     <narrative xml:lang="EN">World Health Organization</narrative>
    </provider-org>
-   <flow-type code="10"></flow-type>
+   <flow-type code="30"></flow-type>
    <finance-type code="110"></finance-type>
    <aid-type code="B03" vocabulary="1"></aid-type>
   </transaction>
