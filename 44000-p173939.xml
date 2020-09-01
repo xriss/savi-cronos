@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-ls" dstore:index="14" hierarchy="1" iati-activities:generated-datetime="2020-08-05T04:54:22" iati-activities:version="2.03" last-updated-datetime="2020-07-23T12:57:45" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-ls" dstore:index="17" hierarchy="1" iati-activities:generated-datetime="2020-08-30T11:05:33" iati-activities:version="2.03" last-updated-datetime="2020-08-28T18:20:51" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P173939</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -32,6 +32,9 @@
   </activity-date>
   <activity-date iso-date="2022-06-30" type="3">
    <narrative xml:lang="EN">Planned end date of the activity</narrative>
+  </activity-date>
+  <activity-date iso-date="2022-06-30" type="4">
+   <narrative xml:lang="EN">Actual end date of the activity</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -65,23 +68,26 @@
   <sector code="12261" percentage="34" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12191" percentage="33" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12110" percentage="33" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="HQ" percentage="50" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Facilities and Construction</narrative>
-  </sector>
   <sector code="HG" percentage="50" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health</narrative>
   </sector>
-  <sector code="000632" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Service Delivery</narrative>
+  <sector code="HQ" percentage="50" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Facilities and Construction</narrative>
+  </sector>
+  <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health System Strengthening</narrative>
   </sector>
   <sector code="000626" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Pandemic Response</narrative>
   </sector>
-  <sector code="000051" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Social Inclusion</narrative>
-  </sector>
   <sector code="000062" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disease Control</narrative>
+  </sector>
+  <sector code="000632" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Service Delivery</narrative>
+  </sector>
+  <sector code="000633" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Finance</narrative>
   </sector>
   <sector code="000513" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Participation and Civic Engagement</narrative>
@@ -89,11 +95,8 @@
   <sector code="000063" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health Systems and Policies</narrative>
   </sector>
-  <sector code="000633" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Finance</narrative>
-  </sector>
-  <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health System Strengthening</narrative>
+  <sector code="000051" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Social Inclusion</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -780,23 +783,6 @@
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/240741588234502363/pdf/Project-Information-Document-Lesotho-COVID-19-Emergency-Preparedness-and-Response-Project-P173939.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Information Document</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/119521590530378972/pdf/Lesotho-COVID-19-Emergency-Preparedness-and-Response-Project.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Appraisal Document</narrative>
-   </title>
-   <category code="A01"></category>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
   <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173939?lang=en&amp;tab=procurement">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Contract Awards</narrative>

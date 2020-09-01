@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-dm" dstore:index="3" hierarchy="1" iati-activities:generated-datetime="2020-08-05T04:53:54" iati-activities:version="2.03" last-updated-datetime="2020-07-23T12:58:37" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-dm" dstore:index="3" hierarchy="1" iati-activities:generated-datetime="2020-08-30T11:05:02" iati-activities:version="2.03" last-updated-datetime="2020-08-28T18:19:01" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P166328</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -32,6 +32,9 @@
   </activity-date>
   <activity-date iso-date="2023-06-30" type="3">
    <narrative xml:lang="EN">Planned end date of the activity</narrative>
+  </activity-date>
+  <activity-date iso-date="2023-06-30" type="4">
+   <narrative xml:lang="EN">Actual end date of the activity</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -177,9 +180,6 @@
   <sector code="31320" percentage="9" vocabulary="1" xml:lang="EN"></sector>
   <sector code="31163" percentage="8" vocabulary="1" xml:lang="EN"></sector>
   <sector code="31191" percentage="3" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="AF" percentage="6" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Fisheries</narrative>
-  </sector>
   <sector code="AH" percentage="8" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Crops</narrative>
   </sector>
@@ -195,32 +195,20 @@
   <sector code="AB" percentage="30" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Agricultural Extension, Research, and Other Support Activities</narrative>
   </sector>
-  <sector code="000811" percentage="10" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Mitigation</narrative>
+  <sector code="AF" percentage="6" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Fisheries</narrative>
   </sector>
-  <sector code="000751" percentage="49" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Disaster Response and Recovery</narrative>
-  </sector>
-  <sector code="000062" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Disease Control</narrative>
+  <sector code="000721" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Rural Markets</narrative>
   </sector>
   <sector code="000754" percentage="36" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Flood and Drought Risk Management</narrative>
   </sector>
-  <sector code="000061" percentage="22" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Gender</narrative>
+  <sector code="000811" percentage="10" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Mitigation</narrative>
   </sector>
   <sector code="000812" percentage="64" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Adaptation</narrative>
-  </sector>
-  <sector code="000626" percentage="1" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Pandemic Response</narrative>
-  </sector>
-  <sector code="000081" percentage="74" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Climate change</narrative>
-  </sector>
-  <sector code="000721" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Rural Markets</narrative>
   </sector>
   <sector code="000072" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Rural Development</narrative>
@@ -230,6 +218,21 @@
   </sector>
   <sector code="000723" percentage="53" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Rural Infrastructure and service delivery</narrative>
+  </sector>
+  <sector code="000751" percentage="49" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disaster Response and Recovery</narrative>
+  </sector>
+  <sector code="000062" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disease Control</narrative>
+  </sector>
+  <sector code="000061" percentage="22" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Gender</narrative>
+  </sector>
+  <sector code="000626" percentage="1" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Pandemic Response</narrative>
+  </sector>
+  <sector code="000081" percentage="74" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Climate change</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -1381,60 +1384,6 @@
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/676791523844067219/pdf/Dominica-Project-Appraisal-Document-PAD-April-4-2018-04042018.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Appraisal Document</narrative>
-   </title>
-   <category code="A01"></category>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/654351548300932518/pdf/Disclosable-Version-of-the-ISR-Emergency-Agricultural-Livelihoods-and-Climate-Resilience-Project-P166328-Sequence-No-02.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/607541592191514201/pdf/Disclosable-Version-of-the-ISR-Emergency-Agricultural-Livelihoods-and-Climate-Resilience-Project-P166328-Sequence-No-05.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/500261531965686374/pdf/Disclosable-Version-of-the-ISR-Emergency-Agricultural-Livelihoods-and-Climate-Resilience-Project-P166328-Sequence-No-01.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/204721565923550595/pdf/Disclosable-Version-of-the-ISR-Emergency-Agricultural-Livelihoods-and-Climate-Resilience-Project-P166328-Sequence-No-03.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/189941574306710071/pdf/Disclosable-Version-of-the-ISR-Emergency-Agricultural-Livelihoods-and-Climate-Resilience-Project-P166328-Sequence-No-04.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/467621526651120301/pdf/ITK532331-201804180940.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Financing Agreement</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A04"></category>
-   <category code="A05"></category>
-   <category code="A06"></category>
-   <category code="A09"></category>
-  </document-link>
   <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P166328?lang=en&amp;tab=procurement">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Contract Awards</narrative>
@@ -1454,47 +1403,6 @@
    <category code="A10"></category>
   </document-link>
   <related-activity ref="44000-P174247" type="2"></related-activity>
-  <conditions attached="1">
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section I. A.1. of the Financing Agreement: The Recipient shall operate and maintain, throughout Projectimplementation, a Project Implementation Unit (PIU) under the administrative authority of MAF to be responsible for the overallimplementation, management, monitoring and evaluation of the Project with qualified and experienced staff in sufficient numbers, aswell as with adequate funds, facilities, services and other resources acceptable to the Association, as further detailed in theProject Operational Manual.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section I.A.2 (a). of the Financing Agreement: Not later than three months after the Effective Date, the Recipientshall establish and thereafter operate and maintain in form and substance satisfactory to the Association, as further detailed inthe Project Operational Manual and throughout Project implementation, a Project Steering Committee to be co-chaired by theRecipient&apos;s Financial Secretary, and with representatives from relevant ministries, to be in charge of the overall strategicguidance and oversight of the Project;</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section I.A.2 (b). of the Financing Agreement: Not later than three months after the Effective Date, the Recipientshall: (i)	establish and thereafter operate and maintain in form and substance satisfactory to the Association, as furtherdetailed in the Project Operational Manual and throughout Project implementation, the Implementation Support Team under theauthority of MOF to provide fiduciary and quality assurance assistance for the Project; and (ii)	employ staff and consultants withqualifications and terms of reference acceptable to the Association.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section I.B.1. of the Financing Agreement:  The Recipient shall not later than two months after the Effective Dateadopt and publish the Project Operational Manual, in form and substance satisfactory to the Association, and thereafter carry outthe Project, and/or cause the Project to be carried out, in accordance with said Project Operational Manual, which consists ofdifferent schedules setting forth, respectively, rules, methods, guidelines, specific development plans, standard documents, andprocedures for the carrying out of the Project.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section I.D.1. of the Financing Agreement: The Recipient shall provide Grants to Eligible Beneficiaries for theimplementation of Activities under Parts A.1 and A.2 of the Project in accordance with eligibility criteria and proceduressatisfactory to the Association and specified in the Project Operational Manual.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section I.D.2. of the Financing Agreement: Prior to initiating any activity under Parts A.1 and A.2 of the Project, theRecipient shall: (a)	 enter into an agreement with the Eligible Beneficiary, in terms substantially similar to those in the modelform of Beneficiary Agreement set forth in the Project Operational Manual, and in terms and conditions acceptable to theAssociation; and(b)	exercise its rights and carry out its obligations under each Beneficiary Agreement in such manner as toprotect the interest of the Recipient and the Association and to accomplish the objectives of the Project. Except as theAssociation shall otherwise agree, the Recipient, shall not assign, amend, abrogate, terminate of waive or fail to enforce anyBeneficiary Grant Agreement or any of its provisions.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section III. B. 3. of the Financing Agreement: No withdrawal shall be made for payments under Category (3), forEmergency Expenditures under Part D of the Project, unless and until the Association is satisfied, and has notified the Recipientof its satisfaction, that all of theconditions specified in the FA have been met in respect of said activities.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section IV. 1. of the Financing Agreement: The Recipient shall not later than 120 days after the Effective Date furnishto the Association a final version of the Procurement Plan and the PPSD, satisfactory to the Association.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section IV.2 (a). of the Financing Agreement: Not later than six weeks after the Effective Date recruit in a manneracceptable to the Association, consultants to prepare the Safeguard Documents with qualifications and terms of reference acceptableto the Association.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section IV.2 (b). of the Financing Agreement: Not later than three months after the Effective Date, furnish to theAssociation the first draft of said Safeguard Documents including the Grievance Redress Mechanism.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section IV.2 (c). of the Financing Agreement: Not later than four months after the Effective Date, finalize, adopt andpublish the Safeguard Documents, all in form and substance satisfactory to the Association.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section IV.3. of the Financing Agreement: The Recipient shall, not later than six months after the Effective Date,recruit engineering consultants, with qualifications and under terms of reference satisfactory to the Association, to prepare aninventory of public agricultural sector infrastructure under MAF that was damaged by Hurricane Maria and prepare final engineeringdesigns and bidding documents for the reconstruction.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Schedule 2; Section IV.4  of the Financing Agreement: The Recipient shall not later than six months after the Effective Date,develop and start implementing a comprehensive Management and Information System, satisfactory to the Association, for themonitoring and evaluation of the Project (including the system for identification and verification of Project beneficiaries).</narrative>
-   </condition>
-  </conditions>
   <result aggregation-status="0" type="2">
    <title>
     <narrative xml:lang="EN">PDO Indicator</narrative>

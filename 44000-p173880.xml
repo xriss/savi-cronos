@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-tg" dstore:index="9" hierarchy="1" iati-activities:generated-datetime="2020-08-05T04:54:58" iati-activities:version="2.03" last-updated-datetime="2020-07-23T16:57:33" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-tg" dstore:index="20" hierarchy="1" iati-activities:generated-datetime="2020-08-30T11:06:20" iati-activities:version="2.03" last-updated-datetime="2020-08-28T21:10:14" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P173880</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -32,6 +32,9 @@
   </activity-date>
   <activity-date iso-date="2022-03-31" type="3">
    <narrative xml:lang="EN">Planned end date of the activity</narrative>
+  </activity-date>
+  <activity-date iso-date="2022-03-31" type="4">
+   <narrative xml:lang="EN">Actual end date of the activity</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -67,11 +70,14 @@
   <sector code="12250" percentage="26" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12281" percentage="10" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12220" percentage="10" vocabulary="1" xml:lang="EN"></sector>
+  <sector code="HQ" percentage="46" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Facilities and Construction</narrative>
+  </sector>
   <sector code="HF" percentage="54" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Public Administration - Health</narrative>
   </sector>
-  <sector code="HQ" percentage="46" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Facilities and Construction</narrative>
+  <sector code="000626" percentage="57" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Pandemic Response</narrative>
   </sector>
   <sector code="000063" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health Systems and Policies</narrative>
@@ -79,17 +85,14 @@
   <sector code="000633" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health Finance</narrative>
   </sector>
-  <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health System Strengthening</narrative>
-  </sector>
   <sector code="000632" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health Service Delivery</narrative>
   </sector>
   <sector code="000062" percentage="57" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disease Control</narrative>
   </sector>
-  <sector code="000626" percentage="57" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Pandemic Response</narrative>
+  <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health System Strengthening</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -779,23 +782,19 @@
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/953211586451699422/pdf/Project-Information-Document-Togo-COVID-19-Emergency-Response-and-System-Preparedness-Strengthening-P173880.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Information Document</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/343641587944851847/pdf/Togo-COVID-19-Emergency-Response-and-Systems-Preparedness-Strengthening-Project.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Appraisal Document</narrative>
-   </title>
-   <category code="A01"></category>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">290834</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2020</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">International Development Association</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173880?lang=en&amp;tab=procurement">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Contract Awards</narrative>
@@ -814,5 +813,320 @@
    </title>
    <category code="A10"></category>
   </document-link>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Complaints to the Grievance Redress Mechanism (GRM) satisfactorily addressed</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="80.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Points of entry staff trained on screening and management of suspected COVID-19 case</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="1.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="500.00"></target>
+     <actual value="180.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Designated laboratories with COVID-19 diagnostic equipment, test kits, and reagents</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="1.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="3.00"></target>
+     <actual value="5.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Suspected cases of COVID-19 reported and investigated based on national guidelines</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="483.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="1500.00"></target>
+     <actual value="3721.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of suspected COVID-19 cases diagnosed by designated laboratories  within 24 hrs</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="5.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="50.00"></target>
+     <actual value="20.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Designated laboratories with personal protective equipment, regent and infection control products and supplies, without stock-outs in last 2 weeks</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="3.00"></target>
+     <actual value="6.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Activation of public health Emergency Operations Centre or a coordination mechanism for COVID-19</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="NO" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="YES"></target>
+     <actual value="YES"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Designated acute healthcare facilities with isolation capacity</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="1.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="9.00"></target>
+     <actual value="37.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Diagnosed cases treated in the designated treatment centers per approved protocol</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="80.00"></target>
+     <actual value="100.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Regional and district&apos;s Laboratories equipped</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="40.00"></target>
+     <actual value="11.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Medical and veterinary laboratory personnel trained</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="62.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="1000.00"></target>
+     <actual value="150.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Designated laboratories with staff trained to conduct COVID-19 diagnosis</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="1.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="9.00"></target>
+     <actual value="7.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Health staff trained in infection prevention per MOH-approved protocols</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="50.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="1000.00"></target>
+     <actual value="365.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Training attended by project management unit members and technical consultants</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="5.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">M&amp;E system established to monitor COVID-19 preparedness and response plan.</narrative>
+    </title>
+    <baseline iso-date="2020-04-28" value="NO" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-28"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="YES"></target>
+     <actual value="YES"></actual>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>

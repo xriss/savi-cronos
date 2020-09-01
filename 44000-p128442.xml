@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-am" dstore:index="16" hierarchy="1" iati-activities:generated-datetime="2020-08-05T04:53:32" iati-activities:version="2.03" last-updated-datetime="2020-07-23T19:25:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-am" dstore:index="16" hierarchy="1" iati-activities:generated-datetime="2020-08-30T11:04:31" iati-activities:version="2.03" last-updated-datetime="2020-08-28T23:57:40" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P128442</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -32,6 +32,9 @@
   </activity-date>
   <activity-date iso-date="2022-09-30" type="3">
    <narrative xml:lang="EN">Planned end date of the activity</narrative>
+  </activity-date>
+  <activity-date iso-date="2022-09-30" type="4">
+   <narrative xml:lang="EN">Actual end date of the activity</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -198,38 +201,38 @@
   <sector code="12230" percentage="45" vocabulary="1" xml:lang="EN"></sector>
   <sector code="13020" percentage="5" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12110" percentage="2" vocabulary="1" xml:lang="EN"></sector>
+  <sector code="ET" percentage="2" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Tertiary Education</narrative>
+  </sector>
   <sector code="HG" percentage="75" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health</narrative>
   </sector>
   <sector code="HF" percentage="23" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Public Administration - Health</narrative>
   </sector>
-  <sector code="ET" percentage="2" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Tertiary Education</narrative>
-  </sector>
-  <sector code="000625" percentage="33" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Non-communicable diseases</narrative>
+  <sector code="000023" percentage="10" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Public Private Partnerships</narrative>
   </sector>
   <sector code="000631" percentage="61" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health System Strengthening</narrative>
   </sector>
+  <sector code="000626" percentage="1" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Pandemic Response</narrative>
+  </sector>
+  <sector code="000635" percentage="3" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Reproductive and Maternal Health</narrative>
+  </sector>
   <sector code="000637" percentage="3" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Child Health</narrative>
   </sector>
-  <sector code="000062" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Disease Control</narrative>
-  </sector>
-  <sector code="000626" percentage="1" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Pandemic Response</narrative>
+  <sector code="000625" percentage="33" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Non-communicable diseases</narrative>
   </sector>
   <sector code="000063" percentage="67" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health Systems and Policies</narrative>
   </sector>
-  <sector code="000023" percentage="10" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Public Private Partnerships</narrative>
-  </sector>
-  <sector code="000635" percentage="3" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Reproductive and Maternal Health</narrative>
+  <sector code="000062" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disease Control</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -1968,6 +1971,19 @@
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">708848</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2020</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">International Development Association</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/740031468768682687/pdf/PID0Print0P12844200402201201333363421453.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Project Information Document</narrative>
@@ -1985,27 +2001,6 @@
    <category code="A03"></category>
    <category code="A05"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/662991501168646638/pdf/ISR-Disclosable-P128442-07-27-2017-1501168636176.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/284191517407643115/pdf/Disclosable-Version-of-the-ISR-Disease-Prevention-and-Control-Project-P128442-Sequence-No-10.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/133551485783788737/pdf/ISR-Disclosable-P128442-01-30-2017-1485783780103.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/755691468212075672/pdf/ISR-Disclosable-P128442-04-19-2014-1397942360509.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
@@ -2013,14 +2008,7 @@
    <category code="A07"></category>
    <category code="A08"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/196561470834726197/pdf/ISR-Disclosable-P128442-08-10-2016-1470834714923.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/964001467994674650/pdf/ISR-Disclosable-P128442-07-06-2013-1373124747078.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/662991501168646638/pdf/ISR-Disclosable-P128442-07-27-2017-1501168636176.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
    </title>
@@ -2034,7 +2022,7 @@
    <category code="A07"></category>
    <category code="A08"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/759061468005417556/pdf/ISR-Disclosable-P128442-05-06-2015-1430930551793.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/964001467994674650/pdf/ISR-Disclosable-P128442-07-06-2013-1373124747078.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
    </title>
@@ -2048,6 +2036,13 @@
    <category code="A07"></category>
    <category code="A08"></category>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/133551485783788737/pdf/ISR-Disclosable-P128442-01-30-2017-1485783780103.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/532251468005086767/pdf/ISR-Disclosable-P128442-03-02-2016-1456977298241.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
@@ -2055,63 +2050,19 @@
    <category code="A07"></category>
    <category code="A08"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/412771587219769232/pdf/Disclosable-Version-of-the-ISR-Disease-Prevention-and-Control-Project-P128442-Sequence-No-15.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/759061468005417556/pdf/ISR-Disclosable-P128442-05-06-2015-1430930551793.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
    </title>
    <category code="A07"></category>
    <category code="A08"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/260891532553488334/pdf/Disclosable-Version-of-the-ISR-Disease-Prevention-and-Control-Project-P128442-Sequence-No-11.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/196561470834726197/pdf/ISR-Disclosable-P128442-08-10-2016-1470834714923.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
    </title>
    <category code="A07"></category>
    <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/440721571771978633/pdf/Disclosable-Version-of-the-ISR-Disease-Prevention-and-Control-Project-P128442-Sequence-No-14.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/130471557946278115/pdf/Disclosable-Version-of-the-ISR-Disease-Prevention-and-Control-Project-P128442-Sequence-No-13.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/569441585321397113/pdf/Official-Documents-Amendment-Letter-and-Corrigendum-to-the-Notice-of-Reallocation-of-Credit-Proceeds-for-Credit-No-5222-AM.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Agreement</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A04"></category>
-   <category code="A05"></category>
-   <category code="A06"></category>
-   <category code="A09"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/886751523647692949/pdf/ITK425962-201803131522.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Agreement</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A04"></category>
-   <category code="A05"></category>
-   <category code="A06"></category>
-   <category code="A09"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/625591585660086385/pdf/Official-Documents-Amendment-Letter-to-the-Financing-Agreement-for-Credit-5222-AM.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Agreement</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A04"></category>
-   <category code="A05"></category>
-   <category code="A06"></category>
-   <category code="A09"></category>
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/649021467992022514/pdf/RAD1932408349.pdf">
    <title xml:lang="EN">

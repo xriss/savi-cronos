@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-md" dstore:index="26" hierarchy="1" iati-activities:generated-datetime="2020-08-05T04:54:30" iati-activities:version="2.03" last-updated-datetime="2020-07-23T12:41:08" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-md" dstore:index="29" hierarchy="1" iati-activities:generated-datetime="2020-08-30T11:05:44" iati-activities:version="2.03" last-updated-datetime="2020-08-28T18:09:05" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P173776</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -32,6 +32,9 @@
   </activity-date>
   <activity-date iso-date="2022-04-30" type="3">
    <narrative xml:lang="EN">Planned end date of the activity</narrative>
+  </activity-date>
+  <activity-date iso-date="2022-04-30" type="4">
+   <narrative xml:lang="EN">Actual end date of the activity</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -66,11 +69,11 @@
   <sector code="16010" percentage="42" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12261" percentage="7" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12110" percentage="1" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="HQ" percentage="29" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Facilities and Construction</narrative>
-  </sector>
   <sector code="HG" percentage="28" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health</narrative>
+  </sector>
+  <sector code="HQ" percentage="29" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Facilities and Construction</narrative>
   </sector>
   <sector code="HF" percentage="2" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Public Administration - Health</narrative>
@@ -78,29 +81,29 @@
   <sector code="SA" percentage="41" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Social Protection</narrative>
   </sector>
-  <sector code="000052" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Social Protection</narrative>
-  </sector>
-  <sector code="000632" percentage="56" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Service Delivery</narrative>
+  <sector code="000631" percentage="56" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health System Strengthening</narrative>
   </sector>
   <sector code="000626" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Pandemic Response</narrative>
   </sector>
+  <sector code="000052" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Social Protection</narrative>
+  </sector>
   <sector code="000062" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disease Control</narrative>
+  </sector>
+  <sector code="000632" percentage="56" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Service Delivery</narrative>
   </sector>
   <sector code="000521" percentage="42" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Social Safety Nets</narrative>
   </sector>
-  <sector code="000063" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Systems and Policies</narrative>
-  </sector>
   <sector code="000633" percentage="56" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health Finance</narrative>
   </sector>
-  <sector code="000631" percentage="56" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health System Strengthening</narrative>
+  <sector code="000063" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Systems and Policies</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -934,30 +937,19 @@
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/266511586707674901/pdf/Project-Information-Document-Moldova-Emergency-COVID-19-Response-Project-P173776.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Information Document</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/865001588624487531/pdf/Moldova-Emergency-COVID-19-Response-Project.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Appraisal Document</narrative>
-   </title>
-   <category code="A01"></category>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/961551593531356931/pdf/Disclosable-Version-of-the-ISR-Moldova-Emergency-COVID-19-Response-Project-P173776-Sequence-No-01.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">3435600</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2020</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">International Development Association</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173776?lang=en&amp;tab=procurement">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Contract Awards</narrative>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-ua" dstore:index="14" hierarchy="1" iati-activities:generated-datetime="2020-08-05T04:55:02" iati-activities:version="2.03" last-updated-datetime="2020-07-23T11:47:35" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-ua" dstore:index="15" hierarchy="1" iati-activities:generated-datetime="2020-08-30T11:06:24" iati-activities:version="2.03" last-updated-datetime="2020-08-28T17:33:33" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P144893</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -32,6 +32,9 @@
   </activity-date>
   <activity-date iso-date="2024-03-31" type="3">
    <narrative xml:lang="EN">Planned end date of the activity</narrative>
+  </activity-date>
+  <activity-date iso-date="2024-03-31" type="4">
+   <narrative xml:lang="EN">Actual end date of the activity</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -65,26 +68,26 @@
   <sector code="12110" percentage="52" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12281" percentage="45" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12261" percentage="3" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="HF" percentage="12" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Public Administration - Health</narrative>
-  </sector>
   <sector code="HG" percentage="88" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health</narrative>
   </sector>
-  <sector code="000063" percentage="54" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Systems and Policies</narrative>
+  <sector code="HF" percentage="12" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Public Administration - Health</narrative>
   </sector>
   <sector code="000626" percentage="1" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Pandemic Response</narrative>
   </sector>
+  <sector code="000062" percentage="46" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disease Control</narrative>
+  </sector>
   <sector code="000625" percentage="46" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Non-communicable diseases</narrative>
   </sector>
+  <sector code="000063" percentage="54" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Systems and Policies</narrative>
+  </sector>
   <sector code="000631" percentage="54" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health System Strengthening</narrative>
-  </sector>
-  <sector code="000062" percentage="46" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Disease Control</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -1912,6 +1915,19 @@
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">4655072</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2020</narrative>
+   </description>
+   <provider-org ref="44001">
+    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
+   </provider-org>
+   <flow-type code="20"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/182001468338357630/pdf/PID-Appraisal-Print-P144893-12-23-2014-1419329996763.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Project Information Document</narrative>
@@ -1936,35 +1952,7 @@
    <category code="A07"></category>
    <category code="A08"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/704111468128984817/pdf/ISR-Disclosable-P144893-03-30-2016-1459373224712.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/341261585905510655/pdf/Disclosable-Version-of-the-ISR-Serving-People-Improving-Health-Project-P144893-Sequence-No-11.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/240961474212133804/pdf/ISR-Disclosable-P144893-09-18-2016-1474212120243.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/452261468313804781/pdf/ISR-Disclosable-P144893-09-30-2015-1443635468037.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/323601553636009221/pdf/Disclosable-Version-of-the-ISR-Serving-People-Improving-Health-Project-P144893-Sequence-No-09.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
    </title>
@@ -1978,21 +1966,14 @@
    <category code="A07"></category>
    <category code="A08"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/505831569834321715/pdf/Disclosable-Version-of-the-ISR-Serving-People-Improving-Health-Project-P144893-Sequence-No-10.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/240961474212133804/pdf/ISR-Disclosable-P144893-09-18-2016-1474212120243.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
    </title>
    <category code="A07"></category>
    <category code="A08"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/938841506614004601/pdf/Disclosable-Version-of-the-ISR-Serving-People-Improving-Health-Project-P144893-Sequence-No-06.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/289671537792445343/pdf/Disclosable-Version-of-the-ISR-Serving-People-Improving-Health-Project-P144893-Sequence-No-08.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/704111468128984817/pdf/ISR-Disclosable-P144893-03-30-2016-1459373224712.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
    </title>
@@ -2002,26 +1983,6 @@
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/756041468309376385/pdf/RAD719552767.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Loan Agreement</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A04"></category>
-   <category code="A05"></category>
-   <category code="A06"></category>
-   <category code="A09"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/120121557417958959/pdf/Official-Documents-Amendment-to-the-Loan-Agreement-for-Loan-8475-UA.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Agreement</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A04"></category>
-   <category code="A05"></category>
-   <category code="A06"></category>
-   <category code="A09"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/625521589818526145/pdf/Official-Documents-Financing-Agreement-for-Additional-Financing-Loan-9110-UA-Closing-Package.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Financing Agreement</narrative>
    </title>
    <category code="A02"></category>
    <category code="A04"></category>
