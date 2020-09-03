@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unw-country" dstore:index="1154" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-08-03T11:04:27.397" iati-activities:version="2.02" last-updated-datetime="2020-08-01T00:02:02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" dstore:dataset="unw-country" dstore:index="1164" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-09-02T13:15:40.393" iati-activities:version="2.02" last-updated-datetime="2020-09-01T00:02:02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41146-UNC_O_1.3</iati-identifier>
   <reporting-org ref="XM-DAC-41146" type="40">
    <narrative xml:lang="EN">UN Women</narrative>
@@ -43,6 +43,9 @@
   </location>
   <sector code="99810" percentage="100" vocabulary="1"></sector>
   <sector code="5" percentage="100" vocabulary="7"></sector>
+  <sector code="5" percentage="100" vocabulary="7"></sector>
+  <sector code="16" percentage="5" vocabulary="7"></sector>
+  <sector code="8" percentage="5" vocabulary="7"></sector>
   <sector code="O1" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Enhanced coordination, coherence and accountability of the UN system</narrative>
   </sector>
@@ -55,19 +58,38 @@
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-07-31">38500</value>
+   <value currency="USD" value-date="2020-08-31">38500</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2019-12-31">90130</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-08-31">60000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2019-12-31">91024</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">6115</value>
-   <provider-org ref="XM-DAC-41146" type="40">
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-05-31">900</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">5215</value>
+   <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
@@ -75,16 +97,106 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">61452</value>
-   <provider-org ref="XM-DAC-41146" type="40">
+   <value currency="USD" value-date="2019-02-28">10052</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-03-31">7301</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-04-30">6444</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-05-31">4500</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-06-30">5185</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-07-31">219</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-08-31">5579</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">10753</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-10-31">3985</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-11-30">1953</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">5481</value>
+   <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">38500</value>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">38500</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -107,8 +219,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">99952</value>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">99952</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -164,22 +276,6 @@ $100,000 (CORE)
    </title>
    <indicator ascending="0" measure="1">
     <title>
-     <narrative xml:lang="EN">Indicator 1.3B: Number of agencies that track resources for GEEW measured by UN-SWAP) (QCPR)</narrative>
-    </title>
-    <baseline value="24" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="25.00"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
      <narrative xml:lang="EN">Number of agencies that track COVID-19 related GEWE results (measured by UN-SWAP)</narrative>
     </title>
     <baseline year="2020">
@@ -215,6 +311,22 @@ $100,000 (CORE)
        <narrative xml:lang="EN">10%</narrative>
       </comment>
      </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Indicator 1.3B: Number of agencies that track resources for GEEW measured by UN-SWAP) (QCPR)</narrative>
+    </title>
+    <baseline value="24" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="25.00"></target>
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>
