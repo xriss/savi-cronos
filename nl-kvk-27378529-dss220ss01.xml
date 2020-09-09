@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="rvo-01" dstore:index="872" hierarchy="2" iati-activities:generated-datetime="2020-09-07T01:47:23.008000" iati-activities:version="2.03" last-updated-datetime="2020-08-28T00:00:00.000000" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" dstore:dataset="rvo-01" dstore:index="872" hierarchy="2" iati-activities:generated-datetime="2020-09-08T01:52:42.570000" iati-activities:version="2.03" last-updated-datetime="2020-08-28T00:00:00.000000" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27378529-DSS220SS01</iati-identifier>
   <reporting-org ref="NL-KVK-27378529" secondary-reporter="0" type="10">
    <narrative xml:lang="EN">Netherlands Enterprise Agency</narrative>
@@ -37,8 +37,8 @@
   <default-tied-status code="5"></default-tied-status>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-03-20"></transaction-date>
-   <value currency="EUR" value-date="2020-03-20">33394</value>
+   <transaction-date iso-date="2020-08-05"></transaction-date>
+   <value currency="EUR" value-date="2020-08-05">3638.25</value>
    <receiver-org>
     <narrative xml:lang="EN"></narrative>
    </receiver-org>
@@ -61,25 +61,9 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-08-05"></transaction-date>
-   <value currency="EUR" value-date="2020-08-05">3638.25</value>
-   <receiver-org>
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-08-05"></transaction-date>
-   <value currency="EUR" value-date="2020-08-05">3638.25</value>
-   <receiver-org type="90">
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-03-20"></transaction-date>
-   <value currency="EUR" value-date="2020-03-20">3732.75</value>
-   <receiver-org type="90">
+   <value currency="EUR" value-date="2020-03-20">33394</value>
+   <receiver-org>
     <narrative xml:lang="EN"></narrative>
    </receiver-org>
   </transaction>
@@ -95,6 +79,22 @@
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-08-05"></transaction-date>
    <value currency="EUR" value-date="2020-08-05">17325</value>
+   <receiver-org type="90">
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-08-05"></transaction-date>
+   <value currency="EUR" value-date="2020-08-05">3638.25</value>
+   <receiver-org type="90">
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-03-20"></transaction-date>
+   <value currency="EUR" value-date="2020-03-20">3732.75</value>
    <receiver-org type="90">
     <narrative xml:lang="EN"></narrative>
    </receiver-org>
@@ -132,5 +132,25 @@
    </receiver-org>
   </transaction>
   <related-activity ref="NL-KVK-27378529-4000002159" type="1"></related-activity>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Humanitarian aid</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Crisis response</narrative>
+   </description>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Duration of mission (in number of days)</narrative>
+    </title>
+    <reference code="R" indicator-uri="https://www.rvo.nl/sites/default/files/rvo_website_content/opendata/iati/RVO Indicator Reference.ods" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-05-18"></period-start>
+     <period-end iso-date="2020-08-18"></period-end>
+     <actual value="90.0000000000"></actual>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>
