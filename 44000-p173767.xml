@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-ar" dstore:index="55" hierarchy="1" iati-activities:generated-datetime="2020-08-30T11:04:29" iati-activities:version="2.03" last-updated-datetime="2020-08-28T20:28:38" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-ar" dstore:index="16" hierarchy="1" iati-activities:generated-datetime="2020-09-25T10:35:55" iati-activities:version="2.03" last-updated-datetime="2020-09-22T17:20:33" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P173767</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -9,7 +9,7 @@
    <narrative xml:lang="EN">AR: COVID-19 Emergency Response Project</narrative>
   </title>
   <description type="1" xml:lang="EN">
-   <narrative xml:lang="EN"></narrative>
+   <narrative xml:lang="EN">The objective of the COVID-19 (Coronavirus) Emergency Response Project is to strengthen preparedness and response efforts against the COVID-19 (Coronavirus) pandemic and national systems for public health preparedness in Argentina. There are two components to the project, the first component being Emergency COVID-19 (Coronavirus) Response Efforts. This component will support the enhancement of disease detection capabilities through the strengthening of the public laboratory network for cases reporting and diagnosis; strengthening of clinical care and isolation capacity; and mobilizing trained and well-equipped frontline health workers. The component will have two sub-components, as follows: case detection, case confirmation, contact tracing, case recording, case reporting; and health system strengthening. Finally, the second component is the implementation, monitoring and evaluation. This component will finance: (i) technical assistance to strengthen the capacity of the National Project Coordination Team (PCT) under the Undersecretariat of Administrative Coordination (UAC) and the Secretariat of Health Access (SHA) for implementing the project; and (ii) financial audits for the Project. In addition, the component will finance relevant monitoring and evaluation activities including clinical research and public health research, among others.</narrative>
   </description>
   <participating-org ref="44001" role="1" type="40" xml:lang="EN">
    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
@@ -76,20 +76,20 @@
   <sector code="HF" percentage="14" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Public Administration - Health</narrative>
   </sector>
+  <sector code="000062" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disease Control</narrative>
+  </sector>
+  <sector code="000633" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Finance</narrative>
+  </sector>
+  <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health System Strengthening</narrative>
+  </sector>
   <sector code="000626" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Pandemic Response</narrative>
   </sector>
   <sector code="000063" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health Systems and Policies</narrative>
-  </sector>
-  <sector code="000062" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Disease Control</narrative>
-  </sector>
-  <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health System Strengthening</narrative>
-  </sector>
-  <sector code="000633" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Finance</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -491,6 +491,11 @@
    <period-end iso-date="2026-09-30"></period-end>
    <value currency="USD" value-date="2026-09-30">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2026-10-01"></period-start>
+   <period-end iso-date="2026-10-31"></period-end>
+   <value currency="USD" value-date="2026-10-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2020-03-01"></period-start>
    <period-end iso-date="2020-03-31"></period-end>
@@ -886,6 +891,11 @@
    <period-end iso-date="2026-09-30"></period-end>
    <value currency="USD" value-date="2026-09-30">0</value>
   </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2026-10-01"></period-start>
+   <period-end iso-date="2026-10-31"></period-end>
+   <value currency="USD" value-date="2026-10-31">0</value>
+  </budget>
   <capital-spend percentage="100"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -941,8 +951,8 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">4055998</value>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">4055998</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2020</narrative>
    </description>
@@ -952,6 +962,39 @@
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/911971584640221799/pdf/Project-Information-Document-AR-COVID-19-Emergency-Response-Project-P173767.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Information Document</narrative>
+   </title>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/361281585951501940/pdf/Argentina-COVID-19-Emergency-Response-Project.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Appraisal Document</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/781661591770578550/pdf/Argentina-COVID-19-Emergency-Response-Project.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Appraisal Document</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/429211593545038092/pdf/Disclosable-Version-of-the-ISR-AR-COVID-19-Emergency-Response-Project-P173767-Sequence-No-01.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
+  </document-link>
   <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173767?lang=en&amp;tab=procurement">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Contract Awards</narrative>
