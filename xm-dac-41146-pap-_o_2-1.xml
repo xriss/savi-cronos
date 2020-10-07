@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unw-country" dstore:index="846" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-09-02T13:15:40.393" iati-activities:version="2.02" last-updated-datetime="2020-09-01T00:02:02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" dstore:dataset="unw-country" dstore:index="853" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-10-05T13:00:39.367" iati-activities:version="2.02" last-updated-datetime="2020-10-01T00:02:02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41146-PAP _O_2.1</iati-identifier>
   <reporting-org ref="XM-DAC-41146" type="40">
    <narrative xml:lang="EN">UN Women</narrative>
@@ -44,12 +44,7 @@
    </point>
    <exactness code="1"></exactness>
   </location>
-  <sector code="99810" percentage="100" vocabulary="1"></sector>
   <sector code="5" percentage="100" vocabulary="7"></sector>
-  <sector code="5" percentage="100" vocabulary="7"></sector>
-  <sector code="O2" percentage="100" vocabulary="99">
-   <narrative xml:lang="EN">Increased engagement of partners</narrative>
-  </sector>
   <policy-marker code="1" significance="2" vocabulary="1"></policy-marker>
   <collaboration-type code="2"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -64,7 +59,7 @@
   <budget status="1" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-08-31">1757732</value>
+   <value currency="USD" value-date="2020-09-30">1635790</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2019-01-01"></period-start>
@@ -251,8 +246,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">223596</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">223596</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -263,6 +258,30 @@
    <title>
     <narrative xml:lang="EN">Partnerships and UN Women mandate advanced through the provision of political analysis.</narrative>
    </title>
+   <indicator ascending="0" measure="3">
+    <title>
+     <narrative xml:lang="EN">Number of ITTs/ IATFs in which UN Women is consistently represented.</narrative>
+    </title>
+    <baseline year="2018">
+     <comment>
+      <narrative xml:lang="EN">6</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">15.00</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
    <indicator ascending="0" measure="3">
     <title>
      <narrative xml:lang="EN">Number of presentations/ informal briefings made to the Executive Board and regional groups</narrative>
@@ -311,23 +330,20 @@
      </actual>
     </period>
    </indicator>
-   <indicator ascending="0" measure="3">
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Partnerships and UN Women mandate advanced through the provision of programmatic and political analysis, reflecting relevant regional trends and realities of COVID-19</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of ITTs/ IATFs in which UN Women is consistently represented.</narrative>
+     <narrative xml:lang="EN">Number of RMRs/IATFs in which UN Women is consistently represented.</narrative>
     </title>
-    <baseline year="2018">
-     <comment>
-      <narrative xml:lang="EN">6</narrative>
-     </comment>
-    </baseline>
+    <baseline value="6" year="2018"></baseline>
     <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">15.00</narrative>
-      </comment>
-     </target>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="6"></target>
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>
@@ -335,11 +351,6 @@
      </actual>
     </period>
    </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Partnerships and UN Women mandate advanced through the provision of programmatic and political analysis, reflecting relevant regional trends and realities of COVID-19</narrative>
-   </title>
    <indicator ascending="0" measure="1">
     <title>
      <narrative xml:lang="EN">Number of presentations/ informal briefings made to the Executive Board and regional groups</narrative>
@@ -365,22 +376,6 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="80.00"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of RMRs/IATFs in which UN Women is consistently represented.</narrative>
-    </title>
-    <baseline value="6" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="6"></target>
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>
