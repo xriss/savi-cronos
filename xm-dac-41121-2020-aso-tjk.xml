@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="unhcr-2020" dstore:index="44" hierarchy="3" humanitarian="1" iati-activities:generated-datetime="2020-09-07T19:53:28.0209+02:00" iati-activities:version="2.03" last-updated-datetime="2020-09-07T19:14:11+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:unhcr="http://reporting.unhcr.org/">
+ <iati-activity default-currency="USD" dstore:dataset="unhcr-2020" dstore:index="44" hierarchy="3" humanitarian="1" iati-activities:generated-datetime="2020-10-06T16:13:28.0224+02:00" iati-activities:version="2.03" last-updated-datetime="2020-10-06T16:05:03+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:unhcr="http://reporting.unhcr.org/">
   <iati-identifier>XM-DAC-41121-2020-ASO-TJK</iati-identifier>
   <reporting-org ref="XM-DAC-41121" type="40">
    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
@@ -54,6 +54,9 @@
   </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Government of Japan</narrative>
+  </participating-org>
+  <participating-org ref="US-USAGOV" role="1" type="10">
+   <narrative xml:lang="EN">United States</narrative>
   </participating-org>
   <participating-org role="1" type="70">
    <narrative xml:lang="EN">Private donors</narrative>
@@ -192,13 +195,22 @@
    </provider-org>
    <unhcr:value-USD>20000</unhcr:value-USD>
   </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-08-13"></transaction-date>
+   <value currency="USD" value-date="2020-08-13">106500</value>
+   <provider-org ref="US-USAGOV" type="10">
+    <narrative xml:lang="EN">United States</narrative>
+   </provider-org>
+   <unhcr:value-USD>106500</unhcr:value-USD>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/node/10311">
    <title>
     <narrative xml:lang="EN">Operation Website</narrative>
    </title>
    <category code="A12"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-09-06"></document-date>
+   <document-date iso-date="2020-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://help.unhcr.org/">
    <title>
@@ -206,7 +218,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-09-06"></document-date>
+   <document-date iso-date="2020-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unhcr.org/">
    <title>
@@ -214,7 +226,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-09-06"></document-date>
+   <document-date iso-date="2020-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/iati">
    <title>
@@ -222,7 +234,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-09-06"></document-date>
+   <document-date iso-date="2020-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unhcr.ru/">
    <title>
@@ -230,7 +242,7 @@
    </title>
    <category code="B16"></category>
    <language code="RU"></language>
-   <document-date iso-date="2020-09-06"></document-date>
+   <document-date iso-date="2020-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unhcr.org/search?page=search&amp;skip=0&amp;docid=&amp;cid=49aea93a7d&amp;coi=TJK&amp;comid=4a098fdd6">
    <title>
@@ -238,7 +250,7 @@
    </title>
    <category code="B17"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-09-06"></document-date>
+   <document-date iso-date="2020-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://app.powerbi.com/view?r=eyJrIjoiM2M2NDMyZTgtZmQ4OC00ZDE1LWEyYWMtMTAxZDY2NzMyY2QxIiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9">
    <title>
@@ -246,7 +258,7 @@
    </title>
    <category code="B17"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-09-06"></document-date>
+   <document-date iso-date="2020-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/covid-19">
    <title>
@@ -254,7 +266,7 @@
    </title>
    <category code="B18"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-09-06"></document-date>
+   <document-date iso-date="2020-10-04"></document-date>
   </document-link>
   <related-activity ref="XM-DAC-41121-2020-ASO" type="1"></related-activity>
   <related-activity ref="XM-DAC-41121-2019-ASO-TJK" type="3"></related-activity>
@@ -573,6 +585,44 @@
    <indicator measure="2">
     <title>
      <narrative xml:lang="EN">% of affected population physically protected within 60 days of onset</narrative>
+    </title>
+    <baseline value="100" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Food security</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers | Goal: Emergency response</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of people receiving food aid (in kind)</narrative>
+    </title>
+    <baseline year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="5100"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Food security</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers | Goal: Emergency response</narrative>
+   </description>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">% of households using no harmful coping strategies (nutrition survey)</narrative>
     </title>
     <baseline value="100" year="2020"></baseline>
     <period>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unicef-costarica" dstore:index="24" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-09-25T15:29:58-04:00" iati-activities:version="2.02" last-updated-datetime="2020-09-25T15:30:01-04:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-costarica" dstore:index="28" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-10-08T14:18:08-04:00" iati-activities:version="2.02" last-updated-datetime="2020-10-08T14:18:12-04:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Costa Rica-1020/A0/06/001/003</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -17,6 +17,9 @@ childcare development and school facilities.</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">Global - Education</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
   </participating-org>
   <participating-org role="3" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -120,17 +123,17 @@ San Jose</narrative>
   <sector code="24-02-08" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Sanitation and hygiene - institutions (schools, health care facilities, ECD centres) including menstrual hygiene management</narrative>
   </sector>
+  <sector code="13020" percentage="0" vocabulary="1">
+   <narrative xml:lang="EN">Reproductive health care</narrative>
+  </sector>
   <sector code="11182" percentage="0" vocabulary="1">
+   <narrative xml:lang="EN">Public finance management (PFM)</narrative>
+  </sector>
+  <sector code="12261" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Public finance management (PFM)</narrative>
   </sector>
   <sector code="11220" percentage="0" vocabulary="1">
    <narrative xml:lang="EN">Primary education</narrative>
-  </sector>
-  <sector code="13020" percentage="0" vocabulary="1">
-   <narrative xml:lang="EN">Reproductive health care</narrative>
-  </sector>
-  <sector code="12261" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Public finance management (PFM)</narrative>
   </sector>
   <sector code="16050" percentage="0" vocabulary="1">
    <narrative xml:lang="EN">Multisector aid for basic social services</narrative>
@@ -165,14 +168,14 @@ San Jose</narrative>
    <value currency="USD" value-date="2020-08-31">1</value>
   </budget>
   <budget type="2">
-   <period-start iso-date="2022-01-01"></period-start>
-   <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2020-08-31">1</value>
-  </budget>
-  <budget type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-08-31">151595</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-08-31">1</value>
   </budget>
   <planned-disbursement type="2">
    <period-start iso-date="2021-01-01"></period-start>
@@ -186,9 +189,9 @@ San Jose</narrative>
    </receiver-org>
   </planned-disbursement>
   <planned-disbursement type="2">
-   <period-start iso-date="2022-01-01"></period-start>
-   <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2020-08-31">1</value>
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-08-31">151595</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -197,9 +200,9 @@ San Jose</narrative>
    </receiver-org>
   </planned-disbursement>
   <planned-disbursement type="2">
-   <period-start iso-date="2020-01-01"></period-start>
-   <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-08-31">151595</value>
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-08-31">1</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -271,7 +274,7 @@ San Jose</narrative>
   <transaction humanitarian="1" ref="Disbursement">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">573556</value>
+   <value currency="USD" value-date="2020-08-31">396912</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -289,6 +292,18 @@ San Jose</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">Global - Education</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">2007</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -313,6 +328,18 @@ San Jose</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">Global - Education</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">2007</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -473,6 +500,14 @@ San Jose</narrative>
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/appeals/files/UNICEF_Global_COVID19_Mid-Term_Situation_Report_No_9_Feb_Jul_2020.pdf">
+   <title>
+    <narrative xml:lang="EN">UNICEF GLOBAL COVID-19 Mid-Term Situation Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-07-31"></document-date>
+  </document-link>
   <related-activity ref="1020/A0/06/001 INCLUSIVE EARLY CHILDHOOD DEVELOPMENT AND EDUCATION." type="1"></related-activity>
   <conditions attached="1">
    <condition type="1">
@@ -487,70 +522,6 @@ childcare development and school facilities.</narrative>
    <description>
     <narrative xml:lang="EN">| Status: | As-of Date:</narrative>
    </description>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">Number of children reached with pre-primary, primary and secondary online/distance education lesson with UNICEF support in the reporting year [COVID]</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="0" year="2020">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="2021:300.000">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value="2020:0">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">Generados prototipos de guas con mediacin pedaggica y diagramacin.</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="Guas no elaboradas" year="2020">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:3 Prototipos de gu&#xED;as finalizadas y divulgadas">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value="2020:En proceso el acompa&#xF1;amiento al MEP para el dise&#xF1;o de los protocolos">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
    <indicator ascending="0">
     <title>
      <narrative xml:lang="EN">Number of parents/caregivers of children under 5 receiving parenting support to improve care and development of their children with support of UNICEF in the reporting year [COVID]  i) Total</narrative>
@@ -585,6 +556,38 @@ childcare development and school facilities.</narrative>
    </indicator>
    <indicator ascending="0">
     <title>
+     <narrative xml:lang="EN">Number of children reached with pre-primary, primary and secondary online/distance education lesson with UNICEF support in the reporting year [COVID]</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="0" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="2021:300.000">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value="2020:0">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0">
+    <title>
      <narrative xml:lang="EN">Elaborado un estudio que evidencie el impacto y las necesidades de la poblacin estudiantil debido a la pandemia por COVID-19.</narrative>
     </title>
     <description>
@@ -607,6 +610,38 @@ childcare development and school facilities.</narrative>
       </comment>
      </target>
      <actual value="2020:En proceso de dise&#xF1;o, revisi&#xF3;n y aprobaci&#xF3;n de TORS para realizaci&#xF3;n del estudio">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0">
+    <title>
+     <narrative xml:lang="EN">Generados prototipos de guas con mediacin pedaggica y diagramacin.</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="Guas no elaboradas" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2020:3 Prototipos de gu&#xED;as finalizadas y divulgadas">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value="2020:En proceso el acompa&#xF1;amiento al MEP para el dise&#xF1;o de los protocolos">
       <location></location>
       <dimension></dimension>
       <comment>

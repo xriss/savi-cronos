@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unicef-kyrgyzstan" dstore:index="42" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-09-25T15:50:41-04:00" iati-activities:version="2.02" last-updated-datetime="2020-09-25T15:50:48-04:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-kyrgyzstan" dstore:index="40" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-10-08T14:43:19-04:00" iati-activities:version="2.02" last-updated-datetime="2020-10-08T14:43:28-04:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Republic of Kyrgyzstan-2450/A0/06/002/005</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -21,6 +21,9 @@
    <narrative xml:lang="EN">USA USAID</narrative>
   </participating-org>
   <participating-org role="1" type="40">
+   <narrative xml:lang="EN">Asian Development Bank</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
    <narrative xml:lang="EN">GAVI The Vaccine Alliance</narrative>
   </participating-org>
   <participating-org role="1" type="40">
@@ -29,23 +32,20 @@
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">British Government (DFID)</narrative>
   </participating-org>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">Asian Development Bank</narrative>
-  </participating-org>
   <participating-org role="1" type="30">
    <narrative xml:lang="EN">Danish Committee for UNICEF</narrative>
   </participating-org>
   <participating-org role="1" type="40">
-   <narrative xml:lang="EN">UNDP - MDTF</narrative>
-  </participating-org>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-  </participating-org>
-  <participating-org role="1" type="40">
    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">UNDP - MDTF</narrative>
   </participating-org>
   <participating-org role="3" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">Global Partnership for Education</narrative>
@@ -157,17 +157,20 @@
   <sector code="74020" percentage="4.5" vocabulary="1">
    <narrative xml:lang="EN">Multi-hazard response preparedness</narrative>
   </sector>
+  <sector code="12240" percentage="-6.9" vocabulary="1">
+   <narrative xml:lang="EN">Basic nutrition</narrative>
+  </sector>
+  <sector code="91010" percentage="80.9" vocabulary="1">
+   <narrative xml:lang="EN">Administrative costs (non-sector allocable)</narrative>
+  </sector>
   <sector code="12261" percentage="0.3" vocabulary="1">
    <narrative xml:lang="EN">Public finance management (PFM)</narrative>
   </sector>
   <sector code="11120" percentage="21.1" vocabulary="1">
    <narrative xml:lang="EN">Education facilities and training</narrative>
   </sector>
-  <sector code="12240" percentage="-6.9" vocabulary="1">
-   <narrative xml:lang="EN">Basic nutrition</narrative>
-  </sector>
-  <sector code="91010" percentage="80.9" vocabulary="1">
-   <narrative xml:lang="EN">Administrative costs (non-sector allocable)</narrative>
+  <sector code="2" percentage="-6.9" vocabulary="7">
+   <narrative xml:lang="EN">Zero Hunger</narrative>
   </sector>
   <sector code="6" percentage="0.3" vocabulary="7">
    <narrative xml:lang="EN">Clean Water and Sanitation</narrative>
@@ -175,25 +178,22 @@
   <sector code="17" percentage="80.9" vocabulary="7">
    <narrative xml:lang="EN">Partnerships for the Goals</narrative>
   </sector>
-  <sector code="2" percentage="-6.9" vocabulary="7">
-   <narrative xml:lang="EN">Zero Hunger</narrative>
-  </sector>
   <sector code="3" percentage="3.7" vocabulary="7">
    <narrative xml:lang="EN">Good Health and Well-being</narrative>
-  </sector>
-  <sector code="4" percentage="21.9" vocabulary="7">
-   <narrative xml:lang="EN">Quality Education</narrative>
   </sector>
   <sector code="9" percentage="-45.2" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
    <narrative xml:lang="EN">Nutrition</narrative>
   </sector>
-  <sector code="3" percentage="5.3" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
+  <sector code="4" percentage="21.9" vocabulary="7">
+   <narrative xml:lang="EN">Quality Education</narrative>
+  </sector>
+  <sector code="3" percentage="137.8" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
    <narrative xml:lang="EN">Education</narrative>
   </sector>
   <sector code="11" percentage="2.2" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
    <narrative xml:lang="EN">Water Sanitation Hygiene</narrative>
   </sector>
-  <sector code="3" percentage="137.8" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
+  <sector code="3" percentage="5.3" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
    <narrative xml:lang="EN">Education</narrative>
   </sector>
   <country-budget-items vocabulary="1">
@@ -301,6 +301,18 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">2665</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-04-30"></transaction-date>
    <value currency="USD" value-date="2020-04-30">35600</value>
    <description>
@@ -313,8 +325,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">2665</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">27510</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -338,18 +350,6 @@
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">27510</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-06-30">930</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -361,8 +361,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">87565</value>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">3764</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -385,8 +385,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">3764</value>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">87565</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -421,20 +421,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
-   <value currency="USD" value-date="2020-04-30">253</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">7581</value>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">2172</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -446,7 +434,7 @@
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">2172</value>
+   <value currency="USD" value-date="2020-07-31">388</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -469,8 +457,20 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">388</value>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="USD" value-date="2020-05-31">7581</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <value currency="USD" value-date="2020-04-30">253</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -505,18 +505,6 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">3299</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-05-31"></transaction-date>
    <value currency="USD" value-date="2020-05-31">1789</value>
    <description>
@@ -527,27 +515,51 @@
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">154100</value>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">3299</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">USA USAID</narrative>
+    <narrative xml:lang="EN"></narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction humanitarian="1" ref="Disbursement">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">529054</value>
+   <value currency="USD" value-date="2020-08-31">717365</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">154686</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA USAID</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">6462</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -578,19 +590,7 @@
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">6462</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">573450</value>
+   <value currency="USD" value-date="2020-01-01">591211</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -626,18 +626,6 @@
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">20000</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
    <value currency="USD" value-date="2020-01-01">96000</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -650,12 +638,24 @@
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">952381</value>
+   <value currency="USD" value-date="2020-01-01">20000</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">10000</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Swiss Committee for UNICEF</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -674,19 +674,19 @@
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">10000</value>
+   <value currency="USD" value-date="2020-01-01">952381</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Swiss Committee for UNICEF</narrative>
+    <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">154100</value>
+   <value currency="USD" value-date="2020-01-01">154686</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -698,18 +698,6 @@
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">2500</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - HIV and AIDS</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
    <value currency="USD" value-date="2020-01-01">15622</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -734,7 +722,19 @@
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">573450</value>
+   <value currency="USD" value-date="2020-01-01">2500</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - HIV and AIDS</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">591211</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -770,18 +770,6 @@
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">20000</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
    <value currency="USD" value-date="2020-01-01">96000</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -794,12 +782,12 @@
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">952381</value>
+   <value currency="USD" value-date="2020-01-01">20000</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -824,6 +812,18 @@
    </description>
    <provider-org>
     <narrative xml:lang="EN">Global Partnership for Education</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">952381</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -997,6 +997,14 @@
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/appeals/files/UNICEF_Global_COVID19_Mid-Term_Situation_Report_No_9_Feb_Jul_2020.pdf">
+   <title>
+    <narrative xml:lang="EN">UNICEF GLOBAL COVID-19 Mid-Term Situation Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-07-31"></document-date>
+  </document-link>
   <related-activity ref="2450/A0/06/002 OUTCOME 2. ACCESS TO SURVIVAL, LEARNINGAND DEVELOPMENT SERVICES" type="1"></related-activity>
   <conditions attached="1">
    <condition type="1">
@@ -1010,6 +1018,38 @@
    <description>
     <narrative xml:lang="EN">| Status: | As-of Date:</narrative>
    </description>
+   <indicator ascending="0">
+    <title>
+     <narrative xml:lang="EN">Number of primary caregivers of children aged 0-23 months who received IYCF counselling and messages through facility, community outreach, social media and other communication channels with UNICEF support in the reporting year [COVID]  vi) Receiving IYCF   ECD   WASH counselling</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="0" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2020:300000">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value=":">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
    <indicator ascending="0">
     <title>
      <narrative xml:lang="EN">Number of people reached on COVID-19 through messaging on prevention and access to services [COVIDSitRep]</narrative>
@@ -1059,102 +1099,6 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2020:1890000">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value=":">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">Number of primary caregivers of children aged 0-23 months who received IYCF counselling and messages through facility, community outreach, social media and other communication channels with UNICEF support in the reporting year [COVID]  vi) Receiving IYCF   ECD   WASH counselling</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="0" year="2020">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:300000">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value=":">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">Number of parents/caregivers of children under 5 receiving parenting support to improve care and development of their children with support of UNICEF in the reporting year [COVID]</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="0" year="2020">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:100000">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value=":">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">Number of children supported with distance/home-based learning</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="0" year="2020">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="2021:90%">
       <location></location>
       <dimension></dimension>
       <comment>
@@ -1251,6 +1195,70 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2020:100,000">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value=":">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0">
+    <title>
+     <narrative xml:lang="EN">Number of children supported with distance/home-based learning</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="0" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="2021:90%">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value=":">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0">
+    <title>
+     <narrative xml:lang="EN">Number of parents/caregivers of children under 5 receiving parenting support to improve care and development of their children with support of UNICEF in the reporting year [COVID]</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="0" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2020:100000">
       <location></location>
       <dimension></dimension>
       <comment>
