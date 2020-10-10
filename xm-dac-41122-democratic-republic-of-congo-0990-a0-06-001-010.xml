@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unicef-drc" dstore:index="106" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-09-25T15:30:53-04:00" iati-activities:version="2.02" last-updated-datetime="2020-09-25T15:31:12-04:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-drc" dstore:index="159" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-10-08T14:19:15-04:00" iati-activities:version="2.02" last-updated-datetime="2020-10-08T14:19:49-04:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Democratic Republic of Congo-0990/A0/06/001/010</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -15,10 +15,10 @@
    <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
   </participating-org>
   <participating-org role="1" type="40">
-   <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   <narrative xml:lang="EN">UNOCHA</narrative>
   </participating-org>
   <participating-org role="1" type="40">
-   <narrative xml:lang="EN">UNOCHA</narrative>
+   <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
   </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
@@ -117,11 +117,11 @@ B.P. 7248  Kinshasa</narrative>
   <sector code="21-03-18" percentage="1.6" vocabulary="99">
    <narrative xml:lang="EN">Public health emergencies, including disease outbreaks</narrative>
   </sector>
-  <sector code="72010" percentage="1.6" vocabulary="1">
-   <narrative xml:lang="EN">Material relief assistance and services</narrative>
-  </sector>
   <sector code="12110" percentage="98.4" vocabulary="1">
    <narrative xml:lang="EN">Health policy and administrative management</narrative>
+  </sector>
+  <sector code="72010" percentage="1.6" vocabulary="1">
+   <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
   <sector code="3" percentage="100" vocabulary="7">
    <narrative xml:lang="EN">Good Health and Well-being</narrative>
@@ -145,14 +145,14 @@ B.P. 7248  Kinshasa</narrative>
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2020-08-31">7227927</value>
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-08-31">0</value>
   </budget>
   <planned-disbursement type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2020-08-31">7227927</value>
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-08-31">0</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -199,8 +199,8 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">-3155</value>
+   <transaction-date iso-date="2020-02-29"></transaction-date>
+   <value currency="USD" value-date="2020-02-29">-533</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -211,8 +211,8 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-02-29"></transaction-date>
-   <value currency="USD" value-date="2020-02-29">-533</value>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-3155</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -331,6 +331,18 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">118</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-01-01">4943496</value>
    <description>
@@ -368,7 +380,7 @@ B.P. 7248  Kinshasa</narrative>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">-11623</value>
+   <value currency="USD" value-date="2020-01-01">-17574</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -415,6 +427,18 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">118</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-01-01">4943496</value>
    <description>
@@ -422,6 +446,18 @@ B.P. 7248  Kinshasa</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">500</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -440,19 +476,7 @@ B.P. 7248  Kinshasa</narrative>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">500</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Bank - Washington D.C.</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">-11623</value>
+   <value currency="USD" value-date="2020-01-01">-17574</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -711,6 +735,14 @@ B.P. 7248  Kinshasa</narrative>
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/appeals/files/UNICEF_Global_COVID19_Mid-Term_Situation_Report_No_9_Feb_Jul_2020.pdf">
+   <title>
+    <narrative xml:lang="EN">UNICEF GLOBAL COVID-19 Mid-Term Situation Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-07-31"></document-date>
+  </document-link>
   <related-activity ref="0990/A0/06/001 SURVIE DES ENFANTS" type="1"></related-activity>
   <conditions attached="1">
    <condition type="1">
@@ -729,45 +761,13 @@ UNICEF encouraged the addition of paediatricians in the Ebola Treatment Centres,
    </description>
    <indicator ascending="0">
     <title>
-     <narrative xml:lang="EN">Number of pediatricians deployed in Ebola Treatment Centers (ETCs) and Transition Centers (TCs) ensuring pediatric care for EVD patients</narrative>
+     <narrative xml:lang="EN">Number of children under 1 year vaccinated against Ebola.</narrative>
     </title>
     <description>
      <narrative xml:lang="EN"></narrative>
     </description>
     <reference code="1" vocabulary="1"></reference>
-    <baseline value="0" year="2018">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="2019:44">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value="2019:5">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">Number children affected by Ebola that received integrated pediatric care in Ebola Treatment Centers (ETCs) and Transition Centers (TCs)</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="Not Available" year="2018">
+    <baseline value="N/A" year="2018">
      <comment>
       <narrative xml:lang="EN"></narrative>
      </comment>
@@ -782,7 +782,7 @@ UNICEF encouraged the addition of paediatricians in the Ebola Treatment Centres,
        <narrative xml:lang="EN"></narrative>
       </comment>
      </target>
-     <actual value="2019:14,666">
+     <actual value="2019:1,402">
       <location></location>
       <dimension></dimension>
       <comment>
@@ -825,13 +825,13 @@ UNICEF encouraged the addition of paediatricians in the Ebola Treatment Centres,
    </indicator>
    <indicator ascending="0">
     <title>
-     <narrative xml:lang="EN">Number of children under 1 year vaccinated against Ebola.</narrative>
+     <narrative xml:lang="EN">Number children affected by Ebola that received integrated pediatric care in Ebola Treatment Centers (ETCs) and Transition Centers (TCs)</narrative>
     </title>
     <description>
      <narrative xml:lang="EN"></narrative>
     </description>
     <reference code="1" vocabulary="1"></reference>
-    <baseline value="N/A" year="2018">
+    <baseline value="Not Available" year="2018">
      <comment>
       <narrative xml:lang="EN"></narrative>
      </comment>
@@ -846,7 +846,39 @@ UNICEF encouraged the addition of paediatricians in the Ebola Treatment Centres,
        <narrative xml:lang="EN"></narrative>
       </comment>
      </target>
-     <actual value="2019:1,402">
+     <actual value="2019:14,666">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0">
+    <title>
+     <narrative xml:lang="EN">Number of pediatricians deployed in Ebola Treatment Centers (ETCs) and Transition Centers (TCs) ensuring pediatric care for EVD patients</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="0" year="2018">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="2019:44">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value="2019:5">
       <location></location>
       <dimension></dimension>
       <comment>

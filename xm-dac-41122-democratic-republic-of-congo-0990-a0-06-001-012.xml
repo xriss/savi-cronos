@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unicef-drc" dstore:index="71" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-09-25T15:30:53-04:00" iati-activities:version="2.02" last-updated-datetime="2020-09-25T15:31:06-04:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-drc" dstore:index="28" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-10-08T14:19:15-04:00" iati-activities:version="2.02" last-updated-datetime="2020-10-08T14:19:20-04:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Democratic Republic of Congo-0990/A0/06/001/012</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -27,12 +27,6 @@ nosocomiale et communautaire de la MVE.</narrative>
   <participating-org role="3" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">CIVIL SOCIETY ORGANIZATION: Community based organization</narrative>
-  </participating-org>
-  <participating-org role="4" type="21">
-   <narrative xml:lang="EN">CIVIL SOCIETY ORGANIZATION: International NGO</narrative>
-  </participating-org>
   <participating-org role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
@@ -41,6 +35,12 @@ nosocomiale et communautaire de la MVE.</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">CIVIL SOCIETY ORGANIZATION: National NGO</narrative>
+  </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">CIVIL SOCIETY ORGANIZATION: Community based organization</narrative>
+  </participating-org>
+  <participating-org role="4" type="21">
+   <narrative xml:lang="EN">CIVIL SOCIETY ORGANIZATION: International NGO</narrative>
   </participating-org>
   <other-identifier ref="41122-Democratic Republic of Congo-0990/A0/06/001/012" type="B1">
    <owner-org>
@@ -127,11 +127,11 @@ B.P. 7248  Kinshasa</narrative>
   <sector code="24-02-07" percentage="19" vocabulary="99">
    <narrative xml:lang="EN">Sanitation - improving services in rural communities (except household water treatment and storage, moving up the ladder and strengthening sustainability)</narrative>
   </sector>
-  <sector code="24-02-09" percentage="22.7" vocabulary="99">
-   <narrative xml:lang="EN">Sanitation and hygiene - improving services in emergency communities</narrative>
-  </sector>
   <sector code="24-02-12" percentage="58.3" vocabulary="99">
    <narrative xml:lang="EN">WASH in emergencies - institutions (schools, health care facilities, ECD centres) response including menstrual hygiene management</narrative>
+  </sector>
+  <sector code="24-02-09" percentage="22.7" vocabulary="99">
+   <narrative xml:lang="EN">Sanitation and hygiene - improving services in emergency communities</narrative>
   </sector>
   <sector code="14020" percentage="19" vocabulary="1">
    <narrative xml:lang="EN">Public finance management (PFM)</narrative>
@@ -164,14 +164,14 @@ B.P. 7248  Kinshasa</narrative>
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2020-08-31">1704515</value>
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-08-31">0</value>
   </budget>
   <planned-disbursement type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2020-08-31">1704515</value>
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-08-31">0</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -242,18 +242,6 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">32621</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Expense">
-   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-07-31"></transaction-date>
    <value currency="USD" value-date="2020-07-31">-7</value>
    <description>
@@ -266,8 +254,8 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">390234</value>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="USD" value-date="2020-05-31">32621</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -292,6 +280,18 @@ B.P. 7248  Kinshasa</narrative>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-04-30"></transaction-date>
    <value currency="USD" value-date="2020-04-30">58237</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">390234</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -338,18 +338,6 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
-   <value currency="USD" value-date="2020-04-30">1382</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Expense">
-   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-07-31"></transaction-date>
    <value currency="USD" value-date="2020-07-31">26522</value>
    <description>
@@ -362,8 +350,44 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <value currency="USD" value-date="2020-04-30">1382</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-05-31"></transaction-date>
    <value currency="USD" value-date="2020-05-31">10542</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="USD" value-date="2020-05-31">83338</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-11-30"></transaction-date>
+   <value currency="USD" value-date="2019-11-30">22055</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -398,20 +422,8 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-11-30"></transaction-date>
-   <value currency="USD" value-date="2019-11-30">22055</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">83338</value>
+   <transaction-date iso-date="2020-02-29"></transaction-date>
+   <value currency="USD" value-date="2020-02-29">47980</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -435,30 +447,6 @@ B.P. 7248  Kinshasa</narrative>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-02-29"></transaction-date>
-   <value currency="USD" value-date="2020-02-29">47980</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-01-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-31">12447</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-02-29"></transaction-date>
    <value currency="USD" value-date="2020-02-29">14992</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -471,7 +459,7 @@ B.P. 7248  Kinshasa</narrative>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-01-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-31">25327</value>
+   <value currency="USD" value-date="2020-01-31">12447</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -506,8 +494,8 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">-2529</value>
+   <transaction-date iso-date="2020-01-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-31">25327</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -516,15 +504,15 @@ B.P. 7248  Kinshasa</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="0" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">310504</value>
+  <transaction humanitarian="0" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-2529</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
+    <narrative xml:lang="EN"></narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -542,8 +530,8 @@ B.P. 7248  Kinshasa</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-01-01">1786221</value>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">310400</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -561,6 +549,18 @@ B.P. 7248  Kinshasa</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">UNOCHA</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">1786221</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -603,7 +603,7 @@ B.P. 7248  Kinshasa</narrative>
   <transaction humanitarian="0" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">310504</value>
+   <value currency="USD" value-date="2020-01-01">310400</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -906,6 +906,14 @@ B.P. 7248  Kinshasa</narrative>
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/appeals/files/UNICEF_Global_COVID19_Mid-Term_Situation_Report_No_9_Feb_Jul_2020.pdf">
+   <title>
+    <narrative xml:lang="EN">UNICEF GLOBAL COVID-19 Mid-Term Situation Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-07-31"></document-date>
+  </document-link>
   <related-activity ref="0990/A0/06/001 SURVIE DES ENFANTS" type="1"></related-activity>
   <conditions attached="1">
    <condition type="1">
@@ -920,38 +928,6 @@ nosocomiale et communautaire de la MVE.</narrative>
    <description>
     <narrative xml:lang="EN">In 2019, As a co-led of the Infection Prevention Control/WASH commission, UNICEF provided WASH interventions and reinforced basic WASH services in 2,972 health facilities, which included the provision of water and WASH kits and awareness raising of traditional practitioners. UNICEF also led the hygiene promotion and provision of WASH kits in 2,179 schools. In communities, UNICEF organized mass outreach activities on hygiene promotion reaching 20,748 households and set-up handwashing stations and temperature check points in strategic transit locations. | Status:Met | As-of Date:08/02/2020</narrative>
    </description>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">Number of community sites (port, market places, local restaurant, churches) with hand washing facilities in the affected areas.</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="1,052" year="2018">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="2019:11,750">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value="2019:12,160">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
    <indicator ascending="0">
     <title>
      <narrative xml:lang="EN">Number of target schools in high risk areas provided with handwashing facilities.</narrative>
@@ -976,6 +952,38 @@ nosocomiale et communautaire de la MVE.</narrative>
       </comment>
      </target>
      <actual value="2019:2,179">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0">
+    <title>
+     <narrative xml:lang="EN">Number of community sites (port, market places, local restaurant, churches) with hand washing facilities in the affected areas.</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="1,052" year="2018">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="2019:11,750">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value="2019:12,160">
       <location></location>
       <dimension></dimension>
       <comment>
