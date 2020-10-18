@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="rvo-01" dstore:index="881" hierarchy="2" iati-activities:generated-datetime="2020-10-16T01:42:53.851000" iati-activities:version="2.03" last-updated-datetime="2020-09-29T00:00:00.000000" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" dstore:dataset="rvo-01" dstore:index="882" hierarchy="2" iati-activities:generated-datetime="2020-10-17T00:59:47.606000" iati-activities:version="2.03" last-updated-datetime="2020-09-29T00:00:00.000000" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27378529-DSS220MK01</iati-identifier>
   <reporting-org ref="NL-KVK-27378529" secondary-reporter="0" type="10">
    <narrative xml:lang="EN">Netherlands Enterprise Agency</narrative>
@@ -37,6 +37,16 @@
   <default-tied-status code="5"></default-tied-status>
   <transaction>
    <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="EUR" value-date="2020-06-30">33255</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-09-29"></transaction-date>
+   <value currency="EUR" value-date="2020-09-29">21887</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-09-29"></transaction-date>
    <value currency="EUR" value-date="2020-09-29">4596.27</value>
   </transaction>
@@ -44,24 +54,6 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="EUR" value-date="2020-06-30">6983.55</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-09-29"></transaction-date>
-   <value currency="EUR" value-date="2020-09-29">21887</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="EUR" value-date="2020-06-30">33255</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-29"></transaction-date>
-   <value currency="EUR" value-date="2020-09-29">21887</value>
-   <receiver-org type="90">
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -74,7 +66,7 @@
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-09-29"></transaction-date>
-   <value currency="EUR" value-date="2020-09-29">4596.27</value>
+   <value currency="EUR" value-date="2020-09-29">21887</value>
    <receiver-org type="90">
     <narrative xml:lang="EN"></narrative>
    </receiver-org>
@@ -83,6 +75,14 @@
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="EUR" value-date="2020-06-30">33255</value>
+   <receiver-org type="90">
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-29"></transaction-date>
+   <value currency="EUR" value-date="2020-09-29">4596.27</value>
    <receiver-org type="90">
     <narrative xml:lang="EN"></narrative>
    </receiver-org>
@@ -104,6 +104,7 @@
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-10-01"></period-end>
+     <target value="0.0000000000"></target>
      <actual value="90.0000000000"></actual>
     </period>
    </indicator>
