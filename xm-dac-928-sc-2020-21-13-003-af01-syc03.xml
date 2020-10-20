@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="who-syc" dstore:index="92" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-07-16T10:49:06.0541826+02:00" iati-activities:version="2.03" last-updated-datetime="2020-07-16T10:49:05.8666752+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" dstore:dataset="who-syc" dstore:index="92" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-10-19T14:40:36.5128946+02:00" iati-activities:version="2.03" last-updated-datetime="2020-10-19T14:40:36.4035348+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-928-SC-2020-21-13.003.AF01.SYC03</iati-identifier>
   <reporting-org ref="XM-DAC-928" type="40">
    <narrative xml:lang="EN">World Health Organization</narrative>
@@ -15,7 +15,16 @@
    <narrative xml:lang="EN">Ministry of Foreign Affairs, Denmark</narrative>
   </participating-org>
   <participating-org role="1" type="70">
+   <narrative xml:lang="EN">China</narrative>
+  </participating-org>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">Department for International Development (DFID), United Kingdom</narrative>
+  </participating-org>
+  <participating-org role="1" type="70">
    <narrative xml:lang="EN">COVID-19 Solidarity Fund</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO), European Commission</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-928" role="2" type="40">
    <narrative xml:lang="EN">World Health Organization</narrative>
@@ -81,12 +90,50 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-07-16">44431.554582</value>
+   <value currency="USD" value-date="2020-10-19">48511.654582</value>
   </budget>
   <transaction humanitarian="1" ref="Incoming Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-07-03"></transaction-date>
-   <value currency="USD" value-date="2020-07-03">68000</value>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">100000</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Department for International Development (DFID), United Kingdom</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+   <sector vocabulary="1">
+    <narrative xml:lang="EN">72011</narrative>
+   </sector>
+   <flow-type code="10"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">100000</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">China</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+   <sector vocabulary="1">
+    <narrative xml:lang="EN">72011</narrative>
+   </sector>
+   <flow-type code="20"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">68000</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -104,8 +151,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-07-03"></transaction-date>
-   <value currency="USD" value-date="2020-07-03">80703</value>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">80703</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -121,10 +168,29 @@
    <flow-type code="30"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction humanitarian="1" ref="Incoming Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">54975</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO), European Commission</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+   <sector vocabulary="1">
+    <narrative xml:lang="EN">72011</narrative>
+   </sector>
+   <flow-type code="50"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">17873.35</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">100659.84</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -142,8 +208,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">715.56</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">5144.58</value>
    <description>
     <narrative xml:lang="EN">General operating expenses</narrative>
    </description>
@@ -161,8 +227,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">80702.48</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">136996.05</value>
    <description>
     <narrative xml:lang="EN">Medical supplies and materials</narrative>
    </description>
@@ -180,8 +246,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">455.91</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2210.82</value>
    <description>
     <narrative xml:lang="EN">Travel</narrative>
    </description>
@@ -206,15 +272,15 @@
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136848/1/ccsbrief_syc_en.pdf">
    <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Seychelles  (2018)</narrative>
+    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Seychelles  
+(2017)</narrative>
    </title>
    <category code="B03"></category>
    <language code="EN"></language>
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136848/1/ccsbrief_syc_en.pdf">
    <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Seychelles  
-(2017)</narrative>
+    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Seychelles  (2018)</narrative>
    </title>
    <category code="B03"></category>
    <language code="EN"></language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="who-afg" dstore:index="151" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-07-16T10:21:07.6843503+02:00" iati-activities:version="2.03" last-updated-datetime="2020-07-16T10:21:07.3249604+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" dstore:dataset="who-afg" dstore:index="151" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-10-19T14:09:57.7250812+02:00" iati-activities:version="2.03" last-updated-datetime="2020-10-19T14:09:57.3332324+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-928-AF-2020-21-13.003.EM01.AFG03</iati-identifier>
   <reporting-org ref="XM-DAC-928" type="40">
    <narrative xml:lang="EN">World Health Organization</narrative>
@@ -11,20 +11,32 @@
   <description type="1">
    <narrative xml:lang="EN">Essential health services and systems maintained and strengthened in fragile, conflict and vulnerable settings</narrative>
   </description>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">Ministry of Foreign Affairs, Republic of Korea</narrative>
-  </participating-org>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">United States Agency for International Development (USAID)</narrative>
-  </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">UNDP Multi-Partner Trust Fund (MPTF)</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO), European Commission</narrative>
+  </participating-org>
+  <participating-org role="1" type="70">
+   <narrative xml:lang="EN">Lithuania</narrative>
   </participating-org>
   <participating-org role="1" type="70">
    <narrative xml:lang="EN">United Nations Central Emergency Response Fund (CERF)</narrative>
   </participating-org>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO), European Commission</narrative>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">United States Agency for International Development (USAID)</narrative>
+  </participating-org>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund</narrative>
+  </participating-org>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">Department of Foreign Affairs, Trade and Development (DFATD), Canada</narrative>
+  </participating-org>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">Ministry of Foreign Affairs, Republic of Korea</narrative>
+  </participating-org>
+  <participating-org role="1" type="70">
+   <narrative xml:lang="EN">COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-928" role="2" type="40">
    <narrative xml:lang="EN">World Health Organization</narrative>
@@ -82,6 +94,7 @@
    </budget-item>
   </country-budget-items>
   <humanitarian-scope code="HAFG19" type="2" vocabulary="2-1"></humanitarian-scope>
+  <humanitarian-scope code="HAFG20" type="2" vocabulary="2-1"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -91,12 +104,49 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-07-16">3736704.0282</value>
+   <value currency="USD" value-date="2020-10-19">3930633.09385</value>
   </budget>
   <transaction humanitarian="1" ref="Incoming Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-07-03"></transaction-date>
-   <value currency="USD" value-date="2020-07-03">1305236</value>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">4175.752966</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+   <sector vocabulary="1">
+    <narrative xml:lang="EN">72011</narrative>
+   </sector>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">269800</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Department of Foreign Affairs, Trade and Development (DFATD), Canada</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+   <sector vocabulary="1">
+    <narrative xml:lang="EN">72011</narrative>
+   </sector>
+   <flow-type code="10"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">1381481</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -114,8 +164,46 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-07-03"></transaction-date>
-   <value currency="USD" value-date="2020-07-03">245000</value>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">362024.236048</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+   <sector vocabulary="1">
+    <narrative xml:lang="EN">72011</narrative>
+   </sector>
+   <flow-type code="20"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">158.36319</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Lithuania</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+   <sector vocabulary="1">
+    <narrative xml:lang="EN">72011</narrative>
+   </sector>
+   <flow-type code="20"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">207500</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -133,8 +221,27 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-07-03"></transaction-date>
-   <value currency="USD" value-date="2020-07-03">1656549</value>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">-158.36319</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+   <sector vocabulary="1">
+    <narrative xml:lang="EN">72011</narrative>
+   </sector>
+   <flow-type code="30"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">1782923</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -152,8 +259,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-07-03"></transaction-date>
-   <value currency="USD" value-date="2020-07-03">1066207</value>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">1135700</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -171,8 +278,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-07-03"></transaction-date>
-   <value currency="USD" value-date="2020-07-03">2703898</value>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="USD" value-date="2020-10-05">2732076</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -190,8 +297,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">366969.23</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">492352.66</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -209,8 +316,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">80388.31</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">37810.31</value>
    <description>
     <narrative xml:lang="EN">Equipment, vehicles and furniture</narrative>
    </description>
@@ -228,8 +335,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">327772.77</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">357882.16</value>
    <description>
     <narrative xml:lang="EN">General operating expenses</narrative>
    </description>
@@ -247,8 +354,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">1406998.05</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1730799.81</value>
    <description>
     <narrative xml:lang="EN">Medical supplies and materials</narrative>
    </description>
@@ -266,8 +373,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">616319.94</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1047465.8</value>
    <description>
     <narrative xml:lang="EN">Staff and other personnel costs</narrative>
    </description>
@@ -285,8 +392,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">500000</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">768795</value>
    <description>
     <narrative xml:lang="EN">Transfers and grants to counterparts</narrative>
    </description>
@@ -304,8 +411,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expenditure">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">8069.82</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">8069.82</value>
    <description>
     <narrative xml:lang="EN">Travel</narrative>
    </description>
