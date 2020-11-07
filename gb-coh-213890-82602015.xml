@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="GBP" dstore:dataset="scuk-zz" dstore:index="496" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-08-11T00:00:00" iati-activities:version="2.03" last-updated-datetime="2019-02-22T00:00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="GBP" dstore:dataset="scuk-zz" dstore:index="496" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-10-31T00:00:00" iati-activities:version="2.03" last-updated-datetime="2019-02-22T00:00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-COH-213890-82602015</iati-identifier>
   <reporting-org ref="GB-COH-213890" type="21">
    <narrative xml:lang="EN">Save The Children UK</narrative>
@@ -42,7 +42,8 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="SL" percentage="100"></recipient-country>
-  <sector code="99810" percentage="100" vocabulary="1" vocabulary-uri="http://reference.iatistandard.org/codelists/Sector/"></sector>
+  <sector code="12220" percentage="80" vocabulary="1" vocabulary-uri="http://reference.iatistandard.org/codelists/Sector/"></sector>
+  <sector code="16010" percentage="20" vocabulary="1" vocabulary-uri="http://reference.iatistandard.org/codelists/Sector/"></sector>
   <humanitarian-scope code="REBO-ep-14" type="1" vocabulary="99" vocabulary-uri="http://iati.savethechildren.org.uk/Files/Humanitarian.csv">
    <narrative xml:lang="EN"></narrative>
   </humanitarian-scope>
@@ -58,16 +59,22 @@
    <value currency="GBP" value-date="2014-11-18">1997989</value>
   </budget>
   <transaction>
-   <transaction-type code="3"></transaction-type>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-09-30"></transaction-date>
    <value currency="GBP" value-date="2014-11-18">265653</value>
    <provider-org provider-activity-id="GB-1-PROJECT 204876" ref="GB-GOV-1" type="10"></provider-org>
    <receiver-org ref="GB-COH-213890"></receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2015-09-30"></transaction-date>
    <value currency="GBP" value-date="2014-11-18">265653</value>
+   <provider-org provider-activity-id="GB-COH-213890-82602015" ref="GB-COH-213890"></provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-06-30"></transaction-date>
+   <value currency="GBP" value-date="2014-11-18">830764</value>
    <provider-org provider-activity-id="GB-COH-213890-82602015" ref="GB-COH-213890"></provider-org>
   </transaction>
   <transaction>
@@ -76,12 +83,6 @@
    <value currency="GBP" value-date="2014-11-18">830764</value>
    <provider-org provider-activity-id="GB-1-PROJECT 204876" ref="GB-GOV-1" type="10"></provider-org>
    <receiver-org ref="GB-COH-213890"></receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-30"></transaction-date>
-   <value currency="GBP" value-date="2014-11-18">830764</value>
-   <provider-org provider-activity-id="GB-COH-213890-82602015" ref="GB-COH-213890"></provider-org>
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
