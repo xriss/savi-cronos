@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unicef-drc" dstore:index="101" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-18T15:00:07-05:00" iati-activities:version="2.02" last-updated-datetime="2020-11-18T15:00:26-05:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-drc" dstore:index="107" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-30T12:40:31-05:00" iati-activities:version="2.02" last-updated-datetime="2020-11-30T12:40:51-05:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Democratic Republic of Congo-0990/A0/07/007/006</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -11,26 +11,26 @@
   <description type="1">
    <narrative xml:lang="FR">New Element</narrative>
   </description>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">British Government (DFID)</narrative>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
   </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
   </participating-org>
-  <participating-org role="1" type="10">
+  <participating-org ref="US-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
   </participating-org>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-  </participating-org>
-  <participating-org role="3" type="40">
-   <narrative xml:lang="EN">UNICEF</narrative>
+  <participating-org ref="GB-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">British Government (DFID)</narrative>
   </participating-org>
   <participating-org role="1" type="30">
    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
   </participating-org>
-  <participating-org role="1" type="40">
+  <participating-org ref="XM-DAC-41127" role="1" type="40">
    <narrative xml:lang="EN">UNOCHA</narrative>
+  </participating-org>
+  <participating-org role="3" type="40">
+   <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
   <participating-org role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -173,8 +173,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-02-29"></transaction-date>
-   <value currency="USD" value-date="2020-02-29">340159</value>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="USD" value-date="2020-05-31">315938</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -185,8 +185,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">315938</value>
+   <transaction-date iso-date="2020-02-29"></transaction-date>
+   <value currency="USD" value-date="2020-02-29">340159</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -233,6 +233,18 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">204887</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
    <value currency="USD" value-date="2020-08-31">614471</value>
    <description>
@@ -257,18 +269,6 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">204887</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-01-31"></transaction-date>
    <value currency="USD" value-date="2020-01-31">68507</value>
    <description>
@@ -282,24 +282,12 @@
   <transaction humanitarian="1" ref="Disbursement">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-10-31">292102</value>
+   <value currency="USD" value-date="2020-10-31">281772</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">378038</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -312,6 +300,18 @@
    </description>
    <provider-org>
     <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">378038</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -652,7 +652,7 @@
    </description>
    <indicator ascending="0">
     <title>
-     <narrative xml:lang="EN">[Number of people sensitized about the benefits of vaccination against EVD and vaccinated] Nombre de personnes sensibilises sur les bienfaits de la vaccination contre la MVE et vaccines</narrative>
+     <narrative xml:lang="EN">[Number of CAC members trained in communication techniques and EFP] Nombre de membres de CAC forms sur les techniques de communication et les PFE</narrative>
     </title>
     <description>
      <narrative xml:lang="EN"></narrative>
@@ -666,7 +666,39 @@
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:41,253">
+     <target value="2020:12,728">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value=":">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0">
+    <title>
+     <narrative xml:lang="EN">[# Influential leaders and and different groups reached (religious leaders/traditional opinion leaders, teachers, motorists, military, leaders of indigenous groups, special populations, etc.) through sensitization] # de leaders influents et groupes spcifiques et diffrents groupes atteints (leaders religieux /traditionnels leader d&apos;opinion, enseignants, motoristes, militaires, journalistes, leaders des groupes autochtones, les populations spciales, les adolescents, etc.) par la sensibilisation</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="XX" year="2019">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2020:7,955">
       <location></location>
       <dimension></dimension>
       <comment>
@@ -716,7 +748,7 @@
    </indicator>
    <indicator ascending="0">
     <title>
-     <narrative xml:lang="EN">[Number of radio stations broadcasting EVD and EFP programs] Nombre de radios qui diffusent les missions MVE et PFE</narrative>
+     <narrative xml:lang="EN">[Number of people sensitized about the benefits of vaccination against EVD and vaccinated] Nombre de personnes sensibilises sur les bienfaits de la vaccination contre la MVE et vaccines</narrative>
     </title>
     <description>
      <narrative xml:lang="EN"></narrative>
@@ -730,39 +762,7 @@
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:60">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value=":">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">[Number of CAC members trained in communication techniques and EFP] Nombre de membres de CAC forms sur les techniques de communication et les PFE</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="XX" year="2019">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:12,728">
+     <target value="2020:41,253">
       <location></location>
       <dimension></dimension>
       <comment>
@@ -812,7 +812,7 @@
    </indicator>
    <indicator ascending="0">
     <title>
-     <narrative xml:lang="EN">[# Influential leaders and and different groups reached (religious leaders/traditional opinion leaders, teachers, motorists, military, leaders of indigenous groups, special populations, etc.) through sensitization] # de leaders influents et groupes spcifiques et diffrents groupes atteints (leaders religieux /traditionnels leader d&apos;opinion, enseignants, motoristes, militaires, journalistes, leaders des groupes autochtones, les populations spciales, les adolescents, etc.) par la sensibilisation</narrative>
+     <narrative xml:lang="EN">[Number of radio stations broadcasting EVD and EFP programs] Nombre de radios qui diffusent les missions MVE et PFE</narrative>
     </title>
     <description>
      <narrative xml:lang="EN"></narrative>
@@ -826,7 +826,7 @@
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:7,955">
+     <target value="2020:60">
       <location></location>
       <dimension></dimension>
       <comment>

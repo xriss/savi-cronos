@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unicef-drc" dstore:index="202" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-11-18T15:00:07-05:00" iati-activities:version="2.02" last-updated-datetime="2020-11-18T15:00:45-05:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-drc" dstore:index="26" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-11-30T12:40:31-05:00" iati-activities:version="2.02" last-updated-datetime="2020-11-30T12:40:35-05:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Democratic Republic of Congo-0990/A0/06/001/012</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -19,10 +19,13 @@ nosocomiale et communautaire de la MVE.</narrative>
    <narrative xml:lang="EN">The United Kingdom</narrative>
   </participating-org>
   <participating-org role="1" type="40">
+   <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41127" role="1" type="40">
    <narrative xml:lang="EN">UNOCHA</narrative>
   </participating-org>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+  <participating-org role="4" type="40">
+   <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
   <participating-org role="3" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -30,17 +33,14 @@ nosocomiale et communautaire de la MVE.</narrative>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">CIVIL SOCIETY ORGANIZATION: National NGO</narrative>
   </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">CIVIL SOCIETY ORGANIZATION: Community based organization</narrative>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">GOVERNMENT</narrative>
   </participating-org>
   <participating-org role="4" type="21">
    <narrative xml:lang="EN">CIVIL SOCIETY ORGANIZATION: International NGO</narrative>
   </participating-org>
-  <participating-org role="4" type="40">
-   <narrative xml:lang="EN">UNICEF</narrative>
-  </participating-org>
-  <participating-org role="4" type="10">
-   <narrative xml:lang="EN">GOVERNMENT</narrative>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">CIVIL SOCIETY ORGANIZATION: Community based organization</narrative>
   </participating-org>
   <other-identifier ref="41122-Democratic Republic of Congo-0990/A0/06/001/012" type="B1">
    <owner-org>
@@ -122,11 +122,11 @@ nosocomiale et communautaire de la MVE.</narrative>
    </point>
    <exactness code="1"></exactness>
   </location>
-  <sector code="24-02-07" percentage="18.1" vocabulary="99">
-   <narrative xml:lang="EN">Sanitation - improving services in rural communities (except household water treatment and storage, moving up the ladder and strengthening sustainability)</narrative>
-  </sector>
   <sector code="24-02-09" percentage="24.4" vocabulary="99">
    <narrative xml:lang="EN">Sanitation and hygiene - improving services in emergency communities</narrative>
+  </sector>
+  <sector code="24-02-07" percentage="18.1" vocabulary="99">
+   <narrative xml:lang="EN">Sanitation - improving services in rural communities (except household water treatment and storage, moving up the ladder and strengthening sustainability)</narrative>
   </sector>
   <sector code="24-02-12" percentage="57.5" vocabulary="99">
    <narrative xml:lang="EN">WASH in emergencies - institutions (schools, health care facilities, ECD centres) response including menstrual hygiene management</narrative>
@@ -192,8 +192,8 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-11-30"></transaction-date>
-   <value currency="USD" value-date="2019-11-30">106783</value>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">881946</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -204,8 +204,8 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">881946</value>
+   <transaction-date iso-date="2019-11-30"></transaction-date>
+   <value currency="USD" value-date="2019-11-30">106783</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -300,6 +300,18 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">168507</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-04-30"></transaction-date>
    <value currency="USD" value-date="2020-04-30">58237</value>
    <description>
@@ -324,8 +336,8 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">168507</value>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <value currency="USD" value-date="2020-04-30">9050</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -348,32 +360,8 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
-   <value currency="USD" value-date="2020-04-30">9050</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Expense">
-   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-06-30">12367</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
-   <value currency="USD" value-date="2020-04-30">1382</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -396,6 +384,18 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <value currency="USD" value-date="2020-04-30">1382</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-05-31"></transaction-date>
    <value currency="USD" value-date="2020-05-31">10542</value>
    <description>
@@ -408,20 +408,8 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-02-29"></transaction-date>
-   <value currency="USD" value-date="2020-02-29">118319</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">40298</value>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="USD" value-date="2020-05-31">83338</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -444,8 +432,20 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">83338</value>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">40298</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-02-29"></transaction-date>
+   <value currency="USD" value-date="2020-02-29">118319</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -504,8 +504,8 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">124846</value>
+   <transaction-date iso-date="2020-01-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-31">25327</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -516,8 +516,8 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-01-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-31">25327</value>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">124846</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -565,6 +565,18 @@ nosocomiale et communautaire de la MVE.</narrative>
   <transaction humanitarian="0" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">310400</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
    <value currency="USD" value-date="2020-01-01">73934</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -576,8 +588,8 @@ nosocomiale et communautaire de la MVE.</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">310400</value>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">1786221</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -595,18 +607,6 @@ nosocomiale et communautaire de la MVE.</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">UNOCHA</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-01-01">1786221</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -673,24 +673,24 @@ nosocomiale et communautaire de la MVE.</narrative>
   <transaction humanitarian="0" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-01-01">535070</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNOCHA</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-01-01">1786221</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">Democratic Republic of the Congo</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">535070</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNOCHA</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -715,18 +715,6 @@ nosocomiale et communautaire de la MVE.</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">The United Kingdom</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">3992</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNOCHA</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -739,6 +727,18 @@ nosocomiale et communautaire de la MVE.</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">3992</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNOCHA</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -968,6 +968,38 @@ nosocomiale et communautaire de la MVE.</narrative>
    </description>
    <indicator ascending="0">
     <title>
+     <narrative xml:lang="EN">Number of target schools in high risk areas provided with handwashing facilities.</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="565" year="2018">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="2019:3,800">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value="2019:2,179">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0">
+    <title>
      <narrative xml:lang="EN">Number of health facilities in affected health zones provided with essential WASH services.</narrative>
     </title>
     <description>
@@ -990,6 +1022,38 @@ nosocomiale et communautaire de la MVE.</narrative>
       </comment>
      </target>
      <actual value="2019:2,972">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0">
+    <title>
+     <narrative xml:lang="EN">Percentage of schools and public places near confirmed cases locations where handwashing stations are installed and utilized</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="N/A" year="2018">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="2019:100">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value="2019:69%">
       <location></location>
       <dimension></dimension>
       <comment>
@@ -1086,70 +1150,6 @@ nosocomiale et communautaire de la MVE.</narrative>
       </comment>
      </target>
      <actual value="2019:20,748">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">Percentage of schools and public places near confirmed cases locations where handwashing stations are installed and utilized</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="N/A" year="2018">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="2019:100">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value="2019:69%">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">Number of target schools in high risk areas provided with handwashing facilities.</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="565" year="2018">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="2019:3,800">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value="2019:2,179">
       <location></location>
       <dimension></dimension>
       <comment>
