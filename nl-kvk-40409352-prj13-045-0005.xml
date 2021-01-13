@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="802" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2020-10-20T11:03:43" iati-activities:version="2.02" last-updated-datetime="2020-10-20T11:03:46" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="804" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2021-01-08T14:49:11" iati-activities:version="2.02" last-updated-datetime="2021-01-08T14:49:12" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-045-0005</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -36,7 +36,7 @@ This revised Emergency Appeal also seeks funding for activities relating to shel
   <participating-org ref="NL-KVK-27302841" role="1" type="15">
    <narrative xml:lang="EN">Samenwerkende Hulp Organisaties</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2019-01-31" type="2">
    <narrative xml:lang="EN">Actual start</narrative>
   </activity-date>
@@ -50,6 +50,7 @@ This revised Emergency Appeal also seeks funding for activities relating to shel
    <department>
     <narrative xml:lang="EN">DRU (Disaster Response Unit)</narrative>
    </department>
+   <telephone>070 - 44 55 678</telephone>
    <email>projects@redcross.nl</email>
    <website>https://www.rodekruis.nl</website>
    <mailing-address>
@@ -77,6 +78,31 @@ This revised Emergency Appeal also seeks funding for activities relating to shel
    <period-end iso-date="2019-07-30"></period-end>
    <value currency="EUR" value-date="2019-01-31">1527088</value>
   </budget>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">-112676</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-045-0005" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-10"></transaction-date>
+   <value currency="EUR" value-date="2020-12-10">-7324</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-045-0005" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-21018" type="21">
+    <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-03-31"></transaction-date>
@@ -158,7 +184,34 @@ This revised Emergency Appeal also seeks funding for activities relating to shel
     <period>
      <period-start iso-date="2019-05-08"></period-start>
      <period-end iso-date="2020-04-15"></period-end>
-     <actual value="1"></actual>
+     <actual value="0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-15"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">Tompe Clinic has been supported</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">Tompe Clinic has been supported</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">Tompe Clinic has been supported</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -186,37 +239,59 @@ This revised Emergency Appeal also seeks funding for activities relating to shel
       </comment>
      </actual>
     </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Estimated number of primary health care consultations, based on contribution to the total appeal</narrative>
-    </title>
-    <reference code="HEA-I5" vocabulary="99"></reference>
-    <reference code="C030801" indicator-uri="http://mdgs.un.org/unsd/mdg/Host.aspx?Content=Indicators/OfficialList.htm" vocabulary="9"></reference>
-    <baseline value="0" year="2019"></baseline>
     <period>
-     <period-start iso-date="2019-01-31"></period-start>
-     <period-end iso-date="2019-07-30"></period-end>
-     <target value="7500">
+     <period-start iso-date="2019-05-10"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="575">
       <comment>
-       <narrative xml:lang="EN">Target is for 24 month period.</narrative>
+       <narrative xml:lang="EN">1.603 persons received treatment - Final report  30-09-20</narrative>
       </comment>
-     </target>
+     </actual>
     </period>
     <period>
-     <period-start iso-date="2019-05-08"></period-start>
-     <period-end iso-date="2019-05-10"></period-end>
-     <actual value="0"></actual>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="-1602">
+      <comment>
+       <narrative xml:lang="EN">1.603 persons</narrative>
+      </comment>
+     </actual>
     </period>
     <period>
-     <period-start iso-date="2019-05-10"></period-start>
-     <period-end iso-date="2019-05-10"></period-end>
-     <actual value="7788"></actual>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="1602">
+      <comment>
+       <narrative xml:lang="EN">1.603 persons</narrative>
+      </comment>
+     </actual>
     </period>
     <period>
-     <period-start iso-date="2019-05-10"></period-start>
-     <period-end iso-date="2019-05-10"></period-end>
-     <actual value="7788"></actual>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">1.603 persons</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">1.603 persons (proportional)</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">1.603 persons received hospitalisation and treatment</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -242,9 +317,50 @@ This revised Emergency Appeal also seeks funding for activities relating to shel
      <period-end iso-date="2019-05-10"></period-end>
      <actual value="982"></actual>
     </period>
+    <period>
+     <period-start iso-date="2019-05-10"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="1987"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="1987">
+      <comment>
+       <narrative xml:lang="EN">1.987 persons</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="1987">
+      <comment>
+       <narrative xml:lang="EN">1.987 persons</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="1987">
+      <comment>
+       <narrative xml:lang="EN">1.987 persons (proportional)</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="1987">
+      <comment>
+       <narrative xml:lang="EN">1.987 persons received mental consultation</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
-  <result aggregation-status="0" type="2">
+  <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">WASH - Water</narrative>
    </title>
@@ -265,6 +381,60 @@ This revised Emergency Appeal also seeks funding for activities relating to shel
      <period-start iso-date="2019-05-08"></period-start>
      <period-end iso-date="2019-05-10"></period-end>
      <actual value="10208"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-05-10"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">At total of 7.033 persons received access to safe water for domestic use (proportional)</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="-3175">
+      <comment>
+       <narrative xml:lang="EN">At total of 7.033 persons received access to safe water for domestic use (proportional)</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">7.033 persons gained access to safe domestic water</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">7.033 persons gained access to safe water for domestic use</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">7.033 persons gained access to safe water for domestic use</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">7.033 persons gained access to safe water for domestic use (proportional)</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -317,6 +487,72 @@ Two water containers per HH (10-20 Liters)</narrative>
      <actual value="6000">
       <comment>
        <narrative xml:lang="EN">Actuals is 1500 households (4 persons per households, 6000 persons) - see IFRC pledge based interim report.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-05-04"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="1518">
+      <comment>
+       <narrative xml:lang="EN">1.518 persons received hygi&#xEB;ne items of minimum quantity (proportional)</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="3963">
+      <comment>
+       <narrative xml:lang="EN">1.518 persons received hygi&#xEB;ne items of minimum quantity (proportional).
+2.445 persons gained access to 163 toilets and hand washing stations (proportional).</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="3963">
+      <comment>
+       <narrative xml:lang="EN">1.518 persons received hygi&#xEB;ne items of minimum quantity (proportional).
+2.445 persons gained access to 163 toilets and hand washing stations (proportional).
+14.872 persons were reached with activities to promote and improve hygiene (proportional).</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="3963">
+      <comment>
+       <narrative xml:lang="EN">3.963 persons</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="3963">
+      <comment>
+       <narrative xml:lang="EN">3.963 persons gained access to hygi&#xEB;ne items and access to sanitation and hand washing facilities.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="3963">
+      <comment>
+       <narrative xml:lang="EN">3.963 persons gained access to hygi&#xEB;ne items and access to sanitation and hand washing facilities.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-02"></period-start>
+     <period-end iso-date="2020-12-02"></period-end>
+     <actual value="3963">
+      <comment>
+       <narrative xml:lang="EN">3.963 persons gained access to hygi&#xEB;ne items and access to sanitation and hand washing facilities (proportional)</narrative>
       </comment>
      </actual>
     </period>

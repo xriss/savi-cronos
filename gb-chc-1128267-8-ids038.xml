@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="GBP" dstore:dataset="ageintl-activities" dstore:index="16" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-02T15:52:41+00:00" iati-activities:version="2.03" last-updated-datetime="2020-10-13T11:40:23+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="GBP" dstore:dataset="ageintl-activities" dstore:index="16" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-11T17:06:25+00:00" iati-activities:version="2.03" last-updated-datetime="2021-01-11T14:01:45+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1128267-8-IDS038</iati-identifier>
-  <reporting-org ref="GB-CHC-1128267-8" secondary-reporter="0" type="21">
+  <reporting-org ref="GB-CHC-1128267-8" secondary-reporter="0" type="22">
    <narrative xml:lang="EN">Age International UK (HelpAge International UK)</narrative>
   </reporting-org>
   <title>
@@ -20,12 +20,14 @@
   <participating-org activity-id="GB-CHC-1128267-8-DEC_UDG_Phase2" ref="GB-CHC-1128267-8" role="2" type="21">
    <narrative xml:lang="EN">HelpAge International UK</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2019-03-31" type="2"></activity-date>
   <activity-date iso-date="2020-09-30" type="3"></activity-date>
   <activity-date iso-date="2020-12-31" type="3">
    <narrative xml:lang="EN">no-cost extension due to COVID</narrative>
   </activity-date>
+  <activity-date iso-date="2020-12-31" type="4"></activity-date>
+  <activity-date iso-date="2019-03-31" type="1"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">HelpAge International UK</narrative>
@@ -33,21 +35,17 @@
    <department>
     <narrative xml:lang="EN">Programme Development and Funding</narrative>
    </department>
-   <person-name>
-    <narrative xml:lang="EN">Kate Haggerty</narrative>
-   </person-name>
    <job-title>
     <narrative xml:lang="EN">Programme Development and Funding Support Officer</narrative>
    </job-title>
-   <telephone>02030331101</telephone>
-   <email>kate.haggerty@ageinternational.org.uk</email>
+   <telephone>4402030331505</telephone>
+   <email>Programmes@ageinternational.org.uk</email>
    <website>https://www.ageinternational.org.uk/</website>
    <mailing-address>
     <narrative xml:lang="EN">Tavis House 1-6 Tavistock Square London WC1H 9NA</narrative>
    </mailing-address>
   </contact-info>
   <recipient-country code="ID" percentage="100"></recipient-country>
-  <recipient-region code="798" percentage="0" vocabulary="2"></recipient-region>
   <sector code="72050" percentage="100" vocabulary="1"></sector>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="30"></default-flow-type>
@@ -64,6 +62,16 @@
    <period-end iso-date="2020-05-12"></period-end>
    <value currency="GBP" value-date="2020-05-12">370154</value>
   </budget>
+  <transaction ref="All incoming funds Oct-Dec 19">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="GBP" value-date="2019-12-31">108808</value>
+   <description>
+    <narrative xml:lang="EN">All incoming funds Oct-Dec 19</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-CHC-1062638-ITA-2018" ref="GB-CHC-1062638" type="22"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1128267-8-IDS038" ref="GB-CHC-1128267-8"></receiver-org>
+  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-05-13"></transaction-date>
@@ -148,26 +156,6 @@
    <provider-org ref="GB-CHC-106263" type="22"></provider-org>
    <receiver-org ref="GB-CHC-1128267-8" type="22"></receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="GBP" value-date="2019-12-31">81573</value>
-   <description>
-    <narrative xml:lang="EN">All funds received between Oct-Dec 19</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-CHC-1062638-ITA-2018" ref="GB-CHC-1062638" type="22"></provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-1128267-8-IDS038" ref="GB-CHC-1128267-8"></receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="GBP" value-date="2019-12-31">81573</value>
-   <description>
-    <narrative xml:lang="EN">all funds disbursed Oct-Dec 19</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-CHC-1128267-8-IDS038" ref="GB-CHC-1128267-8"></provider-org>
-   <receiver-org receiver-activity-id="GB-COH-1762840-IDS038-DE01-01" ref="GB-COH-1762840"></receiver-org>
-  </transaction>
   <transaction humanitarian="1" ref="all incoming funds Jul-Sept 20">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
@@ -188,30 +176,56 @@
    <provider-org provider-activity-id="GB-CHC-1128267-8-IDS038" ref="GB-CHC-1128267-8"></provider-org>
    <receiver-org receiver-activity-id="GB-COH-1762840-IDS038-DE01-01" ref="GB-COH-1762840"></receiver-org>
   </transaction>
-  <transaction ref="Expenditure over entire programme">
+  <transaction humanitarian="1" ref="Expenditure over entire programme">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-30"></transaction-date>
-   <value currency="GBP" value-date="2019-12-31">0</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-12-31">0</value>
    <description>
     <narrative xml:lang="EN">Expenditure over entire programme</narrative>
+   </description>
+  </transaction>
+  <transaction humanitarian="1" ref="All incoming funds Jan-Mar 20">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="GBP" value-date="2020-03-31">89965</value>
+   <provider-org provider-activity-id="GB-CHC-1062638-ITA-2018" ref="GB-CHC-1062638"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1128267-8-IDS038" ref="GB-CHC-1128267-8"></receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="all disbursements Oct-Dec 2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-12-31">42785</value>
+   <description>
+    <narrative xml:lang="EN">all disbursements Oct-Dec 2020</narrative>
    </description>
   </transaction>
   <transaction humanitarian="1" ref="All disbursements Jan-Mar 20">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="GBP" value-date="2020-03-31">90701</value>
+   <value currency="GBP" value-date="2020-03-31">89965</value>
    <description>
     <narrative xml:lang="EN">All disbursements Jan-Mar 20</narrative>
    </description>
    <provider-org provider-activity-id="GB-CHC-1128267-8-IDS038" ref="GB-CHC-1128267-8"></provider-org>
    <receiver-org receiver-activity-id="GB-COH-1762840-IDS038-DE01-01" ref="GB-COH-1762840"></receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="All incoming funds Jan-Mar 20">
+  <transaction ref="All disbursements Oct-Dec 19">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="GBP" value-date="2019-12-31">108808</value>
+   <description>
+    <narrative xml:lang="EN">All disbursements Oct-Dec 19</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-CHC-1128267-8-IDS038" ref="GB-CHC-1128267-8"></provider-org>
+   <receiver-org receiver-activity-id="GB-COH-1762840-IDS038-DE01-01" ref="GB-COH-1762840"></receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="all incoming funds Oct-Dec 2020">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="GBP" value-date="2020-03-31">90701</value>
-   <provider-org provider-activity-id="GB-CHC-1062638-ITA-2018" ref="GB-CHC-1062638"></provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-1128267-8-IDS038" ref="GB-CHC-1128267-8"></receiver-org>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-12-31">42785</value>
+   <description>
+    <narrative xml:lang="EN">all incoming funds Oct-Dec 2020</narrative>
+   </description>
   </transaction>
   <transaction humanitarian="1" ref="All disbursements Apr-Jun 20">
    <transaction-type code="3"></transaction-type>
