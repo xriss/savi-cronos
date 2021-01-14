@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="undp-pan" dstore:index="157" hierarchy="2" humanitarian="0" iati-activities:generated-datetime="2020-12-15T03:04:57" iati-activities:version="2.03" last-updated-datetime="2020-12-14T12:30:27" xml:lang="ES" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" dstore:dataset="undp-pan" dstore:index="157" hierarchy="2" humanitarian="0" iati-activities:generated-datetime="2021-01-08T20:50:44" iati-activities:version="2.03" last-updated-datetime="2021-01-08T12:26:07" xml:lang="ES" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00116794</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="ES">United Nations Development Programme</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="ES">PI PROPANAMA</narrative>
+   <narrative xml:lang="ES">Apoyo a PROPANAMA</narrative>
   </title>
   <description type="1">
    <narrative xml:lang="ES">Apoyar el fortalecimiento y modernizaci&#xF3;n de la agencia de atracci&#xF3;n de las inversiones y promoci&#xF3;n de las exportaciones adscrita al Ministerio de Relaciones Exteriores para una gesti&#xF3;n eficiente y de calidad.</narrative>
@@ -67,15 +67,20 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">538991</value>
+  </budget>
+  <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-11-30">750000</value>
+   <value currency="USD" value-date="2020-12-31">750000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-14"></transaction-date>
-   <value currency="USD" value-date="2020-12-14">5016</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">8312</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="ES">United Nations Development Programme</narrative>
    </provider-org>
@@ -146,8 +151,20 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">750000</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">538991</value>
+   <provider-org ref="01070" type="10">
+    <narrative xml:lang="ES">PAN-GOVERNMENT</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00116794" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="ES">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">750000</value>
    <provider-org ref="01070" type="10">
     <narrative xml:lang="ES">PAN-GOVERNMENT</narrative>
    </provider-org>
@@ -158,8 +175,8 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">500000</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">500000</value>
    <provider-org ref="01070" type="10">
     <narrative xml:lang="ES">PAN-GOVERNMENT</narrative>
    </provider-org>
@@ -170,8 +187,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">750000</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">1288991</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="ES">United Nations Development Programme</narrative>
    </provider-org>
@@ -184,6 +201,7 @@
    <category code="A12"></category>
   </document-link>
   <related-activity ref="XM-DAC-41114-PROJECT-00120696" type="1"></related-activity>
+  <related-activity ref="XM-DAC-41114-OUTPUT-00124609" type="3"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

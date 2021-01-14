@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="undp-tun" dstore:index="113" hierarchy="2" humanitarian="0" iati-activities:generated-datetime="2020-12-15T03:04:14" iati-activities:version="2.03" last-updated-datetime="2020-12-14T12:30:27" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" dstore:dataset="undp-tun" dstore:index="113" hierarchy="2" humanitarian="0" iati-activities:generated-datetime="2021-01-08T20:49:32" iati-activities:version="2.03" last-updated-datetime="2021-01-08T12:26:07" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00120905</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="FR">United Nations Development Programme</narrative>
@@ -9,7 +9,7 @@
    <narrative xml:lang="FR">COVID-19 D&#xE9;centralisation</narrative>
   </title>
   <description type="1">
-   <narrative xml:lang="FR">Response to COVID-19_D&#xE9;centralisation.</narrative>
+   <narrative xml:lang="FR">Appui aux Municipalit&#xE9;s pour apporter une r&#xE9;ponse et  contribuer au rel&#xE8;vement COVID-19 - Focus D&#xE9;centralisation.</narrative>
   </description>
   <participating-org ref="XM-DAC-41114" role="4" type="40">
    <narrative xml:lang="FR">United Nations Development Programme</narrative>
@@ -25,9 +25,70 @@
    <email>registry.tn@undp.org</email>
    <website>http://www.tn.undp.org/</website>
   </contact-info>
+  <activity-scope code="5"></activity-scope>
   <recipient-country code="TN" percentage="100">
    <narrative xml:lang="FR">Tunisia</narrative>
   </recipient-country>
+  <location ref="TN">
+   <location-reach code="1"></location-reach>
+   <location-id code="2464698" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="FR">Tataouine</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="FR">first-order administrative division</narrative>
+   </description>
+   <activity-description>
+    <narrative xml:lang="FR">Tataouine</narrative>
+   </activity-description>
+   <administrative code="2464698" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>32.000000 10.000000</pos>
+   </point>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM1"></feature-designation>
+  </location>
+  <location ref="TN">
+   <location-reach code="1"></location-reach>
+   <location-id code="2468365" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="FR">Gouvernorat de Gab&#xE8;s</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="FR">first-order administrative division</narrative>
+   </description>
+   <activity-description>
+    <narrative xml:lang="FR">Gab&#xE8;s</narrative>
+   </activity-description>
+   <administrative code="2468365" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>33.833330 9.750000</pos>
+   </point>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM1"></feature-designation>
+  </location>
+  <location ref="TN">
+   <location-reach code="1"></location-reach>
+   <location-id code="2469470" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="FR">Gouvernorat de M&#xE9;denine</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="FR">first-order administrative division</narrative>
+   </description>
+   <activity-description>
+    <narrative xml:lang="FR">M&#xE9;denine</narrative>
+   </activity-description>
+   <administrative code="2469470" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>33.333330 11.000000</pos>
+   </point>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM1"></feature-designation>
+  </location>
   <sector code="16050" percentage="100" vocabulary="1"></sector>
   <sector code="17.9" percentage="33.33" vocabulary="8"></sector>
   <sector code="11.A" percentage="33.33" vocabulary="8"></sector>
@@ -50,14 +111,23 @@
   <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2020-11-30">4320</value>
+   <value currency="USD" value-date="2020-12-31">72320</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-11-30">265680</value>
+   <value currency="USD" value-date="2020-12-31">207754</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">39896</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
@@ -105,8 +175,8 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">4320</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">72320</value>
    <provider-org ref="XM-DAC-7" type="10">
     <narrative xml:lang="FR">GOVERNMENT OF NETHERLANDS</narrative>
    </provider-org>
@@ -117,8 +187,8 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">265680</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">207754</value>
    <provider-org ref="XM-DAC-7" type="10">
     <narrative xml:lang="FR">GOVERNMENT OF NETHERLANDS</narrative>
    </provider-org>
@@ -129,8 +199,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">270000</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">280074</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
