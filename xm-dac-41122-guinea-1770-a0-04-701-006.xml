@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unicef-guinea" dstore:index="42" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-12-16T10:15:37-05:00" iati-activities:version="2.02" last-updated-datetime="2020-12-16T10:15:43-05:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-guinea" dstore:index="52" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-15T16:14:32-05:00" iati-activities:version="2.02" last-updated-datetime="2021-01-15T16:14:39-05:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Guinea-1770/A0/04/701/006</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -17,23 +17,26 @@
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">West African Health Organization</narrative>
   </participating-org>
-  <participating-org ref="47122" role="1" type="40">
-   <narrative xml:lang="EN">GAVI The Vaccine Alliance</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-701-2" role="1" type="10">
    <narrative xml:lang="EN">Japan</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-2-10" role="1" type="10">
    <narrative xml:lang="EN">Belgium</narrative>
   </participating-org>
-  <participating-org ref="ES-DIR3-E04585801" role="1" type="10">
-   <narrative xml:lang="EN">Spain</narrative>
+  <participating-org ref="47122" role="1" type="40">
+   <narrative xml:lang="EN">GAVI The Vaccine Alliance</narrative>
   </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Guinea - Conakry</narrative>
   </participating-org>
+  <participating-org ref="ES-DIR3-E04585801" role="1" type="10">
+   <narrative xml:lang="EN">Spain</narrative>
+  </participating-org>
   <participating-org ref="XI-IATI-EC_ECHO" role="1" type="40">
    <narrative xml:lang="EN">European Commission / ECHO</narrative>
+  </participating-org>
+  <participating-org ref="DE-1" role="1" type="10">
+   <narrative xml:lang="EN">Germany</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
@@ -44,17 +47,17 @@
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Canada/IHA</narrative>
   </participating-org>
-  <participating-org ref="DE-1" role="1" type="10">
-   <narrative xml:lang="EN">Germany</narrative>
-  </participating-org>
-  <participating-org ref="XM-DAC-7" role="1" type="10">
-   <narrative xml:lang="EN">Netherlands</narrative>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">European Commission/EC</narrative>
   </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Canada</narrative>
   </participating-org>
+  <participating-org ref="XM-DAC-7" role="1" type="10">
+   <narrative xml:lang="EN">Netherlands</narrative>
+  </participating-org>
   <participating-org role="1" type="40">
-   <narrative xml:lang="EN">European Commission/EC</narrative>
+   <narrative xml:lang="EN">UNDP - MDTF</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-576" role="1" type="10">
    <narrative xml:lang="EN">United Arab Emirates</narrative>
@@ -62,13 +65,10 @@
   <participating-org ref="XM-DAC-41127" role="1" type="40">
    <narrative xml:lang="EN">UNOCHA</narrative>
   </participating-org>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">UNDP - MDTF</narrative>
-  </participating-org>
-  <participating-org role="4" type="40">
+  <participating-org role="3" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
-  <participating-org role="3" type="40">
+  <participating-org role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
   <other-identifier ref="41122-Guinea-1770/A0/04/701/006" type="B1">
@@ -181,11 +181,11 @@
   <sector code="72010" percentage="95.9" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
-  <sector code="3" percentage="95.9" vocabulary="7">
-   <narrative xml:lang="EN">Good Health and Well-being</narrative>
-  </sector>
   <sector code="2" percentage="4.1" vocabulary="7">
    <narrative xml:lang="EN">Zero Hunger</narrative>
+  </sector>
+  <sector code="3" percentage="95.9" vocabulary="7">
+   <narrative xml:lang="EN">Good Health and Well-being</narrative>
   </sector>
   <sector code="9" percentage="100" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
    <narrative xml:lang="EN">Nutrition</narrative>
@@ -211,12 +211,12 @@
   <budget type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-11-30">0</value>
+   <value currency="USD" value-date="2020-12-31">0</value>
   </budget>
   <planned-disbursement type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-11-30">0</value>
+   <value currency="USD" value-date="2020-12-31">0</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -311,8 +311,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">2473</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2473</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -323,8 +323,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">2473</value>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">2473</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -359,8 +359,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-12-31"></transaction-date>
-   <value currency="USD" value-date="2018-12-31">393425</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">2473</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -371,8 +371,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-04-30"></transaction-date>
-   <value currency="USD" value-date="2019-04-30">2569</value>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="USD" value-date="2018-12-31">393425</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -395,8 +395,20 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">2473</value>
+   <transaction-date iso-date="2019-04-30"></transaction-date>
+   <value currency="USD" value-date="2019-04-30">2569</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">13027352</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -419,18 +431,6 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">2473</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-02-28"></transaction-date>
    <value currency="USD" value-date="2019-02-28">2473</value>
    <description>
@@ -443,8 +443,32 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">13027352</value>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="USD" value-date="2020-05-31">2473</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">2473</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-06-30"></transaction-date>
+   <value currency="USD" value-date="2019-06-30">911</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -479,18 +503,6 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-11-30"></transaction-date>
-   <value currency="USD" value-date="2019-11-30">2473</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-07-31"></transaction-date>
    <value currency="USD" value-date="2020-07-31">2473</value>
    <description>
@@ -503,8 +515,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-06-30"></transaction-date>
-   <value currency="USD" value-date="2019-06-30">911</value>
+   <transaction-date iso-date="2019-11-30"></transaction-date>
+   <value currency="USD" value-date="2019-11-30">2473</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -539,8 +551,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-10-31"></transaction-date>
-   <value currency="USD" value-date="2019-10-31">2473</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">306988</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -551,8 +563,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">306988</value>
+   <transaction-date iso-date="2019-10-31"></transaction-date>
+   <value currency="USD" value-date="2019-10-31">2473</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -623,6 +635,18 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-01-01">1617190</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Guinea - Conakry</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
    <value currency="USD" value-date="2015-01-01">448929</value>
    <description>
@@ -635,13 +659,13 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-01-01">1617190</value>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">43322</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Guinea - Conakry</narrative>
+    <narrative xml:lang="EN">Canada</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -660,12 +684,12 @@
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">43322</value>
+   <value currency="USD" value-date="2015-01-01">802947</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Canada</narrative>
+    <narrative xml:lang="EN">European Commission/EC</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -678,18 +702,6 @@
    </description>
    <provider-org>
     <narrative xml:lang="EN">UNDP - MDTF</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">802947</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">European Commission/EC</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -719,6 +731,18 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-01-01">2323</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">French Committee for UNICEF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2014-12-31"></transaction-date>
    <value currency="USD" value-date="2014-01-01">101540</value>
    <description>
@@ -731,13 +755,13 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-01-01">2323</value>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="USD" value-date="2014-01-01">386816</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">French Committee for UNICEF</narrative>
+    <narrative xml:lang="EN">Netherlands</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -755,13 +779,25 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="USD" value-date="2014-01-01">386816</value>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">109740</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Netherlands</narrative>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">-2398</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">French Committee for UNICEF</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -803,37 +839,13 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">109740</value>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="USD" value-date="2014-01-01">422872</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-01-01">324808</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNDP - MDTF</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">-2398</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">French Committee for UNICEF</narrative>
+    <narrative xml:lang="EN">Germany</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -851,25 +863,13 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="USD" value-date="2014-01-01">422872</value>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-01-01">324808</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Germany</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="USD" value-date="2014-01-01">250000</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">European Commission / ECHO</narrative>
+    <narrative xml:lang="EN">UNDP - MDTF</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -882,6 +882,18 @@
    </description>
    <provider-org>
     <narrative xml:lang="EN">United Arab Emirates</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="USD" value-date="2014-01-01">250000</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">European Commission / ECHO</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -948,12 +960,12 @@
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">38835</value>
+   <value currency="USD" value-date="2015-01-01">15343</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Canada/IHA</narrative>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -972,12 +984,12 @@
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">15343</value>
+   <value currency="USD" value-date="2015-01-01">38835</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+    <narrative xml:lang="EN">Canada/IHA</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1032,18 +1044,6 @@
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">5890129</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Guinea - Conakry</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
    <value currency="USD" value-date="2015-01-01">93592</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -1055,13 +1055,13 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">183200</value>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">5890129</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Belgium</narrative>
+    <narrative xml:lang="EN">Guinea - Conakry</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1079,18 +1079,6 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-01-01">-1720</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Guinea - Conakry</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
    <value currency="USD" value-date="2016-01-01">1481099</value>
    <description>
@@ -1098,6 +1086,18 @@
    </description>
    <provider-org>
     <narrative xml:lang="EN">European Commission/EC</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">-1720</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Guinea - Conakry</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1110,6 +1110,18 @@
    </description>
    <provider-org>
     <narrative xml:lang="EN">Guinea - Conakry</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">183200</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Belgium</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1127,6 +1139,18 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-01-01">1617190</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Guinea - Conakry</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
    <value currency="USD" value-date="2015-01-01">448929</value>
    <description>
@@ -1139,13 +1163,13 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-01-01">1617190</value>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">43322</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Guinea - Conakry</narrative>
+    <narrative xml:lang="EN">Canada</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1163,13 +1187,13 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">43322</value>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="USD" value-date="2018-01-01">-28093</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Canada</narrative>
+    <narrative xml:lang="EN">UNDP - MDTF</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1211,13 +1235,13 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2018-12-31"></transaction-date>
-   <value currency="USD" value-date="2018-01-01">-28093</value>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-01-01">2323</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">UNDP - MDTF</narrative>
+    <narrative xml:lang="EN">French Committee for UNICEF</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1230,18 +1254,6 @@
    </description>
    <provider-org>
     <narrative xml:lang="EN">Guinea - Conakry</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-01-01">2323</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">French Committee for UNICEF</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1307,18 +1319,6 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-01-01">25907</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
    <value currency="USD" value-date="2016-01-01">-2398</value>
    <description>
@@ -1331,37 +1331,13 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">598827</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Germany</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="USD" value-date="2014-01-01">422872</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Germany</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-01-01">324808</value>
+   <value currency="USD" value-date="2017-01-01">25907</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">UNDP - MDTF</narrative>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1391,13 +1367,37 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">501095</value>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="USD" value-date="2014-01-01">422872</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+    <narrative xml:lang="EN">Germany</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">598827</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Germany</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-01-01">324808</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNDP - MDTF</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1417,6 +1417,18 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2014-12-31"></transaction-date>
    <value currency="USD" value-date="2014-01-01">534580</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">501095</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -1463,18 +1475,6 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">26447</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
    <value currency="USD" value-date="2015-01-01">15343</value>
    <description>
@@ -1488,12 +1488,12 @@
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">76262</value>
+   <value currency="USD" value-date="2016-01-01">26447</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Spain</narrative>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1512,12 +1512,12 @@
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">133972</value>
+   <value currency="USD" value-date="2016-01-01">76262</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Netherlands</narrative>
+    <narrative xml:lang="EN">Spain</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -1535,6 +1535,18 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">133972</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Netherlands</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
    <value currency="USD" value-date="2015-01-01">93592</value>
    <description>
@@ -1547,32 +1559,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">183200</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Belgium</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
    <value currency="USD" value-date="2015-01-01">5890129</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Guinea - Conakry</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-01-01">-1720</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -1593,18 +1581,6 @@
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="0" ref="Disbursement">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-12-31">0</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
@@ -1617,13 +1593,49 @@
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">-1720</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Guinea - Conakry</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">183200</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Belgium</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Disbursement">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-12-31">0</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="http://files.unicef.org/transparency/documents/1770A004701006000 Contract Awards.pdf">
    <title>
     <narrative xml:lang="EN">1770/A0/04/701/006 Contract Awards</narrative>
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-11-30"></document-date>
+   <document-date iso-date="2020-12-31"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unicef.org/evaldatabase/index_68301.html">
    <title>
@@ -1648,7 +1660,7 @@
    <category code="A12"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-11-30"></document-date>
+   <document-date iso-date="2020-12-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Guinea-2019-COAR.pdf">
    <title>
@@ -1763,6 +1775,14 @@
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/appeals/files/UNICEF_Global_COVID19_Mid-Term_Situation_Report_No_9_Feb_Jul_2020.pdf">
+   <title>
+    <narrative xml:lang="EN">UNICEF GLOBAL COVID-19 Mid-Term Situation Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-07-31"></document-date>
+  </document-link>
   <related-activity ref="1770/A0/04/701 01 - HEALTH" type="1"></related-activity>
   <conditions attached="1">
    <condition type="1">
@@ -1778,28 +1798,28 @@
    </description>
    <indicator ascending="0">
     <title>
-     <narrative xml:lang="EN">UNICEF-targeted children 6-59 months in humanitarian situations who are vaccinated against measles.</narrative>
+     <narrative xml:lang="EN">% plateformes having integrated emergency preparedness and response in their activities</narrative>
     </title>
     <description>
      <narrative xml:lang="EN"></narrative>
     </description>
     <reference code="1" vocabulary="1"></reference>
-    <baseline value="95%" year="2016">
+    <baseline value="Not available" year="2015">
      <comment>
       <narrative xml:lang="EN"></narrative>
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2016-01-01"></period-start>
+     <period-start iso-date="2015-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="2017:95%">
+     <target value="2017:100%">
       <location></location>
       <dimension></dimension>
       <comment>
        <narrative xml:lang="EN"></narrative>
       </comment>
      </target>
-     <actual value=":">
+     <actual value="2017:35">
       <location></location>
       <dimension></dimension>
       <comment>
@@ -1842,6 +1862,38 @@
    </indicator>
    <indicator ascending="0">
     <title>
+     <narrative xml:lang="EN">UNICEF-targeted children 6-59 months in humanitarian situations who are vaccinated against measles.</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"></narrative>
+    </description>
+    <reference code="1" vocabulary="1"></reference>
+    <baseline value="95%" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2017-12-31"></period-end>
+     <target value="2017:95%">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual value=":">
+      <location></location>
+      <dimension></dimension>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0">
+    <title>
      <narrative xml:lang="EN">Nb of prevention and treatment centers of potentielly epidemic diseases equiped</narrative>
     </title>
     <description>
@@ -1864,38 +1916,6 @@
       </comment>
      </target>
      <actual value=":">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0">
-    <title>
-     <narrative xml:lang="EN">% plateformes having integrated emergency preparedness and response in their activities</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
-    <reference code="1" vocabulary="1"></reference>
-    <baseline value="Not available" year="2015">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="2017:100%">
-      <location></location>
-      <dimension></dimension>
-      <comment>
-       <narrative xml:lang="EN"></narrative>
-      </comment>
-     </target>
-     <actual value="2017:35">
       <location></location>
       <dimension></dimension>
       <comment>
