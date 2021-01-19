@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unicef-eapro1" dstore:index="32" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-12-16T10:11:50-05:00" iati-activities:version="2.02" last-updated-datetime="2020-12-16T10:11:53-05:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-eapro1" dstore:index="8" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-15T16:10:59-05:00" iati-activities:version="2.02" last-updated-datetime="2021-01-15T16:11:00-05:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-EAPRO, Thailand-420R/A0/10/005/020</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -18,6 +18,9 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   <participating-org ref="XM-DAC-701-2" role="1" type="10">
    <narrative xml:lang="EN">Japan</narrative>
   </participating-org>
+  <participating-org ref="US-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">USA USAID</narrative>
+  </participating-org>
   <participating-org role="3" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
@@ -26,9 +29,6 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   </participating-org>
   <participating-org role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
-  </participating-org>
-  <participating-org ref="US-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">USA USAID</narrative>
   </participating-org>
   <other-identifier ref="41122-EAPRO, Thailand-420R/A0/10/005/020" type="B1">
    <owner-org>
@@ -137,12 +137,12 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   <budget type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-11-30">0</value>
+   <value currency="USD" value-date="2020-12-31">0</value>
   </budget>
   <planned-disbursement type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-11-30">0</value>
+   <value currency="USD" value-date="2020-12-31">0</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -151,6 +151,18 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
    </receiver-org>
   </planned-disbursement>
   <capital-spend percentage="0"></capital-spend>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">237346</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
@@ -167,18 +179,6 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
    <value currency="USD" value-date="2020-10-31">59997</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">54469</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -213,6 +213,18 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">54469</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
    <value currency="USD" value-date="2020-08-31">195030</value>
    <description>
@@ -237,8 +249,8 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Disbursement">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">880408</value>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-12-31">956620</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -249,20 +261,8 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">1174164</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Japan</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">324000</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">200</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -273,8 +273,44 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">578685</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">853302</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Japan</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">320862</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Japan</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">351652</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF-SINGAPORE</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">57321</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -285,8 +321,32 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">158401</value>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">636363</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">68176</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA USAID</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">90224</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -297,8 +357,8 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">1174164</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">853302</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -309,8 +369,20 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">324000</value>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">320862</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Japan</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">200</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -321,8 +393,20 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">578685</value>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">351652</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF-SINGAPORE</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">57321</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -333,8 +417,32 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">158401</value>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">636363</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">68176</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA USAID</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">90224</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -358,7 +466,7 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
    <category code="A12"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-11-30"></document-date>
+   <document-date iso-date="2020-12-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/EAPRO_2018_ROAR.pdf">
    <title>
@@ -448,6 +556,14 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/appeals/files/UNICEF_Global_COVID19_Mid-Term_Situation_Report_No_9_Feb_Jul_2020.pdf">
+   <title>
+    <narrative xml:lang="EN">UNICEF GLOBAL COVID-19 Mid-Term Situation Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-07-31"></document-date>
+  </document-link>
   <related-activity ref="420R/A0/10/005 OUTCOME 5: PROGRAMME  EXCELLENCE" type="1"></related-activity>
   <conditions attached="1">
    <condition type="1">
@@ -496,7 +612,7 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
    </indicator>
    <indicator ascending="0">
     <title>
-     <narrative xml:lang="EN">Number of CO COVID-19 response plans quality assured</narrative>
+     <narrative xml:lang="EN">Number appeal targets reached (at least 80% of target)</narrative>
     </title>
     <description>
      <narrative xml:lang="EN"></narrative>
@@ -510,7 +626,7 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:14">
+     <target value="2020:13">
       <location></location>
       <dimension></dimension>
       <comment>
@@ -528,7 +644,7 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
    </indicator>
    <indicator ascending="0">
     <title>
-     <narrative xml:lang="EN">Number appeal targets reached (at least 80% of target)</narrative>
+     <narrative xml:lang="EN">Number of CO COVID-19 response plans quality assured</narrative>
     </title>
     <description>
      <narrative xml:lang="EN"></narrative>
@@ -542,7 +658,7 @@ health and socio-economic impacts of COVID-19 pandemics on children.</narrative>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:13">
+     <target value="2020:14">
       <location></location>
       <dimension></dimension>
       <comment>

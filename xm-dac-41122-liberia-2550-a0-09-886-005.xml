@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="USD" dstore:dataset="unicef-liberia" dstore:index="101" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-12-16T10:23:16-05:00" iati-activities:version="2.02" last-updated-datetime="2020-12-16T10:23:35-05:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-liberia" dstore:index="105" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-15T16:21:41-05:00" iati-activities:version="2.02" last-updated-datetime="2021-01-15T16:21:59-05:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Liberia-2550/A0/09/886/005</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -11,6 +11,9 @@
   <description type="1">
    <narrative xml:lang="EN">UNICEF support to GoL for continuity of essential child protection services in response to COVID-19 pandemic</narrative>
   </description>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+  </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">UNDP - MDTF</narrative>
   </participating-org>
@@ -34,7 +37,7 @@
     <narrative xml:lang="EN">UNICEF previous reporting-org identifier</narrative>
    </owner-org>
   </other-identifier>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-01-01" type="1">
    <narrative xml:lang="EN"></narrative>
   </activity-date>
@@ -115,11 +118,11 @@
   <sector code="72050" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Public finance management (PFM)</narrative>
   </sector>
-  <sector code="10" percentage="100" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
-   <narrative xml:lang="EN">Protection</narrative>
-  </sector>
   <sector code="16" percentage="100" vocabulary="7">
    <narrative xml:lang="EN">Peace, Justice and Strong Institutions</narrative>
+  </sector>
+  <sector code="10" percentage="100" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
+   <narrative xml:lang="EN">Protection</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="1.1.1" percentage="100" vocabulary="1">
@@ -142,12 +145,12 @@
   <budget type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-11-30">0</value>
+   <value currency="USD" value-date="2020-12-31">469293</value>
   </budget>
   <planned-disbursement type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-11-30">0</value>
+   <value currency="USD" value-date="2020-12-31">469293</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -158,8 +161,8 @@
   <capital-spend percentage="0"></capital-spend>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">15559</value>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-10-31">33930</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -170,8 +173,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-10-31">33930</value>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">15559</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -194,8 +197,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">2298</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">90051</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -206,8 +209,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">31722</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">2298</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -240,10 +243,22 @@
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">31722</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction humanitarian="1" ref="Disbursement">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">188177</value>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-12-31">188177</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -254,8 +269,20 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">39572</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">97906</value>
+   <value currency="USD" value-date="2021-01-01">145233</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -266,8 +293,32 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">11000</value>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">20017</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNDP - MDTF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">1617</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Consolidated Funds from NatComs</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">10946</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -278,20 +329,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">102094</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Consolidated Funds from NatComs</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">352752</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">225481</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -303,7 +342,7 @@
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">110311</value>
+   <value currency="USD" value-date="2021-01-01">237582</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -314,8 +353,32 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">23517</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">3500</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNDP - MDTF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">39572</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">20017</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -327,7 +390,7 @@
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">97906</value>
+   <value currency="USD" value-date="2021-01-01">145233</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -338,8 +401,20 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">11000</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">1617</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Consolidated Funds from NatComs</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">10946</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -350,20 +425,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">102094</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Consolidated Funds from NatComs</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">352752</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">225481</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -375,7 +438,7 @@
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">110311</value>
+   <value currency="USD" value-date="2021-01-01">237582</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -386,8 +449,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">23517</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">3500</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -427,7 +490,7 @@
    <category code="A12"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-11-30"></document-date>
+   <document-date iso-date="2020-12-31"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://wcmsprod.unicef.org/liberia/child-protection">
    <title>
@@ -581,6 +644,14 @@
    <category code="A10"></category>
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/appeals/files/UNICEF_Global_COVID19_Mid-Term_Situation_Report_No_9_Feb_Jul_2020.pdf">
+   <title>
+    <narrative xml:lang="EN">UNICEF GLOBAL COVID-19 Mid-Term Situation Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-07-31"></document-date>
   </document-link>
   <related-activity ref="2550/A0/09/886 OUTCOME 6. CHILD PROTECTION" type="1"></related-activity>
   <conditions attached="1">
