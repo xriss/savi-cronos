@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="GBP" dstore:dataset="redruk-activities" dstore:index="1" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-11T11:26:24+00:00" iati-activities:version="2.03" last-updated-datetime="2020-11-11T11:26:24+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="GBP" dstore:dataset="redruk-activities" dstore:index="1" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-20T20:18:28+00:00" iati-activities:version="2.03" last-updated-datetime="2021-01-20T20:18:28+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1079752-GB-CHC-1079752-H2H2011</iati-identifier>
   <reporting-org ref="GB-CHC-1079752" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">RedR UK</narrative>
@@ -47,17 +47,7 @@
    <period-end iso-date="2020-11-20"></period-end>
    <value currency="GBP" value-date="2020-05-21">202043.84</value>
   </budget>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="GBP" value-date="2020-08-31">103977</value>
-   <description>
-    <narrative xml:lang="EN">Total expenditure 21/05/20-31/08/20</narrative>
-   </description>
-   <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="Danish Refugee Council" type="21"></provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-1079752-GB-CHC-1079752-H2H2011" ref="GB-CHC-1079752" type="21"></receiver-org>
-  </transaction>
-  <transaction humanitarian="1" ref="[Copy]">
+  <transaction humanitarian="1" ref="1st instalment">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-07-03"></transaction-date>
    <value currency="GBP" value-date="2020-07-03">80817.536</value>
@@ -66,6 +56,37 @@
    </description>
    <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="Danish Refugee Council" type="21"></provider-org>
    <receiver-org receiver-activity-id="GB-CHC-1079752-GB-CHC-1079752-H2H2011" ref="RedR UK" type="21"></receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="2nd instalment">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-10"></transaction-date>
+   <value currency="GBP" value-date="2020-12-10">80817.536</value>
+   <description>
+    <narrative xml:lang="EN">2nd instalment 40%</narrative>
+   </description>
+   <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="Danish Refugee Council" type="21"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1079752-GB-CHC-1079752-H2H2011" ref="RedR UK" type="21"></receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Final report">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-08-31">98067</value>
+   <description>
+    <narrative xml:lang="EN">Total expenditure 01/09/20-20/11/20</narrative>
+   </description>
+   <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="Danish Refugee Council" type="21"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1079752-GB-CHC-1079752-H2H2011" ref="GB-CHC-1079752" type="21"></receiver-org>
+   <tied-status code="4"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Interim report">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="GBP" value-date="2020-08-31">103977</value>
+   <description>
+    <narrative xml:lang="EN">Total expenditure 21/05/20-31/08/20</narrative>
+   </description>
+   <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="Danish Refugee Council" type="21"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1079752-GB-CHC-1079752-H2H2011" ref="GB-CHC-1079752" type="21"></receiver-org>
   </transaction>
  </iati-activity>
 </iati-activities>
