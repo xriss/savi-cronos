@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="GBP" dstore:dataset="ciuk-newfunding" dstore:index="24" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-10-20T09:25:02.580000+00:00" iati-activities:version="2.03" last-updated-datetime="2020-10-20T09:25:02.580000+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="GBP" dstore:dataset="ciuk-newfunding" dstore:index="24" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-20T15:43:58.490000+00:00" iati-activities:version="2.03" last-updated-datetime="2021-01-20T15:43:58.490000+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-292506-GB803</iati-identifier>
-  <reporting-org ref="GB-CHC-292514" type="21">
+  <reporting-org ref="GB-CHC-292506" type="21">
    <narrative xml:lang="EN">CARE International UK</narrative>
   </reporting-org>
   <title>
@@ -23,9 +23,9 @@
   <participating-org ref=";" role="4" type="22">
    <narrative xml:lang="EN">CARE National Office</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2020-09-01" type="2"></activity-date>
-  <activity-date iso-date="2020-10-30" type="3"></activity-date>
+  <activity-date iso-date="2020-10-30" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">info@careinternational.org</narrative>
@@ -48,5 +48,33 @@
    <period-end iso-date="2020-10-30"></period-end>
    <value currency="GBP" value-date="2020-10-30">36000</value>
   </budget>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-10-30"></transaction-date>
+   <value currency="GBP" value-date="2020-10-30">36000</value>
+   <description>
+    <narrative xml:lang="EN">Incomming funds from Donor</narrative>
+   </description>
+   <provider-org provider-activity-id=";" ref=";">
+    <narrative xml:lang="EN">Guernsey Overseas Aid Commission</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-292506-GB803" ref="GB-CHC-292506">
+    <narrative xml:lang="EN">CARE International UK</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-05"></transaction-date>
+   <value currency="GBP" value-date="2020-10-05">30000</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement to Country Office/Partner</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-CHC-292506-GB803" ref="GB-CHC-292506">
+    <narrative xml:lang="EN">CARE International UK</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id=";" ref=";">
+    <narrative xml:lang="EN">Country Office/Partner</narrative>
+   </receiver-org>
+  </transaction>
  </iati-activity>
 </iati-activities>
