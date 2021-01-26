@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="DKK" dstore:dataset="adra-dk-activities" dstore:index="2" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-12-11T12:31:06+00:00" iati-activities:version="2.03" last-updated-datetime="2020-12-11T12:31:06+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="DKK" dstore:dataset="adra-dk-activities" dstore:index="2" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-25T13:48:41+00:00" iati-activities:version="2.03" last-updated-datetime="2021-01-25T13:06:30+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>DK-CVR-20074035-LotHUM_2017-12478-2</iati-identifier>
   <reporting-org ref="DK-CVR-20074035" type="22">
    <narrative xml:lang="EN">ADRA Danmark</narrative>
@@ -41,12 +41,26 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="DKK" value-date="2019-01-01">15000000</value>
   </budget>
-  <transaction humanitarian="1" ref="Incoming funds 2019 second instalment">
+  <transaction humanitarian="1" ref="Incoming Funds 2020 Second Installment">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-07-11"></transaction-date>
-   <value currency="DKK" value-date="2019-07-11">7500000</value>
-   <provider-org provider-activity-id="XM-DAC-3-1-271091-32535" ref="Ministry of Foreign Affairs" type="10"></provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-3-1-271091-32535" ref="ADRA Danmark"></receiver-org>
+   <transaction-date iso-date="2020-07-09"></transaction-date>
+   <value currency="DKK" value-date="2020-07-09">5625000</value>
+   <provider-org provider-activity-id="XM-DAC-3-1-271091-32535" ref="Denmark - Ministry of Foreign Affairs" type="10"></provider-org>
+   <receiver-org receiver-activity-id="ADRA Denmark" ref="ADRA Denmark" type="22"></receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <recipient-country code="DK"></recipient-country>
+   <finance-type code="110"></finance-type>
+   <aid-type code="E" vocabulary="3"></aid-type>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Commitment 2020 Additional Flex (COVID-19)">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-04-01"></transaction-date>
+   <value currency="DKK" value-date="2020-04-01">4000000</value>
+   <description>
+    <narrative xml:lang="EN">Additional Flex Funds in response to COVID-19 crisis</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-3-1-271091-32535" ref="Denmark - Ministry of Foreign Affairs" type="10"></provider-org>
+   <receiver-org receiver-activity-id="ADRA Denmark" ref="ADRA Denmark" type="22"></receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
    <recipient-region code="998"></recipient-region>
    <finance-type code="110"></finance-type>
@@ -63,14 +77,14 @@
    <finance-type code="110"></finance-type>
    <aid-type code="CIVIL SOCIETY DEVELOPMENT" vocabulary="3"></aid-type>
   </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds 2020 First Installment">
+  <transaction humanitarian="1" ref="Incoming funds 2019 second instalment">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-02-12"></transaction-date>
-   <value currency="DKK" value-date="2020-02-12">9375000</value>
-   <provider-org provider-activity-id="XM-DAC-3-1-271091-32535" ref="Denmark - Ministry of Foreign Affairs" type="10"></provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-3-1-271091-32535" ref="ADRA Danmark" type="22"></receiver-org>
+   <transaction-date iso-date="2019-07-11"></transaction-date>
+   <value currency="DKK" value-date="2019-07-11">7500000</value>
+   <provider-org provider-activity-id="XM-DAC-3-1-271091-32535" ref="Ministry of Foreign Affairs" type="10"></provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-3-1-271091-32535" ref="ADRA Danmark"></receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
-   <recipient-country code="DK"></recipient-country>
+   <recipient-region code="998"></recipient-region>
    <finance-type code="110"></finance-type>
    <aid-type code="E" vocabulary="3"></aid-type>
   </transaction>
@@ -127,26 +141,12 @@
    <finance-type code="110"></finance-type>
    <aid-type code="CIVIL SOCIETY DEVELOPMENT" vocabulary="3"></aid-type>
   </transaction>
-  <transaction humanitarian="1" ref="Incoming Commitment 2020 Additional Flex (COVID-19)">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-04-01"></transaction-date>
-   <value currency="DKK" value-date="2020-04-01">4000000</value>
-   <description>
-    <narrative xml:lang="EN">Additional Flex Funds in response to COVID-19 crisis</narrative>
-   </description>
-   <provider-org provider-activity-id="XM-DAC-3-1-271091-32535" ref="Denmark - Ministry of Foreign Affairs" type="10"></provider-org>
-   <receiver-org receiver-activity-id="ADRA Denmark" ref="ADRA Denmark" type="22"></receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <recipient-region code="998"></recipient-region>
-   <finance-type code="110"></finance-type>
-   <aid-type code="E" vocabulary="3"></aid-type>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds 2020 Second Installment">
+  <transaction humanitarian="1" ref="Incoming Funds 2020 First Installment">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-07-09"></transaction-date>
-   <value currency="DKK" value-date="2020-07-09">5625000</value>
+   <transaction-date iso-date="2020-02-12"></transaction-date>
+   <value currency="DKK" value-date="2020-02-12">9375000</value>
    <provider-org provider-activity-id="XM-DAC-3-1-271091-32535" ref="Denmark - Ministry of Foreign Affairs" type="10"></provider-org>
-   <receiver-org receiver-activity-id="ADRA Denmark" ref="ADRA Denmark" type="22"></receiver-org>
+   <receiver-org receiver-activity-id="XM-DAC-3-1-271091-32535" ref="ADRA Danmark" type="22"></receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
    <recipient-country code="DK"></recipient-country>
    <finance-type code="110"></finance-type>

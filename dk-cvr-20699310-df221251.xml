@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="DKK" dstore:dataset="drc-activities" dstore:index="13" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-21T10:23:09+00:00" iati-activities:version="2.03" last-updated-datetime="2020-10-21T16:24:52+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="DKK" dstore:dataset="drc-activities" dstore:index="13" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-25T08:37:22+00:00" iati-activities:version="2.03" last-updated-datetime="2021-01-25T08:37:22+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>DK-CVR-20699310-DF221251</iati-identifier>
   <reporting-org ref="DK-CVR-20699310" type="21">
    <narrative xml:lang="EN">Danish Refugee Council</narrative>
@@ -98,13 +98,57 @@
    <period-end iso-date="2023-04-27"></period-end>
    <value currency="GBP" value-date="2020-05-29">5049684.02</value>
   </budget>
-  <transaction ref="Milestone 65: COVID-19">
+  <transaction ref="Payment for Invoice 2">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-04-03"></transaction-date>
+   <value currency="GBP" value-date="2019-04-01">662522.09</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-06"></transaction-date>
+   <value currency="GBP" value-date="2020-05-01">507134.53</value>
+   <provider-org ref="DK-CVR-20699310" type="21">
+    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   </provider-org>
+   <receiver-org ref="GB-CHC-1076235" type="21">
+    <narrative xml:lang="EN">BBC Media Action</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-01"></transaction-date>
+   <value currency="GBP" value-date="2020-05-01">142629.46</value>
+   <provider-org ref="DK-CVR-20699310" type="21">
+    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="GB-COH-213890-82604294" ref="GB-COH-213890" type="21">
+    <narrative xml:lang="EN">Save the Children UK</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="GBP" value-date="2019-12-31">127621.21</value>
+   <provider-org ref="DK-CVR-20699310" type="21">
+    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   </provider-org>
+   <receiver-org type="70">
+    <narrative xml:lang="EN">Lhassa Consulting</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="GBP" value-date="2020-09-30">171799.81</value>
+   <transaction-date iso-date="2021-01-11"></transaction-date>
+   <value currency="GBP" value-date="2021-01-11">1036378.1</value>
    <description>
-    <narrative xml:lang="EN">Invoice September 2020</narrative>
+    <narrative xml:lang="EN">Payment for Invoice 5</narrative>
    </description>
+   <provider-org provider-activity-id="GB-1-205143-107" ref="GB-GOV-1" type="10">
+    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
+   </provider-org>
+   <receiver-org ref="DK-CVR-20699310" type="21">
+    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   </receiver-org>
   </transaction>
   <transaction ref=".">
    <transaction-type code="1"></transaction-type>
@@ -119,6 +163,33 @@
    <receiver-org receiver-activity-id="DK-CVR-20699310-DF221251" ref="DK-CVR-20699310" type="21">
     <narrative xml:lang="EN">Danish Refugee Council</narrative>
    </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2019-04-24"></transaction-date>
+   <value currency="GBP" value-date="2020-05-29">20764373.68</value>
+   <description>
+    <narrative xml:lang="EN">Total project budget</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-1-205143-107" ref="GB-GOV-1" type="10">
+    <narrative xml:lang="EN">DFID- UK Department for International Development</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="DK-CVR-20699310-DF221251" ref="DK-CVR-20699310" type="21">
+    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Payment for Invoice 3">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="GBP" value-date="2020-06-01">787869.25</value>
+  </transaction>
+  <transaction ref="Milestone 65: COVID-19">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="GBP" value-date="2020-09-30">171799.81</value>
+   <description>
+    <narrative xml:lang="EN">Invoice September 2020</narrative>
+   </description>
   </transaction>
   <transaction humanitarian="1" ref="Payment for Invoice 1">
    <transaction-type code="4"></transaction-type>
@@ -160,63 +231,6 @@
    <receiver-org receiver-activity-id="DK-CVR-20699310-DF221251" ref="DK-CVR-20699310" type="21">
     <narrative xml:lang="EN">Danish Refugee Council</narrative>
    </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-06"></transaction-date>
-   <value currency="GBP" value-date="2020-05-01">507134.53</value>
-   <provider-org ref="DK-CVR-20699310" type="21">
-    <narrative xml:lang="EN">Danish Refugee Council</narrative>
-   </provider-org>
-   <receiver-org ref="GB-CHC-1076235" type="21">
-    <narrative xml:lang="EN">BBC Media Action</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-01"></transaction-date>
-   <value currency="GBP" value-date="2020-05-01">142629.46</value>
-   <provider-org ref="DK-CVR-20699310" type="21">
-    <narrative xml:lang="EN">Danish Refugee Council</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="GB-COH-213890-82604294" ref="GB-COH-213890" type="21">
-    <narrative xml:lang="EN">Save the Children UK</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="GBP" value-date="2019-12-31">127621.21</value>
-   <provider-org ref="DK-CVR-20699310" type="21">
-    <narrative xml:lang="EN">Danish Refugee Council</narrative>
-   </provider-org>
-   <receiver-org type="70">
-    <narrative xml:lang="EN">Lhassa Consulting</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction ref="Payment for Invoice 2">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-04-03"></transaction-date>
-   <value currency="GBP" value-date="2019-04-01">662522.09</value>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2019-04-24"></transaction-date>
-   <value currency="GBP" value-date="2020-05-29">20764373.68</value>
-   <description>
-    <narrative xml:lang="EN">Total project budget</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-1-205143-107" ref="GB-GOV-1" type="10">
-    <narrative xml:lang="EN">DFID- UK Department for International Development</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="DK-CVR-20699310-DF221251" ref="DK-CVR-20699310" type="21">
-    <narrative xml:lang="EN">Danish Refugee Council</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1" ref="Payment for Invoice 3">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">787869.25</value>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://aidstream.org/files/documents/annual-report-2018-east-africa-and-great-lakes-20200310120329.pdf">
    <title>
