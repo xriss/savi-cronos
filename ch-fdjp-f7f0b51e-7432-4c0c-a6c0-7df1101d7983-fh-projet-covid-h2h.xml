@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="CHF" dstore:dataset="fh_ch-activities" dstore:index="4" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-11T11:35:23+00:00" iati-activities:version="2.03" last-updated-datetime="2020-11-11T11:35:23+00:00" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="CHF" dstore:dataset="fh_ch-activities" dstore:index="4" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-26T16:35:07+00:00" iati-activities:version="2.03" last-updated-datetime="2021-01-26T16:35:07+00:00" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>CH-FDJP-f7f0b51e-7432-4c0c-a6c0-7df1101d7983-FH-projet Covid H2H</iati-identifier>
   <reporting-org ref="CH-FDJP-f7f0b51e-7432-4c0c-a6c0-7df1101d7983" type="21">
    <narrative xml:lang="FR">Fondation Hirondelle</narrative>
@@ -58,6 +58,7 @@
    <telephone>+41216542022</telephone>
    <email>nicholas.mansson@hirondelle.org</email>
   </contact-info>
+  <activity-scope code="3"></activity-scope>
   <recipient-country code="SL" percentage="40"></recipient-country>
   <recipient-country code="UG" percentage="40"></recipient-country>
   <recipient-country code="GN" percentage="20"></recipient-country>
@@ -80,6 +81,26 @@
    <period-end iso-date="2021-01-20"></period-end>
    <value currency="GBP" value-date="2020-05-21">289687</value>
   </budget>
+  <transaction humanitarian="1" ref="Total spend through August 31st">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="GBP" value-date="2020-08-31">71847</value>
+   <description>
+    <narrative xml:lang="FR">All expenditure of Hirondelle and its implementing partners through August 2020</narrative>
+   </description>
+   <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="DK-CVR-20699310"></provider-org>
+   <receiver-org receiver-activity-id="FH-projet Covid H2H" ref="CH-FDJP-f7f0b51e-7432-4c0c-a6c0-7df1101d7983" type="21"></receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Total budget committed by DRC">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-05-21"></transaction-date>
+   <value currency="GBP" value-date="2020-05-21">289687</value>
+   <description>
+    <narrative xml:lang="FR">Contracted commitment to Fondation Hirondelle from DRC</narrative>
+   </description>
+   <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="DK-CVR-20699310" type="21"></provider-org>
+   <receiver-org receiver-activity-id="FH-projet Covid H2H" ref="CH-FDJP-f7f0b51e-7432-4c0c-a6c0-7df1101d7983" type="21"></receiver-org>
+  </transaction>
   <transaction humanitarian="1" ref="1st tranch received from DRC">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-08-26"></transaction-date>
@@ -119,26 +140,6 @@
    </description>
    <provider-org provider-activity-id="FH-projet Covid H2H" ref="CH-FDJP-f7f0b51e-7432-4c0c-a6c0-7df1101d7983" type="21"></provider-org>
    <receiver-org ref="MICT" type="21"></receiver-org>
-  </transaction>
-  <transaction humanitarian="1" ref="Total spend through August 31st">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="GBP" value-date="2020-08-31">71847</value>
-   <description>
-    <narrative xml:lang="FR">All expenditure of Hirondelle and its implementing partners through August 2020</narrative>
-   </description>
-   <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="DK-CVR-20699310"></provider-org>
-   <receiver-org receiver-activity-id="FH-projet Covid H2H" ref="CH-FDJP-f7f0b51e-7432-4c0c-a6c0-7df1101d7983" type="21"></receiver-org>
-  </transaction>
-  <transaction humanitarian="1" ref="Total budget committed by DRC">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-05-21"></transaction-date>
-   <value currency="GBP" value-date="2020-05-21">289687</value>
-   <description>
-    <narrative xml:lang="FR">Contracted commitment to Fondation Hirondelle from DRC</narrative>
-   </description>
-   <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="DK-CVR-20699310" type="21"></provider-org>
-   <receiver-org receiver-activity-id="FH-projet Covid H2H" ref="CH-FDJP-f7f0b51e-7432-4c0c-a6c0-7df1101d7983" type="21"></receiver-org>
   </transaction>
  </iati-activity>
 </iati-activities>
