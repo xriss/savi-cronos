@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="undp-afg" dstore:index="253" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2021-01-08T20:48:26" iati-activities:version="2.03" last-updated-datetime="2021-01-08T12:26:07" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" dstore:dataset="undp-afg" dstore:index="263" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2021-01-25T16:47:29" iati-activities:version="2.03" last-updated-datetime="2021-01-25T09:57:11" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00121192</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -19,6 +19,9 @@
   </participating-org>
   <participating-org ref="CA-3" role="1" type="10">
    <narrative xml:lang="EN">CANADIAN INTERNATIONAL DEVELOPMENT AGENCY</narrative>
+  </participating-org>
+  <participating-org ref="AU-5" role="1" type="10">
+   <narrative xml:lang="EN">Australian DFAT</narrative>
   </participating-org>
   <participating-org ref="13254" role="1" type="40">
    <narrative xml:lang="EN">MPTF-Law and Order Trust Fund for Afghanistan</narrative>
@@ -73,6 +76,11 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="1" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">2278533</value>
+  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -81,8 +89,17 @@
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-01-25"></transaction-date>
+   <value currency="USD" value-date="2021-01-25">130000</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">26182</value>
+   <value currency="USD" value-date="2020-12-31">42283</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -140,6 +157,18 @@
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">2278533</value>
+   <provider-org ref="AU-5" type="10">
+    <narrative xml:lang="EN">Australian DFAT</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00121192" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -205,7 +234,7 @@
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">4841627</value>
+   <value currency="USD" value-date="2020-12-31">2311619</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
