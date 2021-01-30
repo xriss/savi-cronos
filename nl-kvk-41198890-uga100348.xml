@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="EUR" dstore:dataset="plannlno-ao" dstore:index="75" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-11-02T17:46:17.2780768+01:00" iati-activities:version="2.02" last-updated-datetime="2020-11-02T16:42:28.5852152Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="EUR" dstore:dataset="plannlno-ao" dstore:index="86" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-01-29T10:18:56.2534779+01:00" iati-activities:version="2.02" last-updated-datetime="2021-01-29T09:14:03.8962118Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-UGA100348</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -103,7 +103,7 @@ Social sustainability: The 22 water management committees will manage the operat
   <policy-marker code="PLAN AOGD 4" significance="1" vocabulary="99">
    <narrative xml:lang="EN">DECIDE - Sexual and Reproductive Health and Rights (SRHR)</narrative>
   </policy-marker>
-  <policy-marker code="1" significance="2" vocabulary="1">
+  <policy-marker code="1" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Gender Equality</narrative>
   </policy-marker>
   <collaboration-type code="3"></collaboration-type>
@@ -184,6 +184,31 @@ Social sustainability: The 22 water management committees will manage the operat
    <receiver-org ref="UG-RSB-80010000258705/F/1147" type="22">
     <narrative xml:lang="EN">Plan International Uganda</narrative>
    </receiver-org>
+  </transaction>
+  <transaction ref="2020-09-30T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="EUR" value-date="2020-09-30">2201</value>
+  </transaction>
+  <transaction ref="2020-12-31T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">1136</value>
+  </transaction>
+  <transaction ref="2020-08-31T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="EUR" value-date="2020-08-31">2414</value>
+  </transaction>
+  <transaction ref="kosten oktober 2020">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="EUR" value-date="2020-10-31">497</value>
+  </transaction>
+  <transaction ref="2020-11-30T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="EUR" value-date="2020-11-30">1491</value>
   </transaction>
   <transaction ref="NLD0742: &#x20AC; 5.890,14 (31-1-18)">
    <transaction-type code="4"></transaction-type>
@@ -344,10 +369,101 @@ Social sustainability: The 22 water management committees will manage the operat
   <related-activity ref="NL-KVK-41198890-ETH102164" type="3"></related-activity>
   <related-activity ref="NL-KVK-41198890-NPL100403" type="3"></related-activity>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Support to community WASH committees</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of community WASH committees supported</narrative>
+    </title>
+    <reference code="2360.1" indicator-uri="none" vocabulary="1"></reference>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Access to handwashing facilities</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people who have access to handwashing facilities</narrative>
+    </title>
+    <reference code="1865.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="9">
    <title>
     <narrative xml:lang="EN">Performance Plan Nederland as a development organisation</narrative>
    </title>
+   <indicator ascending="1" measure="4">
+    <title>
+     <narrative xml:lang="EN">Child Safeguarding Measurement marker</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Through this indicator Plan measures the safeguarding measures taken at the start of the project. 
+1 = no measure,  2 = protocol in place, 3= protocol &amp; risk assessment in place, 4= protocol &amp;  risk assessment &amp; management plan in place</narrative>
+    </description>
+    <reference code="0000.17" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+   </indicator>
+   <indicator ascending="1" measure="4">
+    <title>
+     <narrative xml:lang="EN">Humanitarian Gender with Age Marker (IASC GAM) - evaluation</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">For humanitarian projects up to 12 months Plan International Netherlands uses the gender with age marker of IASC (https://www.iascgenderwithagemarker.com). 
+1 = key programme actions do not address gender or age differences
+2=  addresses only age differences 
+3= addresses only gender differences 
+4 = addresses gender &amp; age differences</narrative>
+    </description>
+    <reference code="0000.16" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+   </indicator>
+   <indicator ascending="1" measure="4">
+    <title>
+     <narrative xml:lang="EN">Humanitarian Gender with Age Marker (IASC GAM)- design</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">For humanitarian projects up to 12 months Plan International Netherlands uses the gender with age marker of IASC (https://www.iascgenderwithagemarker.com). 
+1 = key programme actions do not address gender or age differences
+2=  addresses only age differences 
+3= addresses only gender differences 
+4 = addresses gender &amp; age differences</narrative>
+    </description>
+    <reference code="0000.14" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+   </indicator>
+   <indicator ascending="1" measure="4">
+    <title>
+     <narrative xml:lang="EN">Humanitarian Gender with Age Marker (IASC GAM) - monitoring</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">For humanitarian projects up to 12 months Plan International Netherlands uses the gender with age marker of IASC (https://www.iascgenderwithagemarker.com). 
+1 = key programme actions do not address gender or age differences
+2=  addresses only age differences 
+3= addresses only gender differences 
+4 = addresses gender &amp; age differences</narrative>
+    </description>
+    <reference code="0000.15" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+   </indicator>
+   <indicator ascending="1" measure="4">
+    <title>
+     <narrative xml:lang="EN">Gender transformative marker - design</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Scoring of the project design by the gender transformative marker of Plan International; 
+gender blind (1), gender neutral (2), gender aware (3), gender transformative (4)</narrative>
+    </description>
+    <reference code="0000.11" indicator-uri="none" vocabulary="1"></reference>
+   </indicator>
+   <indicator ascending="1" measure="4">
+    <title>
+     <narrative xml:lang="EN">Gender transformative marker - implementation</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Scoring of the implementation phase by the gender transformative marker of Plan International; 
+gender blind (1), gender neutral (2), gender aware (3), gender transformative (4)</narrative>
+    </description>
+    <reference code="0000.12" indicator-uri="none" vocabulary="1"></reference>
+   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
@@ -436,7 +552,7 @@ Social sustainability: The 22 water management committees will manage the operat
      <narrative xml:lang="EN">Benchmark for this sub-programme is Basic</narrative>
     </description>
     <reference code="SDG_OC02B" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="98271.00" year="2018">
+    <baseline value="0" year="2018">
      <comment>
       <narrative xml:lang="EN">Number of people (and % of people) in rural areas who reach basic and/or safely managed service levels of sanitation of the JMP ladder</narrative>
      </comment>
@@ -444,12 +560,11 @@ Social sustainability: The 22 water management committees will manage the operat
     <period>
      <period-start iso-date="2017-07-01"></period-start>
      <period-end iso-date="2022-09-30"></period-end>
-     <target value="291288.00">
+     <target value="88426.00">
       <comment>
        <narrative xml:lang="EN">This target value represents 71,1% of people in the intervention area</narrative>
       </comment>
      </target>
-     <actual value="98217.00"></actual>
     </period>
    </indicator>
   </result>

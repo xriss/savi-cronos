@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="EUR" dstore:dataset="plannlno-ao" dstore:index="21" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-11-02T17:46:17.2780768+01:00" iati-activities:version="2.02" last-updated-datetime="2020-11-02T16:39:19.1852457Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="EUR" dstore:dataset="plannlno-ao" dstore:index="32" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-01-29T10:18:56.2534779+01:00" iati-activities:version="2.02" last-updated-datetime="2021-01-29T09:10:17.3141172Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-MOZ100052</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -42,10 +42,11 @@ Millions of adolescent girls all over the world are facing a limited future beca
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Coalizao</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2016-01-01" type="1"></activity-date>
   <activity-date iso-date="2016-01-01" type="2"></activity-date>
   <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -102,7 +103,7 @@ Millions of adolescent girls all over the world are facing a limited future beca
   <budget status="1" type="1">
    <period-start iso-date="2016-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="EUR" value-date="2016-01-01">1782267</value>
+   <value currency="EUR" value-date="2016-01-01">1790767</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2016-01-01"></period-start>
@@ -204,6 +205,31 @@ Millions of adolescent girls all over the world are facing a limited future beca
    <receiver-org type="22">
     <narrative xml:lang="EN">Plan International Mozambique</narrative>
    </receiver-org>
+  </transaction>
+  <transaction ref="2020-09-30T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="EUR" value-date="2020-09-30">745</value>
+  </transaction>
+  <transaction ref="2020-12-31T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">355</value>
+  </transaction>
+  <transaction ref="2020-08-31T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="EUR" value-date="2020-08-31">2522</value>
+  </transaction>
+  <transaction ref="kosten oktober 2020">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="EUR" value-date="2020-10-31">1100</value>
+  </transaction>
+  <transaction ref="2020-11-30T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="EUR" value-date="2020-11-30">1274</value>
   </transaction>
   <transaction ref="NLD0678: &#x20AC; 1.210,00 (31-1-16)">
    <transaction-type code="4"></transaction-type>
@@ -634,6 +660,16 @@ Millions of adolescent girls all over the world are facing a limited future beca
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2.00"></target>
+     <actual value="10.00">
+      <comment>
+       <narrative xml:lang="EN">video messages based upon CM and COVID evidence data</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <target value="5.00"></target>
@@ -772,7 +808,7 @@ Millions of adolescent girls all over the world are facing a limited future beca
      <narrative xml:lang="EN">Semi-structured in-depth interviews gatekeepers (parents or caregivers grandmothers or elderly women and and or religious and traditional leaders and and or teachers and and or health and social workers and and or CBO and youth organization staff). In the interviews a question was included on the knowledge about harms of CM and TP</narrative>
     </description>
     <reference code="PW1.3A" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2016">
+    <baseline value="3.00" year="2016">
      <comment>
       <narrative xml:lang="EN">(qualitative) Changes observed  relative to baseline in knowledge  of gate keepers about harms of child marriage and teenage pregnancies</narrative>
      </comment>
@@ -799,6 +835,16 @@ All gatekepeers have knowledge about the harms of child marriage and teenage pre
       <narrative xml:lang="EN">number of local leaders supporting the fight</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="150.00"></target>
+     <actual value="184.00">
+      <comment>
+       <narrative xml:lang="EN">113 male and 53 female leaders</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -851,6 +897,12 @@ All gatekepeers have knowledge about the harms of child marriage and teenage pre
       <narrative xml:lang="EN">Number of initiatives undertaken by CSOs or networks, related to rights of children and youth</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="0"></target>
+     <actual value="2.00"></actual>
+    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -906,7 +958,7 @@ All gatekepeers have knowledge about the harms of child marriage and teenage pre
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN"># of new or adjusted national and local law and policies prohibiting CM and FGM and C (disaggregated by CM and FGM and C  and by policies laws national level local level)</narrative>
+     <narrative xml:lang="EN"># of new or adjusted national and local law and policies prohibiting CM</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">The data was collected through Key informant interviews with NGO staff and policy makers.</narrative>
@@ -914,35 +966,14 @@ All gatekepeers have knowledge about the harms of child marriage and teenage pre
     <reference code="PW5.1A" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <baseline value="0.00" year="2016">
      <comment>
-      <narrative xml:lang="EN"># of new or adjusted national and local law and policies prohibiting CM and FGM and C (disaggregated by CM and FGM and C  and by policies laws national level local level)</narrative>
+      <narrative xml:lang="EN"># of new or adjusted national and local law and policies prohibiting CM</narrative>
      </comment>
     </baseline>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2.00"></target>
-     <actual value="0.00"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of new or adjusted national and local law and policies prohibiting CM and FGM and C (disaggregated by CM  and by policies laws national level local level)</narrative>
-    </title>
-    <reference code="PW5.1B" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0.00" year="2016">
-     <comment>
-      <narrative xml:lang="EN"># of new or adjusted national and local law and policies prohibiting CM and FGM and C (disaggregated by CM  and by policies laws national level local level)</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2.00"></target>
-     <actual value="2.00">
-      <comment>
-       <narrative xml:lang="EN">The 39 decree was abolsihed in which prgenant girls were not allowed to follow their day  education and replaced. schools have to give extra support for the girls when they miss lessons during maternity leave. The law against child marriage is endorsed with sentences between 8 - 12 years prison for perpetrators in July 2019</narrative>
-      </comment>
-     </actual>
+     <actual value="1.00"></actual>
     </period>
    </indicator>
   </result>
@@ -967,7 +998,7 @@ All gatekepeers have knowledge about the harms of child marriage and teenage pre
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2.00"></target>
-     <actual value="1.00">
+     <actual value="2.00">
       <comment>
        <narrative xml:lang="EN">&quot;Scale: 0=no 1=few 2=some 3=most 4=all
 Policy officers in local administrations in Nametil do not make explicit references to the concept of gender equality with the exception of few. However they talk openly about initiatives focusing on the protection and support of young women, especially in educational level.</narrative>
@@ -1087,7 +1118,7 @@ SRHR services including contraceptives</narrative>
      <narrative xml:lang="EN">Semi-structured in-depth interviews with girls aged between 15-19 and 20-24 years and boys aged between 15-19 and 20-24 years. And focus group discussions with groups of girls aged between 15-19 and 20-24 years and groups of boys aged between 15-19 and 20-24 years</narrative>
     </description>
     <reference code="PW3.3C" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2016">
+    <baseline value="3.00" year="2016">
      <comment>
       <narrative xml:lang="EN">(qualitative) Changes observed relative to baseline in current access to SRHR information by girls and boys aged 15 to 24 years</narrative>
      </comment>
@@ -1096,18 +1127,12 @@ SRHR services including contraceptives</narrative>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="4.00"></target>
-     <actual value="3.00">
+     <actual value="3.50">
       <comment>
        <narrative xml:lang="EN">Most young people in Nametil have acces to SRHR information mainly through health centers, youth friendly services, SMS tools and community youth  activists. However, quite a few stakeholders remarked that many of the youth seem not to use this information.</narrative>
       </comment>
      </actual>
     </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of clients (marginalized youth and women) benefiting from fhe services provided by social enterprises</narrative>
-    </title>
-    <reference code="0111.23" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
   </result>
   <result aggregation-status="1" type="2">
@@ -1119,6 +1144,16 @@ SRHR services including contraceptives</narrative>
      <narrative xml:lang="EN">Number of children and youth who are involved in influencing others in their families and communitie</narrative>
     </title>
     <reference code="PW2.3" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="130.00"></target>
+     <actual value="130.00">
+      <comment>
+       <narrative xml:lang="EN">Champions of Change</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -1162,6 +1197,28 @@ SRHR services including contraceptives</narrative>
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="8900.00"></target>
+     <actual value="8234.00">
+      <comment>
+       <narrative xml:lang="EN">CSE</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="17000.00"></target>
+     <actual value="18380.00"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <target value="12000.00"></target>
+     <actual value="12847.00"></actual>
+    </period>
+    <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
      <target value="10000.00"></target>
@@ -1202,7 +1259,7 @@ SRHR services including contraceptives</narrative>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="0"></target>
-     <actual value="15.00"></actual>
+     <actual value="15.10"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -1222,7 +1279,7 @@ SRHR services including contraceptives</narrative>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="0"></target>
-     <actual value="8.00"></actual>
+     <actual value="8.30"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -1307,7 +1364,7 @@ SRHR services including contraceptives</narrative>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="0"></target>
-     <actual value="2.00"></actual>
+     <actual value="2.20"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -1327,7 +1384,7 @@ SRHR services including contraceptives</narrative>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="75.00"></target>
-     <actual value="39.00"></actual>
+     <actual value="39.20"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -1594,6 +1651,12 @@ SRHR services including contraceptives</narrative>
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="50.00"></target>
+     <actual value="42.00"></actual>
+    </period>
+    <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-06-30"></period-end>
      <target value="0"></target>
@@ -1740,7 +1803,7 @@ SRHR services including contraceptives</narrative>
      <narrative xml:lang="EN">Semi-structured in-depth interviews with girls aged between 15-19 and 20-24 years and focus group discussions with groups of girls aged between 15-19 and 20-24 years.</narrative>
     </description>
     <reference code="PW4.7" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2016">
+    <baseline value="2.00" year="2016">
      <comment>
       <narrative xml:lang="EN">(qualitative) Changes observed relative to baseline in girls indicating safety in and out of school is a problem</narrative>
      </comment>
@@ -1749,6 +1812,12 @@ SRHR services including contraceptives</narrative>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="0.00"></target>
+     <actual value="2.00">
+      <comment>
+       <narrative xml:lang="EN">&quot;Scale: 0=no 1=few 2=some 3=most 4=all
+General security inside and outside school is not seen as a problem in Nametil. However, stigma and discrimination of teenage mothers is an issue, and reference was made to some cases of sexual abuse by teachers.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -1792,7 +1861,7 @@ SRHR services including contraceptives</narrative>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="10.00"></target>
-     <actual value="8.00"></actual>
+     <actual value="11.00"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="4">
@@ -1803,7 +1872,7 @@ SRHR services including contraceptives</narrative>
      <narrative xml:lang="EN">Semi-structured in-depth interviews gatekeepers (parents or caregivers grandmothers or elderly women and and or religious and traditional leaders and and or teachers and and or health and social workers and and or CBO and youth organization staff). In the interviews a question was included on the attitudes and actions re. CM and TP.</narrative>
     </description>
     <reference code="PW1.1A" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2016">
+    <baseline value="1.00" year="2016">
      <comment>
       <narrative xml:lang="EN">(qualitative) Changes observed relative to baseline in attitudes and actions of gate keepers to prevent CM and TP (more or less supportive compared to baseline)</narrative>
      </comment>
@@ -1820,7 +1889,7 @@ SRHR services including contraceptives</narrative>
 4=all</narrative>
       </comment>
      </target>
-     <actual value="2.00">
+     <actual value="2.50">
       <comment>
        <narrative xml:lang="EN">Various gatekeepers in Nametil are undertaking actions to prevent child marriage and teenage pregnancy. These actions are mainly led by health providers and some teachers and are focused on providing information, oftentimes through palestras, and access to contraceptives. In addition, some teachers/schools encourage girls to continu to go to school to prevent child marriage and teenage pregnancy. A few stakeholders mentioned to have proactively visited parents to try to avoid a specific case of child marriage.</narrative>
       </comment>
@@ -1871,12 +1940,6 @@ SRHR services including contraceptives</narrative>
      <actual value="6.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of social enterprises actively working on integration of marginalised youth and women in the formal economy</narrative>
-    </title>
-    <reference code="0411.3" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-   </indicator>
   </result>
   <result aggregation-status="1" type="2">
    <title>
@@ -1892,6 +1955,16 @@ SRHR services including contraceptives</narrative>
       <narrative xml:lang="EN">Number of meetings between government and implementing partners</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="4.00"></target>
+     <actual value="4.00">
+      <comment>
+       <narrative xml:lang="EN">with copmmunity court members</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -1926,6 +1999,12 @@ SRHR services including contraceptives</narrative>
       <narrative xml:lang="EN">Number of capacity trainings delivered to CSOs</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2.00"></target>
+     <actual value="0.00"></actual>
+    </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-09-30"></period-end>
@@ -2000,6 +2079,18 @@ SRHR services including contraceptives</narrative>
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="6.00"></target>
+     <actual value="11.00"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="0.00"></target>
+     <actual value="0.00"></actual>
+    </period>
+    <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-06-30"></period-end>
      <target value="0"></target>
@@ -2041,7 +2132,7 @@ SRHR services including contraceptives</narrative>
      <narrative xml:lang="EN">Semi-structured in-depth interviews with boys aged between 15-19 and 20-24 years and focus group discussions with groups of boys aged between 15-19 and 20-24 years.</narrative>
     </description>
     <reference code="CC.2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2016">
+    <baseline value="0.00" year="2016">
      <comment>
       <narrative xml:lang="EN">(qualitative) Changes observed relative to baseline in active engagement of men and boys in strategies reducing FGM and C and CM and TP (disaggregated by CM FGM and C and TP)</narrative>
      </comment>
@@ -2050,7 +2141,7 @@ SRHR services including contraceptives</narrative>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2.00"></target>
-     <actual value="1.00">
+     <actual value="2.00">
       <comment>
        <narrative xml:lang="EN">The study found little information on active male involvement in Nametil, but SRH outreach activities were directed at both girls and boys.  Also the youth activist consist of both male and female.</narrative>
       </comment>
@@ -2070,7 +2161,7 @@ SRHR services including contraceptives</narrative>
      <narrative xml:lang="EN">Semi-structured in-depth interviews with girls aged between 15-19 and 20-24 years and focus group discussions with groups of girls aged between 15-19 and 20-24 years.</narrative>
     </description>
     <reference code="PW4.2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2016">
+    <baseline value="3.00" year="2016">
      <comment>
       <narrative xml:lang="EN">(qualitative) Changes observed relative to baseline in perceived autonomy of girls between 15 &#x2013; 24 years old</narrative>
      </comment>
@@ -2120,6 +2211,12 @@ The large majority of stakeholders  in Nametil said that young people, both girl
     </title>
     <reference code="PW1.P.2050.1.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="9.00"></target>
+     <actual value="3.00"></actual>
+    </period>
+    <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <target value="30.00"></target>
@@ -2146,6 +2243,22 @@ The large majority of stakeholders  in Nametil said that young people, both girl
      <narrative xml:lang="EN">Number of youth who are economically active</narrative>
     </title>
     <reference code="PW4.12" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100.00"></target>
+     <actual value="65.00">
+      <comment>
+       <narrative xml:lang="EN">youth who strated a business with the help of YIDA</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="20.00"></target>
+     <actual value="5.00"></actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -2208,6 +2321,16 @@ The large majority of stakeholders  in Nametil said that young people, both girl
       <narrative xml:lang="EN">Number of peer educators trained</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="250.00"></target>
+     <actual value="248.00">
+      <comment>
+       <narrative xml:lang="EN">130 female and 118 male CoC</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="EUR" dstore:dataset="plannlno-ao" dstore:index="73" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-11-02T17:46:17.2780768+01:00" iati-activities:version="2.02" last-updated-datetime="2020-11-02T16:42:18.8407229Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="EUR" dstore:dataset="plannlno-ao" dstore:index="84" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-01-29T10:18:56.2534779+01:00" iati-activities:version="2.02" last-updated-datetime="2021-01-29T09:13:49.8005599Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-ZMB100152</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -167,6 +167,31 @@ Social: By including also the poor and provide them affordable services, the pro
    <receiver-org ref="ZM-RNGO-10101472014" type="22">
     <narrative xml:lang="EN">Plan International Zambia</narrative>
    </receiver-org>
+  </transaction>
+  <transaction ref="2020-09-30T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="EUR" value-date="2020-09-30">2024</value>
+  </transaction>
+  <transaction ref="2020-12-31T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">1775</value>
+  </transaction>
+  <transaction ref="2020-08-31T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="EUR" value-date="2020-08-31">2556</value>
+  </transaction>
+  <transaction ref="kosten oktober 2020">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="EUR" value-date="2020-10-31">1988</value>
+  </transaction>
+  <transaction ref="2020-11-30T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="EUR" value-date="2020-11-30">2130</value>
   </transaction>
   <transaction ref="NLD0741: &#x20AC; 8.343,09 (31-1-18)">
    <transaction-type code="4"></transaction-type>
@@ -1199,26 +1224,31 @@ Focus is only on Chongwe.</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of hygiene kits provided in response to COVID-19</narrative>
+    </title>
+    <reference code="Covid-19.3" indicator-uri="none" vocabulary="1"></reference>
+    <baseline value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN">Number of hygiene kits provided in response to COVID-19</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="1946.00"></target>
+     <actual value="984.00"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of people  reached by COVID-19 awareness raising</narrative>
     </title>
     <reference code="COVID-19.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <target value="0"></target>
-     <actual value="65205.00"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of hygiene kits provided in response to COVID-19</narrative>
-    </title>
-    <reference code="COVID-19.3" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <target value="0"></target>
-     <actual value="2355.00"></actual>
+     <target value="100000.00"></target>
+     <actual value="62700.00"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -1226,6 +1256,17 @@ Focus is only on Chongwe.</narrative>
      <narrative xml:lang="EN">Number of hand washing stations provided in response to COVID-19</narrative>
     </title>
     <reference code="COVID-19.4" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN">Number of hand washing stations provided in response to COVID-19</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="18.00"></target>
+     <actual value="18.00"></actual>
+    </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -1238,6 +1279,17 @@ Focus is only on Chongwe.</narrative>
      <narrative xml:lang="EN">Number COVID-19 prevention &amp; response coordination meetings with local stakeholders</narrative>
     </title>
     <reference code="COVID-19.6" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="0.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN">Number COVID-19 prevention &amp; response coordination meetings with local stakeholders</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="5.00"></target>
+     <actual value="5.00"></actual>
+    </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>

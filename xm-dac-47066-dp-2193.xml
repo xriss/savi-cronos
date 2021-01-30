@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="iom-activity" dstore:index="672" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-12-28T17:03:23.340000+00:00" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="690" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-29T19:09:15.940000+00:00" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-DP.2193</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -17,7 +17,7 @@
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-04-21" type="1">
    <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
@@ -26,6 +26,9 @@
   </activity-date>
   <activity-date iso-date="2020-12-31" type="3">
    <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-12-31" type="4">
+   <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -44,34 +47,10 @@
   <location>
    <location-reach code="1"></location-reach>
    <name>
-    <narrative xml:lang="EN">IOM Country Office - VE</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>10.50307  -66.84803</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="3"></location-class>
-   <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <name>
-    <narrative xml:lang="EN">IOM Country Office - TD</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>12.123532  15.042909</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="3"></location-class>
-   <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <name>
     <narrative xml:lang="EN">IOM Country Office - BF</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>12.315278  -1.491111</pos>
+    <pos>12.315278 -1.491111</pos>
    </point>
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
@@ -84,6 +63,18 @@
     <narrative xml:lang="EN">Burkina Faso</narrative>
    </name>
    <administrative code="BF" vocabulary="A4"></administrative>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
+    <narrative xml:lang="EN">IOM Country Office - CD</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-4.321946 15.269563</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="3"></location-class>
+   <feature-designation code="BLDO"></feature-designation>
   </location>
   <location ref="CD">
    <location-reach code="2"></location-reach>
@@ -101,6 +92,18 @@
    </name>
    <administrative code="HT" vocabulary="A4"></administrative>
   </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
+    <narrative xml:lang="EN">IOM Country Office - TD</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>12.123532 15.042909</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="3"></location-class>
+   <feature-designation code="BLDO"></feature-designation>
+  </location>
   <location ref="TD">
    <location-reach code="2"></location-reach>
    <location-id code="TD" vocabulary="A4"></location-id>
@@ -109,6 +112,18 @@
    </name>
    <administrative code="TD" vocabulary="A4"></administrative>
   </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
+    <narrative xml:lang="EN">IOM Country Office - VE</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>10.50307 -66.84803</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="3"></location-class>
+   <feature-designation code="BLDO"></feature-designation>
+  </location>
   <location ref="VE">
    <location-reach code="2"></location-reach>
    <location-id code="VE" vocabulary="A4"></location-id>
@@ -116,18 +131,6 @@
     <narrative xml:lang="EN">Venezuela (Bolivarian Republic of)</narrative>
    </name>
    <administrative code="VE" vocabulary="A4"></administrative>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <name>
-    <narrative xml:lang="EN">IOM Country Office - CD</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-4.321946  15.269563</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="3"></location-class>
-   <feature-designation code="BLDO"></feature-designation>
   </location>
   <sector code="DP" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Internally Displaced Persons</narrative>
@@ -144,13 +147,13 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-04-21"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-04-01">1439407.09</value>
+   <value currency="USD" value-date="2020-04-01">1460024.61</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-04-01"></transaction-date>
-   <value currency="USD" value-date="2020-04-01">1439407.09</value>
+   <value currency="USD" value-date="2020-04-01">1460024.61</value>
    <provider-org provider-activity-id="CA-3-P009136" ref="CA-3" type="10">
     <narrative xml:lang="EN">Canada - Global Affairs Canada | Affaires mondiales Canada</narrative>
    </provider-org>

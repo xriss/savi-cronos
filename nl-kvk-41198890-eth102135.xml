@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="EUR" dstore:dataset="plannlno-ao" dstore:index="37" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-11-02T17:46:17.2780768+01:00" iati-activities:version="2.02" last-updated-datetime="2020-11-02T16:40:27.2022258Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="EUR" dstore:dataset="plannlno-ao" dstore:index="48" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-01-29T10:18:56.2534779+01:00" iati-activities:version="2.02" last-updated-datetime="2021-01-29T09:11:33.6379147Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-ETH102135</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -45,10 +45,11 @@ main activities:
   <participating-org ref="NL-KVK-41198890" role="1" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2016-01-01" type="1"></activity-date>
   <activity-date iso-date="2016-01-01" type="2"></activity-date>
   <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -114,6 +115,14 @@ main activities:
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-01-01"></transaction-date>
    <value currency="EUR" value-date="2016-01-01">965036</value>
+   <receiver-org ref="ET-CSA-0773" type="22">
+    <narrative xml:lang="EN">Plan International Ethiopia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UB1249">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-21"></transaction-date>
+   <value currency="EUR" value-date="2020-12-21">50000</value>
    <receiver-org ref="ET-CSA-0773" type="22">
     <narrative xml:lang="EN">Plan International Ethiopia</narrative>
    </receiver-org>
@@ -261,6 +270,31 @@ main activities:
    <receiver-org ref="ET-CSA-0773" type="22">
     <narrative xml:lang="EN">Plan International Ethiopia</narrative>
    </receiver-org>
+  </transaction>
+  <transaction ref="2020-09-30T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="EUR" value-date="2020-09-30">1622</value>
+  </transaction>
+  <transaction ref="2020-12-31T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">2730</value>
+  </transaction>
+  <transaction ref="2020-08-31T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="EUR" value-date="2020-08-31">3828</value>
+  </transaction>
+  <transaction ref="kosten oktober 2020">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="EUR" value-date="2020-10-31">1622</value>
+  </transaction>
+  <transaction ref="2020-11-30T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="EUR" value-date="2020-11-30">2366</value>
   </transaction>
   <transaction ref="NLD0674: &#x20AC; 450,00 (31-1-16)">
    <transaction-type code="4"></transaction-type>
@@ -538,18 +572,6 @@ main activities:
    <title>
     <narrative xml:lang="EN">0000 Performance Plan Nederland as a development organisation</narrative>
    </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of children and youth reached (m/f)</narrative>
-    </title>
-    <reference code="0000.2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2017-03-31"></period-end>
-     <target value="0"></target>
-     <actual value="1319.00"></actual>
-    </period>
-   </indicator>
    <indicator ascending="1" measure="4">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (0=Not measured; 1=Gender Blind; 2=Gender N</narrative>
@@ -560,6 +582,14 @@ main activities:
       <narrative xml:lang="EN">Gender score of the program design and activities (0=Not measured; 1=Gender Blind; 2=Gender N</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="4.00">
+      <location ref="Bahir Dar and Kewet"></location>
+     </target>
+     <actual value="4.00"></actual>
+    </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -580,6 +610,14 @@ main activities:
      <narrative xml:lang="EN">Number of girls reached (under 18)</narrative>
     </title>
     <reference code="0000.3" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1000.00">
+      <location ref="500 Bahir Dar, 500 Kewet"></location>
+     </target>
+     <actual value="1936.00"></actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -639,6 +677,18 @@ main activities:
     </title>
     <reference code="0000.4" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1000.00">
+      <location ref="Bahir Dar and Kewet"></location>
+     </target>
+     <actual value="1273.00">
+      <comment>
+       <narrative xml:lang="EN">Reached through multiple activitities inc CoC, awareness raising sessions and trainings etc</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <target value="1000.00"></target>
@@ -696,6 +746,14 @@ main activities:
     </title>
     <reference code="0000.7" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1000.00">
+      <location ref="Bahir Dar and Kewet"></location>
+     </target>
+     <actual value="1013.00"></actual>
+    </period>
+    <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <target value="800.00"></target>
@@ -744,6 +802,14 @@ main activities:
      <narrative xml:lang="EN">Number of young men (age 18-24) reached</narrative>
     </title>
     <reference code="0000.8" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1000.00">
+      <location ref="Bahir Dar and Kewet"></location>
+     </target>
+     <actual value="1300.00"></actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -817,7 +883,7 @@ main activities:
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="22.00"></target>
-     <actual value="13.10"></actual>
+     <actual value="17.80"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -837,7 +903,7 @@ main activities:
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="35.00"></target>
-     <actual value="26.60"></actual>
+     <actual value="39.80"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -857,7 +923,7 @@ main activities:
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="4.50"></target>
-     <actual value="2.60"></actual>
+     <actual value="2.90"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -877,7 +943,7 @@ main activities:
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="30.00"></target>
-     <actual value="21.10"></actual>
+     <actual value="29.00"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -914,7 +980,7 @@ main activities:
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="15.00"></target>
-     <actual value="23.20"></actual>
+     <actual value="26.00"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -954,7 +1020,7 @@ main activities:
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="15.00"></target>
-     <actual value="21.70"></actual>
+     <actual value="31.20"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -974,7 +1040,7 @@ main activities:
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="20.00"></target>
-     <actual value="12.70"></actual>
+     <actual value="21.20"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -1012,6 +1078,18 @@ main activities:
       <narrative xml:lang="EN">Number of initiatives in the local community and local clubs/associations/schools to address FGM, TP and CM and gender inequality</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="10.00">
+      <location ref="Bahir Dar Zuria and Kewet"></location>
+     </target>
+     <actual value="6.00">
+      <comment>
+       <narrative xml:lang="EN">Contrary to previous years where the # of trained community groups were counted, these are networks of community groups The networks took different initiatives to reduce and bring promising behavioural change towards on CM, FGM and GBV issues. For instance, the groups established in the flower firms influenced the firms management and then 6 flower firms revised their HR and incorporated GBV/gender issues as a policy. The trained groups also established a firm committee to be the voice of girls and young women working in the firm as well the members of the groups take initiatives/commitment not to tolerate case of GBV and report it on timely manner.</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-09-30"></period-end>
@@ -1078,6 +1156,18 @@ Activities by these groups school based community members organized a school lev
     </title>
     <reference code="PW1.5" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="5.00">
+      <location ref="Bahir Dar Zuria and Kewet"></location>
+     </target>
+     <actual value="7.00">
+      <comment>
+       <narrative xml:lang="EN">Various activities were organized including 2 succesful bylaws advocacy by Iddir groups, policy change and better working condition at flower firms.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <target value="12.00">
@@ -1127,10 +1217,13 @@ Activities by these groups school based community members organized a school lev
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2016-01-01"></period-start>
+     <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="17.00">
       <location ref="10 in Bahir Dar, 7 in Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">17  schools (10 in Bahir Dar Zuria and 7 in Kewet) put in place child protection policy, safe and enabling environment for school children and adolescents girls. In addition girls&#x2019; advisory committees have been established, which comprised teachers, school girls and school principals, to advise and consult girls on social, economic, psychological and other issues like their educational performance improvement in and out of school environment. As the result girls in schools will be protected from any abuses both in school and their community and they will have better opportunity to report the cases and even cancel them.</narrative>
+      </comment>
      </target>
      <actual value="17.00">
       <comment>
@@ -1149,6 +1242,27 @@ Activities by these groups school based community members organized a school lev
      <narrative xml:lang="EN">Number of service providers that deliver on development objectives (indicate sample size)</narrative>
     </title>
     <reference code="PW4.P.0551.2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="500.00">
+      <location ref="Bahir Dar and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">number of service providers (from government agencies, schools, C/FBOs and private sector) trained on key issues related to prevention and response to CM/TP</narrative>
+      </comment>
+     </target>
+     <actual value="531.00">
+      <comment>
+       <narrative xml:lang="EN">358 male and 173 female staff members trained:
+- members of COVID-19 task forces to integrate CM and SRHR messages
+- gvt and private sector staff on decent work and GBV at workplace
+- teachers on Gender Responsive Pedagogy
+- VERA/birth registration officials on improvement of birth registration
+- Woreda and C/FBO stakeholders on CM and unsafe migration
+These trainings were intensive and in most cases followed up by Plan and partner by further technical support</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -1202,7 +1316,7 @@ Activities by these groups school based community members organized a school lev
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="0"></target>
-     <actual value="3.00">
+     <actual value="2.00">
       <comment>
        <narrative xml:lang="EN">The study found no sufficient evidences about improvements in terms safety and security of girls.</narrative>
       </comment>
@@ -1224,6 +1338,21 @@ Activities by these groups school based community members organized a school lev
       <narrative xml:lang="EN">Number of girls and young women (age 10-24) who have participated in gender trainings</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="500.00">
+      <location ref="Bahir Dar and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">number of girls that will participate in gender training as part of Champions of Change group sessions</narrative>
+      </comment>
+     </target>
+     <actual value="698.00">
+      <comment>
+       <narrative xml:lang="EN">number of girls that participated in gender training as part of Champions of Change group sessions</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -1266,6 +1395,21 @@ Activities by these groups school based community members organized a school lev
       <narrative xml:lang="EN">Number of boys and young men (age 10 -24) who have participated in gender trainings</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="500.00">
+      <location ref="Bahir Dar and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">number of boys that will participate in gender training via Champions of Change groups</narrative>
+      </comment>
+     </target>
+     <actual value="733.00">
+      <comment>
+       <narrative xml:lang="EN">number of boys that participated gender training via Champions of Change groups</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -1347,6 +1491,21 @@ Activities by these groups school based community members organized a school lev
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="500.00">
+      <location ref="Bahir Dar Zuria and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">male members of Champions of Change who will receive rights training</narrative>
+      </comment>
+     </target>
+     <actual value="733.00">
+      <comment>
+       <narrative xml:lang="EN">733 members of Champions of Change groups  received rights training</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-03-31"></period-end>
      <target value="0.00"></target>
@@ -1388,6 +1547,21 @@ Activities by these groups school based community members organized a school lev
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="500.00">
+      <location ref="Bahir Dar Zuria and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">female members of Champions of Change groups</narrative>
+      </comment>
+     </target>
+     <actual value="698.00">
+      <comment>
+       <narrative xml:lang="EN">698 members of Champions of Change groups a participated in rights trainings</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <target value="115.00"></target>
@@ -1418,6 +1592,21 @@ Activities by these groups school based community members organized a school lev
      <narrative xml:lang="EN">Number of children, youth or adults who benefited from direct service deliveries</narrative>
     </title>
     <reference code="PW4.1.1600.1.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="884.00">
+      <location ref="Bahir Dar (464) and Kewet (420)"></location>
+      <comment>
+       <narrative xml:lang="EN">Number of girls that are supported to continue school by direct financial support (82), provision of school materials and dignity kits (722) and through income generation suppport of their family households (80)</narrative>
+      </comment>
+     </target>
+     <actual value="1820.00">
+      <comment>
+       <narrative xml:lang="EN">1667 school children (1313 girls and 354 boys) received school materials (total 650 in Bahir Dar and 1017 in Kewet); 84 girls received financial support to be able to continue their secondary education (28 in Bahir Dar and 56 in Kewet) and 69 households received income generation support through which 50 girls and 19 boys were able to continue school (total 19 in Bahir Dar and 50 in Kwet)</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-03-31"></period-end>
@@ -1494,6 +1683,22 @@ Activities by these groups school based community members organized a school lev
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="60.00">
+      <location ref="Bahir Dar and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">Number of female Champions of Change facilitators (20),   female Iddir 
+/Community Conversation group facililtators (30) and ECHO (youth groups) facilitators trained (ECHO only in Bahir Dar)</narrative>
+      </comment>
+     </target>
+     <actual value="51.00">
+      <comment>
+       <narrative xml:lang="EN">19 female CoC facilitators, 23 Community Communication/Iddir group facilitators and 9 ECHO members (youth engagement facilitators were trained to facilitate community groups</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <target value="28.00"></target>
@@ -1513,7 +1718,7 @@ Activities by these groups school based community members organized a school lev
      </target>
      <actual value="21.00">
       <comment>
-       <narrative xml:lang="EN">In the training of CC/Iddir group facilitators of 42 trained only 2 were women.</narrative>
+       <narrative xml:lang="EN">In the training of CC/Iddir group facilitators of 42 trained only 2 were women.  Of CoC facilitators, 19 were female.</narrative>
       </comment>
      </actual>
     </period>
@@ -1531,6 +1736,21 @@ Activities by these groups school based community members organized a school lev
       <narrative xml:lang="EN">Number of community members trained in &quot;community development&quot;</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="60.00">
+      <location ref="Bahir Dar Zuria and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">Number of male Champions of Change facilitators (20), Iddir/Community Conversation group facilitators (30) and ECHO (Youth engagement) facilitators (10) trained</narrative>
+      </comment>
+     </target>
+     <actual value="69.00">
+      <comment>
+       <narrative xml:lang="EN">20 male Champions of Change facilitators, 36 Community Conversation/Iddir group facilitators and 13 ECHO (youth group engagement) facilitators were trained</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -1557,6 +1777,20 @@ Activities by these groups school based community members organized a school lev
      <narrative xml:lang="EN">Number of CSOs reached with rights training</narrative>
     </title>
     <reference code="PW1.P.3100.1.2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="60.00">
+      <comment>
+       <narrative xml:lang="EN">40 community conversation groups and 20 Iddir groups</narrative>
+      </comment>
+     </target>
+     <actual value="61.00">
+      <comment>
+       <narrative xml:lang="EN">40 Community conversation groups, 20 Iddir groups and one ECHO group were  strenghened and reached with (further) training on CM, FGM/C, gender equality etc</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -1639,6 +1873,21 @@ Activities by these groups school based community members organized a school lev
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2.00">
+      <location ref="Bahir Dar Zuria and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">Training of government staff members on child protection/GBV and decent work.</narrative>
+      </comment>
+     </target>
+     <actual value="2.00">
+      <comment>
+       <narrative xml:lang="EN">&#x2022;	In collaboration with BoWCYA and Bureau of Labour and Social Affairs, capacity building training provided for 39 (female: 5) participants comprised from government and (semi) private sectors ( Woreda Administrator, Investment office, Technical and Vocational Development office, Women, Children and Youth affairs office and  flower farms). The training focused on GBV and decent work. &#x2022;	PIE in partnership with ECD organized a two days consecutive training on child protection issues for 72(Female: 19) government experts and FBOs leaders. The topics discussed during the training were CM, FGM, their legal frameworks, gender equality and how to build child protection systems and major strategies.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target value="4.00">
@@ -1663,6 +1912,21 @@ Activities by these groups school based community members organized a school lev
       <narrative xml:lang="EN">Number of policy makers reached with capacity training</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="120.00">
+      <location ref="Bahir Dar Zuria and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">Number of policy makers trained on child protection/GBV/Decent work and related issues.</narrative>
+      </comment>
+     </target>
+     <actual value="111.00">
+      <comment>
+       <narrative xml:lang="EN">&#x2022;	In collaboration with BoWCYA and Bureau of Labour and Social Affairs, capacity building training provided for 39 (female: 5) participants comprised from government and (semi) private sectors ( Woreda Administrator, Investment office, Technical and Vocational Development office, Women, Children and Youth affairs office and  flower farms). The training focused on GBV and decent work. &#x2022;	PIE in partnership with ECD organized a two days consecutive training on child protection issues for 72 (Female: 19) government experts and FBOs leaders. The topics discussed during the training were CM, FGM, their legal frameworks, gender equality and how to build child protection systems and major strategies.</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -1693,6 +1957,21 @@ Activities by these groups school based community members organized a school lev
       <narrative xml:lang="EN">Number of boys and young men involved in combatting child rights violations (specify)</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="500.00">
+      <location ref="Bahir Dar and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">Champions of Change and ECHO members</narrative>
+      </comment>
+     </target>
+     <actual value="746.00">
+      <comment>
+       <narrative xml:lang="EN">733 male Champions of Change members as well as 13 male ECHO members were trained on life skills and child rights and and active to raise awareness with their peers and other community members</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -1733,6 +2012,21 @@ Activities by these groups school based community members organized a school lev
       <narrative xml:lang="EN">Number of girls and young women involved in combatting child rights violations (specify)</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="500.00">
+      <location ref="Bahir Dar and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">Champions of Change and ECHO members</narrative>
+      </comment>
+     </target>
+     <actual value="707.00">
+      <comment>
+       <narrative xml:lang="EN">698 female Champions of Change members and 9 ECHO members were trained on child rights and active to raise awareness with peers and other community members</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -1785,7 +2079,7 @@ Activities by these groups school based community members organized a school lev
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="3.00"></target>
-     <actual value="1.00">
+     <actual value="3.00">
       <comment>
        <narrative xml:lang="EN">There are cases of  girls who are able to decline marriage and report the case of child marriage to police, teachers and Women and Children affair office.</narrative>
       </comment>
@@ -1807,6 +2101,21 @@ Activities by these groups school based community members organized a school lev
       <narrative xml:lang="EN">Number of dialogues between alliance local partners and communities, religious and traditional leaders</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1088.00">
+      <location ref="Bahir Dar Zuria and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">800 Community Conversation group discussions , 800 Champions of Change discussions, 200 in Iddir discussions (1 meeting per month in 100 Iddir leaders/group) in the planned ten months of implementation in 2020</narrative>
+      </comment>
+     </target>
+     <actual value="370.00">
+      <comment>
+       <narrative xml:lang="EN">230 Community Conversation group discussions were conducted and a total of 1200 (Female: 600) CC members (adult) have acquired basic information on impact on GBV, Child marriage, girls education, advantages of gender equality as well as information on COVID 19 pandemic. In addition, 140 Champions of Change discussion sessions were conducted in which 1431 (female: 698) adolescents/youth members have participated and got awareness on gender equality and COVID 19 protection mechanisms. The session conducted in person keeping the procedures of COVID-19 prevention methods.</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-09-30"></period-end>
@@ -1848,7 +2157,7 @@ Activities by these groups school based community members organized a school lev
      </target>
      <actual value="682.00">
       <comment>
-       <narrative xml:lang="EN">In total together with first half of 2019, 682 dialogues were held by the community groups (504 by Community Conversation groups,  178 peer to peer dialogues health by youth activist and COC groups. Less then planned because of delayed extra activities (COC implementation) funded by extra funds in 2019/20</narrative>
+       <narrative xml:lang="EN">In total in 2019, 682 dialogues were held by the community groups (504 by Community Conversation groups,  178 peer to peer dialogues health by youth activist and COC groups. Less then planned because of delayed extra activities (COC implementation) funded by extra funds in 2019/20</narrative>
       </comment>
      </actual>
     </period>
@@ -1877,7 +2186,7 @@ Activities by these groups school based community members organized a school lev
      <target value="87.00">
       <location ref="Bahidar Zuirya"></location>
      </target>
-     <actual value="81.10"></actual>
+     <actual value="41.60"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -1897,7 +2206,7 @@ Activities by these groups school based community members organized a school lev
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="28.00"></target>
-     <actual value="24.50"></actual>
+     <actual value="11.00"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -1919,7 +2228,7 @@ Activities by these groups school based community members organized a school lev
      <target value="39.00">
       <location ref="Bahidar Zuirya"></location>
      </target>
-     <actual value="35.50"></actual>
+     <actual value="7.50"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -1943,7 +2252,7 @@ Activities by these groups school based community members organized a school lev
        <narrative xml:lang="EN">TBC by Plan Ethiopia</narrative>
       </comment>
      </target>
-     <actual value="68.00"></actual>
+     <actual value="45.40"></actual>
     </period>
    </indicator>
   </result>
@@ -1961,6 +2270,21 @@ Activities by these groups school based community members organized a school lev
       <narrative xml:lang="EN">Number of children, youth or adults who completed vocational skills trainings (pathway 4)</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="80.00">
+      <location ref="Kewet and Bahir Dar Zuria"></location>
+      <comment>
+       <narrative xml:lang="EN">50 in Kewet, 30 in Bahir Dar Zuria</narrative>
+      </comment>
+     </target>
+     <actual value="79.00">
+      <comment>
+       <narrative xml:lang="EN">50 girls in Kewot and 29 in Bahir Dar Zuria have completed training on entrepreneurship and vocational skill training on animal fattening, poultry and animal rearing.</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -2008,6 +2332,21 @@ Activities by these groups school based community members organized a school lev
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="6445.00">
+      <location ref="Bahir Dar Zuria and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">Total of adolescent boys and girls that are reached with information by Champions of Change, Community Conversation, Iddir groups and via other discussion groups as well as through campaings</narrative>
+      </comment>
+     </target>
+     <actual value="2681.00">
+      <comment>
+       <narrative xml:lang="EN">1431 (698 female) adolescents reached via Champions of Change, 1250 via other groups like Community Conversation groups and via specific sessions organized by partner BCDO and 1950 boys and girls reached via other awareness sessions including national day events</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
      <target value="0"></target>
@@ -2037,7 +2376,7 @@ Activities by these groups school based community members organized a school lev
      <target value="5265.00">
       <location ref="Bahir Dar and Kewet"></location>
       <comment>
-       <narrative xml:lang="EN">number of adolescents both male and female who participated in awareness reasing sessions by CC/Iddir and other community group members</narrative>
+       <narrative xml:lang="EN">number of adolescents both male and female who participated in awareness reasing sessions by CC/Iddir and other community group members and through campaigns</narrative>
       </comment>
      </target>
      <actual value="5513.00">
@@ -2057,6 +2396,21 @@ Activities by these groups school based community members organized a school lev
       <narrative xml:lang="EN">Number of community members (adults) reached with information dissemination initiatives</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="5425.00">
+      <location ref="Bahir Dar and Kewet"></location>
+      <comment>
+       <narrative xml:lang="EN">number of adult (25+) members of communities reached with awareness reasing on CM, TP and FGM</narrative>
+      </comment>
+     </target>
+     <actual value="3200.00">
+      <comment>
+       <narrative xml:lang="EN">number of adults reached with Community Conversation groups, other meetings including national day events and via specific sessions organized by partner BCDO on CM, FGM/C and COVID-19 implications</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-06-30"></period-end>
@@ -2092,6 +2446,21 @@ Activities by these groups school based community members organized a school lev
      <narrative xml:lang="EN">Number of peer educators trained</narrative>
     </title>
     <reference code="PW4.P.1150.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="60.00">
+      <location ref="Kewet and Bahir Dar"></location>
+      <comment>
+       <narrative xml:lang="EN">Champions of Change facilitators (40 in total) and ECHO members (20 in Bahir Dar only) trained</narrative>
+      </comment>
+     </target>
+     <actual value="62.00">
+      <comment>
+       <narrative xml:lang="EN">40 Champions of Change facilitators were trained as well as 22 ECHO members</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
