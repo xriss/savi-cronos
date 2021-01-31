@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-3" dstore:index="29" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-24T06:04:46.4306884Z" iati-activities:version="2.03" last-updated-datetime="2020-11-24T06:06:03.358349Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-3" dstore:index="27" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-29T10:31:10.6041722Z" iati-activities:version="2.03" last-updated-datetime="2021-01-29T10:32:42.5993073Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200775</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -238,7 +238,87 @@ The division of targeted, direct beneficiaries per sector is as follows:
     <narrative xml:lang="EN">Rural Agency for Community Initiatives Development and Assistance</narrative>
    </receiver-org>
   </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-20"></transaction-date>
+   <value currency="EUR" value-date="2020-10-20">219843</value>
+   <description>
+    <narrative xml:lang="EN">Purchase and UMPC distribution</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-41160054-200775" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Ethiopia</narrative>
+   </provider-org>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">N/A</narrative>
+   </receiver-org>
+  </transaction>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">(C) Beneficiaries reached (HUM)</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">(C) Number of beneficiaries reached (HUM)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+    </description>
+    <reference code="HUM0.1" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="5868" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="6132" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="12000" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="32700" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="6924" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="5076" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="12000">
+      <location ref="ET"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="6924">
+      <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="5076">
+      <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="6132">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="5868">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="32700">
+      <location ref="ET"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Short-term livelihood support</narrative>
@@ -256,7 +336,7 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
      <location ref="ET"></location>
     </baseline>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="ET"></location>
@@ -264,7 +344,7 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="21600">
       <location ref="ET"></location>
      </actual>
@@ -293,7 +373,7 @@ Distributed items need to be culturally acceptable i.e. take into account local 
      <location ref="ET"></location>
     </baseline>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="ET"></location>
@@ -301,8 +381,8 @@ Distributed items need to be culturally acceptable i.e. take into account local 
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="20000">
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="12000">
       <location ref="ET"></location>
      </actual>
     </period>
@@ -329,7 +409,7 @@ Distributed items need to be culturally acceptable i.e. take into account local 
      <location ref="ET"></location>
     </baseline>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="ET"></location>
@@ -337,8 +417,8 @@ Distributed items need to be culturally acceptable i.e. take into account local 
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="32000">
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="32700">
       <location ref="ET"></location>
      </actual>
     </period>
@@ -346,6 +426,36 @@ Distributed items need to be culturally acceptable i.e. take into account local 
      <period-start iso-date="2020-04-22"></period-start>
      <period-end iso-date="2020-10-21"></period-end>
      <target value="24000"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Localisation</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">LOC-I1: % of budget that went to national and local actors</narrative>
+    </title>
+    <reference code="LOC-I1" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="84">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-22"></period-start>
+     <period-end iso-date="2020-10-21"></period-end>
+     <target value="87"></target>
     </period>
    </indicator>
   </result>
@@ -365,7 +475,7 @@ Please describe in the actvity description what this involvement specifically en
     </description>
     <reference code="ACC-I1" vocabulary="99"></reference>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="ET"></location>
@@ -373,8 +483,8 @@ Please describe in the actvity description what this involvement specifically en
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="200">
       <location ref="ET"></location>
      </actual>
     </period>
@@ -401,7 +511,7 @@ Please describe in the actvity description what this involvement specifically en
      <location ref="ET"></location>
     </baseline>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="ET"></location>
@@ -409,7 +519,7 @@ Please describe in the actvity description what this involvement specifically en
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="5700">
       <location ref="ET"></location>
      </actual>
@@ -438,7 +548,7 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      <location ref="ET"></location>
     </baseline>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="ET"></location>
@@ -446,7 +556,7 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="ET"></location>
      </actual>
@@ -468,42 +578,57 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
     </title>
     <reference code="WSH-COV-I7" vocabulary="99"></reference>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
      <actual value="0">
       <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="15756">
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="3336">
       <location ref="ET"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
      </actual>
-     <actual value="11172">
+     <actual value="2544">
       <location ref="ET"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
-     <actual value="14651">
+     <actual value="3588">
       <location ref="ET"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
      </actual>
-     <actual value="11121">
+     <actual value="2532">
       <location ref="ET"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-22"></period-start>
+     <period-end iso-date="2020-10-21"></period-end>
+     <target value="24000"></target>
     </period>
    </indicator>
   </result>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-3" dstore:index="24" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-11-24T06:04:46.4306884Z" iati-activities:version="2.03" last-updated-datetime="2020-11-24T06:05:44.2818764Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-3" dstore:index="23" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-01-29T10:31:10.6041722Z" iati-activities:version="2.03" last-updated-datetime="2021-01-29T10:32:24.6894043Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200666</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -105,15 +105,15 @@ transparency</narrative>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="EUR" value-date="2020-01-01">1155901</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="EUR" value-date="2021-01-01">1037783</value>
+   <value currency="EUR" value-date="2021-01-01">1221646</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="EUR" value-date="2022-01-01">1295770</value>
+   <value currency="EUR" value-date="2022-01-01">1308572</value>
   </budget>
   <transaction humanitarian="0">
    <transaction-type code="11"></transaction-type>
@@ -193,6 +193,28 @@ transparency</narrative>
     <narrative xml:lang="EN">N/A</narrative>
    </receiver-org>
   </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">10000</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200666" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </provider-org>
+   <receiver-org type="70">
+    <narrative xml:lang="EN">Bluesquare</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">91363</value>
+   <description>
+    <narrative xml:lang="EN">overhead costs</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-41160054-200666" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </provider-org>
+  </transaction>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="2">
    <title>
@@ -221,7 +243,20 @@ transparency</narrative>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
+     <actual value="503213">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <target value="503213"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="518309"></target>
     </period>
    </indicator>
   </result>
@@ -266,9 +301,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="924">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="1690"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="4200"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -311,9 +358,26 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="953">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-07-31"></period-end>
+     <target value="0"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-31"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="1768"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="4180"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -356,9 +420,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1826">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="3235"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="4683"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -401,9 +477,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2471">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="5799"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="10306"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -437,6 +525,18 @@ transparency</narrative>
      <actual value="84">
       <location ref="220407"></location>
      </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="44">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="395"></target>
     </period>
    </indicator>
   </result>
@@ -489,9 +589,22 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="692">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="1011"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="1704"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -539,9 +652,22 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="31">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="126"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="255"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -577,6 +703,14 @@ transparency</narrative>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="3624">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="2">
@@ -591,6 +725,16 @@ transparency</narrative>
      <narrative xml:lang="EN">No. of outpatient consultations conducted by a healthcare practioner at a health facility supported by a Cordaid Health Programme</narrative>
     </description>
     <reference code="HE1.3.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="11027" year="2020">
+     <location ref="220407"></location>
+     <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="34895" year="2020">
+     <location ref="220407"></location>
+     <dimension name="Age_OPD" value="6 yrs and above"></dimension>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
     <baseline iso-date="2019-12-31" value="167448" year="2019">
      <location ref="220407"></location>
      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
@@ -633,9 +777,28 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="11027">
+      <location ref="220407"></location>
+      <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="34895">
+      <location ref="220407"></location>
+      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="176901"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="213757"></target>
     </period>
    </indicator>
   </result>
@@ -685,9 +848,22 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="41">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="237"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="331"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -723,6 +899,14 @@ transparency</narrative>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="50">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="2">
@@ -752,7 +936,20 @@ transparency</narrative>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
+     <actual value="503213">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <target value="503213"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="518309"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -795,9 +992,26 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="953">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-07-31"></period-end>
+     <target value="0"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-31"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="1768"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="4180"></target>
     </period>
    </indicator>
   </result>
@@ -852,9 +1066,23 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1204">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age_SRH" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="3899"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="8532"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -898,6 +1126,15 @@ transparency</narrative>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="1324">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age_SRH" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1476">
       <location ref="220407"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age_SRH" value="Other"></dimension>
@@ -961,9 +1198,23 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1204">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age_SRH" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="3899"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="8532"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -1013,6 +1264,15 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1476">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age_SRH" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="3498"></target>
@@ -1023,6 +1283,22 @@ transparency</narrative>
    <title>
     <narrative xml:lang="EN">Health facilities contracted</narrative>
    </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of health centres contracted in RBF - Number of centres de sant&#xE9; contract&#xE9;s en RBF</narrative>
+    </title>
+    <reference code="HE3.1.02" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="23" year="2020">
+     <location ref="220407"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="23">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of hospitals contracted in RBF - Number of h&#xF4;pitaux contract&#xE9;s en RBF</narrative>
@@ -1055,6 +1331,13 @@ transparency</narrative>
       <location ref="220407"></location>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2">
+      <location ref="220407"></location>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -1081,6 +1364,13 @@ transparency</narrative>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="9">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="9">
       <location ref="220407"></location>
      </actual>
@@ -1118,6 +1408,13 @@ transparency</narrative>
       <location ref="220407"></location>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="9">
+      <location ref="220407"></location>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="2">
     <title>
@@ -1145,6 +1442,77 @@ transparency</narrative>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="100">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="100">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Quality of health facilities</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">(C) Number of health facilities (RBF) - Number of &#xE9;tablissements de sant&#xE9; (FBR)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of health facilities contracted under the PBF or other health programme</narrative>
+    </description>
+    <reference code="HE3.2.01d" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="25" year="2020">
+     <location ref="220407"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="25">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">(C) Number of health facilities with improved (technical) quality score in calendar year (RBF) - Number of &#xE9;tablissements de sant&#xE9; ayant un score de qualit&#xE9; (technique) am&#xE9;lior&#xE9; au cours de l&apos;ann&#xE9;e civile (FBR)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No.  of health facilities contracted under PBF with an improved technical  based on quarterly technical assessment</narrative>
+    </description>
+    <reference code="HE3.2.01n" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="19" year="2020">
+     <location ref="220407"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="19">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">(C) % of of health facilities with improved (technical) quality score in calendar year - % of of &#xE9;tablissements de sant&#xE9; ayant un score de qualit&#xE9; (technique) am&#xE9;lior&#xE9; au cours de l&apos;ann&#xE9;e civile</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Percent of health facilities contracted under a PBF with an improved technical  based on quarterly technical assessment</narrative>
+    </description>
+    <reference code="HE3.2.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="76">
       <location ref="220407"></location>
      </actual>
     </period>
@@ -1188,6 +1556,13 @@ transparency</narrative>
       <location ref="220407"></location>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="9">
+      <location ref="220407"></location>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -1217,6 +1592,13 @@ transparency</narrative>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="9">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="9">
       <location ref="220407"></location>
      </actual>
@@ -1252,6 +1634,13 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="100">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="100"></target>
@@ -1260,8 +1649,100 @@ transparency</narrative>
   </result>
   <result aggregation-status="1" type="1">
    <title>
+    <narrative xml:lang="EN">(C) Beneficiaries reached (HE)</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">(C) Number of beneficiaries reached (HE)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through Cordaid&apos;s Health Programme Activities</narrative>
+    </description>
+    <reference code="HE0.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="503213">
+      <location ref="ET"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="503213"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
     <narrative xml:lang="EN">(S) Project Specific Indicators</narrative>
    </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">(S) Staff composition of health facilities</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Service type and gender composition of staff in health facilities [(cross disaggregated by gender (male/female) and service type (clinical/support) - Annual]</narrative>
+    </description>
+    <reference code="HE5.1.67" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="452">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="PBF Service Type" value="Other"></dimension>
+     </actual>
+     <actual value="453">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="PBF Service Type" value="Other"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">(S) Staff composition of management teams of health facilities</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Gender composition of the management terms of health facilities [disaggregated by gender (male/female) - Annual]</narrative>
+    </description>
+    <reference code="HE5.1.68" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="133">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="49">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">(S) Staff composition of supervisory teams from the District Health Management Teams</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Gender composition of supervision teams of District Health Management Teams [disaggregated by gender (male/female) - Annual]</narrative>
+    </description>
+    <reference code="HE5.1.69" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="65">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="11">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+    </period>
+   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">(S) Number of PBF quality assessments carried out and timely reports submitted  by District Health Management Teams</narrative>
@@ -1299,8 +1780,20 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="23">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
+     <target value="25"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <target value="25"></target>
     </period>
    </indicator>
@@ -1344,9 +1837,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="63">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="61.5"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="74"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -1382,9 +1887,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="87">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="71.5"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="76"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -1424,9 +1941,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="7.91">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="5.37"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="6.92"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -1466,9 +1995,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0.72">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="0.76"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1.83"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -1508,9 +2049,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="173077">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="117432"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="171969"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -1550,9 +2103,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="295020">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="303353"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="869527"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -1573,6 +2138,13 @@ transparency</narrative>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="220407"></location>
      </actual>
@@ -1599,6 +2171,13 @@ transparency</narrative>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="25">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="25">
       <location ref="ET"></location>
      </actual>
@@ -1636,6 +2215,13 @@ transparency</narrative>
       <location ref="ET"></location>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2">
+      <location ref="ET"></location>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -1656,6 +2242,13 @@ transparency</narrative>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="12">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="22">
       <location ref="ET"></location>
      </actual>
     </period>
@@ -1720,9 +2313,23 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="13331">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age_SRH" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="38710"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="44452"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -1765,6 +2372,20 @@ transparency</narrative>
       <dimension name="Age_SRH" value="Other"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="955">
+      <location ref="220407"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age_SRH" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="3659"></target>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -1803,9 +2424,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="11">
+      <location ref="431527"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="229"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="624"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -1869,9 +2502,21 @@ transparency</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2471">
+      <location ref="220407"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="5799"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-31"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="10306"></target>
     </period>
    </indicator>
   </result>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-3" dstore:index="30" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-24T06:04:46.4306884Z" iati-activities:version="2.03" last-updated-datetime="2020-11-24T06:06:11.0039595Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-3" dstore:index="28" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-29T10:31:10.6041722Z" iati-activities:version="2.03" last-updated-datetime="2021-01-29T10:32:50.4992166Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200855</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -48,6 +48,9 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
   </participating-org>
   <participating-org activity-id="NL-KVK-41179943-215821" ref="NL-KVK-41179943" role="4" type="60">
    <narrative xml:lang="EN">Stichting World Vision Nederland</narrative>
+  </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">Caritas Poland</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-09-05" type="1"></activity-date>
@@ -145,6 +148,39 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     <narrative xml:lang="EN">Cordaid Global Office</narrative>
    </receiver-org>
   </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-11-05"></transaction-date>
+   <value currency="USD" value-date="2020-11-05">97044</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200855" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid South Sudan</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Children Aid South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-12"></transaction-date>
+   <value currency="USD" value-date="2020-12-12">58226.4</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200855" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid South Sudan</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Children Aid South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">43917</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200855" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid South Sudan</narrative>
+   </provider-org>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">N/A</narrative>
+   </receiver-org>
+  </transaction>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
@@ -173,6 +209,13 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-05"></period-start>
      <period-end iso-date="2021-08-05"></period-end>
      <target value="4700"></target>
@@ -194,6 +237,13 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="35">
       <location ref="SS"></location>
      </actual>
     </period>
@@ -226,6 +276,11 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
      <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
     </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="220554"></location>
+     <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
     <baseline iso-date="2020-06-30" value="0" year="2020">
      <location ref="220554"></location>
      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
@@ -235,6 +290,11 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
      <location ref="220554"></location>
      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="220554"></location>
+     <dimension name="Age_OPD" value="6 yrs and above"></dimension>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
     </baseline>
     <baseline iso-date="2020-06-30" value="0" year="2020">
      <location ref="220554"></location>
@@ -244,6 +304,11 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     <baseline iso-date="2020-06-30" value="0" year="2020">
      <location ref="220554"></location>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     <dimension name="Age_OPD" value="Other"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="220554"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      <dimension name="Age_OPD" value="Other"></dimension>
     </baseline>
     <baseline iso-date="2020-06-30" value="0" year="2020">
@@ -256,6 +321,11 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
      <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
     </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="220559"></location>
+     <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
     <baseline iso-date="2020-06-30" value="0" year="2020">
      <location ref="220559"></location>
      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
@@ -265,6 +335,11 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
      <location ref="220559"></location>
      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="220559"></location>
+     <dimension name="Age_OPD" value="6 yrs and above"></dimension>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
     </baseline>
     <baseline iso-date="2020-06-30" value="0" year="2020">
      <location ref="220559"></location>
@@ -274,6 +349,11 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     <baseline iso-date="2020-06-30" value="0" year="2020">
      <location ref="220559"></location>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     <dimension name="Age_OPD" value="Other"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="220559"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      <dimension name="Age_OPD" value="Other"></dimension>
     </baseline>
     <period>
@@ -382,6 +462,100 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
       <location ref="220559"></location>
       <dimension name="Age_OPD" value="6 yrs and above"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="220554"></location>
+      <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220554"></location>
+      <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220554"></location>
+      <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220554"></location>
+      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220554"></location>
+      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220554"></location>
+      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220554"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age_OPD" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220554"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age_OPD" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220554"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age_OPD" value="Other"></dimension>
+     </actual>
+     <actual value="4149">
+      <location ref="220559"></location>
+      <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="5885">
+      <location ref="220559"></location>
+      <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220559"></location>
+      <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="5680">
+      <location ref="220559"></location>
+      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="12557">
+      <location ref="220559"></location>
+      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220559"></location>
+      <dimension name="Age_OPD" value="6 yrs and above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220559"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age_OPD" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220559"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age_OPD" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220559"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age_OPD" value="Other"></dimension>
      </actual>
     </period>
     <period>
@@ -437,6 +611,40 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="SS"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
@@ -547,6 +755,40 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -580,6 +822,40 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="SS"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
@@ -681,6 +957,40 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-05"></period-start>
      <period-end iso-date="2021-08-05"></period-end>
      <target value="60000"></target>
@@ -718,6 +1028,40 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="SS"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
@@ -833,6 +1177,40 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="2">
@@ -912,6 +1290,40 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
@@ -940,6 +1352,13 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="SS"></location>
      </actual>
@@ -979,6 +1398,13 @@ Any kind of transfer modality (in-kind, voucher, cash) and combination thereof w
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="35">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-05"></period-start>
      <period-end iso-date="2021-08-05"></period-end>
      <target value="2208"></target>
@@ -1012,6 +1438,13 @@ Distributed items need to be culturally acceptable i.e. take into account local 
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20462">
       <location ref="SS"></location>
      </actual>
     </period>
@@ -1056,6 +1489,13 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20462">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-05"></period-start>
      <period-end iso-date="2021-08-05"></period-end>
      <target value="4700"></target>
@@ -1088,6 +1528,13 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20462">
       <location ref="SS"></location>
      </actual>
     </period>
@@ -1139,6 +1586,16 @@ Use this sub-sector and indicator only if the project contributed substantially 
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="431576"></location>
+     </actual>
+     <actual value="3">
+      <location ref="444061"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-05"></period-start>
      <period-end iso-date="2021-08-05"></period-end>
      <target value="4"></target>
@@ -1168,6 +1625,13 @@ Use this sub-sector and indicator only if the project contributed substantially 
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
       <location ref="SS"></location>
      </actual>
     </period>
@@ -1205,6 +1669,13 @@ Use this sub-sector and indicator only if the project contributed substantially 
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="28271">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-05"></period-start>
      <period-end iso-date="2021-08-05"></period-end>
      <target value="12000"></target>
@@ -1230,6 +1701,13 @@ Use this sub-sector and indicator only if the project contributed substantially 
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="SS"></location>
      </actual>
@@ -1271,6 +1749,13 @@ Please describe in the actvity description what this involvement specifically en
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="5">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-05"></period-start>
      <period-end iso-date="2021-08-05"></period-end>
      <target value="600"></target>
@@ -1300,6 +1785,13 @@ Please describe in the actvity description what this involvement specifically en
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="50">
       <location ref="SS"></location>
      </actual>
     </period>
@@ -1337,6 +1829,13 @@ Please describe in the actvity description what this involvement specifically en
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-05"></period-start>
      <period-end iso-date="2021-08-05"></period-end>
      <target value="2"></target>
@@ -1365,6 +1864,13 @@ Please describe in the actvity description what this involvement specifically en
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="SS"></location>
      </actual>
@@ -1434,6 +1940,40 @@ Please describe in the actvity description what this involvement specifically en
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-05"></period-start>
      <period-end iso-date="2021-08-05"></period-end>
      <target value="60000"></target>
@@ -1498,6 +2038,40 @@ Please describe in the actvity description what this involvement specifically en
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-05"></period-start>
      <period-end iso-date="2021-08-05"></period-end>
      <target value="12000"></target>
@@ -1558,6 +2132,40 @@ Please describe in the actvity description what this involvement specifically en
      <actual value="0">
       <location ref="SS"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
