@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-2" dstore:index="28" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-29T10:07:56.6584298Z" iati-activities:version="2.03" last-updated-datetime="2021-01-29T10:10:05.9336282Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-07" dstore:index="13" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-01T09:29:45.5899751Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T09:30:04.5853533Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200877</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -30,7 +30,7 @@ There are an estimated 8.950 direct beneficiaries.</narrative>
    <narrative xml:lang="EN">JRS Jesuit Refugee Service</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-27302841" role="1" type="21">
-   <narrative xml:lang="EN">Stichting Samenwerkende Hulporganisaties</narrative>
+   <narrative xml:lang="EN">Stichting Samenwerkende Hulporganisaties - SHO</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-09-15" type="1"></activity-date>
@@ -69,112 +69,7 @@ There are an estimated 8.950 direct beneficiaries.</narrative>
    <period-end iso-date="2021-09-15"></period-end>
    <value currency="EUR" value-date="2020-09-15">400000</value>
   </budget>
-  <transaction humanitarian="1">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-08-18"></transaction-date>
-   <value currency="EUR" value-date="2020-08-18">400000</value>
-   <provider-org ref="NL-KVK-27302841" type="21">
-    <narrative xml:lang="EN">Stichting Samenwerkende Hulporganisaties</narrative>
-   </provider-org>
-   <receiver-org ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-10-20"></transaction-date>
-   <value currency="EUR" value-date="2020-10-20">240000</value>
-   <provider-org provider-activity-id="NL-KVK-41160054-200877" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </provider-org>
-   <receiver-org type="22">
-    <narrative xml:lang="EN">JRS Jesuit Refugee Service</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-11-12"></transaction-date>
-   <value currency="EUR" value-date="2020-11-12">240000</value>
-   <provider-org provider-activity-id="NL-KVK-41160054-200877" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </provider-org>
-   <receiver-org type="22">
-    <narrative xml:lang="EN">JRS Jesuit Refugee Service</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">8975</value>
-   <provider-org provider-activity-id="NL-KVK-41160054-200877" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </provider-org>
-   <receiver-org type="90">
-    <narrative xml:lang="EN">N/A</narrative>
-   </receiver-org>
-  </transaction>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">(S) Project Specific Indicators</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of hygiene kits distributed</narrative>
-    </title>
-    <reference code="HUM4.37" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
-      <location ref="LB"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="172">
-      <location ref="LB"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-09-15"></period-start>
-     <period-end iso-date="2021-09-15"></period-end>
-     <target value="1080"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">(C) Beneficiaries reached (HUM)</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">(C) Number of beneficiaries reached (HUM)</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
-    </description>
-    <reference code="HUM0.1" vocabulary="99"></reference>
-    <baseline iso-date="2020-12-31" value="9957" year="2020">
-     <location ref="LB"></location>
-     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="9957">
-      <location ref="LB"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-09-15"></period-start>
-     <period-end iso-date="2021-09-15"></period-end>
-     <target value="8950"></target>
-    </period>
-   </indicator>
-  </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Availability of, access to and consumption of food</narrative>
@@ -195,17 +90,30 @@ Any kind of transfer modality (in-kind, voucher, cash) and combination thereof w
       <location ref="LB"></location>
      </actual>
     </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Hygiene promotion</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">WSH-I1: Number of people having regular access to soap to meet hygienic needs</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Regular and timely access: 250g soap/p/m for personal hygiene, 200g soap/p/month for laundry. This includes hygiene/dignity kits. Access may be in-kind or though voucher distribution or through unconditional restricted cash to enable beneficiary to buy soap (without compromising access to other basic needs). 
+Distributed items need to be culturally acceptable i.e. take into account local practice and expectations.</narrative>
+    </description>
+    <reference code="WSH-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-09-30" value="0" year="2020">
+     <location ref="LB"></location>
+    </baseline>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="860">
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
       <location ref="LB"></location>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-09-15"></period-start>
-     <period-end iso-date="2021-09-15"></period-end>
-     <target value="5400"></target>
     </period>
    </indicator>
   </result>
@@ -231,18 +139,6 @@ Any kind of transfer modality (in-kind, voucher, cash) and combination thereof w
       <location ref="LB"></location>
      </actual>
     </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="860">
-      <location ref="LB"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-09-15"></period-start>
-     <period-end iso-date="2021-09-15"></period-end>
-     <target value="4250"></target>
-    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
@@ -262,13 +158,6 @@ Skilled provider: medical or paramedical degree with supplementary training on m
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
-      <location ref="LB"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="1067">
       <location ref="LB"></location>
      </actual>
     </period>
@@ -303,16 +192,9 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="1440">
-      <location ref="LB"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-09-15"></period-start>
      <period-end iso-date="2021-09-15"></period-end>
-     <target value="2700"></target>
+     <target value="0"></target>
     </period>
    </indicator>
   </result>
