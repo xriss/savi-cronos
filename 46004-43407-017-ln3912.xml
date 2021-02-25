@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="asdb-ph" dstore:index="6" hierarchy="1" iati-activities:generated-datetime="2021-01-29T15:07:41.041" iati-activities:version="2.03" last-updated-datetime="2020-12-31T00:00:00.000" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="asdb-ph" dstore:index="6" hierarchy="1" iati-activities:generated-datetime="2021-02-23T11:30:28.972" iati-activities:version="2.03" last-updated-datetime="2021-01-31T00:00:00.000" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46004-43407-017-LN3912</iati-identifier>
   <reporting-org ref="46004" type="40">
    <narrative xml:lang="EN">Asian Development Bank</narrative>
@@ -70,12 +70,12 @@
   <budget>
    <period-start iso-date="2020-04-01"></period-start>
    <period-end iso-date="2020-06-30"></period-end>
-   <value currency="USD" value-date="2020-06-30">200000000</value>
+   <value currency="USD" value-date="2020-06-30">60000000</value>
   </budget>
   <budget>
    <period-start iso-date="2020-07-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
-   <value currency="USD" value-date="2020-09-30">0</value>
+   <value currency="USD" value-date="2020-09-30">140000000</value>
   </budget>
   <budget>
    <period-start iso-date="2020-10-01"></period-start>
@@ -214,6 +214,17 @@
    </receiver-org>
   </transaction>
   <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">0</value>
+   <provider-org>
+    <narrative xml:lang="EN">Asian Development Bank</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Department of Social Welfare and Development</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
    <value currency="USD" value-date="2020-10-31">1088995.58</value>
@@ -246,13 +257,24 @@
     <narrative xml:lang="EN">Department of Social Welfare and Development</narrative>
    </receiver-org>
   </transaction>
+  <transaction>
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">0</value>
+   <provider-org>
+    <narrative xml:lang="EN">Asian Development Bank</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Department of Social Welfare and Development</narrative>
+   </receiver-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/43407/43407-017-lna-en.pdf">
    <title>
     <narrative xml:lang="EN">Loan Agreement</narrative>
    </title>
    <category code="A09"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-12-31"></document-date>
+   <document-date iso-date="2021-01-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/43407/43407-017-lna-en.pdf">
    <title>
@@ -260,7 +282,7 @@
    </title>
    <category code="A04"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-12-31"></document-date>
+   <document-date iso-date="2021-01-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/43407/43407-017-rrp-en.pdf">
    <title>
@@ -272,7 +294,7 @@
    <category code="A05"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-12-31"></document-date>
+   <document-date iso-date="2021-01-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/43407-017/main#project-tenders">
    <title>
@@ -280,7 +302,7 @@
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-12-31"></document-date>
+   <document-date iso-date="2021-01-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/43407-017/main#project-tenders">
    <title>
@@ -288,7 +310,7 @@
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-12-31"></document-date>
+   <document-date iso-date="2021-01-31"></document-date>
   </document-link>
   <related-activity ref="LN2662" type="3"></related-activity>
   <related-activity ref="LN3369" type="3"></related-activity>
@@ -313,55 +335,37 @@
     </title>
     <category code="A08"></category>
     <language code="EN"></language>
-    <document-date iso-date="2020-12-31"></document-date>
+    <document-date iso-date="2021-01-31"></document-date>
    </document-link>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">At least 10% increase in average per capita consumption of beneficiaries in target communities</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">At least 80.0% of births are delivered by skilled health personnel</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Decrease in the share of children 6&#x2013;14 years old who are working in project areas</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">At least 90% each of boys and girls aged 6&#x2013;18 years in poor beneficiary households attend school</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">At least 70.0% of pregnant women deliver in a health facility</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">At least 85% of children are fully immunized before 1 year old</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN"></narrative>
-    </description>
    </indicator>
   </result>
  </iati-activity>
