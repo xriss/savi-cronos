@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="zoa-activities" dstore:index="32" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-02-19T11:17:53+00:00" iati-activities:version="2.03" last-updated-datetime="2020-06-01T20:29:44+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" dstore:dataset="zoa-activities" dstore:index="32" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-01T21:47:06+00:00" iati-activities:version="2.03" last-updated-datetime="2021-03-01T21:23:30+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41009723-LBR137</iati-identifier>
   <reporting-org ref="NL-KVK-41009723" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">ZOA</narrative>
@@ -23,10 +23,10 @@ Access to Sanitation Materials: Communities will be provided with specially modi
   <description type="3">
    <narrative xml:lang="EN">The aim is to reach at least 60.000 people in 4 counties (Bomi, Montserrado, Margibi and Bong) as well as urban Monrovia.</narrative>
   </description>
-  <participating-org ref="XM-DAC-7" role="1" type="10">
+  <participating-org activity-id="NL-1-PPR-26838" ref="XM-DAC-7" role="1" type="10">
    <narrative xml:lang="EN">Dutch Ministry of Foreign Affairs (DGIS) / Dutch Embassy</narrative>
   </participating-org>
-  <participating-org role="4" type="21">
+  <participating-org activity-id="NL-KVK-41009723-LBR137" ref="NL-KVK-41009723" role="4" type="21">
    <narrative xml:lang="EN">ZOA</narrative>
   </participating-org>
   <participating-org role="4" type="22">
@@ -41,13 +41,13 @@ Access to Sanitation Materials: Communities will be provided with specially modi
   <participating-org role="4" type="60">
    <narrative xml:lang="EN">Foundation for Human Rights and Democracy (FOHRD)</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="22">
    <narrative xml:lang="EN">Liberia Scouts Association (LSA)</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="22">
    <narrative xml:lang="EN">Monrovia Christian Fellowship (MCF)</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="22">
    <narrative xml:lang="EN">Liberia Ambassadors for Peace (LAP)</narrative>
   </participating-org>
   <participating-org role="4" type="22">
@@ -99,6 +99,7 @@ Access to Sanitation Materials: Communities will be provided with specially modi
   </location>
   <sector code="72010" percentage="50" vocabulary="1"></sector>
   <sector code="72050" percentage="50" vocabulary="1"></sector>
+  <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -109,15 +110,6 @@ Access to Sanitation Materials: Communities will be provided with specially modi
    <period-end iso-date="2014-12-31"></period-end>
    <value currency="EUR" value-date="2014-09-01">20000</value>
   </budget>
-  <transaction humanitarian="1" ref="Incoming fund BZ/Embassy">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-09-09"></transaction-date>
-   <value currency="EUR" value-date="2014-09-09">20000</value>
-   <provider-org provider-activity-id="NL-1-PPR-26838" ref="XM-DAC-7" type="10">
-    <narrative xml:lang="EN">Dutch Ministry of Foreign Affairs</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-41009723-LBR137" ref="NL-KVK-41009723"></receiver-org>
-  </transaction>
   <transaction humanitarian="1" ref="Commitment BZ/Embassy">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2014-09-01"></transaction-date>
@@ -128,6 +120,15 @@ Access to Sanitation Materials: Communities will be provided with specially modi
    <provider-org provider-activity-id="NL-1-PPR-26838" ref="XM-DAC-7" type="10">
     <narrative xml:lang="EN">Dutch Ministry of Foreign Affairs</narrative>
    </provider-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming fund BZ/Embassy">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-09-09"></transaction-date>
+   <value currency="EUR" value-date="2014-09-09">20000</value>
+   <provider-org provider-activity-id="NL-1-PPR-26838" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Dutch Ministry of Foreign Affairs</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41009723-LBR137" ref="NL-KVK-41009723"></receiver-org>
   </transaction>
   <transaction humanitarian="1" ref="Expenditures until end of project">
    <transaction-type code="4"></transaction-type>
