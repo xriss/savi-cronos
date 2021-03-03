@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-03" dstore:index="22" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-01T08:17:38.0061034Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T08:18:26.9917731Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="245" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:15:22.2977538Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:23:30.5572582Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200792</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -30,9 +30,9 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
   <participating-org activity-id="NL-KVK-41160054-200792" ref="NL-KVK-41160054" role="1" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
-  <activity-status code="3"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2020-05-15" type="1"></activity-date>
-  <activity-date iso-date="2020-08-14" type="3"></activity-date>
+  <activity-date iso-date="2020-08-31" type="3"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">Cordaid Global Office</narrative>
@@ -67,41 +67,23 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
    <period-end iso-date="2020-08-14"></period-end>
    <value currency="EUR" value-date="2020-05-15">27100</value>
   </budget>
-  <transaction humanitarian="1">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-14"></transaction-date>
-   <value currency="EUR" value-date="2020-05-14">23750</value>
-   <provider-org provider-activity-id="NL-KVK-41160054-200792" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </provider-org>
-   <receiver-org type="22">
-    <narrative xml:lang="EN">Caritas D&#xE9;veloppement Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-10-13"></transaction-date>
-   <value currency="EUR" value-date="2020-10-13">1071</value>
-   <provider-org provider-activity-id="NL-KVK-41160054-200792" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </provider-org>
-   <receiver-org type="22">
-    <narrative xml:lang="EN">Caritas D&#xE9;veloppement Niger</narrative>
-   </receiver-org>
-  </transaction>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(C) Beneficiaries reached (HUM)</narrative>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(C) Number of beneficiaries reached (HUM)</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
     </description>
-    <reference code="HUM0.1" vocabulary="99"></reference>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="31036" year="2020">
+     <location ref="312536"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
     <baseline iso-date="2020-12-31" value="31036" year="2020">
      <location ref="312536"></location>
      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
@@ -113,10 +95,14 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
       <location ref="312536"></location>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
+     <actual value="31036">
+      <location ref="312536"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
     </period>
     <period>
      <period-start iso-date="2020-05-15"></period-start>
-     <period-end iso-date="2020-08-14"></period-end>
+     <period-end iso-date="2020-08-31"></period-end>
      <target value="31036"></target>
     </period>
    </indicator>
@@ -174,7 +160,7 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
     <title>
      <narrative xml:lang="EN">Number of people enabled to meet their basic food needs in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.02" vocabulary="99"></reference>
+    <reference code="COV.SL.02" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
@@ -194,7 +180,7 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
     <title>
      <narrative xml:lang="EN">Number of people provided with PPE in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.03" vocabulary="99"></reference>
+    <reference code="COV.SL.03" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
@@ -263,13 +249,13 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Humanitarian Aid - Project Specific</narrative>
+    <narrative xml:lang="EN">Saving Lives - Project Specific</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of Handwashing stations installed in key risk areas</narrative>
     </title>
-    <reference code="COV.HUM.10" vocabulary="99"></reference>
+    <reference code="COV.SL.09" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
@@ -287,7 +273,7 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
     <title>
      <narrative xml:lang="EN">Number of COVID-19 standard kits distributed</narrative>
     </title>
-    <reference code="COV.HUM.11" vocabulary="99"></reference>
+    <reference code="COV.SL.10" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
@@ -305,7 +291,7 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
     <title>
      <narrative xml:lang="EN">Number of Radio live talkshows, Roadside drives conducted on COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.12" vocabulary="99"></reference>
+    <reference code="COV.SL.11" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
@@ -315,7 +301,7 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
     </period>
     <period>
      <period-start iso-date="2020-05-15"></period-start>
-     <period-end iso-date="2020-08-14"></period-end>
+     <period-end iso-date="2020-08-31"></period-end>
      <target value="13"></target>
     </period>
    </indicator>

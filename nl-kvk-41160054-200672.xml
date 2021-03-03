@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-3" dstore:index="24" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-29T10:31:10.6041722Z" iati-activities:version="2.03" last-updated-datetime="2021-01-29T10:32:30.9373188Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054" dstore:index="76" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:32:20.2455398Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:40:03.1045497Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200672</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -281,13 +281,13 @@
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="2">
    <title>
-    <narrative xml:lang="EN">(C) Access to quality health services</narrative>
+    <narrative xml:lang="EN">Health Thematic Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of consultancies for GBV - Number of consultations VBG</narrative>
     </title>
-    <reference code="HE.04.3" vocabulary="99"></reference>
+    <reference code="HE1.07" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -377,16 +377,16 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(C) Beneficiaries reached (HUM)</narrative>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(C) Number of beneficiaries reached (HUM)</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
     </description>
-    <reference code="HUM0.1" vocabulary="99"></reference>
+    <reference code="SL0.01" vocabulary="99"></reference>
     <baseline iso-date="2019-12-31" value="0" year="2019">
      <location ref="SY"></location>
      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
@@ -455,6 +455,51 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="41683"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
+    </description>
+    <reference code="CSH-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-03-31" value="0" year="2020">
+     <location ref="SY"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="2020">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="3925">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="3375"></target>
     </period>
    </indicator>
   </result>
@@ -874,263 +919,6 @@ Please note that prevention of GBV is captured under PRO-I11.</narrative>
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Prevention and response to violence</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">PRO-I2: Number of persons who receive an appropriate response</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">1) This indicator covers response to people (adults and children) having been victims of all kinds of violence. If the response provided is solely for suvivors of GBV, please select the GBV sub-sector.2) Appropriate response is defined as the provision of comprehensive services/assistance based on a thorough analysis of the risks faced by persons. The protection outcome of the response must be well defined. Relevant SOPs (including functional Referral Mechanism) should be followed.3) Use the activity description field to describe what services (medical, MHPSS, legal, security, etc.) are foreseen, as well as the SOPs in place.4) Number of persons must be disaggregated by age and sex at reporting stage.5) If action also includes prevention activities, please add a custom indicator to reflect this.
-
-
-Please note that response to GBV is captured under PRO-I12.</narrative>
-    </description>
-    <reference code="PRO-I2" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="&lt;15 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="&lt;15 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="35-44 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="35-44 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="45-54 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="45-54 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="55-64 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="55-64 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="65 yrs and above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="65 yrs and above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="&lt;15 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="&lt;15 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="35-44 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="35-44 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="45-54 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="45-54 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="55-64 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="55-64 yrs"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="65 yrs and above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Age" value="65 yrs and above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="443838"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
     <narrative xml:lang="EN">Accountability</narrative>
    </title>
    <indicator ascending="1" measure="1">
@@ -1288,7 +1076,7 @@ Please describe in the actvity description what this involvement specifically en
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">CSH-I1: (C) Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
+     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
@@ -1345,30 +1133,74 @@ Please describe in the actvity description what this involvement specifically en
     </description>
     <reference code="COV-I1" vocabulary="99"></reference>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
       <location ref="SY"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="8820">
+     <actual value="10820">
       <location ref="SY"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="8820">
+      <location ref="SY"></location>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
      </actual>
      <actual value="2000">
       <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>

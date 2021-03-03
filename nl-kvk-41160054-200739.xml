@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054" dstore:index="26" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-29T09:55:54.2100775Z" iati-activities:version="2.03" last-updated-datetime="2021-01-29T09:56:57.3010032Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054" dstore:index="78" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:32:20.2455398Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:40:15.2301572Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200739</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -89,20 +89,20 @@
    </receiver-org>
   </transaction>
   <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">64751</value>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-01"></transaction-date>
+   <value currency="EUR" value-date="2020-07-01">96000</value>
    <provider-org provider-activity-id="NL-KVK-41160054-200739" ref="NL-KVK-41160054" type="21">
     <narrative xml:lang="EN">Cordaid Global Office</narrative>
    </provider-org>
-   <receiver-org type="90">
-    <narrative xml:lang="EN">N/A</narrative>
+   <receiver-org>
+    <narrative xml:lang="EN">Caritas Zimbabwe</narrative>
    </receiver-org>
   </transaction>
   <transaction humanitarian="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-05-14"></transaction-date>
-   <value currency="EUR" value-date="2020-05-14">104550</value>
+   <value currency="EUR" value-date="2020-05-14">102000</value>
    <provider-org provider-activity-id="NL-KVK-41160054-200739" ref="NL-KVK-41160054" type="21">
     <narrative xml:lang="EN">Cordaid Global Office</narrative>
    </provider-org>
@@ -114,13 +114,13 @@
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(C) Life-saving basic services</narrative>
+    <narrative xml:lang="EN">Saving Lives Thematic Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of people provided with food items</narrative>
     </title>
-    <reference code="HUM1.03" vocabulary="99"></reference>
+    <reference code="SL1.05" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -145,7 +145,7 @@
     <period>
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="8750">
+     <actual value="8039">
       <location ref="ZW"></location>
      </actual>
     </period>
@@ -158,13 +158,13 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(S) Project Specific Indicators</narrative>
+    <narrative xml:lang="EN">Saving Lives Project Specific Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">% of budget spent on capacity building of national an local actors</narrative>
     </title>
-    <reference code="HUM4.47" vocabulary="99"></reference>
+    <reference code="SL2.45" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -203,7 +203,7 @@
     <title>
      <narrative xml:lang="EN">Number of crisis-affected people who are also involved in the design, implementation, monitoring and/or evaluation of the programme</narrative>
     </title>
-    <reference code="HUM4.49" vocabulary="99"></reference>
+    <reference code="SL2.46" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -241,11 +241,45 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Short-term livelihood support</narrative>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">FSC-I1: (C) Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+    </description>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="20480" year="2020">
+     <location ref="ZW"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="20840" year="2020">
+     <location ref="ZW"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20840">
+      <location ref="ZW"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="20480">
+      <location ref="ZW"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-03-05"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
+     <target value="15000"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">FSC-I1:  Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Resources that enable people to protect and rebuild their livelihood assets include seeds, livestock, tools, business grant, etc. 
@@ -279,7 +313,58 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
     <period>
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="8750">
+     <actual value="8039">
+      <location ref="ZW"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-03-05"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
+     <target value="8750"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Short-term livelihood support</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">FSC-I1:  Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Resources that enable people to protect and rebuild their livelihood assets include seeds, livestock, tools, business grant, etc. 
+Any kind of transfer modality (in-kind, voucher, restricted cash) and combination thereof to support, protect and enable the restoration/protection/access of/to livelihood assets.</narrative>
+    </description>
+    <reference code="FSC-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-03-31" value="0" year="2020">
+     <location ref="ZW"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="ZW"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="5574">
+      <location ref="ZW"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="1815">
+      <location ref="ZW"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="8039">
       <location ref="ZW"></location>
      </actual>
     </period>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-11" dstore:index="15" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-01T11:00:51.698233Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T11:01:14.9033456Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="231" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:15:22.2977538Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:22:41.6402311Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200773</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -33,7 +33,7 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
   <participating-org ref="NL-KVK-41160054" role="1" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-04-13" type="1"></activity-date>
   <activity-date iso-date="2020-10-13" type="3"></activity-date>
   <contact-info>
@@ -73,6 +73,44 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
    <value currency="EUR" value-date="2020-04-13">268561.55</value>
   </budget>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Health Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HE)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through Cordaid&apos;s Health Programme Activities</narrative>
+    </description>
+    <reference code="HE0.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="188460">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="368892">
+      <location ref="CF"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="442670">
+      <location ref="CF"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="179925">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="443177">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
@@ -85,7 +123,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="7">
+     <actual value="4">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
       <location ref="CF"></location>
      </actual>
     </period>
@@ -103,35 +148,34 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="153">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="226">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
      <actual value="58">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
-     <actual value="0">
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="119">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="18">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
     <period>
@@ -148,12 +192,31 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="192434">
+     <actual value="1033">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
-     <actual value="210783">
+     <actual value="1079">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="429">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="178888">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="187244">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
@@ -173,7 +236,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="48">
+     <actual value="6">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
       <location ref="CF"></location>
      </actual>
     </period>
@@ -197,6 +267,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="23668">
+      <location ref="CF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-13"></period-start>
      <period-end iso-date="2020-10-13"></period-end>
      <target value="140"></target>
@@ -214,7 +292,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="52">
+     <actual value="20">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="75">
       <location ref="CF"></location>
      </actual>
     </period>
@@ -243,6 +328,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="23668">
+      <location ref="CF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-13"></period-start>
      <period-end iso-date="2020-10-13"></period-end>
      <target value="140"></target>
@@ -261,7 +354,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="7">
+     <actual value="4">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
       <location ref="CF"></location>
      </actual>
     </period>
@@ -279,35 +379,34 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="153">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="226">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
      <actual value="58">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
-     <actual value="0">
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="119">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="18">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
     <period>
@@ -324,12 +423,31 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="192434">
+     <actual value="1033">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
-     <actual value="210783">
+     <actual value="1079">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="429">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="178888">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="187244">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
@@ -349,7 +467,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="48">
+     <actual value="6">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
       <location ref="CF"></location>
      </actual>
     </period>
@@ -368,6 +493,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="2">
+      <location ref="CF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="23668">
       <location ref="CF"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
@@ -391,7 +524,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="7">
+     <actual value="4">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
       <location ref="CF"></location>
      </actual>
     </period>
@@ -409,35 +549,34 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="153">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="226">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
      <actual value="58">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
-     <actual value="0">
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="119">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="18">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
     <period>
@@ -454,12 +593,31 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="192434">
+     <actual value="1033">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
-     <actual value="210783">
+     <actual value="1079">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="429">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="178888">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="187244">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
@@ -479,7 +637,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="48">
+     <actual value="6">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
       <location ref="CF"></location>
      </actual>
     </period>
@@ -503,6 +668,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="23668">
+      <location ref="CF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-13"></period-start>
      <period-end iso-date="2020-10-13"></period-end>
      <target value="140"></target>
@@ -521,7 +694,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="7">
+     <actual value="4">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
       <location ref="CF"></location>
      </actual>
     </period>
@@ -539,35 +719,34 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="153">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="226">
-      <location ref="CF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
      <actual value="58">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
-     <actual value="0">
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="119">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="18">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
     <period>
@@ -584,12 +763,31 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="192434">
+     <actual value="1033">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
-     <actual value="210783">
+     <actual value="1079">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="429">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="178888">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="187244">
       <location ref="CF"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
@@ -609,7 +807,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="48">
+     <actual value="6">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
       <location ref="CF"></location>
      </actual>
     </period>
@@ -628,6 +833,14 @@ l&apos;objectif sp&#xE9;cifique est de renforcer les mesures de pr&#xE9;vention 
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="2">
+      <location ref="CF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="23668">
       <location ref="CF"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>

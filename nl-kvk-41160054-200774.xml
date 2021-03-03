@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-09" dstore:index="29" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-01T10:47:15.0336423Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T10:48:01.9216741Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="234" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:15:22.2977538Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:22:55.9053703Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200774</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -112,6 +112,77 @@ Disabled: N/A</narrative>
    <value currency="EUR" value-date="2020-04-01">129155</value>
   </planned-disbursement>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+    </description>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="95216" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="93137" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="1520" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="189873" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="107443" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="82430" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="93137">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="95216">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1520">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="107443">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="82430">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="189873">
+      <location ref="CF"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="70000"></target>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
@@ -501,7 +572,7 @@ Disabled: N/A</narrative>
     <title>
      <narrative xml:lang="EN">Number of people provided with water in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.01.a" vocabulary="99"></reference>
+    <reference code="COV.SL.01.a" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -545,7 +616,7 @@ Disabled: N/A</narrative>
     <title>
      <narrative xml:lang="EN">Number of people provided with sanitation services in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.01.b" vocabulary="99"></reference>
+    <reference code="COV.SL.01.b" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>

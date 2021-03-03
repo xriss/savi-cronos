@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-02" dstore:index="5" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-11-01T07:47:26.7762669Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T07:47:42.0239172Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="248" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-03-02T06:15:22.2977538Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:23:39.4202419Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200510</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -45,6 +45,34 @@ Le premier niveau d&#x2019;intervention du programme est le niveau d&#xE9;centra
   <activity-scope code="4"></activity-scope>
   <recipient-country code="BI" percentage="100"></recipient-country>
   <recipient-region code="298" percentage="0" vocabulary="1"></recipient-region>
+  <location ref="220324">
+   <name>
+    <narrative xml:lang="EN">Gitega</narrative>
+   </name>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+  </location>
+  <location ref="220329">
+   <name>
+    <narrative xml:lang="EN">Muramvya</narrative>
+   </name>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+  </location>
+  <location ref="220331">
+   <name>
+    <narrative xml:lang="EN">Mwaro</narrative>
+   </name>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+  </location>
+  <location ref="BI">
+   <name>
+    <narrative xml:lang="EN">Burundi</narrative>
+   </name>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+  </location>
   <sector code="13020" percentage="100" vocabulary="1"></sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -59,5 +87,243 @@ Le premier niveau d&#x2019;intervention du programme est le niveau d&#xE9;centra
    <value currency="EUR" value-date="2020-04-09">18000000</value>
   </budget>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Health Thematic Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of health centres contracted in RBF - Number of centres de sant&#xE9; contract&#xE9;s en RBF</narrative>
+    </title>
+    <reference code="HE1.89" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="65" year="2020">
+     <location ref="220324"></location>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="32" year="2020">
+     <location ref="220329"></location>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="29" year="2020">
+     <location ref="220331"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="65">
+      <location ref="220324"></location>
+     </actual>
+     <actual value="32">
+      <location ref="220329"></location>
+     </actual>
+     <actual value="29">
+      <location ref="220331"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-09"></period-start>
+     <period-end iso-date="2020-07-31"></period-end>
+     <target value="126"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of hospitals contracted in RBF - Number of h&#xF4;pitaux contract&#xE9;s en RBF</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Assurez-vous de ne pas remplir le nombre d&apos;&#xE9;tablissements de sant&#xE9; impliqu&#xE9;s si vous avez d&#xE9;j&#xE0; rempli le formulaire pour le cancer du col de l&apos;ut&#xE9;rus our d&apos;autres programmes non FAR</narrative>
+    </description>
+    <reference code="HE1.88" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="13" year="2020">
+     <location ref="220324"></location>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="3" year="2020">
+     <location ref="220329"></location>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="4" year="2020">
+     <location ref="220331"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="13">
+      <location ref="220324"></location>
+     </actual>
+     <actual value="3">
+      <location ref="220329"></location>
+     </actual>
+     <actual value="4">
+      <location ref="220331"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-09"></period-start>
+     <period-end iso-date="2020-07-31"></period-end>
+     <target value="20"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Health Project Specific Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Average Quality Score Health Centres</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Average score received by health centres against PBF quality indicators within a quarterly verification cycle</narrative>
+    </description>
+    <reference code="HE2.57" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="66.69" year="2020">
+     <location ref="220324"></location>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="50.74" year="2020">
+     <location ref="220329"></location>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="68.7" year="2020">
+     <location ref="220331"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="66.69">
+      <location ref="220324"></location>
+     </actual>
+     <actual value="50.74">
+      <location ref="220329"></location>
+     </actual>
+     <actual value="68.7">
+      <location ref="220331"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-09"></period-start>
+     <period-end iso-date="2023-03-31"></period-end>
+     <target value="65"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Average Quality Score Hospitals</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Average score received by hospitals against PBF quality indicators within a quarterly verification cycle</narrative>
+    </description>
+    <reference code="HE2.58" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="86.25" year="2020">
+     <location ref="220324"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="86.25">
+      <location ref="220324"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-09"></period-start>
+     <period-end iso-date="2023-03-31"></period-end>
+     <target value="85"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Health Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HE)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through Cordaid&apos;s Health Programme Activities</narrative>
+    </description>
+    <reference code="HE0.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2463150">
+      <location ref="BI"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-09"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1715974"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of women who had at least four antenatal care visits - Number of au moins quatres visites pr&#xE9;natales</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of women who have had at least four antenatal care visits at a health facility supported by a Cordaid Health Programme</narrative>
+    </description>
+    <reference code="HE0.02" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="16016" year="2020">
+     <location ref="220324"></location>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="4991" year="2020">
+     <location ref="220329"></location>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="3111" year="2020">
+     <location ref="220331"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="16016">
+      <location ref="220324"></location>
+     </actual>
+     <actual value="4991">
+      <location ref="220329"></location>
+     </actual>
+     <actual value="3111">
+      <location ref="220331"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-09"></period-start>
+     <period-end iso-date="2023-03-31"></period-end>
+     <target value="34039"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of health facilities (RBF) - Number of &#xE9;tablissements de sant&#xE9; (FBR)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of health facilities contracted under the PBF or other health programme</narrative>
+    </description>
+    <reference code="HE0.13" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="78" year="2020">
+     <location ref="220324"></location>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="35" year="2020">
+     <location ref="220329"></location>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="33" year="2020">
+     <location ref="220331"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="78">
+      <location ref="220324"></location>
+     </actual>
+     <actual value="35">
+      <location ref="220329"></location>
+     </actual>
+     <actual value="33">
+      <location ref="220331"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-09"></period-start>
+     <period-end iso-date="2023-03-31"></period-end>
+     <target value="146"></target>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>

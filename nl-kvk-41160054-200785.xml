@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-05" dstore:index="24" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-01T08:38:18.3478566Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T08:38:47.0220899Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="247" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:15:22.2977538Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:23:36.5404027Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200785</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -34,7 +34,7 @@ o Elderly</narrative>
   <participating-org ref="NL-KVK-41160054" role="1" type="21">
    <narrative xml:lang="EN">Cordaid Mensen in Nood</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-02-01" type="1"></activity-date>
   <activity-date iso-date="2020-12-31" type="3"></activity-date>
   <contact-info>
@@ -81,16 +81,117 @@ o Elderly</narrative>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(C) Life-saving basic services</narrative>
+    <narrative xml:lang="EN">Saving Lives Project Specific Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(C) Number of people provided with restricted cash transfers and/or vouchers</narrative>
+     <narrative xml:lang="EN">Number of individuals trained on health issues</narrative>
+    </title>
+    <reference code="SL2.09" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="60">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-02-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="760"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of hygiene kits distributed</narrative>
+    </title>
+    <reference code="SL2.36" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="250">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-02-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="250"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of families receiving milk and diapers for new borns</narrative>
+    </title>
+    <reference code="SL2.47" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="229116"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="229116"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="175">
+      <location ref="229116"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-02-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="175"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people provided with restricted cash transfers and/or vouchers</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">No. of people provided with restricted cash transfers</narrative>
     </description>
-    <reference code="HUM1.01" vocabulary="99"></reference>
+    <reference code="SL0.02" vocabulary="99"></reference>
     <baseline iso-date="2020-03-31" value="0" year="2020">
      <location ref="SY"></location>
     </baseline>
@@ -119,13 +220,13 @@ o Elderly</narrative>
   </result>
   <result aggregation-status="1" type="2">
    <title>
-    <narrative xml:lang="EN">Awareness building</narrative>
+    <narrative xml:lang="EN">Peace Thematic Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of people (disaggregated by gender) reached with awareness raising</narrative>
     </title>
-    <reference code="SJ2.2.1.1" vocabulary="99"></reference>
+    <reference code="PE1.14" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -165,107 +266,6 @@ o Elderly</narrative>
       <location ref="SY"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">(S) Project Specific Indicators</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of individuals trained on health issues</narrative>
-    </title>
-    <reference code="HUM4.09" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="60">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-02-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="760"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of hygiene kits distributed</narrative>
-    </title>
-    <reference code="HUM4.37" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="250">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-02-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="250"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of families receiving milk and diapers for new borns</narrative>
-    </title>
-    <reference code="HUM4.50" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="229116"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="229116"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="175">
-      <location ref="229116"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-02-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="175"></target>
     </period>
    </indicator>
   </result>

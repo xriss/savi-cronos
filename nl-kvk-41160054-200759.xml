@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-04" dstore:index="21" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-01T08:25:53.6517423Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T08:26:40.5181921Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="218" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:15:22.2977538Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:21:58.9137729Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200759</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -34,7 +34,7 @@ Assisting most vulnerable people with cash for food</narrative>
   <participating-org ref="NL-KVK-41160054" role="1" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-03-23" type="1"></activity-date>
   <activity-date iso-date="2020-12-31" type="3"></activity-date>
   <contact-info>
@@ -114,51 +114,111 @@ Assisting most vulnerable people with cash for food</narrative>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="EUR" value-date="2020-03-23">356985</value>
   </budget>
-  <planned-disbursement type="1">
-   <period-start iso-date="2020-04-26"></period-start>
-   <period-end iso-date="2020-05-10"></period-end>
-   <value currency="EUR" value-date="2020-04-26">29242</value>
-  </planned-disbursement>
-  <planned-disbursement type="1">
-   <period-start iso-date="2020-04-26"></period-start>
-   <period-end iso-date="2020-05-10"></period-end>
-   <value currency="EUR" value-date="2020-04-26">40000</value>
-  </planned-disbursement>
-  <planned-disbursement type="1">
-   <period-start iso-date="2020-12-01"></period-start>
-   <period-end iso-date="2020-12-31"></period-end>
-   <value currency="EUR" value-date="2020-12-01">19837</value>
-  </planned-disbursement>
-  <transaction humanitarian="1">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-05"></transaction-date>
-   <value currency="EUR" value-date="2020-05-05">40000</value>
-   <description>
-    <narrative xml:lang="EN">First Payment to IP</narrative>
-   </description>
-   <provider-org provider-activity-id="NL-KVK-41160054-200759" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </provider-org>
-   <receiver-org type="21">
-    <narrative xml:lang="EN">Organization of Human Welfare - OHW</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-03"></transaction-date>
-   <value currency="EUR" value-date="2020-05-03">29242</value>
-   <description>
-    <narrative xml:lang="EN">Payment to IP</narrative>
-   </description>
-   <provider-org provider-activity-id="NL-KVK-41160054-200759" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </provider-org>
-   <receiver-org type="22">
-    <narrative xml:lang="EN">Rural Rehabilitation Association for Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
   <related-activity ref="NL-KVK-41160054-200832" type="4"></related-activity>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+    </description>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="61266" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="118285" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="183941" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="179551" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="183941" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="100319" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="79232" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="118285">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="61266">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="183941">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="100319">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="79232">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+     </actual>
+     <actual value="179551">
+      <location ref="AF"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="183941">
+      <location ref="AF"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-03-23"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="60000"></target>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
@@ -184,6 +244,22 @@ Assisting most vulnerable people with cash for food</narrative>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="3336">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -197,6 +273,13 @@ Assisting most vulnerable people with cash for food</narrative>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="1">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
       <location ref="AF"></location>
      </actual>
     </period>
@@ -261,6 +344,55 @@ Assisting most vulnerable people with cash for food</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4393">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="5765">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="67065">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-03-23"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="60000"></target>
@@ -280,6 +412,22 @@ Assisting most vulnerable people with cash for food</narrative>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="22216">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="3336">
       <location ref="AF"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
      </actual>
@@ -319,15 +467,65 @@ Assisting most vulnerable people with cash for food</narrative>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="3336">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of people provided with water in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.01.a" vocabulary="99"></reference>
+    <reference code="COV.SL.01.a" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="AF"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
@@ -369,7 +567,7 @@ Assisting most vulnerable people with cash for food</narrative>
     <title>
      <narrative xml:lang="EN">Number of people provided with sanitation services in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.01.b" vocabulary="99"></reference>
+    <reference code="COV.SL.01.b" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -405,6 +603,35 @@ Assisting most vulnerable people with cash for food</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4246">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="3636">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="4065">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="3200">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="35227">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-03-23"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="60000"></target>
@@ -414,7 +641,7 @@ Assisting most vulnerable people with cash for food</narrative>
     <title>
      <narrative xml:lang="EN">Number of people enabled to meet their basic food needs in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.02" vocabulary="99"></reference>
+    <reference code="COV.SL.02" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -447,6 +674,40 @@ Assisting most vulnerable people with cash for food</narrative>
       <location ref="AF"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="331">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="37">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="368">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="215">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
      </actual>
     </period>
     <period>
@@ -510,6 +771,55 @@ Assisting most vulnerable people with cash for food</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4393">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="5765">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="67065">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-03-23"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="60000"></target>
@@ -529,6 +839,22 @@ Assisting most vulnerable people with cash for food</narrative>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="22216">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="3336">
       <location ref="AF"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
      </actual>
@@ -581,6 +907,55 @@ Assisting most vulnerable people with cash for food</narrative>
       <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
      </actual>
      <actual value="45000">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4393">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="5765">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="67065">
       <location ref="AF"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
@@ -628,6 +1003,22 @@ Assisting most vulnerable people with cash for food</narrative>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="3336">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -684,6 +1075,55 @@ Assisting most vulnerable people with cash for food</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4393">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="5765">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="67065">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-03-23"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="60000"></target>
@@ -708,8 +1148,27 @@ Assisting most vulnerable people with cash for food</narrative>
      <actual value="0">
       <location ref="431591"></location>
      </actual>
-     <actual value="0">
+     <actual value="1">
       <location ref="431372"></location>
+     </actual>
+     <actual value="0">
+      <location ref="431373"></location>
+     </actual>
+     <actual value="0">
+      <location ref="431536"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
+      <location ref="431372"></location>
+     </actual>
+     <actual value="0">
+      <location ref="443847"></location>
+     </actual>
+     <actual value="0">
+      <location ref="431591"></location>
      </actual>
      <actual value="0">
       <location ref="431373"></location>
@@ -732,6 +1191,25 @@ Assisting most vulnerable people with cash for food</narrative>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
+     <actual value="1">
+      <location ref="443847"></location>
+     </actual>
+     <actual value="1">
+      <location ref="431591"></location>
+     </actual>
+     <actual value="1">
+      <location ref="431372"></location>
+     </actual>
+     <actual value="1">
+      <location ref="431373"></location>
+     </actual>
+     <actual value="1">
+      <location ref="431536"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="1">
       <location ref="443847"></location>
      </actual>

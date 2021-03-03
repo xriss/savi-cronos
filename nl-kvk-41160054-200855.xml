@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-3" dstore:index="28" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-29T10:31:10.6041722Z" iati-activities:version="2.03" last-updated-datetime="2021-01-29T10:32:50.4992166Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054" dstore:index="83" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:32:20.2455398Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:40:30.7661575Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200855</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -184,48 +184,13 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(C) Life-saving basic services</narrative>
+    <narrative xml:lang="EN">Saving Lives Thematic Indicators</narrative>
    </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">(C) Number of people provided with water and sanitation services</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">No. of people who have received (access to) water and sanitation services</narrative>
-    </description>
-    <reference code="HUM1.02" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="SS"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
-      <location ref="SS"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="0">
-      <location ref="SS"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-09-05"></period-start>
-     <period-end iso-date="2021-08-05"></period-end>
-     <target value="4700"></target>
-    </period>
-   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of people provided with food items</narrative>
     </title>
-    <reference code="HUM1.03" vocabulary="99"></reference>
+    <reference code="SL1.05" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -254,18 +219,18 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     </period>
    </indicator>
   </result>
-  <result aggregation-status="1" type="2">
+  <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">OPD</narrative>
+    <narrative xml:lang="EN">Health Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(C) Number of outpatient consultations - Number of consultations curatives externes</narrative>
+     <narrative xml:lang="EN">Number of outpatient consultations - Number of consultations curatives externes</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">No. of outpatient consultations conducted by a healthcare practioner at a health facility supported by a Cordaid Health Programme</narrative>
     </description>
-    <reference code="HE1.3.01" vocabulary="99"></reference>
+    <reference code="HE0.04" vocabulary="99"></reference>
     <baseline iso-date="2020-06-30" value="0" year="2020">
      <location ref="220554"></location>
      <dimension name="Age_OPD" value="&lt;5 yrs"></dimension>
@@ -565,6 +530,219 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     </period>
    </indicator>
   </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+    </description>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="27" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="59" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="110" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="100" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="210" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="420" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="61" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="63" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="100">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="110">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="61">
+      <location ref="SS"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="63">
+      <location ref="SS"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="27">
+      <location ref="SS"></location>
+      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+     </actual>
+     <actual value="59">
+      <location ref="SS"></location>
+      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+     </actual>
+     <actual value="210">
+      <location ref="SS"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="420">
+      <location ref="SS"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-05"></period-start>
+     <period-end iso-date="2021-08-05"></period-end>
+     <target value="66000"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people provided with water and sanitation services</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people who have received (access to) water and sanitation services</narrative>
+    </description>
+    <reference code="SL0.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-05"></period-start>
+     <period-end iso-date="2021-08-05"></period-end>
+     <target value="4700"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">FSC-I1:  Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Resources that enable people to protect and rebuild their livelihood assets include seeds, livestock, tools, business grant, etc. 
+Any kind of transfer modality (in-kind, voucher, restricted cash) and combination thereof to support, protect and enable the restoration/protection/access of/to livelihood assets.</narrative>
+    </description>
+    <reference code="FSC-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-06-30" value="0" year="2020">
+     <location ref="SS"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-05"></period-start>
+     <period-end iso-date="2021-08-05"></period-end>
+     <target value="450"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">FSC-I2:  Number of people enabled to meet their basic food needs (non-cash)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Basic food needs: assistance, combined with beneficiaries&apos; own resources, to international standard of 2100 kcal per person per day for the period of the action. 
+Any kind of transfer modality (in-kind, voucher, cash) and combination thereof with objective to ensure immediate access to the necessary food commodities. This may include supplementary foods provided alongside general distribution for vulnerable people.</narrative>
+    </description>
+    <reference code="FSC-I2" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="35">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-05"></period-start>
+     <period-end iso-date="2021-08-05"></period-end>
+     <target value="2208"></target>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
@@ -794,7 +972,7 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     <title>
      <narrative xml:lang="EN">Number of people provided with water in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.01.a" vocabulary="99"></reference>
+    <reference code="COV.SL.01.a" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -897,7 +1075,7 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     <title>
      <narrative xml:lang="EN">Number of people provided with sanitation services in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.01.b" vocabulary="99"></reference>
+    <reference code="COV.SL.01.b" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -1000,7 +1178,7 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
     <title>
      <narrative xml:lang="EN">Number of people enabled to meet their basic food needs in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.02" vocabulary="99"></reference>
+    <reference code="COV.SL.02" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -1332,7 +1510,7 @@ FSL: To meet immediate food needs of 2,208 most vulnerable, already identified w
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">FSC-I1: (C) Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
+     <narrative xml:lang="EN">FSC-I1:  Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Resources that enable people to protect and rebuild their livelihood assets include seeds, livestock, tools, business grant, etc. 
@@ -1376,7 +1554,7 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">FSC-I2: (C) Number of people enabled to meet their basic food needs (non-cash)</narrative>
+     <narrative xml:lang="EN">FSC-I2:  Number of people enabled to meet their basic food needs (non-cash)</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Basic food needs: assistance, combined with beneficiaries&apos; own resources, to international standard of 2100 kcal per person per day for the period of the action. 

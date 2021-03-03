@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054" dstore:index="24" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-29T09:55:54.2100775Z" iati-activities:version="2.03" last-updated-datetime="2021-01-29T09:56:53.0153964Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054" dstore:index="74" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:32:20.2455398Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:39:57.5006175Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200676</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -81,7 +81,7 @@ The beneficiaries of this project are represented from :
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="EUR" value-date="2020-01-01">905642</value>
+   <value currency="EUR" value-date="2020-01-01">948515.89</value>
   </budget>
   <planned-disbursement type="1">
    <period-start iso-date="2020-01-01"></period-start>
@@ -96,7 +96,12 @@ The beneficiaries of this project are represented from :
   <planned-disbursement type="1">
    <period-start iso-date="2020-07-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
-   <value currency="EUR" value-date="2020-07-01">2043294</value>
+   <value currency="EUR" value-date="2020-07-01">208499.82</value>
+  </planned-disbursement>
+  <planned-disbursement type="1">
+   <period-start iso-date="2020-10-31"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="EUR" value-date="2020-10-31">74888.58</value>
   </planned-disbursement>
   <transaction humanitarian="1">
    <transaction-type code="1"></transaction-type>
@@ -200,13 +205,13 @@ The beneficiaries of this project are represented from :
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(S) Project Specific Indicators</narrative>
+    <narrative xml:lang="EN">Saving Lives Project Specific Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of crisis-affected people who are also involved in the design, implementation, monitoring and/or evaluation of the programme</narrative>
     </title>
-    <reference code="HUM4.49" vocabulary="99"></reference>
+    <reference code="SL2.46" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -222,6 +227,23 @@ The beneficiaries of this project are represented from :
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="96"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="96"></target>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="96"></target>
@@ -231,7 +253,7 @@ The beneficiaries of this project are represented from :
     <title>
      <narrative xml:lang="EN">% of budget spent on capacity building of national an local actors</narrative>
     </title>
-    <reference code="HUM4.47" vocabulary="99"></reference>
+    <reference code="SL2.45" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -240,19 +262,81 @@ The beneficiaries of this project are represented from :
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="2"></target>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="1"></target>
+     <target value="2"></target>
     </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Short-term livelihood support</narrative>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">FSC-I1: (C) Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+    </description>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="80664" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="65735" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="85882" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="60517" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="65735">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="80664">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="85882">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="60517">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="97082"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">FSC-I1:  Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Resources that enable people to protect and rebuild their livelihood assets include seeds, livestock, tools, business grant, etc. 
@@ -284,7 +368,95 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="525">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <target value="8586"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-03-31"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="8586"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-06-30"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="8586"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-30"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="8586"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Short-term livelihood support</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">FSC-I1:  Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Resources that enable people to protect and rebuild their livelihood assets include seeds, livestock, tools, business grant, etc. 
+Any kind of transfer modality (in-kind, voucher, restricted cash) and combination thereof to support, protect and enable the restoration/protection/access of/to livelihood assets.</narrative>
+    </description>
+    <reference code="FSC-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-03-31" value="2437" year="2020">
+     <location ref="CF"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="2437">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="4380">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="825">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="525">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <target value="8586"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-03-31"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="8586"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-06-30"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="8586"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-30"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="8586"></target>
     </period>
@@ -328,7 +500,24 @@ Distributed items need to be culturally acceptable i.e. take into account local 
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1821">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="3600"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-06-30"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="3600"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-30"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="3600"></target>
     </period>
@@ -374,7 +563,24 @@ Functional facility: fully constructed, in working order and properly maintained
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1985">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="2800"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-06-30"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="2800"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-30"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2800"></target>
     </period>
@@ -421,7 +627,24 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2500">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="10500"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-06-30"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="10500"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-30"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="10500"></target>
     </period>
@@ -464,6 +687,23 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4561">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="6400"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="6400"></target>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="6400"></target>
@@ -485,6 +725,18 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      <actual value="3">
       <location ref="CF"></location>
      </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <target value="5"></target>
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
@@ -518,6 +770,23 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      <actual value="58">
       <location ref="CF"></location>
      </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4">
+      <location ref="CF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="82"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="82"></target>
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
@@ -592,6 +861,35 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="6727">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="30419">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="6994">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="34260">
+      <location ref="CF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="136589"></target>
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>

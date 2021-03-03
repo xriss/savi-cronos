@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-09" dstore:index="25" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-01T10:47:15.0336423Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T10:47:55.2561176Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="200" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:15:22.2977538Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:21:15.1099586Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200718</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -35,7 +35,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-01-01" type="1"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-03-31" type="3"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">Cordaid Global Office</narrative>
@@ -48,8 +48,29 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
    </mailing-address>
   </contact-info>
   <activity-scope code="1"></activity-scope>
-  <recipient-country code="NL" percentage="100"></recipient-country>
-  <recipient-region code="89" percentage="0" vocabulary="1"></recipient-region>
+  <recipient-country code="AM" percentage="10"></recipient-country>
+  <recipient-country code="GR" percentage="10"></recipient-country>
+  <recipient-country code="NL" percentage="20"></recipient-country>
+  <recipient-country code="HN" percentage="10"></recipient-country>
+  <recipient-country code="NI" percentage="10"></recipient-country>
+  <recipient-country code="PH" percentage="10"></recipient-country>
+  <recipient-country code="SO" percentage="10"></recipient-country>
+  <recipient-country code="SS" percentage="10"></recipient-country>
+  <recipient-country code="YE" percentage="10"></recipient-country>
+  <location ref="330822">
+   <name>
+    <narrative xml:lang="EN">Greece</narrative>
+   </name>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+  </location>
+  <location ref="234663">
+   <name>
+    <narrative xml:lang="EN">Yemen</narrative>
+   </name>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+  </location>
   <location ref="NL">
    <name>
     <narrative xml:lang="EN">Netherlands</narrative>
@@ -92,20 +113,6 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <location ref="234663">
-   <name>
-    <narrative xml:lang="EN">Yemen</narrative>
-   </name>
-   <exactness code="1"></exactness>
-   <location-class code="1"></location-class>
-  </location>
-  <location ref="330822">
-   <name>
-    <narrative xml:lang="EN">Greece</narrative>
-   </name>
-   <exactness code="1"></exactness>
-   <location-class code="1"></location-class>
-  </location>
   <sector code="43010" percentage="100" vocabulary="1"></sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -120,6 +127,45 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
    <value currency="EUR" value-date="2020-01-01">344960</value>
   </budget>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">SHL-I4:  Number of people provided with non-food items (other than hygiene/dignity kits)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Distribution of Non-Food Items. All household materials excluding those that fall under hygiene/dignity kits or direct shelter items. Also excludes unrestricted cash, which is to be put under indicator CSH-I1 or CSH-I2. However, if cash is provided for the purpose of buying household items, it should be put under this indicator (i.e. restricted cash).</narrative>
+    </description>
+    <reference code="SHL-I4" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="330822"></location>
+     </actual>
+     <actual value="0">
+      <location ref="234663"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="330822"></location>
+     </actual>
+     <actual value="0">
+      <location ref="234663"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <target value="7524"></target>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
@@ -279,7 +325,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="53"></target>
     </period>
    </indicator>
@@ -368,7 +414,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="69423"></target>
     </period>
    </indicator>
@@ -397,7 +443,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="1"></target>
     </period>
    </indicator>
@@ -428,7 +474,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="18"></target>
     </period>
    </indicator>
@@ -457,7 +503,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="1"></target>
     </period>
    </indicator>
@@ -621,7 +667,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="53"></target>
     </period>
    </indicator>
@@ -710,7 +756,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="69423"></target>
     </period>
    </indicator>
@@ -718,7 +764,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     <title>
      <narrative xml:lang="EN">Number of people provided with water in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.01.a" vocabulary="99"></reference>
+    <reference code="COV.SL.01.a" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -864,7 +910,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="36975"></target>
     </period>
    </indicator>
@@ -872,7 +918,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     <title>
      <narrative xml:lang="EN">Number of people enabled to meet their basic food needs in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.02" vocabulary="99"></reference>
+    <reference code="COV.SL.02" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -1020,18 +1066,13 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="0"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of people provided with PPE in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.03" vocabulary="99"></reference>
+    <reference code="COV.SL.03" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -1182,7 +1223,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="6097"></target>
     </period>
    </indicator>
@@ -1346,7 +1387,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="53"></target>
     </period>
    </indicator>
@@ -1435,7 +1476,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="69423"></target>
     </period>
    </indicator>
@@ -1599,7 +1640,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="53"></target>
     </period>
    </indicator>
@@ -1688,20 +1729,20 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="69423"></target>
     </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Humanitarian Aid - Project Specific</narrative>
+    <narrative xml:lang="EN">Saving Lives - Project Specific</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of Handwashing stations installed in key risk areas</narrative>
     </title>
-    <reference code="COV.HUM.10" vocabulary="99"></reference>
+    <reference code="COV.SL.09" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -1754,7 +1795,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="180"></target>
     </period>
    </indicator>
@@ -1762,7 +1803,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     <title>
      <narrative xml:lang="EN">Number of Radio live talkshows, Roadside drives conducted on COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.12" vocabulary="99"></reference>
+    <reference code="COV.SL.11" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -1779,7 +1820,7 @@ Build stronger relationships in the Caritas Internationalis Network for enhance 
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="30"></target>
     </period>
    </indicator>
@@ -1813,7 +1854,7 @@ Skilled provider: medical or paramedical degree with supplementary training on m
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="644"></target>
     </period>
    </indicator>
@@ -1824,7 +1865,7 @@ Skilled provider: medical or paramedical degree with supplementary training on m
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">SHL-I4: (C) Number of people provided with non-food items (other than hygiene/dignity kits)</narrative>
+     <narrative xml:lang="EN">SHL-I4:  Number of people provided with non-food items (other than hygiene/dignity kits)</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Distribution of Non-Food Items. All household materials excluding those that fall under hygiene/dignity kits or direct shelter items. Also excludes unrestricted cash, which is to be put under indicator CSH-I1 or CSH-I2. However, if cash is provided for the purpose of buying household items, it should be put under this indicator (i.e. restricted cash).</narrative>
@@ -1852,7 +1893,7 @@ Skilled provider: medical or paramedical degree with supplementary training on m
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-03-31"></period-end>
      <target value="7524"></target>
     </period>
    </indicator>

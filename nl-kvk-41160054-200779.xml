@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-06" dstore:index="24" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-01T08:50:48.1756494Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T08:51:39.1540228Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="232" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:15:22.2977538Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:22:45.9602549Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200779</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -60,7 +60,7 @@ Short Term Objectives:
   <participating-org ref="NL-KVK-41160054" role="1" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-04-21" type="1"></activity-date>
   <activity-date iso-date="2020-12-31" type="3"></activity-date>
   <contact-info>
@@ -98,6 +98,93 @@ Short Term Objectives:
    <value currency="EUR" value-date="2020-04-21">175600</value>
   </budget>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+    </description>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="414315" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="118376" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="627391" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="556366" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="1183757" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="2367514" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="177563" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="473503" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1183757">
+      <location ref="ET"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="2367514">
+      <location ref="ET"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="556366">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="627391">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="177563">
+      <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="473503">
+      <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="414315">
+      <location ref="ET"></location>
+      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+     </actual>
+     <actual value="118376">
+      <location ref="ET"></location>
+      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-21"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2000000"></target>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
@@ -157,9 +244,18 @@ Short Term Objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="110678">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2000000"></target>
+     <target value="1000000"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -171,6 +267,14 @@ Short Term Objectives:
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
+      <location ref="ET"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20000">
       <location ref="ET"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
@@ -227,6 +331,16 @@ Short Term Objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20000">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="0"></target>
@@ -249,6 +363,13 @@ Short Term Objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="12"></target>
@@ -256,17 +377,23 @@ Short Term Objectives:
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of health facilities with improved infection prevention and waste management in response to COVID-19</narrative>
+     <narrative xml:lang="EN">Number of health facilities supported with PPE in response to COVID-19</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Facilities with functional Waste Management System which include Waste segregation handle transportation disposal           
-(KRI Definition: Number of health facilities rehabilitated)</narrative>
+     <narrative xml:lang="EN">no. of health Facilities equipped with Person Protective Equipment for Health Staff</narrative>
     </description>
-    <reference code="COV.HE.03" vocabulary="99"></reference>
+    <reference code="COV.HE.02" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="204">
       <location ref="ET"></location>
      </actual>
     </period>
@@ -290,6 +417,14 @@ Short Term Objectives:
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
+      <location ref="ET"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20000">
       <location ref="ET"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
@@ -360,9 +495,18 @@ Short Term Objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="110678">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2000000"></target>
+     <target value="1000000"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -374,6 +518,14 @@ Short Term Objectives:
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
+      <location ref="ET"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20000">
       <location ref="ET"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
@@ -430,6 +582,16 @@ Short Term Objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20000">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="0"></target>
@@ -439,7 +601,7 @@ Short Term Objectives:
     <title>
      <narrative xml:lang="EN">Number of people provided with water in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.01.a" vocabulary="99"></reference>
+    <reference code="COV.SL.01.a" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -455,6 +617,15 @@ Short Term Objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="58000">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="150000"></target>
@@ -464,7 +635,7 @@ Short Term Objectives:
     <title>
      <narrative xml:lang="EN">Number of people provided with sanitation services in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.01.b" vocabulary="99"></reference>
+    <reference code="COV.SL.01.b" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -476,6 +647,40 @@ Short Term Objectives:
      <actual value="0">
       <location ref="ET"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="714637">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="279000">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="2760">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="16641">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="2240">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="15038">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
@@ -540,9 +745,18 @@ Short Term Objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="110678">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2000000"></target>
+     <target value="1000000"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -554,6 +768,14 @@ Short Term Objectives:
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
+      <location ref="ET"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20000">
       <location ref="ET"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
@@ -610,6 +832,16 @@ Short Term Objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20000">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="0"></target>
@@ -625,7 +857,7 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
 
 (KRI Definition: Number of people provided with resources to protect and start rebuilding livelihood assets)</narrative>
     </description>
-    <reference code="COV.RES.01" vocabulary="99"></reference>
+    <reference code="COV.SU.01" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -635,6 +867,15 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
      </actual>
      <actual value="0">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="191">
       <location ref="ET"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
@@ -706,9 +947,18 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="110678">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2000000"></target>
+     <target value="1000000"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -720,6 +970,14 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
+      <location ref="ET"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20000">
       <location ref="ET"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
@@ -776,6 +1034,16 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20000">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="0"></target>
@@ -799,39 +1067,21 @@ Any kind of transfer modality (in-kind, voucher, restricted cash) and combinatio
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
-     <actual value="0">
-      <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="5887763">
       <location ref="ET"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-04-21"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2150000"></target>
+     <target value="1000000"></target>
     </period>
    </indicator>
   </result>

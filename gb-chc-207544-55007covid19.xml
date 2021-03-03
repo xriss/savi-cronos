@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="GBP" dstore:dataset="ss-org-activities-3" dstore:index="775" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-02-19T09:55:02.300000+00:00" iati-activities:version="2.03" last-updated-datetime="2020-12-31T11:00:00+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="GBP" dstore:dataset="ss-org-activities-3" dstore:index="357" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T04:15:50.650000+00:00" iati-activities:version="2.03" last-updated-datetime="2020-12-31T11:00:00+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-207544-55007COVID19</iati-identifier>
   <reporting-org ref="GB-CHC-207544" type="21">
    <narrative xml:lang="EN">Sightsavers</narrative>
@@ -47,6 +47,7 @@
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>12.65 -8</pos>
    </point>
+   <exactness code="2"></exactness>
    <feature-designation code="ADM1"></feature-designation>
   </location>
   <sector code="12250" percentage="50" vocabulary="1">
@@ -67,17 +68,6 @@
    <period-end iso-date="2020-09-30"></period-end>
    <value currency="GBP" value-date="2020-07-01">26415</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-07-01"></transaction-date>
-   <value currency="GBP" value-date="2020-07-01">26415</value>
-   <description>
-    <narrative xml:lang="EN">Incoming funds for Covid-19 response activity</narrative>
-   </description>
-   <provider-org ref="US-GOV-1" type="10">
-    <narrative xml:lang="EN">USAID</narrative>
-   </provider-org>
-  </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-07-01"></transaction-date>
@@ -461,6 +451,17 @@
    <description>
     <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
    </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-07-01"></transaction-date>
+   <value currency="GBP" value-date="2020-07-01">26415</value>
+   <description>
+    <narrative xml:lang="EN">Incoming funds for Covid-19 response activity</narrative>
+   </description>
+   <provider-org ref="US-GOV-1" type="10">
+    <narrative xml:lang="EN">USAID</narrative>
+   </provider-org>
   </transaction>
  </iati-activity>
 </iati-activities>

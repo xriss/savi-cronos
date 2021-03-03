@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-07" dstore:index="10" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-11-01T09:29:45.5899751Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T09:29:58.0774502Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="209" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-03-02T06:15:22.2977538Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:21:40.1420811Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200703</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -75,6 +75,13 @@ for minorities;
   <recipient-country code="IQ" percentage="75"></recipient-country>
   <recipient-country code="SY" percentage="25"></recipient-country>
   <recipient-region code="589" percentage="0" vocabulary="1"></recipient-region>
+  <location ref="220426">
+   <name>
+    <narrative xml:lang="EN">Nineveh</narrative>
+   </name>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+  </location>
   <location ref="220411">
    <name>
     <narrative xml:lang="EN">Al-Anbar</narrative>
@@ -82,9 +89,9 @@ for minorities;
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <location ref="220426">
+  <location ref="229113">
    <name>
-    <narrative xml:lang="EN">Nineveh</narrative>
+    <narrative xml:lang="EN">Aleppo</narrative>
    </name>
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
@@ -137,16 +144,16 @@ for minorities;
     <pos>33.436623 43.268280</pos>
    </point>
   </location>
-  <location ref="229113">
+  <location ref="IQ">
    <name>
-    <narrative xml:lang="EN">Aleppo</narrative>
+    <narrative xml:lang="EN">Iraq</narrative>
    </name>
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <location ref="IQ">
+  <location ref="SY">
    <name>
-    <narrative xml:lang="EN">Iraq</narrative>
+    <narrative xml:lang="EN">Syria</narrative>
    </name>
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
@@ -167,10 +174,29 @@ for minorities;
    <value currency="EUR" value-date="2020-01-01">1049776</value>
   </budget>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="1">
+  <result aggregation-status="1" type="2">
    <title>
-    <narrative xml:lang="EN">Training of health or education staff</narrative>
+    <narrative xml:lang="EN">Health Thematic Indicators</narrative>
    </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of health centres in project/programme (not RBF) - Number of centres de sant&#xE9; (pas FBR)</narrative>
+    </title>
+    <reference code="HE1.04" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2">
+      <location ref="220426"></location>
+     </actual>
+     <actual value="1">
+      <location ref="220411"></location>
+     </actual>
+     <actual value="1">
+      <location ref="229113"></location>
+     </actual>
+    </period>
+   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of health workers trained &gt;6 months - Number of agents de sant&#xE9; form&#xE9;s (formation formelle&gt; 6 mois)</narrative>
@@ -178,7 +204,7 @@ for minorities;
     <description>
      <narrative xml:lang="EN">(formal training &gt; 6 months)</narrative>
     </description>
-    <reference code="HE4.1.03" vocabulary="99"></reference>
+    <reference code="HE1.59" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -203,16 +229,16 @@ for minorities;
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(S) Project Specific Indicators</narrative>
+    <narrative xml:lang="EN">Health Project Specific Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(S) Number of individuals that have been reached through the mobile teams of CHWs.</narrative>
+     <narrative xml:lang="EN">Number of individuals that have been reached through the mobile teams of CHWs.</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Number of individuals (IDPs, returnees, host community) that have been reached through the mobile teams of CHWs through home or community visits to inform them about Cordaid&apos;s emergency referral services including psychiatric treatment, psychotherapy and physical rehabilitation services.</narrative>
     </description>
-    <reference code="HE5.1.73" vocabulary="99"></reference>
+    <reference code="HE2.69" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -279,12 +305,28 @@ for minorities;
       <location ref="524240"></location>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="6006">
+      <location ref="490796"></location>
+     </actual>
+     <actual value="1225">
+      <location ref="524242"></location>
+     </actual>
+     <actual value="1327">
+      <location ref="460891"></location>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(S) Number of people reached through awareness raising and outreach activities on PSS and MHPSS</narrative>
+     <narrative xml:lang="EN">Number of people reached through awareness raising and outreach activities on PSS and MHPSS</narrative>
     </title>
-    <reference code="HE5.1.82" vocabulary="99"></reference>
+    <reference code="HE2.78" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -456,13 +498,87 @@ for minorities;
       <dimension name="Age" value="15-24 yrs"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
+     <actual value="0">
+      <location ref="490796"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="48">
+      <location ref="490796"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="490796"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="6">
+      <location ref="490796"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="237">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="164">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="187">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="171">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="194">
+      <location ref="524240"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="115">
+      <location ref="524240"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(S) Number of patients visiting primary health care centers (PHCC) in 4 centers in Iraq and 1 in Syria</narrative>
+     <narrative xml:lang="EN">Number of patients visiting primary health care centers (PHCC) in 4 centers in Iraq and 1 in Syria</narrative>
     </title>
-    <reference code="HE5.1.80" vocabulary="99"></reference>
+    <reference code="HE2.76" vocabulary="99"></reference>
     <baseline iso-date="2020-06-30" value="0" year="2020">
      <location ref="431525"></location>
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
@@ -618,14 +734,6 @@ for minorities;
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="1480">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="796">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
      <actual value="2653">
       <location ref="524238"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
@@ -655,12 +763,109 @@ for minorities;
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1256">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="2493">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="6417">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="5284">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="2821">
+      <location ref="524238"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="2352">
+      <location ref="524238"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="604">
+      <location ref="524240"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(S) Number of psychiatrists, social workers and psychologists hired</narrative>
+     <narrative xml:lang="EN">Number of people who received physiotherapy session services</narrative>
     </title>
-    <reference code="HE5.1.81" vocabulary="99"></reference>
+    <description>
+     <narrative xml:lang="EN">Beneficiaries who received Physiotherapy session services. Services related to muscle weakness, joint limitation/pain, disc prolapse, muscle spam etc.</narrative>
+    </description>
+    <reference code="HE2.68" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of psychiatrists, social workers and psychologists hired</narrative>
+    </title>
+    <reference code="HE2.77" vocabulary="99"></reference>
     <baseline iso-date="2020-06-30" value="2" year="2020">
      <location ref="460891"></location>
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
@@ -724,9 +929,9 @@ for minorities;
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(S) Number of trainings/sessions given on MHPSS &amp; GBV</narrative>
+     <narrative xml:lang="EN">Number of trainings/sessions given on MHPSS &amp; GBV</narrative>
     </title>
-    <reference code="HE5.1.83" vocabulary="99"></reference>
+    <reference code="HE2.79" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -746,9 +951,9 @@ for minorities;
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(S) Number of mental health centers and psycho-social support centers, skilled up, equipped and supplied with medication and assets in the targeted hospitals or PHCCs.</narrative>
+     <narrative xml:lang="EN">Number of mental health centers and psycho-social support centers, skilled up, equipped and supplied with medication and assets in the targeted hospitals or PHCCs.</narrative>
     </title>
-    <reference code="HE5.1.84" vocabulary="99"></reference>
+    <reference code="HE2.80" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -766,16 +971,54 @@ for minorities;
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Psychosocial Support</narrative>
+    <narrative xml:lang="EN">Health Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(C) Number of people receiving psychosocial support</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HE)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through Cordaid&apos;s Health Programme Activities</narrative>
+    </description>
+    <reference code="HE0.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="64114">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="17666">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="954">
+      <location ref="SY"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="81780">
+      <location ref="IQ"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="954">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="136800"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people receiving psychosocial support</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">No. of people participating in psychosocial support sessions (individual, group and community based)</narrative>
     </description>
-    <reference code="HE1.5.01" vocabulary="99"></reference>
+    <reference code="HE0.05" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
@@ -799,13 +1042,23 @@ for minorities;
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="539">
+     <actual value="0">
       <location ref="220411"></location>
      </actual>
      <actual value="1143">
       <location ref="220426"></location>
      </actual>
-     <actual value="0">
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="711">
+      <location ref="220411"></location>
+     </actual>
+     <actual value="1041">
+      <location ref="220426"></location>
+     </actual>
+     <actual value="41">
       <location ref="229113"></location>
      </actual>
     </period>
@@ -834,6 +1087,20 @@ for minorities;
       <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="309">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="6275">
+      <location ref="IQ"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="2">
@@ -856,6 +1123,20 @@ for minorities;
      <actual value="1247">
       <location ref="IQ"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="309">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="6275">
+      <location ref="IQ"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
      </actual>
     </period>
@@ -884,6 +1165,20 @@ for minorities;
       <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="309">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="6275">
+      <location ref="IQ"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="2">
@@ -906,6 +1201,20 @@ for minorities;
      <actual value="1247">
       <location ref="IQ"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="309">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="6275">
+      <location ref="IQ"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
      </actual>
     </period>
@@ -981,15 +1290,31 @@ In case it concerns medical care to GBV survivors, please capture this under HEA
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="93">
-      <location ref="490796"></location>
+     <actual value="33">
+      <location ref="524242"></location>
       <dimension name="Age" value="25-34 yrs"></dimension>
      </actual>
-     <actual value="16">
-      <location ref="490796"></location>
+     <actual value="2">
+      <location ref="524242"></location>
       <dimension name="Age" value="15-24 yrs"></dimension>
      </actual>
-     <actual value="100">
+     <actual value="35">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="460891"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="460891"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="78">
       <location ref="490796"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
@@ -997,29 +1322,33 @@ In case it concerns medical care to GBV survivors, please capture this under HEA
       <location ref="490796"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="41">
-      <location ref="524242"></location>
+     <actual value="77">
+      <location ref="490796"></location>
       <dimension name="Age" value="25-34 yrs"></dimension>
      </actual>
-     <actual value="2">
-      <location ref="524242"></location>
+     <actual value="10">
+      <location ref="490796"></location>
       <dimension name="Age" value="15-24 yrs"></dimension>
      </actual>
      <actual value="41">
       <location ref="524242"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
-     <actual value="2">
+     <actual value="29">
       <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="4">
-      <location ref="460891"></location>
       <dimension name="Age" value="25-34 yrs"></dimension>
      </actual>
-     <actual value="4">
+     <actual value="12">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+     </actual>
+     <actual value="1">
       <location ref="460891"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1">
+      <location ref="460891"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
      </actual>
     </period>
    </indicator>

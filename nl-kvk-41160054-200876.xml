@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-2" dstore:index="29" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-29T10:07:56.6584298Z" iati-activities:version="2.03" last-updated-datetime="2021-01-29T10:10:07.0771352Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054" dstore:index="88" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:32:20.2455398Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:40:51.1027781Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200876</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -113,16 +113,16 @@
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(C) Beneficiaries reached (HUM)</narrative>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(C) Number of beneficiaries reached (HUM)</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
     </description>
-    <reference code="HUM0.1" vocabulary="99"></reference>
+    <reference code="SL0.01" vocabulary="99"></reference>
     <baseline iso-date="2020-12-31" value="0" year="2020">
      <location ref="LB"></location>
      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
@@ -139,6 +139,81 @@
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2021-03-31"></period-end>
      <target value="1601"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Sustain School Children&apos;s Access to Quality Education</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of schoolchildren with continued learning with alternative learning methods due to school closures resulting from COVID-19</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">(KRI Definition: Number of boys and girls that access safe, quality learning opportunities (non-formal education)</narrative>
+    </description>
+    <reference code="COV.ED.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="LB"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="LB"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <target value="525"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of teachers reached with alternative learning methods due to school closures resulting from COVID-19</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">(KRI Definition: Number of teachers and other education personnel trained)</narrative>
+    </description>
+    <reference code="COV.ED.02" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="LB"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="LB"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <target value="24"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of home school kits distributed for home learning in response to COVD-19</narrative>
+    </title>
+    <reference code="COV.ED.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <target value="1575"></target>
     </period>
    </indicator>
   </result>

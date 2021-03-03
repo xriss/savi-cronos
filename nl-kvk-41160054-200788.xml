@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-07" dstore:index="12" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-01T09:29:45.5899751Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T09:30:02.4111239Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="244" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:15:22.2977538Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:23:25.2789958Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200788</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -41,7 +41,7 @@ Specific objectives:
   <participating-org ref="NL-KVK-41160054" role="1" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-05-01" type="1"></activity-date>
   <activity-date iso-date="2020-09-30" type="3"></activity-date>
   <contact-info>
@@ -79,6 +79,69 @@ Specific objectives:
    <value currency="EUR" value-date="2020-04-01">339592</value>
   </budget>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+    </description>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="1191" year="2020">
+     <location ref="CD"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="1111" year="2020">
+     <location ref="CD"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="2914213" year="2020">
+     <location ref="CD"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="2302" year="2020">
+     <location ref="CD"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="2914213" year="2020">
+     <location ref="CD"></location>
+     <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2914213">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="1191">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1111">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="2302">
+      <location ref="CD"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="2914213">
+      <location ref="CD"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-05-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="400100"></target>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
@@ -92,6 +155,13 @@ Specific objectives:
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="2">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="87">
       <location ref="CD"></location>
      </actual>
     </period>
@@ -115,6 +185,25 @@ Specific objectives:
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
      <actual value="90">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="526">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="654">
       <location ref="CD"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
@@ -146,6 +235,15 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2914203">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="400000"></target>
@@ -164,6 +262,13 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="17">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="45"></target>
@@ -177,9 +282,17 @@ Specific objectives:
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="45">
+     <actual value="145">
       <location ref="CD"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="480">
+      <location ref="CD"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
     </period>
     <period>
@@ -201,6 +314,13 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="45"></target>
@@ -218,6 +338,34 @@ Specific objectives:
       <location ref="CD"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="305312">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="450000">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="95501">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="152285">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
@@ -244,6 +392,13 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="5">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="45"></target>
@@ -261,6 +416,13 @@ Specific objectives:
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="40">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="5">
       <location ref="CD"></location>
      </actual>
     </period>
@@ -283,9 +445,17 @@ Specific objectives:
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="45">
+     <actual value="145">
       <location ref="CD"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="480">
+      <location ref="CD"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
     </period>
     <period>
@@ -312,6 +482,13 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="87">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="69"></target>
@@ -331,6 +508,25 @@ Specific objectives:
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
      <actual value="90">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="526">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="654">
       <location ref="CD"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
@@ -362,6 +558,15 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2914203">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="400000"></target>
@@ -380,6 +585,13 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="17">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="45"></target>
@@ -393,9 +605,17 @@ Specific objectives:
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="45">
+     <actual value="145">
       <location ref="CD"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="480">
+      <location ref="CD"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
     </period>
     <period>
@@ -413,6 +633,13 @@ Specific objectives:
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="9">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20">
       <location ref="CD"></location>
      </actual>
     </period>
@@ -438,6 +665,34 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="305312">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="450000">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="95501">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="152285">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="100000"></target>
@@ -447,7 +702,7 @@ Specific objectives:
     <title>
      <narrative xml:lang="EN">Number of people provided with PPE in response to COVID-19</narrative>
     </title>
-    <reference code="COV.HUM.03" vocabulary="99"></reference>
+    <reference code="COV.SL.03" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -457,6 +712,30 @@ Specific objectives:
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
      <actual value="27">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="244">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="345">
       <location ref="CD"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
@@ -486,6 +765,13 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="87">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="69"></target>
@@ -505,6 +791,25 @@ Specific objectives:
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
      <actual value="90">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="526">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="654">
       <location ref="CD"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
@@ -536,6 +841,15 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2914203">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="400000"></target>
@@ -554,6 +868,13 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="17">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="45"></target>
@@ -567,9 +888,17 @@ Specific objectives:
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="45">
+     <actual value="145">
       <location ref="CD"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="480">
+      <location ref="CD"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
     </period>
     <period>
@@ -591,6 +920,13 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="45"></target>
@@ -608,6 +944,34 @@ Specific objectives:
       <location ref="CD"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="305312">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="450000">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="95501">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="152285">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
     </period>
@@ -635,6 +999,13 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="87">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="69"></target>
@@ -654,6 +1025,25 @@ Specific objectives:
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
      <actual value="90">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="526">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="654">
       <location ref="CD"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
@@ -685,6 +1075,15 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2914203">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="400000"></target>
@@ -703,6 +1102,13 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="17">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="45"></target>
@@ -716,9 +1122,17 @@ Specific objectives:
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="45">
+     <actual value="145">
       <location ref="CD"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="480">
+      <location ref="CD"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
     </period>
     <period>
@@ -736,6 +1150,13 @@ Specific objectives:
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="9">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20">
       <location ref="CD"></location>
      </actual>
     </period>
@@ -761,6 +1182,34 @@ Specific objectives:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="305312">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="450000">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="95501">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="152285">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-05-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="100000"></target>
@@ -779,9 +1228,17 @@ Specific objectives:
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="40">
+     <actual value="45">
       <location ref="CD"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
     <period>
@@ -793,13 +1250,13 @@ Specific objectives:
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Humanitarian Aid - Project Specific</narrative>
+    <narrative xml:lang="EN">Saving Lives - Project Specific</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of COVID-19 standard kits distributed</narrative>
     </title>
-    <reference code="COV.HUM.11" vocabulary="99"></reference>
+    <reference code="COV.SL.10" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -807,20 +1264,34 @@ Specific objectives:
       <location ref="CD"></location>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="131">
+      <location ref="CD"></location>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Security &amp; Justice - Project Specific</narrative>
+    <narrative xml:lang="EN">Peace - Project Specific</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of  new provinces with toll free services for responding to GBV</narrative>
     </title>
-    <reference code="COV.SJ.04" vocabulary="99"></reference>
+    <reference code="COV.PE.04" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="CD"></location>
      </actual>
@@ -835,10 +1306,17 @@ Specific objectives:
     <title>
      <narrative xml:lang="EN">Number of of months toll free functioning to respond to calls regarding GBV</narrative>
     </title>
-    <reference code="COV.SJ.05" vocabulary="99"></reference>
+    <reference code="COV.PE.05" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="CD"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="0">
       <location ref="CD"></location>
      </actual>
@@ -853,11 +1331,19 @@ Specific objectives:
     <title>
      <narrative xml:lang="EN">Number of persons trained to response to GBV during COVID-19 Crisis</narrative>
     </title>
-    <reference code="COV.SJ.06" vocabulary="99"></reference>
+    <reference code="COV.PE.06" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
+      <location ref="CD"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="10">
       <location ref="CD"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>

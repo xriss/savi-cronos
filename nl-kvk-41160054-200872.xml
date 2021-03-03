@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-02" dstore:index="7" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2020-11-01T07:47:26.7762669Z" iati-activities:version="2.03" last-updated-datetime="2020-11-01T07:47:44.1695448Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054" dstore:index="86" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:32:20.2455398Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:40:47.7553037Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200872</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -33,7 +33,7 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
    <narrative xml:lang="EN">Caritas Switzerland</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-27302841" role="1" type="21">
-   <narrative xml:lang="EN">Stichting Samenwerkende Hulporganisaties - SHO</narrative>
+   <narrative xml:lang="EN">Stichting Samenwerkende Hulporganisaties</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-09-23" type="1"></activity-date>
@@ -72,22 +72,63 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
    <period-end iso-date="2021-04-30"></period-end>
    <value currency="EUR" value-date="2020-09-23">258750</value>
   </budget>
+  <transaction humanitarian="1">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-08-18"></transaction-date>
+   <value currency="EUR" value-date="2020-08-18">258750</value>
+   <provider-org ref="NL-KVK-27302841" type="21">
+    <narrative xml:lang="EN">Stichting Samenwerkende Hulporganisaties</narrative>
+   </provider-org>
+   <receiver-org ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-27"></transaction-date>
+   <value currency="EUR" value-date="2020-10-27">258750</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200872" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Caritas Switzerland</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-04"></transaction-date>
+   <value currency="EUR" value-date="2020-11-04">258750</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200872" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Caritas Switzerland</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">2600</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200872" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </provider-org>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">N/A</narrative>
+   </receiver-org>
+  </transaction>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(C) Life-saving basic services</narrative>
+    <narrative xml:lang="EN">Saving Lives Thematic Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(C) Number of people provided with restricted cash transfers and/or vouchers</narrative>
+     <narrative xml:lang="EN">Number of people whose house has been rebuilt or repaired</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">No. of people provided with restricted cash transfers</narrative>
+     <narrative xml:lang="EN">No. of people whose house has been rebuilt or repaired</narrative>
     </description>
-    <reference code="HUM1.01" vocabulary="99"></reference>
-    <baseline iso-date="2020-09-30" value="0" year="2020">
-     <location ref="LB"></location>
-    </baseline>
+    <reference code="SL1.06" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
@@ -96,23 +137,9 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-09-23"></period-start>
-     <period-end iso-date="2021-01-31"></period-end>
-     <target value="625"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people whose house has been rebuilt or repaired</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">No. of people whose house has been rebuilt or repaired</narrative>
-    </description>
-    <reference code="HUM1.04" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="725">
       <location ref="LB"></location>
      </actual>
     </period>
@@ -125,13 +152,13 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(S) Project Specific Indicators</narrative>
+    <narrative xml:lang="EN">Saving Lives Project Specific Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of children benefit from psychosocial and life skills support</narrative>
     </title>
-    <reference code="HUM4.15" vocabulary="99"></reference>
+    <reference code="SL2.15" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
@@ -140,9 +167,109 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-23"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
      <target value="250"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+    </description>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="970" year="2020">
+     <location ref="LB"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="970">
+      <location ref="LB"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-23"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="8225"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
+    </description>
+    <reference code="CSH-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-09-30" value="0" year="2020">
+     <location ref="LB"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="970">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-23"></period-start>
+     <period-end iso-date="2021-01-31"></period-end>
+     <target value="725"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people provided with restricted cash transfers and/or vouchers</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people provided with restricted cash transfers</narrative>
+    </description>
+    <reference code="SL0.02" vocabulary="99"></reference>
+    <baseline iso-date="2020-09-30" value="0" year="2020">
+     <location ref="LB"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="725">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-23"></period-start>
+     <period-end iso-date="2021-01-31"></period-end>
+     <target value="725"></target>
     </period>
    </indicator>
   </result>
@@ -167,6 +294,13 @@ Skilled provider: medical or paramedical degree with supplementary training on m
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-23"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
      <target value="200"></target>
@@ -179,7 +313,7 @@ Skilled provider: medical or paramedical degree with supplementary training on m
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">CSH-I1: (C) Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
+     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
@@ -196,9 +330,16 @@ Skilled provider: medical or paramedical degree with supplementary training on m
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="970">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-23"></period-start>
      <period-end iso-date="2021-01-31"></period-end>
-     <target value="800"></target>
+     <target value="725"></target>
     </period>
    </indicator>
   </result>

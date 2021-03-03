@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-3" dstore:index="27" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-29T10:31:10.6041722Z" iati-activities:version="2.03" last-updated-datetime="2021-01-29T10:32:42.5993073Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054" dstore:index="80" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T06:32:20.2455398Z" iati-activities:version="2.03" last-updated-datetime="2021-03-02T06:40:19.6776356Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200775</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -255,16 +255,16 @@ The division of targeted, direct beneficiaries per sector is as follows:
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">(C) Beneficiaries reached (HUM)</narrative>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">(C) Number of beneficiaries reached (HUM)</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
     </description>
-    <reference code="HUM0.1" vocabulary="99"></reference>
+    <reference code="SL0.01" vocabulary="99"></reference>
     <baseline iso-date="2020-12-31" value="5868" year="2020">
      <location ref="ET"></location>
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
@@ -318,6 +318,101 @@ The division of targeted, direct beneficiaries per sector is as follows:
      </actual>
     </period>
    </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">FSC-I1:  Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Resources that enable people to protect and rebuild their livelihood assets include seeds, livestock, tools, business grant, etc. 
+Any kind of transfer modality (in-kind, voucher, restricted cash) and combination thereof to support, protect and enable the restoration/protection/access of/to livelihood assets.</narrative>
+    </description>
+    <reference code="FSC-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-06-30" value="0" year="2020">
+     <location ref="ET"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="21600">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-22"></period-start>
+     <period-end iso-date="2020-10-21"></period-end>
+     <target value="18000"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
+    </description>
+    <reference code="CSH-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-06-30" value="0" year="2020">
+     <location ref="ET"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="5700">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-22"></period-start>
+     <period-end iso-date="2020-10-21"></period-end>
+     <target value="3600"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">CSH-I2:  Number of people benefitting from conditional and unrestricted cash transfers</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">A conditional transfer requires beneficiaries to undertake a specific action/activity (e.g. attending school, building a shelter, attending nutrition screenings, undertaking work, trainings, etc.) in order to receive assistance; i.e. a condition must be fulfilled before the
+transfer is received. Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). Conditional cash transfers can include cash for work, cash for assets and cash for training.</narrative>
+    </description>
+    <reference code="CSH-I2" vocabulary="99"></reference>
+    <baseline iso-date="2020-06-30" value="0" year="2020">
+     <location ref="ET"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-22"></period-start>
+     <period-end iso-date="2020-10-21"></period-end>
+     <target value="2400"></target>
+    </period>
+   </indicator>
   </result>
   <result aggregation-status="1" type="1">
    <title>
@@ -325,7 +420,7 @@ The division of targeted, direct beneficiaries per sector is as follows:
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">FSC-I1: (C) Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
+     <narrative xml:lang="EN">FSC-I1:  Number of people provided with resources to protect and start rebuilding livelihoods assets</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Resources that enable people to protect and rebuild their livelihood assets include seeds, livestock, tools, business grant, etc. 
@@ -501,7 +596,7 @@ Please describe in the actvity description what this involvement specifically en
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">CSH-I1: (C) Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
+     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
@@ -537,7 +632,7 @@ Please describe in the actvity description what this involvement specifically en
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">CSH-I2: (C) Number of people benefitting from conditional and unrestricted cash transfers</narrative>
+     <narrative xml:lang="EN">CSH-I2:  Number of people benefitting from conditional and unrestricted cash transfers</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">A conditional transfer requires beneficiaries to undertake a specific action/activity (e.g. attending school, building a shelter, attending nutrition screenings, undertaking work, trainings, etc.) in order to receive assistance; i.e. a condition must be fulfilled before the
