@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="GBP" dstore:dataset="bbcmediaaction-activities" dstore:index="45" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2020-09-23T18:38:46+00:00" iati-activities:version="2.03" last-updated-datetime="2020-09-21T16:34:21+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="GBP" dstore:dataset="bbcmediaaction-activities" dstore:index="45" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-03-11T17:46:51+00:00" iati-activities:version="2.03" last-updated-datetime="2021-03-11T17:46:51+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1076235-GL-1456</iati-identifier>
   <reporting-org ref="GB-CHC-1076235" type="21">
    <narrative xml:lang="EN">BBC Media Action</narrative>
@@ -20,7 +20,7 @@ BBC Media Action&#x2019;s objectives under this activity are to use media and co
   <participating-org activity-id="GB-GOV-1-301150-117" ref="GB-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">UK - Department for International Development (DFID)</narrative>
   </participating-org>
-  <participating-org activity-id="DK-CVR-20699310-DF212197" ref="DK-CVR-20699310" role="2" type="21">
+  <participating-org activity-id="DK-CVR-20699310-DF21849" ref="DK-CVR-20699310" role="2" type="21">
    <narrative xml:lang="EN">Danish Refugee Council</narrative>
   </participating-org>
   <participating-org activity-id="GB-CHC-1076235-GL-1456" ref="GB-CHC-1076235" role="4" type="21">
@@ -28,7 +28,7 @@ BBC Media Action&#x2019;s objectives under this activity are to use media and co
   </participating-org>
   <activity-status code="4"></activity-status>
   <activity-date iso-date="2020-03-01" type="2"></activity-date>
-  <activity-date iso-date="2020-05-31" type="3"></activity-date>
+  <activity-date iso-date="2020-05-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">BBC Media Action</narrative>
@@ -49,6 +49,13 @@ BBC Media Action&#x2019;s objectives under this activity are to use media and co
    <period-end iso-date="2020-05-31"></period-end>
    <value currency="GBP" value-date="2020-10-21">179515</value>
   </budget>
+  <transaction humanitarian="1" ref="Incoming funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-09-21"></transaction-date>
+   <value currency="GBP" value-date="2020-09-21">179515</value>
+   <provider-org provider-activity-id="DK-CVR-20699310-DF21849" ref="DK-CVR-20699310" type="21"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1076235-GL-1456" ref="GB-CHC-1076235" type="21"></receiver-org>
+  </transaction>
   <transaction humanitarian="1" ref="01 Mar 2020 - 31 May 2020">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-21"></transaction-date>
@@ -56,13 +63,8 @@ BBC Media Action&#x2019;s objectives under this activity are to use media and co
    <description>
     <narrative xml:lang="EN">01 Mar 2020 - 31 May 2020</narrative>
    </description>
-   <provider-org provider-activity-id="GB-CHC-1076235-GL-1456" ref="GB-CHC-1076235" type="21"></provider-org>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-09-21"></transaction-date>
-   <value currency="GBP" value-date="2020-09-21">179515</value>
-   <provider-org provider-activity-id="GB-CHC-1076235-GL-1456" ref="GB-CHC-1076235"></provider-org>
+   <provider-org provider-activity-id="DK-CVR-20699310-DF21849" ref="DK-CVR-20699310" type="21"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1076235-GL-1456" ref="GB-CHC-1076235"></receiver-org>
   </transaction>
  </iati-activity>
 </iati-activities>
