@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="worldbank-to" dstore:index="3" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-02-25T16:18:56" iati-activities:version="2.03" last-updated-datetime="2021-02-22T18:37:22" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-to" dstore:index="3" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-29T11:29:48" iati-activities:version="2.03" last-updated-datetime="2021-03-24T11:09:02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P120595</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -63,31 +63,37 @@
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
   </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="0007668025" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Niuatoputapu</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-15.9570 -173.7780</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+  </location>
   <sector code="73010" percentage="80" vocabulary="1" xml:lang="EN"></sector>
   <sector code="74010" percentage="20" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="WF" percentage="2" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Public Administration - Water, Sanitation and Waste Management</narrative>
+  <sector code="CS" percentage="17" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">ICT Services</narrative>
   </sector>
   <sector code="CS" percentage="17" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">ICT Services</narrative>
   </sector>
+  <sector code="WF" percentage="2" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Public Administration - Water, Sanitation and Waste Management</narrative>
+  </sector>
   <sector code="YH" percentage="81" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Housing Construction</narrative>
   </sector>
-  <sector code="000753" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Disaster Preparedness</narrative>
+  <sector code="WF" percentage="2" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Public Administration - Water, Sanitation and Waste Management</narrative>
   </sector>
-  <sector code="000033" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Finance for Development</narrative>
-  </sector>
-  <sector code="000752" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Disaster Risk Reduction</narrative>
-  </sector>
-  <sector code="000812" percentage="92" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Adaptation</narrative>
-  </sector>
-  <sector code="000751" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Disaster Response and Recovery</narrative>
+  <sector code="YH" percentage="81" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Housing Construction</narrative>
   </sector>
   <sector code="000075" percentage="75" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disaster Risk Management</narrative>
@@ -97,6 +103,45 @@
   </sector>
   <sector code="000331" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disaster Risk Finance</narrative>
+  </sector>
+  <sector code="000812" percentage="92" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Adaptation</narrative>
+  </sector>
+  <sector code="000033" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Finance for Development</narrative>
+  </sector>
+  <sector code="000751" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disaster Response and Recovery</narrative>
+  </sector>
+  <sector code="000753" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disaster Preparedness</narrative>
+  </sector>
+  <sector code="000752" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disaster Risk Reduction</narrative>
+  </sector>
+  <sector code="000753" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disaster Preparedness</narrative>
+  </sector>
+  <sector code="000033" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Finance for Development</narrative>
+  </sector>
+  <sector code="000331" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disaster Risk Finance</narrative>
+  </sector>
+  <sector code="000075" percentage="75" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disaster Risk Management</narrative>
+  </sector>
+  <sector code="000752" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disaster Risk Reduction</narrative>
+  </sector>
+  <sector code="000081" percentage="92" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Climate change</narrative>
+  </sector>
+  <sector code="000812" percentage="92" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Adaptation</narrative>
+  </sector>
+  <sector code="000751" percentage="25" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Disaster Response and Recovery</narrative>
   </sector>
   <collaboration-type code="2"></collaboration-type>
   <default-aid-type code="C01" vocabulary="1" xml:lang="EN"></default-aid-type>
@@ -494,10 +539,10 @@
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2010-12-31"></transaction-date>
-   <value currency="USD" value-date="2010-12-31">5000000</value>
+   <transaction-date iso-date="2014-06-30"></transaction-date>
+   <value currency="USD" value-date="2014-06-30">-6494</value>
    <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Commitment in Fourth Quarter of 2010</narrative>
+    <narrative xml:lang="EN">Total Commitment Cancellations in Second Quarter of 2014</narrative>
    </description>
    <provider-org ref="44002">
     <narrative xml:lang="EN">International Development Association</narrative>
@@ -507,49 +552,10 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-03-31"></transaction-date>
-   <value currency="USD" value-date="2011-03-31">21170</value>
+   <transaction-date iso-date="2013-09-30"></transaction-date>
+   <value currency="USD" value-date="2013-09-30">251077</value>
    <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
-   </description>
-   <provider-org ref="44002">
-    <narrative xml:lang="EN">International Development Association</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="410"></finance-type>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-03-31"></transaction-date>
-   <value currency="USD" value-date="2011-03-31">65000</value>
-   <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
-   </description>
-   <provider-org ref="44002">
-    <narrative xml:lang="EN">International Development Association</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="410"></finance-type>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-03-31"></transaction-date>
-   <value currency="USD" value-date="2011-03-31">175391</value>
-   <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
-   </description>
-   <provider-org ref="44002">
-    <narrative xml:lang="EN">International Development Association</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="410"></finance-type>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-06-30"></transaction-date>
-   <value currency="USD" value-date="2011-06-30">180000</value>
-   <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2011</narrative>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2013</narrative>
    </description>
    <provider-org ref="44002">
     <narrative xml:lang="EN">International Development Association</narrative>
@@ -612,7 +618,7 @@
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2012-06-30"></transaction-date>
-   <value currency="USD" value-date="2012-06-30">181247</value>
+   <value currency="USD" value-date="2012-06-30">335791</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2012</narrative>
    </description>
@@ -625,7 +631,7 @@
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2012-06-30"></transaction-date>
-   <value currency="USD" value-date="2012-06-30">335791</value>
+   <value currency="USD" value-date="2012-06-30">181247</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2012</narrative>
    </description>
@@ -641,6 +647,32 @@
    <value currency="USD" value-date="2012-06-30">455904</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2012</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">International Development Association</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2011-06-30"></transaction-date>
+   <value currency="USD" value-date="2011-06-30">180000</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2011</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">International Development Association</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2011-03-31"></transaction-date>
+   <value currency="USD" value-date="2011-03-31">65000</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
    </description>
    <provider-org ref="44002">
     <narrative xml:lang="EN">International Development Association</narrative>
@@ -677,7 +709,7 @@
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2012-12-31"></transaction-date>
-   <value currency="USD" value-date="2012-12-31">62929</value>
+   <value currency="USD" value-date="2012-12-31">346890</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2012</narrative>
    </description>
@@ -702,8 +734,47 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2011-03-31"></transaction-date>
+   <value currency="USD" value-date="2011-03-31">21170</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">International Development Association</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2011-03-31"></transaction-date>
+   <value currency="USD" value-date="2011-03-31">175391</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">International Development Association</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2010-12-31"></transaction-date>
+   <value currency="USD" value-date="2010-12-31">5000000</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Commitment in Fourth Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">International Development Association</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2012-12-31"></transaction-date>
-   <value currency="USD" value-date="2012-12-31">346890</value>
+   <value currency="USD" value-date="2012-12-31">62929</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2012</narrative>
    </description>
@@ -752,32 +823,6 @@
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-30"></transaction-date>
-   <value currency="USD" value-date="2013-09-30">251077</value>
-   <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2013</narrative>
-   </description>
-   <provider-org ref="44002">
-    <narrative xml:lang="EN">International Development Association</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="410"></finance-type>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2014-06-30"></transaction-date>
-   <value currency="USD" value-date="2014-06-30">-6494</value>
-   <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Commitment Cancellations in Second Quarter of 2014</narrative>
-   </description>
-   <provider-org ref="44002">
-    <narrative xml:lang="EN">International Development Association</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="410"></finance-type>
-  </transaction>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/367421468339282536/pdf/Project0Inform1nami0Reconstruction.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Project Information Document</narrative>
@@ -814,14 +859,14 @@
    <category code="A07"></category>
    <category code="A08"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/143381468111886974/pdf/ISR-Disclosable-P120595-12-29-2013-1388373282403.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/270161468115468954/pdf/ISR-Disclosable-P120595-06-12-2013-1371090618879.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
    </title>
    <category code="A07"></category>
    <category code="A08"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/270161468115468954/pdf/ISR-Disclosable-P120595-06-12-2013-1371090618879.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/143381468111886974/pdf/ISR-Disclosable-P120595-12-29-2013-1388373282403.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
    </title>
@@ -877,30 +922,59 @@
     <narrative xml:lang="EN">Provide Semi-annual Project Reports</narrative>
    </condition>
   </conditions>
-  <result aggregation-status="0" type="2">
+  <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">PDO Indicator</narrative>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Restored housing, community facilities and small enterprises</narrative>
+     <narrative xml:lang="EN">Roads constructed, Rural</narrative>
     </title>
     <baseline iso-date="2010-10-05" value="0.00" year="2010">
      <comment>
-      <narrative xml:lang="EN">0 houses restored at beginning of project</narrative>
+      <narrative xml:lang="EN"></narrative>
      </comment>
     </baseline>
     <period>
      <period-start iso-date="2010-10-05"></period-start>
      <period-end iso-date="2013-12-31"></period-end>
-     <target value="73.00">
+     <target value="6.80">
       <comment>
-       <narrative xml:lang="EN">Originally included construction of 85 new cyclone-resistant houses and repair and retrofitting of 40 other partially damagedbuildings. Actual needs during implementation were for 73 new residential houses, 9 commercial and community buildings and 45retrofittedbuildings.</narrative>
+       <narrative xml:lang="EN">6.8km of preventative maintenance of the island&apos;s main collector road providing improved linkage between the reconstruction areasand social and economic facilities.</narrative>
       </comment>
      </target>
-     <actual value="73.00">
+     <actual value="12.20">
       <comment>
-       <narrative xml:lang="EN">All housing has been completed and handed over to the owner. 38 residential, and 7 community halls that were partially damagedhavebeen repaired and retrofitted, and 9 new buildings to replace destroyed small shops (4), bakeries (2) and communal weavinghouses (3) have been constructed.</narrative>
+       <narrative xml:lang="EN">The original target has been exceeded and an estimated 13km of road is expected to have been resealed by the completion of theproject.  This includes (i) the main spine road connecting Falehau wharf and the airport, (ii) the loop road connecting the threenew villages and the spine road, and (iii) most of the access roads in the three villages.</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Supply of materials to Niuatoputapu</narrative>
+    </title>
+    <baseline iso-date="2010-10-05" value="0.00" year="2010">
+     <comment>
+      <narrative xml:lang="EN">0% at project start-up</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2010-10-05"></period-start>
+     <period-end iso-date="2011-12-31"></period-end>
+     <target value="100.00%">
+      <comment>
+       <narrative xml:lang="EN">All material supplied and shipped to Nuitoptapu</narrative>
+      </comment>
+     </target>
+     <actual value="100.00%">
+      <comment>
+       <narrative xml:lang="EN">All materials supplied were shipped to Nuitoptapu to enable construction to be completed.</narrative>
       </comment>
      </actual>
     </period>
@@ -959,6 +1033,64 @@
      <actual value="Yes">
       <comment>
        <narrative xml:lang="EN">Village level Disaster Risk Management plans were developed by an NGO after the tsunami occurred.  These have been reviewed by theproject utilizing the information generated under the hazard mapping exercise and improvements have been suggested to governmentthat will enable them to effectively function as the originally planned Community Risk Plans.   Community preparedness andunderstanding of the village DRM plans has been strengthened.</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Restored housing, community facilities and small enterprises</narrative>
+    </title>
+    <baseline iso-date="2010-10-05" value="0.00" year="2010">
+     <comment>
+      <narrative xml:lang="EN">0 houses restored at beginning of project</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2010-10-05"></period-start>
+     <period-end iso-date="2013-12-31"></period-end>
+     <target value="73.00">
+      <comment>
+       <narrative xml:lang="EN">Originally included construction of 85 new cyclone-resistant houses and repair and retrofitting of 40 other partially damagedbuildings. Actual needs during implementation were for 73 new residential houses, 9 commercial and community buildings and 45retrofittedbuildings.</narrative>
+      </comment>
+     </target>
+     <actual value="73.00">
+      <comment>
+       <narrative xml:lang="EN">All housing has been completed and handed over to the owner. 38 residential, and 7 community halls that were partially damagedhavebeen repaired and retrofitted, and 9 new buildings to replace destroyed small shops (4), bakeries (2) and communal weavinghouses (3) have been constructed.</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Construction and supervision of housing, rainwater harvesting and sanitation facilities</narrative>
+    </title>
+    <baseline iso-date="2010-10-05" value="0.00" year="2010">
+     <comment>
+      <narrative xml:lang="EN">0% at project start-up</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2010-10-05"></period-start>
+     <period-end iso-date="2011-12-31"></period-end>
+     <target value="100.00">
+      <comment>
+       <narrative xml:lang="EN">All housing, rainwater harvesting and sanitation facilities constructed.</narrative>
+      </comment>
+     </target>
+     <actual value="100.00">
+      <comment>
+       <narrative xml:lang="EN">The reconstruction of the housing, rainwater harvesting and sanitation facilities was completed in December 2012.</narrative>
       </comment>
      </actual>
     </period>
@@ -1096,93 +1228,6 @@
      <actual value="100.00">
       <comment>
        <narrative xml:lang="EN">Additional community outreach to ensure sustainability of the village DRM plans has also been undertaken.</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
-   </title>
-   <indicator ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Supply of materials to Niuatoputapu</narrative>
-    </title>
-    <baseline iso-date="2010-10-05" value="0.00" year="2010">
-     <comment>
-      <narrative xml:lang="EN">0% at project start-up</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2010-10-05"></period-start>
-     <period-end iso-date="2011-12-31"></period-end>
-     <target value="100.00%">
-      <comment>
-       <narrative xml:lang="EN">All material supplied and shipped to Nuitoptapu</narrative>
-      </comment>
-     </target>
-     <actual value="100.00%">
-      <comment>
-       <narrative xml:lang="EN">All materials supplied were shipped to Nuitoptapu to enable construction to be completed.</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Construction and supervision of housing, rainwater harvesting and sanitation facilities</narrative>
-    </title>
-    <baseline iso-date="2010-10-05" value="0.00" year="2010">
-     <comment>
-      <narrative xml:lang="EN">0% at project start-up</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2010-10-05"></period-start>
-     <period-end iso-date="2011-12-31"></period-end>
-     <target value="100.00">
-      <comment>
-       <narrative xml:lang="EN">All housing, rainwater harvesting and sanitation facilities constructed.</narrative>
-      </comment>
-     </target>
-     <actual value="100.00">
-      <comment>
-       <narrative xml:lang="EN">The reconstruction of the housing, rainwater harvesting and sanitation facilities was completed in December 2012.</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Roads constructed, Rural</narrative>
-    </title>
-    <baseline iso-date="2010-10-05" value="0.00" year="2010">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2010-10-05"></period-start>
-     <period-end iso-date="2013-12-31"></period-end>
-     <target value="6.80">
-      <comment>
-       <narrative xml:lang="EN">6.8km of preventative maintenance of the island&apos;s main collector road providing improved linkage between the reconstruction areasand social and economic facilities.</narrative>
-      </comment>
-     </target>
-     <actual value="12.20">
-      <comment>
-       <narrative xml:lang="EN">The original target has been exceeded and an estimated 13km of road is expected to have been resealed by the completion of theproject.  This includes (i) the main spine road connecting Falehau wharf and the airport, (ii) the loop road connecting the threenew villages and the spine road, and (iii) most of the access roads in the three villages.</narrative>
       </comment>
      </actual>
     </period>
