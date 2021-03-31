@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="tdh_foundation-activities" dstore:index="2" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-03-08T11:07:59+00:00" iati-activities:version="2.03" last-updated-datetime="2021-03-08T11:07:59+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" dstore:dataset="tdh_foundation-activities" dstore:index="2" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-03-30T16:59:39+00:00" iati-activities:version="2.03" last-updated-datetime="2021-03-30T16:59:39+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>CH-FDJP-CHE-106823242-20119723b</iati-identifier>
   <reporting-org ref="CH-FDJP-CHE106823242" secondary-reporter="0" type="21">
    <narrative xml:lang="FR">Terre des hommes - Aide &#xE0; l&apos;enfance dans le monde - Fondation</narrative>
@@ -66,17 +66,6 @@ communities in post-conflict Iraq</narrative>
    <value currency="USD" value-date="2020-09-18">1198000</value>
   </budget>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-06-11"></transaction-date>
-   <value currency="USD" value-date="2020-06-11">1198000</value>
-   <provider-org provider-activity-id="XM-DAC-7-PPR-4000003880" ref="XM-DAC-7" type="10">
-    <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="CH-FDJP-CHE106823242-2019723b" ref="CH-FDJP-CHE-106823242" type="21">
-    <narrative xml:lang="EN">Terre des hommes - Aide &#xE0; l&apos;enfance dans le monde - Fondation</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">250915</value>
@@ -98,6 +87,22 @@ communities in post-conflict Iraq</narrative>
     <narrative xml:lang="EN">Terre des hommes - Aide &#xE0; l&apos;enfance dans le monde - Fondation</narrative>
    </receiver-org>
   </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-11"></transaction-date>
+   <value currency="USD" value-date="2020-06-11">1198000</value>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000003880" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="CH-FDJP-CHE106823242-2019723b" ref="CH-FDJP-CHE-106823242" type="21">
+    <narrative xml:lang="EN">Terre des hommes - Aide &#xE0; l&apos;enfance dans le monde - Fondation</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-30"></transaction-date>
+   <value currency="EUR" value-date="2021-03-30">860335</value>
+  </transaction>
   <result type="1">
    <title>
     <narrative xml:lang="EN">Households vulnerable to COVID-19 have access to gender-responsive COVID-19 prevention kits and COVID-19 cleaning kits (Output 2.2).</narrative>
@@ -106,12 +111,27 @@ communities in post-conflict Iraq</narrative>
     <title>
      <narrative xml:lang="EN">Indicator 2.2.1 - Number of individuals most vulnerable to COVID-19 who receive essential gender-responsive COVID-19 prevention kits</narrative>
     </title>
-    <baseline value="0" year="2020"></baseline>
+    <baseline value="0" year="2020">
+     <dimension name="Female under 18 years" value="0"></dimension>
+     <dimension name="Male under 18 years" value="0"></dimension>
+     <dimension name="Female over 18 years" value="0"></dimension>
+     <dimension name="Male over 18 years" value="0"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="9600"></target>
-     <actual value="0"></actual>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="9600">
+      <dimension name="Female under 18 years" value="2400"></dimension>
+      <dimension name="Male under 18 years" value="2400"></dimension>
+      <dimension name="Female over 18 years" value="2400"></dimension>
+      <dimension name="Male over 18 years" value="2400"></dimension>
+     </target>
+     <actual value="7592">
+      <dimension name="Female under 18 years" value="1752"></dimension>
+      <dimension name="Male under 18 years" value="1999"></dimension>
+      <dimension name="Female over 18 years" value="2013"></dimension>
+      <dimension name="Male over 18 years" value="1828"></dimension>
+     </actual>
     </period>
    </indicator>
    <indicator measure="1">
@@ -121,9 +141,9 @@ communities in post-conflict Iraq</narrative>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
+     <period-end iso-date="2020-12-31"></period-end>
      <target value="100"></target>
-     <actual value="0"></actual>
+     <actual value="100"></actual>
     </period>
    </indicator>
   </result>
@@ -135,12 +155,27 @@ communities in post-conflict Iraq</narrative>
     <title>
      <narrative xml:lang="EN">Indicator 3.1.1- Number of returnees and/or IDPs particularly vulnerable to the pandemic that receive tailored multi-purpose assistance</narrative>
     </title>
-    <baseline value="0" year="2020"></baseline>
+    <baseline value="0" year="2020">
+     <dimension name="Female under 18 years" value="0"></dimension>
+     <dimension name="Male under 18 years" value="0"></dimension>
+     <dimension name="Female over 18 years" value="0"></dimension>
+     <dimension name="Male over 18 years" value="0"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="8000"></target>
-     <actual value="0"></actual>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="8000">
+      <dimension name="Female under 18 years" value="2000"></dimension>
+      <dimension name="Male under 18 years" value="2000"></dimension>
+      <dimension name="Female over 18 years" value="2000"></dimension>
+      <dimension name="Male over 18 years" value="2000"></dimension>
+     </target>
+     <actual value="7723">
+      <dimension name="Female under 18 years" value="2062"></dimension>
+      <dimension name="Male under 18 years" value="2196"></dimension>
+      <dimension name="Female over 18 years" value="1848"></dimension>
+      <dimension name="Male over 18 years" value="1617"></dimension>
+     </actual>
     </period>
    </indicator>
    <indicator measure="1">
@@ -150,12 +185,9 @@ communities in post-conflict Iraq</narrative>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
+     <period-end iso-date="2020-12-31"></period-end>
      <target value="200"></target>
-     <actual value="79">
-      <dimension name="Women" value="45"></dimension>
-      <dimension name="Men" value="34"></dimension>
-     </actual>
+     <actual value="491"></actual>
     </period>
    </indicator>
   </result>
@@ -168,27 +200,39 @@ communities in post-conflict Iraq</narrative>
      <narrative xml:lang="EN">Indicator 1.1.1 - Number of children and adolescents with urgent protection concerns directly  supported by Tdh Case workers</narrative>
     </title>
     <baseline value="0" year="2020">
-     <dimension name="Female under 18 years" value="80"></dimension>
-     <dimension name="Male under 18 years" value="85"></dimension>
+     <dimension name="Female under 18 years" value="0"></dimension>
+     <dimension name="Male under 18 years" value="0"></dimension>
     </baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="175"></target>
-     <actual value="165"></actual>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="175">
+      <dimension name="Female under 18 years" value="88"></dimension>
+      <dimension name="Male under 18 years" value="87"></dimension>
+     </target>
+     <actual value="180">
+      <dimension name="Female under 18 years" value="88"></dimension>
+      <dimension name="Male under 18 years" value="92"></dimension>
+     </actual>
     </period>
    </indicator>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Indicator 1.1.2 - Number of children  and adolescents with protection concerns amongst recently returned IDPs directly benefitting from  individual psychosocial and mental health support and Legal Support (f/m)</narrative>
     </title>
-    <baseline value="0" year="2020"></baseline>
+    <baseline value="0" year="2020">
+     <dimension name="Female under 18 years" value="0"></dimension>
+     <dimension name="Male under 18 years" value="0"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="40"></target>
-     <actual value="33">
-      <dimension name="Females under 18 years" value="17"></dimension>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="40">
+      <dimension name="Female under 18 years" value="20"></dimension>
+      <dimension name="Male under 18 years" value="20"></dimension>
+     </target>
+     <actual value="36">
+      <dimension name="Females under 18 years" value="20"></dimension>
       <dimension name="Males under 18 years" value="16"></dimension>
      </actual>
     </period>
@@ -197,14 +241,20 @@ communities in post-conflict Iraq</narrative>
     <title>
      <narrative xml:lang="EN">Indicator 1.1.3 - Number of child protection cases referred to other organisations and successfully supported</narrative>
     </title>
-    <baseline value="0" year="2020"></baseline>
+    <baseline value="0" year="2020">
+     <dimension name="Female under 18 years" value="0"></dimension>
+     <dimension name="Male under 18 years" value="0"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="35"></target>
-     <actual value="8">
-      <dimension name="Girls" value="4"></dimension>
-      <dimension name="Boys" value="4"></dimension>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="35">
+      <dimension name="Female under 18 years" value="17"></dimension>
+      <dimension name="Male under 18 years" value="18"></dimension>
+     </target>
+     <actual value="34">
+      <dimension name="Female under 18 years" value="16"></dimension>
+      <dimension name="Male under 18 years" value="18"></dimension>
      </actual>
     </period>
    </indicator>
@@ -212,12 +262,21 @@ communities in post-conflict Iraq</narrative>
     <title>
      <narrative xml:lang="EN">Indicator 1.1.4 - Number of children benefiting from Learning/PSS kits</narrative>
     </title>
-    <baseline value="0" year="2020"></baseline>
+    <baseline value="0" year="2020">
+     <dimension name="Female under 18 years" value="0"></dimension>
+     <dimension name="Male under 18 years" value="0"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="1200"></target>
-     <actual value="0"></actual>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1200">
+      <dimension name="Female under 18 years" value="600"></dimension>
+      <dimension name="Male under 18 years" value="600"></dimension>
+     </target>
+     <actual value="1298">
+      <dimension name="Female under 18 years" value="643"></dimension>
+      <dimension name="Male under 18 years" value="655"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -229,14 +288,20 @@ communities in post-conflict Iraq</narrative>
     <title>
      <narrative xml:lang="EN">Indicator 1.2.1 - Number of child protection committee members /FPs supported and trained (m/f)</narrative>
     </title>
-    <baseline value="0" year="2020"></baseline>
+    <baseline value="0" year="2020">
+     <dimension name="Female over 18 years" value="0"></dimension>
+     <dimension name="Male over 18 years" value="0"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="50"></target>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="50">
+      <dimension name="Female over 18 years" value="25"></dimension>
+      <dimension name="Male over 18 years" value="25"></dimension>
+     </target>
      <actual value="55">
-      <dimension name="Women" value="13"></dimension>
-      <dimension name="Men" value="42"></dimension>
+      <dimension name="Female over 18 years" value="13"></dimension>
+      <dimension name="Male over 18 years" value="42"></dimension>
      </actual>
     </period>
    </indicator>
@@ -244,14 +309,20 @@ communities in post-conflict Iraq</narrative>
     <title>
      <narrative xml:lang="EN">Indicator 1.2.2 - Percentage of CPC members/FPs who demonstrate an improved knowledge, attitude and practices on child protection principles and  identification of vulnerable families</narrative>
     </title>
-    <baseline value="0" year="2020"></baseline>
+    <baseline value="0" year="2020">
+     <dimension name="Female over 18 years" value="0"></dimension>
+     <dimension name="Male over 18 years" value="0"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="60"></target>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="60">
+      <dimension name="Female over 18 years" value="30"></dimension>
+      <dimension name="Male over 18 years" value="30"></dimension>
+     </target>
      <actual value="100">
-      <dimension name="Women" value="24"></dimension>
-      <dimension name="Men" value="76"></dimension>
+      <dimension name="Female over 18 years" value="24"></dimension>
+      <dimension name="Male over 18 years" value="76"></dimension>
      </actual>
     </period>
    </indicator>
@@ -264,12 +335,27 @@ communities in post-conflict Iraq</narrative>
     <title>
      <narrative xml:lang="EN">Indicator 2.1.1 - Number of individuals that receive COVID-19 IEC materials</narrative>
     </title>
-    <baseline value="0" year="2020"></baseline>
+    <baseline value="0" year="2020">
+     <dimension name="Female under 18 years" value="0"></dimension>
+     <dimension name="Male under 18 years" value="0"></dimension>
+     <dimension name="Female over 18 years" value="0"></dimension>
+     <dimension name="Male over 18 years" value="0"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="18000"></target>
-     <actual value="0"></actual>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="18000">
+      <dimension name="Female under 18 years" value="4500"></dimension>
+      <dimension name="Male under 18 years" value="4500"></dimension>
+      <dimension name="Female over 18 years" value="4500"></dimension>
+      <dimension name="Female over 18 years" value="4500"></dimension>
+     </target>
+     <actual value="17204">
+      <dimension name="Female under 18 years" value="4424"></dimension>
+      <dimension name="Male under 18 years" value="4739"></dimension>
+      <dimension name="Female over 18 years" value="4113"></dimension>
+      <dimension name="Male over 18 years" value="3928"></dimension>
+     </actual>
     </period>
    </indicator>
    <indicator measure="1">
@@ -279,21 +365,30 @@ communities in post-conflict Iraq</narrative>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
+     <period-end iso-date="2020-12-31"></period-end>
      <target value="600"></target>
-     <actual value="0"></actual>
+     <actual value="829"></actual>
     </period>
    </indicator>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Indicator 2.1.3 - Number of children that benefit from age-tailored health and hygiene recreational kits</narrative>
     </title>
-    <baseline value="0" year="2020"></baseline>
+    <baseline value="0" year="2020">
+     <dimension name="Female under 18 years" value="0"></dimension>
+     <dimension name="Male under 18 years" value="0"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="1200"></target>
-     <actual value="0"></actual>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1200">
+      <dimension name="Female under 18 years" value="600"></dimension>
+      <dimension name="Male under 18 years" value="600"></dimension>
+     </target>
+     <actual value="1212">
+      <dimension name="Female under 18 years" value="572"></dimension>
+      <dimension name="Male under 18 years" value="640"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
