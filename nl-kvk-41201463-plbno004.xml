@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="scnl-lb" dstore:index="2" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-01-28T15:21:13+00:00" iati-activities:version="2.03" last-updated-datetime="2021-01-28T15:20:38+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" dstore:dataset="scnl-lb" dstore:index="4" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-31T15:38:45+00:00" iati-activities:version="2.03" last-updated-datetime="2021-03-31T15:38:45+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41201463-PLBNO004</iati-identifier>
   <reporting-org ref="NL-KVK-41201463" type="21">
    <narrative xml:lang="EN">Save the Children Netherlands</narrative>
@@ -29,7 +29,7 @@
   <other-identifier ref="52800465" type="A1"></other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-06-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-02-28" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Save the Children Netherlands</narrative>
@@ -60,13 +60,10 @@
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="EUR" value-date="2020-06-01">1007169</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="EUR" value-date="2020-06-01">956811</value>
-   <description>
-    <narrative xml:lang="EN">Incoming funds Q2 2020</narrative>
-   </description>
+  <transaction humanitarian="1">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-07-01"></transaction-date>
+   <value currency="EUR" value-date="2020-06-01">1007169</value>
    <provider-org provider-activity-id="XM-DAC-7-PPR-4000003876" ref="XM-DAC-7" type="10">
     <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
    </provider-org>
@@ -89,6 +86,20 @@
    </receiver-org>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-01"></transaction-date>
+   <value currency="EUR" value-date="2020-06-01">956811</value>
+   <description>
+    <narrative xml:lang="EN">Incoming funds Q2 2020</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000003876" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41201463-PLBNO004" ref="NL-KVK-41201463" type="21">
+    <narrative xml:lang="EN">Save the Children Netherlands</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="7"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="EUR" value-date="2020-09-30">160853</value>
@@ -103,17 +114,6 @@
    </receiver-org>
   </transaction>
   <transaction humanitarian="1">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-07-01"></transaction-date>
-   <value currency="EUR" value-date="2020-06-01">1007169</value>
-   <provider-org provider-activity-id="XM-DAC-7-PPR-4000003876" ref="XM-DAC-7" type="10">
-    <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-41201463-PLBNO004" ref="NL-KVK-41201463" type="21">
-    <narrative xml:lang="EN">Save the Children Netherlands</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1">
    <transaction-type code="7"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">537140</value>
@@ -123,6 +123,14 @@
    <provider-org provider-activity-id="NL-KVK-41201463-PLBNO004" ref="NL-KVK-41201463" type="21"></provider-org>
    <receiver-org ref="GB-CHC-1076822" type="21"></receiver-org>
   </transaction>
+  <document-link format="APPLICATION/PDF" url="https://aidstream.org/files/documents/4000003876---Final-Analytical-Narrative-Report_IATI-version-20210331090306.pdf">
+   <title>
+    <narrative xml:lang="EN">Final Narrative Report</narrative>
+   </title>
+   <category code="B01"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-03-31"></document-date>
+  </document-link>
   <related-activity ref="XM-DAC-7-PPR-4000003876" type="1"></related-activity>
   <result aggregation-status="1" type="3">
    <title>
@@ -150,8 +158,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-02-28"></period-end>
      <target value="90"></target>
+     <actual value="76.4"></actual>
     </period>
    </indicator>
   </result>
@@ -166,8 +175,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="600"></target>
+     <period-end iso-date="2021-02-28"></period-end>
+     <target value="944"></target>
+     <actual value="1148"></actual>
     </period>
    </indicator>
   </result>
@@ -182,8 +192,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-02-28"></period-end>
      <target value="75"></target>
+     <actual value="69"></actual>
     </period>
    </indicator>
    <indicator measure="2">
@@ -193,24 +204,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-02-28"></period-end>
      <target value="85"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Output 2.1: Children in need of case managment due to COVID19 receive an adequate response</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of boys and girls with and without disabilities, with access to safe case mangement services (both remotely and in person) and adequate temporary community-based alternative care placement</narrative>
-    </title>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="120"></target>
+     <actual value="60"></actual>
     </period>
    </indicator>
   </result>
@@ -225,8 +221,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-02-28"></period-end>
      <target value="120"></target>
+     <actual value="120"></actual>
     </period>
    </indicator>
    <indicator measure="1">
@@ -236,8 +233,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-07-06"></period-end>
+     <period-end iso-date="2021-02-28"></period-end>
      <target value="120"></target>
+     <actual value="120"></actual>
     </period>
    </indicator>
    <indicator measure="1">
@@ -247,8 +245,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-02-28"></period-end>
      <target value="224"></target>
+     <actual value="240"></actual>
     </period>
    </indicator>
    <indicator measure="1">
@@ -258,8 +257,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-02-28"></period-end>
      <target value="272"></target>
+     <actual value="20"></actual>
     </period>
    </indicator>
   </result>
@@ -274,8 +274,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="40"></target>
+     <period-end iso-date="2021-02-28"></period-end>
+     <target value="47"></target>
+     <actual value="106"></actual>
     </period>
    </indicator>
    <indicator measure="1">
@@ -285,24 +286,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="10"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Ouput 2.2: Community Based Child Protection Mechanisms are strengthened</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of community based groups trained online in CP, SIR (safe identification and referral) and remote PSS intervention</narrative>
-    </title>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="20"></target>
+     <period-end iso-date="2021-02-28"></period-end>
+     <target value="57"></target>
+     <actual value="41"></actual>
     </period>
    </indicator>
   </result>
@@ -317,8 +303,9 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-end iso-date="2021-02-28"></period-end>
      <target value="90"></target>
+     <actual value="100"></actual>
     </period>
    </indicator>
   </result>
@@ -333,8 +320,43 @@
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="50"></target>
+     <period-end iso-date="2021-02-28"></period-end>
+     <target value="70"></target>
+     <actual value="70"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Output 2.1: Children in need of case managment due to COVID19 receive an adequate response</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of boys and girls with and without disabilities, with access to safe case mangement services (both remotely and in person) and adequate temporary community-based alternative care placement</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-06-01"></period-start>
+     <period-end iso-date="2021-02-28"></period-end>
+     <target value="120"></target>
+     <actual value="120"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Ouput 2.2: Community Based Child Protection Mechanisms are strengthened</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of community based groups trained online in CP, SIR (safe identification and referral) and remote PSS intervention</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-06-01"></period-start>
+     <period-end iso-date="2021-02-28"></period-end>
+     <target value="20"></target>
+     <actual value="24"></actual>
     </period>
    </indicator>
   </result>
