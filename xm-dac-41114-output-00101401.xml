@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="undp-bol" dstore:index="57" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2021-03-24T02:18:46" iati-activities:version="2.03" last-updated-datetime="2021-03-23T12:54:46" xml:lang="ES" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" dstore:dataset="undp-bol" dstore:index="57" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2021-04-01T03:50:05" iati-activities:version="2.03" last-updated-datetime="2021-03-31T12:20:20" xml:lang="ES" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00101401</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="ES">United Nations Development Programme</narrative>
@@ -23,7 +23,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-04-06" type="1"></activity-date>
   <activity-date iso-date="2020-04-06" type="2"></activity-date>
-  <activity-date iso-date="2021-03-31" type="3"></activity-date>
+  <activity-date iso-date="2037-04-12" type="3"></activity-date>
   <contact-info type="1">
    <email>registry.bo@undp.org</email>
    <website>http://www.bo.undp.org/</website>
@@ -46,6 +46,11 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-02-28">3823</value>
+  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -126,6 +131,18 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">3823</value>
+   <provider-org ref="01439" type="10">
+    <narrative xml:lang="ES">BOL-MINISTERIO DE SALUD Y PREV</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00101401" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="ES">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">76461</value>
    <provider-org ref="XM-DAC-41114">
@@ -163,7 +180,7 @@
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">9544465</value>
+   <value currency="USD" value-date="2021-02-28">9548288</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="ES">United Nations Development Programme</narrative>
    </provider-org>
