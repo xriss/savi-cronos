@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="175" hierarchy="2" humanitarian="0" iati-activities:generated-datetime="2021-04-08T12:16:24" iati-activities:version="2.02" last-updated-datetime="2021-04-08T12:16:25" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="177" hierarchy="2" humanitarian="0" iati-activities:generated-datetime="2021-04-12T13:22:24" iati-activities:version="2.02" last-updated-datetime="2021-04-12T13:22:24" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-100-0019</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -36,11 +36,14 @@ An epidemic outbreak within the camps would go beyond the capacity of PRCS/L. If
   <participating-org role="4">
    <narrative xml:lang="EN">Palestinian Red Crescent Society</narrative>
   </participating-org>
+  <participating-org ref="XM-DAC-7" role="1" type="10">
+   <narrative xml:lang="EN">Ministerie van Buitenlandse Zaken (BuZa)</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-04-30" type="2">
    <narrative xml:lang="EN">Actual start</narrative>
   </activity-date>
-  <activity-date iso-date="2021-04-29" type="3">
+  <activity-date iso-date="2021-08-30" type="3">
    <narrative xml:lang="EN">Planned End</narrative>
   </activity-date>
   <contact-info type="1">
@@ -77,9 +80,101 @@ An epidemic outbreak within the camps would go beyond the capacity of PRCS/L. If
   <default-tied-status code="5"></default-tied-status>
   <budget type="1">
    <period-start iso-date="2020-04-30"></period-start>
-   <period-end iso-date="2021-04-29"></period-end>
+   <period-end iso-date="2021-08-30"></period-end>
    <value currency="EUR" value-date="2020-04-30">309250</value>
   </budget>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">16274</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-100-0019" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">144758</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Commitment</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000004159" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Ministerie van Buitenlandse Zaken (BuZa)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-100-0019" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">159250</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Commitment</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000001191" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Ministerie van Buitenlandse Zaken (BuZa)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-100-0019" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-20"></transaction-date>
+   <value currency="EUR" value-date="2020-10-20">168500</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-100-0019" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Palestinian Red Crescent Society</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="EUR" value-date="2020-09-30">280000</value>
+   <description>
+    <narrative xml:lang="EN">Commitment</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-100-0019" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Palestinian Red Crescent Society</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="EUR" value-date="2020-09-30">7737</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-100-0019" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-15"></transaction-date>
+   <value currency="EUR" value-date="2020-06-15">100000</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-100-0019" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Palestinian Red Crescent Society</narrative>
+   </receiver-org>
+  </transaction>
   <related-activity ref="NL-KVK-40409352-PRJ13-100" type="1"></related-activity>
  </iati-activity>
 </iati-activities>
