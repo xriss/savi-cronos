@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="stichting-subsidiegelden-dra-activities" dstore:index="2" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-03-02T11:49:47+00:00" iati-activities:version="2.03" last-updated-datetime="2021-01-18T15:30:35+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" dstore:dataset="stichting-subsidiegelden-dra-activities" dstore:index="2" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-04-13T08:30:47+00:00" iati-activities:version="2.03" last-updated-datetime="2021-04-13T08:30:47+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-72849770-DIF</iati-identifier>
   <reporting-org ref="NL-KVK-72849770" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Stichting Beheer Subsidiegelden DRA</narrative>
@@ -112,16 +112,12 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="EUR" value-date="2021-01-01">3000000</value>
   </budget>
-  <transaction humanitarian="1" ref="Payment to Tearfund DIF2019">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-26"></transaction-date>
-   <value currency="EUR" value-date="2019-11-26">282965</value>
-   <provider-org provider-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60">
-    <narrative xml:lang="EN">Stichting Beheer Subsidiegelden DRA</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-411 77385-2019086" ref="NL-KVK-41177385" type="21">
-    <narrative xml:lang="EN">Tearfund</narrative>
-   </receiver-org>
+  <transaction ref="MFA Payment 2019">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-10-24"></transaction-date>
+   <value currency="EUR" value-date="2019-01-01">2850000</value>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000001920" ref="XM-DAC-7" type="10"></provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60"></receiver-org>
   </transaction>
   <transaction humanitarian="1" ref="MFA Contractual Amount 2018-2021">
    <transaction-type code="11"></transaction-type>
@@ -360,6 +356,17 @@
     <narrative xml:lang="EN">st Vluchteling</narrative>
    </receiver-org>
   </transaction>
+  <transaction humanitarian="1" ref="Payment to Tearfund DIF2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-26"></transaction-date>
+   <value currency="EUR" value-date="2019-11-26">282965</value>
+   <provider-org provider-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60">
+    <narrative xml:lang="EN">Stichting Beheer Subsidiegelden DRA</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-411 77385-2019086" ref="NL-KVK-41177385" type="21">
+    <narrative xml:lang="EN">Tearfund</narrative>
+   </receiver-org>
+  </transaction>
   <transaction humanitarian="1" ref="2nd payment Save DIF 2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-04-23"></transaction-date>
@@ -382,17 +389,6 @@
     <narrative xml:lang="EN">Warchild</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Payment to Cordaid DIF2021">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-01-01"></transaction-date>
-   <value currency="EUR" value-date="2021-01-01">474998</value>
-   <provider-org provider-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60">
-    <narrative xml:lang="EN">Stichting Beheer Subsidiegelden DRA</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-41160054-200912" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid</narrative>
-   </receiver-org>
-  </transaction>
   <transaction humanitarian="1" ref="MFA Payment 2020">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-11-24"></transaction-date>
@@ -400,29 +396,7 @@
    <provider-org provider-activity-id="XM-DAC-7-PPR-4000001920" ref="XM-DAC-7" type="10"></provider-org>
    <receiver-org receiver-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60"></receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Contractual Amount Cordaid DIF2021">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-01-01"></transaction-date>
-   <value currency="EUR" value-date="2021-01-01">499998</value>
-   <provider-org provider-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60">
-    <narrative xml:lang="EN">Stichting Beheer Subsidiegelden DRA</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-41160054-200912" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1" ref="Contractual Amount CARE Nederland DIF2021">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-01-01"></transaction-date>
-   <value currency="EUR" value-date="2021-01-01">485374</value>
-   <provider-org provider-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60">
-    <narrative xml:lang="EN">Stichting Beheer Subsidiegelden DRA</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-41158230-UGA010N" ref="NL-KVK-41158230" type="21">
-    <narrative xml:lang="EN">CARE Nederland</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1" ref="Payment to CARE Nederland DIF2021">
+  <transaction humanitarian="1" ref="Payment to CARE Nederland DIF2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-01-01"></transaction-date>
    <value currency="EUR" value-date="2021-01-01">461105</value>
@@ -433,7 +407,29 @@
     <narrative xml:lang="EN">CARE Nederland</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Contractual Amount Save the Children Netherlands DIF2021">
+  <transaction humanitarian="1" ref="Payment to Cordaid DIF2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="EUR" value-date="2021-01-01">474998</value>
+   <provider-org provider-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60">
+    <narrative xml:lang="EN">Stichting Beheer Subsidiegelden DRA</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41160054-200912" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Contractual Amount Cordaid DIF2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="EUR" value-date="2021-01-01">499998</value>
+   <provider-org provider-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60">
+    <narrative xml:lang="EN">Stichting Beheer Subsidiegelden DRA</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41160054-200912" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Contractual Amount Save the Children Netherlands DIF2020">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-01-01"></transaction-date>
    <value currency="EUR" value-date="2021-01-01">500000</value>
@@ -444,7 +440,18 @@
     <narrative xml:lang="EN">Save the Children Netherlands</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Payment to Save the Children Netherlands DIF2021">
+  <transaction humanitarian="1" ref="Contractual Amount CARE Nederland DIF2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="EUR" value-date="2021-01-01">485374</value>
+   <provider-org provider-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60">
+    <narrative xml:lang="EN">Stichting Beheer Subsidiegelden DRA</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41158230-UGA010N" ref="NL-KVK-41158230" type="21">
+    <narrative xml:lang="EN">CARE Nederland</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Payment to Save the Children Netherlands DIF2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-01-01"></transaction-date>
    <value currency="EUR" value-date="2021-01-01">475000</value>
@@ -454,13 +461,6 @@
    <receiver-org receiver-activity-id="NL-KVK-41201463-PUGNO004" ref="NL-KVK-41201463" type="21">
     <narrative xml:lang="EN">Save the Children Netherlands</narrative>
    </receiver-org>
-  </transaction>
-  <transaction ref="MFA Payment 2019">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-10-24"></transaction-date>
-   <value currency="EUR" value-date="2019-01-01">2850000</value>
-   <provider-org provider-activity-id="XM-DAC-7-PPR-4000001920" ref="XM-DAC-7" type="10"></provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-72849770-DIF" ref="NL-KVK-72849770" type="60"></receiver-org>
   </transaction>
  </iati-activity>
 </iati-activities>
