@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="GBP" dstore:dataset="tlmew-np" dstore:index="2" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-01-18T02:28:15+00:00" iati-activities:version="2.03" last-updated-datetime="2021-01-18T02:28:15+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="GBP" dstore:dataset="tlmew-np" dstore:index="2" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-04-19T10:35:35+00:00" iati-activities:version="2.03" last-updated-datetime="2021-04-19T10:35:35+00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1050327-NP-FOUND-19</iati-identifier>
   <reporting-org ref="GB-CHC-1050327" type="21">
    <narrative xml:lang="EN">The Leprosy Mission England and Wales</narrative>
@@ -83,20 +83,21 @@ COVID-19 Rapid Response project: 1. Medical staff at Anandaban Hospital will be 
    <period-end iso-date="2024-12-19"></period-end>
    <value currency="GBP" value-date="2024-12-19">188764.82</value>
   </budget>
+  <transaction ref="EXPENDITURE Y1Q3 and Q4">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="GBP" value-date="2020-03-31">38947.4</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for the UK - 22nd December 2019 to 31st March 2020</narrative>
+   </description>
+   <provider-org provider-activity-id="NP-FOUND-19" ref="GB-CHC-1050327"></provider-org>
+  </transaction>
   <transaction ref="EXPENDITURE Y2Q2">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="GBP" value-date="2020-09-30">24328.09</value>
    <description>
     <narrative xml:lang="EN">Expenditure for TLMEW - July to September 2020</narrative>
-   </description>
-  </transaction>
-  <transaction humanitarian="1" ref="EXPENDITURE Y2Q1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="GBP" value-date="2020-06-30">24896.67</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for the UK - 1st April to 30th June 2020</narrative>
    </description>
   </transaction>
   <transaction ref="FCDO Y2Q1">
@@ -124,14 +125,43 @@ COVID-19 Rapid Response project: 1. Medical staff at Anandaban Hospital will be 
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction ref="EXPENDITURE Y1Q3 and Q4">
+  <transaction humanitarian="1" ref="EXPENDITURE Y2Q1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="GBP" value-date="2020-03-31">38947.4</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="GBP" value-date="2020-06-30">24896.67</value>
    <description>
-    <narrative xml:lang="EN">Expenditure for the UK - 22nd December 2019 to 31st March 2020</narrative>
+    <narrative xml:lang="EN">Expenditure for the UK - 1st April to 30th June 2020</narrative>
    </description>
-   <provider-org provider-activity-id="NP-FOUND-19" ref="GB-CHC-1050327"></provider-org>
+  </transaction>
+  <transaction ref="EXPENDITURE Y2Q4">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="GBP" value-date="2021-03-31">29802.82</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for TLMEW - January to March 2021 for the FOUND project totalling &#xA3;29,052.82.
+
+Expenditure for TLMEW - January to March 2021 for the Rapid Response COVID-19  project totalling &#xA3;750.</narrative>
+   </description>
+  </transaction>
+  <transaction ref="FCDO Y2Q3">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-12"></transaction-date>
+   <value currency="GBP" value-date="2021-03-12">12929.7</value>
+   <description>
+    <narrative xml:lang="EN">Year 2 Funds for Quarter 4 reimbursement of funds from FCDO for expenditure for The Leprosy Mission England and Wales and The Leprosy Mission Nepal for FOUND and Rapid Response (COVID-19) Projects (balance of payment).</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-COH04105827-AIDDIRECT" ref="GB-COH04105827" type="70"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1050327-NP-FOUND-19" ref="GB-CHC-1050327" type="21"></receiver-org>
+  </transaction>
+  <transaction ref="FCDO Y2Q3">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-02-16"></transaction-date>
+   <value currency="GBP" value-date="2021-02-16">166910.63</value>
+   <description>
+    <narrative xml:lang="EN">Year 2 Funds for Quarter 3 reimbursement of funds from FCDO for expenditure for The Leprosy Mission England and Wales and The Leprosy Mission Nepal for FOUND and Rapid Response projects.</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-COH04105827-AIDDIRECT" ref="GB-COH04105827" type="70"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1050327-NP-FOUND-19" ref="GB-CHC-1050327" type="21"></receiver-org>
   </transaction>
   <transaction ref="EXPENDITURE Y2Q3">
    <transaction-type code="4"></transaction-type>
