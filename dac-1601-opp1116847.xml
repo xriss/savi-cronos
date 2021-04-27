@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="bmgf-activitiesu" dstore:index="647" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-03-15T11:19:10" iati-activities:version="2.03" last-updated-datetime="2021-03-15T11:19:10" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="bmgf-activitiesu" dstore:index="647" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-04-20T13:43:12" iati-activities:version="2.03" last-updated-datetime="2021-04-20T13:43:12" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>DAC-1601-OPP1116847</iati-identifier>
   <reporting-org ref="DAC-1601" secondary-reporter="0" type="60">
    <narrative xml:lang="EN">Bill and Melinda Gates Foundation</narrative>
@@ -31,13 +31,53 @@
    </mailing-address>
   </contact-info>
   <activity-scope code="3"></activity-scope>
+  <recipient-country code="ML" percentage="3"></recipient-country>
+  <recipient-country code="GH" percentage="44"></recipient-country>
+  <recipient-country code="GN" percentage="13"></recipient-country>
+  <recipient-country code="LR" percentage="22"></recipient-country>
   <recipient-country code="SL" percentage="16"></recipient-country>
   <recipient-country code="SN" percentage="1"></recipient-country>
-  <recipient-country code="GH" percentage="44"></recipient-country>
   <recipient-country code="GW" percentage="1"></recipient-country>
-  <recipient-country code="LR" percentage="22"></recipient-country>
-  <recipient-country code="ML" percentage="3"></recipient-country>
-  <recipient-country code="GN" percentage="13"></recipient-country>
+  <location>
+   <location-reach code="2"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Mali</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">Mali</narrative>
+   </description>
+   <exactness code="2"></exactness>
+  </location>
+  <location>
+   <location-reach code="2"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Ghana</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">Ghana</narrative>
+   </description>
+   <exactness code="2"></exactness>
+  </location>
+  <location>
+   <location-reach code="2"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Guinea</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">Guinea</narrative>
+   </description>
+   <exactness code="2"></exactness>
+  </location>
+  <location>
+   <location-reach code="2"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </description>
+   <exactness code="2"></exactness>
+  </location>
   <location>
    <location-reach code="2"></location-reach>
    <name>
@@ -61,50 +101,10 @@
   <location>
    <location-reach code="2"></location-reach>
    <name>
-    <narrative xml:lang="EN">Ghana</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">Ghana</narrative>
-   </description>
-   <exactness code="2"></exactness>
-  </location>
-  <location>
-   <location-reach code="2"></location-reach>
-   <name>
     <narrative xml:lang="EN">Guinea-Bissau</narrative>
    </name>
    <description>
     <narrative xml:lang="EN">Guinea-Bissau</narrative>
-   </description>
-   <exactness code="2"></exactness>
-  </location>
-  <location>
-   <location-reach code="2"></location-reach>
-   <name>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </description>
-   <exactness code="2"></exactness>
-  </location>
-  <location>
-   <location-reach code="2"></location-reach>
-   <name>
-    <narrative xml:lang="EN">Mali</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">Mali</narrative>
-   </description>
-   <exactness code="2"></exactness>
-  </location>
-  <location>
-   <location-reach code="2"></location-reach>
-   <name>
-    <narrative xml:lang="EN">Guinea</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">Guinea</narrative>
    </description>
    <exactness code="2"></exactness>
   </location>
@@ -123,30 +123,6 @@
    <value currency="USD" value-date="2014-01-01">5000000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-09-10"></transaction-date>
-   <value currency="USD" value-date="2014-09-10">4000000</value>
-   <provider-org ref="DAC-1601" type="60">
-    <narrative xml:lang="EN">Bill and Melinda Gates Foundation</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
-   </receiver-org>
-   <disbursement-channel code="4"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2014-07-18"></transaction-date>
-   <value currency="USD" value-date="2014-07-18">1000000</value>
-   <provider-org ref="DAC-1601" type="60">
-    <narrative xml:lang="EN">Bill and Melinda Gates Foundation</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
-   </receiver-org>
-   <disbursement-channel code="4"></disbursement-channel>
-  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2014-07-18"></transaction-date>
@@ -171,11 +147,35 @@
    </receiver-org>
    <disbursement-channel code="4"></disbursement-channel>
   </transaction>
-  <document-link format="TEXT/HTML" url="https://docs.gatesfoundation.org/documents/TI_Contributions.xlsx">
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2014-07-18"></transaction-date>
+   <value currency="USD" value-date="2014-07-18">1000000</value>
+   <provider-org ref="DAC-1601" type="60">
+    <narrative xml:lang="EN">Bill and Melinda Gates Foundation</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
+   </receiver-org>
+   <disbursement-channel code="4"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-09-10"></transaction-date>
+   <value currency="USD" value-date="2014-09-10">4000000</value>
+   <provider-org ref="DAC-1601" type="60">
+    <narrative xml:lang="EN">Bill and Melinda Gates Foundation</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
+   </receiver-org>
+   <disbursement-channel code="4"></disbursement-channel>
+  </transaction>
+  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/What-We-Do">
    <title>
-    <narrative xml:lang="EN">Revenue</narrative>
+    <narrative xml:lang="EN">Thematic Strategy</narrative>
    </title>
-   <category code="B01"></category>
+   <category code="B12"></category>
    <language code="EN"></language>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/How-We-Work/General-Information/Grant-Opportunities">
@@ -185,32 +185,32 @@
    <category code="A10"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/What-We-Do">
-   <title>
-    <narrative xml:lang="EN">Thematic Strategy</narrative>
-   </title>
-   <category code="B12"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/How-We-Work">
-   <title>
-    <narrative xml:lang="EN">Procurement Policy and Procedure</narrative>
-   </title>
-   <category code="B05"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/How-We-Work">
-   <title>
-    <narrative xml:lang="EN">Institutional Strategy Paper</narrative>
-   </title>
-   <category code="B02"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org">
    <title>
     <narrative xml:lang="EN">Organization web page</narrative>
    </title>
    <category code="B16"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/Who-We-Are/General-Information/Financials">
+   <title>
+    <narrative xml:lang="EN">Country Audit Report</narrative>
+   </title>
+   <category code="B07"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/How-We-Work">
+   <title>
+    <narrative xml:lang="EN">Aid Allocation Policy</narrative>
+   </title>
+   <category code="B04"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://docs.gatesfoundation.org/documents/TI_Contributions.xlsx">
+   <title>
+    <narrative xml:lang="EN">Revenue</narrative>
+   </title>
+   <category code="B01"></category>
    <language code="EN"></language>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/Who-We-Are/Resources-and-Media/Annual-Reports">
@@ -220,11 +220,11 @@
    <category code="B02"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/Who-We-Are/General-Information/Financials">
+  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/How-We-Work">
    <title>
-    <narrative xml:lang="EN">Country Audit Report</narrative>
+    <narrative xml:lang="EN">Procurement Policy and Procedure</narrative>
    </title>
-   <category code="B07"></category>
+   <category code="B05"></category>
    <language code="EN"></language>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/How-We-Work/General-Information/Evaluation-Policy">
@@ -248,6 +248,13 @@
    <category code="B08"></category>
    <language code="EN"></language>
   </document-link>
+  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/Terms-of-Use">
+   <title>
+    <narrative xml:lang="EN">General terms and conditions</narrative>
+   </title>
+   <category code="B15"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/Who-We-Are/General-Information/Financials">
    <title>
     <narrative xml:lang="EN">Institutional Audit Report</narrative>
@@ -255,11 +262,11 @@
    <category code="B06"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/How-We-Work">
+  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/Who-We-Are/Resources-and-Media/Annual-Letters-List">
    <title>
-    <narrative xml:lang="EN">Aid Allocation Policy</narrative>
+    <narrative xml:lang="EN">Institutional Strategy Paper</narrative>
    </title>
-   <category code="B04"></category>
+   <category code="B02"></category>
    <language code="EN"></language>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/How-We-Work/General-Information/Evaluation-Policy">
@@ -304,18 +311,11 @@
    <category code="B02"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/Who-We-Are/Resources-and-Media/Annual-Letters-List">
+  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/How-We-Work">
    <title>
     <narrative xml:lang="EN">Institutional Strategy Paper</narrative>
    </title>
    <category code="B02"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="TEXT/HTML" url="http://www.gatesfoundation.org/Terms-of-Use">
-   <title>
-    <narrative xml:lang="EN">General terms and conditions</narrative>
-   </title>
-   <category code="B15"></category>
    <language code="EN"></language>
   </document-link>
  </iati-activity>
