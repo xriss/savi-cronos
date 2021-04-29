@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="asdb-ph" dstore:index="19" hierarchy="1" iati-activities:generated-datetime="2021-03-25T10:23:30.637" iati-activities:version="2.03" last-updated-datetime="2021-03-25T09:01:24.098" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="asdb-ph" dstore:index="44" hierarchy="1" iati-activities:generated-datetime="2021-04-26T10:14:02.150" iati-activities:version="2.03" last-updated-datetime="2021-03-31T00:00:00.000" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46004-54171-002-LN3961</iati-identifier>
   <reporting-org ref="46004" type="40">
    <narrative xml:lang="EN">Asian Development Bank</narrative>
@@ -250,9 +250,31 @@
    </receiver-org>
   </transaction>
   <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">1033714.98</value>
+   <provider-org>
+    <narrative xml:lang="EN">Asian Development Bank</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Department of Health;Department of Health</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
    <value currency="USD" value-date="2021-02-28">51041.67</value>
+   <provider-org>
+    <narrative xml:lang="EN">Asian Development Bank</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Department of Health;Department of Health</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">0</value>
    <provider-org>
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
@@ -266,7 +288,7 @@
    </title>
    <category code="A09"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-03-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54171/54171-002-lna-en.pdf">
    <title>
@@ -274,7 +296,7 @@
    </title>
    <category code="A04"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-03-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54171/54171-002-rrp-en.pdf">
    <title>
@@ -286,7 +308,7 @@
    <category code="A05"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-03-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/54171-002/main#project-tenders">
    <title>
@@ -294,7 +316,7 @@
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-03-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/54171-002/main#project-tenders">
    <title>
@@ -302,8 +324,9 @@
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-03-31"></document-date>
   </document-link>
+  <related-activity ref="LN4050" type="3"></related-activity>
   <conditions attached="0">
    <condition type="2">
     <narrative xml:lang="EN">Type 2</narrative>
@@ -316,18 +339,43 @@
    <title>
     <narrative xml:lang="EN">Design and Monitoring Framework</narrative>
    </title>
+   <description>
+    <narrative xml:lang="EN">Capacity of DOH to detect, contain, and treat COVID-19 cases strengthened</narrative>
+   </description>
    <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54171/54171-002-rrp-en.pdf">
     <title>
      <narrative xml:lang="EN">Reports and Recommendations of the President</narrative>
     </title>
     <category code="A08"></category>
     <language code="EN"></language>
-    <document-date iso-date="2021-02-28"></document-date>
+    <document-date iso-date="2021-03-31"></document-date>
    </document-link>
-   <indicator measure="1">
+   <indicator aggregation-status="0" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">TBA</narrative>
+     <narrative xml:lang="EN">Mortality rate from COVID-19</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Capacity of DOH to detect, contain, and treat COVID-19 cases strengthened</narrative>
+    </description>
+    <baseline value="2.5" year="2020"></baseline>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Average turnaround time from sample collection to test results</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Capacity of DOH to detect, contain, and treat COVID-19 cases strengthened</narrative>
+    </description>
+    <baseline value="48-72 hours" year="2020"></baseline>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">The overall test positivity rate of COVID-19 confirmed cases</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Capacity of DOH to detect, contain, and treat COVID-19 cases strengthened</narrative>
+    </description>
+    <baseline value="8.7" year="2020"></baseline>
    </indicator>
   </result>
  </iati-activity>
