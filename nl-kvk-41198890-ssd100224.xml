@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="EUR" dstore:dataset="plannlno-ao" dstore:index="1" hierarchy="1" humanitarian="0" iati-activities:generated-datetime="2021-01-29T10:18:56.2534779+01:00" iati-activities:version="2.02" last-updated-datetime="2021-01-29T09:07:55.4870523Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="EUR" dstore:dataset="plannlno-ao" dstore:index="2" hierarchy="1" humanitarian="1" iati-activities:generated-datetime="2021-04-28T16:03:01.0531334+02:00" iati-activities:version="2.02" last-updated-datetime="2021-04-28T13:53:36.0462091Z" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-SSD100224</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -62,6 +62,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
   <activity-date iso-date="2021-01-01" type="1"></activity-date>
   <activity-date iso-date="2021-01-01" type="2"></activity-date>
   <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -83,21 +84,30 @@ Localization efforts in 2021 will include additional activities to ensure that a
     <narrative xml:lang="EN">AMSTERDAM</narrative>
    </mailing-address>
   </contact-info>
+  <activity-scope code="4"></activity-scope>
   <recipient-country code="SS" percentage="100">
    <narrative xml:lang="EN"></narrative>
   </recipient-country>
-  <sector code="72010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  <sector code="72050" percentage="60" vocabulary="1">
+   <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
+  </sector>
+  <sector code="52010" percentage="40" vocabulary="1">
+   <narrative xml:lang="EN">Food aid/Food security programmes</narrative>
   </sector>
   <policy-marker code="PLANNL-D" significance="2" vocabulary="99">
    <narrative xml:lang="EN">Protection and Assistance in Emergencies (Disaster Risk Management)</narrative>
   </policy-marker>
-  <policy-marker code="1" significance="1" vocabulary="1">
+  <policy-marker code="1" significance="2" vocabulary="1">
    <narrative xml:lang="EN">Gender Equality</narrative>
   </policy-marker>
-  <policy-marker code="PLAN AOGD 5" significance="1" vocabulary="99">
-   <narrative xml:lang="EN">THRIVE -Early Childhood Care and Development (including WASH) (ECCD)</narrative>
+  <policy-marker code="PLAN AOGD 6" significance="2" vocabulary="99">
+   <narrative xml:lang="EN">THRIVE - Protection</narrative>
   </policy-marker>
+  <collaboration-type code="3"></collaboration-type>
+  <default-flow-type code="30"></default-flow-type>
+  <default-finance-type code="110"></default-finance-type>
+  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
@@ -109,12 +119,59 @@ Localization efforts in 2021 will include additional activities to ensure that a
    <value currency="EUR" value-date="2021-01-01">778591</value>
   </budget>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="EUR" value-date="2021-02-15">42247</value>
+   <provider-org ref="NL-KVK-41198890" type="21">
+    <narrative xml:lang="EN">Plan International Netherlands</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-18"></transaction-date>
+   <value currency="EUR" value-date="2021-03-18">500960</value>
+   <provider-org ref="NL-KVK-41201463" type="21">
+    <narrative xml:lang="EN">Save the Children Nederland</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-01-31"></transaction-date>
    <value currency="EUR" value-date="2021-01-31">778591</value>
    <receiver-org ref="SS-RRC-066" type="22">
     <narrative xml:lang="EN">Plan International South Sudan</narrative>
    </receiver-org>
+  </transaction>
+  <transaction ref="UB1364">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="EUR" value-date="2021-03-31">25348</value>
+   <receiver-org ref="SS-RRC-066" type="22">
+    <narrative xml:lang="EN">Plan International South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UB1365">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="EUR" value-date="2021-03-31">441806</value>
+   <receiver-org ref="SS-RRC-066" type="22">
+    <narrative xml:lang="EN">Plan International South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="2021-02-28T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="EUR" value-date="2021-02-28">5328</value>
+  </transaction>
+  <transaction ref="2021-03-31T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="EUR" value-date="2021-03-31">2310</value>
+  </transaction>
+  <transaction ref="2021-01-31T00:00:00.000">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="EUR" value-date="2021-01-31">2450</value>
   </transaction>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
@@ -132,7 +189,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Humanitarian support: protection</narrative>
     </description>
     <reference code="PRO-I11" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of persons reached by the implementation of specific GBV prevention measures</narrative>
      </comment>
@@ -153,7 +210,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Humanitarian support: protection</narrative>
     </description>
     <reference code="PRO-I11" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of persons reached by the implementation of specific GBV prevention measures</narrative>
      </comment>
@@ -274,7 +331,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Humanitarian support: localisation</narrative>
     </description>
     <reference code="LOC-I2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">% of budget spent on capacity building of national and local actors</narrative>
      </comment>
@@ -321,7 +378,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Number of participants showing an increased knowledge on the protection subject in focus</narrative>
     </title>
     <reference code="PRO-I6" indicator-uri="none" vocabulary="1"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of participants showing an increased knowledge on the protection subject in focus</narrative>
      </comment>
@@ -339,7 +396,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Number of participants showing an increased knowledge on the protection subject in focus</narrative>
     </title>
     <reference code="PRO-I6" indicator-uri="none" vocabulary="1"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of participants showing an increased knowledge on the protection subject in focus</narrative>
      </comment>
@@ -357,7 +414,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Number of participants showing an increased knowledge on the protection subject in focus</narrative>
     </title>
     <reference code="PRO-I6" indicator-uri="none" vocabulary="1"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of participants showing an increased knowledge on the protection subject in focus</narrative>
      </comment>
@@ -386,7 +443,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Humanitarian support: Multi-Purpose Cash</narrative>
     </description>
     <reference code="CSH-I2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of people benefitting from conditional and unrestricted cash</narrative>
      </comment>
@@ -407,7 +464,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Humanitarian support: Multi-Purpose Cash</narrative>
     </description>
     <reference code="CSH-I2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of people benefitting from conditional and unrestricted cash</narrative>
      </comment>
@@ -428,7 +485,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Humanitarian support: Multi-Purpose Cash</narrative>
     </description>
     <reference code="CSH-I2" indicator-uri="none" vocabulary="1"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of people benefitting from conditional and unrestricted cash</narrative>
      </comment>
@@ -449,7 +506,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Humanitarian support: Multi-Purpose Cash</narrative>
     </description>
     <reference code="CSH-I2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of people benefitting from conditional and unrestricted cash</narrative>
      </comment>
@@ -478,7 +535,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Humaniration support: accountability</narrative>
     </description>
     <reference code="ACC-I1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of crisis-affected people who are also involved in the design, implementation, montoring and/or evaluation of the programme</narrative>
      </comment>
@@ -489,6 +546,12 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <target value="39.00">
       <location ref="South Sudan"></location>
      </target>
+     <actual value="44.00">
+      <comment>
+       <narrative xml:lang="EN">The Project team conducted launching  consulted meeting in Malakala together with other partners that include SAADO, WCH, and WOCO and government line ministries, community leaders, about the project&#x2019;s activities and who would qualify to benefit from this interventions, and beneficiary&#x2019;s selection criteria and project impact were discuss and agreed upon action points collectively, so that the intervention does not heighten risk and insecurity for anyone.The stakeholders(gov&#x2019;t line ministries, RRC, community leaders, women representative representative in Malakal Town and POC were participated.
+12 members (Male 10, Female 2) of local leaders participated in the selection of FSl beneficiaries,this members were from both project locations Malakal town and POC who were happy to participated in the implementation of South Sudan Join Response 7 in Malakal County upper Nile State.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -499,7 +562,7 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <narrative xml:lang="EN">Humaniration support: accountability</narrative>
     </description>
     <reference code="ACC-I1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of crisis-affected people who are also involved in the design, implementation, montoring and/or evaluation of the programme</narrative>
      </comment>
@@ -510,6 +573,12 @@ Localization efforts in 2021 will include additional activities to ensure that a
      <target value="34.00">
       <location ref="South Sudan"></location>
      </target>
+     <actual value="22.00">
+      <comment>
+       <narrative xml:lang="EN">The Project team conducted launching  consulted meeting in Malakala together with other partners that include SAADO, WCH, and WOCO and government line ministries, community leaders, about the project&#x2019;s activities and who would qualify to benefit from this interventions, and beneficiary&#x2019;s selection criteria and project impact were discuss and agreed upon action points collectively, so that the intervention does not heighten risk and insecurity for anyone.The stakeholders(gov&#x2019;t line ministries, RRC, community leaders, women representative representative in Malakal Town and POC were participated.
+12 members (Male 10, Female 2) of local leaders participated in the selection of FSl beneficiaries,this members were from both project locations Malakal town and POC who were happy to participated in the implementation of South Sudan Join Response 7 in Malakal County upper Nile State.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -539,6 +608,11 @@ Localization efforts in 2021 will include additional activities to ensure that a
 gender blind (1), gender neutral (2), gender aware (3), gender transformative (4)</narrative>
     </description>
     <reference code="0000.11" indicator-uri="none" vocabulary="1"></reference>
+    <baseline value="0.00" year="2021">
+     <comment>
+      <narrative xml:lang="EN">Gender transformative marker - design</narrative>
+     </comment>
+    </baseline>
    </indicator>
    <indicator ascending="1" measure="4">
     <title>
@@ -548,6 +622,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">0=Not measured; 1=Gender unaware; 2=Gender Neutral; 3=Gender Aware; 4=Gender Transformative. For measurement of KPI-6: Percentage of running programme activities that are gender-aware or gender-transformative</narrative>
     </description>
     <reference code="0000.06" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="0.00" year="2021">
+     <comment>
+      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
+     </comment>
+    </baseline>
    </indicator>
    <indicator ascending="1" measure="4">
     <title>
@@ -558,6 +637,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
 1 = no measure,  2 = protocol in place, 3= protocol &amp; risk assessment in place, 4= protocol &amp;  risk assessment &amp; management plan in place</narrative>
     </description>
     <reference code="0000.17" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="0.00" year="2021">
+     <comment>
+      <narrative xml:lang="EN">Child Safeguarding Measurement marker</narrative>
+     </comment>
+    </baseline>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -608,6 +692,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
 gender blind (1), gender neutral (2), gender aware (3), gender transformative (4)</narrative>
     </description>
     <reference code="0000.12" indicator-uri="none" vocabulary="1"></reference>
+    <baseline value="0.00" year="2021">
+     <comment>
+      <narrative xml:lang="EN">Gender transformative marker - implementation</narrative>
+     </comment>
+    </baseline>
    </indicator>
    <indicator ascending="1" measure="4">
     <title>
@@ -647,6 +736,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">Humanitarian support: protection</narrative>
     </description>
     <reference code="PRO-I15b" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="0.00" year="2021">
+     <comment>
+      <narrative xml:lang="EN">Number of children &lt; 18 (boys and girls) benefit from psychosocial and life skills support within Child Friendly Spaces / Childrens clubs</narrative>
+     </comment>
+    </baseline>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -656,7 +750,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">Humanitarian support: protection</narrative>
     </description>
     <reference code="PRO-I15" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of children that received support specified to their needs</narrative>
      </comment>
@@ -677,7 +771,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">Humanitarian support: protection</narrative>
     </description>
     <reference code="PRO-I15" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of children that received support specified to their needs</narrative>
      </comment>
@@ -706,7 +800,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">Humanitarian support: capacity building</narrative>
     </description>
     <reference code="LOC-I3" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of national or local actors supported with capacity building</narrative>
      </comment>
@@ -827,7 +921,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">Humanitarian support: protection</narrative>
     </description>
     <reference code="PRO-I5" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of persons with increased/appropriate information on relevant rights and/or entitlements</narrative>
      </comment>
@@ -848,7 +942,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">Humanitarian support: protection</narrative>
     </description>
     <reference code="PRO-I5" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of persons with increased/appropriate information on relevant rights and/or entitlements</narrative>
      </comment>
@@ -869,7 +963,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">Humanitarian support: protection</narrative>
     </description>
     <reference code="PRO-I5" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of persons with increased/appropriate information on relevant rights and/or entitlements</narrative>
      </comment>
@@ -890,7 +984,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">Humanitarian support: protection</narrative>
     </description>
     <reference code="PRO-I5" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">Number of persons with increased/appropriate information on relevant rights and/or entitlements</narrative>
      </comment>
@@ -919,7 +1013,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">Humanitarian support: localisation</narrative>
     </description>
     <reference code="LOC-I1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0" year="2021">
+    <baseline value="0.00" year="2021">
      <comment>
       <narrative xml:lang="EN">% of budget that went to national and local actors</narrative>
      </comment>

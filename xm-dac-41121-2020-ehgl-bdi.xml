@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="unhcr-2020" dstore:index="45" hierarchy="3" humanitarian="1" iati-activities:generated-datetime="2021-03-02T15:48:31.0771+01:00" iati-activities:version="2.03" last-updated-datetime="2021-03-02T15:29:30+01:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:unhcr="http://reporting.unhcr.org/">
+ <iati-activity default-currency="USD" dstore:dataset="unhcr-2020" dstore:index="45" hierarchy="3" humanitarian="1" iati-activities:generated-datetime="2021-04-29T08:34:51.0391+02:00" iati-activities:version="2.03" last-updated-datetime="2021-04-29T08:34:16+02:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:unhcr="http://reporting.unhcr.org/">
   <iati-identifier>XM-DAC-41121-2020-EHGL-BDI</iati-identifier>
   <reporting-org ref="XM-DAC-41121" type="40">
    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
@@ -21,6 +21,9 @@
    <narrative xml:lang="EN">This activity includes budget and incoming transactions for the COVID-19 response by the UNHCR operation in Burundi. For more details, please follow the link to the COVID-19 SITUATION page which can be found in &#x201C;Documents&#x201D;.</narrative>
   </description>
   <participating-org ref="XM-DAC-41121" role="4" type="40">
+   <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41121" role="2" type="40">
    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
   </participating-org>
   <participating-org role="1" type="10">
@@ -50,15 +53,6 @@
   <participating-org role="1" type="22">
    <narrative xml:lang="EN">USA for UNHCR</narrative>
   </participating-org>
-  <participating-org ref="XI-IATI-EC_DEVCO" role="1" type="15">
-   <narrative xml:lang="EN">European Commission - Directorate-General for International Cooperation and Development</narrative>
-  </participating-org>
-  <participating-org ref="XM-OCHA-CERF" role="1" type="40">
-   <narrative xml:lang="EN">United Nations Central Emergency Response Fund (CERF)</narrative>
-  </participating-org>
-  <participating-org ref="XM-DAC-41140" role="1" type="40">
-   <narrative xml:lang="EN">United Nations World Food Programme (WFP)</narrative>
-  </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Government of France</narrative>
   </participating-org>
@@ -71,12 +65,21 @@
   <participating-org ref="US-USAGOV" role="1" type="10">
    <narrative xml:lang="EN">United States</narrative>
   </participating-org>
+  <participating-org ref="XM-OCHA-CERF" role="1" type="40">
+   <narrative xml:lang="EN">United Nations Central Emergency Response Fund (CERF)</narrative>
+  </participating-org>
+  <participating-org ref="XI-IATI-EC_DEVCO" role="1" type="15">
+   <narrative xml:lang="EN">European Commission - Directorate-General for International Cooperation and Development</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41140" role="1" type="40">
+   <narrative xml:lang="EN">United Nations World Food Programme (WFP)</narrative>
+  </participating-org>
   <participating-org role="1" type="70">
    <narrative xml:lang="EN">Private donors</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2020-01-01" type="2"></activity-date>
   <activity-date iso-date="2020-12-31" type="4"></activity-date>
+  <activity-date iso-date="2020-01-01" type="2"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
@@ -163,11 +166,11 @@
   <sector code="113" percentage="0.72" vocabulary="98">
    <narrative xml:lang="EN">Legal Remedies and Legal Assistance</narrative>
   </sector>
-  <sector code="2" percentage="0.02" vocabulary="99">
-   <narrative xml:lang="EN">Stateless programme</narrative>
-  </sector>
   <sector code="2" percentage="51.78" vocabulary="10">
    <narrative xml:lang="EN">Early Recovery</narrative>
+  </sector>
+  <sector code="2" percentage="0.02" vocabulary="99">
+   <narrative xml:lang="EN">Stateless programme</narrative>
   </sector>
   <sector code="210" percentage="0.52" vocabulary="98">
    <narrative xml:lang="EN">Reception Conditions</narrative>
@@ -196,11 +199,11 @@
   <sector code="314" percentage="0.84" vocabulary="98">
    <narrative xml:lang="EN">Protection of Children</narrative>
   </sector>
-  <sector code="4" percentage="11.42" vocabulary="10">
-   <narrative xml:lang="EN">Emergency Shelter and NFI</narrative>
-  </sector>
   <sector code="4" percentage="3.68" vocabulary="99">
    <narrative xml:lang="EN">Internally Displaced Person projects</narrative>
+  </sector>
+  <sector code="4" percentage="11.42" vocabulary="10">
+   <narrative xml:lang="EN">Emergency Shelter and NFI</narrative>
   </sector>
   <sector code="410" percentage="5.73" vocabulary="98">
    <narrative xml:lang="EN">Health</narrative>
@@ -336,24 +339,12 @@
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">230000</value>
    <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19) Annual contribution summary</narrative>
+    <narrative xml:lang="EN">Annual contribution summary</narrative>
    </description>
    <provider-org type="70">
     <narrative xml:lang="EN">Private donors in the United States of America</narrative>
    </provider-org>
    <unhcr:value-USD>230000</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-07-16"></transaction-date>
-   <value currency="USD" value-date="2020-07-16">1300000</value>
-   <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
-   </description>
-   <provider-org ref="US-USAGOV" type="10">
-    <narrative xml:lang="EN">United States</narrative>
-   </provider-org>
-   <unhcr:value-USD>1300000</unhcr:value-USD>
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
@@ -430,11 +421,11 @@
   <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-07-16"></transaction-date>
-   <value currency="USD" value-date="2020-07-16">10200000</value>
+   <value currency="USD" value-date="2020-07-16">11500000</value>
    <provider-org ref="US-USAGOV" type="10">
     <narrative xml:lang="EN">United States</narrative>
    </provider-org>
-   <unhcr:value-USD>10200000</unhcr:value-USD>
+   <unhcr:value-USD>11500000</unhcr:value-USD>
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
@@ -451,7 +442,7 @@
    </title>
    <category code="A12"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-04-25"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://help.unhcr.org/">
    <title>
@@ -459,7 +450,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-04-25"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unhcr.org/">
    <title>
@@ -467,7 +458,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-04-25"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/iati">
    <title>
@@ -475,7 +466,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-04-25"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unhcr.org/search?page=search&amp;skip=0&amp;docid=&amp;cid=49aea93a7d&amp;coi=BDI&amp;comid=4a098fdd6">
    <title>
@@ -483,7 +474,7 @@
    </title>
    <category code="B17"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-04-25"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://app.powerbi.com/view?r=eyJrIjoiM2M2NDMyZTgtZmQ4OC00ZDE1LWEyYWMtMTAxZDY2NzMyY2QxIiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9">
    <title>
@@ -491,7 +482,7 @@
    </title>
    <category code="B17"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-04-25"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/covid-19">
    <title>
@@ -499,7 +490,7 @@
    </title>
    <category code="B18"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-02-28"></document-date>
+   <document-date iso-date="2021-04-25"></document-date>
   </document-link>
   <related-activity ref="XM-DAC-41121-2020-EHGL" type="1"></related-activity>
   <related-activity ref="XM-DAC-41121-2019-AFR-BDI" type="3"></related-activity>
