@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="GBP" dstore:dataset="fcdo-sl" dstore:index="312" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2021-03-31T18:30:12" iati-activities:version="2.03" last-updated-datetime="2016-06-29T00:00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="GBP" dstore:dataset="fcdo-sl" dstore:index="312" hierarchy="2" humanitarian="1" iati-activities:generated-datetime="2021-04-30T18:30:28" iati-activities:version="2.03" last-updated-datetime="2016-06-29T00:00:00" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-1-204838-101</iati-identifier>
   <reporting-org ref="GB-GOV-1" type="10">
    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -40,10 +40,10 @@
    </owner-org>
   </other-identifier>
   <activity-status code="4"></activity-status>
-  <activity-date iso-date="2014-07-15" type="2"></activity-date>
-  <activity-date iso-date="2016-03-31" type="4"></activity-date>
-  <activity-date iso-date="2016-03-31" type="3"></activity-date>
   <activity-date iso-date="2014-07-15" type="1"></activity-date>
+  <activity-date iso-date="2016-03-31" type="4"></activity-date>
+  <activity-date iso-date="2014-07-15" type="2"></activity-date>
+  <activity-date iso-date="2016-03-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -125,6 +125,20 @@
     <narrative xml:lang="EN">Crown Agents Limited</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="REFCO4">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-07-07"></transaction-date>
+   <value currency="GBP" value-date="2015-07-07">165989</value>
+   <description>
+    <narrative xml:lang="EN">This is an outgoing commitment to Norwegian Refugee Council of &#xA3;165,989.21</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-1-204838-101" ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </provider-org>
+   <receiver-org ref="NO-BRC-977538319" type="21">
+    <narrative xml:lang="EN">Norwegian Refugee Council</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="REFCO2">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2015-07-07"></transaction-date>
@@ -151,20 +165,6 @@
    </provider-org>
    <receiver-org type="21">
     <narrative xml:lang="EN">CANADEM</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction ref="REFCO4">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-07-07"></transaction-date>
-   <value currency="GBP" value-date="2015-07-07">165989</value>
-   <description>
-    <narrative xml:lang="EN">This is an outgoing commitment to Norwegian Refugee Council of &#xA3;165,989.21</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-1-204838-101" ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </provider-org>
-   <receiver-org ref="NO-BRC-977538319" type="21">
-    <narrative xml:lang="EN">Norwegian Refugee Council</narrative>
    </receiver-org>
   </transaction>
   <transaction ref="6041285">
@@ -251,10 +251,10 @@
     <narrative xml:lang="EN">Crown Agents Limited</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="6168542">
+  <transaction ref="6168545">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2014-12-02"></transaction-date>
-   <value currency="GBP" value-date="2014-12-02">-1698</value>
+   <value currency="GBP" value-date="2014-12-02">-362000</value>
    <description>
     <narrative xml:lang="EN">Technical &amp; Advisory services</narrative>
    </description>
@@ -279,10 +279,10 @@
     <narrative xml:lang="EN">Crown Agents Limited</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="6168545">
+  <transaction ref="6168542">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2014-12-02"></transaction-date>
-   <value currency="GBP" value-date="2014-12-02">-362000</value>
+   <value currency="GBP" value-date="2014-12-02">-1698</value>
    <description>
     <narrative xml:lang="EN">Technical &amp; Advisory services</narrative>
    </description>
@@ -598,20 +598,6 @@
     <narrative xml:lang="EN">The Country Lodge Complex</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="6030372">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2014-09-03"></transaction-date>
-   <value currency="GBP" value-date="2014-09-03">859</value>
-   <description>
-    <narrative xml:lang="EN">Technical &amp; Advisory services</narrative>
-   </description>
-   <provider-org ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Abu Sesay</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="6030368">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2014-09-03"></transaction-date>
@@ -624,6 +610,20 @@
    </provider-org>
    <receiver-org>
     <narrative xml:lang="EN">The Country Lodge Complex</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="6030372">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2014-09-03"></transaction-date>
+   <value currency="GBP" value-date="2014-09-03">859</value>
+   <description>
+    <narrative xml:lang="EN">Technical &amp; Advisory services</narrative>
+   </description>
+   <provider-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Abu Sesay</narrative>
    </receiver-org>
   </transaction>
   <transaction ref="6090081">
