@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-bd" dstore:index="125" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-bd" dstore:index="125" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-72038820CA00002</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -14,14 +14,14 @@
   <participating-org ref="US-GOV-11" role="1" type="10">
    <narrative xml:lang="EN">Department of State</narrative>
   </participating-org>
+  <participating-org role="4" type="23">
+   <narrative xml:lang="EN">Icddrb</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="2" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="23">
-   <narrative xml:lang="EN">Icddrb</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-10-01" type="1"></activity-date>
@@ -47,86 +47,10 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <transaction ref="0203B0344F2D">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="12263" vocabulary="1">
-    <narrative xml:lang="EN">Tuberculosis control</narrative>
-   </sector>
-   <sector code="3002" vocabulary="99">
-    <narrative xml:lang="EN">Tuberculosis</narrative>
-   </sector>
-   <recipient-country code="BD"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="B483DCF963D6">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">800000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="12263" vocabulary="1">
-    <narrative xml:lang="EN">Tuberculosis control</narrative>
-   </sector>
-   <sector code="3002" vocabulary="99">
-    <narrative xml:lang="EN">Tuberculosis</narrative>
-   </sector>
-   <recipient-country code="BD"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="6D515527256F">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">435199.07</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="12263" vocabulary="1">
-    <narrative xml:lang="EN">Tuberculosis control</narrative>
-   </sector>
-   <sector code="3002" vocabulary="99">
-    <narrative xml:lang="EN">Tuberculosis</narrative>
-   </sector>
-   <recipient-country code="BD"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="B42B8FEE1CB5">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-04-30"></transaction-date>
    <value currency="USD" value-date="2020-04-30">600000</value>
-   <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
-   </description>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="12264" vocabulary="1">
-    <narrative xml:lang="EN">COVID-19 control</narrative>
-   </sector>
-   <sector code="3004" vocabulary="99">
-    <narrative xml:lang="EN">Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-   </sector>
-   <recipient-country code="BD"></recipient-country>
-   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="73379025B342">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">173776.14</value>
    <description>
     <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
    </description>
@@ -167,38 +91,24 @@
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="ABA3593A0B2B">
+  <transaction ref="73379025B342">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">125135.81</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">173776.14</value>
+   <description>
+    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
+   </description>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="12263" vocabulary="1">
-    <narrative xml:lang="EN">Tuberculosis control</narrative>
+   <sector code="12264" vocabulary="1">
+    <narrative xml:lang="EN">COVID-19 control</narrative>
    </sector>
-   <sector code="3002" vocabulary="99">
-    <narrative xml:lang="EN">Tuberculosis</narrative>
+   <sector code="3004" vocabulary="99">
+    <narrative xml:lang="EN">Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
    </sector>
    <recipient-country code="BD"></recipient-country>
+   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="F42E17587D38">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">364800.93</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="12263" vocabulary="1">
-    <narrative xml:lang="EN">Tuberculosis control</narrative>
-   </sector>
-   <sector code="3002" vocabulary="99">
-    <narrative xml:lang="EN">Tuberculosis</narrative>
-   </sector>
-   <recipient-country code="BD"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
@@ -353,6 +263,96 @@
    <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="B483DCF963D6">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">800000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="12263" vocabulary="1">
+    <narrative xml:lang="EN">Tuberculosis control</narrative>
+   </sector>
+   <sector code="3002" vocabulary="99">
+    <narrative xml:lang="EN">Tuberculosis</narrative>
+   </sector>
+   <recipient-country code="BD"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="6D515527256F">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">435199.07</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="12263" vocabulary="1">
+    <narrative xml:lang="EN">Tuberculosis control</narrative>
+   </sector>
+   <sector code="3002" vocabulary="99">
+    <narrative xml:lang="EN">Tuberculosis</narrative>
+   </sector>
+   <recipient-country code="BD"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="0203B0344F2D">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="12263" vocabulary="1">
+    <narrative xml:lang="EN">Tuberculosis control</narrative>
+   </sector>
+   <sector code="3002" vocabulary="99">
+    <narrative xml:lang="EN">Tuberculosis</narrative>
+   </sector>
+   <recipient-country code="BD"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="F42E17587D38">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">364800.93</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="12263" vocabulary="1">
+    <narrative xml:lang="EN">Tuberculosis control</narrative>
+   </sector>
+   <sector code="3002" vocabulary="99">
+    <narrative xml:lang="EN">Tuberculosis</narrative>
+   </sector>
+   <recipient-country code="BD"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="ABA3593A0B2B">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">125135.81</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="12263" vocabulary="1">
+    <narrative xml:lang="EN">Tuberculosis control</narrative>
+   </sector>
+   <sector code="3002" vocabulary="99">
+    <narrative xml:lang="EN">Tuberculosis</narrative>
+   </sector>
+   <recipient-country code="BD"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>

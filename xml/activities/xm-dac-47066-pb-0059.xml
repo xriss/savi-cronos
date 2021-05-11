@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1687" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1687" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-PB.0059</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,18 +11,18 @@
   <description>
    <narrative xml:lang="EN">COVID-19 poses a direct challenge to the peace and stability of the Bangsamoro Autonomous Region in Muslim Mindanao and its surrounding areas in the Philippines by straining efforts to reintegrate former combatants, driving up competition for scarce resources in localities with historical tension, and shifting institutional focus away from building inclusive policies during the formative stage of region&apos;s new administrative apparatus. To address these challenges, the project seeks to fortify reintegration efforts for former women combatants by empowering them to engage and support peacebuilding efforts; support conflict understanding and prevention by promoting gender-responsive, inclusive, and culturally-sensitive legislation, policies and programmes; and build the resilience of communities in conflict hotspots through collaborative socio-economic activities and inclusive community-based reconciliation mechanisms.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-41141-MPTF-125194" ref="XM-DAC-41141" role="1" type="40">
-   <narrative xml:lang="EN">UNITED NATIONS PEACEBUILDING FUND</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-41141-MPTF-125194" ref="XM-DAC-41141" role="1" type="40">
+   <narrative xml:lang="EN">UNITED NATIONS PEACEBUILDING FUND</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-12-15" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-12-15" type="2">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-12-15" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <activity-date iso-date="2022-06-14" type="3">
    <narrative xml:lang="EN">Planned</narrative>
@@ -38,6 +38,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="PH" percentage="100"></recipient-country>
+  <location ref="PH">
+   <location-reach code="2"></location-reach>
+   <location-id code="PH" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Philippines</narrative>
+   </name>
+   <administrative code="PH" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -50,22 +58,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="PH">
-   <location-reach code="2"></location-reach>
-   <location-id code="PH" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Philippines</narrative>
-   </name>
-   <administrative code="PH" vocabulary="A4"></administrative>
-  </location>
-  <sector code="PB" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
-   <narrative xml:lang="EN">Peacebuilding and Peace Preservation</narrative>
+  <sector code="15220" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Civilian peace-building, conflict prevention and resolution</narrative>
   </sector>
   <sector code="01" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Movement, Emergency and Post-Crisis Migration Management</narrative>
   </sector>
-  <sector code="15220" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Civilian peace-building, conflict prevention and resolution</narrative>
+  <sector code="PB" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
+   <narrative xml:lang="EN">Peacebuilding and Peace Preservation</narrative>
   </sector>
   <policy-marker code="2B" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project which targets a gender and/or focuses on gender issues (targeted)</narrative>

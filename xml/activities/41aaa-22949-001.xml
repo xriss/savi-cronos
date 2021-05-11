@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unops-sn" dstore:index="7" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="unops-sn" dstore:index="7" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>41AAA-22949-001</iati-identifier>
   <reporting-org ref="41AAA" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
@@ -11,10 +11,10 @@
   <description type="1">
    <narrative xml:lang="EN">Projet d&#x2019;Appui d&#x2019;Urgence au Plan National de Riposte au COVID-19, R&#xE9;publique du S&#xE9;n&#xE9;gal</narrative>
   </description>
-  <participating-org ref="41AAA" role="4" type="40">
+  <participating-org ref="41AAA" role="2" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
   </participating-org>
-  <participating-org ref="41AAA" role="2" type="40">
+  <participating-org ref="41AAA" role="4" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
@@ -45,21 +45,6 @@
    <period-end iso-date="2023-12-31"></period-end>
    <value currency="USD" value-date="2021-01-18">3372247</value>
   </budget>
-  <transaction ref="22949-001_2021_2023">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-01-01"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">3372247</value>
-   <description>
-    <narrative xml:lang="EN">Total partner commitment</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Senegal</narrative>
-   </provider-org>
-   <receiver-org ref="41AAA">
-    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction ref="22949-001_202102">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-02-01"></transaction-date>
@@ -82,6 +67,21 @@
    <provider-org ref="41AAA">
     <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
    </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction ref="22949-001_2021_2023">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">3372247</value>
+   <description>
+    <narrative xml:lang="EN">Total partner commitment</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Senegal</narrative>
+   </provider-org>
+   <receiver-org ref="41AAA">
+    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <document-link format="TEXT/HTML" url="https://data.unops.org/index.htm#SegmentCode=ORG&amp;FocusCode=DATA_PROJECTS&amp;EntityCode=PROJECT_ID&amp;EntityValue=22949-001">

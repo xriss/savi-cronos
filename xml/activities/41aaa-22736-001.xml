@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unops-br" dstore:index="11" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="unops-br" dstore:index="11" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>41AAA-22736-001</iati-identifier>
   <reporting-org ref="41AAA" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
@@ -11,10 +11,10 @@
   <description type="1">
    <narrative xml:lang="EN">Assist&#xEA;ncia para Aquisi&#xE7;&#xE3;o de Medicamentos para o Covid-19 no Estado do Acre</narrative>
   </description>
-  <participating-org ref="41AAA" role="4" type="40">
+  <participating-org ref="41AAA" role="2" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
   </participating-org>
-  <participating-org ref="41AAA" role="2" type="40">
+  <participating-org ref="41AAA" role="4" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
@@ -45,19 +45,16 @@
    <period-end iso-date="2023-12-31"></period-end>
    <value currency="USD" value-date="2020-11-15">4711614</value>
   </budget>
-  <transaction ref="22736-001_2020_2023">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">4711614</value>
+  <transaction ref="22736-001_202102">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-01"></transaction-date>
+   <value currency="USD" value-date="2021-02-01">110448</value>
    <description>
-    <narrative xml:lang="EN">Total partner commitment</narrative>
+    <narrative xml:lang="EN">Expenditure for 2021-February</narrative>
    </description>
-   <provider-org>
-    <narrative xml:lang="EN">Brazil</narrative>
-   </provider-org>
-   <receiver-org ref="41AAA">
+   <provider-org ref="41AAA">
     <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
-   </receiver-org>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction ref="22736-001_202101">
@@ -66,18 +63,6 @@
    <value currency="USD" value-date="2021-01-01">1033</value>
    <description>
     <narrative xml:lang="EN">Expenditure for 2021-January</narrative>
-   </description>
-   <provider-org ref="41AAA">
-    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction ref="22736-001_202102">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-02-01"></transaction-date>
-   <value currency="USD" value-date="2021-02-01">110448</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for 2021-February</narrative>
    </description>
    <provider-org ref="41AAA">
     <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
@@ -94,6 +79,21 @@
    <provider-org ref="41AAA">
     <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
    </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction ref="22736-001_2020_2023">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">4711614</value>
+   <description>
+    <narrative xml:lang="EN">Total partner commitment</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Brazil</narrative>
+   </provider-org>
+   <receiver-org ref="41AAA">
+    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <document-link format="TEXT/HTML" url="https://data.unops.org/index.htm#SegmentCode=ORG&amp;FocusCode=DATA_PROJECTS&amp;EntityCode=PROJECT_ID&amp;EntityValue=22736-001">

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="ec-echo-2020" dstore:index="9" hierarchy="1" humanitarian="1" linked-data-uri="http://ec.europa.eu/echo/funding-evaluations/funding-decisions-hips_en" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="ec-echo-2020" dstore:index="9" hierarchy="1" humanitarian="1" iati-activities:linked-data-default="https://webgate.ec.europa.eu/hac/" iati-activities:version="2.03" linked-data-uri="http://ec.europa.eu/echo/funding-evaluations/funding-decisions-hips_en" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XI-IATI-EC_ECHO-ECHO/-SF/EDF/2020/01000</iati-identifier>
   <reporting-org ref="XI-IATI-EC_ECHO" secondary-reporter="0" type="15">
-   <narrative xml:lang="EN">Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)</narrative>
    <narrative xml:lang="FR">Direction g&#xFFFD;n&#xFFFD;rale de la protection civile et des op&#xFFFD;rations d&apos;aide humanitaire europ&#xFFFD;ennes (ECHO)</narrative>
+   <narrative xml:lang="EN">Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Commission Decision on the financing of humanitarian actions in favour of Southern Africa and Indian Ocean to be financed from the 11th European Development Fund (ECHO/-SF/EDF/2020/01000)</narrative>
@@ -13,8 +13,8 @@
    <narrative xml:lang="EN">Action A: Man made crisis and natural disasters</narrative>
   </description>
   <participating-org ref="XI-IATI-EC_ECHO" role="1" type="15">
-   <narrative xml:lang="EN">Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)</narrative>
    <narrative xml:lang="FR">Direction g&#xFFFD;n&#xFFFD;rale de la protection civile et des op&#xFFFD;rations d&apos;aide humanitaire europ&#xFFFD;ennes (ECHO)</narrative>
+   <narrative xml:lang="EN">Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)</narrative>
   </participating-org>
   <participating-org ref="XI-IATI-EC_ECHO" role="3" type="15"></participating-org>
   <participating-org ref="XI-IATI-EC_ECHO" role="4" type="15"></participating-org>
@@ -28,8 +28,8 @@
   <activity-date iso-date="2020-05-01" type="2"></activity-date>
   <contact-info type="1">
    <email>ECHO-HOLIS@ec.europa.eu</email>
-   <website>https://webgate.ec.europa.eu/hac</website>
    <website>http://ec.europa.eu/echo/funding-evaluations/funding-humanitarian-aid/grants-and-contributions_en</website>
+   <website>https://webgate.ec.europa.eu/hac</website>
   </contact-info>
   <activity-scope code="3"></activity-scope>
   <recipient-country code="AO" percentage="9.98"></recipient-country>
@@ -45,6 +45,32 @@
   <recipient-country code="ZM" percentage="16.67"></recipient-country>
   <location>
    <name>
+    <narrative xml:lang="EN">COMOROS</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">INDIAN OCEAN</narrative>
+   </description>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-11.875001 43.872219</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+  </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">MADAGASCAR</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">INDIAN OCEAN</narrative>
+   </description>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-18.766947 46.869107</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+  </location>
+  <location>
+   <name>
     <narrative xml:lang="EN">MAURITIUS</narrative>
    </name>
    <description>
@@ -58,26 +84,39 @@
   </location>
   <location>
    <name>
-    <narrative xml:lang="EN">MOZAMBIQUE</narrative>
+    <narrative xml:lang="EN">ANGOLA</narrative>
    </name>
    <description>
     <narrative xml:lang="EN">SOUTHERN AFRICA</narrative>
    </description>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-18.665695 35.529562</pos>
+    <pos>-11.202692 17.873887</pos>
    </point>
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
   </location>
   <location>
    <name>
-    <narrative xml:lang="EN">NAMIBIA</narrative>
+    <narrative xml:lang="EN">BOTSWANA</narrative>
    </name>
    <description>
     <narrative xml:lang="EN">SOUTHERN AFRICA</narrative>
    </description>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-22.95764 18.49041</pos>
+    <pos>-22.328474 24.684866</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+  </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">ESWATINI</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">SOUTHERN AFRICA</narrative>
+   </description>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-26.522503 31.465866</pos>
    </point>
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
@@ -110,52 +149,26 @@
   </location>
   <location>
    <name>
-    <narrative xml:lang="EN">BOTSWANA</narrative>
+    <narrative xml:lang="EN">MOZAMBIQUE</narrative>
    </name>
    <description>
     <narrative xml:lang="EN">SOUTHERN AFRICA</narrative>
    </description>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-22.328474 24.684866</pos>
+    <pos>-18.665695 35.529562</pos>
    </point>
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
   </location>
   <location>
    <name>
-    <narrative xml:lang="EN">COMOROS</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">INDIAN OCEAN</narrative>
-   </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-11.875001 43.872219</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-  </location>
-  <location>
-   <name>
-    <narrative xml:lang="EN">MADAGASCAR</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">INDIAN OCEAN</narrative>
-   </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-18.766947 46.869107</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-  </location>
-  <location>
-   <name>
-    <narrative xml:lang="EN">ESWATINI</narrative>
+    <narrative xml:lang="EN">NAMIBIA</narrative>
    </name>
    <description>
     <narrative xml:lang="EN">SOUTHERN AFRICA</narrative>
    </description>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-26.522503 31.465866</pos>
+    <pos>-22.95764 18.49041</pos>
    </point>
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
@@ -173,19 +186,6 @@
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <location>
-   <name>
-    <narrative xml:lang="EN">ANGOLA</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">SOUTHERN AFRICA</narrative>
-   </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-11.202692 17.873887</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-  </location>
   <sector code="72010" percentage="100" vocabulary="1"></sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <collaboration-type code="3"></collaboration-type>
@@ -197,13 +197,6 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="EUR" value-date="2020-06-30">15100000</value>
-   <provider-org ref="XI-IATI-EC_ECHO" type="15"></provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-EC_ECHO-ECHO/-SF/EDF/2020/01000" ref="XI-IATI-EC_ECHO"></receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="EUR" value-date="2020-06-30">14900000</value>
    <description>
     <narrative xml:lang="EN">COVID-19</narrative>
@@ -211,23 +204,22 @@
    <provider-org ref="XI-IATI-EC_ECHO" type="15"></provider-org>
    <receiver-org receiver-activity-id="XI-IATI-EC_ECHO-ECHO/-SF/EDF/2020/01000" ref="XI-IATI-EC_ECHO"></receiver-org>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="http://dgecho-partners-helpdesk.eu/_media/gen_cond_en_131112.pdf">
-   <title>
-    <narrative xml:lang="EN">Condition document</narrative>
-   </title>
-   <category code="A10"></category>
-   <category code="A04"></category>
-   <language code="EN"></language>
-  </document-link>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="EUR" value-date="2020-06-30">15100000</value>
+   <provider-org ref="XI-IATI-EC_ECHO" type="15"></provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-EC_ECHO-ECHO/-SF/EDF/2020/01000" ref="XI-IATI-EC_ECHO"></receiver-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://ec.europa.eu/echo/sites/echo-site/files/echo_-sf_edf_2020_91000.pdf">
    <title>
     <narrative xml:lang="EN">Humanitarian Implementation Plan final decision document</narrative>
    </title>
-   <category code="A09"></category>
    <category code="A01"></category>
    <category code="A02"></category>
    <category code="A03"></category>
    <category code="A04"></category>
+   <category code="A09"></category>
    <category code="A10"></category>
    <language code="EN"></language>
   </document-link>
@@ -235,12 +227,20 @@
    <title>
     <narrative xml:lang="EN">Humanitarian Implementation Plan final decision technical document</narrative>
    </title>
-   <category code="A10"></category>
    <category code="A01"></category>
    <category code="A02"></category>
    <category code="A04"></category>
    <category code="A05"></category>
    <category code="A09"></category>
+   <category code="A10"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://dgecho-partners-helpdesk.eu/_media/gen_cond_en_131112.pdf">
+   <title>
+    <narrative xml:lang="EN">Condition document</narrative>
+   </title>
+   <category code="A04"></category>
+   <category code="A10"></category>
    <language code="EN"></language>
   </document-link>
   <related-activity ref="XI-IATI-EC_ECHO-ECHO/-SF/EDF/2020/01001" type="2"></related-activity>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-np" dstore:index="258" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-np" dstore:index="258" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-AID-367-A-16-00007</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -17,14 +17,14 @@
   <participating-org ref="US-GOV-11" role="1" type="10">
    <narrative xml:lang="EN">Department of State</narrative>
   </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">FHI 360</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="2" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">FHI 360</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2016-04-04" type="1"></activity-date>
@@ -414,88 +414,16 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <transaction ref="AAF58344090D">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-06-30"></transaction-date>
-   <value currency="USD" value-date="2019-06-30">1080000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15160" vocabulary="1">
-    <narrative xml:lang="EN">Human rights</narrative>
-   </sector>
-   <sector code="2001" vocabulary="99">
-    <narrative xml:lang="EN">Rule of Law and Human Rights</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1121">Democracy Fund, Department of State</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="89BFA77BAA5C">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-03-31"></transaction-date>
    <value currency="USD" value-date="2016-03-31">1299071</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
    <sector code="2004" vocabulary="99">
     <narrative xml:lang="EN">Civil Society</narrative>
    </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2013" end="2014"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="0F905F8F9DE5">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-09-30"></transaction-date>
-   <value currency="USD" value-date="2016-09-30">433740.24</value>
-   <disbursement-channel code="2"></disbursement-channel>
    <sector code="15150" vocabulary="1">
     <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2013" end="2014"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="02C8F2E41050">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-12-31">488179.71</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2013" end="2014"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="3AD1413C4EF3">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-31"></transaction-date>
-   <value currency="USD" value-date="2017-03-31">377151.05</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
    </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
@@ -509,47 +437,11 @@
    <transaction-date iso-date="2016-03-31"></transaction-date>
    <value currency="USD" value-date="2016-03-31">497810</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
    <sector code="2004" vocabulary="99">
     <narrative xml:lang="EN">Civil Society</narrative>
    </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2014" end="2015"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="0D90319A1FF5">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-31"></transaction-date>
-   <value currency="USD" value-date="2017-03-31">441005.02</value>
-   <disbursement-channel code="2"></disbursement-channel>
    <sector code="15150" vocabulary="1">
     <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2014" end="2015"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="6181B5C09EE5">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <value currency="USD" value-date="2017-06-30">56804.98</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
    </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
@@ -563,11 +455,11 @@
    <transaction-date iso-date="2016-09-30"></transaction-date>
    <value currency="USD" value-date="2016-09-30">759093</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
    <sector code="2004" vocabulary="99">
     <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
    </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
@@ -576,20 +468,110 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="CEC603F64D22">
-   <transaction-type code="2"></transaction-type>
+  <transaction ref="0F905F8F9DE5">
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2016-09-30"></transaction-date>
-   <value currency="USD" value-date="2016-09-30">1000000</value>
+   <value currency="USD" value-date="2016-09-30">433740.24</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15153" vocabulary="1">
-    <narrative xml:lang="EN">Media and free flow of information</narrative>
-   </sector>
    <sector code="2004" vocabulary="99">
     <narrative xml:lang="EN">Civil Society</narrative>
    </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2013" end="2014"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="02C8F2E41050">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-12-31">488179.71</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2013" end="2014"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="3AD1413C4EF3">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-03-31"></transaction-date>
+   <value currency="USD" value-date="2017-03-31">377151.05</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2013" end="2014"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="0D90319A1FF5">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-03-31"></transaction-date>
+   <value currency="USD" value-date="2017-03-31">441005.02</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2014" end="2015"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="19E3100CC8E6">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="USD" value-date="2017-06-30">2000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="6181B5C09EE5">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="USD" value-date="2017-06-30">56804.98</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2014" end="2015"></usg:fiscal-funding-year>
     <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -599,11 +581,11 @@
    <transaction-date iso-date="2017-06-30"></transaction-date>
    <value currency="USD" value-date="2017-06-30">743967.72</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
    <sector code="2004" vocabulary="99">
     <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
    </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
@@ -617,69 +599,15 @@
    <transaction-date iso-date="2017-09-30"></transaction-date>
    <value currency="USD" value-date="2017-09-30">15125.28</value>
    <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
    <sector code="15150" vocabulary="1">
     <narrative xml:lang="EN">Democratic participation and civil society</narrative>
    </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="6BFF27CFC926">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">527967.87</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15153" vocabulary="1">
-    <narrative xml:lang="EN">Media and free flow of information</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="3627E055835B">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-12-31">472032.13</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15153" vocabulary="1">
-    <narrative xml:lang="EN">Media and free flow of information</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="19E3100CC8E6">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <value currency="USD" value-date="2017-06-30">2000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
     <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -689,11 +617,11 @@
    <transaction-date iso-date="2017-12-31"></transaction-date>
    <value currency="USD" value-date="2017-12-31">440638.8</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
    <sector code="2004" vocabulary="99">
     <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
    </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
@@ -707,11 +635,11 @@
    <transaction-date iso-date="2018-03-31"></transaction-date>
    <value currency="USD" value-date="2018-03-31">888356.05</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
    <sector code="2004" vocabulary="99">
     <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
    </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
@@ -725,11 +653,11 @@
    <transaction-date iso-date="2018-06-30"></transaction-date>
    <value currency="USD" value-date="2018-06-30">433387.86</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
    <sector code="2004" vocabulary="99">
     <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
    </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
@@ -743,15 +671,231 @@
    <transaction-date iso-date="2018-09-30"></transaction-date>
    <value currency="USD" value-date="2018-09-30">237617.29</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
    <sector code="2004" vocabulary="99">
     <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
    </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="D531E642D75B">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-06-30"></transaction-date>
+   <value currency="USD" value-date="2019-06-30">1500000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="3852CF078875">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">498111</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="3852CF078875">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">187417.47</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="9916BA801409">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">198559.21</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="349473408B88">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">3066032</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="94F9BC052EE8">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">67844</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="2B0E7D2BB9C0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1420340.84</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="D2A6865AF7F3">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">123949.98</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="73F934AA011F">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">208572.55</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="CEC603F64D22">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-09-30"></transaction-date>
+   <value currency="USD" value-date="2016-09-30">1000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15153" vocabulary="1">
+    <narrative xml:lang="EN">Media and free flow of information</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="6BFF27CFC926">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">527967.87</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15153" vocabulary="1">
+    <narrative xml:lang="EN">Media and free flow of information</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="3627E055835B">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-12-31">472032.13</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15153" vocabulary="1">
+    <narrative xml:lang="EN">Media and free flow of information</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
     <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -846,6 +990,24 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
+  <transaction ref="AAF58344090D">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-06-30"></transaction-date>
+   <value currency="USD" value-date="2019-06-30">1080000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="15160" vocabulary="1">
+    <narrative xml:lang="EN">Human rights</narrative>
+   </sector>
+   <sector code="2001" vocabulary="99">
+    <narrative xml:lang="EN">Rule of Law and Human Rights</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1121">Democracy Fund, Department of State</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <transaction ref="7FD02F1A1128">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-06-30"></transaction-date>
@@ -882,20 +1044,20 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="D531E642D75B">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-06-30"></transaction-date>
-   <value currency="USD" value-date="2019-06-30">1500000</value>
+  <transaction ref="371B2C798EA7">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">586032.62</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   <sector code="15160" vocabulary="1">
+    <narrative xml:lang="EN">Human rights</narrative>
    </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
+   <sector code="2001" vocabulary="99">
+    <narrative xml:lang="EN">Rule of Law and Human Rights</narrative>
    </sector>
    <recipient-country code="NP"></recipient-country>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
     <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -916,6 +1078,24 @@
     <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
     <usg:main-account code="1121">Democracy Fund, Department of State</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="695F780197FB">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">34968</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="15160" vocabulary="1">
+    <narrative xml:lang="EN">Human rights</narrative>
+   </sector>
+   <sector code="2001" vocabulary="99">
+    <narrative xml:lang="EN">Rule of Law and Human Rights</narrative>
+   </sector>
+   <recipient-country code="NP"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
   <transaction ref="4098750B7BE0">
@@ -954,150 +1134,6 @@
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="371B2C798EA7">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">586032.62</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15160" vocabulary="1">
-    <narrative xml:lang="EN">Human rights</narrative>
-   </sector>
-   <sector code="2001" vocabulary="99">
-    <narrative xml:lang="EN">Rule of Law and Human Rights</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="3852CF078875">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">498111</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="3852CF078875">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">187417.47</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="9916BA801409">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">198559.21</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="695F780197FB">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">34968</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15160" vocabulary="1">
-    <narrative xml:lang="EN">Human rights</narrative>
-   </sector>
-   <sector code="2001" vocabulary="99">
-    <narrative xml:lang="EN">Rule of Law and Human Rights</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="94F9BC052EE8">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">67844</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="2B0E7D2BB9C0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1420340.84</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="349473408B88">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">3066032</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="91E5B6FA14BB">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -1134,50 +1170,6 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="D2A6865AF7F3">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">123949.98</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="73F934AA011F">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">208572.55</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="NP"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <document-link format="APPLICATION/PDF" url="http://pdf.usaid.gov/pdf_docs/PA00D5TK.pdf">
-   <title>
-    <narrative xml:lang="EN">Civil Society: Mutual Accountability Project - Annual Progress Report FY17 (October 1, 2016-September 30, 2017)</narrative>
-   </title>
-   <category code="A07"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-10-30"></document-date>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://pdf.usaid.gov/pdf_docs/PA00MRNM.pdf">
    <title>
     <narrative xml:lang="EN">Civil Society: Mutual Accountability Project - Annual Progress Report FY16 (April 04, 2016-September 30, 2016)</narrative>
@@ -1185,6 +1177,14 @@
    <category code="A07"></category>
    <language code="EN"></language>
    <document-date iso-date="2016-10-28"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://pdf.usaid.gov/pdf_docs/PA00D5TK.pdf">
+   <title>
+    <narrative xml:lang="EN">Civil Society: Mutual Accountability Project - Annual Progress Report FY17 (October 1, 2016-September 30, 2017)</narrative>
+   </title>
+   <category code="A07"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-10-30"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://pdf.usaid.gov/pdf_docs/PA00TC92.pdf">
    <title>
@@ -1213,30 +1213,30 @@
   <conditions attached="0"></conditions>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Percent of local organizations with improved capacity and/or performance scores</narrative>
+    <narrative xml:lang="EN">Number of policies completing the following processes/steps of development as a result of USG assistance in each case: Stage 1: Analysis; Stage 2: Stakeholder consultation/public debate; Stage 3: Drafting or revision; Stage 4: Approval (Legislative or re</narrative>
    </title>
    <indicator ascending="0" measure="1">
     <period>
      <period-start iso-date="20161001"></period-start>
      <period-end iso-date="20170930"></period-end>
     </period>
-    <actual value="0.0">
-     <dimension name="Parent Indicator"></dimension>
+    <actual value="5.0">
+     <dimension name="1. Analysis"></dimension>
      <location ref="NP"></location>
     </actual>
    </indicator>
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of Policy Advocacy, Government Engagement and Oversight grantees that demonstrate increased Advocacy Readiness Index Score</narrative>
+    <narrative xml:lang="EN">Number of policies completing the following processes/steps of development as a result of USG assistance in each case: Stage 1: Analysis; Stage 2: Stakeholder consultation/public debate; Stage 3: Drafting or revision; Stage 4: Approval (Legislative or re</narrative>
    </title>
    <indicator ascending="0" measure="1">
     <period>
      <period-start iso-date="20161001"></period-start>
      <period-end iso-date="20170930"></period-end>
     </period>
-    <actual value="0.0">
-     <dimension name="Parent Indicator"></dimension>
+    <actual value="5.0">
+     <dimension name="2. Stakeholder consultation/public debate"></dimension>
      <location ref="NP"></location>
     </actual>
    </indicator>
@@ -1263,40 +1263,55 @@
    <indicator ascending="0" measure="1">
     <period>
      <period-start iso-date="20170101"></period-start>
-     <period-end iso-date="20170930"></period-end>
-    </period>
-    <actual value="13.0">
-     <dimension name="Parent Indicator"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of civil society organizations that report being routinely consulted by policymakers on policies relevant to their constituencies</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20161001"></period-start>
-     <period-end iso-date="20170930"></period-end>
+     <period-end iso-date="20170630"></period-end>
     </period>
     <actual value="6.0">
-     <dimension name="Parent Indicator"></dimension>
+     <dimension name="CSOs"></dimension>
      <location ref="NP"></location>
     </actual>
    </indicator>
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of public policies introduced, adopted, repealed, changed or implemented consistent with citizen input</narrative>
+    <narrative xml:lang="EN">Percent of USG-assisted CSOs/Media conducting peer learning practices that advance local solutions</narrative>
    </title>
    <indicator ascending="0" measure="1">
     <period>
      <period-start iso-date="20161001"></period-start>
      <period-end iso-date="20170930"></period-end>
     </period>
-    <actual value="2.0">
-     <dimension name="public policies adopted"></dimension>
+    <actual value="14.0">
+     <dimension name="Denominator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of CSOs and media organizations participating in a self-regulatory initiative</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20170101"></period-start>
+     <period-end iso-date="20170630"></period-end>
+    </period>
+    <actual value="7.0">
+     <dimension name="Media organizations"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of CSOs and media organizations participating in a self-regulatory initiative</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20180101"></period-start>
+     <period-end iso-date="20180331"></period-end>
+    </period>
+    <actual value="7.0">
+     <dimension name="Media organizations"></dimension>
      <location ref="NP"></location>
     </actual>
    </indicator>
@@ -1333,14 +1348,59 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of USG-assisted coalitions between national and local CSOs working together for common issues and policy priorities</narrative>
+    <narrative xml:lang="EN">Number of Policy Advocacy, Government Engagement and Oversight grantees that demonstrate increased Advocacy Readiness Index Score</narrative>
    </title>
    <indicator ascending="0" measure="1">
     <period>
      <period-start iso-date="20161001"></period-start>
      <period-end iso-date="20170930"></period-end>
     </period>
-    <actual value="2.0">
+    <actual value="0.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of USG-assisted coalitions between national and local CSOs engaged in effective public service oversight</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20161001"></period-start>
+     <period-end iso-date="20170930"></period-end>
+    </period>
+    <actual value="0.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Percent of leadership positions in USG-supported community management entities that are filled by a woman or member of a vulnerable group</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20161001"></period-start>
+     <period-end iso-date="20170930"></period-end>
+    </period>
+    <actual value="0.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Percent of local organizations with improved capacity and/or performance scores</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20161001"></period-start>
+     <period-end iso-date="20170930"></period-end>
+    </period>
+    <actual value="0.0">
      <dimension name="Parent Indicator"></dimension>
      <location ref="NP"></location>
     </actual>
@@ -1356,81 +1416,6 @@
      <period-end iso-date="20170930"></period-end>
     </period>
     <actual value="0.0">
-     <dimension name="Parent Indicator"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of policies completing the following processes/steps of development as a result of USG assistance in each case: Stage 1: Analysis; Stage 2: Stakeholder consultation/public debate; Stage 3: Drafting or revision; Stage 4: Approval (Legislative or re</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20161001"></period-start>
-     <period-end iso-date="20170930"></period-end>
-    </period>
-    <actual value="5.0">
-     <dimension name="1. Analysis"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of policies completing the following processes/steps of development as a result of USG assistance in each case: Stage 1: Analysis; Stage 2: Stakeholder consultation/public debate; Stage 3: Drafting or revision; Stage 4: Approval (Legislative or re</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20161001"></period-start>
-     <period-end iso-date="20170930"></period-end>
-    </period>
-    <actual value="5.0">
-     <dimension name="Parent Indicator"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of policies completing the following processes/steps of development as a result of USG assistance in each case: Stage 1: Analysis; Stage 2: Stakeholder consultation/public debate; Stage 3: Drafting or revision; Stage 4: Approval (Legislative or re</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20161001"></period-start>
-     <period-end iso-date="20170930"></period-end>
-    </period>
-    <actual value="5.0">
-     <dimension name="2. Stakeholder consultation/public debate"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of Public Forums Resulting from USG Assistance in Which National Legislators and Members of the Public Interact</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20170401"></period-start>
-     <period-end iso-date="20170630"></period-end>
-    </period>
-    <actual value="3.0">
-     <dimension name="Parent Indicator"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of Public Forums Resulting from USG Assistance in Which National Legislators and Members of the Public Interact</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20171001"></period-start>
-     <period-end iso-date="20180331"></period-end>
-    </period>
-    <actual value="9.0">
      <dimension name="Parent Indicator"></dimension>
      <location ref="NP"></location>
     </actual>
@@ -1468,29 +1453,14 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of issue-specific groups formed that utilize the MeroReport web-portal as a platform for cross-sectoral oversight and sharing of results of such oversight (e.g. GGB results)</narrative>
+    <narrative xml:lang="EN">Number of CSOs and media organizations participating in a self-regulatory initiative</narrative>
    </title>
    <indicator ascending="0" measure="1">
     <period>
-     <period-start iso-date="20170401"></period-start>
+     <period-start iso-date="20170101"></period-start>
      <period-end iso-date="20170930"></period-end>
     </period>
-    <actual value="4.0">
-     <dimension name="Parent Indicator"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of USG-assisted coalitions between national and local CSOs engaged in effective public service oversight</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20161001"></period-start>
-     <period-end iso-date="20170930"></period-end>
-    </period>
-    <actual value="0.0">
+    <actual value="13.0">
      <dimension name="Parent Indicator"></dimension>
      <location ref="NP"></location>
     </actual>
@@ -1513,29 +1483,14 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Percent of USG-assisted CSOs/Media conducting peer learning practices that advance local solutions</narrative>
+    <narrative xml:lang="EN">Number of USG-assisted coalitions between national and local CSOs working together for common issues and policy priorities</narrative>
    </title>
    <indicator ascending="0" measure="1">
     <period>
      <period-start iso-date="20161001"></period-start>
      <period-end iso-date="20170930"></period-end>
     </period>
-    <actual value="14.0">
-     <dimension name="Denominator"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of cases that advance local solutions through peer learning practices</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20161001"></period-start>
-     <period-end iso-date="20170930"></period-end>
-    </period>
-    <actual value="5.0">
+    <actual value="2.0">
      <dimension name="Parent Indicator"></dimension>
      <location ref="NP"></location>
     </actual>
@@ -1558,119 +1513,14 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of instances of contact between USG-supported CSOs and government officials (e.g. phone calls, emails, personal visits) with the intention to (1) advocate on policies; (2) request information with which to hold government officials accountable</narrative>
+    <narrative xml:lang="EN">Number of civil society organizations (CSOs) receiving USG assistance engaged in advocacy interventions</narrative>
    </title>
    <indicator ascending="0" measure="1">
     <period>
      <period-start iso-date="20161001"></period-start>
      <period-end iso-date="20170930"></period-end>
     </period>
-    <actual value="58.0">
-     <dimension name="Parent Indicator"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of CSO receiving USG support reporting new funding sources</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20161001"></period-start>
-     <period-end iso-date="20170930"></period-end>
-    </period>
-    <actual value="5.0">
-     <dimension name="Parent Indicator"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of CSOs and media organizations participating in a self-regulatory initiative</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20180101"></period-start>
-     <period-end iso-date="20180331"></period-end>
-    </period>
-    <actual value="23.0">
-     <dimension name="Parent Indicator"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of CSOs and media organizations participating in a self-regulatory initiative</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20170101"></period-start>
-     <period-end iso-date="20170630"></period-end>
-    </period>
-    <actual value="6.0">
-     <dimension name="CSOs"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Percent of leadership positions in USG-supported community management entities that are filled by a woman or member of a vulnerable group</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20161001"></period-start>
-     <period-end iso-date="20170930"></period-end>
-    </period>
-    <actual value="0.0">
-     <dimension name="Parent Indicator"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of CSOs and media organizations participating in a self-regulatory initiative</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20170101"></period-start>
-     <period-end iso-date="20170630"></period-end>
-    </period>
-    <actual value="7.0">
-     <dimension name="Media organizations"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of CSOs and media organizations participating in a self-regulatory initiative</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20180101"></period-start>
-     <period-end iso-date="20180331"></period-end>
-    </period>
-    <actual value="7.0">
-     <dimension name="Media organizations"></dimension>
-     <location ref="NP"></location>
-    </actual>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of newly established Shreejanshil Shakhas (innovation centers) that allow CSOs and media to coordinate their respective work and act jointly</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <period>
-     <period-start iso-date="20161001"></period-start>
-     <period-end iso-date="20170930"></period-end>
-    </period>
-    <actual value="7.0">
+    <actual value="21.0">
      <dimension name="Parent Indicator"></dimension>
      <location ref="NP"></location>
     </actual>
@@ -1693,14 +1543,44 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of USG-assisted media-sector CSOs and/or institutions that serve to strengthen the independent media or journalists</narrative>
+    <narrative xml:lang="EN">Number of CSOs and media organizations participating in a self-regulatory initiative</narrative>
    </title>
    <indicator ascending="0" measure="1">
     <period>
-     <period-start iso-date="20170101"></period-start>
-     <period-end iso-date="20170331"></period-end>
+     <period-start iso-date="20180101"></period-start>
+     <period-end iso-date="20180331"></period-end>
     </period>
-    <actual value="6.0">
+    <actual value="23.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of Public Forums Resulting from USG Assistance in Which National Legislators and Members of the Public Interact</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20170401"></period-start>
+     <period-end iso-date="20170630"></period-end>
+    </period>
+    <actual value="3.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of USG-assisted civil society organizations (CSOs) that participate in legislative proceedings and/or engage in advocacy with national legislature and its committees</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20161001"></period-start>
+     <period-end iso-date="20170930"></period-end>
+    </period>
+    <actual value="3.0">
      <dimension name="Parent Indicator"></dimension>
      <location ref="NP"></location>
     </actual>
@@ -1723,14 +1603,14 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of civil society organizations (CSOs) receiving USG assistance engaged in advocacy interventions</narrative>
+    <narrative xml:lang="EN">Number of issue-specific groups formed that utilize the MeroReport web-portal as a platform for cross-sectoral oversight and sharing of results of such oversight (e.g. GGB results)</narrative>
    </title>
    <indicator ascending="0" measure="1">
     <period>
-     <period-start iso-date="20161001"></period-start>
+     <period-start iso-date="20170401"></period-start>
      <period-end iso-date="20170930"></period-end>
     </period>
-    <actual value="21.0">
+    <actual value="4.0">
      <dimension name="Parent Indicator"></dimension>
      <location ref="NP"></location>
     </actual>
@@ -1738,15 +1618,135 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of USG-assisted civil society organizations (CSOs) that participate in legislative proceedings and/or engage in advocacy with national legislature and its committees</narrative>
+    <narrative xml:lang="EN">Number of CSO receiving USG support reporting new funding sources</narrative>
    </title>
    <indicator ascending="0" measure="1">
     <period>
      <period-start iso-date="20161001"></period-start>
      <period-end iso-date="20170930"></period-end>
     </period>
-    <actual value="3.0">
+    <actual value="5.0">
      <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of cases that advance local solutions through peer learning practices</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20161001"></period-start>
+     <period-end iso-date="20170930"></period-end>
+    </period>
+    <actual value="5.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of policies completing the following processes/steps of development as a result of USG assistance in each case: Stage 1: Analysis; Stage 2: Stakeholder consultation/public debate; Stage 3: Drafting or revision; Stage 4: Approval (Legislative or re</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20161001"></period-start>
+     <period-end iso-date="20170930"></period-end>
+    </period>
+    <actual value="5.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of instances of contact between USG-supported CSOs and government officials (e.g. phone calls, emails, personal visits) with the intention to (1) advocate on policies; (2) request information with which to hold government officials accountable</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20161001"></period-start>
+     <period-end iso-date="20170930"></period-end>
+    </period>
+    <actual value="58.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of USG-assisted media-sector CSOs and/or institutions that serve to strengthen the independent media or journalists</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20170101"></period-start>
+     <period-end iso-date="20170331"></period-end>
+    </period>
+    <actual value="6.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of civil society organizations that report being routinely consulted by policymakers on policies relevant to their constituencies</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20161001"></period-start>
+     <period-end iso-date="20170930"></period-end>
+    </period>
+    <actual value="6.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of newly established Shreejanshil Shakhas (innovation centers) that allow CSOs and media to coordinate their respective work and act jointly</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20161001"></period-start>
+     <period-end iso-date="20170930"></period-end>
+    </period>
+    <actual value="7.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of Public Forums Resulting from USG Assistance in Which National Legislators and Members of the Public Interact</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20171001"></period-start>
+     <period-end iso-date="20180331"></period-end>
+    </period>
+    <actual value="9.0">
+     <dimension name="Parent Indicator"></dimension>
+     <location ref="NP"></location>
+    </actual>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of public policies introduced, adopted, repealed, changed or implemented consistent with citizen input</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <period>
+     <period-start iso-date="20161001"></period-start>
+     <period-end iso-date="20170930"></period-end>
+    </period>
+    <actual value="2.0">
+     <dimension name="public policies adopted"></dimension>
      <location ref="NP"></location>
     </actual>
    </indicator>

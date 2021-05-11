@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="minbuza_nl-activities20202021" dstore:index="384" hierarchy="1" xml:lang="NL" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="minbuza_nl-activities20202021" dstore:index="384" hierarchy="1" iati-activities:version="2.03" xml:lang="NL" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-7-PPR-4000004366</iati-identifier>
   <reporting-org ref="XM-DAC-7" type="10">
    <narrative xml:lang="EN">Ministry of Foreign Affairs of the Netherlands</narrative>
@@ -11,6 +11,9 @@
   <description type="1">
    <narrative xml:lang="NL">Since 2001, the Netherlands supports Gavi, the vaccine alliance, through project 27598. Gavi is an international organization that was created in 2000 to improve access to new and underused vaccines for children living in the world&#x2019;s poorest countries. Based in Geneva, Switzerland, Gavi brings together public and private sectors with the shared goal of creating equal access to vaccines for children, wherever they live. In April 2020, the World Health Organization (WHO) hosted the launch of the Access to COVID-19 Tools (ACT) Accelerator, a new global collaboration to accelerate development, production, and equitable access to COVID-19 diagnostics, therapeutics, and vaccines. Gavi, the vaccine alliance together with CEPI and WHO leads the &#x201C;vaccine pillar&#x201D; of ACT. Under this pillar, the COVID-19 Global Vaccine Access Facility (Covax Facility) and the Gavi Advance Market Commitment for COVID-19 Vaccines (Gavi Covax AMC) were established.</narrative>
   </description>
+  <participating-org ref="47122" role="4" type="40">
+   <narrative xml:lang="EN">GAVI</narrative>
+  </participating-org>
   <participating-org ref="XM-DAC-7" role="1" type="10">
    <narrative xml:lang="EN">Ministry of Foreign Affairs of the Netherlands</narrative>
   </participating-org>
@@ -19,9 +22,6 @@
   </participating-org>
   <participating-org ref="XM-DAC-7" role="3" type="10">
    <narrative xml:lang="EN">Ministry of Foreign Affairs of the Netherlands</narrative>
-  </participating-org>
-  <participating-org ref="47122" role="4" type="40">
-   <narrative xml:lang="EN">GAVI</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-12-01" type="1"></activity-date>
@@ -44,32 +44,32 @@
   <sector code="12230" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Basic health infrastructure</narrative>
   </sector>
-  <policy-marker code="1" significance="1" vocabulary="1">
-   <narrative xml:lang="EN">Gender Equality</narrative>
-  </policy-marker>
-  <policy-marker code="2" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid to Environment</narrative>
-  </policy-marker>
-  <policy-marker code="3" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
-  </policy-marker>
-  <policy-marker code="4" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Trade Development</narrative>
-  </policy-marker>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
-  </policy-marker>
-  <policy-marker code="6" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
-  </policy-marker>
-  <policy-marker code="7" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
   </policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention to Combat Desertification</narrative>
   </policy-marker>
+  <policy-marker code="7" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
+  </policy-marker>
+  <policy-marker code="6" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
+  </policy-marker>
+  <policy-marker code="2" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid to Environment</narrative>
+  </policy-marker>
+  <policy-marker code="1" significance="1" vocabulary="1">
+   <narrative xml:lang="EN">Gender Equality</narrative>
+  </policy-marker>
+  <policy-marker code="3" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
+  </policy-marker>
   <policy-marker code="9" significance="2" vocabulary="1">
    <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health</narrative>
+  </policy-marker>
+  <policy-marker code="4" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Trade Development</narrative>
   </policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -108,6 +108,17 @@
    </receiver-org>
   </transaction>
   <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-11"></transaction-date>
+   <value currency="EUR" value-date="2020-12-11">5000000</value>
+   <provider-org ref="XM-DAC-7">
+    <narrative xml:lang="NL">Ministry of Foreign Affairs of the Netherlands</narrative>
+   </provider-org>
+   <receiver-org ref="47122">
+    <narrative xml:lang="NL">GAVI</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-03-16"></transaction-date>
    <value currency="EUR" value-date="2021-03-16">25000000</value>
@@ -122,17 +133,6 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-03-22"></transaction-date>
    <value currency="EUR" value-date="2021-03-22">25000000</value>
-   <provider-org ref="XM-DAC-7">
-    <narrative xml:lang="NL">Ministry of Foreign Affairs of the Netherlands</narrative>
-   </provider-org>
-   <receiver-org ref="47122">
-    <narrative xml:lang="NL">GAVI</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-11"></transaction-date>
-   <value currency="EUR" value-date="2020-12-11">5000000</value>
    <provider-org ref="XM-DAC-7">
     <narrative xml:lang="NL">Ministry of Foreign Affairs of the Netherlands</narrative>
    </provider-org>

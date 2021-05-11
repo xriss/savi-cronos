@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="168" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="168" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-100-0003</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -11,6 +11,9 @@
   <description type="1">
    <narrative xml:lang="EN">HR Support Caribean</narrative>
   </description>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">Ministerie van Volksgezondheid, Welzijn en Sport</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-40409352" role="1" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
   </participating-org>
@@ -19,9 +22,6 @@
   </participating-org>
   <participating-org ref="NL-KVK-40409352" role="4" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-  </participating-org>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">Ministerie van Volksgezondheid, Welzijn en Sport</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-03-15" type="2">
@@ -48,11 +48,11 @@
   <sector code="EP" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Epidemic</narrative>
   </sector>
-  <sector code="2" percentage="100" vocabulary="98">
-   <narrative xml:lang="EN">Response</narrative>
-  </sector>
   <sector code="72010" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
+  <sector code="2" percentage="100" vocabulary="98">
+   <narrative xml:lang="EN">Response</narrative>
   </sector>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="30"></default-flow-type>
@@ -66,8 +66,8 @@
   </budget>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">9853</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="EUR" value-date="2020-06-30">25092</value>
    <description>
     <narrative xml:lang="EN">Expenditure</narrative>
    </description>
@@ -76,23 +76,20 @@
    </provider-org>
   </transaction>
   <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-11-27"></transaction-date>
-   <value currency="EUR" value-date="2020-11-27">-54000</value>
-   <description>
-    <narrative xml:lang="EN">Incoming Commitment</narrative>
-   </description>
-   <provider-org provider-activity-id="NL-KVK-40409352-yes" ref="NL-KVK-40409352" type="21">
-    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-100-0003" ref="NL-KVK-40409352" type="21">
-    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="EUR" value-date="2020-09-30">22405</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-100-0003" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">9853</value>
    <description>
     <narrative xml:lang="EN">Expenditure</narrative>
    </description>
@@ -115,20 +112,23 @@
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="EUR" value-date="2020-06-30">25092</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure</narrative>
-   </description>
-   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-100-0003" ref="NL-KVK-40409352" type="21">
-    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-04-28"></transaction-date>
    <value currency="EUR" value-date="2020-04-28">54000</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Commitment</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-yes" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-100-0003" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-11-27"></transaction-date>
+   <value currency="EUR" value-date="2020-11-27">-54000</value>
    <description>
     <narrative xml:lang="EN">Incoming Commitment</narrative>
    </description>

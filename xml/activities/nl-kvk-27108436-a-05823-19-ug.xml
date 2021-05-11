@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="1481" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="1481" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27108436-A-05823-19:UG</iati-identifier>
   <reporting-org ref="NL-KVK-27108436" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
@@ -30,9 +30,6 @@ The Project will support three (3) monitoring visits to the differentdistricts o
 3.3 Sensitization ofcommunities on the dangers of stigmatization
 The project team of the consortium will conduct social mobilization campaigns on dangers of stigmatization through the radio talk shows and spot Messages.</narrative>
   </description>
-  <participating-org ref="NL-KVK-27108436" role="2" type="21">
-   <narrative xml:lang="EN">Oxfam Novib</narrative>
-  </participating-org>
   <participating-org role="4" type="21">
    <narrative xml:lang="EN">CARITAS</narrative>
    <narrative xml:lang="EN">Caritas Kotido is mandated with the task of assessing the needs of the people, designing and implementing developmental interventions with the aim of changing the lives in Kotido Catholic Diocese.  In the last two decades, Caritas Kotido has worked mainly in the areas of social economic development, particularly targeting poor farmers and pastoralists, women, and people living with HIV/AIDS, as well as orphans and vulnerable children.</narrative>
@@ -40,21 +37,24 @@ The project team of the consortium will conduct social mobilization campaigns on
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">IKEA Foundation</narrative>
   </participating-org>
+  <participating-org ref="NL-KVK-27108436" role="2" type="21">
+   <narrative xml:lang="EN">Oxfam Novib</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-27108436" role="3" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-06-01" type="1">
-   <narrative xml:lang="EN">start-planned</narrative>
-  </activity-date>
-  <activity-date iso-date="2020-06-01" type="2">
-   <narrative xml:lang="EN">start-actual</narrative>
+  <activity-date iso-date="2020-09-30" type="4">
+   <narrative xml:lang="EN">end-actual</narrative>
   </activity-date>
   <activity-date iso-date="2020-09-30" type="3">
    <narrative xml:lang="EN">end-planned</narrative>
   </activity-date>
-  <activity-date iso-date="2020-09-30" type="4">
-   <narrative xml:lang="EN">end-actual</narrative>
+  <activity-date iso-date="2020-06-01" type="2">
+   <narrative xml:lang="EN">start-actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-06-01" type="1">
+   <narrative xml:lang="EN">start-planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -79,8 +79,8 @@ The project team of the consortium will conduct social mobilization campaigns on
   <sector code="3" percentage="100" vocabulary="99" vocabulary-uri="http://www.oxfamnovib.nl">
    <narrative xml:lang="EN">The right to life and security</narrative>
   </sector>
-  <sector code="74010" percentage="100" vocabulary="1"></sector>
   <sector code="11" percentage="100" vocabulary="10"></sector>
+  <sector code="74010" percentage="100" vocabulary="1"></sector>
   <tag code="1" vocabulary="2"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Novel Coronavirus Outbreak - Jan 2020</narrative>
@@ -93,19 +93,8 @@ The project team of the consortium will conduct social mobilization campaigns on
   <budget type="2">
    <period-start iso-date="2020-06-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
-   <value currency="EUR" value-date="2021-05-08">40001</value>
+   <value currency="EUR" value-date="2021-05-09">40001</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-07-01"></transaction-date>
-   <value currency="EUR" value-date="2020-07-01">40001</value>
-   <description>
-    <narrative xml:lang="EN">incoming transaction</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">IKEA Foundation</narrative>
-   </provider-org>
-  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-07-01"></transaction-date>
@@ -117,6 +106,17 @@ The project team of the consortium will conduct social mobilization campaigns on
     <narrative xml:lang="EN">CARITAS</narrative>
    </receiver-org>
   </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-07-01"></transaction-date>
+   <value currency="EUR" value-date="2020-07-01">40001</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">IKEA Foundation</narrative>
+   </provider-org>
+  </transaction>
   <document-link format="APPLICATION/HTTP" url="https://atlas.oxfamnovib.nl/#/project/A-05823-19:UG">
    <title>
     <narrative xml:lang="EN">Atlas project browser</narrative>
@@ -125,12 +125,12 @@ The project team of the consortium will conduct social mobilization campaigns on
    <language code="EN"></language>
    <document-date iso-date="2015-12-11"></document-date>
   </document-link>
+  <legacy-data name="grant-reference" value="1001704"></legacy-data>
+  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
   <legacy-data name="profit-centre" value="0000007104"></legacy-data>
   <legacy-data name="profit-centre-name" value="CO: Uganda (HECA)"></legacy-data>
   <legacy-data name="project" value="A-05823"></legacy-data>
   <legacy-data name="project-name" value="ELNHA Phase II"></legacy-data>
-  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
-  <legacy-data name="grant-reference" value="1001704"></legacy-data>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">5260</narrative>
@@ -140,32 +140,17 @@ The project team of the consortium will conduct social mobilization campaigns on
    </description>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-A</narrative>
+     <narrative xml:lang="EN">5260-B</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+     <narrative xml:lang="EN">Men directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
     </description>
-    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-B" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <target value="264000"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5260-A</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
-    </description>
-    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="264000"></actual>
+     <actual value="176000"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -185,17 +170,32 @@ The project team of the consortium will conduct social mobilization campaigns on
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-B</narrative>
+     <narrative xml:lang="EN">5260-A</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Men directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
     </description>
-    <reference code="5260-B" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="176000"></actual>
+     <actual value="264000"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5260-A</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+    </description>
+    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-06-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="264000"></target>
     </period>
    </indicator>
   </result>
@@ -208,32 +208,17 @@ The project team of the consortium will conduct social mobilization campaigns on
    </description>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-1</narrative>
+     <narrative xml:lang="EN">5260-2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+     <narrative xml:lang="EN">men living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
     </description>
-    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-2" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <target value="144000"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5260-1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
-    </description>
-    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="1008"></actual>
+     <actual value="672"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -253,17 +238,32 @@ The project team of the consortium will conduct social mobilization campaigns on
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-2</narrative>
+     <narrative xml:lang="EN">5260-1</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">men living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
     </description>
-    <reference code="5260-2" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="672"></actual>
+     <actual value="1008"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5260-1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+    </description>
+    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-06-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="144000"></target>
     </period>
    </indicator>
   </result>

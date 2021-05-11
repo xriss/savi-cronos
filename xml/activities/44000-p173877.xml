@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="worldbank-ph" dstore:index="34" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-ph" dstore:index="34" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P173877</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -14,18 +14,18 @@
   <participating-org ref="44001" role="1" type="40" xml:lang="EN">
    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
   </participating-org>
-  <participating-org role="2" xml:lang="EN">
-   <narrative xml:lang="EN"></narrative>
-  </participating-org>
   <participating-org ref="44001" role="3" type="40" xml:lang="EN">
    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
+  </participating-org>
+  <participating-org role="2" xml:lang="EN">
+   <narrative xml:lang="EN"></narrative>
   </participating-org>
   <participating-org role="4" xml:lang="EN">
    <narrative xml:lang="EN"></narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-04-22" type="1">
-   <narrative xml:lang="EN">Planned start date of the activity</narrative>
+  <activity-date iso-date="2023-12-29" type="4">
+   <narrative xml:lang="EN">Actual end date of the activity</narrative>
   </activity-date>
   <activity-date iso-date="2020-04-22" type="2">
    <narrative xml:lang="EN">Actual start date of the activity</narrative>
@@ -33,8 +33,8 @@
   <activity-date iso-date="2023-12-29" type="3">
    <narrative xml:lang="EN">Planned end date of the activity</narrative>
   </activity-date>
-  <activity-date iso-date="2023-12-29" type="4">
-   <narrative xml:lang="EN">Actual end date of the activity</narrative>
+  <activity-date iso-date="2020-04-22" type="1">
+   <narrative xml:lang="EN">Planned start date of the activity</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -44,8 +44,8 @@
     <narrative xml:lang="EN">Sutayut Osornprasop</narrative>
    </person-name>
    <telephone>+1-202-473-1000</telephone>
-   <email>sosornprasop@worldbank.org</email>
    <email>pic@worldbank.org</email>
+   <email>sosornprasop@worldbank.org</email>
    <mailing-address>
     <narrative xml:lang="EN">The World Bank, 1818 H Street, NW, Washington, DC 20433 USA</narrative>
    </mailing-address>
@@ -65,23 +65,11 @@
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <sector code="12191" percentage="50" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="12110" percentage="42" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="12250" percentage="8" vocabulary="1" xml:lang="EN"></sector>
-  <sector code="HQ" percentage="99" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Facilities and Construction</narrative>
-  </sector>
-  <sector code="HF" percentage="1" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Public Administration - Health</narrative>
-  </sector>
-  <sector code="000626" percentage="84" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Pandemic Response</narrative>
-  </sector>
   <sector code="000062" percentage="84" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disease Control</narrative>
   </sector>
-  <sector code="000063" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Systems and Policies</narrative>
+  <sector code="HQ" percentage="99" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Facilities and Construction</narrative>
   </sector>
   <sector code="000632" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health Service Delivery</narrative>
@@ -89,80 +77,167 @@
   <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health System Strengthening</narrative>
   </sector>
+  <sector code="000063" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Systems and Policies</narrative>
+  </sector>
+  <sector code="000626" percentage="84" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Pandemic Response</narrative>
+  </sector>
+  <sector code="HF" percentage="1" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Public Administration - Health</narrative>
+  </sector>
+  <sector code="12110" percentage="42" vocabulary="1" xml:lang="EN"></sector>
+  <sector code="12191" percentage="50" vocabulary="1" xml:lang="EN"></sector>
+  <sector code="12250" percentage="8" vocabulary="1" xml:lang="EN"></sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
   <collaboration-type code="2"></collaboration-type>
   <default-aid-type code="C01" vocabulary="1" xml:lang="EN"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="1" type="2">
+   <period-start iso-date="2020-04-01"></period-start>
+   <period-end iso-date="2020-04-30"></period-end>
+   <value currency="USD" value-date="2020-04-30">0</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-04-01"></period-start>
    <period-end iso-date="2020-04-30"></period-end>
    <value currency="USD" value-date="2020-04-30">2666666.67</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2020-05-01"></period-start>
+   <period-end iso-date="2020-05-31"></period-end>
+   <value currency="USD" value-date="2020-05-31">0</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-05-01"></period-start>
    <period-end iso-date="2020-05-31"></period-end>
    <value currency="USD" value-date="2020-05-31">2666666.67</value>
   </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2020-06-01"></period-start>
+   <period-end iso-date="2020-06-30"></period-end>
+   <value currency="USD" value-date="2020-06-30">0</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-06-01"></period-start>
    <period-end iso-date="2020-06-30"></period-end>
    <value currency="USD" value-date="2020-06-30">2666666.66</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2020-07-01"></period-start>
+   <period-end iso-date="2020-07-31"></period-end>
+   <value currency="USD" value-date="2020-07-31">13333333.33</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-07-01"></period-start>
    <period-end iso-date="2020-07-31"></period-end>
    <value currency="USD" value-date="2020-07-31">3333333.33</value>
   </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2020-08-01"></period-start>
+   <period-end iso-date="2020-08-31"></period-end>
+   <value currency="USD" value-date="2020-08-31">13333333.33</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-08-01"></period-start>
    <period-end iso-date="2020-08-31"></period-end>
    <value currency="USD" value-date="2020-08-31">3333333.33</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2020-09-01"></period-start>
+   <period-end iso-date="2020-09-30"></period-end>
+   <value currency="USD" value-date="2020-09-30">13333333.33</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-09-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
    <value currency="USD" value-date="2020-09-30">3333333.33</value>
   </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2020-10-01"></period-start>
+   <period-end iso-date="2020-10-31"></period-end>
+   <value currency="USD" value-date="2020-10-31">13333333.33</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-10-01"></period-start>
    <period-end iso-date="2020-10-31"></period-end>
    <value currency="USD" value-date="2020-10-31">3333333.33</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2020-11-01"></period-start>
+   <period-end iso-date="2020-11-30"></period-end>
+   <value currency="USD" value-date="2020-11-30">13333333.33</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-11-01"></period-start>
    <period-end iso-date="2020-11-30"></period-end>
    <value currency="USD" value-date="2020-11-30">3333333.33</value>
   </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2020-12-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">13333333.33</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-12-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-12-31">3333333.33</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-01-31"></period-end>
+   <value currency="USD" value-date="2021-01-31">13333333.33</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-01-31"></period-end>
    <value currency="USD" value-date="2021-01-31">3333333.33</value>
   </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2021-02-01"></period-start>
+   <period-end iso-date="2021-02-28"></period-end>
+   <value currency="USD" value-date="2021-02-28">13333333.33</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-02-01"></period-start>
    <period-end iso-date="2021-02-28"></period-end>
    <value currency="USD" value-date="2021-02-28">3333333.33</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2021-03-01"></period-start>
+   <period-end iso-date="2021-03-31"></period-end>
+   <value currency="USD" value-date="2021-03-31">13333333.33</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-03-01"></period-start>
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="USD" value-date="2021-03-31">3333333.33</value>
   </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2021-04-01"></period-start>
+   <period-end iso-date="2021-04-30"></period-end>
+   <value currency="USD" value-date="2021-04-30">13333333.33</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-04-01"></period-start>
    <period-end iso-date="2021-04-30"></period-end>
    <value currency="USD" value-date="2021-04-30">3333333.33</value>
   </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2021-05-01"></period-start>
+   <period-end iso-date="2021-05-31"></period-end>
+   <value currency="USD" value-date="2021-05-31">13333333.33</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-05-01"></period-start>
    <period-end iso-date="2021-05-31"></period-end>
    <value currency="USD" value-date="2021-05-31">3333333.33</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2021-06-01"></period-start>
+   <period-end iso-date="2021-06-30"></period-end>
+   <value currency="USD" value-date="2021-06-30">13333333.37</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-06-01"></period-start>
@@ -174,475 +249,235 @@
    <period-end iso-date="2021-07-31"></period-end>
    <value currency="USD" value-date="2021-07-31">2916666.67</value>
   </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2021-08-01"></period-start>
-   <period-end iso-date="2021-08-31"></period-end>
-   <value currency="USD" value-date="2021-08-31">2916666.67</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2021-09-01"></period-start>
-   <period-end iso-date="2021-09-30"></period-end>
-   <value currency="USD" value-date="2021-09-30">2916666.67</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2021-10-01"></period-start>
-   <period-end iso-date="2021-10-31"></period-end>
-   <value currency="USD" value-date="2021-10-31">2916666.67</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2021-11-01"></period-start>
-   <period-end iso-date="2021-11-30"></period-end>
-   <value currency="USD" value-date="2021-11-30">2916666.67</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2021-12-01"></period-start>
-   <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">2916666.67</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-01-01"></period-start>
-   <period-end iso-date="2022-01-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">2916666.67</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-02-01"></period-start>
-   <period-end iso-date="2022-02-28"></period-end>
-   <value currency="USD" value-date="2022-02-28">2916666.67</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-03-01"></period-start>
-   <period-end iso-date="2022-03-31"></period-end>
-   <value currency="USD" value-date="2022-03-31">2916666.67</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-04-01"></period-start>
-   <period-end iso-date="2022-04-30"></period-end>
-   <value currency="USD" value-date="2022-04-30">2916666.67</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-05-01"></period-start>
-   <period-end iso-date="2022-05-31"></period-end>
-   <value currency="USD" value-date="2022-05-31">2916666.67</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-06-01"></period-start>
-   <period-end iso-date="2022-06-30"></period-end>
-   <value currency="USD" value-date="2022-06-30">2916666.63</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-07-01"></period-start>
-   <period-end iso-date="2022-07-31"></period-end>
-   <value currency="USD" value-date="2022-07-31">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-08-01"></period-start>
-   <period-end iso-date="2022-08-31"></period-end>
-   <value currency="USD" value-date="2022-08-31">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-09-01"></period-start>
-   <period-end iso-date="2022-09-30"></period-end>
-   <value currency="USD" value-date="2022-09-30">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-10-01"></period-start>
-   <period-end iso-date="2022-10-31"></period-end>
-   <value currency="USD" value-date="2022-10-31">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-11-01"></period-start>
-   <period-end iso-date="2022-11-30"></period-end>
-   <value currency="USD" value-date="2022-11-30">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2022-12-01"></period-start>
-   <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-12-31">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-01-01"></period-start>
-   <period-end iso-date="2023-01-31"></period-end>
-   <value currency="USD" value-date="2023-01-31">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-02-01"></period-start>
-   <period-end iso-date="2023-02-28"></period-end>
-   <value currency="USD" value-date="2023-02-28">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-03-01"></period-start>
-   <period-end iso-date="2023-03-31"></period-end>
-   <value currency="USD" value-date="2023-03-31">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-04-01"></period-start>
-   <period-end iso-date="2023-04-30"></period-end>
-   <value currency="USD" value-date="2023-04-30">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-05-01"></period-start>
-   <period-end iso-date="2023-05-31"></period-end>
-   <value currency="USD" value-date="2023-05-31">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-06-01"></period-start>
-   <period-end iso-date="2023-06-30"></period-end>
-   <value currency="USD" value-date="2023-06-30">1250000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-07-01"></period-start>
-   <period-end iso-date="2023-07-31"></period-end>
-   <value currency="USD" value-date="2023-07-31">2000000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-08-01"></period-start>
-   <period-end iso-date="2023-08-31"></period-end>
-   <value currency="USD" value-date="2023-08-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-09-01"></period-start>
-   <period-end iso-date="2023-09-30"></period-end>
-   <value currency="USD" value-date="2023-09-30">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-10-01"></period-start>
-   <period-end iso-date="2023-10-31"></period-end>
-   <value currency="USD" value-date="2023-10-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-11-01"></period-start>
-   <period-end iso-date="2023-11-30"></period-end>
-   <value currency="USD" value-date="2023-11-30">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2023-12-01"></period-start>
-   <period-end iso-date="2023-12-31"></period-end>
-   <value currency="USD" value-date="2023-12-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-01-01"></period-start>
-   <period-end iso-date="2024-01-31"></period-end>
-   <value currency="USD" value-date="2024-01-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-02-01"></period-start>
-   <period-end iso-date="2024-02-29"></period-end>
-   <value currency="USD" value-date="2024-02-29">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-03-01"></period-start>
-   <period-end iso-date="2024-03-31"></period-end>
-   <value currency="USD" value-date="2024-03-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-04-01"></period-start>
-   <period-end iso-date="2024-04-30"></period-end>
-   <value currency="USD" value-date="2024-04-30">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-05-01"></period-start>
-   <period-end iso-date="2024-05-31"></period-end>
-   <value currency="USD" value-date="2024-05-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-06-01"></period-start>
-   <period-end iso-date="2024-06-30"></period-end>
-   <value currency="USD" value-date="2024-06-30">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-07-01"></period-start>
-   <period-end iso-date="2024-07-31"></period-end>
-   <value currency="USD" value-date="2024-07-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-08-01"></period-start>
-   <period-end iso-date="2024-08-31"></period-end>
-   <value currency="USD" value-date="2024-08-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-09-01"></period-start>
-   <period-end iso-date="2024-09-30"></period-end>
-   <value currency="USD" value-date="2024-09-30">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-10-01"></period-start>
-   <period-end iso-date="2024-10-31"></period-end>
-   <value currency="USD" value-date="2024-10-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-11-01"></period-start>
-   <period-end iso-date="2024-11-30"></period-end>
-   <value currency="USD" value-date="2024-11-30">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2024-12-01"></period-start>
-   <period-end iso-date="2024-12-31"></period-end>
-   <value currency="USD" value-date="2024-12-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-01-01"></period-start>
-   <period-end iso-date="2025-01-31"></period-end>
-   <value currency="USD" value-date="2025-01-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-02-01"></period-start>
-   <period-end iso-date="2025-02-28"></period-end>
-   <value currency="USD" value-date="2025-02-28">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-03-01"></period-start>
-   <period-end iso-date="2025-03-31"></period-end>
-   <value currency="USD" value-date="2025-03-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-04-01"></period-start>
-   <period-end iso-date="2025-04-30"></period-end>
-   <value currency="USD" value-date="2025-04-30">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-05-01"></period-start>
-   <period-end iso-date="2025-05-31"></period-end>
-   <value currency="USD" value-date="2025-05-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-06-01"></period-start>
-   <period-end iso-date="2025-06-30"></period-end>
-   <value currency="USD" value-date="2025-06-30">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-07-01"></period-start>
-   <period-end iso-date="2025-07-31"></period-end>
-   <value currency="USD" value-date="2025-07-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-08-01"></period-start>
-   <period-end iso-date="2025-08-31"></period-end>
-   <value currency="USD" value-date="2025-08-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-09-01"></period-start>
-   <period-end iso-date="2025-09-30"></period-end>
-   <value currency="USD" value-date="2025-09-30">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-10-01"></period-start>
-   <period-end iso-date="2025-10-31"></period-end>
-   <value currency="USD" value-date="2025-10-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-11-01"></period-start>
-   <period-end iso-date="2025-11-30"></period-end>
-   <value currency="USD" value-date="2025-11-30">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2025-12-01"></period-start>
-   <period-end iso-date="2025-12-31"></period-end>
-   <value currency="USD" value-date="2025-12-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2026-01-01"></period-start>
-   <period-end iso-date="2026-01-31"></period-end>
-   <value currency="USD" value-date="2026-01-31">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2026-02-01"></period-start>
-   <period-end iso-date="2026-02-28"></period-end>
-   <value currency="USD" value-date="2026-02-28">0</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2026-03-01"></period-start>
-   <period-end iso-date="2026-03-31"></period-end>
-   <value currency="USD" value-date="2026-03-31">0</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2020-04-01"></period-start>
-   <period-end iso-date="2020-04-30"></period-end>
-   <value currency="USD" value-date="2020-04-30">0</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2020-05-01"></period-start>
-   <period-end iso-date="2020-05-31"></period-end>
-   <value currency="USD" value-date="2020-05-31">0</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2020-06-01"></period-start>
-   <period-end iso-date="2020-06-30"></period-end>
-   <value currency="USD" value-date="2020-06-30">0</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2020-07-01"></period-start>
-   <period-end iso-date="2020-07-31"></period-end>
-   <value currency="USD" value-date="2020-07-31">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2020-08-01"></period-start>
-   <period-end iso-date="2020-08-31"></period-end>
-   <value currency="USD" value-date="2020-08-31">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2020-09-01"></period-start>
-   <period-end iso-date="2020-09-30"></period-end>
-   <value currency="USD" value-date="2020-09-30">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2020-10-01"></period-start>
-   <period-end iso-date="2020-10-31"></period-end>
-   <value currency="USD" value-date="2020-10-31">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2020-11-01"></period-start>
-   <period-end iso-date="2020-11-30"></period-end>
-   <value currency="USD" value-date="2020-11-30">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2020-12-01"></period-start>
-   <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2020-12-31">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2021-01-01"></period-start>
-   <period-end iso-date="2021-01-31"></period-end>
-   <value currency="USD" value-date="2021-01-31">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2021-02-01"></period-start>
-   <period-end iso-date="2021-02-28"></period-end>
-   <value currency="USD" value-date="2021-02-28">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2021-03-01"></period-start>
-   <period-end iso-date="2021-03-31"></period-end>
-   <value currency="USD" value-date="2021-03-31">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2021-04-01"></period-start>
-   <period-end iso-date="2021-04-30"></period-end>
-   <value currency="USD" value-date="2021-04-30">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2021-05-01"></period-start>
-   <period-end iso-date="2021-05-31"></period-end>
-   <value currency="USD" value-date="2021-05-31">13333333.33</value>
-  </budget>
-  <budget status="1" type="2">
-   <period-start iso-date="2021-06-01"></period-start>
-   <period-end iso-date="2021-06-30"></period-end>
-   <value currency="USD" value-date="2021-06-30">13333333.37</value>
-  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2021-07-01"></period-start>
    <period-end iso-date="2021-07-31"></period-end>
    <value currency="USD" value-date="2021-07-31">40000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2021-08-01"></period-start>
+   <period-end iso-date="2021-08-31"></period-end>
+   <value currency="USD" value-date="2021-08-31">2916666.67</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2021-08-01"></period-start>
    <period-end iso-date="2021-08-31"></period-end>
    <value currency="USD" value-date="2021-08-31">40000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2021-09-01"></period-start>
+   <period-end iso-date="2021-09-30"></period-end>
+   <value currency="USD" value-date="2021-09-30">2916666.67</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2021-09-01"></period-start>
    <period-end iso-date="2021-09-30"></period-end>
    <value currency="USD" value-date="2021-09-30">40000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2021-10-01"></period-start>
+   <period-end iso-date="2021-10-31"></period-end>
+   <value currency="USD" value-date="2021-10-31">2916666.67</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2021-10-01"></period-start>
    <period-end iso-date="2021-10-31"></period-end>
    <value currency="USD" value-date="2021-10-31">40000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2021-11-01"></period-start>
+   <period-end iso-date="2021-11-30"></period-end>
+   <value currency="USD" value-date="2021-11-30">2916666.67</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2021-11-01"></period-start>
    <period-end iso-date="2021-11-30"></period-end>
    <value currency="USD" value-date="2021-11-30">40000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2021-12-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-12-31">2916666.67</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2021-12-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">40000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-01-31"></period-end>
+   <value currency="USD" value-date="2022-01-31">2916666.67</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-01-31"></period-end>
    <value currency="USD" value-date="2022-01-31">40000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-02-01"></period-start>
+   <period-end iso-date="2022-02-28"></period-end>
+   <value currency="USD" value-date="2022-02-28">2916666.67</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-02-01"></period-start>
    <period-end iso-date="2022-02-28"></period-end>
    <value currency="USD" value-date="2022-02-28">40000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-03-01"></period-start>
+   <period-end iso-date="2022-03-31"></period-end>
+   <value currency="USD" value-date="2022-03-31">2916666.67</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-03-01"></period-start>
    <period-end iso-date="2022-03-31"></period-end>
    <value currency="USD" value-date="2022-03-31">40000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-04-01"></period-start>
+   <period-end iso-date="2022-04-30"></period-end>
+   <value currency="USD" value-date="2022-04-30">2916666.67</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-04-01"></period-start>
    <period-end iso-date="2022-04-30"></period-end>
    <value currency="USD" value-date="2022-04-30">40000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-05-01"></period-start>
+   <period-end iso-date="2022-05-31"></period-end>
+   <value currency="USD" value-date="2022-05-31">2916666.67</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-05-01"></period-start>
    <period-end iso-date="2022-05-31"></period-end>
    <value currency="USD" value-date="2022-05-31">40000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-06-01"></period-start>
+   <period-end iso-date="2022-06-30"></period-end>
+   <value currency="USD" value-date="2022-06-30">2916666.63</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-06-01"></period-start>
    <period-end iso-date="2022-06-30"></period-end>
    <value currency="USD" value-date="2022-06-30">40000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-07-01"></period-start>
+   <period-end iso-date="2022-07-31"></period-end>
+   <value currency="USD" value-date="2022-07-31">1250000</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-07-01"></period-start>
    <period-end iso-date="2022-07-31"></period-end>
    <value currency="USD" value-date="2022-07-31">5000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-08-01"></period-start>
+   <period-end iso-date="2022-08-31"></period-end>
+   <value currency="USD" value-date="2022-08-31">1250000</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-08-01"></period-start>
    <period-end iso-date="2022-08-31"></period-end>
    <value currency="USD" value-date="2022-08-31">5000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-09-01"></period-start>
+   <period-end iso-date="2022-09-30"></period-end>
+   <value currency="USD" value-date="2022-09-30">1250000</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-09-01"></period-start>
    <period-end iso-date="2022-09-30"></period-end>
    <value currency="USD" value-date="2022-09-30">5000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-10-01"></period-start>
+   <period-end iso-date="2022-10-31"></period-end>
+   <value currency="USD" value-date="2022-10-31">1250000</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-10-01"></period-start>
    <period-end iso-date="2022-10-31"></period-end>
    <value currency="USD" value-date="2022-10-31">5000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-11-01"></period-start>
+   <period-end iso-date="2022-11-30"></period-end>
+   <value currency="USD" value-date="2022-11-30">1250000</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-11-01"></period-start>
    <period-end iso-date="2022-11-30"></period-end>
    <value currency="USD" value-date="2022-11-30">5000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-12-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-12-31">1250000</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2022-12-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
    <value currency="USD" value-date="2022-12-31">5000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-01-31"></period-end>
+   <value currency="USD" value-date="2023-01-31">1250000</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-01-01"></period-start>
    <period-end iso-date="2023-01-31"></period-end>
    <value currency="USD" value-date="2023-01-31">5000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-02-01"></period-start>
+   <period-end iso-date="2023-02-28"></period-end>
+   <value currency="USD" value-date="2023-02-28">1250000</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-02-01"></period-start>
    <period-end iso-date="2023-02-28"></period-end>
    <value currency="USD" value-date="2023-02-28">5000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-03-01"></period-start>
+   <period-end iso-date="2023-03-31"></period-end>
+   <value currency="USD" value-date="2023-03-31">1250000</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-03-01"></period-start>
    <period-end iso-date="2023-03-31"></period-end>
    <value currency="USD" value-date="2023-03-31">5000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-04-01"></period-start>
+   <period-end iso-date="2023-04-30"></period-end>
+   <value currency="USD" value-date="2023-04-30">1250000</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-04-01"></period-start>
    <period-end iso-date="2023-04-30"></period-end>
    <value currency="USD" value-date="2023-04-30">5000000</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-05-01"></period-start>
+   <period-end iso-date="2023-05-31"></period-end>
+   <value currency="USD" value-date="2023-05-31">1250000</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-05-01"></period-start>
    <period-end iso-date="2023-05-31"></period-end>
    <value currency="USD" value-date="2023-05-31">5000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-06-01"></period-start>
+   <period-end iso-date="2023-06-30"></period-end>
+   <value currency="USD" value-date="2023-06-30">1250000</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-06-01"></period-start>
@@ -654,160 +489,325 @@
    <period-end iso-date="2023-07-31"></period-end>
    <value currency="USD" value-date="2023-07-31">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-07-01"></period-start>
+   <period-end iso-date="2023-07-31"></period-end>
+   <value currency="USD" value-date="2023-07-31">2000000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-08-01"></period-start>
+   <period-end iso-date="2023-08-31"></period-end>
+   <value currency="USD" value-date="2023-08-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-08-01"></period-start>
    <period-end iso-date="2023-08-31"></period-end>
    <value currency="USD" value-date="2023-08-31">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-09-01"></period-start>
+   <period-end iso-date="2023-09-30"></period-end>
+   <value currency="USD" value-date="2023-09-30">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-09-01"></period-start>
    <period-end iso-date="2023-09-30"></period-end>
    <value currency="USD" value-date="2023-09-30">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-10-01"></period-start>
+   <period-end iso-date="2023-10-31"></period-end>
+   <value currency="USD" value-date="2023-10-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-10-01"></period-start>
    <period-end iso-date="2023-10-31"></period-end>
    <value currency="USD" value-date="2023-10-31">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-11-01"></period-start>
+   <period-end iso-date="2023-11-30"></period-end>
+   <value currency="USD" value-date="2023-11-30">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-11-01"></period-start>
    <period-end iso-date="2023-11-30"></period-end>
    <value currency="USD" value-date="2023-11-30">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-12-01"></period-start>
+   <period-end iso-date="2023-12-31"></period-end>
+   <value currency="USD" value-date="2023-12-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2023-12-01"></period-start>
    <period-end iso-date="2023-12-31"></period-end>
    <value currency="USD" value-date="2023-12-31">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-01-01"></period-start>
+   <period-end iso-date="2024-01-31"></period-end>
+   <value currency="USD" value-date="2024-01-31">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-01-01"></period-start>
    <period-end iso-date="2024-01-31"></period-end>
    <value currency="USD" value-date="2024-01-31">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-02-01"></period-start>
+   <period-end iso-date="2024-02-29"></period-end>
+   <value currency="USD" value-date="2024-02-29">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-02-01"></period-start>
    <period-end iso-date="2024-02-29"></period-end>
    <value currency="USD" value-date="2024-02-29">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-03-01"></period-start>
+   <period-end iso-date="2024-03-31"></period-end>
+   <value currency="USD" value-date="2024-03-31">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-03-01"></period-start>
    <period-end iso-date="2024-03-31"></period-end>
    <value currency="USD" value-date="2024-03-31">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-04-01"></period-start>
+   <period-end iso-date="2024-04-30"></period-end>
+   <value currency="USD" value-date="2024-04-30">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-04-01"></period-start>
    <period-end iso-date="2024-04-30"></period-end>
    <value currency="USD" value-date="2024-04-30">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-05-01"></period-start>
+   <period-end iso-date="2024-05-31"></period-end>
+   <value currency="USD" value-date="2024-05-31">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-05-01"></period-start>
    <period-end iso-date="2024-05-31"></period-end>
    <value currency="USD" value-date="2024-05-31">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-06-01"></period-start>
+   <period-end iso-date="2024-06-30"></period-end>
+   <value currency="USD" value-date="2024-06-30">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-06-01"></period-start>
    <period-end iso-date="2024-06-30"></period-end>
    <value currency="USD" value-date="2024-06-30">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-07-01"></period-start>
+   <period-end iso-date="2024-07-31"></period-end>
+   <value currency="USD" value-date="2024-07-31">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-07-01"></period-start>
    <period-end iso-date="2024-07-31"></period-end>
    <value currency="USD" value-date="2024-07-31">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-08-01"></period-start>
+   <period-end iso-date="2024-08-31"></period-end>
+   <value currency="USD" value-date="2024-08-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-08-01"></period-start>
    <period-end iso-date="2024-08-31"></period-end>
    <value currency="USD" value-date="2024-08-31">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-09-01"></period-start>
+   <period-end iso-date="2024-09-30"></period-end>
+   <value currency="USD" value-date="2024-09-30">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-09-01"></period-start>
    <period-end iso-date="2024-09-30"></period-end>
    <value currency="USD" value-date="2024-09-30">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-10-01"></period-start>
+   <period-end iso-date="2024-10-31"></period-end>
+   <value currency="USD" value-date="2024-10-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-10-01"></period-start>
    <period-end iso-date="2024-10-31"></period-end>
    <value currency="USD" value-date="2024-10-31">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-11-01"></period-start>
+   <period-end iso-date="2024-11-30"></period-end>
+   <value currency="USD" value-date="2024-11-30">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-11-01"></period-start>
    <period-end iso-date="2024-11-30"></period-end>
    <value currency="USD" value-date="2024-11-30">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-12-01"></period-start>
+   <period-end iso-date="2024-12-31"></period-end>
+   <value currency="USD" value-date="2024-12-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2024-12-01"></period-start>
    <period-end iso-date="2024-12-31"></period-end>
    <value currency="USD" value-date="2024-12-31">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-01-01"></period-start>
+   <period-end iso-date="2025-01-31"></period-end>
+   <value currency="USD" value-date="2025-01-31">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-01-01"></period-start>
    <period-end iso-date="2025-01-31"></period-end>
    <value currency="USD" value-date="2025-01-31">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-02-01"></period-start>
+   <period-end iso-date="2025-02-28"></period-end>
+   <value currency="USD" value-date="2025-02-28">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-02-01"></period-start>
    <period-end iso-date="2025-02-28"></period-end>
    <value currency="USD" value-date="2025-02-28">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-03-01"></period-start>
+   <period-end iso-date="2025-03-31"></period-end>
+   <value currency="USD" value-date="2025-03-31">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-03-01"></period-start>
    <period-end iso-date="2025-03-31"></period-end>
    <value currency="USD" value-date="2025-03-31">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-04-01"></period-start>
+   <period-end iso-date="2025-04-30"></period-end>
+   <value currency="USD" value-date="2025-04-30">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-04-01"></period-start>
    <period-end iso-date="2025-04-30"></period-end>
    <value currency="USD" value-date="2025-04-30">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-05-01"></period-start>
+   <period-end iso-date="2025-05-31"></period-end>
+   <value currency="USD" value-date="2025-05-31">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-05-01"></period-start>
    <period-end iso-date="2025-05-31"></period-end>
    <value currency="USD" value-date="2025-05-31">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-06-01"></period-start>
+   <period-end iso-date="2025-06-30"></period-end>
+   <value currency="USD" value-date="2025-06-30">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-06-01"></period-start>
    <period-end iso-date="2025-06-30"></period-end>
    <value currency="USD" value-date="2025-06-30">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-07-01"></period-start>
+   <period-end iso-date="2025-07-31"></period-end>
+   <value currency="USD" value-date="2025-07-31">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-07-01"></period-start>
    <period-end iso-date="2025-07-31"></period-end>
    <value currency="USD" value-date="2025-07-31">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-08-01"></period-start>
+   <period-end iso-date="2025-08-31"></period-end>
+   <value currency="USD" value-date="2025-08-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-08-01"></period-start>
    <period-end iso-date="2025-08-31"></period-end>
    <value currency="USD" value-date="2025-08-31">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-09-01"></period-start>
+   <period-end iso-date="2025-09-30"></period-end>
+   <value currency="USD" value-date="2025-09-30">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-09-01"></period-start>
    <period-end iso-date="2025-09-30"></period-end>
    <value currency="USD" value-date="2025-09-30">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-10-01"></period-start>
+   <period-end iso-date="2025-10-31"></period-end>
+   <value currency="USD" value-date="2025-10-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-10-01"></period-start>
    <period-end iso-date="2025-10-31"></period-end>
    <value currency="USD" value-date="2025-10-31">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-11-01"></period-start>
+   <period-end iso-date="2025-11-30"></period-end>
+   <value currency="USD" value-date="2025-11-30">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-11-01"></period-start>
    <period-end iso-date="2025-11-30"></period-end>
    <value currency="USD" value-date="2025-11-30">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-12-01"></period-start>
+   <period-end iso-date="2025-12-31"></period-end>
+   <value currency="USD" value-date="2025-12-31">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2025-12-01"></period-start>
    <period-end iso-date="2025-12-31"></period-end>
    <value currency="USD" value-date="2025-12-31">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2026-01-01"></period-start>
+   <period-end iso-date="2026-01-31"></period-end>
+   <value currency="USD" value-date="2026-01-31">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2026-01-01"></period-start>
    <period-end iso-date="2026-01-31"></period-end>
    <value currency="USD" value-date="2026-01-31">0</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2026-02-01"></period-start>
+   <period-end iso-date="2026-02-28"></period-end>
+   <value currency="USD" value-date="2026-02-28">0</value>
+  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2026-02-01"></period-start>
    <period-end iso-date="2026-02-28"></period-end>
    <value currency="USD" value-date="2026-02-28">0</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2026-03-01"></period-start>
+   <period-end iso-date="2026-03-31"></period-end>
+   <value currency="USD" value-date="2026-03-31">0</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2026-03-01"></period-start>
@@ -821,19 +821,6 @@
    <value currency="USD" value-date="2021-03-31">500000000</value>
    <description xml:lang="EN">
     <narrative xml:lang="EN">Total Commitment in First Quarter of 2021</narrative>
-   </description>
-   <provider-org ref="44001">
-    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
-   </provider-org>
-   <flow-type code="20"></flow-type>
-   <finance-type code="410"></finance-type>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">-1250000</value>
-   <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2021</narrative>
    </description>
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
@@ -856,23 +843,10 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">192852</value>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">11674130</value>
    <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2020</narrative>
-   </description>
-   <provider-org ref="44001">
-    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
-   </provider-org>
-   <flow-type code="20"></flow-type>
-   <finance-type code="410"></finance-type>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">-250000</value>
-   <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2020</narrative>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2021</narrative>
    </description>
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
@@ -882,10 +856,10 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3360516</value>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">2425828</value>
    <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2020</narrative>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2021</narrative>
    </description>
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
@@ -895,10 +869,10 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">4431560</value>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">4435000</value>
    <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2020</narrative>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2021</narrative>
    </description>
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
@@ -934,10 +908,10 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">2425828</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">4431560</value>
    <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2021</narrative>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2020</narrative>
    </description>
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
@@ -947,10 +921,10 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">11674130</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">192852</value>
    <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2021</narrative>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2020</narrative>
    </description>
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
@@ -960,10 +934,10 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">4435000</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3360516</value>
    <description xml:lang="EN">
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2021</narrative>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2020</narrative>
    </description>
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
@@ -971,22 +945,32 @@
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/459851586587368768/pdf/Project-Information-Document-Philippines-COVID-19-Emergency-Response-Project-P173877.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Information Document</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/459851586587368768/pdf/Project-Information-Document-Philippines-COVID-19-Emergency-Response-Project-P173877.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Information Document</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
+  <transaction>
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">-1250000</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2021</narrative>
+   </description>
+   <provider-org ref="44001">
+    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
+   </provider-org>
+   <flow-type code="20"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <transaction>
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">-250000</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2020</narrative>
+   </description>
+   <provider-org ref="44001">
+    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
+   </provider-org>
+   <flow-type code="20"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/255611588366729921/pdf/Philippines-COVID-19-Emergency-Response-Project.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Project Appraisal Document</narrative>
@@ -996,33 +980,31 @@
    <category code="A03"></category>
    <category code="A05"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/630371608152204127/pdf/Disclosable-Version-of-the-ISR-Philippines-COVID-19-Emergency-Response-Project-P173877-Sequence-No-02.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/459851586587368768/pdf/Project-Information-Document-Philippines-COVID-19-Emergency-Response-Project-P173877.pdf">
    <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+    <narrative xml:lang="EN">Project Information Document</narrative>
    </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/593671596191229921/pdf/Disclosable-Version-of-the-ISR-Philippines-COVID-19-Emergency-Response-Project-P173877-Sequence-No-01.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/459851586587368768/pdf/Project-Information-Document-Philippines-COVID-19-Emergency-Response-Project-P173877.pdf">
    <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+    <narrative xml:lang="EN">Project Information Document</narrative>
    </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/630371608152204127/pdf/Disclosable-Version-of-the-ISR-Philippines-COVID-19-Emergency-Response-Project-P173877-Sequence-No-02.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/398981609294703012/pdf/Official-Documents-Amendment-to-Loan-Agreement-for-Loan-9105-PH.pdf">
    <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+    <narrative xml:lang="EN">Agreement</narrative>
    </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/593671596191229921/pdf/Disclosable-Version-of-the-ISR-Philippines-COVID-19-Emergency-Response-Project-P173877-Sequence-No-01.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
+   <category code="A02"></category>
+   <category code="A04"></category>
+   <category code="A05"></category>
+   <category code="A06"></category>
+   <category code="A09"></category>
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/827281616418938820/pdf/Official-Documents-Loan-Agreement-for-Amended-Loan-9105-PH-and-for-Additional-Financing-Loan-9220-PH.pdf">
    <title xml:lang="EN">
@@ -1044,15 +1026,39 @@
    <category code="A06"></category>
    <category code="A09"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/398981609294703012/pdf/Official-Documents-Amendment-to-Loan-Agreement-for-Loan-9105-PH.pdf">
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/593671596191229921/pdf/Disclosable-Version-of-the-ISR-Philippines-COVID-19-Emergency-Response-Project-P173877-Sequence-No-01.pdf">
    <title xml:lang="EN">
-    <narrative xml:lang="EN">Agreement</narrative>
+    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
    </title>
-   <category code="A02"></category>
-   <category code="A04"></category>
-   <category code="A05"></category>
-   <category code="A06"></category>
-   <category code="A09"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/593671596191229921/pdf/Disclosable-Version-of-the-ISR-Philippines-COVID-19-Emergency-Response-Project-P173877-Sequence-No-01.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/630371608152204127/pdf/Disclosable-Version-of-the-ISR-Philippines-COVID-19-Emergency-Response-Project-P173877-Sequence-No-02.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/630371608152204127/pdf/Disclosable-Version-of-the-ISR-Philippines-COVID-19-Emergency-Response-Project-P173877-Sequence-No-02.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Implementation Status and Results Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173877?lang=en&amp;tab=procurement">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Procurement Notices</narrative>
+   </title>
+   <category code="A10"></category>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173877?lang=en&amp;tab=procurement">
    <title xml:lang="EN">
@@ -1066,20 +1072,8 @@
    </title>
    <category code="A12"></category>
   </document-link>
-  <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173877?lang=en&amp;tab=procurement">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Procurement Notices</narrative>
-   </title>
-   <category code="A10"></category>
-  </document-link>
   <related-activity ref="44000-P175953" type="2"></related-activity>
   <conditions attached="1">
-   <condition type="2">
-    <narrative xml:lang="EN">Institutional Arrangements Loan Agreement: Schedule 2, Section I.A.1Recurrent, ContinuousThe Borrower shall maintain, throughoutthe Project implementation period, the Project structures at the national and sub-national levels all with composition, functions,staffing and resources satisfactory to the Bank and set out in the Project Operations Manual. Loan Agreement: Schedule 2, SectionI.A.2One month after the Effective Date and Recurrent and ContinuousThe Borrower, through DOH, shall appoint, and thereaftermaintain, a Project director and a Project manager within the DOH with qualifications and terms of reference satisfactory to theBank.</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Project Operations ManualLoan Agreement: Schedule 2, Section I.BOne month after the Effective Date and Recurrent, ContinuousTheBorrower shall prepare and adopt a Project Operations Manual, and thereafter ensure that the Project is carried out in accordancewith the arrangements and procedures set out in the Project Operations Manual, and not amend, waive or abrogate any provisions ofthe manual unless the Bank agrees otherwise in writing.</narrative>
-   </condition>
    <condition type="2">
     <narrative xml:lang="EN">Annual Work Plans and BudgetsLoan Agreement: Schedule 2, Section I.CRecurrent, AnnualThe Borrower shall prepare and furnish tothe Bank for its no-objection no later than October 30 of each fiscal year an annual work plan and budget during the implementationof the Project containing relevant Project activities and expenditures proposed to be included in the Project in the followingfiscal year, including a specification of the sources of financing.</narrative>
    </condition>
@@ -1087,18 +1081,45 @@
     <narrative xml:lang="EN">Environmental and Social StandardsLoan Agreement: Schedule 2, Section I.DRecurrent, Continuous The Borrower shall ensure thatthe Project is carried out in accordance with the relevant Environmental and Social Standards and the Environmental and SocialCommitment Plan.</narrative>
    </condition>
    <condition type="2">
+    <narrative xml:lang="EN">Institutional Arrangements Loan Agreement: Schedule 2, Section I.A.1Recurrent, ContinuousThe Borrower shall maintain, throughoutthe Project implementation period, the Project structures at the national and sub-national levels all with composition, functions,staffing and resources satisfactory to the Bank and set out in the Project Operations Manual. Loan Agreement: Schedule 2, SectionI.A.2One month after the Effective Date and Recurrent and ContinuousThe Borrower, through DOH, shall appoint, and thereaftermaintain, a Project director and a Project manager within the DOH with qualifications and terms of reference satisfactory to theBank.</narrative>
+   </condition>
+   <condition type="2">
     <narrative xml:lang="EN">Mid-term ReviewLoan Agreement: Schedule 2, Section II.BOnce, 23 months after the Effective DateObligation of the Borrower toprepare and furnish to the Bank a mid-term report in form and substance satisfactory to the Bank.</narrative>
    </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Project Operations ManualLoan Agreement: Schedule 2, Section I.BOne month after the Effective Date and Recurrent, ContinuousTheBorrower shall prepare and adopt a Project Operations Manual, and thereafter ensure that the Project is carried out in accordancewith the arrangements and procedures set out in the Project Operations Manual, and not amend, waive or abrogate any provisions ofthe manual unless the Bank agrees otherwise in writing.</narrative>
+   </condition>
   </conditions>
-  <result aggregation-status="0" type="2">
+  <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">PDO Indicator</narrative>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
    </title>
-   <indicator ascending="1" measure="2">
+   <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Percentage of hospitals with personal protective equipment and infection control products and supplies according to DOH requirements, without stock-outs in preceding one month</narrative>
+     <narrative xml:lang="EN">Daily capacity of a designated sub-national laboratory (Davao) in conducting COVID-19 diagnostic tests</narrative>
     </title>
-    <baseline iso-date="2020-03-31" value="55.00" year="2020">
+    <baseline iso-date="2020-03-30" value="20.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-03-30"></period-start>
+     <period-end iso-date="2023-12-29"></period-end>
+     <target value="100.00"></target>
+     <actual value="642.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of ventilators provided to hospitals</narrative>
+    </title>
+    <baseline iso-date="2020-03-31" value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN"></narrative>
      </comment>
@@ -1106,8 +1127,8 @@
     <period>
      <period-start iso-date="2020-03-31"></period-start>
      <period-end iso-date="2023-12-29"></period-end>
-     <target value="90.00"></target>
-     <actual value="55.00"></actual>
+     <target value="300.00"></target>
+     <actual value="0.00"></actual>
     </period>
    </indicator>
   </result>
@@ -1129,27 +1150,6 @@
      <period-end iso-date="2023-12-29"></period-end>
      <target value="90.00"></target>
      <actual value="20.00"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
-   </title>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of grievances resolved to the satisfaction of the complainant within timeframe specified in the GRM for stakeholders</narrative>
-    </title>
-    <baseline iso-date="2020-11-06" value="0.00" year="2020">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-11-06"></period-start>
-     <period-end iso-date="2023-12-29"></period-end>
-     <target value="80.00"></target>
-     <actual value="0.00"></actual>
     </period>
    </indicator>
   </result>
@@ -1195,24 +1195,45 @@
     </period>
    </indicator>
   </result>
-  <result aggregation-status="0" type="1">
+  <result aggregation-status="0" type="2">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">PDO Indicator</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">Daily capacity of a designated sub-national laboratory (Davao) in conducting COVID-19 diagnostic tests</narrative>
+     <narrative xml:lang="EN">Percentage of hospitals with personal protective equipment and infection control products and supplies according to DOH requirements, without stock-outs in preceding one month</narrative>
     </title>
-    <baseline iso-date="2020-03-30" value="20.00" year="2020">
+    <baseline iso-date="2020-03-31" value="55.00" year="2020">
      <comment>
       <narrative xml:lang="EN"></narrative>
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2020-03-30"></period-start>
+     <period-start iso-date="2020-03-31"></period-start>
      <period-end iso-date="2023-12-29"></period-end>
-     <target value="100.00"></target>
-     <actual value="642.00"></actual>
+     <target value="90.00"></target>
+     <actual value="55.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Standard design for hospital isolation and treatment centers to manage Severe Acute Respiratory Infections (SARI) patients is finalized</narrative>
+    </title>
+    <baseline iso-date="2020-03-31" value="No" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-03-31"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <target value="Yes"></target>
+     <actual value="Yes"></actual>
     </period>
    </indicator>
   </result>
@@ -1222,17 +1243,17 @@
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of ventilators provided to hospitals</narrative>
+     <narrative xml:lang="EN">Number of health staff trained in infection prevention and control per DOH-approved protocols</narrative>
     </title>
-    <baseline iso-date="2020-03-31" value="0.00" year="2020">
+    <baseline iso-date="2020-04-03" value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN"></narrative>
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2020-03-31"></period-start>
+     <period-start iso-date="2020-04-03"></period-start>
      <period-end iso-date="2023-12-29"></period-end>
-     <target value="300.00"></target>
+     <target value="141.00"></target>
      <actual value="0.00"></actual>
     </period>
    </indicator>
@@ -1262,11 +1283,11 @@
    <title>
     <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Number of health staff trained in infection prevention and control per DOH-approved protocols</narrative>
+     <narrative xml:lang="EN">Functional asset management system is in place, independently reviewed on 6-monthly basis</narrative>
     </title>
-    <baseline iso-date="2020-04-03" value="0.00" year="2020">
+    <baseline iso-date="2020-04-03" value="No" year="2020">
      <comment>
       <narrative xml:lang="EN"></narrative>
      </comment>
@@ -1274,8 +1295,8 @@
     <period>
      <period-start iso-date="2020-04-03"></period-start>
      <period-end iso-date="2023-12-29"></period-end>
-     <target value="141.00"></target>
-     <actual value="0.00"></actual>
+     <target value="Yes"></target>
+     <actual value="No"></actual>
     </period>
    </indicator>
   </result>
@@ -1304,41 +1325,20 @@
    <title>
     <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
    </title>
-   <indicator ascending="1" measure="5">
+   <indicator ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">Standard design for hospital isolation and treatment centers to manage Severe Acute Respiratory Infections (SARI) patients is finalized</narrative>
+     <narrative xml:lang="EN">Percentage of grievances resolved to the satisfaction of the complainant within timeframe specified in the GRM for stakeholders</narrative>
     </title>
-    <baseline iso-date="2020-03-31" value="No" year="2020">
+    <baseline iso-date="2020-11-06" value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN"></narrative>
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2020-03-31"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <target value="Yes"></target>
-     <actual value="Yes"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
-   </title>
-   <indicator ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Functional asset management system is in place, independently reviewed on 6-monthly basis</narrative>
-    </title>
-    <baseline iso-date="2020-04-03" value="No" year="2020">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-04-03"></period-start>
+     <period-start iso-date="2020-11-06"></period-start>
      <period-end iso-date="2023-12-29"></period-end>
-     <target value="Yes"></target>
-     <actual value="No"></actual>
+     <target value="80.00"></target>
+     <actual value="0.00"></actual>
     </period>
    </indicator>
   </result>

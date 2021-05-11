@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="plan_uk-activities" dstore:index="80" hierarchy="0" humanitarian="1" linked-data-uri="http://www.plan-uk.org/iati" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="GBP" dstore:dataset="plan_uk-activities" dstore:index="80" hierarchy="0" humanitarian="1" iati-activities:version="2.02" linked-data-uri="http://www.plan-uk.org/iati" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>GB-COH-1364201-DOM100175</iati-identifier>
   <reporting-org ref="GB-COH-1364201" type="21">
    <narrative xml:lang="EN">Plan International UK</narrative>
@@ -18,11 +18,11 @@ Since March 2020 has pivoted and modified for COVID-19 response.</narrative>
   <participating-org ref="XI-IATI-EC_ECHO" role="1" type="15">
    <narrative xml:lang="EN">ECHO</narrative>
   </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">Plan International Inc. (Dominican Republic Country Office)</narrative>
-  </participating-org>
   <participating-org ref="ES-CIF-G-8236803" role="2" type="21">
    <narrative xml:lang="EN">Oxfam Interm&#xF3;n</narrative>
+  </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">Plan International Inc. (Dominican Republic Country Office)</narrative>
   </participating-org>
   <participating-org ref="GB-COH-1364201" role="2" type="21">
    <narrative xml:lang="EN">Plan International UK</narrative>
@@ -36,11 +36,11 @@ Since March 2020 has pivoted and modified for COVID-19 response.</narrative>
    </organisation>
    <email>iati@plan-uk.org</email>
   </contact-info>
-  <recipient-country code="DO" percentage="50"></recipient-country>
   <recipient-country code="CU" percentage="40"></recipient-country>
+  <recipient-country code="DO" percentage="50"></recipient-country>
   <recipient-region code="389" percentage="10" vocabulary="1"></recipient-region>
-  <sector code="74010" percentage="40" vocabulary="1"></sector>
   <sector code="72050" percentage="60" vocabulary="1"></sector>
+  <sector code="74010" percentage="40" vocabulary="1"></sector>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
@@ -61,14 +61,14 @@ Since March 2020 has pivoted and modified for COVID-19 response.</narrative>
    <value currency="GBP" value-date="2019-06-27">101530</value>
   </budget>
   <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-20"></transaction-date>
-   <value currency="EUR" value-date="2019-09-20">143996.7</value>
-   <provider-org ref="GB-COH-1364201">
-    <narrative xml:lang="EN">Plan International UK</narrative>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-08-02"></transaction-date>
+   <value currency="EUR" value-date="2019-08-02">-1013.51</value>
+   <provider-org ref="XI-IATI-EC_ECHO">
+    <narrative xml:lang="EN">ECHO</narrative>
    </provider-org>
-   <receiver-org ref="No Identifier">
-    <narrative xml:lang="EN">Plan International Inc. (Dominican Republic Country Office)</narrative>
+   <receiver-org ref="GB-COH-1364201">
+    <narrative xml:lang="EN">Plan International UK</narrative>
    </receiver-org>
   </transaction>
   <transaction>
@@ -85,7 +85,7 @@ Since March 2020 has pivoted and modified for COVID-19 response.</narrative>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-08-02"></transaction-date>
-   <value currency="EUR" value-date="2019-08-02">-1013.51</value>
+   <value currency="EUR" value-date="2019-08-02">-143996.7</value>
    <provider-org ref="XI-IATI-EC_ECHO">
     <narrative xml:lang="EN">ECHO</narrative>
    </provider-org>
@@ -94,14 +94,14 @@ Since March 2020 has pivoted and modified for COVID-19 response.</narrative>
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-08-02"></transaction-date>
-   <value currency="EUR" value-date="2019-08-02">-143996.7</value>
-   <provider-org ref="XI-IATI-EC_ECHO">
-    <narrative xml:lang="EN">ECHO</narrative>
-   </provider-org>
-   <receiver-org ref="GB-COH-1364201">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-20"></transaction-date>
+   <value currency="EUR" value-date="2019-09-20">143996.7</value>
+   <provider-org ref="GB-COH-1364201">
     <narrative xml:lang="EN">Plan International UK</narrative>
+   </provider-org>
+   <receiver-org ref="No Identifier">
+    <narrative xml:lang="EN">Plan International Inc. (Dominican Republic Country Office)</narrative>
    </receiver-org>
   </transaction>
  </iati-activity>

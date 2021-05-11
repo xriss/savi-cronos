@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="2083" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="2083" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27108436-A-06451-05:SO</iati-identifier>
   <reporting-org ref="NL-KVK-27108436" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
@@ -25,7 +25,13 @@ c. Protection
 - Support existing community based protection structures e.g community volunteers, women#s forums to conduct community level awareness raisings on COVID-19 prevention provide PPE kits.
 - Carry out specific service map that covers  information and service delivery of COVID19. An update on protection and emergency services will also be included e.g availability, accessibility etc.</narrative>
   </description>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">OXFAM GERMANY</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-27108436" role="2" type="21">
+   <narrative xml:lang="EN">Oxfam Novib</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-27108436" role="3" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
   </participating-org>
   <participating-org role="4" type="24">
@@ -33,24 +39,18 @@ c. Protection
    <narrative xml:lang="EN">Shaqodoon is a local nonprofit organization that designs, delivers and evaluates innovative programs to address some of the local most urgent challenges in livelihood skill training, education and health. Shaqodoon has offices and/or presences in Somaliland, Puntland, Galmudug and South Central Somali.
 Shaqodoon is a national platform whose goal is to prioritize youth employment and educationon the development agenda and to exchange knowledge on effective policies and programs to improve employment andeducation opportunities for youth, prioritizing at-risk youth, marginalized groups, and people who have lost hope and are thus often jailed for local crimes.  Shaqodoon Organization is a service provider dedicated to skill development, employment services, youth entrepreneurship, private sector business development, and technology for development. Shaqodoon makes use of participatory methods to ensure youth participate in delivering its services.</narrative>
   </participating-org>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">OXFAM GERMANY</narrative>
-  </participating-org>
-  <participating-org ref="NL-KVK-27108436" role="3" type="21">
-   <narrative xml:lang="EN">Oxfam Novib</narrative>
-  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-07-01" type="1">
-   <narrative xml:lang="EN">start-planned</narrative>
-  </activity-date>
-  <activity-date iso-date="2020-07-01" type="2">
-   <narrative xml:lang="EN">start-actual</narrative>
+  <activity-date iso-date="2020-12-31" type="4">
+   <narrative xml:lang="EN">end-actual</narrative>
   </activity-date>
   <activity-date iso-date="2020-12-31" type="3">
    <narrative xml:lang="EN">end-planned</narrative>
   </activity-date>
-  <activity-date iso-date="2020-12-31" type="4">
-   <narrative xml:lang="EN">end-actual</narrative>
+  <activity-date iso-date="2020-07-01" type="2">
+   <narrative xml:lang="EN">start-actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-07-01" type="1">
+   <narrative xml:lang="EN">start-planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -68,8 +68,8 @@ Shaqodoon is a national platform whose goal is to prioritize youth employment an
   <sector code="3" percentage="100" vocabulary="99" vocabulary-uri="http://www.oxfamnovib.nl">
    <narrative xml:lang="EN">The right to life and security</narrative>
   </sector>
-  <sector code="72050" percentage="100" vocabulary="1"></sector>
   <sector code="4" percentage="100" vocabulary="10"></sector>
+  <sector code="72050" percentage="100" vocabulary="1"></sector>
   <tag code="1" vocabulary="2"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Novel Coronavirus Outbreak - Jan 2020</narrative>
@@ -82,7 +82,7 @@ Shaqodoon is a national platform whose goal is to prioritize youth employment an
   <budget type="2">
    <period-start iso-date="2020-07-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="EUR" value-date="2021-05-08">73987</value>
+   <value currency="EUR" value-date="2021-05-09">73987</value>
   </budget>
   <planned-disbursement type="1">
    <period-start iso-date="2021-01-01"></period-start>
@@ -90,17 +90,6 @@ Shaqodoon is a national platform whose goal is to prioritize youth employment an
    <value currency="EUR" value-date="2021-01-01">7399</value>
   </planned-disbursement>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-10-01"></transaction-date>
-   <value currency="EUR" value-date="2020-10-01">22196</value>
-   <description>
-    <narrative xml:lang="EN">incoming transaction</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">OXFAM GERMANY</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-10-01"></transaction-date>
    <value currency="EUR" value-date="2020-10-01">22196</value>
@@ -112,17 +101,6 @@ Shaqodoon is a national platform whose goal is to prioritize youth employment an
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-01"></transaction-date>
-   <value currency="EUR" value-date="2020-11-01">44392</value>
-   <description>
-    <narrative xml:lang="EN">incoming transaction</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">OXFAM GERMANY</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-11-01"></transaction-date>
    <value currency="EUR" value-date="2020-11-01">44392</value>
@@ -132,6 +110,28 @@ Shaqodoon is a national platform whose goal is to prioritize youth employment an
    <receiver-org>
     <narrative xml:lang="EN">SHAQODOON ORGANIZATION</narrative>
    </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-10-01"></transaction-date>
+   <value currency="EUR" value-date="2020-10-01">22196</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">OXFAM GERMANY</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-11-01"></transaction-date>
+   <value currency="EUR" value-date="2020-11-01">44392</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">OXFAM GERMANY</narrative>
+   </provider-org>
   </transaction>
   <document-link format="APPLICATION/HTTP" url="https://atlas.oxfamnovib.nl/#/project/A-06451-05:SO">
    <title>
@@ -141,12 +141,12 @@ Shaqodoon is a national platform whose goal is to prioritize youth employment an
    <language code="EN"></language>
    <document-date iso-date="2015-12-11"></document-date>
   </document-link>
+  <legacy-data name="grant-reference" value="1002145"></legacy-data>
+  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
   <legacy-data name="profit-centre" value="0000007052"></legacy-data>
   <legacy-data name="profit-centre-name" value="CO: Somalia HECA"></legacy-data>
   <legacy-data name="project" value="A-06451"></legacy-data>
   <legacy-data name="project-name" value="COVID-19 Spared Reduction in Somalia"></legacy-data>
-  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
-  <legacy-data name="grant-reference" value="1002145"></legacy-data>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">5260</narrative>
@@ -154,21 +154,6 @@ Shaqodoon is a national platform whose goal is to prioritize youth employment an
    <description>
     <narrative xml:lang="EN">Women and Men able to:  # of people (M/F) living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
    </description>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5260-A</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
-    </description>
-    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="54000"></target>
-    </period>
-   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">5260-B</narrative>
@@ -184,6 +169,21 @@ Shaqodoon is a national platform whose goal is to prioritize youth employment an
      <target value="46000"></target>
     </period>
    </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5260-A</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+    </description>
+    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="54000"></target>
+    </period>
+   </indicator>
   </result>
   <result aggregation-status="1" type="2">
    <title>
@@ -192,21 +192,6 @@ Shaqodoon is a national platform whose goal is to prioritize youth employment an
    <description>
     <narrative xml:lang="EN">Women and Men able to:  # of people (M/F) living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
    </description>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5260-1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
-    </description>
-    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="54000"></target>
-    </period>
-   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">5260-2</narrative>
@@ -220,6 +205,21 @@ Shaqodoon is a national platform whose goal is to prioritize youth employment an
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="46000"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5260-1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+    </description>
+    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="54000"></target>
     </period>
    </indicator>
   </result>

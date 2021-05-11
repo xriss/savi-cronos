@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="rvo-01" dstore:index="2598" hierarchy="2" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="rvo-01" dstore:index="2598" hierarchy="2" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27378529-PCB20MZ04</iati-identifier>
   <reporting-org ref="NL-KVK-27378529" secondary-reporter="0" type="10">
    <narrative xml:lang="EN">Netherlands Enterprise Agency</narrative>
@@ -11,10 +11,10 @@
   <description type="1">
    <narrative xml:lang="EN">Safe Trade Emergency Program for Mozambique (STEPMOZ) mitigates the short-term COVID-19 crisis by making trade safer at two key border points, between Mozambique and Malawi, along the Beira Corridor. This responds to demand from the Government of Mozambique and private sector partners to keep the road borders and corridors open.</narrative>
   </description>
-  <participating-org ref="NL-KVK-27378529" role="2" type="10">
+  <participating-org ref="NL-KVK-27378529" role="1" type="10">
    <narrative xml:lang="EN">Netherlands Enterprise Agency</narrative>
   </participating-org>
-  <participating-org ref="NL-KVK-27378529" role="1" type="10">
+  <participating-org ref="NL-KVK-27378529" role="2" type="10">
    <narrative xml:lang="EN">Netherlands Enterprise Agency</narrative>
   </participating-org>
   <participating-org role="4" type="72">
@@ -40,24 +40,19 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-10-09"></transaction-date>
-   <value currency="EUR" value-date="2020-10-09">60342.7</value>
-   <receiver-org type="90">
-    <narrative xml:lang="EN">Trade Mark East Africa</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-10-09"></transaction-date>
-   <value currency="EUR" value-date="2020-10-09">60342.7</value>
-  </transaction>
-  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-18"></transaction-date>
    <value currency="EUR" value-date="2020-12-18">5236.35</value>
    <receiver-org type="90">
     <narrative xml:lang="EN">Parkeer (hier mogen alle foutieve aanvragen aan gekoppeld)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-09"></transaction-date>
+   <value currency="EUR" value-date="2020-10-09">60342.7</value>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">Trade Mark East Africa</narrative>
    </receiver-org>
   </transaction>
   <transaction>
@@ -67,6 +62,11 @@
    <receiver-org type="90">
     <narrative xml:lang="EN">Trade Mark East Africa</narrative>
    </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-10-09"></transaction-date>
+   <value currency="EUR" value-date="2020-10-09">60342.7</value>
   </transaction>
   <related-activity ref="NL-KVK-27378529-26067_3" type="1"></related-activity>
  </iati-activity>

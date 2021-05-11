@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="295" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="295" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-CS.1073</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,24 +11,24 @@
   <description>
    <narrative xml:lang="EN">Through provision of face masks and community outreach, this project contributes to the prevention of COVID-19 in Abyei Administrative Area. Activities focus on distribution of face masks and community awareness raising. The proposed project is an initiative in response to the COVID-19 global pandemic that seeks to empower and build the capacity of women to engage in income generating activities through the local production of face masks, promotion of women&apos;s role in prevention of COVID-19, and creation of awareness on prevention of COVID-19, specially targeting the most vulnerable groups in the communities. The project is a partnership programme with the United Nations Interim Security Force for Abyei (UNISFA) and contributes to an existing community stabilization project in Abyei.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-41310" ref="XM-DAC-41310" role="1" type="40">
-   <narrative xml:lang="EN">UNITED NATIONS INTERIM SECURITY FORCE FOR ABYEI</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-41310" ref="XM-DAC-41310" role="1" type="40">
+   <narrative xml:lang="EN">UNITED NATIONS INTERIM SECURITY FORCE FOR ABYEI</narrative>
+  </participating-org>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2020-07-01" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-07-01" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2020-09-30" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-09-30" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-07-01" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-09-30" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -40,6 +40,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="SS" percentage="100"></recipient-country>
+  <location ref="SS">
+   <location-reach code="2"></location-reach>
+   <location-id code="SS" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">South Sudan</narrative>
+   </name>
+   <administrative code="SS" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -51,14 +59,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="SS">
-   <location-reach code="2"></location-reach>
-   <location-id code="SS" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">South Sudan</narrative>
-   </name>
-   <administrative code="SS" vocabulary="A4"></administrative>
   </location>
   <sector code="CS" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Community Stabilization</narrative>

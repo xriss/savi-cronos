@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="259" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="259" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200850</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -32,14 +32,14 @@ In consultation and coordination with UNOCHA, RRC, and all the clusters, Cordaid
 &#x2022;	Type of shelter and condition the beneficiaries are being accommodate in now.
 &#x2022;	Households with no basic items /or those who have lost most of their properties during the flooding.</narrative>
   </description>
+  <participating-org ref="NL-KVK-41160054" role="1" type="21">
+   <narrative xml:lang="EN">Cordaid Global Office</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-41160054" role="2" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-41160054" role="4" type="21">
    <narrative xml:lang="EN">Cordaid South Sudan</narrative>
-  </participating-org>
-  <participating-org ref="NL-KVK-41160054" role="1" type="21">
-   <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-09-01" type="1"></activity-date>
@@ -65,9 +65,9 @@ In consultation and coordination with UNOCHA, RRC, and all the clusters, Cordaid
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <sector code="15180" percentage="25" vocabulary="1"></sector>
   <sector code="12220" percentage="25" vocabulary="1"></sector>
   <sector code="14032" percentage="25" vocabulary="1"></sector>
+  <sector code="15180" percentage="25" vocabulary="1"></sector>
   <sector code="52010" percentage="25" vocabulary="1"></sector>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="30"></default-flow-type>
@@ -82,29 +82,6 @@ In consultation and coordination with UNOCHA, RRC, and all the clusters, Cordaid
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Saving Lives Thematic Indicators</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people provided with food items</narrative>
-    </title>
-    <reference code="SL1.05" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="9000">
-      <location ref="SS"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-09-01"></period-start>
-     <period-end iso-date="2020-09-01"></period-end>
-     <target value="18000"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
     <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
@@ -115,6 +92,14 @@ In consultation and coordination with UNOCHA, RRC, and all the clusters, Cordaid
      <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
     </description>
     <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="1080" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="2520" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+    </baseline>
     <baseline iso-date="2020-12-31" value="90" year="2020">
      <location ref="SS"></location>
      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
@@ -122,6 +107,18 @@ In consultation and coordination with UNOCHA, RRC, and all the clusters, Cordaid
     <baseline iso-date="2020-12-31" value="0" year="2020">
      <location ref="SS"></location>
      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="0" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="9000" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="18000" year="2020">
+     <location ref="SS"></location>
+     <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
     </baseline>
     <baseline iso-date="2020-12-31" value="2700" year="2020">
      <location ref="SS"></location>
@@ -135,41 +132,9 @@ In consultation and coordination with UNOCHA, RRC, and all the clusters, Cordaid
      <location ref="SS"></location>
      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
     </baseline>
-    <baseline iso-date="2020-12-31" value="9000" year="2020">
-     <location ref="SS"></location>
-     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="18000" year="2020">
-     <location ref="SS"></location>
-     <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="0" year="2020">
-     <location ref="SS"></location>
-     <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="1080" year="2020">
-     <location ref="SS"></location>
-     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="2520" year="2020">
-     <location ref="SS"></location>
-     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-    </baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="2610">
-      <location ref="SS"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="2700">
-      <location ref="SS"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SS"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
      <actual value="1080">
       <location ref="SS"></location>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
@@ -186,6 +151,10 @@ In consultation and coordination with UNOCHA, RRC, and all the clusters, Cordaid
       <location ref="SS"></location>
       <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
      </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
      <actual value="9000">
       <location ref="SS"></location>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
@@ -194,9 +163,17 @@ In consultation and coordination with UNOCHA, RRC, and all the clusters, Cordaid
       <location ref="SS"></location>
       <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
      </actual>
+     <actual value="2700">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="2610">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
      <actual value="0">
       <location ref="SS"></location>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
     <period>
@@ -213,6 +190,29 @@ In consultation and coordination with UNOCHA, RRC, and all the clusters, Cordaid
      <narrative xml:lang="EN">No. of people who have received (access to) water and sanitation services</narrative>
     </description>
     <reference code="SL0.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="9000">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-01"></period-start>
+     <period-end iso-date="2020-09-01"></period-end>
+     <target value="18000"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Thematic Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people provided with food items</narrative>
+    </title>
+    <reference code="SL1.05" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>

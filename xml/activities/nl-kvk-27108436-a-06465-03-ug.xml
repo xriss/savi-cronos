@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="2102" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="2102" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27108436-A-06465-03:UG</iati-identifier>
   <reporting-org ref="NL-KVK-27108436" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
@@ -19,11 +19,7 @@ Specific activities will include;
 &#xF02D; Skilling and equipping selected community-based groups on soap production to enhance hand washing and boost their livelihood in the post-pandemic era. (immediate soap distributions being carried out already by UNHCR and partners)
 &#xF02D; Dissemination of translated hygiene and risk-awareness audio messaging on COVID-19 and countering misinformation to communities through Boda Boda Talk Talk, radio talk shows/forums &#x2013; addressing also the different levels of education of communities and the different ways in which man and women access information.</narrative>
   </description>
-  <participating-org ref="NL-KVK-27108436" role="2" type="21">
-   <narrative xml:lang="EN">Oxfam Novib</narrative>
-  </participating-org>
   <participating-org role="4" type="24">
-   <narrative xml:lang="EN">HUMANITARIAN INITIATIVE RELIEF AID</narrative>
    <narrative xml:lang="EN">1. HISTORY
          Humanitarian Initiative Just Relief Aid (HIJRA) is an international African humanitarian and development organization that aims to positively contribute towards improving the living standards and conditions of those adversely affected by disasters and conflict in the Horn and East Africa. The organization roots are in Somalia, where a devastating humanitarian crisis emerged after the collapse of the Somali state in 1991. This prompted a group of like-minded professionals to come together to form the organization in response to the glaring humanitarian needs.
           HIJRA works to empower poor people to lift themselves out of poverty and to improve their lives through health, education, agricultural extension and legal services, access to safe drinking water and sanitary latrines, livelihood training, support for safe migration and assistance during natural disasters.
@@ -159,22 +155,26 @@ Working to improve access andutilization of basic nutrition services (prevention
 5. FUNCTIONAL ORGANISATIONAL CHART include below your organisational chart)
 How are authority and responsibilities structured? For each operational unit, indicate the job titles, number of people in each position, and if they are men or women.
 The Board of Directors is the overall policy and decision making organ of the organisation. The Board makes decisions and directives, which are implemented by the management team headed by the Executive Director (ED) who is the chief accounting officer for the organization.</narrative>
+   <narrative xml:lang="EN">HUMANITARIAN INITIATIVE RELIEF AID</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-27108436" role="1" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
   </participating-org>
+  <participating-org ref="NL-KVK-27108436" role="2" type="21">
+   <narrative xml:lang="EN">Oxfam Novib</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-07-01" type="1">
-   <narrative xml:lang="EN">start-planned</narrative>
-  </activity-date>
-  <activity-date iso-date="2020-07-01" type="2">
-   <narrative xml:lang="EN">start-actual</narrative>
+  <activity-date iso-date="2021-02-28" type="4">
+   <narrative xml:lang="EN">end-actual</narrative>
   </activity-date>
   <activity-date iso-date="2021-02-28" type="3">
    <narrative xml:lang="EN">end-planned</narrative>
   </activity-date>
-  <activity-date iso-date="2021-02-28" type="4">
-   <narrative xml:lang="EN">end-actual</narrative>
+  <activity-date iso-date="2020-07-01" type="2">
+   <narrative xml:lang="EN">start-actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-07-01" type="1">
+   <narrative xml:lang="EN">start-planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -199,8 +199,8 @@ The Board of Directors is the overall policy and decision making organ of the or
   <sector code="3" percentage="100" vocabulary="99" vocabulary-uri="http://www.oxfamnovib.nl">
    <narrative xml:lang="EN">The right to life and security</narrative>
   </sector>
-  <sector code="14030" percentage="100" vocabulary="1"></sector>
   <sector code="11" percentage="100" vocabulary="10"></sector>
+  <sector code="14030" percentage="100" vocabulary="1"></sector>
   <tag code="1" vocabulary="2"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Novel Coronavirus Outbreak - Jan 2020</narrative>
@@ -213,25 +213,14 @@ The Board of Directors is the overall policy and decision making organ of the or
   <budget type="2">
    <period-start iso-date="2020-07-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="EUR" value-date="2021-05-08">44172</value>
+   <value currency="EUR" value-date="2021-05-09">44172</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-02-28"></period-end>
-   <value currency="EUR" value-date="2021-05-08">11482</value>
+   <value currency="EUR" value-date="2021-05-09">11482</value>
   </budget>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-01"></transaction-date>
-   <value currency="EUR" value-date="2020-12-01">40000</value>
-   <description>
-    <narrative xml:lang="EN">incoming transaction</narrative>
-   </description>
-   <provider-org ref="NL-KVK-27108436">
-    <narrative xml:lang="EN">Oxfam Novib</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-01"></transaction-date>
    <value currency="EUR" value-date="2020-12-01">40000</value>
@@ -243,17 +232,6 @@ The Board of Directors is the overall policy and decision making organ of the or
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-04-01"></transaction-date>
-   <value currency="EUR" value-date="2021-04-01">15654</value>
-   <description>
-    <narrative xml:lang="EN">incoming transaction</narrative>
-   </description>
-   <provider-org ref="NL-KVK-27108436">
-    <narrative xml:lang="EN">Oxfam Novib</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-04-01"></transaction-date>
    <value currency="EUR" value-date="2021-04-01">15654</value>
@@ -263,6 +241,28 @@ The Board of Directors is the overall policy and decision making organ of the or
    <receiver-org>
     <narrative xml:lang="EN">HUMANITARIAN INITIATIVE RELIEF AID</narrative>
    </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-01"></transaction-date>
+   <value currency="EUR" value-date="2020-12-01">40000</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org ref="NL-KVK-27108436">
+    <narrative xml:lang="EN">Oxfam Novib</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-04-01"></transaction-date>
+   <value currency="EUR" value-date="2021-04-01">15654</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org ref="NL-KVK-27108436">
+    <narrative xml:lang="EN">Oxfam Novib</narrative>
+   </provider-org>
   </transaction>
   <document-link format="APPLICATION/HTTP" url="https://atlas.oxfamnovib.nl/#/project/A-06465-03:UG">
    <title>
@@ -273,11 +273,11 @@ The Board of Directors is the overall policy and decision making organ of the or
    <document-date iso-date="2015-12-11"></document-date>
   </document-link>
   <related-activity ref="NL-KVK-27108436-000101" type="1"></related-activity>
+  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
   <legacy-data name="profit-centre" value="0000007104"></legacy-data>
   <legacy-data name="profit-centre-name" value="CO: Uganda (HECA)"></legacy-data>
   <legacy-data name="project" value="A-06465"></legacy-data>
   <legacy-data name="project-name" value="COVID-19 Response in Ug, SW operations"></legacy-data>
-  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">5260</narrative>
@@ -287,17 +287,32 @@ The Board of Directors is the overall policy and decision making organ of the or
    </description>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-A</narrative>
+     <narrative xml:lang="EN">5260-B</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+     <narrative xml:lang="EN">Men directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
     </description>
-    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-B" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-02-28"></period-end>
+     <actual value="12221"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5260-B</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Men directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+    </description>
+    <reference code="5260-B" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2021-02-28"></period-end>
-     <target value="7020"></target>
+     <target value="6480"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -317,32 +332,17 @@ The Board of Directors is the overall policy and decision making organ of the or
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-B</narrative>
+     <narrative xml:lang="EN">5260-A</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Men directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
     </description>
-    <reference code="5260-B" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2021-02-28"></period-end>
-     <target value="6480"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5260-B</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Men directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
-    </description>
-    <reference code="5260-B" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-02-28"></period-end>
-     <actual value="12221"></actual>
+     <target value="7020"></target>
     </period>
    </indicator>
   </result>
@@ -355,17 +355,32 @@ The Board of Directors is the overall policy and decision making organ of the or
    </description>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-1</narrative>
+     <narrative xml:lang="EN">5260-2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+     <narrative xml:lang="EN">men living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
     </description>
-    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-2" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-02-28"></period-end>
+     <actual value="12221"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5260-2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">men living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+    </description>
+    <reference code="5260-2" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2021-02-28"></period-end>
-     <target value="7020"></target>
+     <target value="6480"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -385,32 +400,17 @@ The Board of Directors is the overall policy and decision making organ of the or
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-2</narrative>
+     <narrative xml:lang="EN">5260-1</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">men living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
     </description>
-    <reference code="5260-2" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2021-02-28"></period-end>
-     <target value="6480"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5260-2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">men living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
-    </description>
-    <reference code="5260-2" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-02-28"></period-end>
-     <actual value="12221"></actual>
+     <target value="7020"></target>
     </period>
    </indicator>
   </result>

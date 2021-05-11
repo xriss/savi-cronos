@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="helpage_international-activities" dstore:index="263" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="helpage_international-activities" dstore:index="263" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-COH-1762840-NAC120-IT33-01</iati-identifier>
   <reporting-org ref="GB-COH-1762840" type="21">
    <narrative xml:lang="EN">HelpAge International</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">Funds provided from Hilton Foundation allocated by CEO to Communications to support with COVID-19 communications.</narrative>
   </description>
-  <participating-org role="1" type="60">
-   <narrative xml:lang="EN">Hilton Foundation</narrative>
-  </participating-org>
   <participating-org ref="GB-COH-1762840" role="4">
    <narrative xml:lang="EN">HelpAge International</narrative>
+  </participating-org>
+  <participating-org role="1" type="60">
+   <narrative xml:lang="EN">Hilton Foundation</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-06-01" type="1"></activity-date>
@@ -53,28 +53,6 @@
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="GBP" value-date="2020-06-01">25000</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="GBP" value-date="2020-05-31">25000</value>
-   <description>
-    <narrative xml:lang="EN">Incoming Funds for period 2020/002</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Hilton Foundation</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="GBP" value-date="2020-10-31">-2550</value>
-   <description>
-    <narrative xml:lang="EN">Incoming Funds for period 2020/007</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Hilton Foundation</narrative>
-   </provider-org>
-  </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
@@ -147,6 +125,28 @@
    <value currency="GBP" value-date="2020-12-31">3000</value>
    <description>
     <narrative xml:lang="EN">Expenditure for period 2020/009</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Hilton Foundation</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="GBP" value-date="2020-05-31">25000</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Funds for period 2020/002</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Hilton Foundation</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="GBP" value-date="2020-10-31">-2550</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Funds for period 2020/007</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">Hilton Foundation</narrative>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-som" dstore:index="267" hierarchy="2" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-som" dstore:index="267" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00120961</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">Communication on COVID-19-Effective communication and information on correct preventive measures.</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="12711" role="1">
    <narrative xml:lang="EN">UNDP Funding Windows</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-04-01" type="1"></activity-date>
@@ -66,18 +66,21 @@
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-10-31">88513</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">190433</value>
+   <provider-org ref="12711">
+    <narrative xml:lang="EN">UNDP Funding Windows</narrative>
    </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120961" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">31683</value>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">57137</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -94,23 +97,20 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">57137</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">31683</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">190433</value>
-   <provider-org ref="12711">
-    <narrative xml:lang="EN">UNDP Funding Windows</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120961" ref="XM-DAC-41114" type="40">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-10-31">88513</value>
+   <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -128,11 +128,11 @@
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00126893" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00120824" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00120962" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00120963" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00120964" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00126893" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

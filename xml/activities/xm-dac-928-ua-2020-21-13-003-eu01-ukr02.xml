@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="who-ukr" dstore:index="125" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="who-ukr" dstore:index="125" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-928-UA-2020-21-13.003.EU01.UKR02</iati-identifier>
   <reporting-org ref="XM-DAC-928" type="40">
    <narrative xml:lang="EN">World Health Organization</narrative>
@@ -11,17 +11,32 @@
   <description type="1">
    <narrative xml:lang="EN">Acute health emergencies rapidly responded to, leveraging relevant national and international capacities</narrative>
   </description>
+  <participating-org role="1" type="70">
+   <narrative xml:lang="EN">Alwaleed Philanthropies</narrative>
+  </participating-org>
+  <participating-org role="1" type="70">
+   <narrative xml:lang="EN">COVID-19 Solidarity Fund</narrative>
+  </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund</narrative>
   </participating-org>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">Department for International Development (DFID), United Kingdom</narrative>
+  <participating-org role="1" type="70">
+   <narrative xml:lang="EN">COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">DG for Neighbourhood and Enlargement Negotiations (NEAR), European Commission</narrative>
   </participating-org>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">Department for International Development (DFID), United Kingdom</narrative>
+  </participating-org>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">Foreign, Commonwealth &amp; Development Office (FCDO), United Kingdom</narrative>
+  </participating-org>
   <participating-org role="1" type="70">
    <narrative xml:lang="EN">Germany</narrative>
+  </participating-org>
+  <participating-org role="1" type="70">
+   <narrative xml:lang="EN">Lithuania</narrative>
   </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Ministry of Foreign  Affairs, Finland</narrative>
@@ -30,31 +45,16 @@
    <narrative xml:lang="EN">Swiss Development Cooperation Agency (SDC/DDC)</narrative>
   </participating-org>
   <participating-org role="1" type="70">
-   <narrative xml:lang="EN">COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund</narrative>
+   <narrative xml:lang="EN">Ukraine</narrative>
   </participating-org>
   <participating-org role="1" type="70">
    <narrative xml:lang="EN">United Nations Central Emergency Response Fund (CERF)</narrative>
   </participating-org>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">Foreign, Commonwealth &amp; Development Office (FCDO), United Kingdom</narrative>
+  <participating-org role="1" type="70">
+   <narrative xml:lang="EN">United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA)</narrative>
   </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">United States Agency for International Development (USAID)</narrative>
-  </participating-org>
-  <participating-org role="1" type="70">
-   <narrative xml:lang="EN">COVID-19 Solidarity Fund</narrative>
-  </participating-org>
-  <participating-org role="1" type="70">
-   <narrative xml:lang="EN">Lithuania</narrative>
-  </participating-org>
-  <participating-org role="1" type="70">
-   <narrative xml:lang="EN">Ukraine</narrative>
-  </participating-org>
-  <participating-org role="1" type="70">
-   <narrative xml:lang="EN">Alwaleed Philanthropies</narrative>
-  </participating-org>
-  <participating-org role="1" type="70">
-   <narrative xml:lang="EN">United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA)</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-928" role="2" type="40">
    <narrative xml:lang="EN">World Health Organization</narrative>
@@ -129,22 +129,118 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-04-27">14248985.514226</value>
   </budget>
-  <transaction humanitarian="1" ref="Incoming Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-04-19"></transaction-date>
-   <value currency="USD" value-date="2021-04-19">14564.867643</value>
+  <transaction humanitarian="1" ref="Expenditure">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">2854231.98</value>
    <description>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">Contractual services</narrative>
    </description>
-   <provider-org>
-    <narrative xml:lang="EN">COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund</narrative>
-   </provider-org>
-   <receiver-org ref="XM-DAC-928">
+   <provider-org ref="XM-DAC-928">
     <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN"></narrative>
    </receiver-org>
-   <sector vocabulary="1">
-    <narrative xml:lang="EN">72010</narrative>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN"></narrative>
    </sector>
+   <flow-type code="10"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Expenditure">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">937906.37</value>
+   <description>
+    <narrative xml:lang="EN">Equipment, vehicles and furniture</narrative>
+   </description>
+   <provider-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN"></narrative>
+   </sector>
+   <flow-type code="10"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Expenditure">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">168210.39</value>
+   <description>
+    <narrative xml:lang="EN">General operating expenses</narrative>
+   </description>
+   <provider-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN"></narrative>
+   </sector>
+   <flow-type code="10"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Expenditure">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">10218747.58</value>
+   <description>
+    <narrative xml:lang="EN">Medical supplies and materials</narrative>
+   </description>
+   <provider-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN"></narrative>
+   </sector>
+   <flow-type code="10"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Expenditure">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">303585.48</value>
+   <description>
+    <narrative xml:lang="EN">Staff and other personnel costs</narrative>
+   </description>
+   <provider-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN"></narrative>
+   </sector>
+   <flow-type code="10"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="Expenditure">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">94022.99</value>
+   <description>
+    <narrative xml:lang="EN">Travel</narrative>
+   </description>
+   <provider-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN"></narrative>
+   </sector>
+   <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
   <transaction humanitarian="1" ref="Incoming Commitment">
@@ -432,118 +528,22 @@
    <flow-type code="50"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">2854231.98</value>
+  <transaction humanitarian="1" ref="Incoming Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-04-19"></transaction-date>
+   <value currency="USD" value-date="2021-04-19">14564.867643</value>
    <description>
-    <narrative xml:lang="EN">Contractual services</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <provider-org ref="XM-DAC-928">
-    <narrative xml:lang="EN">World Health Organization</narrative>
+   <provider-org>
+    <narrative xml:lang="EN">COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund</narrative>
    </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN"></narrative>
-   </sector>
-   <flow-type code="10"></flow-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">937906.37</value>
-   <description>
-    <narrative xml:lang="EN">Equipment, vehicles and furniture</narrative>
-   </description>
-   <provider-org ref="XM-DAC-928">
+   <receiver-org ref="XM-DAC-928">
     <narrative xml:lang="EN">World Health Organization</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN"></narrative>
    </receiver-org>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN"></narrative>
+   <sector vocabulary="1">
+    <narrative xml:lang="EN">72010</narrative>
    </sector>
-   <flow-type code="10"></flow-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">168210.39</value>
-   <description>
-    <narrative xml:lang="EN">General operating expenses</narrative>
-   </description>
-   <provider-org ref="XM-DAC-928">
-    <narrative xml:lang="EN">World Health Organization</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN"></narrative>
-   </sector>
-   <flow-type code="10"></flow-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">10218747.58</value>
-   <description>
-    <narrative xml:lang="EN">Medical supplies and materials</narrative>
-   </description>
-   <provider-org ref="XM-DAC-928">
-    <narrative xml:lang="EN">World Health Organization</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN"></narrative>
-   </sector>
-   <flow-type code="10"></flow-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">303585.48</value>
-   <description>
-    <narrative xml:lang="EN">Staff and other personnel costs</narrative>
-   </description>
-   <provider-org ref="XM-DAC-928">
-    <narrative xml:lang="EN">World Health Organization</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN"></narrative>
-   </sector>
-   <flow-type code="10"></flow-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">94022.99</value>
-   <description>
-    <narrative xml:lang="EN">Travel</narrative>
-   </description>
-   <provider-org ref="XM-DAC-928">
-    <narrative xml:lang="EN">World Health Organization</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN"></narrative>
-   </sector>
-   <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
  </iati-activity>

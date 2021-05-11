@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="cafod-niger" dstore:index="51" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="GBP" dstore:dataset="cafod-niger" dstore:index="51" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-285776-NIG112</iati-identifier>
   <reporting-org ref="GB-CHC-285776" type="21">
    <narrative xml:lang="EN">CAFOD</narrative>
@@ -18,11 +18,11 @@ This project will therefore support our partner Cadev Niger in its planned activ
 
 The project will be financed by all the organizations of the Caritas Country Forum (Niger).</narrative>
   </description>
-  <participating-org activity-id="NIG112" ref="GB-CHC-285776" role="1" type="21">
-   <narrative xml:lang="EN">Catholic Agency For Overseas Development (CAFOD)</narrative>
-  </participating-org>
   <participating-org activity-id="NIG112" role="4" type="23">
    <narrative xml:lang="EN">Caritas Developpement Niger</narrative>
+  </participating-org>
+  <participating-org activity-id="NIG112" ref="GB-CHC-285776" role="1" type="21">
+   <narrative xml:lang="EN">Catholic Agency For Overseas Development (CAFOD)</narrative>
   </participating-org>
   <other-identifier ref="NIG112" type="A1"></other-identifier>
   <activity-status code="2"></activity-status>
@@ -46,6 +46,14 @@ The project will be financed by all the organizations of the Caritas Country For
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="GBP" value-date="2020-06-20">32000</value>
   </budget>
+  <transaction ref="54135">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-19"></transaction-date>
+   <value currency="GBP" value-date="2020-06-19">15000</value>
+   <provider-org provider-activity-id="GB-CHC-285776">
+    <narrative xml:lang="EN">CAFOD General Funds</narrative>
+   </provider-org>
+  </transaction>
   <transaction ref="53993">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-06-19"></transaction-date>
@@ -61,14 +69,6 @@ The project will be financed by all the organizations of the Caritas Country For
    <receiver-org>
     <narrative xml:lang="EN">Caritas Developpement Niger</narrative>
    </receiver-org>
-  </transaction>
-  <transaction ref="54135">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-06-19"></transaction-date>
-   <value currency="GBP" value-date="2020-06-19">15000</value>
-   <provider-org provider-activity-id="GB-CHC-285776">
-    <narrative xml:lang="EN">CAFOD General Funds</narrative>
-   </provider-org>
   </transaction>
  </iati-activity>
 </iati-activities>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="asdb-vu" dstore:index="4" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="asdb-vu" dstore:index="4" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46004-54179-001-GRNT0776</iati-identifier>
   <reporting-org ref="46004" type="40">
    <narrative xml:lang="EN">Asian Development Bank</narrative>
@@ -39,11 +39,11 @@
   <country-budget-items vocabulary="1">
    <budget-item code="3.1.1" percentage="100" vocabulary="1"></budget-item>
   </country-budget-items>
-  <policy-marker code="GOVERNANCE AND CAPACITY DEVELOPMENT" vocabulary="99" vocabulary-uri="https://www.adb.org/sites/default/files/institutional-document/54179/files/project-classification-system-final-report.pdf">
-   <narrative xml:lang="EN">Governance and capacity development</narrative>
-  </policy-marker>
   <policy-marker code="GENDER EQUITY AND MAINSTREAMING" vocabulary="99" vocabulary-uri="https://www.adb.org/sites/default/files/institutional-document/54179/files/project-classification-system-final-report.pdf">
    <narrative xml:lang="EN">Gender Equity and Mainstreaming</narrative>
+  </policy-marker>
+  <policy-marker code="GOVERNANCE AND CAPACITY DEVELOPMENT" vocabulary="99" vocabulary-uri="https://www.adb.org/sites/default/files/institutional-document/54179/files/project-classification-system-final-report.pdf">
+   <narrative xml:lang="EN">Governance and capacity development</narrative>
   </policy-marker>
   <policy-marker code="INCLUSIVE ECONOMIC GROWTH" vocabulary="99" vocabulary-uri="https://www.adb.org/sites/default/files/institutional-document/54179/files/project-classification-system-final-report.pdf">
    <narrative xml:lang="EN">Inclusive economic growth</narrative>
@@ -134,22 +134,6 @@
     <narrative xml:lang="EN">Ministry of Finance &amp; Economic Management</narrative>
    </receiver-org>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54179/54179-001-grj-en.pdf">
-   <title>
-    <narrative xml:lang="EN">Grant Agreement</narrative>
-   </title>
-   <category code="A09"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2021-03-31"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54179/54179-001-grj-en.pdf">
-   <title>
-    <narrative xml:lang="EN">Grant Agreement</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2021-03-31"></document-date>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54179/54179-001-rrp-en.pdf">
    <title>
     <narrative xml:lang="EN">Reports and Recommendations of the President</narrative>
@@ -162,11 +146,19 @@
    <language code="EN"></language>
    <document-date iso-date="2021-03-31"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/54179-001/main#project-tenders">
+  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54179/54179-001-grj-en.pdf">
    <title>
-    <narrative xml:lang="EN">Contract/s Awarded</narrative>
+    <narrative xml:lang="EN">Grant Agreement</narrative>
    </title>
-   <category code="A11"></category>
+   <category code="A04"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-03-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54179/54179-001-grj-en.pdf">
+   <title>
+    <narrative xml:lang="EN">Grant Agreement</narrative>
+   </title>
+   <category code="A09"></category>
    <language code="EN"></language>
    <document-date iso-date="2021-03-31"></document-date>
   </document-link>
@@ -175,6 +167,14 @@
     <narrative xml:lang="EN">Tenders</narrative>
    </title>
    <category code="A10"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-03-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/54179-001/main#project-tenders">
+   <title>
+    <narrative xml:lang="EN">Contract/s Awarded</narrative>
+   </title>
+   <category code="A11"></category>
    <language code="EN"></language>
    <document-date iso-date="2021-03-31"></document-date>
   </document-link>
@@ -204,9 +204,9 @@
     <language code="EN"></language>
     <document-date iso-date="2021-03-31"></document-date>
    </document-link>
-   <indicator aggregation-status="0" ascending="1" measure="2">
+   <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">1c</narrative>
+     <narrative xml:lang="EN">1a</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Adverse effects of the COVID-19 pandemic on individuals and businesses mitigated</narrative>
@@ -222,9 +222,9 @@
     </description>
     <baseline value="0" year="2020"></baseline>
    </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="1">
+   <indicator aggregation-status="0" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">1a</narrative>
+     <narrative xml:lang="EN">1c</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Adverse effects of the COVID-19 pandemic on individuals and businesses mitigated</narrative>

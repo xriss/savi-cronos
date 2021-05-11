@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="NZD" dstore:dataset="mfat-iati-multi-country" dstore:index="84" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="NZD" dstore:dataset="mfat-iati-multi-country" dstore:index="84" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NZ-1-ACT-0102050</iati-identifier>
   <reporting-org ref="NZ-1" type="10">
    <narrative xml:lang="EN">New Zealand Ministry of Foreign Affairs and Trade</narrative>
@@ -11,18 +11,18 @@
   <description type="1">
    <narrative xml:lang="EN">&lt;p&gt;This Activity will deliver on the Pandemic Preparedness&amp;nbsp;and Response Workstream of the Polynesian&amp;nbsp;Health Corridors Programme, delivering&amp;nbsp;health services needed in an ongoing COVID-19 environment to ensure that participating Pacific Island Countries and Territories are collectively read, responsive and resilient to COVID-19 and future pandemic threats.&lt;/p&gt;</narrative>
   </description>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">Ministry of Health</narrative>
+  </participating-org>
   <participating-org ref="NZ-1" role="1" type="10">
    <narrative xml:lang="EN">New Zealand Ministry of Foreign Affairs and Trade</narrative>
   </participating-org>
   <participating-org ref="NZ-1" role="2" type="10">
    <narrative xml:lang="EN">New Zealand Ministry of Foreign Affairs and Trade</narrative>
   </participating-org>
-  <participating-org role="4" type="10">
-   <narrative xml:lang="EN">Ministry of Health</narrative>
-  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2021-01-18" type="1"></activity-date>
   <activity-date iso-date="2021-01-12" type="2"></activity-date>
+  <activity-date iso-date="2021-01-18" type="1"></activity-date>
   <activity-date iso-date="2023-09-30" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
@@ -40,12 +40,14 @@
   </contact-info>
   <recipient-country code="CK" percentage="16.66"></recipient-country>
   <recipient-country code="NU" percentage="16.66"></recipient-country>
-  <recipient-country code="WS" percentage="16.67"></recipient-country>
   <recipient-country code="TK" percentage="16.67"></recipient-country>
   <recipient-country code="TO" percentage="16.67"></recipient-country>
   <recipient-country code="TV" percentage="16.67"></recipient-country>
+  <recipient-country code="WS" percentage="16.67"></recipient-country>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
   <policy-marker code="1" significance="0" vocabulary="1"></policy-marker>
+  <policy-marker code="10" significance="2" vocabulary="1"></policy-marker>
+  <policy-marker code="11" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="2" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="3" significance="2" vocabulary="1"></policy-marker>
   <policy-marker code="4" significance="0" vocabulary="1"></policy-marker>
@@ -54,8 +56,6 @@
   <policy-marker code="7" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="9" significance="0" vocabulary="1"></policy-marker>
-  <policy-marker code="10" significance="2" vocabulary="1"></policy-marker>
-  <policy-marker code="11" significance="0" vocabulary="1"></policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -67,53 +67,29 @@
    <value currency="NZD" value-date="2021-02-22">1478042</value>
   </budget>
   <budget status="2" type="1">
-   <period-start iso-date="2022-04-01"></period-start>
-   <period-end iso-date="2022-06-30"></period-end>
-   <value currency="NZD" value-date="2021-01-27">1438985</value>
-  </budget>
-  <budget status="2" type="1">
    <period-start iso-date="2021-10-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="NZD" value-date="2021-01-27">1438985</value>
   </budget>
   <budget status="2" type="1">
-   <period-start iso-date="2023-04-01"></period-start>
-   <period-end iso-date="2023-06-30"></period-end>
-   <value currency="NZD" value-date="2021-01-27">779714</value>
+   <period-start iso-date="2022-04-01"></period-start>
+   <period-end iso-date="2022-06-30"></period-end>
+   <value currency="NZD" value-date="2021-01-27">1438985</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2022-10-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
    <value currency="NZD" value-date="2021-01-27">779714</value>
   </budget>
-  <transaction ref="412749">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-01-27"></transaction-date>
+  <budget status="2" type="1">
+   <period-start iso-date="2023-04-01"></period-start>
+   <period-end iso-date="2023-06-30"></period-end>
    <value currency="NZD" value-date="2021-01-27">779714</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
+  </budget>
   <transaction ref="412750">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-01-27"></transaction-date>
    <value currency="NZD" value-date="2021-01-27">1438985</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction ref="412751">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-01-27"></transaction-date>
-   <value currency="NZD" value-date="2021-01-27">779714</value>
    <description>
     <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
    </description>
@@ -138,6 +114,30 @@
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-01-27"></transaction-date>
    <value currency="NZD" value-date="2021-01-27">739021</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="412749">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-01-27"></transaction-date>
+   <value currency="NZD" value-date="2021-01-27">779714</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="412751">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-01-27"></transaction-date>
+   <value currency="NZD" value-date="2021-01-27">779714</value>
    <description>
     <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
    </description>

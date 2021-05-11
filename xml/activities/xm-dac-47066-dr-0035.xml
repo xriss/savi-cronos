@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="843" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="843" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-DR.0035</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,24 +11,24 @@
   <description>
    <narrative xml:lang="EN">This is a project is jointly implemented by IOM, UNICEF and UNFPA and will integrate a multi-sector approach in water and sanitation health; nutrition; maternal and newborn health solutions to address secondary impacts of COVID-19 response on vulnerable populations, especially newborns, children, adolescents and mothers who include refugees, asylum-seekers, or migrants in high-risk border area communities within Indonesia.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-41141-MPTF-121672" ref="XM-DAC-41141" role="1" type="40">
-   <narrative xml:lang="EN">UN COVID-19 Response and Recovery Fund - MPTF</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-41141-MPTF-121672" ref="XM-DAC-41141" role="1" type="40">
+   <narrative xml:lang="EN">UN COVID-19 Response and Recovery Fund - MPTF</narrative>
+  </participating-org>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2020-05-20" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-05-20" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2021-03-31" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2021-03-31" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-05-20" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-03-31" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -41,6 +41,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="PG" percentage="100"></recipient-country>
+  <location ref="PG">
+   <location-reach code="2"></location-reach>
+   <location-id code="PG" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Papua New Guinea</narrative>
+   </name>
+   <administrative code="PG" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -52,14 +60,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="PG">
-   <location-reach code="2"></location-reach>
-   <location-id code="PG" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Papua New Guinea</narrative>
-   </name>
-   <administrative code="PG" vocabulary="A4"></administrative>
   </location>
   <sector code="DR" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Disaster Risk Reduction</narrative>

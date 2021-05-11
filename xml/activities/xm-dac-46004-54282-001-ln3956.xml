@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="asdb-uz" dstore:index="50" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="asdb-uz" dstore:index="50" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-46004-54282-001-LN3956</iati-identifier>
   <reporting-org ref="XM-DAC-46004" type="40">
    <narrative xml:lang="EN">Asian Development Bank</narrative>
@@ -16,14 +16,14 @@ The proposed project is aligned with four operational priorities of Strategy 203
 
 The project is aligned with (i) concept for the development of the health system of the Republic of Uzbekistan for 20192025, and (ii) the SPRP. The project will have the following outcome: resilience to outbreaks of COVID-19 and other epidemics reinforced. The project will have three outputs: Output 1 - national laboratory system strengthened; Output 2 - national surveillance and response system established for COVID-19 and other epidemics; and Output 3 - COVID-19 treatment capacity expanded.</narrative>
   </description>
+  <participating-org activity-id="XM-DAC-46004-54282-001-LN3956" ref="46004" role="4" type="10">
+   <narrative xml:lang="EN">Agency for Sanitary and Epidemiological Wellbeing under the Ministry of Health of the Republic of Uzbekistan</narrative>
+  </participating-org>
   <participating-org activity-id="XM-DAC-46004-54282-001-LN3956" ref="46004" role="1" type="40">
    <narrative xml:lang="EN">Asian Development Bank</narrative>
   </participating-org>
   <participating-org activity-id="XM-DAC-46004-54282-001-LN3956" ref="46004" role="2" type="10">
    <narrative xml:lang="EN">Ministry of Health</narrative>
-  </participating-org>
-  <participating-org activity-id="XM-DAC-46004-54282-001-LN3956" ref="46004" role="4" type="10">
-   <narrative xml:lang="EN">Agency for Sanitary and Epidemiological Wellbeing under the Ministry of Health of the Republic of Uzbekistan</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-12-31" type="1"></activity-date>
@@ -153,22 +153,6 @@ The project is aligned with (i) concept for the development of the health system
     <narrative xml:lang="EN">Ministry of Health</narrative>
    </receiver-org>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54282/54282-001-lna-en.pdf">
-   <title>
-    <narrative xml:lang="EN">Loan Agreement</narrative>
-   </title>
-   <category code="A09"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2021-03-31"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54282/54282-001-lna-en.pdf">
-   <title>
-    <narrative xml:lang="EN">Loan Agreement</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2021-03-31"></document-date>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54282/54282-001-rrp-en.pdf">
    <title>
     <narrative xml:lang="EN">Reports and Recommendations of the President</narrative>
@@ -181,11 +165,19 @@ The project is aligned with (i) concept for the development of the health system
    <language code="EN"></language>
    <document-date iso-date="2021-03-31"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/54282-001/main#project-tenders">
+  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54282/54282-001-lna-en.pdf">
    <title>
-    <narrative xml:lang="EN">Contract/s Awarded</narrative>
+    <narrative xml:lang="EN">Loan Agreement</narrative>
    </title>
-   <category code="A11"></category>
+   <category code="A04"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-03-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/54282/54282-001-lna-en.pdf">
+   <title>
+    <narrative xml:lang="EN">Loan Agreement</narrative>
+   </title>
+   <category code="A09"></category>
    <language code="EN"></language>
    <document-date iso-date="2021-03-31"></document-date>
   </document-link>
@@ -194,6 +186,14 @@ The project is aligned with (i) concept for the development of the health system
     <narrative xml:lang="EN">Tenders</narrative>
    </title>
    <category code="A10"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-03-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/54282-001/main#project-tenders">
+   <title>
+    <narrative xml:lang="EN">Contract/s Awarded</narrative>
+   </title>
+   <category code="A11"></category>
    <language code="EN"></language>
    <document-date iso-date="2021-03-31"></document-date>
   </document-link>
@@ -222,15 +222,6 @@ The project is aligned with (i) concept for the development of the health system
    </document-link>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Testing surge capacity increased to 25,000 polymerase chain reaction (PCR) tests per day by trained lab technicians, with turnaround time of less than 24 hours for testing for COVID-19</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Resilience to outbreaks of COVID-19 and other public health emergencies reinforced</narrative>
-    </description>
-    <baseline value="15000" year="2020"></baseline>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="1">
-    <title>
      <narrative xml:lang="EN">Treatment surge capacity for critical care increased to more than 3,500 functional
 intensive care units attended by trained medical staff</narrative>
     </title>
@@ -238,6 +229,15 @@ intensive care units attended by trained medical staff</narrative>
      <narrative xml:lang="EN">Resilience to outbreaks of COVID-19 and other public health emergencies reinforced</narrative>
     </description>
     <baseline value="1000" year="2020"></baseline>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Testing surge capacity increased to 25,000 polymerase chain reaction (PCR) tests per day by trained lab technicians, with turnaround time of less than 24 hours for testing for COVID-19</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Resilience to outbreaks of COVID-19 and other public health emergencies reinforced</narrative>
+    </description>
+    <baseline value="15000" year="2020"></baseline>
    </indicator>
   </result>
  </iati-activity>

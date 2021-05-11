@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="NZD" dstore:dataset="mfat-iati-fiji" dstore:index="27" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="NZD" dstore:dataset="mfat-iati-fiji" dstore:index="27" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NZ-1-ACT-0101787</iati-identifier>
   <reporting-org ref="NZ-1" type="10">
    <narrative xml:lang="EN">New Zealand Ministry of Foreign Affairs and Trade</narrative>
@@ -12,14 +12,14 @@
    <narrative xml:lang="EN">Support to Fiji for preparedness and response to a potential Covid-19 outbreak in the region.
 Initial fund from Cabinet Paper approved 16/03/2020.</narrative>
   </description>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">Fiji Government - Ministry of Health and Medical Services</narrative>
+  </participating-org>
   <participating-org ref="NZ-1" role="1" type="10">
    <narrative xml:lang="EN">New Zealand Ministry of Foreign Affairs and Trade</narrative>
   </participating-org>
   <participating-org ref="NZ-1" role="2" type="10">
    <narrative xml:lang="EN">New Zealand Ministry of Foreign Affairs and Trade</narrative>
-  </participating-org>
-  <participating-org role="4" type="10">
-   <narrative xml:lang="EN">Fiji Government - Ministry of Health and Medical Services</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-03-20" type="1"></activity-date>
@@ -42,6 +42,8 @@ Initial fund from Cabinet Paper approved 16/03/2020.</narrative>
   <recipient-country code="FJ" percentage="100"></recipient-country>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
   <policy-marker code="1" significance="0" vocabulary="1"></policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1"></policy-marker>
+  <policy-marker code="11" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="2" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="3" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="4" significance="0" vocabulary="1"></policy-marker>
@@ -50,8 +52,6 @@ Initial fund from Cabinet Paper approved 16/03/2020.</narrative>
   <policy-marker code="7" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="9" significance="0" vocabulary="1"></policy-marker>
-  <policy-marker code="10" significance="0" vocabulary="1"></policy-marker>
-  <policy-marker code="11" significance="0" vocabulary="1"></policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -62,6 +62,18 @@ Initial fund from Cabinet Paper approved 16/03/2020.</narrative>
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="NZD" value-date="2020-10-22">1614.66</value>
   </budget>
+  <transaction ref="401676">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-22"></transaction-date>
+   <value currency="NZD" value-date="2020-10-22">1614.66</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="70">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="364486">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-03-27"></transaction-date>
@@ -71,18 +83,6 @@ Initial fund from Cabinet Paper approved 16/03/2020.</narrative>
    </description>
    <provider-org ref="NZ-1" type="10"></provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction ref="369349">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-04-09"></transaction-date>
-   <value currency="NZD" value-date="2020-04-09">303613</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="70">
     <narrative xml:lang="EN">Pending Approval</narrative>
    </receiver-org>
   </transaction>
@@ -102,6 +102,18 @@ Initial fund from Cabinet Paper approved 16/03/2020.</narrative>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-04-09"></transaction-date>
    <value currency="NZD" value-date="2020-04-09">116471.8</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="70">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="369349">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-04-09"></transaction-date>
+   <value currency="NZD" value-date="2020-04-09">303613</value>
    <description>
     <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
    </description>
@@ -158,6 +170,18 @@ Initial fund from Cabinet Paper approved 16/03/2020.</narrative>
     <narrative xml:lang="EN">Pending Approval</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="394486">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-27"></transaction-date>
+   <value currency="NZD" value-date="2020-08-27">1199.6</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="70">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="394484">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-08-27"></transaction-date>
@@ -182,36 +206,12 @@ Initial fund from Cabinet Paper approved 16/03/2020.</narrative>
     <narrative xml:lang="EN">Pending Approval</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="394486">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-27"></transaction-date>
-   <value currency="NZD" value-date="2020-08-27">1199.6</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="70">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="394487">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-08-27"></transaction-date>
    <value currency="NZD" value-date="2020-08-27">2333.7</value>
    <description>
     <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="70">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction ref="401676">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-10-22"></transaction-date>
-   <value currency="NZD" value-date="2020-10-22">1614.66</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
    </description>
    <provider-org ref="NZ-1" type="10"></provider-org>
    <receiver-org type="70">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="2193" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="2193" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-RR.0130</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,18 +11,18 @@
   <description>
    <narrative xml:lang="EN">The project will focus on addressing gaps within the fundamental aspects of the reintegration needs of returning migrants, which, if left unattended, would contribute to the continuation of irregular migration. This will include activities such as the renovation of remaining key reception centers and other critical reintegration infrastructure, along with the establishment of associated information management systems to register the returnees. Overall the project will address the need for improved and accessible migration information, improved evidence at the municipal level of reintegration outcomes, as well as evidence-based strategies and frameworks, in order to contribute to strategic, evidence-based policy formation by Guatemala, El Salvador and Honduras governments and their institutions involved in addressing factors that contribute to human mobility. The project will also support migrants affected by the COVID-19 pandemic, including returnees.</narrative>
   </description>
-  <participating-org activity-id="US-GOV-1-72051920IO00001" ref="US-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">United States Agency for International Development (USAID)</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="US-GOV-1-72051920IO00001" ref="US-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">United States Agency for International Development (USAID)</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-02-21" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-02-21" type="2">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-02-21" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <activity-date iso-date="2022-11-20" type="3">
    <narrative xml:lang="EN">Planned</narrative>
@@ -40,6 +40,54 @@
   <recipient-region code="13" percentage="100" vocabulary="2">
    <narrative xml:lang="EN">Central America</narrative>
   </recipient-region>
+  <location ref="BZ">
+   <location-reach code="2"></location-reach>
+   <location-id code="BZ" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Belize</narrative>
+   </name>
+   <administrative code="BZ" vocabulary="A4"></administrative>
+  </location>
+  <location ref="CR">
+   <location-reach code="2"></location-reach>
+   <location-id code="CR" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Costa Rica</narrative>
+   </name>
+   <administrative code="CR" vocabulary="A4"></administrative>
+  </location>
+  <location ref="GT">
+   <location-reach code="2"></location-reach>
+   <location-id code="GT" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Guatemala</narrative>
+   </name>
+   <administrative code="GT" vocabulary="A4"></administrative>
+  </location>
+  <location ref="HN">
+   <location-reach code="2"></location-reach>
+   <location-id code="HN" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Honduras</narrative>
+   </name>
+   <administrative code="HN" vocabulary="A4"></administrative>
+  </location>
+  <location ref="PA">
+   <location-reach code="2"></location-reach>
+   <location-id code="PA" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Panama</narrative>
+   </name>
+   <administrative code="PA" vocabulary="A4"></administrative>
+  </location>
+  <location ref="SV">
+   <location-reach code="2"></location-reach>
+   <location-id code="SV" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">El Salvador</narrative>
+   </name>
+   <administrative code="SV" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -51,14 +99,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="BZ">
-   <location-reach code="2"></location-reach>
-   <location-id code="BZ" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Belize</narrative>
-   </name>
-   <administrative code="BZ" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -72,14 +112,6 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="CR">
-   <location-reach code="2"></location-reach>
-   <location-id code="CR" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Costa Rica</narrative>
-   </name>
-   <administrative code="CR" vocabulary="A4"></administrative>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -91,14 +123,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="GT">
-   <location-reach code="2"></location-reach>
-   <location-id code="GT" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Guatemala</narrative>
-   </name>
-   <administrative code="GT" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -112,14 +136,6 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="HN">
-   <location-reach code="2"></location-reach>
-   <location-id code="HN" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Honduras</narrative>
-   </name>
-   <administrative code="HN" vocabulary="A4"></administrative>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -131,14 +147,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="PA">
-   <location-reach code="2"></location-reach>
-   <location-id code="PA" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Panama</narrative>
-   </name>
-   <administrative code="PA" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -152,22 +160,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="SV">
-   <location-reach code="2"></location-reach>
-   <location-id code="SV" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">El Salvador</narrative>
-   </name>
-   <administrative code="SV" vocabulary="A4"></administrative>
-  </location>
-  <sector code="RR" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
-   <narrative xml:lang="EN">Return and Reintegration Assistance for Migrants and Governments</narrative>
+  <sector code="15190" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
   </sector>
   <sector code="04" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Regulating Migration</narrative>
   </sector>
-  <sector code="15190" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
+  <sector code="RR" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
+   <narrative xml:lang="EN">Return and Reintegration Assistance for Migrants and Governments</narrative>
   </sector>
   <policy-marker code="2A" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project with sufficient inclusion of gender issues (mainstreamed)</narrative>

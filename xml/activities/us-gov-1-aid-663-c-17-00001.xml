@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-et" dstore:index="755" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-et" dstore:index="755" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-AID-663-C-17-00001</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -11,6 +11,9 @@
   <description>
    <narrative xml:lang="EN">(Ethiopia):  .The FTF Value Chain Activity improves the performance of the agriculture sector, focusing on six value chains: maize, coffee, chickpea, livestock, dairy, and poultry in order to put more money in the pockets of farmers and reduce stunting among children. It helps smallholder farmers and agri-businesses improve productivity and marketing. ..with FY 2020 funds, the activity will continue scaling up, targeting existing and new clients, including farmers, cooperatives and financial institutions. To increase farmer productivity and local access to safe and nutritious foods, the activity will support farmers to apply climate-smart and labor-saving technologies and to produce high value products, such as specialty coffee, table egg, Kabuli chickpea, and Ultra Heat Treated milk. The activity will support increased transparency of transactions, quality standards for premium prices, access to local and international markets, collective action, and reinvestment in new business opportunities. To support a continued and safe flow of agricultural products and services during the COVID-19 pandemic, the activity will help agriculture value chain actors to adapt their business models, renegotiate their loan agreements, upgrade their facilities, and access production and marketing assistance remotely. The activity will continue to facilitate women and youth&apos;s engagement, including access to training, specialized technical assistance, productive resources, policy dialogue, and partnerships with private sector actors. Finally, the activity increases human and institutional capacity to undertake policy analysis and implementation, attract foreign and domestic investment, and relieve constraints to growth. The activity aligns with the GOE&apos;s Agriculture Growth Program II and contributes to achieving the USG Mission Objective of improved food security in Ethiopia. Improving food security will in turn contribute to greater regional stability, a US Foreign Policy priority.....</narrative>
   </description>
+  <participating-org role="4" type="70">
+   <narrative xml:lang="EN">Fintrac, Inc.</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
@@ -19,9 +22,6 @@
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="70">
-   <narrative xml:lang="EN">Fintrac, Inc.</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2017-01-01" type="1"></activity-date>
@@ -129,17 +129,6 @@
    </point>
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <name>
-    <narrative xml:lang="EN">Bahir Dar Liyu</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>11.58425 37.38879</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -702,6 +691,17 @@
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
   </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Bahir Dar Liyu</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>11.58425 37.38879</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -711,24 +711,6 @@
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
    <value currency="USD" value-date="2016-12-31">1484.1</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31120" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural development</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2009" end="2010"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="4E83594FBB69">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <value currency="USD" value-date="2017-06-30">1484.1</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="31120" vocabulary="1">
     <narrative xml:lang="EN">Agricultural development</narrative>
@@ -761,46 +743,10 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="8CF93F4C81EE">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <value currency="USD" value-date="2017-06-30">0.5</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31120" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural development</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2011" end="2012"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="ACCBB34C3725">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
    <value currency="USD" value-date="2016-12-31">301034.27</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31120" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural development</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2014" end="2015"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="A597C4BAEE03">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <value currency="USD" value-date="2017-06-30">301034.27</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="31120" vocabulary="1">
     <narrative xml:lang="EN">Agricultural development</narrative>
@@ -833,74 +779,74 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="28E4B67CC278">
+  <transaction ref="0A6C9C48D8D5">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-12-31">428124.92</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31110" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
-   </sector>
-   <sector code="8001" vocabulary="99">
-    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="F37130BE1513">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-12-31">5306.21</value>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="USD" value-date="2017-06-30">8500000</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="31120" vocabulary="1">
     <narrative xml:lang="EN">Agricultural development</narrative>
    </sector>
-   <sector code="8001" vocabulary="99">
-    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
     <usg:main-account code="1021">Development Assistance</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="FC38106FF132">
+  <transaction ref="4E83594FBB69">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2017-06-30"></transaction-date>
-   <value currency="USD" value-date="2017-06-30">267904.83</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31110" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
-   </sector>
-   <sector code="8001" vocabulary="99">
-    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="9F35534E3C08">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <value currency="USD" value-date="2017-06-30">5306.21</value>
+   <value currency="USD" value-date="2017-06-30">1484.1</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="31120" vocabulary="1">
     <narrative xml:lang="EN">Agricultural development</narrative>
    </sector>
-   <sector code="8001" vocabulary="99">
-    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2009" end="2010"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="8CF93F4C81EE">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="USD" value-date="2017-06-30">0.5</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31120" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural development</narrative>
+   </sector>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2011" end="2012"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="A597C4BAEE03">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="USD" value-date="2017-06-30">301034.27</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31120" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural development</narrative>
+   </sector>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2014" end="2015"></usg:fiscal-funding-year>
     <usg:main-account code="1021">Development Assistance</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -937,60 +883,6 @@
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="939EE151489C">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-12-31">159883.5</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31110" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
-   </sector>
-   <sector code="8001" vocabulary="99">
-    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="200192D34DB9">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">336.59</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31110" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
-   </sector>
-   <sector code="8001" vocabulary="99">
-    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="0A6C9C48D8D5">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <value currency="USD" value-date="2017-06-30">8500000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31120" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural development</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
     <usg:main-account code="1021">Development Assistance</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -1103,24 +995,6 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="ADA161C5F66D">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1822021</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31120" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural development</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="F526524B60EF">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-03-31"></transaction-date>
@@ -1171,6 +1045,60 @@
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="ADA161C5F66D">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1822021</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31120" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural development</narrative>
+   </sector>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="F37130BE1513">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-12-31">5306.21</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31120" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural development</narrative>
+   </sector>
+   <sector code="8001" vocabulary="99">
+    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="9F35534E3C08">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="USD" value-date="2017-06-30">5306.21</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31120" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural development</narrative>
+   </sector>
+   <sector code="8001" vocabulary="99">
+    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
     <usg:main-account code="1021">Development Assistance</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -1247,6 +1175,24 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
+  <transaction ref="CCFC5C537B6E">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-06-30"></transaction-date>
+   <value currency="USD" value-date="2019-06-30">7000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31110" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   </sector>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <transaction ref="6E9A2328567A">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-06-30"></transaction-date>
@@ -1283,60 +1229,6 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="CCFC5C537B6E">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-06-30"></transaction-date>
-   <value currency="USD" value-date="2019-06-30">7000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31110" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="F232094FCCDF">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">49161.6</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33110" vocabulary="1">
-    <narrative xml:lang="EN">Trade policy and administrative management</narrative>
-   </sector>
-   <sector code="5002" vocabulary="99">
-    <narrative xml:lang="EN">Trade and Investment</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2010" end="2011"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="F232094FCCDF">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">49161.6</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33110" vocabulary="1">
-    <narrative xml:lang="EN">Trade policy and administrative management</narrative>
-   </sector>
-   <sector code="5002" vocabulary="99">
-    <narrative xml:lang="EN">Trade and Investment</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2010" end="2011"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="1F9643F81FF7">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
@@ -1352,6 +1244,42 @@
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
     <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="B1F7B7A184DB">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">5397190</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31110" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   </sector>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="2E05E67055F2">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">2000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31110" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   </sector>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
@@ -1391,42 +1319,6 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="8B81DC5CD8F7">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">631705.34</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31110" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="B1F7B7A184DB">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">5397190</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31110" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="5F7C7E00CD58">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
@@ -1445,6 +1337,24 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
+  <transaction ref="8B81DC5CD8F7">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">631705.34</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31110" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   </sector>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <transaction ref="5F7C7E00CD58">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
@@ -1459,6 +1369,42 @@
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="704A8B09EFBA">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">2000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31110" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   </sector>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="209E04D1F648">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">9747324</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31110" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   </sector>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
     <usg:main-account code="1021">Development Assistance</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -1499,96 +1445,6 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="209E04D1F648">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">9747324</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31110" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="2E05E67055F2">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">2000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31110" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="056434A749D4">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">4097406</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15110" vocabulary="1">
-    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
-   </sector>
-   <sector code="5001" vocabulary="99">
-    <narrative xml:lang="EN">Macroeconomic Foundation for Growth</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="704A8B09EFBA">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">2000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="31110" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="B1EA0E0A3689">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">-4097406</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15110" vocabulary="1">
-    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
-   </sector>
-   <sector code="5001" vocabulary="99">
-    <narrative xml:lang="EN">Macroeconomic Foundation for Growth</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="C4170026C734">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -1607,6 +1463,150 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
+  <transaction ref="28E4B67CC278">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-12-31">428124.92</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31110" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   </sector>
+   <sector code="8001" vocabulary="99">
+    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="FC38106FF132">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="USD" value-date="2017-06-30">267904.83</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31110" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   </sector>
+   <sector code="8001" vocabulary="99">
+    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="939EE151489C">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-12-31">159883.5</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31110" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   </sector>
+   <sector code="8001" vocabulary="99">
+    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="200192D34DB9">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">336.59</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="31110" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   </sector>
+   <sector code="8001" vocabulary="99">
+    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="056434A749D4">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">4097406</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5001" vocabulary="99">
+    <narrative xml:lang="EN">Macroeconomic Foundation for Growth</narrative>
+   </sector>
+   <sector code="15110" vocabulary="1">
+    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="B1EA0E0A3689">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">-4097406</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5001" vocabulary="99">
+    <narrative xml:lang="EN">Macroeconomic Foundation for Growth</narrative>
+   </sector>
+   <sector code="15110" vocabulary="1">
+    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="F232094FCCDF">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">49161.6</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5002" vocabulary="99">
+    <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33110" vocabulary="1">
+    <narrative xml:lang="EN">Trade policy and administrative management</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2010" end="2011"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="F232094FCCDF">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">49161.6</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5002" vocabulary="99">
+    <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33110" vocabulary="1">
+    <narrative xml:lang="EN">Trade policy and administrative management</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2010" end="2011"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://ecd.usaid.gov/repository/pdf/43851.pdf">
    <title>
     <narrative xml:lang="EN">Agriculture Value Chain and Private Sector Project</narrative>
@@ -1615,13 +1615,6 @@
    <language code="EN"></language>
    <document-date iso-date="2015-06-22"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://pdf.usaid.gov/pdf_docs/PA00N46K.pdf">
-   <title>
-    <narrative xml:lang="EN">Feed the Future Ethiopia Value Chain Activity Annual Report 2017</narrative>
-   </title>
-   <category code="A07"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://pdf.usaid.gov/pdf_docs/PA00TVTW.pdf">
    <title>
     <narrative xml:lang="EN">Feed the Future Ethiopia Value Chain Activity Annual Report 2018</narrative>
@@ -1629,6 +1622,13 @@
    <category code="A07"></category>
    <language code="EN"></language>
    <document-date iso-date="2018-09-01"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://pdf.usaid.gov/pdf_docs/PA00N46K.pdf">
+   <title>
+    <narrative xml:lang="EN">Feed the Future Ethiopia Value Chain Activity Annual Report 2017</narrative>
+   </title>
+   <category code="A07"></category>
+   <language code="EN"></language>
   </document-link>
   <conditions attached="0"></conditions>
   <usg:duns-number>

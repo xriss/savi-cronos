@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-arm" dstore:index="128" hierarchy="2" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-arm" dstore:index="128" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00120958</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">Support the Government of Armenia in strengthening its national response to COVID-19 pandemic</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="01059" role="1" type="10">
    <narrative xml:lang="EN">ARM-GOVERNMENT</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-04-13" type="1"></activity-date>
@@ -66,9 +66,33 @@
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">1138360</value>
+   <provider-org ref="01059" type="10">
+    <narrative xml:lang="EN">ARM-GOVERNMENT</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120958" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">1138360</value>
+   <provider-org ref="01059" type="10">
+    <narrative xml:lang="EN">ARM-GOVERNMENT</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120958" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">96031</value>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="USD" value-date="2020-05-31">579000</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -85,35 +109,11 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">579000</value>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">96031</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">1138360</value>
-   <provider-org ref="01059" type="10">
-    <narrative xml:lang="EN">ARM-GOVERNMENT</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120958" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">1138360</value>
-   <provider-org ref="01059" type="10">
-    <narrative xml:lang="EN">ARM-GOVERNMENT</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120958" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -131,9 +131,9 @@
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00124483" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00119403" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00120830" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00124483" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

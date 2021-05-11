@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1547" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1547" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-MP.0462</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,24 +11,24 @@
   <description>
    <narrative xml:lang="EN">The project proposes to strengthen COVID-19 response in areas of transit and border communities in Bobonaro and Covalima. The project will increase the capacity of the Government of Timor-Leste to monitor migration flows for COVID-19 at points of entry in Timor-Leste&#x2019;s border communities, ensure that border communities, mobile populations and migrants have increased access to information on COVID-19 and improve the ability of the the Government to manage COVID-19 quarantine and isolation facilities.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-928" ref="XM-DAC-928" role="1" type="40">
-   <narrative xml:lang="EN">World Health Organization</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-928" ref="XM-DAC-928" role="1" type="40">
+   <narrative xml:lang="EN">World Health Organization</narrative>
+  </participating-org>
   <activity-status code="4"></activity-status>
-  <activity-date iso-date="2020-05-01" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-05-01" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2020-07-31" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-07-31" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-05-01" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-07-31" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -41,6 +41,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="TL" percentage="100"></recipient-country>
+  <location ref="TL">
+   <location-reach code="2"></location-reach>
+   <location-id code="TL" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Timor-Leste</narrative>
+   </name>
+   <administrative code="TL" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -53,22 +61,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="TL">
-   <location-reach code="2"></location-reach>
-   <location-id code="TL" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Timor-Leste</narrative>
-   </name>
-   <administrative code="TL" vocabulary="A4"></administrative>
-  </location>
+  <sector code="72010" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
   <sector code="MP" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Migr Health Assist for Crisis Aff Pops</narrative>
   </sector>
   <sector code="02" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Migration Health</narrative>
-  </sector>
-  <sector code="72010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
   <policy-marker code="1" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project with some but insufficient inclusion of gender issues</narrative>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="4744" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="4744" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41301-680841</iati-identifier>
   <reporting-org ref="XM-DAC-41301" type="40">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
@@ -49,14 +49,6 @@
    <value currency="USD" value-date="2020-05-21">8000000.4</value>
   </budget>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">1735056.39</value>
-   <description>
-    <narrative xml:lang="EN">Total expenditure from 01 April 2020 to 30 June 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-06-30">8000000.4</value>
@@ -66,10 +58,26 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">1735056.39</value>
+   <description>
+    <narrative xml:lang="EN">Total expenditure from 01 April 2020 to 30 June 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">2947220.06</value>
    <description>
     <narrative xml:lang="EN">Total expenditure from 01 July 2020 to 30 September 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">469107.14</value>
+   <description>
+    <narrative xml:lang="EN">Total expenditure from 01 October 2020 to 31 December 2020</narrative>
    </description>
   </transaction>
   <transaction>
@@ -82,14 +90,6 @@
    <provider-org ref="XM-DAC-232">
     <narrative xml:lang="EN">Chad</narrative>
    </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">469107.14</value>
-   <description>
-    <narrative xml:lang="EN">Total expenditure from 01 October 2020 to 31 December 2020</narrative>
-   </description>
   </transaction>
  </iati-activity>
 </iati-activities>

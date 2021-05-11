@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-ukr" dstore:index="239" hierarchy="2" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-ukr" dstore:index="239" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00126331</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">Economic empowerment of women (WEE) as a response to the COVID-19 crisis in Ukraine</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-41114" role="1">
    <narrative xml:lang="EN">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2021-03-01" type="1"></activity-date>
@@ -29,16 +29,16 @@
   <recipient-country code="UA" percentage="100">
    <narrative xml:lang="EN">Ukraine</narrative>
   </recipient-country>
-  <sector code="16050" percentage="100" vocabulary="1"></sector>
-  <sector code="8.5" percentage="33.33" vocabulary="8"></sector>
-  <sector code="4.4" percentage="33.33" vocabulary="8"></sector>
-  <sector code="10.2" percentage="33.33" vocabulary="8"></sector>
   <sector code="17" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Eradicate poverty in all its forms and dimensions</narrative>
   </sector>
-  <tag code="8.5" vocabulary="3"></tag>
-  <tag code="4.4" vocabulary="3"></tag>
+  <sector code="10.2" percentage="33.33" vocabulary="8"></sector>
+  <sector code="16050" percentage="100" vocabulary="1"></sector>
+  <sector code="4.4" percentage="33.33" vocabulary="8"></sector>
+  <sector code="8.5" percentage="33.33" vocabulary="8"></sector>
   <tag code="10.2" vocabulary="3"></tag>
+  <tag code="4.4" vocabulary="3"></tag>
+  <tag code="8.5" vocabulary="3"></tag>
   <policy-marker code="1" significance="2" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -51,15 +51,6 @@
    <value currency="USD" value-date="2021-04-30">100000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">350</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
@@ -81,15 +72,24 @@
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">350</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://open.undp.org/projects/00127821">
    <title>
     <narrative xml:lang="EN">Activity web page</narrative>
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00127821" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00121755" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00125327" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00127821" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

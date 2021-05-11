@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="fcdo-in" dstore:index="348" hierarchy="2" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="fcdo-in" dstore:index="348" hierarchy="2" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-1-203911-102</iati-identifier>
   <reporting-org ref="GB-GOV-1" type="10">
    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -11,12 +11,6 @@
   <description>
    <narrative xml:lang="EN">This activity (Covid -19 Support to India: Infrastructure Equity Fund Programme -  Development Capital Investment (DCI)) is a component of India: Infrastructure Equity Fund - Investment in small infrastructure projects in India&apos;s poorest states reported by FCDO, with a funding type of &apos;Other&apos; and a budget of &#xA3;37,437,923. This component benefits India, and works in the following sector(s): Financial policy and administrative management, Small and medium-sized enterprises (SME) development. , with the following implementing partners: IPE Global Private Limited, Neev Fund Trust Account, State Bank of India. The start date is 01-04-2013 and the end date is 30-11-2020.</narrative>
   </description>
-  <participating-org role="4">
-   <narrative xml:lang="EN">Neev Fund Trust Account</narrative>
-  </participating-org>
-  <participating-org role="4">
-   <narrative xml:lang="EN">State Bank of India</narrative>
-  </participating-org>
   <participating-org ref="GB-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
   </participating-org>
@@ -26,21 +20,27 @@
   <participating-org ref="IN-MCA-U74140DL1998PLC097579" role="4" type="70">
    <narrative xml:lang="EN">IPE Global Private Limited</narrative>
   </participating-org>
-  <other-identifier ref="203911-102" type="A1">
-   <owner-org ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </owner-org>
-  </other-identifier>
+  <participating-org role="4">
+   <narrative xml:lang="EN">Neev Fund Trust Account</narrative>
+  </participating-org>
+  <participating-org role="4">
+   <narrative xml:lang="EN">State Bank of India</narrative>
+  </participating-org>
   <other-identifier ref="GB-1" type="B1">
    <owner-org ref="GB-GOV-1">
     <narrative xml:lang="EN">FCDO previous reporting-org identifier</narrative>
    </owner-org>
   </other-identifier>
+  <other-identifier ref="203911-102" type="A1">
+   <owner-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2013-04-01" type="1"></activity-date>
-  <activity-date iso-date="2020-11-30" type="4"></activity-date>
-  <activity-date iso-date="2020-11-30" type="3"></activity-date>
   <activity-date iso-date="2013-04-01" type="2"></activity-date>
+  <activity-date iso-date="2020-11-30" type="3"></activity-date>
+  <activity-date iso-date="2020-11-30" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -52,11 +52,11 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="IN" percentage="100"></recipient-country>
-  <sector code="32130" percentage="60" vocabulary="1">
-   <narrative xml:lang="EN">Small and medium-sized enterprises (SME) development</narrative>
-  </sector>
   <sector code="24010" percentage="40" vocabulary="1">
    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+  </sector>
+  <sector code="32130" percentage="60" vocabulary="1">
+   <narrative xml:lang="EN">Small and medium-sized enterprises (SME) development</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="1.3.13" percentage="40" vocabulary="1">
@@ -257,20 +257,6 @@
     <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
    </provider-org>
   </transaction>
-  <transaction ref="6453656">
-   <transaction-type code="8"></transaction-type>
-   <transaction-date iso-date="2015-06-05"></transaction-date>
-   <value currency="GBP" value-date="2015-06-05">31910</value>
-   <description>
-    <narrative xml:lang="EN">Shares and Equity - Additions</narrative>
-   </description>
-   <provider-org ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </provider-org>
-   <receiver-org ref="IN-MCA-U74140DL1998PLC097579" type="70">
-    <narrative xml:lang="EN">IPE Global Private Limited</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="6455211">
    <transaction-type code="8"></transaction-type>
    <transaction-date iso-date="2015-06-08"></transaction-date>
@@ -285,18 +271,18 @@
     <narrative xml:lang="EN">Correction</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="6482429">
+  <transaction ref="6453656">
    <transaction-type code="8"></transaction-type>
-   <transaction-date iso-date="2015-06-30"></transaction-date>
-   <value currency="GBP" value-date="2015-06-30">31496</value>
+   <transaction-date iso-date="2015-06-05"></transaction-date>
+   <value currency="GBP" value-date="2015-06-05">31910</value>
    <description>
     <narrative xml:lang="EN">Shares and Equity - Additions</narrative>
    </description>
    <provider-org ref="GB-GOV-1">
     <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
    </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">State Bank of India</narrative>
+   <receiver-org ref="IN-MCA-U74140DL1998PLC097579" type="70">
+    <narrative xml:lang="EN">IPE Global Private Limited</narrative>
    </receiver-org>
   </transaction>
   <transaction ref="6555008">
@@ -691,10 +677,10 @@
     <narrative xml:lang="EN">Neev Fund Trust Account</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="8383627">
+  <transaction ref="8384761">
    <transaction-type code="8"></transaction-type>
    <transaction-date iso-date="2019-04-01"></transaction-date>
-   <value currency="GBP" value-date="2019-04-01">70995</value>
+   <value currency="GBP" value-date="2019-04-01">248680</value>
    <description>
     <narrative xml:lang="EN">Shares and Equity - Additions</narrative>
    </description>
@@ -705,10 +691,10 @@
     <narrative xml:lang="EN">Neev Fund Trust Account</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="8384761">
+  <transaction ref="8383627">
    <transaction-type code="8"></transaction-type>
    <transaction-date iso-date="2019-04-01"></transaction-date>
-   <value currency="GBP" value-date="2019-04-01">248680</value>
+   <value currency="GBP" value-date="2019-04-01">70995</value>
    <description>
     <narrative xml:lang="EN">Shares and Equity - Additions</narrative>
    </description>
@@ -859,10 +845,10 @@
     <narrative xml:lang="EN">Neev Fund Trust Account</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="8947107">
+  <transaction ref="8947122">
    <transaction-type code="8"></transaction-type>
    <transaction-date iso-date="2020-06-12"></transaction-date>
-   <value currency="GBP" value-date="2020-06-12">17622</value>
+   <value currency="GBP" value-date="2020-06-12">134810</value>
    <description>
     <narrative xml:lang="EN">Shares and Equity - Additions</narrative>
    </description>
@@ -873,10 +859,10 @@
     <narrative xml:lang="EN">Neev Fund Trust Account</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="8947122">
+  <transaction ref="8947107">
    <transaction-type code="8"></transaction-type>
    <transaction-date iso-date="2020-06-12"></transaction-date>
-   <value currency="GBP" value-date="2020-06-12">134810</value>
+   <value currency="GBP" value-date="2020-06-12">17622</value>
    <description>
     <narrative xml:lang="EN">Shares and Equity - Additions</narrative>
    </description>
@@ -969,6 +955,20 @@
    </provider-org>
    <receiver-org>
     <narrative xml:lang="EN">Neev Fund Trust Account</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="6482429">
+   <transaction-type code="8"></transaction-type>
+   <transaction-date iso-date="2015-06-30"></transaction-date>
+   <value currency="GBP" value-date="2015-06-30">31496</value>
+   <description>
+    <narrative xml:lang="EN">Shares and Equity - Additions</narrative>
+   </description>
+   <provider-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">State Bank of India</narrative>
    </receiver-org>
   </transaction>
   <related-activity ref="GB-1-203911" type="1"></related-activity>

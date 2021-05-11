@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="worldbank-ht" dstore:index="26" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="worldbank-ht" dstore:index="26" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>44000-P173281</iati-identifier>
   <reporting-org ref="44000" type="40">
    <narrative xml:lang="EN">World Bank</narrative>
@@ -14,20 +14,20 @@
   <participating-org ref="44002" role="1" type="40" xml:lang="EN">
    <narrative xml:lang="EN">International Development Association</narrative>
   </participating-org>
-  <participating-org role="2" xml:lang="EN">
-   <narrative xml:lang="EN"></narrative>
-  </participating-org>
   <participating-org ref="44002" role="3" type="40" xml:lang="EN">
    <narrative xml:lang="EN">International Development Association</narrative>
+  </participating-org>
+  <participating-org role="2" xml:lang="EN">
+   <narrative xml:lang="EN"></narrative>
   </participating-org>
   <participating-org role="4" xml:lang="EN">
    <narrative xml:lang="EN"></narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date type="1"></activity-date>
   <activity-date iso-date="2020-06-18" type="2">
    <narrative xml:lang="EN">Actual start date of the activity</narrative>
   </activity-date>
+  <activity-date type="1"></activity-date>
   <activity-date type="3"></activity-date>
   <contact-info type="1">
    <organisation>
@@ -96,54 +96,6 @@
   </location>
   <location>
    <location-reach code="1"></location-reach>
-   <location-id code="0003717424" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Saut</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>18.4500 -73.4670</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <location-id code="0003717564" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Saint-Michel</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>19.7670 -72.3500</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <location-id code="0003718398" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Poste</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>18.3500 -74.3000</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <location-id code="0003718426" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Port-au-Prince</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>18.5430 -72.3390</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
    <location-id code="0003721314" vocabulary="G1"></location-id>
    <name>
     <narrative xml:lang="EN">Marigot</narrative>
@@ -156,18 +108,6 @@
   </location>
   <location>
    <location-reach code="1"></location-reach>
-   <location-id code="0003723841" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Hinche</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>19.1500 -72.0170</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
    <location-id code="0003723988" vocabulary="G1"></location-id>
    <name>
     <narrative xml:lang="EN">Republic of Haiti</narrative>
@@ -177,18 +117,6 @@
    </point>
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <location-id code="0003726275" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Domond</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>18.9080 -72.0670</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -262,12 +190,90 @@
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
   </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="0003717424" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Saut</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>18.4500 -73.4670</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="0003717564" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Saint-Michel</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>19.7670 -72.3500</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="0003718398" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Poste</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>18.3500 -74.3000</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="0003718426" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Port-au-Prince</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>18.5430 -72.3390</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="0003723841" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Hinche</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>19.1500 -72.0170</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="0003726275" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Domond</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>18.9080 -72.0670</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
   <collaboration-type code="2"></collaboration-type>
   <default-aid-type code="C01" vocabulary="1" xml:lang="EN"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <capital-spend percentage="100"></capital-spend>
+  <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173281?lang=en&amp;tab=procurement">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Procurement Notices</narrative>
+   </title>
+   <category code="A10"></category>
+  </document-link>
   <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173281?lang=en&amp;tab=procurement">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Contract Awards</narrative>
@@ -279,12 +285,6 @@
     <narrative xml:lang="EN">Project URL</narrative>
    </title>
    <category code="A12"></category>
-  </document-link>
-  <document-link format="TEXT/HTML" url="http://www.worldbank.org/projects/P173281?lang=en&amp;tab=procurement">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Procurement Notices</narrative>
-   </title>
-   <category code="A10"></category>
   </document-link>
  </iati-activity>
 </iati-activities>

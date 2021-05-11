@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="fcdo-289" dstore:index="205" hierarchy="2" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="fcdo-289" dstore:index="205" hierarchy="2" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-GOV-1-300044-107</iati-identifier>
   <reporting-org ref="GB-GOV-1" type="10">
    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -20,21 +20,21 @@
   <participating-org ref="XM-DAC-47066" role="4" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
-  <other-identifier ref="300044-107" type="A1">
-   <owner-org ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </owner-org>
-  </other-identifier>
   <other-identifier ref="GB-1" type="B1">
    <owner-org ref="GB-GOV-1">
     <narrative xml:lang="EN">FCDO previous reporting-org identifier</narrative>
    </owner-org>
   </other-identifier>
+  <other-identifier ref="300044-107" type="A1">
+   <owner-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-04-28" type="1"></activity-date>
-  <activity-date iso-date="2021-03-31" type="4"></activity-date>
   <activity-date iso-date="2020-04-28" type="2"></activity-date>
   <activity-date iso-date="2021-03-31" type="3"></activity-date>
+  <activity-date iso-date="2021-03-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -72,20 +72,6 @@
    <value currency="GBP" value-date="2020-04-28">500000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="REFCO1">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-09"></transaction-date>
-   <value currency="GBP" value-date="2020-09-09">1000000</value>
-   <description>
-    <narrative xml:lang="EN">This is an outgoing commitment to International Organization for Migration (IOM) of &#xA3;1,000,000.00</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-GOV-1-300044-107" ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </provider-org>
-   <receiver-org ref="XM-DAC-47066" type="40">
-    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="9038450">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-10-02"></transaction-date>
@@ -108,6 +94,20 @@
     <narrative xml:lang="EN">Aid to international organisations</narrative>
    </description>
    <provider-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-47066" type="40">
+    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="REFCO1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-09"></transaction-date>
+   <value currency="GBP" value-date="2020-09-09">1000000</value>
+   <description>
+    <narrative xml:lang="EN">This is an outgoing commitment to International Organization for Migration (IOM) of &#xA3;1,000,000.00</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-GOV-1-300044-107" ref="GB-GOV-1">
     <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
    </provider-org>
    <receiver-org ref="XM-DAC-47066" type="40">

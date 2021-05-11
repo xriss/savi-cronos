@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2020" dstore:index="221" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2020" dstore:index="221" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:cerf="http://cerf-gms.unocha.org/CERF01" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-OCHA-CERF-20-RR-HAB-002</iati-identifier>
   <reporting-org ref="XM-OCHA-CERF" type="40">
    <narrative xml:lang="EN">UNOCHA - Central Emergency Response Fund (CERF)</narrative>
@@ -63,6 +63,22 @@ The project will target the most vulnerable population groups including migrants
   <transaction humanitarian="1" ref="XM-OCHA-CERF-20-RR-HAB-002">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-08-25"></transaction-date>
+   <value currency="USD" value-date="2020-08-25">799992</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement to CERF Project Ensuring shelter options for the most vulnerable families evacuated from their homes as a result of the Beirut Port explosion</narrative>
+   </description>
+   <provider-org ref="XM-OCHA-CERF" type="40">
+    <narrative xml:lang="EN">OCHA Central Emergency Response Fund (CERF)</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-41120">
+    <narrative xml:lang="EN">UN-Habitat</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1"></sector>
+  </transaction>
+  <transaction humanitarian="1" ref="XM-OCHA-CERF-20-RR-HAB-002">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-25"></transaction-date>
    <value currency="USD" value-date="2020-08-25">99999</value>
    <description>
     <narrative xml:lang="EN">Disbursement to CERF Project Ensuring shelter options for the most vulnerable families evacuated from their homes as a result of the Beirut Port explosion</narrative>
@@ -92,22 +108,6 @@ The project will target the most vulnerable population groups including migrants
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="72050" vocabulary="1"></sector>
   </transaction>
-  <transaction humanitarian="1" ref="XM-OCHA-CERF-20-RR-HAB-002">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-08-25"></transaction-date>
-   <value currency="USD" value-date="2020-08-25">799992</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement to CERF Project Ensuring shelter options for the most vulnerable families evacuated from their homes as a result of the Beirut Port explosion</narrative>
-   </description>
-   <provider-org ref="XM-OCHA-CERF" type="40">
-    <narrative xml:lang="EN">OCHA Central Emergency Response Fund (CERF)</narrative>
-   </provider-org>
-   <receiver-org ref="XM-DAC-41120">
-    <narrative xml:lang="EN">UN-Habitat</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1"></sector>
-  </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.unocha.org/cerf/sites/default/files/CERF/HCRCReports/20-RR-LBN-44565-NR02_Lebanon_RCHC.Report.pdf">
    <title>
     <narrative xml:lang="EN">RESIDENT / HUMANITARIAN COORDINATOR REPORT ON THE USE OF CERF FUNDS LEBANON        RAPID RESPONSE        POST-CONFLICT NEEDS        2020</narrative>
@@ -119,5 +119,65 @@ The project will target the most vulnerable population groups including migrants
     <narrative xml:lang="EN">CERF funding is based on an agreed proposal, including specific planned outcomes and outputs.</narrative>
    </condition>
   </conditions>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 3</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 3.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Awareness raising sessions will be conducted on social distancing and hygiene responding to COVID-19</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-08-13"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 1</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 1.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of shelter options rented by most vulnerable families/individuals 4000 individuals</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-08-13"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 2</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 2.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of women and children who live in adequate shelter and not exposed to external risk factors</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-08-13"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>

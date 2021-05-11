@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="irw-activities" dstore:index="17" hierarchy="0" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="irw-activities" dstore:index="17" hierarchy="0" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-328158-GB-CHC-1062638-CVA20</iati-identifier>
   <reporting-org ref="GB-CHC-328158" type="21">
    <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
@@ -23,11 +23,11 @@ IRS will lead the implementation. The project will build on existing IRS interve
   <participating-org activity-id="GB-CHC-1062638-CVA20" crs-channel-code="21000" ref="GB-CHC-1062638" role="1" type="22">
    <narrative xml:lang="EN">DEC</narrative>
   </participating-org>
-  <participating-org activity-id="GB-CHC-1062638-CVA20" crs-channel-code="21000" ref="GB-CHC-328158" role="2" type="21">
-   <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
-  </participating-org>
   <participating-org activity-id="GB-CHC-1062638-CVA20" role="4" type="22">
    <narrative xml:lang="EN">Islamic Relief Somalia</narrative>
+  </participating-org>
+  <participating-org activity-id="GB-CHC-1062638-CVA20" crs-channel-code="21000" ref="GB-CHC-328158" role="2" type="21">
+   <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-06-14" type="1"></activity-date>
@@ -43,6 +43,18 @@ IRS will lead the implementation. The project will build on existing IRS interve
    <period-end iso-date="2021-01-31"></period-end>
    <value currency="GBP" value-date="2020-12-15">411545</value>
   </budget>
+  <transaction ref="Expenditure incurred FY2020/2021 Q2">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="GBP" value-date="2020-12-15">16958.62</value>
+   <description>
+    <narrative xml:lang="EN">Field Office expenditure and Expat Salaries for 2 staff for August and September 2020</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-CHC-328158-CVA20" ref="GB-CHC-328158" type="21">
+    <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+  </transaction>
   <transaction ref="Expenditure incurred during Q3 FY 2020/2021">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -63,18 +75,6 @@ IRS will lead the implementation. The project will build on existing IRS interve
    <receiver-org receiver-activity-id="GB-CHC-328158-CVA20" ref="GB-CHC-328158" type="21">
     <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
    </receiver-org>
-   <flow-type code="10"></flow-type>
-  </transaction>
-  <transaction ref="Expenditure incurred FY2020/2021 Q2">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="GBP" value-date="2020-12-15">16958.62</value>
-   <description>
-    <narrative xml:lang="EN">Field Office expenditure and Expat Salaries for 2 staff for August and September 2020</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-CHC-328158-CVA20" ref="GB-CHC-328158" type="21">
-    <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
-   </provider-org>
    <flow-type code="10"></flow-type>
   </transaction>
  </iati-activity>

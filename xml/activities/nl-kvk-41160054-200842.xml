@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="262" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="262" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200842</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -8,27 +8,27 @@
   <title>
    <narrative xml:lang="EN">Saving lives and protecting the livelihood of people affected by COVID-19 related restrictions, desert locust and flood in Liben cluster</narrative>
   </title>
-  <description type="1">
-   <narrative xml:lang="EN">The humanitarian situation in the Liben cluster under the RESET II program worsening due to the combining effects of multiple crises. COVID-19-related restrictions, coupled with the broader economic decline, the spread of desert locust infestation, flooding, and the general decrease in income has led to atypically high humanitarian needs across the Liben cluster. An increase in food commodities and essential non-food commodities prices have been continuing due to poor terms of trade in the flood-affected woredas. This has resulted in many poor households having difficulty accessing market foods and Crisis (IPC Phase 3) outcomes are present. Thus, this Crisis Modifier action target lifesaving and livelihood protection activities including access to supplementary livestock feed, veterinary services, farm inputs, multipurpose cash transfer (cash-for-work, and unconditional), and response to the ongoing COVID-19 related WASH service.</narrative>
-  </description>
-  <description type="2">
-   <narrative xml:lang="EN">The Overall Objective of the action is to saving lives and increased the coping capacity of vulnerable and at-risk populations affected by desert locust, COVID-19 related restrictions, and flooding in the RESET zone of influence. The Specific Objective of the action is to meet basic needs and protect livelihoods of vulnerable and at-risk households in Mubarak Woreda of Liben cluster under RESET II program through an integrated and gender-sensitive, multi-sectoral response. The Specific Objective will be achieved through two Results: R1) Improved access to WASH services. R2) Emergency and recovery livelihood needs of targeted households are met through the provision of appropriate livestock and crop inputs and cash support. Below is the outline of activities to achieve the objectives</narrative>
-  </description>
   <description type="3">
    <narrative xml:lang="EN">23,000 households (138,000 people)
  Male: 75,900 Female: 62,100</narrative>
   </description>
-  <participating-org ref="NL-KVK-41160054" role="2" type="21">
-   <narrative xml:lang="EN">Cordaid Global Office</narrative>
-  </participating-org>
+  <description type="2">
+   <narrative xml:lang="EN">The Overall Objective of the action is to saving lives and increased the coping capacity of vulnerable and at-risk populations affected by desert locust, COVID-19 related restrictions, and flooding in the RESET zone of influence. The Specific Objective of the action is to meet basic needs and protect livelihoods of vulnerable and at-risk households in Mubarak Woreda of Liben cluster under RESET II program through an integrated and gender-sensitive, multi-sectoral response. The Specific Objective will be achieved through two Results: R1) Improved access to WASH services. R2) Emergency and recovery livelihood needs of targeted households are met through the provision of appropriate livestock and crop inputs and cash support. Below is the outline of activities to achieve the objectives</narrative>
+  </description>
+  <description type="1">
+   <narrative xml:lang="EN">The humanitarian situation in the Liben cluster under the RESET II program worsening due to the combining effects of multiple crises. COVID-19-related restrictions, coupled with the broader economic decline, the spread of desert locust infestation, flooding, and the general decrease in income has led to atypically high humanitarian needs across the Liben cluster. An increase in food commodities and essential non-food commodities prices have been continuing due to poor terms of trade in the flood-affected woredas. This has resulted in many poor households having difficulty accessing market foods and Crisis (IPC Phase 3) outcomes are present. Thus, this Crisis Modifier action target lifesaving and livelihood protection activities including access to supplementary livestock feed, veterinary services, farm inputs, multipurpose cash transfer (cash-for-work, and unconditional), and response to the ongoing COVID-19 related WASH service.</narrative>
+  </description>
   <participating-org ref="NL-KVK-41160054" role="4" type="21">
    <narrative xml:lang="EN">Cordaid Ethiopia</narrative>
   </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">VSF Suisse</narrative>
+  <participating-org ref="NL-KVK-41160054" role="2" type="21">
+   <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
   <participating-org ref="US-EIN-13-5660870" role="1" type="21">
    <narrative xml:lang="EN">International Rescue Committee IRC</narrative>
+  </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">VSF Suisse</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-08-15" type="1"></activity-date>
@@ -80,6 +80,10 @@
      <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
     </description>
     <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="83150" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
     <baseline iso-date="2020-12-31" value="39431" year="2020">
      <location ref="ET"></location>
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
@@ -88,24 +92,20 @@
      <location ref="ET"></location>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
     </baseline>
-    <baseline iso-date="2020-12-31" value="83150" year="2020">
-     <location ref="ET"></location>
-     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-    </baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="43719">
+     <actual value="83150">
       <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
      <actual value="39431">
       <location ref="ET"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
-     <actual value="83150">
+     <actual value="43719">
       <location ref="ET"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
     <period>
@@ -184,59 +184,6 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Saving Lives - Project Specific</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of COVID-19 standard kits distributed</narrative>
-    </title>
-    <reference code="COV.SL.10" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="939">
-      <location ref="ET"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-08-15"></period-start>
-     <period-end iso-date="2020-11-15"></period-end>
-     <target value="5000"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people having regular access to soap to meet hygienic needs in response to COVID-19</narrative>
-    </title>
-    <reference code="COV.SL.12" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="2760">
-      <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="2240">
-      <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="16156">
-      <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-08-15"></period-start>
-     <period-end iso-date="2020-11-15"></period-end>
-     <target value="60000"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
     <narrative xml:lang="EN">Conditional and unrestricted cash</narrative>
    </title>
    <indicator ascending="1" measure="1">
@@ -267,6 +214,59 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
   </result>
   <result aggregation-status="1" type="1">
    <title>
+    <narrative xml:lang="EN">Saving Lives - Project Specific</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people having regular access to soap to meet hygienic needs in response to COVID-19</narrative>
+    </title>
+    <reference code="COV.SL.12" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2240">
+      <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="2760">
+      <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="16156">
+      <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-08-15"></period-start>
+     <period-end iso-date="2020-11-15"></period-end>
+     <target value="60000"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of COVID-19 standard kits distributed</narrative>
+    </title>
+    <reference code="COV.SL.10" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="939">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-08-15"></period-start>
+     <period-end iso-date="2020-11-15"></period-end>
+     <target value="5000"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
     <narrative xml:lang="EN">Prevention and response to COVID-19 pandemic related to WASH</narrative>
    </title>
    <indicator ascending="1" measure="1">
@@ -277,25 +277,25 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="15523">
+     <actual value="2240">
       <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="16156">
-      <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
      <actual value="2760">
       <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
      </actual>
-     <actual value="2240">
+     <actual value="15523">
       <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="16156">
+      <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
     <period>

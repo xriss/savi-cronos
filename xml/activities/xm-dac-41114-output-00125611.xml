@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-mdg" dstore:index="94" hierarchy="2" humanitarian="0" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-mdg" dstore:index="94" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00125611</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="FR">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="FR">L&#x2019;Etat central et ses structures d&#xE9;concentr&#xE9;es mettent en oeuvre les mesures de r&#xE9;ponses institutionnelles, sanitaires et socio &#xE9;conomiques du GdM &#xE0; la COVID-19 dans le respect des principes de la bonne gouvernance, de transparence et de redevabilit&#xE9;.</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="FR">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="11363" role="1" type="40">
    <narrative xml:lang="FR">Peacebuilding Fund</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="FR">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2021-01-04" type="1"></activity-date>
@@ -42,24 +42,6 @@
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">1772</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="FR">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">7899</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="FR">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
    <value currency="USD" value-date="2021-04-30">112350</value>
@@ -72,9 +54,27 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">7899</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
    <value currency="USD" value-date="2021-04-30">112350</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">1772</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
@@ -86,9 +86,9 @@
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00133411" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00125400" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00125616" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00133411" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="DKK" dstore:dataset="danida-all_7" dstore:index="608" hierarchy="2" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="DKK" dstore:dataset="danida-all_7" dstore:index="608" hierarchy="2" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-3-1-285896-34342</iati-identifier>
   <reporting-org ref="XM-DAC-3-1" type="10" xml:lang="EN">
    <narrative xml:lang="EN">Ministry of Foreign Affairs, Denmark</narrative>
@@ -11,11 +11,11 @@
   <description type="1" xml:lang="EN">
    <narrative xml:lang="EN"></narrative>
   </description>
-  <participating-org crs-channel-code="41143" role="2" type="10" xml:lang="EN">
-   <narrative xml:lang="EN">World Health Organisation - voluntary contributions</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-3-1" role="1" type="10" xml:lang="EN">
    <narrative xml:lang="EN">Ministry of Foreign Affairs, Denmark</narrative>
+  </participating-org>
+  <participating-org crs-channel-code="41143" role="2" type="10" xml:lang="EN">
+   <narrative xml:lang="EN">World Health Organisation - voluntary contributions</narrative>
   </participating-org>
   <other-identifier ref="DK-1" type="XM-DAC-3-1">
    <owner-org ref="2020 - 15443">
@@ -43,32 +43,32 @@
     </description>
    </budget-item>
   </country-budget-items>
-  <policy-marker code="1" significance="0" vocabulary="1" xml:lang="EN">
-   <narrative xml:lang="EN">Gender Equality</narrative>
-  </policy-marker>
-  <policy-marker code="2" significance="0" vocabulary="1" xml:lang="EN">
-   <narrative xml:lang="EN">Aid to Environment</narrative>
-  </policy-marker>
-  <policy-marker code="3" significance="0" vocabulary="1" xml:lang="EN">
-   <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
-  </policy-marker>
-  <policy-marker code="4" significance="0" vocabulary="1" xml:lang="EN">
-   <narrative xml:lang="EN">Trade Development</narrative>
-  </policy-marker>
   <policy-marker code="5" significance="0" vocabulary="1" xml:lang="EN">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
-  </policy-marker>
-  <policy-marker code="6" significance="0" vocabulary="1" xml:lang="EN">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
-  </policy-marker>
-  <policy-marker code="7" significance="0" vocabulary="1" xml:lang="EN">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
   </policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1" xml:lang="EN">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention to Combat Desertification</narrative>
   </policy-marker>
+  <policy-marker code="7" significance="0" vocabulary="1" xml:lang="EN">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
+  </policy-marker>
+  <policy-marker code="6" significance="0" vocabulary="1" xml:lang="EN">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
+  </policy-marker>
+  <policy-marker code="2" significance="0" vocabulary="1" xml:lang="EN">
+   <narrative xml:lang="EN">Aid to Environment</narrative>
+  </policy-marker>
+  <policy-marker code="1" significance="0" vocabulary="1" xml:lang="EN">
+   <narrative xml:lang="EN">Gender Equality</narrative>
+  </policy-marker>
+  <policy-marker code="3" significance="0" vocabulary="1" xml:lang="EN">
+   <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
+  </policy-marker>
   <policy-marker code="9" significance="0" vocabulary="1" xml:lang="EN">
    <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
+  </policy-marker>
+  <policy-marker code="4" significance="0" vocabulary="1" xml:lang="EN">
+   <narrative xml:lang="EN">Trade Development</narrative>
   </policy-marker>
   <policy-marker code="10" significance="0" vocabulary="1" xml:lang="EN"></policy-marker>
   <policy-marker code="11" significance="0" vocabulary="1" xml:lang="EN"></policy-marker>
@@ -99,39 +99,17 @@
    <tied-status code="5"></tied-status>
   </transaction>
   <related-activity ref="XM-DAC-3-1-285896" type="1"></related-activity>
-  <result type="2">
-   <title>
-    <narrative xml:lang="EN">Protect the vulnerable: Protect, assist and advocate for refugees, IDPs, migrants and host communities particularly vulnerable</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">NA</narrative>
-   </description>
-   <reference code="268621" vocabulary="99"></reference>
-   <indicator aggregation-status="0" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Protect the vulnerable: Protect, assist and advocate for refugees, IDPs, migrants and host communities particularly vulnerable</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">NA</narrative>
-    </description>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="1900-01-01"></period-start>
-     <period-end iso-date="1900-01-01"></period-end>
-    </period>
-   </indicator>
-  </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Prevent, suppress and interrupt transmission: Proportion of countries with a functional multi-sectoral, multi-partner coordination mechanism for COVID-19 preparedness and response</narrative>
+    <narrative xml:lang="EN">COVID19 assistance to the vulnerable: Number of refugees, IDPs, migrants and host communities particularly vulnerable to the pandemic that receive COVID-19 assistance</narrative>
    </title>
    <description>
     <narrative xml:lang="EN">NA</narrative>
    </description>
-   <reference code="268617" vocabulary="99"></reference>
+   <reference code="268622" vocabulary="99"></reference>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Prevent, suppress and interrupt transmission: Proportion of countries with a functional multi-sectoral, multi-partner coordination mechanism for COVID-19 preparedness and response</narrative>
+     <narrative xml:lang="EN">COVID19 assistance to the vulnerable: Number of refugees, IDPs, migrants and host communities particularly vulnerable to the pandemic that receive COVID-19 assistance</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">NA</narrative>
@@ -195,15 +173,15 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Risk information to vulnerable: Number of refugees, IDPs, migrants and host communities particularly vulnerable to the pandemic that receive adequate risk information</narrative>
+    <narrative xml:lang="EN">Learn, innovate and improve: Proportion of eligible countries to enroll in global clinical trials that participate to clinical trials</narrative>
    </title>
    <description>
     <narrative xml:lang="EN">NA</narrative>
    </description>
-   <reference code="268623" vocabulary="99"></reference>
+   <reference code="268618" vocabulary="99"></reference>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Risk information to vulnerable: Number of refugees, IDPs, migrants and host communities particularly vulnerable to the pandemic that receive adequate risk information</narrative>
+     <narrative xml:lang="EN">Learn, innovate and improve: Proportion of eligible countries to enroll in global clinical trials that participate to clinical trials</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">NA</narrative>
@@ -217,39 +195,17 @@
     </period>
    </indicator>
   </result>
-  <result type="2">
-   <title>
-    <narrative xml:lang="EN">Decrease the deterioration of human assets and rights, social cohesion, food security and livelihoods</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">NA</narrative>
-   </description>
-   <reference code="268619" vocabulary="99"></reference>
-   <indicator aggregation-status="0" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Decrease the deterioration of human assets and rights, social cohesion, food security and livelihoods</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">NA</narrative>
-    </description>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="1900-01-01"></period-start>
-     <period-end iso-date="1900-01-01"></period-end>
-    </period>
-   </indicator>
-  </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Learn, innovate and improve: Proportion of eligible countries to enroll in global clinical trials that participate to clinical trials</narrative>
+    <narrative xml:lang="EN">Prepare and be ready: Proportion of countries that have a national Infection Prevention and Control programme and WASH standards within all healthcare facilities</narrative>
    </title>
    <description>
     <narrative xml:lang="EN">NA</narrative>
    </description>
-   <reference code="268618" vocabulary="99"></reference>
+   <reference code="268614" vocabulary="99"></reference>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Learn, innovate and improve: Proportion of eligible countries to enroll in global clinical trials that participate to clinical trials</narrative>
+     <narrative xml:lang="EN">Prepare and be ready: Proportion of countries that have a national Infection Prevention and Control programme and WASH standards within all healthcare facilities</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">NA</narrative>
@@ -287,6 +243,54 @@
     </period>
    </indicator>
   </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Prevent, suppress and interrupt transmission: Proportion of countries with a functional multi-sectoral, multi-partner coordination mechanism for COVID-19 preparedness and response</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">NA</narrative>
+   </description>
+   <reference code="268617" vocabulary="99"></reference>
+   <indicator aggregation-status="0" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Prevent, suppress and interrupt transmission: Proportion of countries with a functional multi-sectoral, multi-partner coordination mechanism for COVID-19 preparedness and response</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">NA</narrative>
+    </description>
+    <baseline year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="N/A"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Risk information to vulnerable: Number of refugees, IDPs, migrants and host communities particularly vulnerable to the pandemic that receive adequate risk information</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">NA</narrative>
+   </description>
+   <reference code="268623" vocabulary="99"></reference>
+   <indicator aggregation-status="0" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Risk information to vulnerable: Number of refugees, IDPs, migrants and host communities particularly vulnerable to the pandemic that receive adequate risk information</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">NA</narrative>
+    </description>
+    <baseline year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="N/A"></actual>
+    </period>
+   </indicator>
+  </result>
   <result type="2">
    <title>
     <narrative xml:lang="EN">Contain the spread of the COVID-19 epidemic and decrease morbidity and mortality</narrative>
@@ -309,51 +313,47 @@
     </period>
    </indicator>
   </result>
-  <result type="1">
+  <result type="2">
    <title>
-    <narrative xml:lang="EN">COVID19 assistance to the vulnerable: Number of refugees, IDPs, migrants and host communities particularly vulnerable to the pandemic that receive COVID-19 assistance</narrative>
+    <narrative xml:lang="EN">Decrease the deterioration of human assets and rights, social cohesion, food security and livelihoods</narrative>
    </title>
    <description>
     <narrative xml:lang="EN">NA</narrative>
    </description>
-   <reference code="268622" vocabulary="99"></reference>
+   <reference code="268619" vocabulary="99"></reference>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">COVID19 assistance to the vulnerable: Number of refugees, IDPs, migrants and host communities particularly vulnerable to the pandemic that receive COVID-19 assistance</narrative>
+     <narrative xml:lang="EN">Decrease the deterioration of human assets and rights, social cohesion, food security and livelihoods</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">NA</narrative>
     </description>
     <baseline year="2020"></baseline>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="N/A"></actual>
+     <period-start iso-date="1900-01-01"></period-start>
+     <period-end iso-date="1900-01-01"></period-end>
     </period>
    </indicator>
   </result>
-  <result type="1">
+  <result type="2">
    <title>
-    <narrative xml:lang="EN">Prepare and be ready: Proportion of countries that have a national Infection Prevention and Control programme and WASH standards within all healthcare facilities</narrative>
+    <narrative xml:lang="EN">Protect the vulnerable: Protect, assist and advocate for refugees, IDPs, migrants and host communities particularly vulnerable</narrative>
    </title>
    <description>
     <narrative xml:lang="EN">NA</narrative>
    </description>
-   <reference code="268614" vocabulary="99"></reference>
+   <reference code="268621" vocabulary="99"></reference>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Prepare and be ready: Proportion of countries that have a national Infection Prevention and Control programme and WASH standards within all healthcare facilities</narrative>
+     <narrative xml:lang="EN">Protect the vulnerable: Protect, assist and advocate for refugees, IDPs, migrants and host communities particularly vulnerable</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">NA</narrative>
     </description>
     <baseline year="2020"></baseline>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="N/A"></actual>
+     <period-start iso-date="1900-01-01"></period-start>
+     <period-end iso-date="1900-01-01"></period-end>
     </period>
    </indicator>
   </result>

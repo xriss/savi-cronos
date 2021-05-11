@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="742" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="742" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-133-0001</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -18,14 +18,14 @@ NLRC funding source: Block Grant 2018-2021 - Chronic Crises</narrative>
   <description type="1">
    <narrative xml:lang="EN">Yemen</narrative>
   </description>
+  <participating-org ref="XM-DAC-21018" role="4" type="21">
+   <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-40409352" role="1" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-40409352" role="2" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-  </participating-org>
-  <participating-org ref="XM-DAC-21018" role="4" type="21">
-   <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2021-03-23" type="2">
@@ -52,17 +52,17 @@ NLRC funding source: Block Grant 2018-2021 - Chronic Crises</narrative>
   <sector code="AC" percentage="50" vocabulary="99">
    <narrative xml:lang="EN">Armed conflict</narrative>
   </sector>
-  <sector code="FL" percentage="50" vocabulary="99">
-   <narrative xml:lang="EN">Flood</narrative>
-  </sector>
-  <sector code="2" percentage="100" vocabulary="98">
-   <narrative xml:lang="EN">Response</narrative>
-  </sector>
   <sector code="72040" percentage="50" vocabulary="1">
    <narrative xml:lang="EN">Emergency food aid</narrative>
   </sector>
+  <sector code="FL" percentage="50" vocabulary="99">
+   <narrative xml:lang="EN">Flood</narrative>
+  </sector>
   <sector code="72010" percentage="50" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
+  <sector code="2" percentage="100" vocabulary="98">
+   <narrative xml:lang="EN">Response</narrative>
   </sector>
   <humanitarian-scope code="MAAYE001" type="2" vocabulary="99" vocabulary-uri="http://ifrc.org/appeals"></humanitarian-scope>
   <policy-marker code="1" significance="1" vocabulary="1">

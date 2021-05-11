@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="251" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="251" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200808</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -13,20 +13,20 @@
  
 Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by blistering Saudi airstrikes, the deadliest governorate in Yemen&#x2019;s devastating war. Currently the city is divided into 2 parts and has also a curfew and has closed all entry point to the governorate, except for the entry points of goods and supplies for the health sector. The imposed curfew is a severe threat for people&#x2019;s livelihoods. As in many areas in Yemen, people would like to take the virus seriously but need to choose between dying of Corona or dying of hunger. Taiz has currently 4 confirmed cases with one death.</narrative>
   </description>
-  <description type="2">
-   <narrative xml:lang="EN">To contribute to the containment of the spread of the COVID-19 pandemic and decrease morbidity and mortality</narrative>
-  </description>
   <description type="3">
    <narrative xml:lang="EN">The key target beneficiaries are vulnerable groups (IDPs, prisoners, marginalized groups). These three groups are the criteria that will be used for selecting the beneficiaries. Such groups are not integrated in the community; they live in either in slums (marginalized people) or in camps and building like schools (IDPs), while the prisoners are in the prisons. So, only these groups in such areas will be targeted even in the activity of cleaning sterilization campaign of the security and public health institutions; most of the beneficiaries of these institutions are vulnerable people, while other groups usually seek health services from private hospitals instead of the public ones.</narrative>
   </description>
+  <description type="2">
+   <narrative xml:lang="EN">To contribute to the containment of the spread of the COVID-19 pandemic and decrease morbidity and mortality</narrative>
+  </description>
+  <participating-org ref="NL-KVK-41160054" role="1" type="21">
+   <narrative xml:lang="EN">Cordaid Global Office</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-41160054" role="2" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Youth Without Borders Organization for Development</narrative>
-  </participating-org>
-  <participating-org ref="NL-KVK-41160054" role="1" type="21">
-   <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-06-01" type="1"></activity-date>
@@ -98,77 +98,126 @@ Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by 
    </receiver-org>
   </transaction>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="2">
+  <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
+    <narrative xml:lang="EN">Prevention and response to COVID-19 pandemic</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
+     <narrative xml:lang="EN">COV-I1: Number of people receiving COVID-19 related assistance</narrative>
     </title>
-    <reference code="COV.CC.05" vocabulary="99"></reference>
+    <description>
+     <narrative xml:lang="EN">COVID-19 related assistance: Any activities relating to preparedness, prevention or response to COVID-19 as defined within the Global HRP.</narrative>
+    </description>
+    <reference code="COV-I1" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="4870">
+      <location ref="234663"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="17927">
+      <location ref="234663"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="11844">
+      <location ref="234663"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="10953">
+      <location ref="234663"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="7817">
+     <actual value="0">
       <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="5700">
+     <actual value="0">
       <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
-     </actual>
-     <actual value="1700">
-      <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="28520"></target>
+     <target value="58500"></target>
     </period>
    </indicator>
   </result>
-  <result aggregation-status="1" type="2">
+  <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Sustain School Children&apos;s Access to Quality Education</narrative>
+    <narrative xml:lang="EN">Saving Lives - Project Specific</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
+     <narrative xml:lang="EN">Number of people having regular access to soap to meet hygienic needs in response to COVID-19</narrative>
     </title>
-    <reference code="COV.CC.05" vocabulary="99"></reference>
+    <reference code="COV.SL.12" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="234663"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="234663"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="234663"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="234663"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="234663"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="7817">
+     <actual value="2666">
       <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
-     <actual value="5700">
+     <actual value="2024">
       <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="1700">
+     <actual value="9178">
       <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="8749">
+      <location ref="234663"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
     <period>
@@ -184,41 +233,6 @@ Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by 
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
-    </title>
-    <reference code="COV.CC.05" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="7817">
-      <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="5700">
-      <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
-     </actual>
-     <actual value="1700">
-      <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="28520"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
      <narrative xml:lang="EN">Number of people provided with PPE in response to COVID-19</narrative>
     </title>
     <reference code="COV.SL.03" vocabulary="99"></reference>
@@ -227,23 +241,23 @@ Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by 
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="234663"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="234663"></location>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
      <actual value="0">
       <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="234663"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
     <period>
@@ -251,29 +265,64 @@ Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by 
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="350">
       <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
      <actual value="350">
       <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="475">
-      <location ref="234663"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
      <actual value="469">
       <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="475">
+      <location ref="234663"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="6120"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
+    </title>
+    <reference code="COV.CC.05" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="5700">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="1700">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="7817">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-06-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="28520"></target>
     </period>
    </indicator>
   </result>
@@ -287,6 +336,22 @@ Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by 
     </title>
     <reference code="COV.CC.05" vocabulary="99"></reference>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="5700">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="1700">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="7817">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
@@ -295,12 +360,24 @@ Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by 
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-06-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="28520"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
+    </title>
+    <reference code="COV.CC.05" vocabulary="99"></reference>
+    <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="7817">
-      <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
      <actual value="5700">
       <location ref="234663"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
@@ -308,6 +385,18 @@ Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by 
      <actual value="1700">
       <location ref="234663"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="7817">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
      </actual>
     </period>
     <period>
@@ -327,20 +416,8 @@ Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by 
     </title>
     <reference code="COV.CC.05" vocabulary="99"></reference>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="7817">
-      <location ref="234663"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
      <actual value="5700">
       <location ref="234663"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
@@ -349,79 +426,17 @@ Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by 
       <location ref="234663"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
+     <actual value="7817">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
     </period>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="28520"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Saving Lives - Project Specific</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people having regular access to soap to meet hygienic needs in response to COVID-19</narrative>
-    </title>
-    <reference code="COV.SL.12" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="2024">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="8749">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="2666">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="9178">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
      </actual>
     </period>
     <period>
@@ -431,58 +446,43 @@ Taiz: is Yemen&#x2019;s longest-running battlefield, the most heavily bombed by 
     </period>
    </indicator>
   </result>
-  <result aggregation-status="1" type="1">
+  <result aggregation-status="1" type="2">
    <title>
-    <narrative xml:lang="EN">Prevention and response to COVID-19 pandemic</narrative>
+    <narrative xml:lang="EN">Sustain School Children&apos;s Access to Quality Education</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">COV-I1: Number of people receiving COVID-19 related assistance</narrative>
+     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN">COVID-19 related assistance: Any activities relating to preparedness, prevention or response to COVID-19 as defined within the Global HRP.</narrative>
-    </description>
-    <reference code="COV-I1" vocabulary="99"></reference>
+    <reference code="COV.CC.05" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="5700">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="1700">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="7817">
+      <location ref="234663"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="10953">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="11844">
-      <location ref="234663"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="17927">
-      <location ref="234663"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="4870">
-      <location ref="234663"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="58500"></target>
+     <target value="28520"></target>
     </period>
    </indicator>
   </result>

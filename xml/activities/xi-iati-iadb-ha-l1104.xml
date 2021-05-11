@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="iadb-ht" dstore:index="37" hierarchy="1" linked-data-uri="https://www.iadb.org/en/project/HA-L1104" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="iadb-ht" dstore:index="37" hierarchy="1" iati-activities:version="2.02" linked-data-uri="https://www.iadb.org/en/project/HA-L1104" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XI-IATI-IADB-HA-L1104</iati-identifier>
   <reporting-org ref="XI-IATI-IADB" type="40">
    <narrative xml:lang="EN">Inter-American Development Bank</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="EN">Transport and Departmental Connectivity</narrative>
-   <narrative xml:lang="ES">Transporte y Conectividad Departamental</narrative>
    <narrative xml:lang="PT">N/A</narrative>
+   <narrative xml:lang="EN">Transport and Departmental Connectivity</narrative>
    <narrative xml:lang="FR">Transport et Connectivit&#xE9;</narrative>
+   <narrative xml:lang="ES">Transporte y Conectividad Departamental</narrative>
   </title>
   <description type="1">
-   <narrative xml:lang="EN">COVID-19 - The program&apos;s objective is to continue improving the quality, accessibility, and safety conditions of Haiti&apos;s transport infrastructure through an increase in paved road coverage and the rehabilitation and upgrading of infrastructure and departmental roads connecting production centers to local markets. The program will also promote efficiency improvements in the sector by incorporating the works into road maintenance management systems and by building capacity at the MTPTC.</narrative>
    <narrative xml:lang="ES">COVID-19 - El objetivo del programa es seguir mejorando la calidad, la accesibilidad y las condiciones deseguridad de la infraestructura de transporte de Hait&#xED; con un aumento de la cobertura de caminos pavimentados y la rehabilitaci&#xF3;n ymejora de la infraestructura de transporte y los caminos departamentales que conectan centros de producci&#xF3;n con mercados locales.El programa tambi&#xE9;n promover&#xE1; una mayor eficiencia en el sector al incorporar las obras en sistemas de gesti&#xF3;n del mantenimientovial y al crear capacidad en el MTPTC.</narrative>
+   <narrative xml:lang="EN">COVID-19 - The program&apos;s objective is to continue improving the quality, accessibility, and safety conditions of Haiti&apos;s transport infrastructure through an increase in paved road coverage and the rehabilitation and upgrading of infrastructure and departmental roads connecting production centers to local markets. The program will also promote efficiency improvements in the sector by incorporating the works into road maintenance management systems and by building capacity at the MTPTC.</narrative>
   </description>
   <participating-org ref="GRF" role="3" type="40">
    <narrative xml:lang="EN">IDB grant facility</narrative>
@@ -21,11 +21,11 @@
   <participating-org ref="XI-IATI-IADB" role="1" type="40">
    <narrative xml:lang="EN">INTER-AMERICAN DEVELOPMENT BANK</narrative>
   </participating-org>
-  <participating-org ref="HA-HA" role="2">
-   <narrative xml:lang="EN">REPUBLIQUE D&apos; HAITI</narrative>
-  </participating-org>
   <participating-org ref="HA-MTPTC" role="4">
    <narrative xml:lang="EN">MINISTERE DE TRAVAUX PUBLICS, TRANSPORTS, ENERGIE ET COMMUNICATIONS</narrative>
+  </participating-org>
+  <participating-org ref="HA-HA" role="2">
+   <narrative xml:lang="EN">REPUBLIQUE D&apos; HAITI</narrative>
   </participating-org>
   <other-identifier ref="HA-L1104" type="A1">
    <owner-org>
@@ -71,8 +71,8 @@
    <exactness code="2"></exactness>
    <feature-designation code="PPLC"></feature-designation>
   </location>
-  <sector code="TR-VPR" percentage="100" vocabulary="99"></sector>
   <sector code="21024" percentage="100" vocabulary="1"></sector>
+  <sector code="TR-VPR" percentage="100" vocabulary="99"></sector>
   <tag code="COVID-19" vocabulary="99"></tag>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -475,12 +475,12 @@
    <value currency="USD" value-date="2027-10-01">39659091</value>
   </budget>
   <capital-spend percentage="100"></capital-spend>
-  <transaction ref="12/31/2019-HA-L1104-3-GRF">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">2500000</value>
+  <transaction ref="10/31/2018-HA-L1104-2-ALL">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2018-10-31"></transaction-date>
+   <value currency="USD" value-date="2018-10-31">225000000</value>
    <description>
-    <narrative xml:lang="EN">Disbursement in fourth quarter of 2019</narrative>
+    <narrative xml:lang="EN">Commitment in fourth quarter of 2018</narrative>
    </description>
   </transaction>
   <transaction ref="3/31/2021-HA-L1104-3-GRF">
@@ -491,6 +491,14 @@
     <narrative xml:lang="EN">Disbursement in first quarter of 2021</narrative>
    </description>
   </transaction>
+  <transaction ref="12/31/2019-HA-L1104-3-GRF">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">2500000</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement in fourth quarter of 2019</narrative>
+   </description>
+  </transaction>
   <transaction ref="12/31/2020-HA-L1104-3-GRF">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -499,26 +507,18 @@
     <narrative xml:lang="EN">Disbursement in fourth quarter of 2020</narrative>
    </description>
   </transaction>
-  <transaction ref="10/31/2018-HA-L1104-2-ALL">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-31"></transaction-date>
-   <value currency="USD" value-date="2018-10-31">225000000</value>
-   <description>
-    <narrative xml:lang="EN">Commitment in fourth quarter of 2018</narrative>
-   </description>
-  </transaction>
-  <document-link format="TEXT/HTML" url="https://www.iadb.org/en/project/HA-L1104">
-   <title>
-    <narrative xml:lang="EN">HA-L1104</narrative>
-   </title>
-   <category code="A12"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="APPLICATION/VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET" url="http://idbdocs.iadb.org/wsdocs/getdocument.aspx?docnum=EZSHARE-504778069-56">
    <title>
     <narrative xml:lang="EN">IDB Project Procurement Awarded Contracts - All Countries.xlsx</narrative>
    </title>
    <category code="A06"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.iadb.org/en/project/HA-L1104">
+   <title>
+    <narrative xml:lang="EN">HA-L1104</narrative>
+   </title>
+   <category code="A12"></category>
    <language code="EN"></language>
   </document-link>
   <conditions attached="0"></conditions>

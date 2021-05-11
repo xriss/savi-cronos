@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="irw-activities" dstore:index="18" hierarchy="0" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="irw-activities" dstore:index="18" hierarchy="0" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-328158-DK-CVR-20699310-DF212197</iati-identifier>
   <reporting-org ref="GB-CHC-328158" type="21">
    <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
@@ -15,11 +15,11 @@ HAD will provide urgent capacity development to frontline local NGOs in Iraq, Sy
 
 The project is to enable the frontline NGOs to (i) adapt to COVID-19 and carry on with their programmes, (ii) implement COVID-19 interventions with the local populations. To this extent, all project activities focus on strengthening NGOs capacities.</narrative>
   </description>
-  <participating-org ref="GB-CHC-328158" role="4" type="21">
-   <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
-  </participating-org>
   <participating-org activity-id="DK-CVR-20699310-DF212197" ref="DK-CVR-20699310" role="1" type="21">
    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+  </participating-org>
+  <participating-org ref="GB-CHC-328158" role="4" type="21">
+   <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
   <activity-date iso-date="2020-06-15" type="2"></activity-date>
@@ -36,13 +36,6 @@ The project is to enable the frontline NGOs to (i) adapt to COVID-19 and carry o
    <period-end iso-date="2020-10-14"></period-end>
    <value currency="GBP" value-date="2020-06-14">80691.72</value>
   </budget>
-  <transaction ref="Final Instalment">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-05-04"></transaction-date>
-   <value currency="GBP" value-date="2021-05-04">2458.32</value>
-   <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="DK-CVR-20699310"></provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-328158-DK-CVR-20699310-DF212197" ref="GB-CHC-328158"></receiver-org>
-  </transaction>
   <transaction humanitarian="1" ref="Incoming Fund">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-06-15"></transaction-date>
@@ -64,6 +57,13 @@ The project is to enable the frontline NGOs to (i) adapt to COVID-19 and carry o
    <receiver-org receiver-activity-id="GB-CHC-328158-DK-CVR-20699310-DF212197" ref="GB-CHC-328158" type="21">
     <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
    </receiver-org>
+  </transaction>
+  <transaction ref="Final Instalment">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-05-04"></transaction-date>
+   <value currency="GBP" value-date="2021-05-04">2458.32</value>
+   <provider-org provider-activity-id="DK-CVR-20699310-DF212197" ref="DK-CVR-20699310"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-328158-DK-CVR-20699310-DF212197" ref="GB-CHC-328158"></receiver-org>
   </transaction>
  </iati-activity>
 </iati-activities>

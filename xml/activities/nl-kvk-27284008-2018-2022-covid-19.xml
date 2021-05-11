@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="decp-activities" dstore:index="16" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="decp-activities" dstore:index="16" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://iatistandard.org/203/schema/downloads/iati-activities-schema.xsd">
   <iati-identifier>NL-KVK-27284008-2018-2022-COVID-19</iati-identifier>
   <reporting-org ref="NL-KVK-27284008" type="22">
    <narrative xml:lang="EN">Dutch Employers Cooperation Programme DECP</narrative>
@@ -11,14 +11,14 @@
   <description type="1">
    <narrative xml:lang="EN">The Ministry of Foreign Affairs of the Netherlands allows the Dutch Employers Cooperation Programme DECP to use 50% of their 2020  budget for so-called COVID-19 support activities, aiming at supporting employers organisations in emerging countries with the ultimate objective of improving the business climate, creating jobs and alleviating poverty.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-7-PPR-4000001087" ref="XM-DAC-7" role="1" type="10">
-   <narrative xml:lang="EN">Ministerie van Buitenlandse Zaken</narrative>
-  </participating-org>
   <participating-org ref="NL-KVK-27284008" role="2" type="22">
    <narrative xml:lang="EN">DECP</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-27284008" role="4" type="22">
    <narrative xml:lang="EN">DECP</narrative>
+  </participating-org>
+  <participating-org activity-id="XM-DAC-7-PPR-4000001087" ref="XM-DAC-7" role="1" type="10">
+   <narrative xml:lang="EN">Ministerie van Buitenlandse Zaken</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
   <activity-date iso-date="2020-01-01" type="2"></activity-date>
@@ -55,7 +55,7 @@
    <value currency="EUR" value-date="2020-01-01">809250</value>
   </budget>
   <transaction>
-   <transaction-type code="11"></transaction-type>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-03-03"></transaction-date>
    <value currency="EUR" value-date="2020-03-03">543815</value>
    <description>
@@ -69,7 +69,7 @@
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-03-03"></transaction-date>
    <value currency="EUR" value-date="2020-03-03">543815</value>
    <description>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="1482" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="1482" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27108436-A-05823-20:UG</iati-identifier>
   <reporting-org ref="NL-KVK-27108436" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
@@ -33,8 +33,8 @@ Activity3.1:Conduct half-a day project inception meeting with the District stake
 Activity 4.1:Conduct one (1) Project join  Monitoring, Evaluation and Learning
 Monitoring, Evaluation and learning will be conducted jointlycomprises of representative of District leaderships, representative of NUWOSO Board member and OXFAM representative to share the project performance and learning but if COVID-19 persist, then the monitoring will be done only by the District leadershiprepresentative and NUWOSO Board while OXFAM will do through phone calls.</narrative>
   </description>
-  <participating-org ref="NL-KVK-27108436" role="2" type="21">
-   <narrative xml:lang="EN">Oxfam Novib</narrative>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">IKEA Foundation</narrative>
   </participating-org>
   <participating-org role="4" type="24">
    <narrative xml:lang="EN">NORTHERN UGANDA WIDOWS &amp; ORPHANS SU NUWOSO</narrative>
@@ -99,24 +99,24 @@ General Assembly (GA) is asupreme governing organ of NUWOSO which comprises of 3
 Board of Directors comprise of 9 members (6 women and 3 men) headed by Chairperson (Female) assisted by Vice Chairperson and they meet quarterly, they key formulate policies and implementation, oversee the management staff and organizationdevelopment, they report to the General Assembly annually.
 Management staff or secretariat comprise of 3 staff (2 Males and 1 Female) , they are  headed by Programme Coordinator, their roles is to ensure organization programmes day-to-day running/implementation and management, resource mobilization for organization development,  they report to Board of Directors, relevant stakeholders and Donor(s) quarterly and annually.</narrative>
   </participating-org>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">IKEA Foundation</narrative>
+  <participating-org ref="NL-KVK-27108436" role="2" type="21">
+   <narrative xml:lang="EN">Oxfam Novib</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-27108436" role="3" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-06-01" type="1">
-   <narrative xml:lang="EN">start-planned</narrative>
-  </activity-date>
-  <activity-date iso-date="2020-06-01" type="2">
-   <narrative xml:lang="EN">start-actual</narrative>
+  <activity-date iso-date="2020-09-30" type="4">
+   <narrative xml:lang="EN">end-actual</narrative>
   </activity-date>
   <activity-date iso-date="2020-09-30" type="3">
    <narrative xml:lang="EN">end-planned</narrative>
   </activity-date>
-  <activity-date iso-date="2020-09-30" type="4">
-   <narrative xml:lang="EN">end-actual</narrative>
+  <activity-date iso-date="2020-06-01" type="2">
+   <narrative xml:lang="EN">start-actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-06-01" type="1">
+   <narrative xml:lang="EN">start-planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -141,8 +141,8 @@ Management staff or secretariat comprise of 3 staff (2 Males and 1 Female) , the
   <sector code="3" percentage="100" vocabulary="99" vocabulary-uri="http://www.oxfamnovib.nl">
    <narrative xml:lang="EN">The right to life and security</narrative>
   </sector>
-  <sector code="74010" percentage="100" vocabulary="1"></sector>
   <sector code="11" percentage="100" vocabulary="10"></sector>
+  <sector code="74010" percentage="100" vocabulary="1"></sector>
   <tag code="1" vocabulary="2"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Novel Coronavirus Outbreak - Jan 2020</narrative>
@@ -155,19 +155,8 @@ Management staff or secretariat comprise of 3 staff (2 Males and 1 Female) , the
   <budget type="2">
    <period-start iso-date="2020-06-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
-   <value currency="EUR" value-date="2021-05-08">25269</value>
+   <value currency="EUR" value-date="2021-05-09">25269</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-07-01"></transaction-date>
-   <value currency="EUR" value-date="2020-07-01">25269</value>
-   <description>
-    <narrative xml:lang="EN">incoming transaction</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">IKEA Foundation</narrative>
-   </provider-org>
-  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-07-01"></transaction-date>
@@ -179,6 +168,17 @@ Management staff or secretariat comprise of 3 staff (2 Males and 1 Female) , the
     <narrative xml:lang="EN">NORTHERN UGANDA WIDOWS &amp; ORPHANS SU NUWOSO</narrative>
    </receiver-org>
   </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-07-01"></transaction-date>
+   <value currency="EUR" value-date="2020-07-01">25269</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">IKEA Foundation</narrative>
+   </provider-org>
+  </transaction>
   <document-link format="APPLICATION/HTTP" url="https://atlas.oxfamnovib.nl/#/project/A-05823-20:UG">
    <title>
     <narrative xml:lang="EN">Atlas project browser</narrative>
@@ -187,12 +187,12 @@ Management staff or secretariat comprise of 3 staff (2 Males and 1 Female) , the
    <language code="EN"></language>
    <document-date iso-date="2015-12-11"></document-date>
   </document-link>
+  <legacy-data name="grant-reference" value="1001704"></legacy-data>
+  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
   <legacy-data name="profit-centre" value="0000007104"></legacy-data>
   <legacy-data name="profit-centre-name" value="CO: Uganda (HECA)"></legacy-data>
   <legacy-data name="project" value="A-05823"></legacy-data>
   <legacy-data name="project-name" value="ELNHA Phase II"></legacy-data>
-  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
-  <legacy-data name="grant-reference" value="1001704"></legacy-data>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">5260</narrative>
@@ -202,32 +202,17 @@ Management staff or secretariat comprise of 3 staff (2 Males and 1 Female) , the
    </description>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-A</narrative>
+     <narrative xml:lang="EN">5260-B</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+     <narrative xml:lang="EN">Men directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
     </description>
-    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-B" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <target value="57853"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5260-A</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
-    </description>
-    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="58134"></actual>
+     <actual value="38891"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -247,17 +232,32 @@ Management staff or secretariat comprise of 3 staff (2 Males and 1 Female) , the
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-B</narrative>
+     <narrative xml:lang="EN">5260-A</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Men directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
     </description>
-    <reference code="5260-B" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="38891"></actual>
+     <actual value="58134"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5260-A</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+    </description>
+    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-06-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="57853"></target>
     </period>
    </indicator>
   </result>
@@ -270,32 +270,17 @@ Management staff or secretariat comprise of 3 staff (2 Males and 1 Female) , the
    </description>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-1</narrative>
+     <narrative xml:lang="EN">5260-2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+     <narrative xml:lang="EN">men living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
     </description>
-    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-2" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <target value="57853"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5260-1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
-    </description>
-    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="58134"></actual>
+     <actual value="38891"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -315,17 +300,32 @@ Management staff or secretariat comprise of 3 staff (2 Males and 1 Female) , the
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5260-2</narrative>
+     <narrative xml:lang="EN">5260-1</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">men living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
     </description>
-    <reference code="5260-2" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="38891"></actual>
+     <actual value="58134"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5260-1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+    </description>
+    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-06-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="57853"></target>
     </period>
    </indicator>
   </result>

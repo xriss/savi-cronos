@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-mne" dstore:index="119" hierarchy="2" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-mne" dstore:index="119" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00125126</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">The project will support the development of digital public administration and platforms, electronic portals, and the development of e-services of the highest complexity for both citizens and businesses on both central and local level.</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="10159" role="1">
    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2021-01-18" type="1"></activity-date>
@@ -49,14 +49,14 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPLC"></feature-designation>
   </location>
-  <sector code="16062" percentage="100" vocabulary="1"></sector>
-  <sector code="17.18" percentage="50" vocabulary="8"></sector>
-  <sector code="16.6" percentage="50" vocabulary="8"></sector>
   <sector code="18" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Accelerate structural transformations</narrative>
   </sector>
-  <tag code="17.18" vocabulary="3"></tag>
+  <sector code="16.6" percentage="50" vocabulary="8"></sector>
+  <sector code="16062" percentage="100" vocabulary="1"></sector>
+  <sector code="17.18" percentage="50" vocabulary="8"></sector>
   <tag code="16.6" vocabulary="3"></tag>
+  <tag code="17.18" vocabulary="3"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Global COVID-19</narrative>
   </humanitarian-scope>
@@ -67,9 +67,9 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="2">
-   <period-start iso-date="2023-01-01"></period-start>
-   <period-end iso-date="2023-12-31"></period-end>
-   <value currency="USD" value-date="2021-04-30">6420</value>
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-04-30">1283697</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
@@ -77,15 +77,63 @@
    <value currency="USD" value-date="2021-04-30">975063</value>
   </budget>
   <budget status="2" type="2">
-   <period-start iso-date="2021-01-01"></period-start>
-   <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2021-04-30">1283697</value>
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-12-31"></period-end>
+   <value currency="USD" value-date="2021-04-30">6420</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">2265180</value>
+   <provider-org ref="10159">
+    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125126" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">1283697</value>
+   <provider-org ref="10159">
+    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125126" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">6420</value>
+   <provider-org ref="10159">
+    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125126" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">975063</value>
+   <provider-org ref="10159">
+    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125126" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">5078</value>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">1302</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -102,59 +150,11 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">1302</value>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">5078</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">6420</value>
-   <provider-org ref="10159">
-    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125126" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">975063</value>
-   <provider-org ref="10159">
-    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125126" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">1283697</value>
-   <provider-org ref="10159">
-    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125126" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">2265180</value>
-   <provider-org ref="10159">
-    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125126" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>

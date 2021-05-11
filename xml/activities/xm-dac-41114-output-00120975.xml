@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-ukr" dstore:index="219" hierarchy="2" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-ukr" dstore:index="219" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00120975</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -11,20 +11,20 @@
   <description type="1">
    <narrative xml:lang="EN">The output is aimed at supporting the Government of Ukraine at national level and regionally in eastern Ukraine to both limit the spread of COVID-19 and to mitigate the potentially devastating impact it may have on vulnerable populations and economies</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
-  </participating-org>
-  <participating-org ref="XM-DAC-7" role="1" type="10">
-   <narrative xml:lang="EN">GOVERNMENT OF NETHERLANDS</narrative>
+  <participating-org ref="10159" role="1">
+   <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
   </participating-org>
   <participating-org ref="DK-1" role="1" type="10">
    <narrative xml:lang="EN">GOVERNMENT OF DENMARK</narrative>
   </participating-org>
+  <participating-org ref="XM-DAC-7" role="1" type="10">
+   <narrative xml:lang="EN">GOVERNMENT OF NETHERLANDS</narrative>
+  </participating-org>
   <participating-org ref="CH-4" role="1" type="10">
    <narrative xml:lang="EN">GOVERNMENT OF SWITZERLAND</narrative>
   </participating-org>
-  <participating-org ref="10159" role="1">
-   <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-04-01" type="1"></activity-date>
@@ -38,26 +38,6 @@
   <recipient-country code="UA" percentage="100">
    <narrative xml:lang="EN">Ukraine</narrative>
   </recipient-country>
-  <location ref="UA">
-   <location-reach code="2"></location-reach>
-   <location-id code="702657" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Luhansk</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">first-order administrative division</narrative>
-   </description>
-   <activity-description>
-    <narrative xml:lang="EN">Luhansk oblast (Government Controlled Area - GCA)</narrative>
-   </activity-description>
-   <administrative code="702657" level="1" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>49.000000 39.000000</pos>
-   </point>
-   <exactness code="1"></exactness>
-   <location-class code="1"></location-class>
-   <feature-designation code="ADM1"></feature-designation>
-  </location>
   <location ref="UA">
    <location-reach code="2"></location-reach>
    <location-id code="709716" vocabulary="G1"></location-id>
@@ -78,16 +58,36 @@
    <location-class code="1"></location-class>
    <feature-designation code="ADM1"></feature-designation>
   </location>
-  <sector code="16050" percentage="100" vocabulary="1"></sector>
-  <sector code="9.1" percentage="33.33" vocabulary="8"></sector>
-  <sector code="4.4" percentage="33.33" vocabulary="8"></sector>
-  <sector code="1.4" percentage="33.33" vocabulary="8"></sector>
+  <location ref="UA">
+   <location-reach code="2"></location-reach>
+   <location-id code="702657" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Luhansk</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">first-order administrative division</narrative>
+   </description>
+   <activity-description>
+    <narrative xml:lang="EN">Luhansk oblast (Government Controlled Area - GCA)</narrative>
+   </activity-description>
+   <administrative code="702657" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>49.000000 39.000000</pos>
+   </point>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM1"></feature-designation>
+  </location>
   <sector code="17" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Eradicate poverty in all its forms and dimensions</narrative>
   </sector>
-  <tag code="9.1" vocabulary="3"></tag>
-  <tag code="4.4" vocabulary="3"></tag>
+  <sector code="1.4" percentage="33.33" vocabulary="8"></sector>
+  <sector code="16050" percentage="100" vocabulary="1"></sector>
+  <sector code="4.4" percentage="33.33" vocabulary="8"></sector>
+  <sector code="9.1" percentage="33.33" vocabulary="8"></sector>
   <tag code="1.4" vocabulary="3"></tag>
+  <tag code="4.4" vocabulary="3"></tag>
+  <tag code="9.1" vocabulary="3"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Global COVID-19</narrative>
   </humanitarian-scope>
@@ -104,71 +104,14 @@
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
+   <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">23206</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   <value currency="USD" value-date="2020-12-31">67923</value>
+   <provider-org ref="10159">
+    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">19</value>
-   <provider-org ref="XM-DAC-41114" type="40">
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120975" ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-10-31">125</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">227587</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">2547</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3818</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">Government of Ukraine</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">63923</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">Government of Ukraine</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -209,15 +152,72 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">67923</value>
-   <provider-org ref="10159">
-    <narrative xml:lang="EN">EUROPEAN COMMISSION</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00120975" ref="XM-DAC-41114" type="40">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">63923</value>
+   <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Government of Ukraine</narrative>
    </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3818</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Government of Ukraine</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">2547</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">227587</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-10-31">125</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">19</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">23206</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -235,7 +235,6 @@
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00102396" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00104480" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00104483" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00106401" type="3"></related-activity>
@@ -255,6 +254,7 @@
   <related-activity ref="XM-DAC-41114-OUTPUT-00120593" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00120677" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00120974" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00102396" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unicef-moldova" dstore:index="14" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-moldova" dstore:index="14" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Moldova-5640/A0/05/501/010</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -12,15 +12,6 @@
    <narrative xml:lang="EN">Humanitarian activities aimed to support the national response to limit the secondary impact of the crisis through capacity
 building, provision of essential supplies, services, and technical assistance, research and assessment.</narrative>
   </description>
-  <participating-org ref="XM-DAC-47501" role="1" type="40">
-   <narrative xml:lang="EN">Global Partnership for Education</narrative>
-  </participating-org>
-  <participating-org ref="US-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">USA USAID</narrative>
-  </participating-org>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-  </participating-org>
   <participating-org ref="47122" role="1" type="40">
    <narrative xml:lang="EN">GAVI The Vaccine Alliance</narrative>
   </participating-org>
@@ -28,7 +19,22 @@ building, provision of essential supplies, services, and technical assistance, r
    <narrative xml:lang="EN">Global - Education</narrative>
   </participating-org>
   <participating-org role="1" type="40">
+   <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-47501" role="1" type="40">
+   <narrative xml:lang="EN">Global Partnership for Education</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+  </participating-org>
+  <participating-org ref="47122" role="4" type="40">
+   <narrative xml:lang="EN">UNICEF</narrative>
+  </participating-org>
+  <participating-org ref="US-GOV-1" role="4" type="40">
+   <narrative xml:lang="EN">UNICEF</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-47501" role="4" type="40">
+   <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
   <participating-org role="3" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -36,14 +42,8 @@ building, provision of essential supplies, services, and technical assistance, r
   <participating-org role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
-  <participating-org ref="XM-DAC-47501" role="4" type="40">
-   <narrative xml:lang="EN">UNICEF</narrative>
-  </participating-org>
-  <participating-org ref="47122" role="4" type="40">
-   <narrative xml:lang="EN">UNICEF</narrative>
-  </participating-org>
-  <participating-org ref="US-GOV-1" role="4" type="40">
-   <narrative xml:lang="EN">UNICEF</narrative>
+  <participating-org ref="US-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">USA USAID</narrative>
   </participating-org>
   <other-identifier ref="41122-Moldova-5640/A0/05/501/010" type="B1">
    <owner-org>
@@ -125,32 +125,35 @@ building, provision of essential supplies, services, and technical assistance, r
    </point>
    <exactness code="1"></exactness>
   </location>
+  <sector code="91010" percentage="5.1" vocabulary="1">
+   <narrative xml:lang="EN">Administrative costs (non-sector allocable)</narrative>
+  </sector>
   <sector code="26-02-06" percentage="5.1" vocabulary="99">
    <narrative xml:lang="EN">Analysis of data</narrative>
   </sector>
-  <sector code="24-02-10" percentage="7.2" vocabulary="99">
-   <narrative xml:lang="EN">Sanitation in emergencies - improving sanitation services in communities</narrative>
+  <sector code="6" percentage="67.8" vocabulary="7">
+   <narrative xml:lang="EN">Clean Water and Sanitation</narrative>
   </sector>
-  <sector code="23-03-99" percentage="3.5" vocabulary="99">
-   <narrative xml:lang="EN">Technical assistance - Access to justice</narrative>
+  <sector code="3" percentage="18.8" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
+   <narrative xml:lang="EN">Education</narrative>
   </sector>
-  <sector code="24-02-12" percentage="60.6" vocabulary="99">
-   <narrative xml:lang="EN">WASH in emergencies - institutions (schools, health care facilities, ECD centres) response including menstrual hygiene management</narrative>
+  <sector code="3" percentage="6" vocabulary="7">
+   <narrative xml:lang="EN">Good Health and Well-being</narrative>
   </sector>
-  <sector code="23-01-99" percentage="0.9" vocabulary="99">
-   <narrative xml:lang="EN">Technical assistance - Prevention and response services for violence against children</narrative>
+  <sector code="12110" percentage="6" vocabulary="1">
+   <narrative xml:lang="EN">Health policy and administrative management</narrative>
   </sector>
-  <sector code="22-02-99" percentage="16.7" vocabulary="99">
-   <narrative xml:lang="EN">Technical assistance - Learning outcomes</narrative>
+  <sector code="17" percentage="5.1" vocabulary="7">
+   <narrative xml:lang="EN">Partnerships for the Goals</narrative>
   </sector>
-  <sector code="21-03-99" percentage="6" vocabulary="99">
-   <narrative xml:lang="EN">Technical assistance - Child health</narrative>
+  <sector code="16" percentage="4.4" vocabulary="7">
+   <narrative xml:lang="EN">Peace, Justice and Strong Institutions</narrative>
   </sector>
-  <sector code="74020" percentage="60.6" vocabulary="1">
-   <narrative xml:lang="EN">Public finance management (PFM)</narrative>
+  <sector code="10" percentage="1" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
+   <narrative xml:lang="EN">Protection</narrative>
   </sector>
-  <sector code="91010" percentage="5.1" vocabulary="1">
-   <narrative xml:lang="EN">Administrative costs (non-sector allocable)</narrative>
+  <sector code="10" percentage="3.9" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
+   <narrative xml:lang="EN">Protection</narrative>
   </sector>
   <sector code="11182" percentage="16.7" vocabulary="1">
    <narrative xml:lang="EN">Public finance management (PFM)</narrative>
@@ -158,41 +161,38 @@ building, provision of essential supplies, services, and technical assistance, r
   <sector code="15160" percentage="4.4" vocabulary="1">
    <narrative xml:lang="EN">Public finance management (PFM)</narrative>
   </sector>
-  <sector code="12110" percentage="6" vocabulary="1">
-   <narrative xml:lang="EN">Health policy and administrative management</narrative>
+  <sector code="72010" percentage="7.2" vocabulary="1">
+   <narrative xml:lang="EN">Public finance management (PFM)</narrative>
+  </sector>
+  <sector code="74020" percentage="60.6" vocabulary="1">
+   <narrative xml:lang="EN">Public finance management (PFM)</narrative>
   </sector>
   <sector code="4" percentage="16.7" vocabulary="7">
    <narrative xml:lang="EN">Quality Education</narrative>
   </sector>
-  <sector code="72010" percentage="7.2" vocabulary="1">
-   <narrative xml:lang="EN">Public finance management (PFM)</narrative>
+  <sector code="24-02-10" percentage="7.2" vocabulary="99">
+   <narrative xml:lang="EN">Sanitation in emergencies - improving sanitation services in communities</narrative>
   </sector>
-  <sector code="17" percentage="5.1" vocabulary="7">
-   <narrative xml:lang="EN">Partnerships for the Goals</narrative>
+  <sector code="23-03-99" percentage="3.5" vocabulary="99">
+   <narrative xml:lang="EN">Technical assistance - Access to justice</narrative>
   </sector>
-  <sector code="6" percentage="67.8" vocabulary="7">
-   <narrative xml:lang="EN">Clean Water and Sanitation</narrative>
+  <sector code="21-03-99" percentage="6" vocabulary="99">
+   <narrative xml:lang="EN">Technical assistance - Child health</narrative>
   </sector>
-  <sector code="16" percentage="4.4" vocabulary="7">
-   <narrative xml:lang="EN">Peace, Justice and Strong Institutions</narrative>
+  <sector code="22-02-99" percentage="16.7" vocabulary="99">
+   <narrative xml:lang="EN">Technical assistance - Learning outcomes</narrative>
   </sector>
-  <sector code="3" percentage="6" vocabulary="7">
-   <narrative xml:lang="EN">Good Health and Well-being</narrative>
+  <sector code="23-01-99" percentage="0.9" vocabulary="99">
+   <narrative xml:lang="EN">Technical assistance - Prevention and response services for violence against children</narrative>
+  </sector>
+  <sector code="24-02-12" percentage="60.6" vocabulary="99">
+   <narrative xml:lang="EN">WASH in emergencies - institutions (schools, health care facilities, ECD centres) response including menstrual hygiene management</narrative>
   </sector>
   <sector code="11" percentage="68.2" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
    <narrative xml:lang="EN">Water Sanitation Hygiene</narrative>
   </sector>
-  <sector code="3" percentage="18.8" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
-   <narrative xml:lang="EN">Education</narrative>
-  </sector>
   <sector code="11" percentage="8.1" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
    <narrative xml:lang="EN">Water Sanitation Hygiene</narrative>
-  </sector>
-  <sector code="10" percentage="1" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
-   <narrative xml:lang="EN">Protection</narrative>
-  </sector>
-  <sector code="10" percentage="3.9" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
-   <narrative xml:lang="EN">Protection</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="1.1.1" percentage="100" vocabulary="1">
@@ -261,10 +261,466 @@ building, provision of essential supplies, services, and technical assistance, r
    </receiver-org>
   </planned-disbursement>
   <capital-spend percentage="0"></capital-spend>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">3448</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">GAVI The Vaccine Alliance</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">3448</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">GAVI The Vaccine Alliance</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">8185</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Education</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">8185</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Education</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">24321</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">24321</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">144022</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">144022</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">15362</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global Partnership for Education</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">15362</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global Partnership for Education</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">4961</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global Partnership for Education</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">4961</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global Partnership for Education</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">34403</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">34403</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">10412</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">10412</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">912401</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA USAID</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">912401</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA USAID</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">815140</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA USAID</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">815140</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA USAID</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">4152</value>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <value currency="USD" value-date="2020-04-30">3094</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="USD" value-date="2020-05-31">15656</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="USD" value-date="2020-05-31">1699</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">1026</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">5025</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">18446</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">4602</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">20195</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">2193</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">22695</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">113186</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1795</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">8844</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-10-31">2302</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-10-31">27184</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">31302</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">41939</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">539264</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">74534</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -299,32 +755,8 @@ building, provision of essential supplies, services, and technical assistance, r
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-10-31">27184</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">5025</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">22695</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">29889</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -347,128 +779,8 @@ building, provision of essential supplies, services, and technical assistance, r
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">18446</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">3380</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">55976</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">74534</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">113186</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">2193</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">76775</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">1026</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">40617</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1795</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-10-31">2302</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -491,44 +803,8 @@ building, provision of essential supplies, services, and technical assistance, r
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">15656</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">539264</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">20195</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">8844</value>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">4526</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -552,115 +828,7 @@ building, provision of essential supplies, services, and technical assistance, r
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">9420</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">21039</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
-   <value currency="USD" value-date="2020-04-30">3094</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">31302</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">29889</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">4602</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="USD" value-date="2020-05-31">1699</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">4526</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">4838</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">41939</value>
+   <value currency="USD" value-date="2021-02-28">3380</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -693,15 +861,27 @@ building, provision of essential supplies, services, and technical assistance, r
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">10412</value>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">76775</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">9420</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -717,231 +897,51 @@ building, provision of essential supplies, services, and technical assistance, r
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">144022</value>
+   <value currency="USD" value-date="2021-03-31">21039</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">912401</value>
-   <description>
     <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">USA USAID</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">15362</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global Partnership for Education</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">34403</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">8185</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Education</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">4961</value>
+   <value currency="USD" value-date="2021-03-31">40617</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Global Partnership for Education</narrative>
+    <narrative xml:lang="EN"></narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">3448</value>
+   <value currency="USD" value-date="2021-03-31">4152</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">GAVI The Vaccine Alliance</narrative>
+    <narrative xml:lang="EN"></narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">815140</value>
+   <value currency="USD" value-date="2021-03-31">4838</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">USA USAID</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">24321</value>
-   <description>
     <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">10412</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">144022</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">912401</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">USA USAID</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">15362</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global Partnership for Education</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">34403</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">8185</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Education</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">4961</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global Partnership for Education</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">3448</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">GAVI The Vaccine Alliance</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">815140</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">USA USAID</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">24321</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -953,83 +953,9 @@ building, provision of essential supplies, services, and technical assistance, r
    <language code="EN"></language>
    <document-date iso-date="2020-01-01"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="http://www.unicef.org/evaldatabase/index_66364.html">
-   <title>
-    <narrative xml:lang="EN">Moldova Evaluation Reports</narrative>
-   </title>
-   <category code="A07"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2018-12-31"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="http://www.unicef.org/moldova/">
-   <title>
-    <narrative xml:lang="EN">Country Office Website</narrative>
-   </title>
-   <category code="A12"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2016-01-05"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://open.unicef.org/country-details/?y=2021&amp;measure=b&amp;country=Moldova&amp;output=5640/A0/05/501/010">
-   <title>
-    <narrative xml:lang="EN">Output web page</narrative>
-   </title>
-   <category code="A12"></category>
-   <category code="A08"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2021-03-31"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Moldova-2019-COAR.pdf">
-   <title>
-    <narrative xml:lang="EN">Moldova 2019 Annual Report</narrative>
-   </title>
-   <category code="A08"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2020-02-20"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Moldova_2018_COAR.pdf">
-   <title>
-    <narrative xml:lang="EN">Moldova 2018 Annual Report</narrative>
-   </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2018-12-31"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/2017-PL7-Moldova-CPD-ODS-EN.pdf">
-   <title>
-    <narrative xml:lang="EN">Moldova Country Programme Document 2018-2022</narrative>
-   </title>
-   <category code="A02"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-08-09"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/evaldatabase/index_101061.html">
-   <title>
-    <narrative xml:lang="EN">2017 Moldova: Evaluation of the Government of Moldova - UNICEF 2013-2017 Country Programme of Cooperation</narrative>
-   </title>
-   <category code="A07"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2019-12-31"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/evaldatabase/index_103856.html">
-   <title>
-    <narrative xml:lang="EN">2019 Moldova: Mid-term evaluation of implementation of the Child Protection Strategy 2014-2020 and its Action Plan for 2016-2020</narrative>
-   </title>
-   <category code="A07"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2019-12-31"></document-date>
-  </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/moldova/en/child-protection">
    <title>
     <narrative xml:lang="EN">UNICEF Programmes in Moldova (Child Protection)</narrative>
-   </title>
-   <category code="A01"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2020-02-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/moldova/en/child-protection/justice-children">
-   <title>
-    <narrative xml:lang="EN">UNICEF Programmes in Moldova (Justice for Children )</narrative>
    </title>
    <category code="A01"></category>
    <language code="EN"></language>
@@ -1067,21 +993,21 @@ building, provision of essential supplies, services, and technical assistance, r
    <language code="EN"></language>
    <document-date iso-date="2020-02-01"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="http://www.unicef.org/about/partnerships/index_60043.html">
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/moldova/en/child-protection/justice-children">
    <title>
-    <narrative xml:lang="EN">Conditions for Partnerships</narrative>
+    <narrative xml:lang="EN">UNICEF Programmes in Moldova (Justice for Children )</narrative>
    </title>
-   <category code="A04"></category>
+   <category code="A01"></category>
    <language code="EN"></language>
-   <document-date iso-date="2017-06-01"></document-date>
+   <document-date iso-date="2020-02-01"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/ContractAward?agencyEnglishAbbreviation=UNICEF">
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/2017-PL7-Moldova-CPD-ODS-EN.pdf">
    <title>
-    <narrative xml:lang="EN">UNICEF Contract Awards through the UN Global Marketplace</narrative>
+    <narrative xml:lang="EN">Moldova Country Programme Document 2018-2022</narrative>
    </title>
-   <category code="A06"></category>
+   <category code="A02"></category>
    <language code="EN"></language>
-   <document-date iso-date="2017-10-06"></document-date>
+   <document-date iso-date="2017-08-09"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_become_a_supplier.html">
    <title>
@@ -1090,6 +1016,14 @@ building, provision of essential supplies, services, and technical assistance, r
    <category code="A04"></category>
    <language code="EN"></language>
    <document-date iso-date="2016-10-04"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://www.unicef.org/about/partnerships/index_60043.html">
+   <title>
+    <narrative xml:lang="EN">Conditions for Partnerships</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-06-01"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/about/partnerships/index_60074.html">
    <title>
@@ -1107,6 +1041,64 @@ building, provision of essential supplies, services, and technical assistance, r
    <language code="EN"></language>
    <document-date iso-date="2017-09-26"></document-date>
   </document-link>
+  <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/ContractAward?agencyEnglishAbbreviation=UNICEF">
+   <title>
+    <narrative xml:lang="EN">UNICEF Contract Awards through the UN Global Marketplace</narrative>
+   </title>
+   <category code="A06"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-10-06"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Moldova_2018_COAR.pdf">
+   <title>
+    <narrative xml:lang="EN">Moldova 2018 Annual Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2018-12-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://www.unicef.org/evaldatabase/index_66364.html">
+   <title>
+    <narrative xml:lang="EN">Moldova Evaluation Reports</narrative>
+   </title>
+   <category code="A07"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2018-12-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/evaldatabase/index_101061.html">
+   <title>
+    <narrative xml:lang="EN">2017 Moldova: Evaluation of the Government of Moldova - UNICEF 2013-2017 Country Programme of Cooperation</narrative>
+   </title>
+   <category code="A07"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2019-12-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/evaldatabase/index_103856.html">
+   <title>
+    <narrative xml:lang="EN">2019 Moldova: Mid-term evaluation of implementation of the Child Protection Strategy 2014-2020 and its Action Plan for 2016-2020</narrative>
+   </title>
+   <category code="A07"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2019-12-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://open.unicef.org/country-details/?y=2021&amp;measure=b&amp;country=Moldova&amp;output=5640/A0/05/501/010">
+   <title>
+    <narrative xml:lang="EN">Output web page</narrative>
+   </title>
+   <category code="A08"></category>
+   <category code="A12"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-03-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Moldova-2019-COAR.pdf">
+   <title>
+    <narrative xml:lang="EN">Moldova 2019 Annual Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-02-20"></document-date>
+  </document-link>
   <document-link format="TEXT/HTML" url="http://www.unicef.org/about/partnerships/index_60043.html">
    <title>
     <narrative xml:lang="EN">Frameworks for Partnerships</narrative>
@@ -1114,22 +1106,6 @@ building, provision of essential supplies, services, and technical assistance, r
    <category code="A09"></category>
    <language code="EN"></language>
    <document-date iso-date="2017-06-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_27009.html">
-   <title>
-    <narrative xml:lang="EN">UNICEF Supply Contract Awards</narrative>
-   </title>
-   <category code="A11"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-10-06"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25947.html">
-   <title>
-    <narrative xml:lang="EN">Bidding Opportunities</narrative>
-   </title>
-   <category code="A10"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-12-31"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25983.html">
    <title>
@@ -1139,6 +1115,14 @@ building, provision of essential supplies, services, and technical assistance, r
    <language code="EN"></language>
    <document-date iso-date="2012-05-15"></document-date>
   </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25947.html">
+   <title>
+    <narrative xml:lang="EN">Bidding Opportunities</narrative>
+   </title>
+   <category code="A10"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-12-31"></document-date>
+  </document-link>
   <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/Notice?agencyEnglishAbbreviation=UNICEF">
    <title>
     <narrative xml:lang="EN">UNICEF Tender Notices through the UN Global Marketplace</narrative>
@@ -1146,6 +1130,22 @@ building, provision of essential supplies, services, and technical assistance, r
    <category code="A10"></category>
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_27009.html">
+   <title>
+    <narrative xml:lang="EN">UNICEF Supply Contract Awards</narrative>
+   </title>
+   <category code="A11"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-10-06"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://www.unicef.org/moldova/">
+   <title>
+    <narrative xml:lang="EN">Country Office Website</narrative>
+   </title>
+   <category code="A12"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2016-01-05"></document-date>
   </document-link>
   <related-activity ref="5640/A0/05/501 EQUITABLE CHILD SENSITIVE SYSTEMS AND SERVICES" type="1"></related-activity>
   <conditions attached="1">

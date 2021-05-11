@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="wvi-activities" dstore:index="42" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="wvi-activities" dstore:index="42" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-EIN-95-3202116-MZ</iati-identifier>
   <reporting-org ref="US-EIN-95-3202116" type="21">
    <narrative xml:lang="EN">World Vision International</narrative>
@@ -11,12 +11,6 @@
   <description>
    <narrative xml:lang="EN">Breakdown of expenditure by World Vision Mozambique from 2017 onwards.</narrative>
   </description>
-  <participating-org ref="US-EIN-95-3202116" role="3" type="21">
-   <narrative xml:lang="EN">World Vision International</narrative>
-  </participating-org>
-  <participating-org role="4" type="21">
-   <narrative xml:lang="EN">World Vision Mozambique</narrative>
-  </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Australia</narrative>
   </participating-org>
@@ -32,11 +26,17 @@
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Hong Kong</narrative>
   </participating-org>
+  <participating-org ref="US-EIN-95-3202116" role="3" type="21">
+   <narrative xml:lang="EN">World Vision International</narrative>
+  </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Korea</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Local Funding</narrative>
+  </participating-org>
+  <participating-org role="4" type="21">
+   <narrative xml:lang="EN">World Vision Mozambique</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision New Zealand</narrative>
@@ -84,12 +84,48 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">32576</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">614605</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Mozambique within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1184336</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">725381</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Mozambique within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">61720</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -108,12 +144,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">11045808</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1098633</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Mozambique within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">6022906</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">555648</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Mozambique within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">147094</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -132,12 +204,48 @@
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">151145</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">4768389</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Mozambique within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">5468217</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">5030007</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Mozambique within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">2040573</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -156,12 +264,48 @@
    </provider-org>
    <sector code="112" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">2446186</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">6304001</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Mozambique within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Education in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">5859621</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">6929512</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Mozambique within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">1310771</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -180,12 +324,36 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">1066790</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">382447</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Mozambique within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">7236</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3913</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Mozambique within FY 2020</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -204,12 +372,48 @@
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">186080</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">19734825</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Mozambique within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">14922706</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">14692237</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Mozambique within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">6761507</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Mozambique within FY21</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -228,12 +432,48 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">25734</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">347423</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Mozambique within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">552212</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">418938</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Mozambique within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">74777</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Mozambique within FY21</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -252,12 +492,12 @@
    </provider-org>
    <sector code="140" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">1576</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">3802866</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Mozambique within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Mozambique within FY 2018</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -266,10 +506,46 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">614605</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">3656199</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Mozambique within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">4850994</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Mozambique within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">-634474</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">32576</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Mozambique within FY 2017</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -288,360 +564,12 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1098633</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">845598</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">4768389</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">447965</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">6304001</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">842174</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">382447</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">-366116</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">19734825</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">10832</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">347423</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1390</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">3802866</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1403</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Mozambique within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1184336</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
    <value currency="USD" value-date="2019-09-30">596</value>
    <description>
     <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">6022906</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">17202503</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">5468217</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">550807</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">5859621</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">560752</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">7236</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">14922706</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">95175</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">552212</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">74</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">3656199</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1449</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Mozambique within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">725381</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Mozambique within FY 2020 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -660,12 +588,36 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">555648</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">11045808</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Mozambique within FY 2020</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Mozambique within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">845598</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">17202503</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Mozambique within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -684,12 +636,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">5030007</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">3454331</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Mozambique within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">151145</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Mozambique within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">447965</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">550807</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Mozambique within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -708,174 +696,6 @@
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">6929512</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Mozambique within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1331820</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Mozambique within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3913</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Mozambique within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3739223</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Mozambique within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">14692237</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Mozambique within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">21256</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Mozambique within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">418938</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Mozambique within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">-27</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Mozambique within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">4850994</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Mozambique within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">584</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Mozambique within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">61720</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">147094</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">3454331</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">2040573</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Mozambique</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -888,12 +708,48 @@
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">1310771</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">2446186</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Mozambique within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">842174</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">560752</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1331820</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Mozambique within FY 2020</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -914,6 +770,42 @@
   </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">1066790</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Mozambique within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">-366116</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3739223</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Mozambique within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">354</value>
    <description>
@@ -924,12 +816,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">6761507</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">186080</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Mozambique within FY21</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Mozambique within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">10832</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">95175</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">21256</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Mozambique within FY 2020 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
@@ -948,24 +876,96 @@
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">74777</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">25734</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Mozambique within FY21</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Mozambique within FY 2017</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">-634474</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1390</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Mozambique within FY21 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">74</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">-27</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Mozambique within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">1576</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Mozambique within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1403</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Mozambique within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1449</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Mozambique within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Mozambique</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">584</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Mozambique within FY 2020</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Mozambique</narrative>

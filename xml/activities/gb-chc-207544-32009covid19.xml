@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="ss-org-activities-3" dstore:index="159" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="ss-org-activities-3" dstore:index="159" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-207544-32009COVID19</iati-identifier>
   <reporting-org ref="GB-CHC-207544" type="21">
    <narrative xml:lang="EN">Sightsavers</narrative>
@@ -45,17 +45,6 @@
   <recipient-country code="MZ" percentage="100">
    <narrative xml:lang="EN">Mozambique</narrative>
   </recipient-country>
-  <location ref="Mogovolas District">
-   <name>
-    <narrative xml:lang="EN">Mogovolas District</narrative>
-   </name>
-   <administrative code="MZ" level="1" vocabulary="A4"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-15.715222 39.336376</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <feature-designation code="ADM2"></feature-designation>
-  </location>
   <location ref="Angoche District">
    <name>
     <narrative xml:lang="EN">Angoche District</narrative>
@@ -89,13 +78,13 @@
    <exactness code="2"></exactness>
    <feature-designation code="ADM2"></feature-designation>
   </location>
-  <location ref="Nacaroa District">
+  <location ref="Mogovolas District">
    <name>
-    <narrative xml:lang="EN">Nacaroa District</narrative>
+    <narrative xml:lang="EN">Mogovolas District</narrative>
    </name>
    <administrative code="MZ" level="1" vocabulary="A4"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-14.373 39.92</pos>
+    <pos>-15.715222 39.336376</pos>
    </point>
    <exactness code="2"></exactness>
    <feature-designation code="ADM2"></feature-designation>
@@ -111,11 +100,22 @@
    <exactness code="2"></exactness>
    <feature-designation code="ADM2"></feature-designation>
   </location>
-  <sector code="12250" percentage="50" vocabulary="1">
-   <narrative xml:lang="EN">Infectious Disease Control</narrative>
-  </sector>
+  <location ref="Nacaroa District">
+   <name>
+    <narrative xml:lang="EN">Nacaroa District</narrative>
+   </name>
+   <administrative code="MZ" level="1" vocabulary="A4"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-14.373 39.92</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <feature-designation code="ADM2"></feature-designation>
+  </location>
   <sector code="12261" percentage="50" vocabulary="1">
    <narrative xml:lang="EN">Health education</narrative>
+  </sector>
+  <sector code="12250" percentage="50" vocabulary="1">
+   <narrative xml:lang="EN">Infectious Disease Control</narrative>
   </sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
@@ -130,27 +130,11 @@
    <value currency="GBP" value-date="2020-01-01">7693</value>
   </budget>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">37</value>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="GBP" value-date="2020-01-01">7693</value>
    <description>
-    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">64</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">282</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
+    <narrative xml:lang="EN">Commitment 2020</narrative>
    </description>
   </transaction>
   <transaction>
@@ -164,7 +148,55 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-01"></transaction-date>
+   <value currency="GBP" value-date="2020-06-01">105</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-01"></transaction-date>
+   <value currency="GBP" value-date="2020-06-01">123</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-01"></transaction-date>
    <value currency="GBP" value-date="2020-06-01">141</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-01"></transaction-date>
+   <value currency="GBP" value-date="2020-06-01">16</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-01"></transaction-date>
+   <value currency="GBP" value-date="2020-06-01">19</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-01"></transaction-date>
+   <value currency="GBP" value-date="2020-06-01">198</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-01"></transaction-date>
+   <value currency="GBP" value-date="2020-06-01">200</value>
    <description>
     <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
    </description>
@@ -196,7 +228,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">198</value>
+   <value currency="GBP" value-date="2020-06-01">27</value>
    <description>
     <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
    </description>
@@ -204,23 +236,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">96</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">105</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">123</value>
+   <value currency="GBP" value-date="2020-06-01">282</value>
    <description>
     <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
    </description>
@@ -229,6 +245,14 @@
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-01"></transaction-date>
    <value currency="GBP" value-date="2020-06-01">324</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-01"></transaction-date>
+   <value currency="GBP" value-date="2020-06-01">37</value>
    <description>
     <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
    </description>
@@ -252,7 +276,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">16</value>
+   <value currency="GBP" value-date="2020-06-01">577</value>
    <description>
     <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
    </description>
@@ -260,15 +284,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">27</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">19</value>
+   <value currency="GBP" value-date="2020-06-01">64</value>
    <description>
     <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
    </description>
@@ -284,15 +300,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">577</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-01"></transaction-date>
-   <value currency="GBP" value-date="2020-06-01">200</value>
+   <value currency="GBP" value-date="2020-06-01">96</value>
    <description>
     <narrative xml:lang="EN">Expenditure for COVID-19 response work 2020</narrative>
    </description>
@@ -307,14 +315,6 @@
    <provider-org type="10">
     <narrative xml:lang="EN">Jersey Overseas Aid</narrative>
    </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="GBP" value-date="2020-01-01">7693</value>
-   <description>
-    <narrative xml:lang="EN">Commitment 2020</narrative>
-   </description>
   </transaction>
  </iati-activity>
 </iati-activities>

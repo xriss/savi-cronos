@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="france-ht" dstore:index="15" hierarchy="1" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.01">
+ <iati-activity default-currency="EUR" dstore:dataset="france-ht" dstore:index="15" hierarchy="1" iati-activities:version="2.01" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>FR-6-HT-DBM-20-06</iati-identifier>
   <reporting-org ref="FR-6" type="10">
    <narrative xml:lang="FR">MAEDI</narrative>
@@ -27,19 +27,6 @@ national de cantines scolaires (PNCS) et permettre la distribution de repas chau
   <recipient-country code="HT" percentage="100"></recipient-country>
   <location>
    <location-reach code="1"></location-reach>
-   <location-id code="3731053" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="FR">D&#xE9;partement de l&apos;Artibonite</narrative>
-   </name>
-   <administrative code="3731053" level="1" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>19.33333 -72.5</pos>
-   </point>
-   <location-class code="1"></location-class>
-   <feature-designation code="ADMD"></feature-designation>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
    <location-id code="3717563" vocabulary="G1"></location-id>
    <name>
     <narrative xml:lang="FR">Arrondissement de Marmelade</narrative>
@@ -48,6 +35,19 @@ national de cantines scolaires (PNCS) et permettre la distribution de repas chau
    <administrative code="3717563" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>19.33333 -72.36667</pos>
+   </point>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADMD"></feature-designation>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="3731053" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="FR">D&#xE9;partement de l&apos;Artibonite</narrative>
+   </name>
+   <administrative code="3731053" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>19.33333 -72.5</pos>
    </point>
    <location-class code="1"></location-class>
    <feature-designation code="ADMD"></feature-designation>
@@ -68,8 +68,8 @@ national de cantines scolaires (PNCS) et permettre la distribution de repas chau
   </transaction>
   <transaction ref="1987-D">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-05-10"></transaction-date>
-   <value currency="EUR" value-date="2021-05-10">1000000</value>
+   <transaction-date iso-date="2021-05-11"></transaction-date>
+   <value currency="EUR" value-date="2021-05-11">1000000</value>
    <description>
     <narrative xml:lang="FR">Total disbursements</narrative>
    </description>

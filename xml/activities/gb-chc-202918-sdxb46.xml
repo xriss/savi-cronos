@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="oxfamgb-ss" dstore:index="46" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="GBP" dstore:dataset="oxfamgb-ss" dstore:index="46" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-202918-SDXB46</iati-identifier>
   <reporting-org ref="GB-CHC-202918" type="21">
    <narrative xml:lang="EN">Oxfam GB</narrative>
@@ -11,11 +11,14 @@
   <description type="1">
    <narrative xml:lang="EN">The response programme has the overall objective of providing immediate support to decrease public health risks from COVID -19 to 500,000 men women and children who are particularly vulnerable to COVID -19 pandemic through a WASH and markets -based assistance. The project mainly focuses on raising awareness of the community on COVID -19 prevention and strengthening the capacity of local health facilities to help them provide prevention and care services. The project will be implemented through local partners in some locations like Pibor, Rumbek and Juba while Oxfam directly implement the project in Akobo and Wau.</narrative>
   </description>
-  <participating-org ref="GB-CHC-202918" role="3" type="21">
-   <narrative xml:lang="EN">Oxfam GB</narrative>
+  <participating-org ref="GB-CHC-1062638" role="1" type="21">
+   <narrative xml:lang="EN">Disasters Emergency Committee (DEC)</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">Finn Church Aid</narrative>
+  </participating-org>
+  <participating-org ref="DK-CVR-88136411" role="1" type="21">
+   <narrative xml:lang="EN">OXFAM IBIS - DENMARK</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">Oxfam America</narrative>
@@ -26,11 +29,26 @@
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">Oxfam Canada</narrative>
   </participating-org>
+  <participating-org ref="GB-CHC-202918" role="1" type="21">
+   <narrative xml:lang="EN">Oxfam GB</narrative>
+  </participating-org>
+  <participating-org ref="GB-CHC-202918" role="3" type="21">
+   <narrative xml:lang="EN">Oxfam GB</narrative>
+  </participating-org>
+  <participating-org ref="GB-CHC-202918" role="4" type="21">
+   <narrative xml:lang="EN">Oxfam GB</narrative>
+  </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">Oxfam Germany</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">Oxfam Ireland</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-27108436" role="1" type="21">
+   <narrative xml:lang="EN">Oxfam Novib</narrative>
+  </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">Oxfam Partner(s)</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">UN Food &amp; Agricultural Organisation</narrative>
@@ -44,30 +62,12 @@
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">UN World Food Programme (WFP)</narrative>
   </participating-org>
-  <participating-org ref="DK-CVR-88136411" role="1" type="21">
-   <narrative xml:lang="EN">OXFAM IBIS - DENMARK</narrative>
-  </participating-org>
-  <participating-org ref="GB-CHC-1062638" role="1" type="21">
-   <narrative xml:lang="EN">Disasters Emergency Committee (DEC)</narrative>
-  </participating-org>
-  <participating-org ref="GB-CHC-202918" role="1" type="21">
-   <narrative xml:lang="EN">Oxfam GB</narrative>
-  </participating-org>
-  <participating-org ref="NL-KVK-27108436" role="1" type="21">
-   <narrative xml:lang="EN">Oxfam Novib</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">Oxfam Partner(s)</narrative>
-  </participating-org>
-  <participating-org ref="GB-CHC-202918" role="4" type="21">
-   <narrative xml:lang="EN">Oxfam GB</narrative>
-  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-04-01" type="2">
-   <narrative xml:lang="EN">start-actual</narrative>
-  </activity-date>
   <activity-date iso-date="2021-03-31" type="3">
    <narrative xml:lang="EN">end-planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-04-01" type="2">
+   <narrative xml:lang="EN">start-actual</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -81,8 +81,8 @@
    </person-name>
    <telephone>+44 (0) 1865 47 3727</telephone>
    <email>enquiries@oxfam.org.uk</email>
-   <website>http://www.oxfam.org.uk/</website>
    <website>http://policy-practice.oxfam.org.uk/</website>
+   <website>http://www.oxfam.org.uk/</website>
    <mailing-address>
     <narrative xml:lang="EN">Oxfam House, John Smith Drive, Oxford, OX4 2JY</narrative>
    </mailing-address>
@@ -102,6 +102,92 @@
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="GBP" value-date="2020-04-01">2797664</value>
   </budget>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-04-01"></transaction-date>
+   <value currency="GBP" value-date="2020-04-01">2752728</value>
+   <description>
+    <narrative xml:lang="EN">Commitment April 2020 - March 2021</narrative>
+   </description>
+   <provider-org ref="GB-CHC-202918">
+    <narrative xml:lang="EN">Oxfam GB</narrative>
+   </provider-org>
+   <receiver-org ref="GB-CHC-202918">
+    <narrative xml:lang="EN">Oxfam GB</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-04-01"></transaction-date>
+   <value currency="GBP" value-date="2020-04-01">44936</value>
+   <description>
+    <narrative xml:lang="EN">Commitment April 2020 - March 2021</narrative>
+   </description>
+   <provider-org ref="GB-CHC-202918">
+    <narrative xml:lang="EN">Oxfam GB</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Oxfam Partner(s)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="GBP" value-date="2020-06-30">22199.48</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement April 2020 -  June 2020</narrative>
+   </description>
+   <provider-org ref="GB-CHC-202918">
+    <narrative xml:lang="EN">Oxfam GB</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Oxfam Partner(s)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="GBP" value-date="2020-09-30">31680.76</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement July 2020 -  September 2020</narrative>
+   </description>
+   <provider-org ref="GB-CHC-202918">
+    <narrative xml:lang="EN">Oxfam GB</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Oxfam Partner(s)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="GBP" value-date="2020-06-30">159513</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure April 2020 -  June 2020</narrative>
+   </description>
+   <provider-org ref="GB-CHC-202918"></provider-org>
+   <receiver-org ref="GB-CHC-202918"></receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="GBP" value-date="2020-09-30">237854</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure July 2020 -  September 2020</narrative>
+   </description>
+   <provider-org ref="GB-CHC-202918"></provider-org>
+   <receiver-org ref="GB-CHC-202918"></receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-12-31">1304931</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure October 2020 -  December 2020</narrative>
+   </description>
+   <provider-org ref="GB-CHC-202918"></provider-org>
+   <receiver-org ref="GB-CHC-202918"></receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
@@ -492,92 +578,6 @@
    </provider-org>
    <receiver-org ref="GB-CHC-202918">
     <narrative xml:lang="EN">Oxfam GB</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="GBP" value-date="2020-06-30">159513</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure April 2020 -  June 2020</narrative>
-   </description>
-   <provider-org ref="GB-CHC-202918"></provider-org>
-   <receiver-org ref="GB-CHC-202918"></receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="GBP" value-date="2020-09-30">237854</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure July 2020 -  September 2020</narrative>
-   </description>
-   <provider-org ref="GB-CHC-202918"></provider-org>
-   <receiver-org ref="GB-CHC-202918"></receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="GBP" value-date="2020-12-31">1304931</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure October 2020 -  December 2020</narrative>
-   </description>
-   <provider-org ref="GB-CHC-202918"></provider-org>
-   <receiver-org ref="GB-CHC-202918"></receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="GBP" value-date="2020-06-30">22199.48</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement April 2020 -  June 2020</narrative>
-   </description>
-   <provider-org ref="GB-CHC-202918">
-    <narrative xml:lang="EN">Oxfam GB</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Oxfam Partner(s)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="GBP" value-date="2020-09-30">31680.76</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement July 2020 -  September 2020</narrative>
-   </description>
-   <provider-org ref="GB-CHC-202918">
-    <narrative xml:lang="EN">Oxfam GB</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Oxfam Partner(s)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-04-01"></transaction-date>
-   <value currency="GBP" value-date="2020-04-01">2752728</value>
-   <description>
-    <narrative xml:lang="EN">Commitment April 2020 - March 2021</narrative>
-   </description>
-   <provider-org ref="GB-CHC-202918">
-    <narrative xml:lang="EN">Oxfam GB</narrative>
-   </provider-org>
-   <receiver-org ref="GB-CHC-202918">
-    <narrative xml:lang="EN">Oxfam GB</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-04-01"></transaction-date>
-   <value currency="GBP" value-date="2020-04-01">44936</value>
-   <description>
-    <narrative xml:lang="EN">Commitment April 2020 - March 2021</narrative>
-   </description>
-   <provider-org ref="GB-CHC-202918">
-    <narrative xml:lang="EN">Oxfam GB</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Oxfam Partner(s)</narrative>
    </receiver-org>
   </transaction>
  </iati-activity>

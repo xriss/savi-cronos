@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="fcdo-998_4" dstore:index="2209" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="fcdo-998_4" dstore:index="2209" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-GOV-1-301150-125</iati-identifier>
   <reporting-org ref="GB-GOV-1" type="10">
    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -20,21 +20,21 @@
   <participating-org ref="GB-GOV-8" role="4" type="10">
    <narrative xml:lang="EN">UK - Ministry of Defence</narrative>
   </participating-org>
-  <other-identifier ref="301150-125" type="A1">
-   <owner-org ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </owner-org>
-  </other-identifier>
   <other-identifier ref="GB-1" type="B1">
    <owner-org ref="GB-GOV-1">
     <narrative xml:lang="EN">FCDO previous reporting-org identifier</narrative>
    </owner-org>
   </other-identifier>
+  <other-identifier ref="301150-125" type="A1">
+   <owner-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-11-18" type="1"></activity-date>
-  <activity-date iso-date="2021-03-31" type="4"></activity-date>
-  <activity-date iso-date="2021-03-31" type="3"></activity-date>
   <activity-date iso-date="2020-11-18" type="2"></activity-date>
+  <activity-date iso-date="2021-03-31" type="3"></activity-date>
+  <activity-date iso-date="2021-03-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -67,20 +67,6 @@
    <value currency="GBP" value-date="2020-11-18">1164926</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="REFCO1">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-20"></transaction-date>
-   <value currency="GBP" value-date="2020-11-20">746000</value>
-   <description>
-    <narrative xml:lang="EN">This is an outgoing commitment to UK - Ministry of Defence of &#xA3;746,000.00</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-GOV-1-301150-125" ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </provider-org>
-   <receiver-org ref="GB-GOV-8">
-    <narrative xml:lang="EN">UK - Ministry of Defence</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="9138605">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-02-26"></transaction-date>
@@ -89,6 +75,20 @@
     <narrative xml:lang="EN">Emergency / Humanitarian Assistance</narrative>
    </description>
    <provider-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </provider-org>
+   <receiver-org ref="GB-GOV-8">
+    <narrative xml:lang="EN">UK - Ministry of Defence</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="REFCO1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-11-20"></transaction-date>
+   <value currency="GBP" value-date="2020-11-20">746000</value>
+   <description>
+    <narrative xml:lang="EN">This is an outgoing commitment to UK - Ministry of Defence of &#xA3;746,000.00</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-GOV-1-301150-125" ref="GB-GOV-1">
     <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
    </provider-org>
    <receiver-org ref="GB-GOV-8">

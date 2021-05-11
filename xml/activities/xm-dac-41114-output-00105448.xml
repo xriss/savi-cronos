@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-mar" dstore:index="91" hierarchy="2" humanitarian="0" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-mar" dstore:index="91" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00105448</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="FR">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="FR">The project &#x201C;YA3NI&#x201D;, Youth  Aspirations  and  Abilities to  Advance Nation-wide  Innovation,  is  developed  as  a rapid support mechanism to youth&#x2019;s immediate actions in response to the COVID-19  crisis and  as  part  of recovery in Morocco.</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="FR">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="12711" role="1">
    <narrative xml:lang="FR">UNDP Funding Windows</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="FR">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-11-01" type="1"></activity-date>
@@ -28,11 +28,11 @@
   <recipient-country code="MA" percentage="100">
    <narrative xml:lang="FR">Morocco</narrative>
   </recipient-country>
-  <sector code="16050" percentage="100" vocabulary="1"></sector>
-  <sector code="1.4" percentage="100" vocabulary="8"></sector>
   <sector code="17" percentage="100" vocabulary="99">
    <narrative xml:lang="FR">Eradicate poverty in all its forms and dimensions</narrative>
   </sector>
+  <sector code="1.4" percentage="100" vocabulary="8"></sector>
+  <sector code="16050" percentage="100" vocabulary="1"></sector>
   <tag code="1.4" vocabulary="3"></tag>
   <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
@@ -47,24 +47,6 @@
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">2357</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="FR">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">2573</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="FR">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
    <value currency="USD" value-date="2021-04-30">310300</value>
@@ -77,9 +59,27 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">2573</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
    <value currency="USD" value-date="2021-04-30">310300</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">2357</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>

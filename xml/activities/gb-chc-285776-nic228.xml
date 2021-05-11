@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="cafod-nicaragua" dstore:index="10" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="GBP" dstore:dataset="cafod-nicaragua" dstore:index="10" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-285776-NIC228</iati-identifier>
   <reporting-org ref="GB-CHC-285776" type="21">
    <narrative xml:lang="EN">CAFOD</narrative>
@@ -21,11 +21,11 @@ To achieve compliance with this project, inter-institutional and inter sector co
 
 Due to COVID-19 impact, instead of a new 3 year project with a new group of teenagers, this project is extended with a year 4 to work with the same teenagers to ensure protective factors development for their disengagement from sexual exploitation.</narrative>
   </description>
-  <participating-org activity-id="NIC228" ref="GB-CHC-285776" role="1" type="21">
-   <narrative xml:lang="EN">Catholic Agency For Overseas Development (CAFOD)</narrative>
-  </participating-org>
   <participating-org activity-id="NIC228" role="4" type="23">
    <narrative xml:lang="EN">Association Mary Barreda</narrative>
+  </participating-org>
+  <participating-org activity-id="NIC228" ref="GB-CHC-285776" role="1" type="21">
+   <narrative xml:lang="EN">Catholic Agency For Overseas Development (CAFOD)</narrative>
   </participating-org>
   <other-identifier ref="NIC228" type="A1"></other-identifier>
   <activity-status code="2"></activity-status>
@@ -73,13 +73,13 @@ Due to COVID-19 impact, instead of a new 3 year project with a new group of teen
     <narrative xml:lang="EN">CAFOD General Funds</narrative>
    </provider-org>
   </transaction>
-  <transaction ref="64496">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-11"></transaction-date>
-   <value currency="GBP" value-date="2017-12-06">24385.93</value>
-   <receiver-org>
-    <narrative xml:lang="EN">Association Mary Barreda</narrative>
-   </receiver-org>
+  <transaction ref="50834">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2018-03-13"></transaction-date>
+   <value currency="GBP" value-date="2018-03-13">10000</value>
+   <provider-org provider-activity-id="GB-CHC-285776">
+    <narrative xml:lang="EN">CAFOD General Funds</narrative>
+   </provider-org>
   </transaction>
   <transaction ref="51536">
    <transaction-type code="1"></transaction-type>
@@ -89,14 +89,6 @@ Due to COVID-19 impact, instead of a new 3 year project with a new group of teen
     <narrative xml:lang="EN">CAFOD General Funds</narrative>
    </provider-org>
   </transaction>
-  <transaction ref="65869">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-10"></transaction-date>
-   <value currency="GBP" value-date="2018-11-30">24000</value>
-   <receiver-org>
-    <narrative xml:lang="EN">Association Mary Barreda</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="52555">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-12-05"></transaction-date>
@@ -105,26 +97,34 @@ Due to COVID-19 impact, instead of a new 3 year project with a new group of teen
     <narrative xml:lang="EN">CAFOD General Funds</narrative>
    </provider-org>
   </transaction>
-  <transaction ref="66985">
+  <transaction ref="64496">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-09"></transaction-date>
-   <value currency="GBP" value-date="2019-12-05">24000</value>
+   <transaction-date iso-date="2017-12-11"></transaction-date>
+   <value currency="GBP" value-date="2017-12-06">24385.93</value>
    <receiver-org>
     <narrative xml:lang="EN">Association Mary Barreda</narrative>
    </receiver-org>
-  </transaction>
-  <transaction ref="50834">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2018-03-13"></transaction-date>
-   <value currency="GBP" value-date="2018-03-13">10000</value>
-   <provider-org provider-activity-id="GB-CHC-285776">
-    <narrative xml:lang="EN">CAFOD General Funds</narrative>
-   </provider-org>
   </transaction>
   <transaction ref="64873">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-03-16"></transaction-date>
    <value currency="GBP" value-date="2018-03-13">10000</value>
+   <receiver-org>
+    <narrative xml:lang="EN">Association Mary Barreda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="65869">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-12-10"></transaction-date>
+   <value currency="GBP" value-date="2018-11-30">24000</value>
+   <receiver-org>
+    <narrative xml:lang="EN">Association Mary Barreda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="66985">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-09"></transaction-date>
+   <value currency="GBP" value-date="2019-12-05">24000</value>
    <receiver-org>
     <narrative xml:lang="EN">Association Mary Barreda</narrative>
    </receiver-org>

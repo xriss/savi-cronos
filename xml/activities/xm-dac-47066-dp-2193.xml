@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="714" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="714" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-DP.2193</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -18,17 +18,17 @@
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2020-04-21" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-04-21" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2020-12-31" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-12-31" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-04-21" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-12-31" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -44,18 +44,6 @@
   <recipient-region code="1" percentage="100" vocabulary="2">
    <narrative xml:lang="EN">World</narrative>
   </recipient-region>
-  <location>
-   <location-reach code="1"></location-reach>
-   <name>
-    <narrative xml:lang="EN">IOM Country Office - BF</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>12.315278 -1.491111</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="3"></location-class>
-   <feature-designation code="BLDO"></feature-designation>
-  </location>
   <location ref="BF">
    <location-reach code="2"></location-reach>
    <location-id code="BF" vocabulary="A4"></location-id>
@@ -63,18 +51,6 @@
     <narrative xml:lang="EN">Burkina Faso</narrative>
    </name>
    <administrative code="BF" vocabulary="A4"></administrative>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <name>
-    <narrative xml:lang="EN">IOM Country Office - CD</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-4.321946 15.269563</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="3"></location-class>
-   <feature-designation code="BLDO"></feature-designation>
   </location>
   <location ref="CD">
    <location-reach code="2"></location-reach>
@@ -92,6 +68,46 @@
    </name>
    <administrative code="HT" vocabulary="A4"></administrative>
   </location>
+  <location ref="TD">
+   <location-reach code="2"></location-reach>
+   <location-id code="TD" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Chad</narrative>
+   </name>
+   <administrative code="TD" vocabulary="A4"></administrative>
+  </location>
+  <location ref="VE">
+   <location-reach code="2"></location-reach>
+   <location-id code="VE" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Venezuela (Bolivarian Republic of)</narrative>
+   </name>
+   <administrative code="VE" vocabulary="A4"></administrative>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
+    <narrative xml:lang="EN">IOM Country Office - BF</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>12.315278 -1.491111</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="3"></location-class>
+   <feature-designation code="BLDO"></feature-designation>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
+    <narrative xml:lang="EN">IOM Country Office - CD</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-4.321946 15.269563</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="3"></location-class>
+   <feature-designation code="BLDO"></feature-designation>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -103,14 +119,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="TD">
-   <location-reach code="2"></location-reach>
-   <location-id code="TD" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Chad</narrative>
-   </name>
-   <administrative code="TD" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -124,22 +132,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="VE">
-   <location-reach code="2"></location-reach>
-   <location-id code="VE" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Venezuela (Bolivarian Republic of)</narrative>
-   </name>
-   <administrative code="VE" vocabulary="A4"></administrative>
-  </location>
   <sector code="DP" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Internally Displaced Persons</narrative>
   </sector>
-  <sector code="01" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
-   <narrative xml:lang="EN">Movement, Emergency and Post-Crisis Migration Management</narrative>
-  </sector>
   <sector code="72010" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
+  <sector code="01" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
+   <narrative xml:lang="EN">Movement, Emergency and Post-Crisis Migration Management</narrative>
   </sector>
   <policy-marker code="1" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project with some but insufficient inclusion of gender issues</narrative>

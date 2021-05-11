@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="317" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="317" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-CS.1099</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,18 +11,18 @@
   <description>
    <narrative xml:lang="EN">Heavy socioeconomic impacts resulting from COVID-19 travel restrictions are pushing migrant families into poverty in Central Asia. Many migrants are already experiencing great stress associated with failed migration and increased competition for the jobs available. Large numbers of unemployed migrants having faced COVID-19 pressures, may negatively impact social cohesion, such as some turning to crime or exacerbating existing discontent amongst the cohort of returning migrants and the communities to which they return. Through this project, IOM aims to utilise a proven methodology for migrant engagement and reintegration planning to work with returned migrants in five localities of the Osh, Jalal-Abad and Batken regions of Kyrgyzstan and targeted communities of the Gorno-Badakhshan Autonomous Oblast of Tajikistan. In addition, IOM engages with community structures to build social cohesion and provide targeted assistance and support to cases displaying high vulnerability to poverty, crime, or conflict.</narrative>
   </description>
-  <participating-org activity-id="GB-GOV-1-ARIES NUMBER 300619-104" ref="GB-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="GB-GOV-1-ARIES NUMBER 300619-104" ref="GB-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-10-26" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-10-26" type="2">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-10-26" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <activity-date iso-date="2021-05-10" type="3">
    <narrative xml:lang="EN">Planned</narrative>
@@ -40,6 +40,22 @@
   <recipient-region code="143" percentage="100" vocabulary="2">
    <narrative xml:lang="EN">Central Asia</narrative>
   </recipient-region>
+  <location ref="KG">
+   <location-reach code="2"></location-reach>
+   <location-id code="KG" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Kyrgyzstan</narrative>
+   </name>
+   <administrative code="KG" vocabulary="A4"></administrative>
+  </location>
+  <location ref="TJ">
+   <location-reach code="2"></location-reach>
+   <location-id code="TJ" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Tajikistan</narrative>
+   </name>
+   <administrative code="TJ" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -52,14 +68,6 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="KG">
-   <location-reach code="2"></location-reach>
-   <location-id code="KG" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Kyrgyzstan</narrative>
-   </name>
-   <administrative code="KG" vocabulary="A4"></administrative>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -71,14 +79,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="TJ">
-   <location-reach code="2"></location-reach>
-   <location-id code="TJ" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Tajikistan</narrative>
-   </name>
-   <administrative code="TJ" vocabulary="A4"></administrative>
   </location>
   <sector code="CS" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Community Stabilization</narrative>

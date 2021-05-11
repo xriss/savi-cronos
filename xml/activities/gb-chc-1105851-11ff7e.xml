@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="caid-activity" dstore:index="1102" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="GBP" dstore:dataset="caid-activity" dstore:index="1102" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1105851-11FF7E</iati-identifier>
   <reporting-org ref="GB-CHC-1105851" type="21">
    <narrative xml:lang="EN">Christian Aid</narrative>
@@ -40,9 +40,9 @@
   <recipient-country code="BD" percentage="100">
    <narrative xml:lang="EN">Bangladesh</narrative>
   </recipient-country>
+  <sector code="DISASTER RISK REDUCTION" percentage="33.33" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
   <sector code="EMERGENCY RESPONSE - FOOD AID/NUTRITION" percentage="33.34" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
   <sector code="EMERGENCY RESPONSE &#x2013; CASH/VOUCHERS" percentage="33.33" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
-  <sector code="DISASTER RISK REDUCTION" percentage="33.33" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
@@ -52,20 +52,6 @@
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="GBP" value-date="2020-04-01">93312.3</value>
   </budget>
-  <transaction ref="accdd4db-daab-ea11-ae84-005056be001c-i">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-06-15"></transaction-date>
-   <value currency="GBP" value-date="2020-06-15">93312.3</value>
-   <description>
-    <narrative xml:lang="EN">Internal allocation from income source to partner Project</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-CHC-1105851-90FB72" ref="GB-CHC-1105851" type="21">
-    <narrative xml:lang="EN">Christian Aid</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-1105851-11FF7E" ref="GB-CHC-1105851" type="21">
-    <narrative xml:lang="EN">Christian Aid</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="accdd4db-daab-ea11-ae84-005056be001c-o">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-06-15"></transaction-date>
@@ -78,6 +64,20 @@
    </provider-org>
    <receiver-org type="22">
     <narrative xml:lang="EN">Local Environment Development and Agricultural Research Society</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="accdd4db-daab-ea11-ae84-005056be001c-i">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-15"></transaction-date>
+   <value currency="GBP" value-date="2020-06-15">93312.3</value>
+   <description>
+    <narrative xml:lang="EN">Internal allocation from income source to partner Project</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-CHC-1105851-90FB72" ref="GB-CHC-1105851" type="21">
+    <narrative xml:lang="EN">Christian Aid</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1105851-11FF7E" ref="GB-CHC-1105851" type="21">
+    <narrative xml:lang="EN">Christian Aid</narrative>
    </receiver-org>
   </transaction>
   <transaction ref="2a925a76-dbab-ea11-ae84-005056be001c">

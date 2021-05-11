@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="caid-activity" dstore:index="211" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="GBP" dstore:dataset="caid-activity" dstore:index="211" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1105851-8CE31D</iati-identifier>
   <reporting-org ref="GB-CHC-1105851" type="21">
    <narrative xml:lang="EN">Christian Aid</narrative>
@@ -50,20 +50,6 @@
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="GBP" value-date="2020-04-01">17258</value>
   </budget>
-  <transaction ref="0b3d8140-5456-eb11-8784-005056be001c-i">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-01-14"></transaction-date>
-   <value currency="GBP" value-date="2021-01-14">17258</value>
-   <description>
-    <narrative xml:lang="EN">Internal allocation from income source to partner Project</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-CHC-1105851-C73A9F" ref="GB-CHC-1105851" type="21">
-    <narrative xml:lang="EN">Christian Aid</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-1105851-8CE31D" ref="GB-CHC-1105851" type="21">
-    <narrative xml:lang="EN">Christian Aid</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="0b3d8140-5456-eb11-8784-005056be001c-o">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-01-14"></transaction-date>
@@ -76,6 +62,20 @@
    </provider-org>
    <receiver-org type="22">
     <narrative xml:lang="EN">Dushtha Shasthya Kendra (DSK)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="0b3d8140-5456-eb11-8784-005056be001c-i">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-01-14"></transaction-date>
+   <value currency="GBP" value-date="2021-01-14">17258</value>
+   <description>
+    <narrative xml:lang="EN">Internal allocation from income source to partner Project</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-CHC-1105851-C73A9F" ref="GB-CHC-1105851" type="21">
+    <narrative xml:lang="EN">Christian Aid</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1105851-8CE31D" ref="GB-CHC-1105851" type="21">
+    <narrative xml:lang="EN">Christian Aid</narrative>
    </receiver-org>
   </transaction>
   <related-activity ref="GB-CHC-1105851-C73A9F" type="1"></related-activity>

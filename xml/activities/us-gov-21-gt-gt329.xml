@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unitedstates-gt-part-2" dstore:index="327" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unitedstates-gt-part-2" dstore:index="327" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="http://www.foreignassistance.gov" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>US-GOV-21-GT-GT329</iati-identifier>
   <reporting-org ref="US-USAGOV" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
@@ -11,8 +11,9 @@
   <description>
    <narrative xml:lang="EN">This amendment provides CORCI with an additional 24 months and $209,900 to provide greenhouse structures for increased vegetable production and working capital for women&#x2019;s microenterprise development. As part of the amendment, CORCI is mobilizing an additional $281,785 in counterpart funding to the grant agreement. This amendment will also enable CORCI to respond to emerging food insecurity and assist in economic recovery following the COVID-19 pandemic. This amendment is part of the IAF&apos;s broader COVID-19 response strategy.. Asociaci&#xF3;n Coordinaci&#xF3;n Regional de Cooperativas Integrales (CORCI) will invest in the production of vegetables aimed at export markets (sweet peas broccoli carrots and others) in order to boost its members&apos; income. CORCI staff will receive training to st. Asociaci&#xF3;n Coordinaci&#xF3;n Regional de Cooperativas Integrales (CORCI) will invest in the production of vegetables aimed at export markets (sweet peas, broccoli, carrots and others) in order to boost its members&apos; income. CORCI staff will receive training to strengthen the association&apos;s operational capacity, increase the rate of participation for women and develop a business plan. About 240 beneficiaries will benefit directly and approximately another 1,000 will do so indirectly.</narrative>
   </description>
-  <participating-org ref="US-USAGOV" role="1" type="10">
-   <narrative xml:lang="EN">The federal government of the United States</narrative>
+  <participating-org role="4" type="15">
+   <narrative xml:lang="EN">Asociaci&#xF3;n Coordinaci&#xF3;n Regional de Cooperativas Integrales</narrative>
+   <usg:duns-number>816180217</usg:duns-number>
   </participating-org>
   <participating-org ref="US-GOV-21" role="2" type="10">
    <narrative xml:lang="EN">Inter-American Foundation</narrative>
@@ -21,9 +22,8 @@
   <participating-org ref="US-GOV-21" role="3" type="10">
    <narrative xml:lang="EN">Inter-American Foundation</narrative>
   </participating-org>
-  <participating-org role="4" type="15">
-   <narrative xml:lang="EN">Asociaci&#xF3;n Coordinaci&#xF3;n Regional de Cooperativas Integrales</narrative>
-   <usg:duns-number>816180217</usg:duns-number>
+  <participating-org ref="US-USAGOV" role="1" type="10">
+   <narrative xml:lang="EN">The federal government of the United States</narrative>
   </participating-org>
   <other-identifier ref="US-GOV" type="B1">
    <owner-org ref="US-USAGOV">
@@ -67,11 +67,6 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget>
-   <period-start iso-date="2019-10-01"></period-start>
-   <period-end iso-date="2020-09-30"></period-end>
-   <value currency="USD" value-date="2019-10-01">420360</value>
-  </budget>
-  <budget>
    <period-start iso-date="2017-10-01"></period-start>
    <period-end iso-date="2018-09-30"></period-end>
    <value currency="USD" value-date="2017-10-01">210460</value>
@@ -81,12 +76,17 @@
    <period-end iso-date="2019-09-30"></period-end>
    <value currency="USD" value-date="2018-10-01">210460</value>
   </budget>
+  <budget>
+   <period-start iso-date="2019-10-01"></period-start>
+   <period-end iso-date="2020-09-30"></period-end>
+   <value currency="USD" value-date="2019-10-01">420360</value>
+  </budget>
   <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-01"></transaction-date>
-   <value currency="USD" value-date="2020-05-01">209900</value>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-12-18"></transaction-date>
+   <value currency="USD" value-date="2017-12-18">25700</value>
    <description>
-    <narrative xml:lang="EN">Obligates the award for the Award Implementing Organization to carry out the activities set forth in Annex A of the grant agreement.</narrative>
+    <narrative xml:lang="EN">Disbursement of funds to the Award Implementing Organization to carry out the activities set forth in Annex A of the grant agreement.</narrative>
    </description>
    <sector code="11230" vocabulary="1">
     <narrative xml:lang="EN">Basic life skills for youth and adults</narrative>
@@ -95,7 +95,6 @@
     <narrative xml:lang="EN">Education and Social Services - General</narrative>
    </sector>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="3100">Inter-American Foundation</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>
@@ -114,25 +113,6 @@
     <narrative xml:lang="EN">Education and Social Services - General</narrative>
    </sector>
    <usg:treasury-account>
-    <usg:main-account code="3100">Inter-American Foundation</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">40054</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement of funds to the Award Implementing Organization to carry out the activities set forth in Annex A of the grant agreement.</narrative>
-   </description>
-   <sector code="11230" vocabulary="1">
-    <narrative xml:lang="EN">Basic life skills for youth and adults</narrative>
-   </sector>
-   <sector code="4000" vocabulary="99">
-    <narrative xml:lang="EN">Education and Social Services - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
     <usg:main-account code="3100">Inter-American Foundation</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>
@@ -176,8 +156,8 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-18"></transaction-date>
-   <value currency="USD" value-date="2017-12-18">25700</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">40054</value>
    <description>
     <narrative xml:lang="EN">Disbursement of funds to the Award Implementing Organization to carry out the activities set forth in Annex A of the grant agreement.</narrative>
    </description>
@@ -188,6 +168,26 @@
     <narrative xml:lang="EN">Education and Social Services - General</narrative>
    </sector>
    <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="3100">Inter-American Foundation</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-05-01"></transaction-date>
+   <value currency="USD" value-date="2020-05-01">209900</value>
+   <description>
+    <narrative xml:lang="EN">Obligates the award for the Award Implementing Organization to carry out the activities set forth in Annex A of the grant agreement.</narrative>
+   </description>
+   <sector code="11230" vocabulary="1">
+    <narrative xml:lang="EN">Basic life skills for youth and adults</narrative>
+   </sector>
+   <sector code="4000" vocabulary="99">
+    <narrative xml:lang="EN">Education and Social Services - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="3100">Inter-American Foundation</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>

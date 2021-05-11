@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-multiple-13" dstore:index="602" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-multiple-13" dstore:index="602" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-7200AA20CA00017</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -14,14 +14,14 @@
   <participating-org ref="US-GOV-11" role="1" type="10">
    <narrative xml:lang="EN">Department of State</narrative>
   </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">John Snow International</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="2" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">John Snow International</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-07-27" type="1"></activity-date>
@@ -52,11 +52,11 @@
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">499948</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13020" vocabulary="1">
-    <narrative xml:lang="EN">Reproductive health care</narrative>
-   </sector>
    <sector code="3006" vocabulary="99">
     <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   </sector>
+   <sector code="13020" vocabulary="1">
+    <narrative xml:lang="EN">Reproductive health care</narrative>
    </sector>
    <recipient-country code="CD"></recipient-country>
    <usg:treasury-account>
@@ -70,11 +70,11 @@
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">300052</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13020" vocabulary="1">
-    <narrative xml:lang="EN">Reproductive health care</narrative>
-   </sector>
    <sector code="3006" vocabulary="99">
     <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   </sector>
+   <sector code="13020" vocabulary="1">
+    <narrative xml:lang="EN">Reproductive health care</narrative>
    </sector>
    <recipient-country code="CD"></recipient-country>
    <usg:treasury-account>
@@ -88,11 +88,11 @@
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">895000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13020" vocabulary="1">
-    <narrative xml:lang="EN">Reproductive health care</narrative>
-   </sector>
    <sector code="3006" vocabulary="99">
     <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   </sector>
+   <sector code="13020" vocabulary="1">
+    <narrative xml:lang="EN">Reproductive health care</narrative>
    </sector>
    <recipient-region code="298"></recipient-region>
    <usg:treasury-account>
@@ -106,11 +106,29 @@
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">151385.9</value>
    <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3006" vocabulary="99">
+    <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   </sector>
    <sector code="13020" vocabulary="1">
     <narrative xml:lang="EN">Reproductive health care</narrative>
    </sector>
+   <recipient-region code="298"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="F52742894276">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">682569.03</value>
+   <disbursement-channel code="2"></disbursement-channel>
    <sector code="3006" vocabulary="99">
     <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   </sector>
+   <sector code="13020" vocabulary="1">
+    <narrative xml:lang="EN">Reproductive health care</narrative>
    </sector>
    <recipient-region code="298"></recipient-region>
    <usg:treasury-account>
@@ -124,31 +142,13 @@
    <transaction-date iso-date="2020-07-31"></transaction-date>
    <value currency="USD" value-date="2020-07-31">800000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13020" vocabulary="1">
-    <narrative xml:lang="EN">Reproductive health care</narrative>
-   </sector>
    <sector code="3006" vocabulary="99">
     <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   </sector>
+   <sector code="13020" vocabulary="1">
+    <narrative xml:lang="EN">Reproductive health care</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="F52742894276">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">682569.03</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13020" vocabulary="1">
-    <narrative xml:lang="EN">Reproductive health care</narrative>
-   </sector>
-   <sector code="3006" vocabulary="99">
-    <narrative xml:lang="EN">Maternal and Child Health</narrative>
-   </sector>
-   <recipient-region code="298"></recipient-region>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
@@ -160,11 +160,11 @@
    <transaction-date iso-date="2020-11-30"></transaction-date>
    <value currency="USD" value-date="2020-11-30">2073090</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13020" vocabulary="1">
-    <narrative xml:lang="EN">Reproductive health care</narrative>
-   </sector>
    <sector code="3006" vocabulary="99">
     <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   </sector>
+   <sector code="13020" vocabulary="1">
+    <narrative xml:lang="EN">Reproductive health care</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -178,11 +178,11 @@
    <transaction-date iso-date="2021-03-31"></transaction-date>
    <value currency="USD" value-date="2021-03-31">97929.24</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13020" vocabulary="1">
-    <narrative xml:lang="EN">Reproductive health care</narrative>
-   </sector>
    <sector code="3006" vocabulary="99">
     <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   </sector>
+   <sector code="13020" vocabulary="1">
+    <narrative xml:lang="EN">Reproductive health care</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="209" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="209" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200703</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -71,13 +71,6 @@ for minorities;
   <recipient-country code="IQ" percentage="75"></recipient-country>
   <recipient-country code="SY" percentage="25"></recipient-country>
   <recipient-region code="589" percentage="0" vocabulary="1"></recipient-region>
-  <location ref="220426">
-   <name>
-    <narrative xml:lang="EN">Nineveh</narrative>
-   </name>
-   <exactness code="1"></exactness>
-   <location-class code="1"></location-class>
-  </location>
   <location ref="220411">
    <name>
     <narrative xml:lang="EN">Al-Anbar</narrative>
@@ -92,37 +85,26 @@ for minorities;
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <location ref="460891">
+  <location ref="IQ">
    <name>
-    <narrative xml:lang="EN">Sinjar</narrative>
+    <narrative xml:lang="EN">Iraq</narrative>
    </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/432">
-    <pos>36.314216 41.862443</pos>
-   </point>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
   </location>
-  <location ref="431525">
+  <location ref="220426">
    <name>
-    <narrative xml:lang="EN">Aleppo</narrative>
+    <narrative xml:lang="EN">Nineveh</narrative>
    </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/432">
-    <pos>36.202105 37.134260</pos>
-   </point>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
   </location>
-  <location ref="524240">
+  <location ref="SY">
    <name>
-    <narrative xml:lang="EN">Qatana</narrative>
+    <narrative xml:lang="EN">Syria</narrative>
    </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/432">
-    <pos>33.439351 36.083905</pos>
-   </point>
-  </location>
-  <location ref="524238">
-   <name>
-    <narrative xml:lang="EN">Hatra</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/432">
-    <pos>35.575926 42.734487</pos>
-   </point>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
   </location>
   <location ref="524242">
    <name>
@@ -140,19 +122,37 @@ for minorities;
     <pos>33.436623 43.268280</pos>
    </point>
   </location>
-  <location ref="IQ">
+  <location ref="431525">
    <name>
-    <narrative xml:lang="EN">Iraq</narrative>
+    <narrative xml:lang="EN">Aleppo</narrative>
    </name>
-   <exactness code="1"></exactness>
-   <location-class code="1"></location-class>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/432">
+    <pos>36.202105 37.134260</pos>
+   </point>
   </location>
-  <location ref="SY">
+  <location ref="524238">
    <name>
-    <narrative xml:lang="EN">Syria</narrative>
+    <narrative xml:lang="EN">Hatra</narrative>
    </name>
-   <exactness code="1"></exactness>
-   <location-class code="1"></location-class>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/432">
+    <pos>35.575926 42.734487</pos>
+   </point>
+  </location>
+  <location ref="524240">
+   <name>
+    <narrative xml:lang="EN">Qatana</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/432">
+    <pos>33.439351 36.083905</pos>
+   </point>
+  </location>
+  <location ref="460891">
+   <name>
+    <narrative xml:lang="EN">Sinjar</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/432">
+    <pos>36.314216 41.862443</pos>
+   </point>
   </location>
   <sector code="12181" percentage="20" vocabulary="1"></sector>
   <sector code="12220" percentage="40" vocabulary="1"></sector>
@@ -170,406 +170,10 @@ for minorities;
    <value currency="EUR" value-date="2020-01-01">1049776</value>
   </budget>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Health Thematic Indicators</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of health centres in project/programme (not RBF) - Number of centres de sant&#xE9; (pas FBR)</narrative>
-    </title>
-    <reference code="HE1.04" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="2">
-      <location ref="220426"></location>
-     </actual>
-     <actual value="1">
-      <location ref="220411"></location>
-     </actual>
-     <actual value="1">
-      <location ref="229113"></location>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of health workers trained &gt;6 months - Number of agents de sant&#xE9; form&#xE9;s (formation formelle&gt; 6 mois)</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">(formal training &gt; 6 months)</narrative>
-    </description>
-    <reference code="HE1.59" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2">
-      <location ref="220411"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="2">
-      <location ref="220411"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="2">
-      <location ref="220426"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="2">
-      <location ref="220426"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Health Project Specific Indicators</narrative>
    </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of individuals that have been reached through the mobile teams of CHWs.</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Number of individuals (IDPs, returnees, host community) that have been reached through the mobile teams of CHWs through home or community visits to inform them about Cordaid&apos;s emergency referral services including psychiatric treatment, psychotherapy and physical rehabilitation services.</narrative>
-    </description>
-    <reference code="HE2.69" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="1181">
-      <location ref="460891"></location>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-     </actual>
-     <actual value="0">
-      <location ref="524238"></location>
-     </actual>
-     <actual value="0">
-      <location ref="524242"></location>
-     </actual>
-     <actual value="0">
-      <location ref="490796"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="490796"></location>
-     </actual>
-     <actual value="0">
-      <location ref="524238"></location>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-     </actual>
-     <actual value="2590">
-      <location ref="524242"></location>
-     </actual>
-     <actual value="1616">
-      <location ref="460891"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
-      <location ref="490796"></location>
-     </actual>
-     <actual value="2228">
-      <location ref="524242"></location>
-     </actual>
-     <actual value="0">
-      <location ref="524238"></location>
-     </actual>
-     <actual value="1610">
-      <location ref="460891"></location>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="6006">
-      <location ref="490796"></location>
-     </actual>
-     <actual value="1225">
-      <location ref="524242"></location>
-     </actual>
-     <actual value="1327">
-      <location ref="460891"></location>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached through awareness raising and outreach activities on PSS and MHPSS</narrative>
-    </title>
-    <reference code="HE2.78" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="460891"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="460891"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="460891"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="460891"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="490796"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="490796"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="490796"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="490796"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524242"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524242"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524238"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524238"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524238"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524238"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="36">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="74">
-      <location ref="524242"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="82">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="63">
-      <location ref="524242"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="158">
-      <location ref="524242"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="216">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="286">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="201">
-      <location ref="524242"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="490796"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524238"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="460891"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="48">
-      <location ref="490796"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="4">
-      <location ref="490796"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="6">
-      <location ref="490796"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="237">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="164">
-      <location ref="524242"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="187">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="171">
-      <location ref="524242"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="194">
-      <location ref="524240"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="115">
-      <location ref="524240"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-    </period>
-   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of patients visiting primary health care centers (PHCC) in 4 centers in Iraq and 1 in Syria</narrative>
@@ -580,82 +184,206 @@ for minorities;
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
     </baseline>
     <baseline iso-date="2020-06-30" value="0" year="2020">
-     <location ref="431525"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-03-31" value="0" year="2020">
-     <location ref="431525"></location>
-     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-    </baseline>
-    <baseline iso-date="2020-06-30" value="0" year="2020">
      <location ref="460891"></location>
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-06-30" value="0" year="2020">
-     <location ref="460891"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-03-31" value="0" year="2020">
-     <location ref="460891"></location>
-     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
     </baseline>
     <baseline iso-date="2020-06-30" value="1992" year="2020">
      <location ref="490796"></location>
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
     </baseline>
-    <baseline iso-date="2020-06-30" value="1024" year="2020">
-     <location ref="490796"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-03-31" value="2535" year="2020">
-     <location ref="490796"></location>
-     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-    </baseline>
     <baseline iso-date="2020-06-30" value="1707" year="2020">
      <location ref="524238"></location>
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
     </baseline>
-    <baseline iso-date="2020-06-30" value="2054" year="2020">
-     <location ref="524238"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-03-31" value="5844" year="2020">
-     <location ref="524238"></location>
-     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-    </baseline>
     <baseline iso-date="2020-06-30" value="0" year="2020">
      <location ref="524240"></location>
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-06-30" value="0" year="2020">
-     <location ref="524240"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-03-31" value="0" year="2020">
-     <location ref="524240"></location>
-     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
     </baseline>
     <baseline iso-date="2020-06-30" value="5108" year="2020">
      <location ref="524242"></location>
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
     </baseline>
+    <baseline iso-date="2020-06-30" value="0" year="2020">
+     <location ref="431525"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-06-30" value="0" year="2020">
+     <location ref="460891"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-06-30" value="1024" year="2020">
+     <location ref="490796"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-06-30" value="2054" year="2020">
+     <location ref="524238"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-06-30" value="0" year="2020">
+     <location ref="524240"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
     <baseline iso-date="2020-06-30" value="3235" year="2020">
      <location ref="524242"></location>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-03-31" value="0" year="2020">
+     <location ref="431525"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <baseline iso-date="2020-03-31" value="0" year="2020">
+     <location ref="460891"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <baseline iso-date="2020-03-31" value="2535" year="2020">
+     <location ref="490796"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <baseline iso-date="2020-03-31" value="5844" year="2020">
+     <location ref="524238"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <baseline iso-date="2020-03-31" value="0" year="2020">
+     <location ref="524240"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
     </baseline>
     <baseline iso-date="2020-03-31" value="6970" year="2020">
      <location ref="524242"></location>
      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
     </baseline>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="5844">
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1992">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1707">
       <location ref="524238"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="5108">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
      <actual value="0">
       <location ref="431525"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="1024">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="2054">
+      <location ref="524238"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="3235">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2493">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="2352">
+      <location ref="524238"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="5284">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1256">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="2821">
+      <location ref="524238"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="6417">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="604">
+      <location ref="524240"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="2142">
+      <location ref="524238"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="4064">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="2653">
+      <location ref="524238"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="3351">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="2535">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="5844">
+      <location ref="524238"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
      <actual value="0">
@@ -666,129 +394,71 @@ for minorities;
       <location ref="524242"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
-     <actual value="2535">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="460891"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
     </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of psychiatrists, social workers and psychologists hired</narrative>
+    </title>
+    <reference code="HE2.77" vocabulary="99"></reference>
+    <baseline iso-date="2020-06-30" value="2" year="2020">
+     <location ref="460891"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-06-30" value="2" year="2020">
+     <location ref="490796"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-06-30" value="2" year="2020">
+     <location ref="524242"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-06-30" value="2" year="2020">
+     <location ref="460891"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-06-30" value="3" year="2020">
+     <location ref="490796"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-06-30" value="3" year="2020">
+     <location ref="524238"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2020-06-30" value="3" year="2020">
+     <location ref="524242"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="1024">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="1992">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="2054">
-      <location ref="524238"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="1707">
-      <location ref="524238"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="3235">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="5108">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="460891"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
+     <actual value="2">
       <location ref="460891"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
-     <actual value="0">
-      <location ref="431525"></location>
+     <actual value="2">
+      <location ref="490796"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="2653">
-      <location ref="524238"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="2142">
-      <location ref="524238"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="3351">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="4064">
+     <actual value="2">
       <location ref="524242"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
-     <actual value="0">
+     <actual value="2">
       <location ref="460891"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="0">
-      <location ref="431525"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524240"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="1256">
+     <actual value="3">
       <location ref="490796"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="2493">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="6417">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="5284">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="2821">
+     <actual value="3">
       <location ref="524238"></location>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="2352">
-      <location ref="524238"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="604">
-      <location ref="524240"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     <actual value="3">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
    </indicator>
@@ -804,15 +474,7 @@ for minorities;
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="524238"></location>
+      <location ref="431525"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
      <actual value="0">
@@ -820,11 +482,19 @@ for minorities;
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
      <actual value="0">
-      <location ref="431525"></location>
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
      <actual value="0">
       <location ref="524240"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524242"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
@@ -836,11 +506,11 @@ for minorities;
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
      <actual value="0">
-      <location ref="524240"></location>
+      <location ref="460891"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
      <actual value="0">
-      <location ref="460891"></location>
+      <location ref="490796"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
      <actual value="0">
@@ -848,78 +518,355 @@ for minorities;
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
      <actual value="0">
-      <location ref="524242"></location>
+      <location ref="524240"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
      <actual value="0">
-      <location ref="490796"></location>
+      <location ref="524242"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of psychiatrists, social workers and psychologists hired</narrative>
+     <narrative xml:lang="EN">Number of individuals that have been reached through the mobile teams of CHWs.</narrative>
     </title>
-    <reference code="HE2.77" vocabulary="99"></reference>
-    <baseline iso-date="2020-06-30" value="2" year="2020">
-     <location ref="460891"></location>
-     <dimension name="Gender - genre" value="Female - feminin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-06-30" value="2" year="2020">
-     <location ref="460891"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-06-30" value="2" year="2020">
-     <location ref="490796"></location>
-     <dimension name="Gender - genre" value="Female - feminin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-06-30" value="3" year="2020">
-     <location ref="490796"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-06-30" value="3" year="2020">
-     <location ref="524238"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-06-30" value="2" year="2020">
-     <location ref="524242"></location>
-     <dimension name="Gender - genre" value="Female - feminin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-06-30" value="3" year="2020">
-     <location ref="524242"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
+    <description>
+     <narrative xml:lang="EN">Number of individuals (IDPs, returnees, host community) that have been reached through the mobile teams of CHWs through home or community visits to inform them about Cordaid&apos;s emergency referral services including psychiatric treatment, psychotherapy and physical rehabilitation services.</narrative>
+    </description>
+    <reference code="HE2.69" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="3">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="431525"></location>
      </actual>
-     <actual value="2">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     <actual value="1181">
+      <location ref="460891"></location>
      </actual>
-     <actual value="3">
+     <actual value="0">
+      <location ref="490796"></location>
+     </actual>
+     <actual value="0">
       <location ref="524238"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="2">
-      <location ref="460891"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     <actual value="0">
+      <location ref="524240"></location>
      </actual>
-     <actual value="2">
+     <actual value="0">
+      <location ref="524242"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="431525"></location>
+     </actual>
+     <actual value="1610">
       <location ref="460891"></location>
+     </actual>
+     <actual value="0">
+      <location ref="490796"></location>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+     </actual>
+     <actual value="2228">
+      <location ref="524242"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="431525"></location>
+     </actual>
+     <actual value="1616">
+      <location ref="460891"></location>
+     </actual>
+     <actual value="0">
+      <location ref="490796"></location>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+     </actual>
+     <actual value="2590">
+      <location ref="524242"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1327">
+      <location ref="460891"></location>
+     </actual>
+     <actual value="6006">
+      <location ref="490796"></location>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+     </actual>
+     <actual value="1225">
+      <location ref="524242"></location>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through awareness raising and outreach activities on PSS and MHPSS</narrative>
+    </title>
+    <reference code="HE2.78" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
-     <actual value="3">
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
       <location ref="490796"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="2">
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
       <location ref="490796"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="490796"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="490796"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4">
+      <location ref="490796"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="194">
+      <location ref="524240"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="164">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="171">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="48">
+      <location ref="490796"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="237">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="6">
+      <location ref="490796"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="115">
+      <location ref="524240"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="187">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="201">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="158">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="431525"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="460891"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="490796"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524238"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="524240"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="286">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="216">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="63">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="74">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="82">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="36">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
    </indicator>
@@ -932,16 +879,16 @@ for minorities;
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="1">
-      <location ref="490796"></location>
+      <location ref="460891"></location>
      </actual>
      <actual value="1">
-      <location ref="524242"></location>
+      <location ref="490796"></location>
      </actual>
      <actual value="1">
       <location ref="524238"></location>
      </actual>
      <actual value="1">
-      <location ref="460891"></location>
+      <location ref="524242"></location>
      </actual>
     </period>
    </indicator>
@@ -957,261 +904,63 @@ for minorities;
       <location ref="490796"></location>
      </actual>
      <actual value="1">
-      <location ref="524242"></location>
-     </actual>
-     <actual value="1">
       <location ref="524238"></location>
      </actual>
+     <actual value="1">
+      <location ref="524242"></location>
+     </actual>
     </period>
    </indicator>
   </result>
-  <result aggregation-status="1" type="1">
+  <result aggregation-status="1" type="2">
    <title>
-    <narrative xml:lang="EN">Health Corporate Indicators</narrative>
+    <narrative xml:lang="EN">Health Thematic Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of beneficiaries reached (HE)</narrative>
+     <narrative xml:lang="EN">Number of health workers trained &gt;6 months - Number of agents de sant&#xE9; form&#xE9;s (formation formelle&gt; 6 mois)</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">No. of people reached directly or indirectly through Cordaid&apos;s Health Programme Activities</narrative>
+     <narrative xml:lang="EN">(formal training &gt; 6 months)</narrative>
     </description>
-    <reference code="HE0.01" vocabulary="99"></reference>
+    <reference code="HE1.59" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="64114">
-      <location ref="IQ"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="2">
+      <location ref="220411"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
-     <actual value="17666">
-      <location ref="IQ"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     <actual value="2">
+      <location ref="220426"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
-     <actual value="954">
-      <location ref="SY"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     <actual value="2">
+      <location ref="220411"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="81780">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     <actual value="2">
+      <location ref="220426"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="954">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="136800"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of people receiving psychosocial support</narrative>
+     <narrative xml:lang="EN">Number of health centres in project/programme (not RBF) - Number of centres de sant&#xE9; (pas FBR)</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN">No. of people participating in psychosocial support sessions (individual, group and community based)</narrative>
-    </description>
-    <reference code="HE0.05" vocabulary="99"></reference>
+    <reference code="HE1.04" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="535">
-      <location ref="220426"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="262">
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
       <location ref="220411"></location>
      </actual>
-     <actual value="410">
+     <actual value="2">
       <location ref="220426"></location>
      </actual>
-     <actual value="0">
+     <actual value="1">
       <location ref="229113"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
-      <location ref="220411"></location>
-     </actual>
-     <actual value="1143">
-      <location ref="220426"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="711">
-      <location ref="220411"></location>
-     </actual>
-     <actual value="1041">
-      <location ref="220426"></location>
-     </actual>
-     <actual value="41">
-      <location ref="229113"></location>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
-    </title>
-    <reference code="COV.CC.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="1343">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="1247">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="309">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="6275">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Access to Life saving basic services provided</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
-    </title>
-    <reference code="COV.CC.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="1343">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="1247">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="309">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="6275">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">People&apos;s Resilience to Future Outbreaks Strengthened &amp; Sustained Food Security &amp; Livelihood of vulnerable people</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
-    </title>
-    <reference code="COV.CC.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="1343">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="1247">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="309">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="6275">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Strengthened responsiveness and accountability of security, justice and Civic Space</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
-    </title>
-    <reference code="COV.CC.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="1343">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="1247">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="309">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="6275">
-      <location ref="IQ"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
      </actual>
     </period>
    </indicator>
@@ -1233,75 +982,15 @@ In case it concerns medical care to GBV survivors, please capture this under HEA
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
-     <actual value="2">
-      <location ref="460891"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-     </actual>
      <actual value="1">
       <location ref="460891"></location>
       <dimension name="Age" value="15-24 yrs"></dimension>
      </actual>
-     <actual value="3">
-      <location ref="460891"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="23">
-      <location ref="490796"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-     </actual>
-     <actual value="29">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="6">
-      <location ref="490796"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-     </actual>
-     <actual value="3">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="4">
-      <location ref="460891"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-     </actual>
-     <actual value="4">
-      <location ref="460891"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="4">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-     </actual>
-     <actual value="4">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="33">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-     </actual>
      <actual value="2">
-      <location ref="524242"></location>
-      <dimension name="Age" value="15-24 yrs"></dimension>
-     </actual>
-     <actual value="35">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="4">
       <location ref="460891"></location>
       <dimension name="Age" value="25-34 yrs"></dimension>
      </actual>
-     <actual value="4">
+     <actual value="3">
       <location ref="460891"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
@@ -1309,29 +998,9 @@ In case it concerns medical care to GBV survivors, please capture this under HEA
     <period>
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="78">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="9">
-      <location ref="490796"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="77">
-      <location ref="490796"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
-     </actual>
      <actual value="10">
       <location ref="490796"></location>
       <dimension name="Age" value="15-24 yrs"></dimension>
-     </actual>
-     <actual value="41">
-      <location ref="524242"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="29">
-      <location ref="524242"></location>
-      <dimension name="Age" value="25-34 yrs"></dimension>
      </actual>
      <actual value="12">
       <location ref="524242"></location>
@@ -1339,11 +1008,342 @@ In case it concerns medical care to GBV survivors, please capture this under HEA
      </actual>
      <actual value="1">
       <location ref="460891"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+     </actual>
+     <actual value="77">
+      <location ref="490796"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+     </actual>
+     <actual value="29">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
      </actual>
      <actual value="1">
       <location ref="460891"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="78">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="41">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="9">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="6">
+      <location ref="490796"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="460891"></location>
       <dimension name="Age" value="25-34 yrs"></dimension>
+     </actual>
+     <actual value="23">
+      <location ref="490796"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="460891"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="29">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="3">
+      <location ref="490796"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="2">
+      <location ref="524242"></location>
+      <dimension name="Age" value="15-24 yrs"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="460891"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+     </actual>
+     <actual value="33">
+      <location ref="524242"></location>
+      <dimension name="Age" value="25-34 yrs"></dimension>
+     </actual>
+     <actual value="4">
+      <location ref="460891"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="35">
+      <location ref="524242"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Health Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people receiving psychosocial support</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people participating in psychosocial support sessions (individual, group and community based)</narrative>
+    </description>
+    <reference code="HE0.05" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="220411"></location>
+     </actual>
+     <actual value="1143">
+      <location ref="220426"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="262">
+      <location ref="220411"></location>
+     </actual>
+     <actual value="410">
+      <location ref="220426"></location>
+     </actual>
+     <actual value="0">
+      <location ref="229113"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="711">
+      <location ref="220411"></location>
+     </actual>
+     <actual value="1041">
+      <location ref="220426"></location>
+     </actual>
+     <actual value="41">
+      <location ref="229113"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="535">
+      <location ref="220426"></location>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (HE)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of people reached directly or indirectly through Cordaid&apos;s Health Programme Activities</narrative>
+    </description>
+    <reference code="HE0.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="64114">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="954">
+      <location ref="SY"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="17666">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="81780">
+      <location ref="IQ"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="954">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="136800"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Access to Life saving basic services provided</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="1247">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1343">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="6275">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="309">
+      <location ref="SY"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">People&apos;s Resilience to Future Outbreaks Strengthened &amp; Sustained Food Security &amp; Livelihood of vulnerable people</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="1247">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1343">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="6275">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="309">
+      <location ref="SY"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="1247">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1343">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="6275">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="309">
+      <location ref="SY"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Strengthened responsiveness and accountability of security, justice and Civic Space</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="1247">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1343">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="6275">
+      <location ref="IQ"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="309">
+      <location ref="SY"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
    </indicator>

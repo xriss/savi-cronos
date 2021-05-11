@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="4610" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="4610" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41301-681804</iati-identifier>
   <reporting-org ref="XM-DAC-41301" type="40">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
@@ -11,14 +11,14 @@
   <description type="2">
    <narrative xml:lang="FR">Le projet vise &#xE0; garantir que, m&#xEA;me face &#xE0; la situation difficile actuelle impos&#xE9;e par la propagation du Covid-19, la s&#xE9;curit&#xE9; alimentaire et nutritionnelle des populations les plus vuln&#xE9;rables soit assur&#xE9;e.</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="1">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-41301" role="2">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-41301" role="4">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="1">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <other-identifier ref="UNJP/STP/003/UNJ" type="A1"></other-identifier>
   <activity-status code="2"></activity-status>
@@ -49,19 +49,19 @@
    <value currency="USD" value-date="2020-08-31">90833.37</value>
   </budget>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">63286.43</value>
-   <description>
-    <narrative xml:lang="EN">Total expenditure from 01 October 2020 to 31 December 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">90833.37</value>
    <description>
     <narrative xml:lang="EN">Total commitment from 01 October 2020 to 31 December 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">63286.43</value>
+   <description>
+    <narrative xml:lang="EN">Total expenditure from 01 October 2020 to 31 December 2020</narrative>
    </description>
   </transaction>
   <transaction>

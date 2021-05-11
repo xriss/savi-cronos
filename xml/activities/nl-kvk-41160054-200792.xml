@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="245" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="245" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200792</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -8,6 +8,9 @@
   <title>
    <narrative xml:lang="EN">Caritas Niger COVID-19 support</narrative>
   </title>
+  <description type="3">
+   <narrative xml:lang="EN">Caritas staff, health centre staff and population visiting the health centres</narrative>
+  </description>
   <description type="1">
    <narrative xml:lang="EN">Cordaid will give support to an ongoing response of Cadev Niger to the Covid-19 development in Niger. Cadev is one of the organisations that has set up a response, in consulation with the government.</narrative>
   </description>
@@ -17,16 +20,13 @@ Objectif Sp&#xE9;cifique 1 : Sensibiliser la population &#xE0; observer les mesu
 Objectif Sp&#xE9;cifique 2 : Mettre &#xE0; la disposition du personnel et des centres hospitaliers des
 kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
   </description>
-  <description type="3">
-   <narrative xml:lang="EN">Caritas staff, health centre staff and population visiting the health centres</narrative>
-  </description>
-  <participating-org activity-id="NL-KVK-41160054-200792" ref="NL-KVK-41160054" role="2" type="21">
-   <narrative xml:lang="EN">Cordaid Global Office</narrative>
-  </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Caritas D&#xE9;veloppement Niger</narrative>
   </participating-org>
   <participating-org activity-id="NL-KVK-41160054-200792" ref="NL-KVK-41160054" role="1" type="21">
+   <narrative xml:lang="EN">Cordaid Global Office</narrative>
+  </participating-org>
+  <participating-org activity-id="NL-KVK-41160054-200792" ref="NL-KVK-41160054" role="2" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
@@ -81,11 +81,11 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
     <reference code="SL0.01" vocabulary="99"></reference>
     <baseline iso-date="2020-12-31" value="31036" year="2020">
      <location ref="312536"></location>
-     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
     </baseline>
     <baseline iso-date="2020-12-31" value="31036" year="2020">
      <location ref="312536"></location>
-     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
     </baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
@@ -108,53 +108,8 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
   </result>
   <result aggregation-status="1" type="2">
    <title>
-    <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
-    </title>
-    <reference code="COV.CC.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="30000">
-      <location ref="312536"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-05-15"></period-start>
-     <period-end iso-date="2020-08-14"></period-end>
-     <target value="30000"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
     <narrative xml:lang="EN">Access to Life saving basic services provided</narrative>
    </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
-    </title>
-    <reference code="COV.CC.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="30000">
-      <location ref="312536"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-05-15"></period-start>
-     <period-end iso-date="2020-08-14"></period-end>
-     <target value="30000"></target>
-    </period>
-   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of people enabled to meet their basic food needs in response to COVID-19</narrative>
@@ -165,8 +120,8 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="1036">
       <location ref="312536"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
     <period>
@@ -185,14 +140,34 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="24">
       <location ref="312536"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-05-15"></period-start>
      <period-end iso-date="2020-08-14"></period-end>
      <target value="20"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="30000">
+      <location ref="312536"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-05-15"></period-start>
+     <period-end iso-date="2020-08-14"></period-end>
+     <target value="30000"></target>
     </period>
    </indicator>
   </result>
@@ -210,8 +185,33 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="30000">
       <location ref="312536"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-05-15"></period-start>
+     <period-end iso-date="2020-08-14"></period-end>
+     <target value="30000"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="30000">
+      <location ref="312536"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
     <period>
@@ -235,8 +235,8 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="30000">
       <location ref="312536"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
     <period>
@@ -270,24 +270,6 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of COVID-19 standard kits distributed</narrative>
-    </title>
-    <reference code="COV.SL.10" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="24">
-      <location ref="312536"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-05-15"></period-start>
-     <period-end iso-date="2020-08-14"></period-end>
-     <target value="20"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
      <narrative xml:lang="EN">Number of Radio live talkshows, Roadside drives conducted on COVID-19</narrative>
     </title>
     <reference code="COV.SL.11" vocabulary="99"></reference>
@@ -302,6 +284,24 @@ kits de pr&#xE9;vention duant la dur&#xE9;e du projet</narrative>
      <period-start iso-date="2020-05-15"></period-start>
      <period-end iso-date="2020-08-31"></period-end>
      <target value="13"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of COVID-19 standard kits distributed</narrative>
+    </title>
+    <reference code="COV.SL.10" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="24">
+      <location ref="312536"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-05-15"></period-start>
+     <period-end iso-date="2020-08-14"></period-end>
+     <target value="20"></target>
     </period>
    </indicator>
   </result>

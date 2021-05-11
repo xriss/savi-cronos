@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="707" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="707" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-DP.2183</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,24 +11,24 @@
   <description>
    <narrative xml:lang="EN">Through this project, IOM is contributing to the reduced transmission the spread of COVID-19, mitigate the humanitarian and health impact of the outbreak and ensure that preventive and adequate preventative measures practices are implemented in  prioritized points of entry and border communities in Benin, Cameroon, Liberia, Sierra Leone and Togo.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-8-4" ref="XM-DAC-8-4" role="1" type="10">
-   <narrative xml:lang="EN">Norway - Ministry of Foreign Affairs</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-8-4" ref="XM-DAC-8-4" role="1" type="10">
+   <narrative xml:lang="EN">Norway - Ministry of Foreign Affairs</narrative>
+  </participating-org>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2020-04-15" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-04-15" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2021-03-31" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2021-03-31" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-04-15" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-03-31" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -44,6 +44,46 @@
   <recipient-region code="202" percentage="100" vocabulary="2">
    <narrative xml:lang="EN">Sub-Saharan Africa</narrative>
   </recipient-region>
+  <location ref="BJ">
+   <location-reach code="2"></location-reach>
+   <location-id code="BJ" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Benin</narrative>
+   </name>
+   <administrative code="BJ" vocabulary="A4"></administrative>
+  </location>
+  <location ref="CM">
+   <location-reach code="2"></location-reach>
+   <location-id code="CM" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Cameroon</narrative>
+   </name>
+   <administrative code="CM" vocabulary="A4"></administrative>
+  </location>
+  <location ref="LR">
+   <location-reach code="2"></location-reach>
+   <location-id code="LR" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </name>
+   <administrative code="LR" vocabulary="A4"></administrative>
+  </location>
+  <location ref="SL">
+   <location-reach code="2"></location-reach>
+   <location-id code="SL" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Sierra Leone</narrative>
+   </name>
+   <administrative code="SL" vocabulary="A4"></administrative>
+  </location>
+  <location ref="TG">
+   <location-reach code="2"></location-reach>
+   <location-id code="TG" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Togo</narrative>
+   </name>
+   <administrative code="TG" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -55,14 +95,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="BJ">
-   <location-reach code="2"></location-reach>
-   <location-id code="BJ" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Benin</narrative>
-   </name>
-   <administrative code="BJ" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -76,14 +108,6 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="CM">
-   <location-reach code="2"></location-reach>
-   <location-id code="CM" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Cameroon</narrative>
-   </name>
-   <administrative code="CM" vocabulary="A4"></administrative>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -95,14 +119,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="LR">
-   <location-reach code="2"></location-reach>
-   <location-id code="LR" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </name>
-   <administrative code="LR" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -116,14 +132,6 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="SL">
-   <location-reach code="2"></location-reach>
-   <location-id code="SL" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Sierra Leone</narrative>
-   </name>
-   <administrative code="SL" vocabulary="A4"></administrative>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -136,22 +144,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="TG">
-   <location-reach code="2"></location-reach>
-   <location-id code="TG" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Togo</narrative>
-   </name>
-   <administrative code="TG" vocabulary="A4"></administrative>
-  </location>
   <sector code="DP" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Internally Displaced Persons</narrative>
   </sector>
-  <sector code="01" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
-   <narrative xml:lang="EN">Movement, Emergency and Post-Crisis Migration Management</narrative>
-  </sector>
   <sector code="72010" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
+  <sector code="01" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
+   <narrative xml:lang="EN">Movement, Emergency and Post-Crisis Migration Management</narrative>
   </sector>
   <policy-marker code="1" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project with some but insufficient inclusion of gender issues</narrative>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="ec-intpa-za" dstore:index="792" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="ec-intpa-za" dstore:index="792" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XI-IATI-EC_INTPA-2016/39297/0</iati-identifier>
   <reporting-org ref="XI-IATI-EC_INTPA" secondary-reporter="0" type="15">
    <narrative xml:lang="EN">European Commission - International Partnerships</narrative>
@@ -26,14 +26,14 @@
   <other-identifier ref="2016000646" type="A2"></other-identifier>
   <other-identifier ref="XI-IATI-EC_DEVCO" type="B1"></other-identifier>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-07-24" type="1">
-   <narrative xml:lang="EN">Planned Start: 24-JUL-20</narrative>
-  </activity-date>
   <activity-date iso-date="2020-12-31" type="2">
    <narrative xml:lang="EN">Actual Start: 31-DEC-20</narrative>
   </activity-date>
   <activity-date iso-date="2023-11-16" type="3">
    <narrative xml:lang="EN">Planned End: 16-NOV-23</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-07-24" type="1">
+   <narrative xml:lang="EN">Planned Start: 24-JUL-20</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -58,54 +58,54 @@
     <pos>-33.92 18.435</pos>
    </point>
   </location>
+  <sector code="32161" percentage="25" vocabulary="1">
+   <narrative xml:lang="EN">Agro-industries</narrative>
+  </sector>
   <sector code="25010" percentage="25" vocabulary="1">
    <narrative xml:lang="EN">Business Policy and Administration</narrative>
   </sector>
   <sector code="32130" percentage="50" vocabulary="1">
    <narrative xml:lang="EN">Small and medium-sized enterprises (SME) development</narrative>
   </sector>
-  <sector code="32161" percentage="25" vocabulary="1">
-   <narrative xml:lang="EN">Agro-industries</narrative>
-  </sector>
-  <tag code="COVID-19" vocabulary="99"></tag>
   <tag code="8" vocabulary="2">
    <narrative xml:lang="EN">SDG 08: Decent Work and Economic Growth</narrative>
   </tag>
-  <policy-marker code="1" significance="1" vocabulary="1">
-   <narrative xml:lang="EN">Gender Equality</narrative>
-  </policy-marker>
-  <policy-marker code="2" significance="1" vocabulary="1">
-   <narrative xml:lang="EN">Aid to Environment</narrative>
-  </policy-marker>
-  <policy-marker code="3" significance="1" vocabulary="1">
-   <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
-  </policy-marker>
-  <policy-marker code="4" significance="1" vocabulary="1">
-   <narrative xml:lang="EN">Trade Development</narrative>
-  </policy-marker>
+  <tag code="COVID-19" vocabulary="99"></tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
-  </policy-marker>
-  <policy-marker code="6" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
-  </policy-marker>
-  <policy-marker code="7" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
   </policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention to Combat Desertification</narrative>
   </policy-marker>
-  <policy-marker code="9" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
+  <policy-marker code="7" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
   </policy-marker>
-  <policy-marker code="10" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Disaster Risk Reduction (DRR)</narrative>
+  <policy-marker code="6" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
+  </policy-marker>
+  <policy-marker code="2" significance="1" vocabulary="1">
+   <narrative xml:lang="EN">Aid to Environment</narrative>
   </policy-marker>
   <policy-marker code="11" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Disability</narrative>
   </policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Disaster Risk Reduction (DRR)</narrative>
+  </policy-marker>
+  <policy-marker code="1" significance="1" vocabulary="1">
+   <narrative xml:lang="EN">Gender Equality</narrative>
+  </policy-marker>
   <policy-marker code="12" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Nutrition</narrative>
+  </policy-marker>
+  <policy-marker code="3" significance="1" vocabulary="1">
+   <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
+  </policy-marker>
+  <policy-marker code="9" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
+  </policy-marker>
+  <policy-marker code="4" significance="1" vocabulary="1">
+   <narrative xml:lang="EN">Trade Development</narrative>
   </policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -140,22 +140,6 @@
   </planned-disbursement>
   <planned-disbursement type="1">
    <period-start iso-date="2021-01-01"></period-start>
-   <period-end iso-date="2022-02-01"></period-end>
-   <value currency="EUR" value-date="2021-04-29">45000</value>
-   <provider-org provider-activity-id="XI-IATI-EC_INTPA-2016/39297/0" type="15">
-    <narrative xml:lang="EN">XI-IATI-EC_INTPA</narrative>
-   </provider-org>
-  </planned-disbursement>
-  <planned-disbursement type="1">
-   <period-start iso-date="2021-01-01"></period-start>
-   <period-end iso-date="2022-02-01"></period-end>
-   <value currency="EUR" value-date="2021-04-29">45000</value>
-   <provider-org provider-activity-id="XI-IATI-EC_INTPA-2016/39297/0" type="15">
-    <narrative xml:lang="EN">XI-IATI-EC_INTPA</narrative>
-   </provider-org>
-  </planned-disbursement>
-  <planned-disbursement type="1">
-   <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-07-01"></period-end>
    <value currency="EUR" value-date="2021-04-29">40000</value>
    <provider-org provider-activity-id="XI-IATI-EC_INTPA-2016/39297/0" type="15">
@@ -166,6 +150,22 @@
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-07-01"></period-end>
    <value currency="EUR" value-date="2021-04-29">40000</value>
+   <provider-org provider-activity-id="XI-IATI-EC_INTPA-2016/39297/0" type="15">
+    <narrative xml:lang="EN">XI-IATI-EC_INTPA</narrative>
+   </provider-org>
+  </planned-disbursement>
+  <planned-disbursement type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2022-02-01"></period-end>
+   <value currency="EUR" value-date="2021-04-29">45000</value>
+   <provider-org provider-activity-id="XI-IATI-EC_INTPA-2016/39297/0" type="15">
+    <narrative xml:lang="EN">XI-IATI-EC_INTPA</narrative>
+   </provider-org>
+  </planned-disbursement>
+  <planned-disbursement type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2022-02-01"></period-end>
+   <value currency="EUR" value-date="2021-04-29">45000</value>
    <provider-org provider-activity-id="XI-IATI-EC_INTPA-2016/39297/0" type="15">
     <narrative xml:lang="EN">XI-IATI-EC_INTPA</narrative>
    </provider-org>
@@ -197,22 +197,6 @@
    <title>
     <narrative xml:lang="EN">COMMISSION IMPLEMENTING DECISION on the Annual Action Programme 2016 in favour of the Republic of South Africa to be financed from the general budget of the Union</narrative>
    </title>
-   <category code="A05"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2021-04-29"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://ec.europa.eu/international-partnerships/assets/iati/IATI_DOCUMENTS_PDF/XI-IATI-EC_DEVCO-2016_39297_0.pdf">
-   <title>
-    <narrative xml:lang="EN">COMMISSION IMPLEMENTING DECISION on the Annual Action Programme 2016 in favour of the Republic of South Africa to be financed from the general budget of the Union</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2021-04-29"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://ec.europa.eu/international-partnerships/assets/iati/IATI_DOCUMENTS_PDF/XI-IATI-EC_DEVCO-2016_39297_0.pdf">
-   <title>
-    <narrative xml:lang="EN">COMMISSION IMPLEMENTING DECISION on the Annual Action Programme 2016 in favour of the Republic of South Africa to be financed from the general budget of the Union</narrative>
-   </title>
    <category code="A01"></category>
    <language code="EN"></language>
    <document-date iso-date="2021-04-29"></document-date>
@@ -230,6 +214,22 @@
     <narrative xml:lang="EN">COMMISSION IMPLEMENTING DECISION on the Annual Action Programme 2016 in favour of the Republic of South Africa to be financed from the general budget of the Union</narrative>
    </title>
    <category code="A03"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-04-29"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://ec.europa.eu/international-partnerships/assets/iati/IATI_DOCUMENTS_PDF/XI-IATI-EC_DEVCO-2016_39297_0.pdf">
+   <title>
+    <narrative xml:lang="EN">COMMISSION IMPLEMENTING DECISION on the Annual Action Programme 2016 in favour of the Republic of South Africa to be financed from the general budget of the Union</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-04-29"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://ec.europa.eu/international-partnerships/assets/iati/IATI_DOCUMENTS_PDF/XI-IATI-EC_DEVCO-2016_39297_0.pdf">
+   <title>
+    <narrative xml:lang="EN">COMMISSION IMPLEMENTING DECISION on the Annual Action Programme 2016 in favour of the Republic of South Africa to be financed from the general budget of the Union</narrative>
+   </title>
+   <category code="A05"></category>
    <language code="EN"></language>
    <document-date iso-date="2021-04-29"></document-date>
   </document-link>

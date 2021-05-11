@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="transafrica19-activities" dstore:index="1" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="transafrica19-activities" dstore:index="1" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1081769-UK-aid-freetown-slum-project</iati-identifier>
   <reporting-org ref="GB-CHC-1081769" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Transform Africa</narrative>
@@ -70,41 +70,6 @@ Number of vulnerable people that received water and food = 500 (225 M/275 F).
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="GBP" value-date="2020-12-31">41802.92</value>
   </budget>
-  <transaction humanitarian="0" ref="Capital 2">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="GBP" value-date="2020-12-31">0</value>
-  </transaction>
-  <transaction humanitarian="0" ref="STAFF COSTS 2">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="GBP" value-date="2020-12-31">6578.08</value>
-  </transaction>
-  <transaction humanitarian="0" ref="ADMINISTRATION COSTS 2">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="GBP" value-date="2020-12-31">1884.28</value>
-  </transaction>
-  <transaction humanitarian="0" ref="MONITORING, EVALUATION &amp; LESSON LEARNING">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="GBP" value-date="2020-12-31">733.33</value>
-  </transaction>
-  <transaction humanitarian="0" ref="PROJECT ACTIVITIES">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="GBP" value-date="2020-12-31">32607.23</value>
-   <provider-org ref="MN3R-VRMJ-YS" type="10">
-    <narrative xml:lang="EN">Grant provided by DFID through UK Aid partnership grants</narrative>
-   </provider-org>
-   <receiver-org ref="MN3R-VRMJ-YS" type="21">
-    <narrative xml:lang="EN">Grant provided to Transform Africa for supporting downstream partner YDM in Sierra Leone</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
   <transaction humanitarian="0" ref="Capital">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
@@ -123,10 +88,10 @@ Number of vulnerable people that received water and food = 500 (225 M/275 F).
    <finance-type code="110"></finance-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction humanitarian="0" ref="MONITORING, EVALUATION &amp; LESSON LEARNING">
+  <transaction humanitarian="0" ref="ADMINISTRATION COSTS">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="GBP" value-date="2020-09-30">907.75</value>
+   <value currency="GBP" value-date="2020-09-30">1244.88</value>
    <description>
     <narrative xml:lang="EN">This financial data covers transactions carried out between 1st July and 30th September.</narrative>
    </description>
@@ -177,10 +142,10 @@ Number of vulnerable people that received water and food = 500 (225 M/275 F).
    <finance-type code="110"></finance-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction humanitarian="0" ref="ADMINISTRATION COSTS">
+  <transaction humanitarian="0" ref="MONITORING, EVALUATION &amp; LESSON LEARNING">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="GBP" value-date="2020-09-30">1244.88</value>
+   <value currency="GBP" value-date="2020-09-30">907.75</value>
    <description>
     <narrative xml:lang="EN">This financial data covers transactions carried out between 1st July and 30th September.</narrative>
    </description>
@@ -194,6 +159,41 @@ Number of vulnerable people that received water and food = 500 (225 M/275 F).
    <flow-type code="10"></flow-type>
    <finance-type code="110"></finance-type>
    <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="0" ref="PROJECT ACTIVITIES">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-12-31">32607.23</value>
+   <provider-org ref="MN3R-VRMJ-YS" type="10">
+    <narrative xml:lang="EN">Grant provided by DFID through UK Aid partnership grants</narrative>
+   </provider-org>
+   <receiver-org ref="MN3R-VRMJ-YS" type="21">
+    <narrative xml:lang="EN">Grant provided to Transform Africa for supporting downstream partner YDM in Sierra Leone</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="0" ref="Capital 2">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-12-31">0</value>
+  </transaction>
+  <transaction humanitarian="0" ref="ADMINISTRATION COSTS 2">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-12-31">1884.28</value>
+  </transaction>
+  <transaction humanitarian="0" ref="STAFF COSTS 2">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-12-31">6578.08</value>
+  </transaction>
+  <transaction humanitarian="0" ref="MONITORING, EVALUATION &amp; LESSON LEARNING">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="GBP" value-date="2020-12-31">733.33</value>
   </transaction>
  </iati-activity>
 </iati-activities>

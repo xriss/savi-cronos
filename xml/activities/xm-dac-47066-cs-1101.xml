@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="319" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="319" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-CS.1101</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,18 +11,18 @@
   <description>
    <narrative xml:lang="EN">Through this project, IOM supports governments in the Republic of Colombia, the Republic of Ecuador and the Bolivarian Republic of Venezuela in their COVID-19 responses to foster resilience, promote integration by improving the health response, community engagement and environmental protection of affected communities. Specifically, IOM improves access to health services by enhancing the capacity of prioritized health centres and temporary shelters; enhances governments&apos; response capacities to address conflict sensitivity challenges caused by the COVID-19 pandemic; promotes peaceful co-existence and combats xenophobia through community-based interventions aimed at increasing the resilience of host communities; and coordinates and enables a comprehensive and effective response by national and international actors to the pandemic and its aftermath.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-41121-ICSP 2020 418-329" ref="XM-DAC-41121" role="1" type="40">
-   <narrative xml:lang="EN">UNITED NATIONS HIGH COMMISSION REFUGEES</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-41121-ICSP 2020 418-329" ref="XM-DAC-41121" role="1" type="40">
+   <narrative xml:lang="EN">UNITED NATIONS HIGH COMMISSION REFUGEES</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-07-01" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-07-01" type="2">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-07-01" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <activity-date iso-date="2021-12-31" type="3">
    <narrative xml:lang="EN">Planned</narrative>
@@ -40,6 +40,38 @@
   <recipient-region code="5" percentage="100" vocabulary="2">
    <narrative xml:lang="EN">South America</narrative>
   </recipient-region>
+  <location ref="BR">
+   <location-reach code="2"></location-reach>
+   <location-id code="BR" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Brazil</narrative>
+   </name>
+   <administrative code="BR" vocabulary="A4"></administrative>
+  </location>
+  <location ref="CO">
+   <location-reach code="2"></location-reach>
+   <location-id code="CO" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Colombia</narrative>
+   </name>
+   <administrative code="CO" vocabulary="A4"></administrative>
+  </location>
+  <location ref="EC">
+   <location-reach code="2"></location-reach>
+   <location-id code="EC" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Ecuador</narrative>
+   </name>
+   <administrative code="EC" vocabulary="A4"></administrative>
+  </location>
+  <location ref="VE">
+   <location-reach code="2"></location-reach>
+   <location-id code="VE" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Venezuela (Bolivarian Republic of)</narrative>
+   </name>
+   <administrative code="VE" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -51,14 +83,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="BR">
-   <location-reach code="2"></location-reach>
-   <location-id code="BR" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Brazil</narrative>
-   </name>
-   <administrative code="BR" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -72,14 +96,6 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="CO">
-   <location-reach code="2"></location-reach>
-   <location-id code="CO" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Colombia</narrative>
-   </name>
-   <administrative code="CO" vocabulary="A4"></administrative>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -92,14 +108,6 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="EC">
-   <location-reach code="2"></location-reach>
-   <location-id code="EC" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Ecuador</narrative>
-   </name>
-   <administrative code="EC" vocabulary="A4"></administrative>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -111,14 +119,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="VE">
-   <location-reach code="2"></location-reach>
-   <location-id code="VE" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Venezuela (Bolivarian Republic of)</narrative>
-   </name>
-   <administrative code="VE" vocabulary="A4"></administrative>
   </location>
   <sector code="CS" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Community Stabilization</narrative>

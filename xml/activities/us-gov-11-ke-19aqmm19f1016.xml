@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unitedstates-ke" dstore:index="31" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unitedstates-ke" dstore:index="31" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="http://www.foreignassistance.gov" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>US-GOV-11-KE-19AQMM19F1016</iati-identifier>
   <reporting-org ref="US-USAGOV" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
@@ -11,6 +11,10 @@
   <description>
    <narrative xml:lang="EN">AFRICA REGIONAL [Covers services supplied by other U.S. Government agencies not otherwise classified.]. Extension of Period of performance for long lead items and material deliveries due to COVID -19 delays in response and re-alignment of funding. SUPPLY/TRANSP/PROCUREMENT [Covers services supplied by other U.S. Government agencies not otherwise classified.]</narrative>
   </description>
+  <participating-org role="4" type="70">
+   <narrative xml:lang="EN">AAR GOVERNMENT SERVICES, INC.</narrative>
+   <usg:duns-number>080899079</usg:duns-number>
+  </participating-org>
   <participating-org ref="US-USAGOV" role="1" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
   </participating-org>
@@ -20,10 +24,6 @@
   </participating-org>
   <participating-org ref="US-GOV-11" role="3" type="10">
    <narrative xml:lang="EN">U.S. Department of State</narrative>
-  </participating-org>
-  <participating-org role="4" type="70">
-   <narrative xml:lang="EN">AAR GOVERNMENT SERVICES, INC.</narrative>
-   <usg:duns-number>080899079</usg:duns-number>
   </participating-org>
   <other-identifier ref="US-GOV" type="B1">
    <owner-org ref="US-USAGOV">
@@ -73,47 +73,28 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget>
-   <period-start iso-date="2019-10-01"></period-start>
-   <period-end iso-date="2020-09-30"></period-end>
-   <value currency="USD" value-date="2019-10-01">3358852</value>
-  </budget>
-  <budget>
    <period-start iso-date="2018-10-01"></period-start>
    <period-end iso-date="2019-09-30"></period-end>
    <value currency="USD" value-date="2018-10-01">20000000</value>
   </budget>
+  <budget>
+   <period-start iso-date="2019-10-01"></period-start>
+   <period-end iso-date="2020-09-30"></period-end>
+   <value currency="USD" value-date="2019-10-01">3358852</value>
+  </budget>
   <capital-spend percentage="10"></capital-spend>
   <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-01-13"></transaction-date>
-   <value currency="USD" value-date="2020-01-13">28559.61</value>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-11-08"></transaction-date>
+   <value currency="USD" value-date="2019-11-08">-586201.9</value>
    <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
    <sector code="5003" vocabulary="99">
     <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-18"></transaction-date>
-   <value currency="USD" value-date="2020-02-18">56403.12</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
    <sector code="24010" vocabulary="1">
     <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
@@ -128,179 +109,11 @@
    <description>
     <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
    <sector code="5003" vocabulary="99">
     <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-04-17"></transaction-date>
-   <value currency="USD" value-date="2020-04-17">47396.38</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="15210" vocabulary="1">
-    <narrative xml:lang="EN">Security system management and reform</narrative>
-   </sector>
-   <sector code="1003" vocabulary="99">
-    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">152058.2</value>
-   <description>
-    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="15210" vocabulary="1">
-    <narrative xml:lang="EN">Security system management and reform</narrative>
-   </sector>
-   <sector code="1003" vocabulary="99">
-    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-26"></transaction-date>
-   <value currency="USD" value-date="2019-09-26">34275.72</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="15210" vocabulary="1">
-    <narrative xml:lang="EN">Security system management and reform</narrative>
-   </sector>
-   <sector code="1003" vocabulary="99">
-    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-01-14"></transaction-date>
-   <value currency="USD" value-date="2020-01-14">76749.94</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
    <sector code="24010" vocabulary="1">
     <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-19"></transaction-date>
-   <value currency="USD" value-date="2020-02-19">-56403.12</value>
-   <description>
-    <narrative xml:lang="EN">Cancellation - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-07"></transaction-date>
-   <value currency="USD" value-date="2019-11-07">47290.2</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-07"></transaction-date>
-   <value currency="USD" value-date="2019-11-07">95452.96</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-13"></transaction-date>
-   <value currency="USD" value-date="2020-05-13">6.03</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="15210" vocabulary="1">
-    <narrative xml:lang="EN">Security system management and reform</narrative>
-   </sector>
-   <sector code="1003" vocabulary="99">
-    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">89160.69</value>
-   <description>
-    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
@@ -311,53 +124,15 @@
   <transaction humanitarian="0">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">601790.1</value>
+   <value currency="USD" value-date="2019-11-08">-815246.6</value>
    <description>
     <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
    <sector code="5003" vocabulary="99">
     <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-14"></transaction-date>
-   <value currency="USD" value-date="2020-03-14">66843.12</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
    <sector code="24010" vocabulary="1">
     <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-19"></transaction-date>
-   <value currency="USD" value-date="2020-02-19">71836.09</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
@@ -368,335 +143,15 @@
   <transaction humanitarian="0">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">-586201.9</value>
+   <value currency="USD" value-date="2019-11-08">-89160.69</value>
    <description>
     <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
    <sector code="5003" vocabulary="99">
     <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">524804.8</value>
-   <description>
-    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="15210" vocabulary="1">
-    <narrative xml:lang="EN">Security system management and reform</narrative>
-   </sector>
-   <sector code="1003" vocabulary="99">
-    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-12"></transaction-date>
-   <value currency="USD" value-date="2020-03-12">81592.94</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
    <sector code="24010" vocabulary="1">
     <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-13"></transaction-date>
-   <value currency="USD" value-date="2019-12-13">91266.26</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-07-02"></transaction-date>
-   <value currency="USD" value-date="2020-07-02">35485.55</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">85316.5</value>
-   <description>
-    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="15210" vocabulary="1">
-    <narrative xml:lang="EN">Security system management and reform</narrative>
-   </sector>
-   <sector code="1003" vocabulary="99">
-    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">-85316.5</value>
-   <description>
-    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="15210" vocabulary="1">
-    <narrative xml:lang="EN">Security system management and reform</narrative>
-   </sector>
-   <sector code="1003" vocabulary="99">
-    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-07"></transaction-date>
-   <value currency="USD" value-date="2019-11-07">24959.83</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-07-02"></transaction-date>
-   <value currency="USD" value-date="2020-07-02">64670.85</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-16"></transaction-date>
-   <value currency="USD" value-date="2020-06-16">58489.48</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-08"></transaction-date>
-   <value currency="USD" value-date="2020-05-08">33996.16</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-12"></transaction-date>
-   <value currency="USD" value-date="2019-12-12">17858.99</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-18"></transaction-date>
-   <value currency="USD" value-date="2020-02-18">71836.09</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-23"></transaction-date>
-   <value currency="USD" value-date="2019-12-23">47969.99</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-19"></transaction-date>
-   <value currency="USD" value-date="2020-02-19">126868.6</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-19"></transaction-date>
-   <value currency="USD" value-date="2020-02-19">56403.12</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-21"></transaction-date>
-   <value currency="USD" value-date="2019-09-21">815246.6</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-23"></transaction-date>
-   <value currency="USD" value-date="2019-12-23">6183.54</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
@@ -711,48 +166,11 @@
    <description>
     <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
    <sector code="5003" vocabulary="99">
     <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-11"></transaction-date>
-   <value currency="USD" value-date="2020-05-11">102187.7</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="15210" vocabulary="1">
-    <narrative xml:lang="EN">Security system management and reform</narrative>
-   </sector>
-   <sector code="1003" vocabulary="99">
-    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-21"></transaction-date>
-   <value currency="USD" value-date="2019-09-21">89160.69</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
    <sector code="24010" vocabulary="1">
     <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
@@ -762,16 +180,16 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-17"></transaction-date>
-   <value currency="USD" value-date="2019-09-17">740061.9</value>
+   <transaction-date iso-date="2019-11-08"></transaction-date>
+   <value currency="USD" value-date="2019-11-08">601790.1</value>
    <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
    <sector code="5003" vocabulary="99">
     <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
@@ -781,18 +199,38 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-20"></transaction-date>
-   <value currency="USD" value-date="2019-08-20">152058.2</value>
+   <transaction-date iso-date="2019-11-08"></transaction-date>
+   <value currency="USD" value-date="2019-11-08">815246.6</value>
    <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="15210" vocabulary="1">
-    <narrative xml:lang="EN">Security system management and reform</narrative>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
    </sector>
-   <sector code="1003" vocabulary="99">
-    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
    </sector>
    <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-11-08"></transaction-date>
+   <value currency="USD" value-date="2019-11-08">89160.69</value>
+   <description>
+    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>
@@ -817,17 +255,17 @@
    </usg:treasury-account>
   </transaction>
   <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-19"></transaction-date>
-   <value currency="USD" value-date="2020-02-19">-56403.12</value>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-11-08"></transaction-date>
+   <value currency="USD" value-date="2019-11-08">34275.72</value>
    <description>
-    <narrative xml:lang="EN">Cancellation - OTH GOVT AG CONTR SV</narrative>
+    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   <sector code="15210" vocabulary="1">
+    <narrative xml:lang="EN">Security system management and reform</narrative>
    </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
+   <sector code="1003" vocabulary="99">
+    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
@@ -873,8 +311,8 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-13"></transaction-date>
-   <value currency="USD" value-date="2020-05-13">30000</value>
+   <transaction-date iso-date="2019-11-08"></transaction-date>
+   <value currency="USD" value-date="2019-11-08">-85316.5</value>
    <description>
     <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
@@ -892,15 +330,504 @@
   <transaction humanitarian="0">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">-89160.69</value>
+   <value currency="USD" value-date="2019-11-08">152058.2</value>
    <description>
     <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
+   <sector code="15210" vocabulary="1">
+    <narrative xml:lang="EN">Security system management and reform</narrative>
+   </sector>
+   <sector code="1003" vocabulary="99">
+    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-11-08"></transaction-date>
+   <value currency="USD" value-date="2019-11-08">524804.8</value>
+   <description>
+    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="15210" vocabulary="1">
+    <narrative xml:lang="EN">Security system management and reform</narrative>
+   </sector>
+   <sector code="1003" vocabulary="99">
+    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-11-08"></transaction-date>
+   <value currency="USD" value-date="2019-11-08">85316.5</value>
+   <description>
+    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="15210" vocabulary="1">
+    <narrative xml:lang="EN">Security system management and reform</narrative>
+   </sector>
+   <sector code="1003" vocabulary="99">
+    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-05-13"></transaction-date>
+   <value currency="USD" value-date="2020-05-13">-30000</value>
+   <description>
+    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="15210" vocabulary="1">
+    <narrative xml:lang="EN">Security system management and reform</narrative>
+   </sector>
+   <sector code="1003" vocabulary="99">
+    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-05-13"></transaction-date>
+   <value currency="USD" value-date="2020-05-13">30000</value>
+   <description>
+    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="15210" vocabulary="1">
+    <narrative xml:lang="EN">Security system management and reform</narrative>
+   </sector>
+   <sector code="1003" vocabulary="99">
+    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-07"></transaction-date>
+   <value currency="USD" value-date="2019-11-07">-24959.83</value>
+   <description>
+    <narrative xml:lang="EN">Cancellation - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
    <sector code="24010" vocabulary="1">
     <narrative xml:lang="EN">Financial policy and administrative management</narrative>
    </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-19"></transaction-date>
+   <value currency="USD" value-date="2020-02-19">-56403.12</value>
+   <description>
+    <narrative xml:lang="EN">Cancellation - OTH GOVT AG CONTR SV</narrative>
+   </description>
    <sector code="5003" vocabulary="99">
     <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-19"></transaction-date>
+   <value currency="USD" value-date="2020-02-19">-56403.12</value>
+   <description>
+    <narrative xml:lang="EN">Cancellation - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-19"></transaction-date>
+   <value currency="USD" value-date="2020-02-19">-71836.09</value>
+   <description>
+    <narrative xml:lang="EN">Cancellation - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-09-17"></transaction-date>
+   <value currency="USD" value-date="2019-09-17">633492.1</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-09-17"></transaction-date>
+   <value currency="USD" value-date="2019-09-17">740061.9</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-09-21"></transaction-date>
+   <value currency="USD" value-date="2019-09-21">815246.6</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-09-21"></transaction-date>
+   <value currency="USD" value-date="2019-09-21">89160.69</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-07"></transaction-date>
+   <value currency="USD" value-date="2019-11-07">24959.83</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-07"></transaction-date>
+   <value currency="USD" value-date="2019-11-07">24959.83</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-07"></transaction-date>
+   <value currency="USD" value-date="2019-11-07">47290.2</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-07"></transaction-date>
+   <value currency="USD" value-date="2019-11-07">95452.96</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-12"></transaction-date>
+   <value currency="USD" value-date="2019-12-12">17858.99</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-13"></transaction-date>
+   <value currency="USD" value-date="2019-12-13">91266.26</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-23"></transaction-date>
+   <value currency="USD" value-date="2019-12-23">47969.99</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-23"></transaction-date>
+   <value currency="USD" value-date="2019-12-23">6183.54</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-01-12"></transaction-date>
+   <value currency="USD" value-date="2020-01-12">32337.83</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-01-13"></transaction-date>
+   <value currency="USD" value-date="2020-01-13">28559.61</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-01-14"></transaction-date>
+   <value currency="USD" value-date="2020-01-14">76749.94</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-18"></transaction-date>
+   <value currency="USD" value-date="2020-02-18">56403.12</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-18"></transaction-date>
+   <value currency="USD" value-date="2020-02-18">71836.09</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-19"></transaction-date>
+   <value currency="USD" value-date="2020-02-19">126868.6</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
@@ -915,11 +842,106 @@
    <description>
     <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
    </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
    <sector code="24010" vocabulary="1">
     <narrative xml:lang="EN">Financial policy and administrative management</narrative>
    </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-19"></transaction-date>
+   <value currency="USD" value-date="2020-02-19">56403.12</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
    <sector code="5003" vocabulary="99">
     <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-19"></transaction-date>
+   <value currency="USD" value-date="2020-02-19">71836.09</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-12"></transaction-date>
+   <value currency="USD" value-date="2020-03-12">81592.94</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-14"></transaction-date>
+   <value currency="USD" value-date="2020-03-14">66843.12</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-17"></transaction-date>
+   <value currency="USD" value-date="2020-03-17">204074.6</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
@@ -930,7 +952,121 @@
   <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-04-13"></transaction-date>
-   <value currency="USD" value-date="2020-04-13">6653.99</value>
+   <value currency="USD" value-date="2020-04-13">58073.56</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-13"></transaction-date>
+   <value currency="USD" value-date="2020-04-13">88259.95</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-08"></transaction-date>
+   <value currency="USD" value-date="2020-05-08">33996.16</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-16"></transaction-date>
+   <value currency="USD" value-date="2020-06-16">58489.48</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-02"></transaction-date>
+   <value currency="USD" value-date="2020-07-02">35485.55</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-02"></transaction-date>
+   <value currency="USD" value-date="2020-07-02">64670.85</value>
+   <description>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
+   </description>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24010" vocabulary="1">
+    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-08-20"></transaction-date>
+   <value currency="USD" value-date="2019-08-20">152058.2</value>
    <description>
     <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
    </description>
@@ -965,44 +1101,6 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">34275.72</value>
-   <description>
-    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="15210" vocabulary="1">
-    <narrative xml:lang="EN">Security system management and reform</narrative>
-   </sector>
-   <sector code="1003" vocabulary="99">
-    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-04-13"></transaction-date>
-   <value currency="USD" value-date="2020-04-13">88259.95</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-08-20"></transaction-date>
    <value currency="USD" value-date="2019-08-20">85316.5</value>
    <description>
@@ -1021,35 +1119,16 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-17"></transaction-date>
-   <value currency="USD" value-date="2019-09-17">633492.1</value>
+   <transaction-date iso-date="2019-09-26"></transaction-date>
+   <value currency="USD" value-date="2019-09-26">34275.72</value>
    <description>
     <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   <sector code="15210" vocabulary="1">
+    <narrative xml:lang="EN">Security system management and reform</narrative>
    </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-01-12"></transaction-date>
-   <value currency="USD" value-date="2020-01-12">32337.83</value>
-   <description>
-    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
+   <sector code="1003" vocabulary="99">
+    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
@@ -1060,66 +1139,9 @@
   <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-04-13"></transaction-date>
-   <value currency="USD" value-date="2020-04-13">58073.56</value>
+   <value currency="USD" value-date="2020-04-13">6653.99</value>
    <description>
     <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">815246.6</value>
-   <description>
-    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-19"></transaction-date>
-   <value currency="USD" value-date="2020-02-19">-71836.09</value>
-   <description>
-    <narrative xml:lang="EN">Cancellation - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-13"></transaction-date>
-   <value currency="USD" value-date="2020-05-13">-30000</value>
-   <description>
-    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
    </description>
    <sector code="15210" vocabulary="1">
     <narrative xml:lang="EN">Security system management and reform</narrative>
@@ -1134,87 +1156,58 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-07"></transaction-date>
-   <value currency="USD" value-date="2019-11-07">24959.83</value>
+   <transaction-date iso-date="2020-04-17"></transaction-date>
+   <value currency="USD" value-date="2020-04-17">47396.38</value>
    <description>
     <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   <sector code="15210" vocabulary="1">
+    <narrative xml:lang="EN">Security system management and reform</narrative>
    </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-11-08"></transaction-date>
-   <value currency="USD" value-date="2019-11-08">-815246.6</value>
-   <description>
-    <narrative xml:lang="EN">Amendment - OTH GOVT AG CONTR SV</narrative>
-   </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
+   <sector code="1003" vocabulary="99">
+    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
    </sector>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-07"></transaction-date>
-   <value currency="USD" value-date="2019-11-07">-24959.83</value>
+   <transaction-date iso-date="2020-05-11"></transaction-date>
+   <value currency="USD" value-date="2020-05-11">102187.7</value>
    <description>
-    <narrative xml:lang="EN">Cancellation - OTH GOVT AG CONTR SV</narrative>
+    <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   <sector code="15210" vocabulary="1">
+    <narrative xml:lang="EN">Security system management and reform</narrative>
    </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
+   <sector code="1003" vocabulary="99">
+    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
    </sector>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-17"></transaction-date>
-   <value currency="USD" value-date="2020-03-17">204074.6</value>
+   <transaction-date iso-date="2020-05-13"></transaction-date>
+   <value currency="USD" value-date="2020-05-13">6.03</value>
    <description>
     <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
    </description>
-   <sector code="24010" vocabulary="1">
-    <narrative xml:lang="EN">Financial policy and administrative management</narrative>
+   <sector code="15210" vocabulary="1">
+    <narrative xml:lang="EN">Security system management and reform</narrative>
    </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
+   <sector code="1003" vocabulary="99">
+    <narrative xml:lang="EN">Stabilization Operations and Security Sector Reform</narrative>
    </sector>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="1032">Peacekeeping Operations, Funds Appropriated to the President</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <document-link format="TEXT/HTML" url="http://fpds.gov">
-   <title>
-    <narrative xml:lang="EN">Federal Procurement Data System</narrative>
-   </title>
-   <category code="A11"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="TEXT/HTML" url="http://fbo.gov">
    <title>
     <narrative xml:lang="EN">Federal Business Opportunities</narrative>
@@ -1227,6 +1220,13 @@
     <narrative xml:lang="EN">Grants</narrative>
    </title>
    <category code="A10"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://fpds.gov">
+   <title>
+    <narrative xml:lang="EN">Federal Procurement Data System</narrative>
+   </title>
+   <category code="A11"></category>
    <language code="EN"></language>
   </document-link>
   <conditions attached="0"></conditions>

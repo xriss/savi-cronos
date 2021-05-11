@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="cordaid-41160054" dstore:index="86" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="cordaid-41160054" dstore:index="86" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200872</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -8,6 +8,9 @@
   <title>
    <narrative xml:lang="EN">Bring Back Beirut Consortium - joint emergency response Beirut Blast</narrative>
   </title>
+  <description type="3">
+   <narrative xml:lang="EN">Estimated total number of direct beneficiaries targeted by the action is: 8,225 beneficiaries. For the selection of beneficiaries for cash for shelter, Caritas will follow the preliminary vulnerability criteria of the draft interagency shelter sector strategy</narrative>
+  </description>
   <description type="1">
    <narrative xml:lang="EN">On 4 August 2020, at 18:00 (Beirut time), a warehouse at the Beirut Port containing 2,750 tons of ammonium nitrate exploded. After an initial smaller explosion, a subsequent blast caused widespread destruction, with reports of damage up to 24 km from the port area. First responders searched through the night to reach survivors. Debris from the explosions obstructed efforts to assist victims. More than 160 deaths were reported, with an additional 5,000 persons injured, and more than 60 persons still missing. Hospitals have been overwhelmed with casualties as many ICUs were already reaching capacity with COVID-19 patients. The explosion also damaged countless buildings in Beirut. 
 
@@ -16,22 +19,19 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
   <description type="2">
    <narrative xml:lang="EN">The project&#x2019;s main objective is to contribute to the protection of vulnerable Lebanese, refugee, and migrant households against the negative impacts of the Beirut blast and COVID-19 pandemic while strengthening CLs MHPSS capacities and ensure (relative) staff well-being.</narrative>
   </description>
-  <description type="3">
-   <narrative xml:lang="EN">Estimated total number of direct beneficiaries targeted by the action is: 8,225 beneficiaries. For the selection of beneficiaries for cash for shelter, Caritas will follow the preliminary vulnerability criteria of the draft interagency shelter sector strategy</narrative>
-  </description>
-  <participating-org ref="NL-KVK-41160054" role="2" type="21">
-   <narrative xml:lang="EN">Cordaid Global Office</narrative>
-  </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Caritas Lebanon Headquarters</narrative>
-  </participating-org>
-  <participating-org role="4">
-   <narrative xml:lang="EN">Caritas Switzerland</narrative>
   </participating-org>
   <participating-org role="1">
    <narrative xml:lang="EN">Caritas Switzerland</narrative>
   </participating-org>
+  <participating-org role="4">
+   <narrative xml:lang="EN">Caritas Switzerland</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-41160054" role="1" type="21">
+   <narrative xml:lang="EN">Cordaid Global Office</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-41160054" role="2" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
@@ -58,8 +58,8 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <sector code="72040" percentage="50" vocabulary="1"></sector>
   <sector code="72010" percentage="50" vocabulary="1"></sector>
+  <sector code="72040" percentage="50" vocabulary="1"></sector>
   <humanitarian-scope code="OT-2020-000177-LBN" type="1" vocabulary="1-2"></humanitarian-scope>
   <policy-marker code="3" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="1"></collaboration-type>
@@ -72,17 +72,6 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
    <period-end iso-date="2021-04-30"></period-end>
    <value currency="EUR" value-date="2020-09-23">258750</value>
   </budget>
-  <transaction humanitarian="1">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-08-18"></transaction-date>
-   <value currency="EUR" value-date="2020-08-18">258750</value>
-   <provider-org provider-activity-id="NL-KVK-41160054-200877" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-41160054-200872" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </receiver-org>
-  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-10-27"></transaction-date>
@@ -106,6 +95,17 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
    </receiver-org>
   </transaction>
   <transaction humanitarian="1">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-08-18"></transaction-date>
+   <value currency="EUR" value-date="2020-08-18">258750</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200877" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41160054-200872" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-08-18"></transaction-date>
    <value currency="EUR" value-date="2020-08-18">258750</value>
@@ -116,34 +116,30 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
     <narrative xml:lang="EN">Cordaid Global Office</narrative>
    </receiver-org>
   </transaction>
-  <related-activity ref="NL-KVK-41160054-200914" type="3"></related-activity>
+  <related-activity ref="NL-KVK-41160054-200876" type="3"></related-activity>
   <related-activity ref="NL-KVK-41160054-200877" type="1"></related-activity>
   <related-activity ref="NL-KVK-41160054-200878" type="3"></related-activity>
-  <related-activity ref="NL-KVK-41160054-200876" type="3"></related-activity>
+  <related-activity ref="NL-KVK-41160054-200914" type="3"></related-activity>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="1">
+  <result aggregation-status="1" type="2">
    <title>
-    <narrative xml:lang="EN">Saving Lives Thematic Indicators</narrative>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of people whose house has been rebuilt or repaired</narrative>
+     <narrative xml:lang="EN">Number of people provided with restricted cash transfers and/or vouchers</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">No. of people whose house has been rebuilt or repaired</narrative>
+     <narrative xml:lang="EN">Number of people provided with restricted cash transfers and/or vouchers</narrative>
     </description>
-    <reference code="SL1.09" vocabulary="99"></reference>
+    <reference code="SL0.02" vocabulary="99"></reference>
+    <baseline iso-date="2020-09-30" value="0" year="2020">
+     <location ref="LB"></location>
+    </baseline>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
-      <location ref="LB"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="725">
       <location ref="LB"></location>
      </actual>
     </period>
@@ -155,9 +151,76 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="725">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-23"></period-start>
      <period-end iso-date="2021-01-31"></period-end>
-     <target value="625"></target>
+     <target value="725"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
+    </description>
+    <reference code="CSH-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-09-30" value="0" year="2020">
+     <location ref="LB"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="480">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="970">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-23"></period-start>
+     <period-end iso-date="2021-01-31"></period-end>
+     <target value="725"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (SL)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of people  who benefitted directly or indirectly with life-saving humanitarian assistance and/or resilient recovery services and/or disaster preparedness from activities in a humanitarian response implemented by Cordaid and implementing partners</narrative>
+    </description>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="970">
+      <location ref="LB"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-09-23"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="8225"></target>
     </period>
    </indicator>
   </result>
@@ -184,16 +247,16 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="970">
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="480">
       <location ref="LB"></location>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <actual value="480">
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="970">
       <location ref="LB"></location>
      </actual>
     </period>
@@ -204,92 +267,22 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
     </period>
    </indicator>
   </result>
-  <result aggregation-status="1" type="2">
+  <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
+    <narrative xml:lang="EN">Saving Lives Thematic Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of beneficiaries reached (SL)</narrative>
+     <narrative xml:lang="EN">Number of people whose house has been rebuilt or repaired</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Number of people  who benefitted directly or indirectly with life-saving humanitarian assistance and/or resilient recovery services and/or disaster preparedness from activities in a humanitarian response implemented by Cordaid and implementing partners</narrative>
+     <narrative xml:lang="EN">No. of people whose house has been rebuilt or repaired</narrative>
     </description>
-    <reference code="SL0.01" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="970">
-      <location ref="LB"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-09-23"></period-start>
-     <period-end iso-date="2021-09-30"></period-end>
-     <target value="8225"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
-    </description>
-    <reference code="CSH-I1" vocabulary="99"></reference>
-    <baseline iso-date="2020-09-30" value="0" year="2020">
-     <location ref="LB"></location>
-    </baseline>
+    <reference code="SL1.09" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
-      <location ref="LB"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="970">
-      <location ref="LB"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <actual value="480">
-      <location ref="LB"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-09-23"></period-start>
-     <period-end iso-date="2021-01-31"></period-end>
-     <target value="725"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people provided with restricted cash transfers and/or vouchers</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Number of people provided with restricted cash transfers and/or vouchers</narrative>
-    </description>
-    <reference code="SL0.02" vocabulary="99"></reference>
-    <baseline iso-date="2020-09-30" value="0" year="2020">
-     <location ref="LB"></location>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
-      <location ref="LB"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="725">
       <location ref="LB"></location>
      </actual>
     </period>
@@ -301,9 +294,16 @@ Cordaid has agreed to pledge funds to support the joint emergency response imple
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="725">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-09-23"></period-start>
      <period-end iso-date="2021-01-31"></period-end>
-     <target value="725"></target>
+     <target value="625"></target>
     </period>
    </indicator>
   </result>

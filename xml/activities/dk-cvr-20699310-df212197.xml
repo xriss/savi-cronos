@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="DKK" dstore:dataset="drc-activities" dstore:index="25" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="DKK" dstore:dataset="drc-activities" dstore:index="25" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>DK-CVR-20699310-DF212197</iati-identifier>
   <reporting-org ref="DK-CVR-20699310" type="21">
    <narrative xml:lang="EN">Danish Refugee Council</narrative>
@@ -12,8 +12,8 @@
   <description type="1">
    <narrative xml:lang="EN">This activity &lt;b&gt; (Supporting the Humanitarian to Humanitarian network in tackling disinformation related to Covid-19 in Africa and Asia) &lt;/b&gt; is a component of &lt;i&gt; Coronavirus Outbreak - UK Response reported by DFID &lt;/i&gt;, with a funding type of &apos;Not for profit organisation&apos; and a budget of &#xA3;2,000,000. &lt;br&gt; This component benefits Developing countries, unspecified, and works in the following sector(s): Infectious disease control.</narrative>
   </description>
-  <participating-org activity-id="GB-GOV-1-301150-117" ref="GB-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">UK - Department for International Development (DFID)</narrative>
+  <participating-org ref="GB-CHC-1178168" role="4" type="21">
+   <narrative xml:lang="EN">CDAC Network</narrative>
   </participating-org>
   <participating-org activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" role="2" type="21">
    <narrative xml:lang="EN">Danish Refugee Council</narrative>
@@ -21,17 +21,14 @@
   <participating-org activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" role="4" type="21">
    <narrative xml:lang="EN">Danish Refugee Council</narrative>
   </participating-org>
+  <participating-org role="4" type="21">
+   <narrative xml:lang="EN">Ground Truth Solutions</narrative>
+  </participating-org>
   <participating-org ref="GB-CHC-1082565" role="4" type="80">
    <narrative xml:lang="EN">Handicap International UK</narrative>
   </participating-org>
   <participating-org ref="GB-CHC-328158" role="4" type="21">
    <narrative xml:lang="EN">Islamic Relief Worldwide</narrative>
-  </participating-org>
-  <participating-org role="4" type="21">
-   <narrative xml:lang="EN">RedR UK</narrative>
-  </participating-org>
-  <participating-org ref="GB-CHC-1178168" role="4" type="21">
-   <narrative xml:lang="EN">CDAC Network</narrative>
   </participating-org>
   <participating-org ref="GB-CHC-1126727" role="4" type="21">
    <narrative xml:lang="EN">MapAction</narrative>
@@ -40,7 +37,10 @@
    <narrative xml:lang="EN">Norwegian Refugee Council</narrative>
   </participating-org>
   <participating-org role="4" type="21">
-   <narrative xml:lang="EN">Ground Truth Solutions</narrative>
+   <narrative xml:lang="EN">RedR UK</narrative>
+  </participating-org>
+  <participating-org activity-id="GB-GOV-1-301150-117" ref="GB-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">UK - Department for International Development (DFID)</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-05-21" type="1"></activity-date>
@@ -67,37 +67,32 @@
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="GBP" value-date="2020-05-21">2000000</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-08-13"></transaction-date>
-   <value currency="GBP" value-date="2020-08-13">600000</value>
-   <provider-org provider-activity-id="GB-GOV-1-301150-117" ref="GB-GOV-1" type="10">
-    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office - UK Government</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
+  <transaction humanitarian="1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-18"></transaction-date>
+   <value currency="GBP" value-date="2020-06-18">54675</value>
+   <description>
+    <narrative xml:lang="EN">DFID - H2H C19 Response - &lt;i&gt; Danish Refugee Council&lt;/i&gt; providing funds to implementing partner: &lt;b&gt; CDAC Network &lt;/b&gt;</narrative>
+   </description>
+   <provider-org provider-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
     <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   </provider-org>
+   <receiver-org ref="GB-CHC-1178168" type="21">
+    <narrative xml:lang="EN">CDAC Network</narrative>
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-03"></transaction-date>
-   <value currency="GBP" value-date="2020-11-03">600000</value>
-   <provider-org provider-activity-id="GB-GOV-1-301150-117" ref="GB-GOV-1" type="10">
-    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office-UK Government</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-09"></transaction-date>
+   <value currency="GBP" value-date="2020-06-09">79119</value>
+   <description>
+    <narrative xml:lang="EN">DFID - H2H C19 Response - &lt;i&gt; Danish Refugee Council&lt;/i&gt; providing funds to implementing partner: &lt;b&gt; Ground Truth Solutions (GTS) &lt;/b&gt;</narrative>
+   </description>
+   <provider-org provider-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
     <narrative xml:lang="EN">Danish Refugee Council</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-01-29"></transaction-date>
-   <value currency="GBP" value-date="2021-01-29">400000</value>
-   <provider-org provider-activity-id="GB-GOV-1-301150-117" ref="GB-GOV-1" type="10">
-    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office- UK Government</narrative>
    </provider-org>
-   <receiver-org receiver-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
-    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   <receiver-org type="21">
+    <narrative xml:lang="EN">Ground Truth Solutions (GTS)</narrative>
    </receiver-org>
   </transaction>
   <transaction humanitarian="1">
@@ -130,16 +125,30 @@
   </transaction>
   <transaction humanitarian="1">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-18"></transaction-date>
-   <value currency="GBP" value-date="2020-06-18">54675</value>
+   <transaction-date iso-date="2020-07-13"></transaction-date>
+   <value currency="GBP" value-date="2020-07-13">50339</value>
    <description>
-    <narrative xml:lang="EN">DFID - H2H C19 Response - &lt;i&gt; Danish Refugee Council&lt;/i&gt; providing funds to implementing partner: &lt;b&gt; CDAC Network &lt;/b&gt;</narrative>
+    <narrative xml:lang="EN">DFID - H2H C19 Response - &lt;i&gt; Danish Refugee Council&lt;/i&gt; providing funds to implementing partner: &lt;b&gt; MapAction &lt;/b&gt;</narrative>
    </description>
    <provider-org provider-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
     <narrative xml:lang="EN">Danish Refugee Council</narrative>
    </provider-org>
-   <receiver-org ref="GB-CHC-1178168" type="21">
-    <narrative xml:lang="EN">CDAC Network</narrative>
+   <receiver-org ref="GB-CHC-1126727" type="21">
+    <narrative xml:lang="EN">MapAction</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-16"></transaction-date>
+   <value currency="GBP" value-date="2020-07-16">210000</value>
+   <description>
+    <narrative xml:lang="EN">DFID - H2H C19 Response - &lt;i&gt; Danish Refugee Council&lt;/i&gt; providing funds to implementing partner: &lt;b&gt; Norwegian Refugee Council &lt;i&gt; (ACAPS) &lt;/i&gt; &lt;/b&gt;</narrative>
+   </description>
+   <provider-org provider-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
+    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   </provider-org>
+   <receiver-org ref="NO-BRC-977538319" type="21">
+    <narrative xml:lang="EN">Norwegian Refugee Council &lt;i&gt; (ACAPS) &lt;/i&gt;</narrative>
    </receiver-org>
   </transaction>
   <transaction humanitarian="1">
@@ -157,48 +166,6 @@
    </receiver-org>
   </transaction>
   <transaction humanitarian="1">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-07-16"></transaction-date>
-   <value currency="GBP" value-date="2020-07-16">210000</value>
-   <description>
-    <narrative xml:lang="EN">DFID - H2H C19 Response - &lt;i&gt; Danish Refugee Council&lt;/i&gt; providing funds to implementing partner: &lt;b&gt; Norwegian Refugee Council &lt;i&gt; (ACAPS) &lt;/i&gt; &lt;/b&gt;</narrative>
-   </description>
-   <provider-org provider-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
-    <narrative xml:lang="EN">Danish Refugee Council</narrative>
-   </provider-org>
-   <receiver-org ref="NO-BRC-977538319" type="21">
-    <narrative xml:lang="EN">Norwegian Refugee Council &lt;i&gt; (ACAPS) &lt;/i&gt;</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-09"></transaction-date>
-   <value currency="GBP" value-date="2020-06-09">79119</value>
-   <description>
-    <narrative xml:lang="EN">DFID - H2H C19 Response - &lt;i&gt; Danish Refugee Council&lt;/i&gt; providing funds to implementing partner: &lt;b&gt; Ground Truth Solutions (GTS) &lt;/b&gt;</narrative>
-   </description>
-   <provider-org provider-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
-    <narrative xml:lang="EN">Danish Refugee Council</narrative>
-   </provider-org>
-   <receiver-org type="21">
-    <narrative xml:lang="EN">Ground Truth Solutions (GTS)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-07-13"></transaction-date>
-   <value currency="GBP" value-date="2020-07-13">50339</value>
-   <description>
-    <narrative xml:lang="EN">DFID - H2H C19 Response - &lt;i&gt; Danish Refugee Council&lt;/i&gt; providing funds to implementing partner: &lt;b&gt; MapAction &lt;/b&gt;</narrative>
-   </description>
-   <provider-org provider-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
-    <narrative xml:lang="EN">Danish Refugee Council</narrative>
-   </provider-org>
-   <receiver-org ref="GB-CHC-1126727" type="21">
-    <narrative xml:lang="EN">MapAction</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction humanitarian="1">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-06-22"></transaction-date>
    <value currency="GBP" value-date="2020-06-01">400000</value>
@@ -207,6 +174,39 @@
    </description>
    <provider-org provider-activity-id="GB-GOV-1-301150-117" ref="GB-GOV-1" type="10">
     <narrative xml:lang="EN">DFID -UK Department for International Development</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
+    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-08-13"></transaction-date>
+   <value currency="GBP" value-date="2020-08-13">600000</value>
+   <provider-org provider-activity-id="GB-GOV-1-301150-117" ref="GB-GOV-1" type="10">
+    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office - UK Government</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
+    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-01-29"></transaction-date>
+   <value currency="GBP" value-date="2021-01-29">400000</value>
+   <provider-org provider-activity-id="GB-GOV-1-301150-117" ref="GB-GOV-1" type="10">
+    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office- UK Government</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
+    <narrative xml:lang="EN">Danish Refugee Council</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-11-03"></transaction-date>
+   <value currency="GBP" value-date="2020-11-03">600000</value>
+   <provider-org provider-activity-id="GB-GOV-1-301150-117" ref="GB-GOV-1" type="10">
+    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office-UK Government</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="DK-CVR-20699310-DK212197" ref="DK-CVR-20699310" type="21">
     <narrative xml:lang="EN">Danish Refugee Council</narrative>

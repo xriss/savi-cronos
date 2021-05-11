@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="220" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="220" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-114-0003</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -9,10 +9,16 @@
    <narrative xml:lang="EN">SHO campaign contribution to LRCS Response on Beirut Explosion</narrative>
   </title>
   <description type="1">
-   <narrative xml:lang="EN">SHO campaign contribution to LRCS Response on Beirut Explosion</narrative>
+   <narrative xml:lang="EN">Beirut, Lebanon</narrative>
+  </description>
+  <description type="3">
+   <narrative xml:lang="EN">Lebanese Red Cross and Netherlands Red Cross</narrative>
   </description>
   <description type="1">
    <narrative xml:lang="EN">On August 4th 2020, an explosion took place in the harbor of Beirut, leading to more than 4000 people being injured, and more than 100 deaths. Many houses are destroyed, and the destruction of the harbor complicates arrival of goods most necessary in times of economic crisis and the covid-19 pandemic.  In response a SHO (GIRO 555) campaign was organized within the Netherlands. This project facilitates a contribution from the SHO campaign to the LRCS Response on the Beirut Explosion.</narrative>
+  </description>
+  <description type="1">
+   <narrative xml:lang="EN">SHO campaign contribution to LRCS Response on Beirut Explosion</narrative>
   </description>
   <description type="2">
    <narrative xml:lang="EN">The project is a contribution from the SHO campaign to the appeal of the Lebanese Red Cross in response to the 2020 Beirut Explosion. The following clusters will benefit from the SHO campaign:
@@ -20,23 +26,17 @@ a) Cash (Cash Voucher Assistance to beneficiaries)
 b) Health (Equipment, consumables and other material for emergency medical services, blood transfusion centers, medical social, operational costs for responding to needs)
 c) Basic Assistance &amp; WASH</narrative>
   </description>
-  <description type="3">
-   <narrative xml:lang="EN">Lebanese Red Cross and Netherlands Red Cross</narrative>
-  </description>
-  <description type="1">
-   <narrative xml:lang="EN">Beirut, Lebanon</narrative>
-  </description>
-  <participating-org ref="NL-KVK-40409352" role="1" type="21">
-   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-  </participating-org>
-  <participating-org ref="NL-KVK-40409352" role="2" type="21">
-   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-  </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Lebanese Red Cross</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-27302841" role="1" type="15">
    <narrative xml:lang="EN">Samenwerkende Hulp Organisaties</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-40409352" role="1" type="21">
+   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-40409352" role="2" type="21">
+   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-08-06" type="2">
@@ -63,14 +63,14 @@ c) Basic Assistance &amp; WASH</narrative>
   <sector code="IA" percentage="50" vocabulary="99">
    <narrative xml:lang="EN">Industrial accident</narrative>
   </sector>
+  <sector code="72010" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
   <sector code="OT" percentage="50" vocabulary="99">
    <narrative xml:lang="EN">Miscelleanous accident</narrative>
   </sector>
   <sector code="2" percentage="100" vocabulary="98">
    <narrative xml:lang="EN">Response</narrative>
-  </sector>
-  <sector code="72010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
   <humanitarian-scope code="OT-2020-000177-LBN" type="1" vocabulary="1-2"></humanitarian-scope>
   <collaboration-type code="1"></collaboration-type>
@@ -84,9 +84,37 @@ c) Basic Assistance &amp; WASH</narrative>
    <value currency="EUR" value-date="2020-08-06">2658520</value>
   </budget>
   <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">2149293</value>
+   <description>
+    <narrative xml:lang="EN">Commitment</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-114-0003" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Lebanese Red Cross</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-03-01"></transaction-date>
-   <value currency="EUR" value-date="2021-03-01">8752</value>
+   <transaction-date iso-date="2020-11-17"></transaction-date>
+   <value currency="EUR" value-date="2020-11-17">1201778</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-114-0003" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Lebanese Red Cross</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-19"></transaction-date>
+   <value currency="EUR" value-date="2020-11-19">17648</value>
    <description>
     <narrative xml:lang="EN">Disbursement</narrative>
    </description>
@@ -112,11 +140,11 @@ c) Basic Assistance &amp; WASH</narrative>
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">2149293</value>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-01"></transaction-date>
+   <value currency="EUR" value-date="2021-03-01">8752</value>
    <description>
-    <narrative xml:lang="EN">Commitment</narrative>
+    <narrative xml:lang="EN">Disbursement</narrative>
    </description>
    <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-114-0003" ref="NL-KVK-40409352" type="21">
     <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -138,20 +166,6 @@ c) Basic Assistance &amp; WASH</narrative>
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">-101717</value>
-   <description>
-    <narrative xml:lang="EN">Incoming Commitment</narrative>
-   </description>
-   <provider-org provider-activity-id="NL-KVK-27302841-202001" ref="NL-KVK-27302841" type="15">
-    <narrative xml:lang="EN">Samenwerkende Hulp Organisaties</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-114-0003" ref="NL-KVK-40409352" type="21">
-    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-11-26"></transaction-date>
    <value currency="EUR" value-date="2020-11-26">2269293</value>
    <description>
@@ -165,31 +179,17 @@ c) Basic Assistance &amp; WASH</narrative>
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-11-19"></transaction-date>
-   <value currency="EUR" value-date="2020-11-19">17648</value>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">-101717</value>
    <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
+    <narrative xml:lang="EN">Incoming Commitment</narrative>
    </description>
-   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-114-0003" ref="NL-KVK-40409352" type="21">
-    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   <provider-org provider-activity-id="NL-KVK-27302841-202001" ref="NL-KVK-27302841" type="15">
+    <narrative xml:lang="EN">Samenwerkende Hulp Organisaties</narrative>
    </provider-org>
-   <receiver-org type="22">
-    <narrative xml:lang="EN">Lebanese Red Cross</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-11-17"></transaction-date>
-   <value currency="EUR" value-date="2020-11-17">1201778</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-114-0003" ref="NL-KVK-40409352" type="21">
+   <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-114-0003" ref="NL-KVK-40409352" type="21">
     <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-   </provider-org>
-   <receiver-org type="22">
-    <narrative xml:lang="EN">Lebanese Red Cross</narrative>
    </receiver-org>
   </transaction>
   <related-activity ref="NL-KVK-40409352-PRJ13-114" type="1"></related-activity>
@@ -225,10 +225,133 @@ c) Basic Assistance &amp; WASH</narrative>
     </period>
    </indicator>
   </result>
+  <result aggregation-status="1" type="3">
+   <title>
+    <narrative xml:lang="EN">Other - People reached</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">People living in communities benefitting from resilience interventions</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons affected by the Beirut Blast</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons in total with support from the Netherlands Red Cross.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons in total with the support from the Netherlands Red Cross.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons in total with the support from the Netherlands Red Cross.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons with support from the Netherlands Red Cross.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-08-26"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="251848"></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
     <narrative xml:lang="EN">Health - Access to treatment &amp; services</narrative>
    </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of persons receiving primary health care support</narrative>
+    </title>
+    <baseline year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="11850">
+      <comment>
+       <narrative xml:lang="EN">A number of 11.850 persons received primary health care support.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="11850">
+      <comment>
+       <narrative xml:lang="EN">A number of 11.850 persons received primary health care support.</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Health - Access to treatment &amp; services</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of persons receiving psychosocial support</narrative>
+    </title>
+    <baseline year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="6052">
+      <comment>
+       <narrative xml:lang="EN">A number of 6.052 persons received support from psychosocial services.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
+     <actual value="6052">
+      <comment>
+       <narrative xml:lang="EN">A number of 6.052 persons received support from psychosocial services.</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of persons receiving life saving health services</narrative>
@@ -251,30 +374,6 @@ A number of 3.741 individuals have been treated and transported by ambulance.</n
       <comment>
        <narrative xml:lang="EN">A total of 10.129 blood units have been distributed to hospitals.
 A number of 3.741 individuals have been treated and transported by ambulance.</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of persons receiving psychosocial support</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="6052">
-      <comment>
-       <narrative xml:lang="EN">A number of 6.052 persons received support from psychosocial services.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="6052">
-      <comment>
-       <narrative xml:lang="EN">A number of 6.052 persons received support from psychosocial services.</narrative>
       </comment>
      </actual>
     </period>
@@ -309,35 +408,6 @@ A number of 3.741 individuals have been treated and transported by ambulance.</n
     </period>
    </indicator>
   </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Health - Access to treatment &amp; services</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of persons receiving primary health care support</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="11850">
-      <comment>
-       <narrative xml:lang="EN">A number of 11.850 persons received primary health care support.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="11850">
-      <comment>
-       <narrative xml:lang="EN">A number of 11.850 persons received primary health care support.</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-  </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Livelihoods</narrative>
@@ -359,6 +429,15 @@ A number of 3.741 individuals have been treated and transported by ambulance.</n
     <period>
      <period-start iso-date="2020-12-16"></period-start>
      <period-end iso-date="2020-12-16"></period-end>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">In de periode tussen 7 augustus en 31 oktober 2020 hebben 7.092 kwetsbare gezinnen cash ondersteuning ontvangen om te kunnen voorzien in hun basisbehoeften.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-16"></period-start>
+     <period-end iso-date="2020-12-16"></period-end>
      <actual value="35460">
       <comment>
        <narrative xml:lang="EN">In de periode tussen 7 augustus en 31 oktober 2020 hebben 7.092 kwetsbare gezinnen cash ondersteuning ontvangen om te kunnen voorzien in hun basisbehoeften.</narrative>
@@ -371,85 +450,6 @@ A number of 3.741 individuals have been treated and transported by ambulance.</n
      <actual value="0">
       <comment>
        <narrative xml:lang="EN">In the period between 7 August and 31 October 2020 a total number of 7.092 vulnerable families (approximately 35.460 persons) have received cash support to purchase their basic needs.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">In de periode tussen 7 augustus en 31 oktober 2020 hebben 7.092 kwetsbare gezinnen cash ondersteuning ontvangen om te kunnen voorzien in hun basisbehoeften.</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="3">
-   <title>
-    <narrative xml:lang="EN">Other - People reached</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">People living in communities benefitting from resilience interventions</narrative>
-    </title>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-08-26"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="251848"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons in total with the support from the Netherlands Red Cross.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons in total with the support from the Netherlands Red Cross.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons in total with support from the Netherlands Red Cross.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons with support from the Netherlands Red Cross.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-12-16"></period-start>
-     <period-end iso-date="2020-12-16"></period-end>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">During the reporting period 7 August - 31 October 2020 the Lebanese Red cross Society supported a number of 251.848 persons affected by the Beirut Blast</narrative>
       </comment>
      </actual>
     </period>

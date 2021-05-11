@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-multiple-15" dstore:index="244" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-multiple-15" dstore:index="244" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-AID-OAA-A-16-00032</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -14,14 +14,14 @@
   <participating-org ref="US-GOV-11" role="1" type="10">
    <narrative xml:lang="EN">Department of State</narrative>
   </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">International AIDS Vaccine Initiative</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="2" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">International AIDS Vaccine Initiative</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2016-07-01" type="1"></activity-date>
@@ -47,16 +47,38 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <transaction ref="AA62B225C823">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <value currency="USD" value-date="2020-04-30">350000</value>
+   <description>
+    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
+   </description>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3004" vocabulary="99">
+    <narrative xml:lang="EN">Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <transaction ref="2BF05830A60B">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2017-09-30"></transaction-date>
    <value currency="USD" value-date="2017-09-30">325000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-country code="KE"></recipient-country>
    <usg:treasury-account>
@@ -70,11 +92,11 @@
    <transaction-date iso-date="2017-09-30"></transaction-date>
    <value currency="USD" value-date="2017-09-30">325000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-country code="KE"></recipient-country>
    <usg:treasury-account>
@@ -88,11 +110,11 @@
    <transaction-date iso-date="2016-06-30"></transaction-date>
    <value currency="USD" value-date="2016-06-30">9710000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -106,11 +128,11 @@
    <transaction-date iso-date="2016-09-30"></transaction-date>
    <value currency="USD" value-date="2016-09-30">4000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -124,29 +146,11 @@
    <transaction-date iso-date="2016-12-31"></transaction-date>
    <value currency="USD" value-date="2016-12-31">4000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
    </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="EC450B890227">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-31"></transaction-date>
-   <value currency="USD" value-date="2017-03-31">1710000</value>
-   <disbursement-channel code="2"></disbursement-channel>
    <sector code="13040" vocabulary="1">
     <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3001" vocabulary="99">
-    <narrative xml:lang="EN">HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -160,15 +164,33 @@
    <transaction-date iso-date="2017-03-31"></transaction-date>
    <value currency="USD" value-date="2017-03-31">14290000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="EC450B890227">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-03-31"></transaction-date>
+   <value currency="USD" value-date="2017-03-31">1710000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3001" vocabulary="99">
+    <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
@@ -178,11 +200,11 @@
    <transaction-date iso-date="2017-03-31"></transaction-date>
    <value currency="USD" value-date="2017-03-31">4000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -196,11 +218,11 @@
    <transaction-date iso-date="2017-06-30"></transaction-date>
    <value currency="USD" value-date="2017-06-30">3380352</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -214,11 +236,11 @@
    <transaction-date iso-date="2017-06-30"></transaction-date>
    <value currency="USD" value-date="2017-06-30">7000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -232,11 +254,11 @@
    <transaction-date iso-date="2017-09-30"></transaction-date>
    <value currency="USD" value-date="2017-09-30">8039648</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -250,47 +272,11 @@
    <transaction-date iso-date="2017-09-30"></transaction-date>
    <value currency="USD" value-date="2017-09-30">7675000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
    </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="54B934DEBCAC">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-12-31">6000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
    <sector code="13040" vocabulary="1">
     <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3001" vocabulary="99">
-    <narrative xml:lang="EN">HIV/AIDS</narrative>
-   </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="D59F0C3F4E6C">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-31"></transaction-date>
-   <value currency="USD" value-date="2018-03-31">1035000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3001" vocabulary="99">
-    <narrative xml:lang="EN">HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -304,15 +290,51 @@
    <transaction-date iso-date="2017-12-31"></transaction-date>
    <value currency="USD" value-date="2017-12-31">18534771</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="54B934DEBCAC">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-12-31">6000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3001" vocabulary="99">
+    <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="D59F0C3F4E6C">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-03-31"></transaction-date>
+   <value currency="USD" value-date="2018-03-31">1035000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3001" vocabulary="99">
+    <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
@@ -322,11 +344,11 @@
    <transaction-date iso-date="2018-03-31"></transaction-date>
    <value currency="USD" value-date="2018-03-31">6965000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -340,11 +362,11 @@
    <transaction-date iso-date="2018-06-30"></transaction-date>
    <value currency="USD" value-date="2018-06-30">9784119</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -358,11 +380,11 @@
    <transaction-date iso-date="2018-06-30"></transaction-date>
    <value currency="USD" value-date="2018-06-30">7000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -376,11 +398,11 @@
    <transaction-date iso-date="2018-09-30"></transaction-date>
    <value currency="USD" value-date="2018-09-30">5000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -394,11 +416,11 @@
    <transaction-date iso-date="2018-12-31"></transaction-date>
    <value currency="USD" value-date="2018-12-31">6500000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -412,11 +434,11 @@
    <transaction-date iso-date="2019-03-31"></transaction-date>
    <value currency="USD" value-date="2019-03-31">2853890</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -430,11 +452,11 @@
    <transaction-date iso-date="2019-06-30"></transaction-date>
    <value currency="USD" value-date="2019-06-30">18191048</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -448,11 +470,11 @@
    <transaction-date iso-date="2019-06-30"></transaction-date>
    <value currency="USD" value-date="2019-06-30">8000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -466,11 +488,11 @@
    <transaction-date iso-date="2019-09-30"></transaction-date>
    <value currency="USD" value-date="2019-09-30">13094119</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -484,11 +506,11 @@
    <transaction-date iso-date="2019-09-30"></transaction-date>
    <value currency="USD" value-date="2019-09-30">8000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -502,11 +524,11 @@
    <transaction-date iso-date="2019-10-31"></transaction-date>
    <value currency="USD" value-date="2019-10-31">3000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -520,137 +542,11 @@
    <transaction-date iso-date="2019-11-30"></transaction-date>
    <value currency="USD" value-date="2019-11-30">1000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
    </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="4DB6A06A65F4">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">1000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
    <sector code="13040" vocabulary="1">
     <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3001" vocabulary="99">
-    <narrative xml:lang="EN">HIV/AIDS</narrative>
-   </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="9F74CF18288C">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-01-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-31">2000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3001" vocabulary="99">
-    <narrative xml:lang="EN">HIV/AIDS</narrative>
-   </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="8CA358AE39D3">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-29"></transaction-date>
-   <value currency="USD" value-date="2020-02-29">1000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3001" vocabulary="99">
-    <narrative xml:lang="EN">HIV/AIDS</narrative>
-   </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="0B0A7E60FF95">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">2000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3001" vocabulary="99">
-    <narrative xml:lang="EN">HIV/AIDS</narrative>
-   </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="2E0E44AA727A">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">260132</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3001" vocabulary="99">
-    <narrative xml:lang="EN">HIV/AIDS</narrative>
-   </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="C18F6724745F">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">4000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3001" vocabulary="99">
-    <narrative xml:lang="EN">HIV/AIDS</narrative>
-   </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="8EC85BC29B5F">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">1000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3001" vocabulary="99">
-    <narrative xml:lang="EN">HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -664,15 +560,33 @@
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">30664701</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="4DB6A06A65F4">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">1000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3001" vocabulary="99">
+    <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
@@ -682,15 +596,33 @@
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">1000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="9F74CF18288C">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-01-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-31">2000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3001" vocabulary="99">
+    <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
@@ -700,15 +632,33 @@
    <transaction-date iso-date="2020-01-31"></transaction-date>
    <value currency="USD" value-date="2020-01-31">2000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="8CA358AE39D3">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-29"></transaction-date>
+   <value currency="USD" value-date="2020-02-29">1000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3001" vocabulary="99">
+    <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
@@ -718,15 +668,33 @@
    <transaction-date iso-date="2020-02-29"></transaction-date>
    <value currency="USD" value-date="2020-02-29">1000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="0B0A7E60FF95">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">2000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3001" vocabulary="99">
+    <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
@@ -736,11 +704,11 @@
    <transaction-date iso-date="2020-04-30"></transaction-date>
    <value currency="USD" value-date="2020-04-30">3000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -754,15 +722,33 @@
    <transaction-date iso-date="2020-05-31"></transaction-date>
    <value currency="USD" value-date="2020-05-31">1500000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="2E0E44AA727A">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">260132</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3001" vocabulary="99">
+    <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
@@ -772,15 +758,51 @@
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-06-30">739868</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="C18F6724745F">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">4000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3001" vocabulary="99">
+    <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1031">Global Health Programs</usg:main-account>
+    <usg:regular-account code="19"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="8EC85BC29B5F">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">1000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="3001" vocabulary="99">
+    <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
@@ -790,37 +812,15 @@
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">10500000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="1031">Global Health Programs</usg:main-account>
-    <usg:regular-account code="19"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="AA62B225C823">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
-   <value currency="USD" value-date="2020-04-30">350000</value>
-   <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
-   </description>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
-   <sector code="3004" vocabulary="99">
-    <narrative xml:lang="EN">Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-   </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
     <usg:main-account code="1031">Global Health Programs</usg:main-account>
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
@@ -830,11 +830,11 @@
    <transaction-date iso-date="2020-10-31"></transaction-date>
    <value currency="USD" value-date="2020-10-31">2000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -848,11 +848,11 @@
    <transaction-date iso-date="2020-11-30"></transaction-date>
    <value currency="USD" value-date="2020-11-30">3000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -866,11 +866,11 @@
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">13000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -884,11 +884,11 @@
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">1000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -902,11 +902,11 @@
    <transaction-date iso-date="2021-01-31"></transaction-date>
    <value currency="USD" value-date="2021-01-31">3000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -920,11 +920,11 @@
    <transaction-date iso-date="2021-02-28"></transaction-date>
    <value currency="USD" value-date="2021-02-28">2000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -938,11 +938,11 @@
    <transaction-date iso-date="2021-03-31"></transaction-date>
    <value currency="USD" value-date="2021-03-31">9460000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -956,11 +956,11 @@
    <transaction-date iso-date="2021-03-31"></transaction-date>
    <value currency="USD" value-date="2021-03-31">1000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="13040" vocabulary="1">
-    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
-   </sector>
    <sector code="3001" vocabulary="99">
     <narrative xml:lang="EN">HIV/AIDS</narrative>
+   </sector>
+   <sector code="13040" vocabulary="1">
+    <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>

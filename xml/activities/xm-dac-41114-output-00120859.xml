@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-tza" dstore:index="94" hierarchy="2" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-tza" dstore:index="94" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00120859</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">Implementing the Climate Promise by enhancing NDCs in Tanzania in the face of COVID-19</narrative>
   </description>
-  <participating-org ref="03218" role="4" type="10">
-   <narrative xml:lang="EN">Zanzibar Revolutionary Governm</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-41114" role="1">
    <narrative xml:lang="EN">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+  </participating-org>
+  <participating-org ref="03218" role="4" type="10">
+   <narrative xml:lang="EN">Zanzibar Revolutionary Governm</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2018-09-01" type="1"></activity-date>
@@ -42,15 +42,6 @@
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">10963</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
    <value currency="USD" value-date="2021-04-30">110000</value>
@@ -71,14 +62,23 @@
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">10963</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://open.undp.org/projects/00094386">
    <title>
     <narrative xml:lang="EN">Activity web page</narrative>
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00094386" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00098494" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00094386" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

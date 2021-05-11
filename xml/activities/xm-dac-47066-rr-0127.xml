@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="2191" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="2191" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-RR.0127</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,18 +11,18 @@
   <description>
    <narrative xml:lang="EN">The project contributes to the dignified, safe and voluntary return and provide humanitarian support to migrants who are considering voluntary return options, including those affected by the COVID-19 pandemic. This program will be built upon the vision, principles and objectives in IOM&apos;s Assisted Voluntary Return and Reintegration (AVRR) framework and IOM&apos;s Humanitarian Principles for Action.</narrative>
   </description>
-  <participating-org activity-id="US-USAGOV-SPRMCO20VC0026" ref="US-USAGOV" role="1" type="10">
-   <narrative xml:lang="EN">United States</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="US-USAGOV-SPRMCO20VC0026" ref="US-USAGOV" role="1" type="10">
+   <narrative xml:lang="EN">United States</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-03-01" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-03-01" type="2">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-03-01" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <activity-date iso-date="2021-09-30" type="3">
    <narrative xml:lang="EN">Planned</narrative>
@@ -38,6 +38,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="HN" percentage="100"></recipient-country>
+  <location ref="HN">
+   <location-reach code="2"></location-reach>
+   <location-id code="HN" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Honduras</narrative>
+   </name>
+   <administrative code="HN" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -50,22 +58,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="HN">
-   <location-reach code="2"></location-reach>
-   <location-id code="HN" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Honduras</narrative>
-   </name>
-   <administrative code="HN" vocabulary="A4"></administrative>
-  </location>
-  <sector code="RR" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
-   <narrative xml:lang="EN">Return and Reintegration Assistance for Migrants and Governments</narrative>
+  <sector code="15190" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
   </sector>
   <sector code="04" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Regulating Migration</narrative>
   </sector>
-  <sector code="15190" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
+  <sector code="RR" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
+   <narrative xml:lang="EN">Return and Reintegration Assistance for Migrants and Governments</narrative>
   </sector>
   <policy-marker code="1" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project with some but insufficient inclusion of gender issues</narrative>

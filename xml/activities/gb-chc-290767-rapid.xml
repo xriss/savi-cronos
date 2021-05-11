@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="wjr_001-activities" dstore:index="7" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="wjr_001-activities" dstore:index="7" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-290767-RAPID</iati-identifier>
   <reporting-org ref="GB-CHC-290767" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">World Jewish Relief</narrative>
@@ -8,6 +8,31 @@
   <title>
    <narrative xml:lang="EN">Rwandan Answer to Pandemic through Investment and Development (RAPID)</narrative>
   </title>
+  <description type="3">
+   <narrative xml:lang="EN">1) Vulnerable individuals in 4 sectors of Kayonza District (Mukarange, Gahini, Kabarondo, Nyamirama - these are 4 out
+5 sectors in the district with any urban population):
+a) Older people&#x2019;s households and individuals with comorbidities (300 households)
+According to the latest census (NISR, 2015), there are 2,863 individuals over 70 years old in these 4 sectors.
+Households with an older person seem uniformly to struggle with food scarcity.
+Support: information, hand-washing station, hygiene kit, food delivery over 6 months, follow-ups
+b) Informal workers&#x2019; households (425 households)
+The majority of 16,962 working age urban population of 4 sectors are working informally (domestic workers, market
+traders etc.). This group includes sex workers from Kayonza and Kabarondo towns who have been serving truck drivers
+delivering cargo between Kigali and Tanzania.
+Support: information, hygiene kit, cash transfers (month 1 &#x2013; 425 households, month 2 &#x2013; 300, month 3 &#x2013; 200)
+c) Vulnerable families with children at-risk (250 households)
+SACCA has been already running a prevention programme for vulnerable families in the communities. Children in such
+families are at-risk of going to the streets because of carers&#x2019; inability to provide for the most basic needs. These are
+often households from Ubudehe 2 and they are not entitled for governmental support.
+Support: information, hygiene kit, cash transfers for 3 months, livelihoods support for 120 families over 3 months
+d) Girl street children (45)
+SACCA is one of 3 centres supporting street girls in Rwanda and the only one in the Eastern Province with a
+rehabilitation programme. SACCA has been contacted by the district transit centre for street children with a request to
+accommodate more girls.
+Support: rehabilitation in the centre, reintegration support
+2) Patients of 15 health centres and 28 health posts (80,000 per month) in Kayonza district - the health facilities with be
+equipped with hand-washing stations and water tanks.</narrative>
+  </description>
   <description type="1">
    <narrative xml:lang="EN">The project will strive to mitigate health as well as economic and social impacts of COVID&#x2011;19. It will adopt a youth-led
 approach. Given that the median age of the continent is 19.7 years, youth leadership will be critical for prevention and
@@ -40,39 +65,14 @@ SACCA Rehabilitation Centre.
 It will also deliver essential hand-washing and other equipment to 15 health centres and 28 health posts in Kayonza
 District.</narrative>
   </description>
-  <description type="3">
-   <narrative xml:lang="EN">1) Vulnerable individuals in 4 sectors of Kayonza District (Mukarange, Gahini, Kabarondo, Nyamirama - these are 4 out
-5 sectors in the district with any urban population):
-a) Older people&#x2019;s households and individuals with comorbidities (300 households)
-According to the latest census (NISR, 2015), there are 2,863 individuals over 70 years old in these 4 sectors.
-Households with an older person seem uniformly to struggle with food scarcity.
-Support: information, hand-washing station, hygiene kit, food delivery over 6 months, follow-ups
-b) Informal workers&#x2019; households (425 households)
-The majority of 16,962 working age urban population of 4 sectors are working informally (domestic workers, market
-traders etc.). This group includes sex workers from Kayonza and Kabarondo towns who have been serving truck drivers
-delivering cargo between Kigali and Tanzania.
-Support: information, hygiene kit, cash transfers (month 1 &#x2013; 425 households, month 2 &#x2013; 300, month 3 &#x2013; 200)
-c) Vulnerable families with children at-risk (250 households)
-SACCA has been already running a prevention programme for vulnerable families in the communities. Children in such
-families are at-risk of going to the streets because of carers&#x2019; inability to provide for the most basic needs. These are
-often households from Ubudehe 2 and they are not entitled for governmental support.
-Support: information, hygiene kit, cash transfers for 3 months, livelihoods support for 120 families over 3 months
-d) Girl street children (45)
-SACCA is one of 3 centres supporting street girls in Rwanda and the only one in the Eastern Province with a
-rehabilitation programme. SACCA has been contacted by the district transit centre for street children with a request to
-accommodate more girls.
-Support: rehabilitation in the centre, reintegration support
-2) Patients of 15 health centres and 28 health posts (80,000 per month) in Kayonza district - the health facilities with be
-equipped with hand-washing stations and water tanks.</narrative>
-  </description>
-  <participating-org ref="GB-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">UK - Department for International Development (DFID)</narrative>
-  </participating-org>
   <participating-org ref="GB-COH-04105827" role="3" type="70">
    <narrative xml:lang="EN">MannionDaniels</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">SACCA</narrative>
+  </participating-org>
+  <participating-org ref="GB-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">UK - Department for International Development (DFID)</narrative>
   </participating-org>
   <participating-org ref="GB-CHC-290767" role="2" type="21">
    <narrative xml:lang="EN">World Jewish Relief</narrative>
@@ -82,8 +82,8 @@ equipped with hand-washing stations and water tanks.</narrative>
   <activity-date iso-date="2021-02-28" type="3"></activity-date>
   <recipient-country code="RW" percentage="100"></recipient-country>
   <sector code="12250" percentage="33" vocabulary="1"></sector>
-  <sector code="52010" percentage="33" vocabulary="1"></sector>
   <sector code="14032" percentage="34" vocabulary="1"></sector>
+  <sector code="52010" percentage="33" vocabulary="1"></sector>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="4"></default-tied-status>
@@ -92,12 +92,12 @@ equipped with hand-washing stations and water tanks.</narrative>
    <period-end iso-date="2021-02-28"></period-end>
    <value currency="GBP" value-date="2020-09-01">191413</value>
   </budget>
-  <transaction humanitarian="0">
+  <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-11"></transaction-date>
-   <value currency="GBP" value-date="2020-11-11">816.48</value>
+   <transaction-date iso-date="2021-02-03"></transaction-date>
+   <value currency="GBP" value-date="2021-02-03">1920.71</value>
    <description>
-    <narrative xml:lang="EN">World Jewish Relief staff costs</narrative>
+    <narrative xml:lang="EN">NPAC</narrative>
    </description>
   </transaction>
   <transaction humanitarian="0">
@@ -106,14 +106,6 @@ equipped with hand-washing stations and water tanks.</narrative>
    <value currency="GBP" value-date="2020-11-11">53183.92</value>
    <description>
     <narrative xml:lang="EN">SACCA Project Spends</narrative>
-   </description>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-02-03"></transaction-date>
-   <value currency="GBP" value-date="2021-02-03">2866.67</value>
-   <description>
-    <narrative xml:lang="EN">World Jewish Relief Staff Costs</narrative>
    </description>
   </transaction>
   <transaction>
@@ -127,9 +119,17 @@ equipped with hand-washing stations and water tanks.</narrative>
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-02-03"></transaction-date>
-   <value currency="GBP" value-date="2021-02-03">1920.71</value>
+   <value currency="GBP" value-date="2021-02-03">2866.67</value>
    <description>
-    <narrative xml:lang="EN">NPAC</narrative>
+    <narrative xml:lang="EN">World Jewish Relief Staff Costs</narrative>
+   </description>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-11"></transaction-date>
+   <value currency="GBP" value-date="2020-11-11">816.48</value>
+   <description>
+    <narrative xml:lang="EN">World Jewish Relief staff costs</narrative>
    </description>
   </transaction>
  </iati-activity>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="aecid-gt" dstore:index="78" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="aecid-gt" dstore:index="78" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="iati-activities-schema.xsd">
   <iati-identifier>ES-DIR3-EA0035768-Z03-20-01-12900</iati-identifier>
   <reporting-org ref="ES-DIR3-EA0035768" type="10">
    <narrative xml:lang="EN">AECID Spanish Agency for International Development Cooperation</narrative>
@@ -14,13 +14,13 @@
   <participating-org ref="ES-DIR3-EA0035768" role="1" type="10" xml:lang="EN">
    <narrative xml:lang="EN">AECID</narrative>
   </participating-org>
+  <participating-org ref="33481652" role="2" xml:lang="ES">
+   <narrative xml:lang="EN">CENTRARSE</narrative>
+  </participating-org>
   <participating-org ref="33481652" role="3" xml:lang="ES">
    <narrative xml:lang="EN">CENTRARSE</narrative>
   </participating-org>
   <participating-org ref="33481652" role="4" xml:lang="ES">
-   <narrative xml:lang="EN">CENTRARSE</narrative>
-  </participating-org>
-  <participating-org ref="33481652" role="2" xml:lang="ES">
    <narrative xml:lang="EN">CENTRARSE</narrative>
   </participating-org>
   <other-identifier ref="Z03-20-01-12900-GT" type="10">
@@ -28,14 +28,14 @@
     <narrative xml:lang="EN">AECID Spanish Agency for International Development Cooperation</narrative>
    </owner-org>
   </other-identifier>
-  <other-identifier ref="Z03/20/01/12900" type="10">
-   <owner-org ref="ES-DIR3-EA0035768">
-    <narrative xml:lang="EN">AECID-PEP</narrative>
-   </owner-org>
-  </other-identifier>
   <other-identifier ref="2020/SPE/0000400137" type="10">
    <owner-org ref="ES-DIR3-EA0035768">
     <narrative xml:lang="EN">AECID-Exp</narrative>
+   </owner-org>
+  </other-identifier>
+  <other-identifier ref="Z03/20/01/12900" type="10">
+   <owner-org ref="ES-DIR3-EA0035768">
+    <narrative xml:lang="EN">AECID-PEP</narrative>
    </owner-org>
   </other-identifier>
   <activity-status code="2"></activity-status>
@@ -51,9 +51,12 @@
   <recipient-country code="GT" percentage="100"></recipient-country>
   <recipient-region code="389" percentage="100" vocabulary="1"></recipient-region>
   <sector code="15160" percentage="100" vocabulary="1"></sector>
-  <tag code="COVID-19" vocabulary="99"></tag>
   <tag code="12.6" vocabulary="3"></tag>
+  <tag code="COVID-19" vocabulary="99"></tag>
   <policy-marker code="1" significance="0" vocabulary="1"></policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1"></policy-marker>
+  <policy-marker code="11" significance="0" vocabulary="1"></policy-marker>
+  <policy-marker code="12" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="2" significance="1" vocabulary="1"></policy-marker>
   <policy-marker code="3" significance="2" vocabulary="1"></policy-marker>
   <policy-marker code="4" significance="0" vocabulary="1"></policy-marker>
@@ -62,9 +65,6 @@
   <policy-marker code="7" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="9" significance="0" vocabulary="1"></policy-marker>
-  <policy-marker code="10" significance="0" vocabulary="1"></policy-marker>
-  <policy-marker code="11" significance="0" vocabulary="1"></policy-marker>
-  <policy-marker code="12" significance="0" vocabulary="1"></policy-marker>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-dji" dstore:index="91" hierarchy="2" humanitarian="0" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-dji" dstore:index="91" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00125202</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="FR">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="FR">The project targets a wide range of affected population, including local micro, small and medium size enterprises, youth, CSOs  and entrepreneurs to mitigate the socioeconomic impacts of COVID-19 and rapidly recover from the socioeconomic crisis.</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="FR">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="US-USAGOV" role="1" type="10">
    <narrative xml:lang="FR">UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID)</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="FR">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2021-01-04" type="1"></activity-date>
@@ -49,11 +49,11 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPLC"></feature-designation>
   </location>
-  <sector code="16050" percentage="100" vocabulary="1"></sector>
-  <sector code="8.5" percentage="100" vocabulary="8"></sector>
   <sector code="17" percentage="100" vocabulary="99">
    <narrative xml:lang="FR">Eradicate poverty in all its forms and dimensions</narrative>
   </sector>
+  <sector code="16050" percentage="100" vocabulary="1"></sector>
+  <sector code="8.5" percentage="100" vocabulary="8"></sector>
   <tag code="8.5" vocabulary="3"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="FR">Global COVID-19</narrative>
@@ -65,29 +65,56 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="2">
-   <period-start iso-date="2022-01-01"></period-start>
-   <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-04-30">544668</value>
-  </budget>
-  <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-04-30">1930332</value>
   </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2021-04-30">544668</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">26534</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">2475000</value>
+   <provider-org ref="US-USAGOV" type="10">
+    <narrative xml:lang="FR">UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID)</narrative>
    </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125202" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">1930332</value>
+   <provider-org ref="US-USAGOV" type="10">
+    <narrative xml:lang="FR">UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125202" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">544668</value>
+   <provider-org ref="US-USAGOV" type="10">
+    <narrative xml:lang="FR">UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125202" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">56695</value>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">2421</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
@@ -104,47 +131,11 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">2421</value>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">56695</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">544668</value>
-   <provider-org ref="US-USAGOV" type="10">
-    <narrative xml:lang="FR">UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID)</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125202" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="FR">United Nations Development Programme</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">1930332</value>
-   <provider-org ref="US-USAGOV" type="10">
-    <narrative xml:lang="FR">UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID)</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125202" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="FR">United Nations Development Programme</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">2475000</value>
-   <provider-org ref="US-USAGOV" type="10">
-    <narrative xml:lang="FR">UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID)</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00125202" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="FR">United Nations Development Programme</narrative>
-   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -156,14 +147,23 @@
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">26534</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://open.undp.org/projects/00125686">
    <title>
     <narrative xml:lang="FR">Activity web page</narrative>
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00125686" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00119977" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00125686" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

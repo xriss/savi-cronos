@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="247" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="247" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200785</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -8,9 +8,6 @@
   <title>
    <narrative xml:lang="EN">Expanding partner network in Syria to enable Cordaid&#x2019;s growth</narrative>
   </title>
-  <description type="1">
-   <narrative xml:lang="EN">Provide life-saving assistance and organise capacity building and awareness raising initiatives to prevent and reduce the outspread of COVID-19 in Syria</narrative>
-  </description>
   <description type="2">
    <narrative xml:lang="EN">Create qualified emergency teams able to apply effective and appropriate emergency strategies to respond to the current and the future epidemic outbreaks in Syria, involving especially the youth.</narrative>
   </description>
@@ -22,6 +19,9 @@ o Children
 o Youth
 
 o Elderly</narrative>
+  </description>
+  <description type="1">
+   <narrative xml:lang="EN">Provide life-saving assistance and organise capacity building and awareness raising initiatives to prevent and reduce the outspread of COVID-19 in Syria</narrative>
   </description>
   <participating-org ref="NL-KVK-41160054" role="2" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
@@ -49,16 +49,16 @@ o Elderly</narrative>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="SY" percentage="100"></recipient-country>
   <recipient-region code="589" percentage="0" vocabulary="1"></recipient-region>
-  <location ref="SY">
+  <location ref="229116">
    <name>
-    <narrative xml:lang="EN">Syria</narrative>
+    <narrative xml:lang="EN">Damascus</narrative>
    </name>
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <location ref="229116">
+  <location ref="SY">
    <name>
-    <narrative xml:lang="EN">Damascus</narrative>
+    <narrative xml:lang="EN">Syria</narrative>
    </name>
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
@@ -77,107 +77,6 @@ o Elderly</narrative>
    <value currency="EUR" value-date="2020-02-01">210000</value>
   </budget>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Saving Lives Project Specific Indicators</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of individuals trained on health issues</narrative>
-    </title>
-    <reference code="SL2.09" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="60">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-02-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="760"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of hygiene kits distributed</narrative>
-    </title>
-    <reference code="SL2.36" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="250">
-      <location ref="SY"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-02-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="250"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of families receiving milk and diapers for new borns</narrative>
-    </title>
-    <reference code="SL2.47" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="229116"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="229116"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="175">
-      <location ref="229116"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-02-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="175"></target>
-    </period>
-   </indicator>
-  </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
@@ -218,121 +117,6 @@ o Elderly</narrative>
   </result>
   <result aggregation-status="1" type="2">
    <title>
-    <narrative xml:lang="EN">Peace Thematic Indicators</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people (disaggregated by gender) reached with awareness raising</narrative>
-    </title>
-    <reference code="PE1.14" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="398">
-      <location ref="SY"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
-    </title>
-    <reference code="COV.CC.05" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-02-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="200"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Sustain School Children&apos;s Access to Quality Education</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
-    </title>
-    <reference code="COV.CC.05" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-02-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="200"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
     <narrative xml:lang="EN">Access to Life saving basic services provided</narrative>
    </title>
    <indicator ascending="1" measure="1">
@@ -345,15 +129,15 @@ o Elderly</narrative>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="SY"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="SY"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
      </actual>
      <actual value="0">
       <location ref="SY"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
      </actual>
     </period>
     <period>
@@ -377,8 +161,36 @@ o Elderly</narrative>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="SY"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
      </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-02-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="200"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
+    </title>
+    <reference code="COV.CC.05" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="SY"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
@@ -386,6 +198,10 @@ o Elderly</narrative>
      <actual value="0">
       <location ref="SY"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
      </actual>
     </period>
     <period>
@@ -409,8 +225,36 @@ o Elderly</narrative>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="SY"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
      </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-02-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="200"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Sustain School Children&apos;s Access to Quality Education</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
+    </title>
+    <reference code="COV.CC.05" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="SY"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
@@ -419,11 +263,167 @@ o Elderly</narrative>
       <location ref="SY"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
     </period>
     <period>
      <period-start iso-date="2020-02-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="200"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Peace Thematic Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people (disaggregated by gender) reached with awareness raising</narrative>
+    </title>
+    <reference code="PE1.14" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="398">
+      <location ref="SY"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Project Specific Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of families receiving milk and diapers for new borns</narrative>
+    </title>
+    <reference code="SL2.47" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="229116"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="229116"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="175">
+      <location ref="229116"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-02-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="175"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of hygiene kits distributed</narrative>
+    </title>
+    <reference code="SL2.36" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="250">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-02-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="250"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of individuals trained on health issues</narrative>
+    </title>
+    <reference code="SL2.09" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="60">
+      <location ref="SY"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-02-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="760"></target>
     </period>
    </indicator>
   </result>

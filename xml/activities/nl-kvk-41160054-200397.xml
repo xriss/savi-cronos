@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="126" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="126" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200397</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -11,20 +11,20 @@
   <description type="1">
    <narrative xml:lang="EN">For decades Herat has been harbouring conflict and natural disaster affected IDPs and returnees. With the conflict intensifying, lack of rain and changing political situation, their numbers are rapidly increasing surpassing the absorption capacity of the communities. People are food insecure, need access to land, shelter, and basic services.</narrative>
   </description>
-  <description type="2">
-   <narrative xml:lang="EN">To ensure that the life-saving protection and assistance needs of conflict, natural disaster affected and internally displaced persons, returning Afghans and their host community are met.</narrative>
-  </description>
   <description type="3">
    <narrative xml:lang="EN">Target group: Conflict and drought affected IDPs, returnees, and host communities. In total 27,300 individuals are expected to be reached.</narrative>
   </description>
+  <description type="2">
+   <narrative xml:lang="EN">To ensure that the life-saving protection and assistance needs of conflict, natural disaster affected and internally displaced persons, returning Afghans and their host community are met.</narrative>
+  </description>
+  <participating-org role="1" type="21">
+   <narrative xml:lang="EN">Caritas Germany</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-41160054" role="2" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-41160054" role="4" type="21">
    <narrative xml:lang="EN">Cordaid Iraq</narrative>
-  </participating-org>
-  <participating-org role="1" type="21">
-   <narrative xml:lang="EN">Caritas Germany</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2019-01-01" type="1"></activity-date>
@@ -50,8 +50,8 @@
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <sector code="52010" percentage="50" vocabulary="1"></sector>
   <sector code="14030" percentage="50" vocabulary="1"></sector>
+  <sector code="52010" percentage="50" vocabulary="1"></sector>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
   <collaboration-type code="1"></collaboration-type>
@@ -84,6 +84,14 @@
      <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
     </description>
     <reference code="SL0.01" vocabulary="99"></reference>
+    <baseline iso-date="2019-12-31" value="8948" year="2019">
+     <location ref="AF"></location>
+     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+    </baseline>
+    <baseline iso-date="2019-12-31" value="5646" year="2019">
+     <location ref="AF"></location>
+     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+    </baseline>
     <baseline iso-date="2020-12-31" value="0" year="2020">
      <location ref="AF"></location>
      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
@@ -91,6 +99,14 @@
     <baseline iso-date="2020-12-31" value="0" year="2020">
      <location ref="AF"></location>
      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+    </baseline>
+    <baseline iso-date="2019-12-31" value="14594" year="2019">
+     <location ref="AF"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="1527" year="2020">
+     <location ref="AF"></location>
+     <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
     </baseline>
     <baseline iso-date="2019-12-31" value="7584" year="2019">
      <location ref="AF"></location>
@@ -104,61 +120,9 @@
      <location ref="AF"></location>
      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
     </baseline>
-    <baseline iso-date="2019-12-31" value="14594" year="2019">
-     <location ref="AF"></location>
-     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="1527" year="2020">
-     <location ref="AF"></location>
-     <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-    </baseline>
-    <baseline iso-date="2019-12-31" value="8948" year="2019">
-     <location ref="AF"></location>
-     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-    </baseline>
-    <baseline iso-date="2019-12-31" value="5646" year="2019">
-     <location ref="AF"></location>
-     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="7010">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="7584">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="8948">
-      <location ref="AF"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="5646">
-      <location ref="AF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="14594">
-      <location ref="AF"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="14358">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="16189">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
      <actual value="17027">
       <location ref="AF"></location>
       <dimension name="Age (-18/18+)" value="Age -18"></dimension>
@@ -182,6 +146,42 @@
      <actual value="1527">
       <location ref="AF"></location>
       <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="16189">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="14358">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="8948">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="5646">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="14594">
+      <location ref="AF"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="7584">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="7010">
+      <location ref="AF"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
     <period>
@@ -213,6 +213,13 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      <location ref="AF"></location>
     </baseline>
     <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2019-07-01"></period-start>
      <period-end iso-date="2019-09-30"></period-end>
      <actual value="1205">
@@ -220,23 +227,9 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      </actual>
     </period>
     <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="4832">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="2581">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1339">
       <location ref="AF"></location>
      </actual>
     </period>
@@ -248,9 +241,16 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="1339">
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="2581">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="4832">
       <location ref="AF"></location>
      </actual>
     </period>
@@ -272,30 +272,9 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      <location ref="AF"></location>
     </baseline>
     <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-09-30"></period-end>
-     <actual value="1688">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="2415">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
      <actual value="0">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2310">
       <location ref="AF"></location>
      </actual>
     </period>
@@ -314,6 +293,27 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      </actual>
     </period>
     <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-09-30"></period-end>
+     <actual value="1688">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="2310">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="2415">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2021-09-30"></period-end>
      <target value="20258"></target>
@@ -328,16 +328,9 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
     </description>
     <reference code="SL0.03" vocabulary="99"></reference>
     <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="3835">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="3543">
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
       <location ref="AF"></location>
      </actual>
     </period>
@@ -349,9 +342,16 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="3543">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="3835">
       <location ref="AF"></location>
      </actual>
     </period>
@@ -366,153 +366,6 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2021-09-30"></period-end>
      <target value="14500"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Access to Life saving basic services provided</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people enabled to meet their basic food needs in response to COVID-19</narrative>
-    </title>
-    <reference code="COV.SL.02" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-06-30"></period-end>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="2765">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="1810">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="3362">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="1818">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="AF"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
     </period>
    </indicator>
   </result>
@@ -542,16 +395,9 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="3835">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="3543">
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="0">
       <location ref="AF"></location>
      </actual>
     </period>
@@ -563,9 +409,16 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="3543">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="3835">
       <location ref="AF"></location>
      </actual>
     </period>
@@ -610,9 +463,9 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="623">
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="44">
       <location ref="AF"></location>
      </actual>
     </period>
@@ -624,20 +477,6 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="588">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="44">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <actual value="564">
@@ -645,73 +484,23 @@ Domestic use: drinking, cooking and personal hygiene (incl. laundry)</narrative>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2021-09-30"></period-end>
-     <target value="3500"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Unconditional and unrestricted cash</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
-    </description>
-    <reference code="CSH-I1" vocabulary="99"></reference>
-    <baseline iso-date="2019-09-30" value="1688" year="2019">
-     <location ref="AF"></location>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-09-30"></period-end>
-     <actual value="1688">
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="588">
       <location ref="AF"></location>
      </actual>
     </period>
     <period>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
-     <actual value="2415">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2310">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="10898">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="1650">
+     <actual value="623">
       <location ref="AF"></location>
      </actual>
     </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2021-09-30"></period-end>
-     <target value="20258"></target>
+     <target value="3500"></target>
     </period>
    </indicator>
   </result>
@@ -732,27 +521,6 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      <location ref="AF"></location>
     </baseline>
     <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-09-30"></period-end>
-     <actual value="1205">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="4832">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="2581">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
@@ -760,9 +528,9 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="1406">
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-09-30"></period-end>
+     <actual value="1205">
       <location ref="AF"></location>
      </actual>
     </period>
@@ -774,9 +542,241 @@ transfer is received. Unrestricted transfers can be used entirely as the recipie
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="1406">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="2581">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="4832">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2021-09-30"></period-end>
      <target value="12600"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Unconditional and unrestricted cash</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
+    </description>
+    <reference code="CSH-I1" vocabulary="99"></reference>
+    <baseline iso-date="2019-09-30" value="1688" year="2019">
+     <location ref="AF"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="10898">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1650">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-09-30"></period-end>
+     <actual value="1688">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="2310">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="2415">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="20258"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Access to Life saving basic services provided</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people enabled to meet their basic food needs in response to COVID-19</narrative>
+    </title>
+    <reference code="COV.SL.02" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-06-30"></period-end>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="3362">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="2765">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="1818">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1810">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>

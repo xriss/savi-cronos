@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="wfp-lac" dstore:index="91" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="wfp-lac" dstore:index="91" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41140-DO02.01.041.URT1</iati-identifier>
   <reporting-org ref="XM-DAC-41140" type="40">
    <narrative xml:lang="EN">World Food Programme</narrative>
@@ -41,14 +41,14 @@
     <pos>18.736 -70.163</pos>
    </point>
   </location>
+  <sector code="2.1" percentage="100" vocabulary="8">
+   <narrative xml:lang="EN">By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round</narrative>
+  </sector>
   <sector code="72040" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Emergency food aid</narrative>
   </sector>
   <sector code="2" percentage="100" vocabulary="7">
    <narrative xml:lang="EN">Zero hunger</narrative>
-  </sector>
-  <sector code="2.1" percentage="100" vocabulary="8">
-   <narrative xml:lang="EN">By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round</narrative>
   </sector>
   <tag code="2" vocabulary="2">
    <narrative xml:lang="EN">Zero hunger</narrative>
@@ -140,84 +140,68 @@
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">39485</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">12912</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-10-31">121850</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">2971</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">130062</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">804</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">22546</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">-322</value>
+   <value currency="USD" value-date="2021-04-30">5034846</value>
+   <provider-org ref="DOM">
+    <narrative xml:lang="EN">Dominican Republic</narrative>
+   </provider-org>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">39485</value>
+   <value currency="USD" value-date="2020-08-31">161342</value>
+   <provider-org ref="EEC">
+    <narrative xml:lang="EN">European Commission</narrative>
+   </provider-org>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">12912</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-10-31">121850</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">2971</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">130062</value>
+   <value currency="USD" value-date="2020-12-31">-3007</value>
+   <provider-org ref="EEC">
+    <narrative xml:lang="EN">European Commission</narrative>
+   </provider-org>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">242</value>
+   <provider-org ref="MU">
+    <narrative xml:lang="EN">Multilateral</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">71790</value>
+   <provider-org ref="WPD">
+    <narrative xml:lang="EN">Private Donors</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">804</value>
+   <value currency="USD" value-date="2021-01-31">84507</value>
+   <provider-org ref="WPD">
+    <narrative xml:lang="EN">Private Donors</narrative>
+   </provider-org>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">22546</value>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">-3354</value>
+   <provider-org ref="WPD">
+    <narrative xml:lang="EN">Private Donors</narrative>
+   </provider-org>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">-322</value>
+   <value currency="USD" value-date="2021-04-30">-106</value>
+   <provider-org ref="WPD">
+    <narrative xml:lang="EN">Private Donors</narrative>
+   </provider-org>
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
@@ -245,16 +229,16 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">161342</value>
-   <provider-org ref="EEC">
-    <narrative xml:lang="EN">European Commission</narrative>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">8180</value>
+   <provider-org ref="1">
+    <narrative xml:lang="EN">UN Other Funds and Agencies (excl. CERF)</narrative>
    </provider-org>
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">8180</value>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">22513</value>
    <provider-org ref="1">
     <narrative xml:lang="EN">UN Other Funds and Agencies (excl. CERF)</narrative>
    </provider-org>
@@ -278,74 +262,90 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">-3007</value>
-   <provider-org ref="EEC">
-    <narrative xml:lang="EN">European Commission</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">242</value>
-   <provider-org ref="MU">
-    <narrative xml:lang="EN">Multilateral</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">-243</value>
    <provider-org ref="UK">
     <narrative xml:lang="EN">United Kingdom</narrative>
    </provider-org>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">39485</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">39485</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">12912</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">12912</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-10-31">121850</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-10-31">121850</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">2971</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">2971</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">71790</value>
-   <provider-org ref="WPD">
-    <narrative xml:lang="EN">Private Donors</narrative>
-   </provider-org>
+   <value currency="USD" value-date="2020-12-31">130062</value>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">130062</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">84507</value>
-   <provider-org ref="WPD">
-    <narrative xml:lang="EN">Private Donors</narrative>
-   </provider-org>
+   <value currency="USD" value-date="2021-01-31">804</value>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">804</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">22513</value>
-   <provider-org ref="1">
-    <narrative xml:lang="EN">UN Other Funds and Agencies (excl. CERF)</narrative>
-   </provider-org>
+   <value currency="USD" value-date="2021-02-28">22546</value>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">-3354</value>
-   <provider-org ref="WPD">
-    <narrative xml:lang="EN">Private Donors</narrative>
-   </provider-org>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">22546</value>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">5034846</value>
-   <provider-org ref="DOM">
-    <narrative xml:lang="EN">Dominican Republic</narrative>
-   </provider-org>
+   <value currency="USD" value-date="2021-04-30">-322</value>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">-106</value>
-   <provider-org ref="WPD">
-    <narrative xml:lang="EN">Private Donors</narrative>
-   </provider-org>
+   <value currency="USD" value-date="2021-04-30">-322</value>
   </transaction>
   <document-link format="TEXT/HTML" url="http://www.wfp.org">
    <title>
@@ -355,25 +355,6 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0"></conditions>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Number of Beneficiaries</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Total number of people who received tangible benefit from this project</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of Beneficiaries</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="282400"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
   <result type="1">
    <title>
     <narrative xml:lang="EN">Total Outputs</narrative>
@@ -389,44 +370,6 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="9192960"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Beans</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="480"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Iodised Salt</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="30"></target>
      <actual value="0"></actual>
     </period>
    </indicator>
@@ -503,6 +446,63 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="218.4"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Iodised Salt</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="30"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Beans</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="480"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Total Number of Beneficiaries</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Total number of people who received tangible benefit from this project</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of Beneficiaries</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="282400"></target>
      <actual value="0"></actual>
     </period>
    </indicator>

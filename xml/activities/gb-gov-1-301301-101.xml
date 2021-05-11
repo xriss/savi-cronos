@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="fcdo-298" dstore:index="1002" hierarchy="2" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="fcdo-298" dstore:index="1002" hierarchy="2" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-GOV-1-301301-101</iati-identifier>
   <reporting-org ref="GB-GOV-1" type="10">
    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -11,29 +11,29 @@
   <description>
    <narrative xml:lang="EN">This activity (Sharing lessons learned from Brazil&#x2019;s Social Protection response to COVID-19) is a component of Sharing lessons learned from Brazil&#x2019;s Social Protection response to COVID-19 reported by FCDO, with a funding type of &apos;Multilateral organisation&apos; and a budget of &#xA3;52,000. This component benefits Africa, regional, and works in the following sector(s): Social Protection. , with the following implementing partners: World Bank, The. The start date is 20-01-2021 and the end date is 20-12-2021.</narrative>
   </description>
-  <participating-org ref="44000" role="4" type="40">
-   <narrative xml:lang="EN">World Bank, The</narrative>
-  </participating-org>
   <participating-org ref="GB-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
   </participating-org>
   <participating-org ref="GB-GOV-1" role="2" type="10">
    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
   </participating-org>
-  <other-identifier ref="301301-101" type="A1">
-   <owner-org ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </owner-org>
-  </other-identifier>
+  <participating-org ref="44000" role="4" type="40">
+   <narrative xml:lang="EN">World Bank, The</narrative>
+  </participating-org>
   <other-identifier ref="GB-1" type="B1">
    <owner-org ref="GB-GOV-1">
     <narrative xml:lang="EN">FCDO previous reporting-org identifier</narrative>
    </owner-org>
   </other-identifier>
+  <other-identifier ref="301301-101" type="A1">
+   <owner-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2021-01-20" type="1"></activity-date>
-  <activity-date iso-date="2021-12-20" type="3"></activity-date>
   <activity-date iso-date="2021-01-20" type="2"></activity-date>
+  <activity-date iso-date="2021-12-20" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -66,20 +66,6 @@
    <value currency="GBP" value-date="2021-01-20">52000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="REFCO1">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-26"></transaction-date>
-   <value currency="GBP" value-date="2021-02-26">52000</value>
-   <description>
-    <narrative xml:lang="EN">This is an outgoing commitment to World Bank, The of &#xA3;52,000.00</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-GOV-1-301301-101" ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </provider-org>
-   <receiver-org ref="44000" type="40">
-    <narrative xml:lang="EN">World Bank, The</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="9151520">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-03-16"></transaction-date>
@@ -88,6 +74,20 @@
     <narrative xml:lang="EN">Technical &amp; Advisory services</narrative>
    </description>
    <provider-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </provider-org>
+   <receiver-org ref="44000" type="40">
+    <narrative xml:lang="EN">World Bank, The</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="REFCO1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-26"></transaction-date>
+   <value currency="GBP" value-date="2021-02-26">52000</value>
+   <description>
+    <narrative xml:lang="EN">This is an outgoing commitment to World Bank, The of &#xA3;52,000.00</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-GOV-1-301301-101" ref="GB-GOV-1">
     <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
    </provider-org>
    <receiver-org ref="44000" type="40">

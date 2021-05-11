@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unops-cd" dstore:index="13" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="unops-cd" dstore:index="13" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>41AAA-22449-002</iati-identifier>
   <reporting-org ref="41AAA" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
@@ -11,10 +11,10 @@
   <description type="1">
    <narrative xml:lang="EN">As part of the fight against Ebola and COVID-19, UNICEF is funding contracts for eight journalists to work with Radio Okapi &#x2013; which operates under the United Nations Organization Stabilization Mission in the Democratic Republic of the Congo. The journalists will work to produce credible and factual information, and support important development work in the field. UNOPS recruits the journalists and manages their contracts.</narrative>
   </description>
-  <participating-org ref="41AAA" role="4" type="40">
+  <participating-org ref="41AAA" role="2" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
   </participating-org>
-  <participating-org ref="41AAA" role="2" type="40">
+  <participating-org ref="41AAA" role="4" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
@@ -57,39 +57,12 @@
    <period-end iso-date="2023-12-31"></period-end>
    <value currency="USD" value-date="2020-08-15">226098</value>
   </budget>
-  <transaction ref="22449-002_2020_2023">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">226098</value>
-   <description>
-    <narrative xml:lang="EN">Total partner commitment</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">MONUSCO United Nations Organization Stabilization Mission in the Democratic Republic of the Congo</narrative>
-   </provider-org>
-   <receiver-org ref="41AAA">
-    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction ref="22449-002_202012">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-01"></transaction-date>
    <value currency="USD" value-date="2020-12-01">17796</value>
    <description>
     <narrative xml:lang="EN">Expenditure for 2020</narrative>
-   </description>
-   <provider-org ref="41AAA">
-    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction ref="22449-002_202101">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-01"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">9063</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for 2021-January</narrative>
    </description>
    <provider-org ref="41AAA">
     <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
@@ -108,6 +81,18 @@
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction ref="22449-002_202101">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">9063</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for 2021-January</narrative>
+   </description>
+   <provider-org ref="41AAA">
+    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction ref="22449-002_202103">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-01"></transaction-date>
@@ -118,6 +103,21 @@
    <provider-org ref="41AAA">
     <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
    </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction ref="22449-002_2020_2023">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">226098</value>
+   <description>
+    <narrative xml:lang="EN">Total partner commitment</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">MONUSCO United Nations Organization Stabilization Mission in the Democratic Republic of the Congo</narrative>
+   </provider-org>
+   <receiver-org ref="41AAA">
+    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <document-link format="TEXT/HTML" url="https://data.unops.org/index.htm#SegmentCode=ORG&amp;FocusCode=DATA_PROJECTS&amp;EntityCode=PROJECT_ID&amp;EntityValue=22449-002">

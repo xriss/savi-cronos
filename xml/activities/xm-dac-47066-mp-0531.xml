@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1604" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1604" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-MP.0531</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,18 +11,18 @@
   <description>
    <narrative xml:lang="EN">The project contributes to the national preparedness and response measures at points of entry (POE) to limit the spread of health risks across borders, including for COVID-19. The projects strengthens public health and immigration and border management measures at International Points of Entry, and POE-linked quarantine facilities in 19 main POEs in Myanmar.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-701-2-YK/IOM/89 (NV)" ref="XM-DAC-701-2" role="1" type="10">
-   <narrative xml:lang="EN">Japan - Ministry of Foreign Affairs</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-701-2-YK/IOM/89 (NV)" ref="XM-DAC-701-2" role="1" type="10">
+   <narrative xml:lang="EN">Japan - Ministry of Foreign Affairs</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2021-03-31" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2021-03-31" type="2">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-03-31" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <activity-date iso-date="2022-03-30" type="3">
    <narrative xml:lang="EN">Planned</narrative>
@@ -38,6 +38,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="MM" percentage="100"></recipient-country>
+  <location ref="MM">
+   <location-reach code="2"></location-reach>
+   <location-id code="MM" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Myanmar</narrative>
+   </name>
+   <administrative code="MM" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -50,22 +58,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="MM">
-   <location-reach code="2"></location-reach>
-   <location-id code="MM" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Myanmar</narrative>
-   </name>
-   <administrative code="MM" vocabulary="A4"></administrative>
-  </location>
+  <sector code="72010" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
   <sector code="MP" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Migr Health Assist for Crisis Aff Pops</narrative>
   </sector>
   <sector code="02" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Migration Health</narrative>
-  </sector>
-  <sector code="72010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
   <policy-marker code="0" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project with no inclusion of gender issues</narrative>

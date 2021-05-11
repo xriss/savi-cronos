@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-et" dstore:index="850" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-et" dstore:index="850" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-AID-FFP-A-16-00008</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -11,14 +11,14 @@
   <description>
    <narrative xml:lang="EN">(Ethiopia):  .The Title II- World Vision Development Food Security.Activity (DFSA) supports the Ethiopian Government-led Productive Safety Net.Program (PSNP) in six districts of Oromia and nine districts of Amhara regions.with the goal of enhancing livelihoods, increasing resilience to shocks, and.improving food security and nutrition among vulnerable populations so that they.graduate from needing USG assistance. These integrated activities contribute to.the Mission&apos;s CDCS, the Feed the Future Strategy, and the Bureau for.Humanitarian Assistance (formerly Food for Peace)&apos;s Strategy. With FY 2020 funds,.a total of 31,240 metric tons of commodities will be distributed to.432,243 beneficiaries to fill their food gaps. WV DFSA will continue supporting.watershed and natural resource conservation, and 752 participants will be.trained in soil and water conservation, compost making, and agroforestry.techniques. The activity will also implement diverse food security, livelihood,.and nutrition-sensitive agriculture approaches. As part of nutrition linkages.with public works investments, household level pond construction for vegetable.and fruit production will be implemented. The WV DFSA also promotes medium to.large irrigation schemes for fruit trees and nursery seedling support for large.scale crop production. 37,790 program participants will be trained to adopt.improved and/or sustainable agricultural technology management practices and.develop business plans to engage them in livestock, honey, poultry and.vegetable value chains. A total of 9,013 participants will be linked to MFI.loans. The program will deliver 14 behavior change communication (BCC) sessions.to 55,896 public work and permanent direct support participants and facilitate.timely health and nutrition services linkages. DFSA will also work to mitigate.the impact of COVID-19 to raise awareness and implement social distancing.and other different safety measures during the provision of ongoing food.assistance.  .</narrative>
   </description>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">U.S. Department of Agriculture</narrative>
-  </participating-org>
   <participating-org ref="US-GOV-1" role="2" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
+  </participating-org>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">U.S. Department of Agriculture</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">World Vision</narrative>
@@ -201,16 +201,16 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="4"></default-tied-status>
-  <transaction ref="2BA836BA07DE">
+  <transaction ref="32732D095D21">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-09-30"></transaction-date>
-   <value currency="USD" value-date="2016-09-30">18189000</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2296006</value>
    <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="4005" vocabulary="99">
-    <narrative xml:lang="EN">Social Assistance</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
@@ -219,16 +219,16 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="2BA836BA07DE">
+  <transaction ref="32732D095D21">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-09-30"></transaction-date>
-   <value currency="USD" value-date="2016-09-30">18189000</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2296006</value>
    <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="4005" vocabulary="99">
-    <narrative xml:lang="EN">Social Assistance</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
@@ -237,16 +237,16 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="BAE9B491624E">
+  <transaction ref="CD67E629D2B7">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">15473311.55</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2732799.6</value>
    <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="4005" vocabulary="99">
-    <narrative xml:lang="EN">Social Assistance</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
@@ -255,20 +255,128 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="BAE9B491624E">
+  <transaction ref="CD67E629D2B7">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">15473311.55</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2732799.6</value>
    <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="4005" vocabulary="99">
-    <narrative xml:lang="EN">Social Assistance</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="7C813C3382A8">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1100023</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="7002" vocabulary="99">
+    <narrative xml:lang="EN">Disaster Readiness</narrative>
+   </sector>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="7C813C3382A8">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1100023</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="7002" vocabulary="99">
+    <narrative xml:lang="EN">Disaster Readiness</narrative>
+   </sector>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="B0EECDF8B560">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1214577.6</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="7002" vocabulary="99">
+    <narrative xml:lang="EN">Disaster Readiness</narrative>
+   </sector>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="B0EECDF8B560">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1214577.6</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="7002" vocabulary="99">
+    <narrative xml:lang="EN">Disaster Readiness</narrative>
+   </sector>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="C61B19577368">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">244294</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72040" vocabulary="1">
+    <narrative xml:lang="EN">Emergency food assistance</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="61EDD77942AF">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-30"></transaction-date>
+   <value currency="USD" value-date="2019-06-30">244294</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72040" vocabulary="1">
+    <narrative xml:lang="EN">Emergency food assistance</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
@@ -311,16 +419,16 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="ECC4DDC491CE">
+  <transaction ref="A10D4EC08391">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">3140168</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1481254</value>
    <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
@@ -329,16 +437,52 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="ECC4DDC491CE">
+  <transaction ref="A10D4EC08391">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">3140168</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1481254</value>
    <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
    </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="7C9C59CE91F5">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1670044.2</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="7C9C59CE91F5">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1670044.2</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5003" vocabulary="99">
+    <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
@@ -383,16 +527,16 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="2FBB84A6EA9C">
+  <transaction ref="D49B873595F5">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1436092</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2125510.8</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
    </sector>
-   <sector code="3008" vocabulary="99">
-    <narrative xml:lang="EN">Water Supply and Sanitation</narrative>
+   <sector code="3006" vocabulary="99">
+    <narrative xml:lang="EN">Maternal and Child Health</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
@@ -401,16 +545,16 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="2FBB84A6EA9C">
+  <transaction ref="D49B873595F5">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1436092</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2125510.8</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
    </sector>
-   <sector code="3008" vocabulary="99">
-    <narrative xml:lang="EN">Water Supply and Sanitation</narrative>
+   <sector code="3006" vocabulary="99">
+    <narrative xml:lang="EN">Maternal and Child Health</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
@@ -455,16 +599,16 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="46835FBE4D41">
+  <transaction ref="4CC8A17CC15E">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">3626260</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1518222</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
    </sector>
-   <sector code="4005" vocabulary="99">
-    <narrative xml:lang="EN">Social Assistance</narrative>
+   <sector code="3009" vocabulary="99">
+    <narrative xml:lang="EN">Nutrition</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
@@ -473,124 +617,16 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="46835FBE4D41">
+  <transaction ref="4CC8A17CC15E">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">3626260</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1518222</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
    </sector>
-   <sector code="4005" vocabulary="99">
-    <narrative xml:lang="EN">Social Assistance</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="A10D4EC08391">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1481254</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="A10D4EC08391">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1481254</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="32732D095D21">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2296006</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="32732D095D21">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2296006</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="7C813C3382A8">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1100023</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7002" vocabulary="99">
-    <narrative xml:lang="EN">Disaster Readiness</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="7C813C3382A8">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1100023</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7002" vocabulary="99">
-    <narrative xml:lang="EN">Disaster Readiness</narrative>
+   <sector code="3009" vocabulary="99">
+    <narrative xml:lang="EN">Nutrition</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
@@ -671,6 +707,24 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
+  <transaction ref="657F2ACFF121">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">20736949</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <transaction ref="0A2836385036">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2017-09-30"></transaction-date>
@@ -725,42 +779,6 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="D6C5801B9879">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-30"></transaction-date>
-   <value currency="USD" value-date="2018-06-30">8489892</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="657F2ACFF121">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">20736949</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="41D638F813A4">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-03-31"></transaction-date>
@@ -775,6 +793,24 @@
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2017" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="D6C5801B9879">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-06-30"></transaction-date>
+   <value currency="USD" value-date="2018-06-30">8489892</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
@@ -797,6 +833,42 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
+  <transaction ref="C85CBC17EEE3">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">19526148</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="ECC4DDC491CE">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">3140168</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <transaction ref="378352564EDE">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-09-30"></transaction-date>
@@ -811,6 +883,24 @@
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2017" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="ECC4DDC491CE">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">3140168</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
@@ -869,100 +959,10 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="8D3AADA45CEF">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">-349856</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="C85CBC17EEE3">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">19526148</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="C61B19577368">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">244294</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72040" vocabulary="1">
-    <narrative xml:lang="EN">Emergency food assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="D1832E849521">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-06-30"></transaction-date>
    <value currency="USD" value-date="2019-06-30">5361544</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="61EDD77942AF">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-30"></transaction-date>
-   <value currency="USD" value-date="2019-06-30">244294</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72040" vocabulary="1">
-    <narrative xml:lang="EN">Emergency food assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="AD1C3EE5DD4A">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">6777898</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
@@ -995,254 +995,38 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="D49B873595F5">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">2125510.8</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="3006" vocabulary="99">
-    <narrative xml:lang="EN">Maternal and Child Health</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="D49B873595F5">
+  <transaction ref="8D3AADA45CEF">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">2125510.8</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">-349856</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
    </sector>
-   <sector code="3006" vocabulary="99">
-    <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2017" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="15667C62F1F8">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1670044.2</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="3008" vocabulary="99">
-    <narrative xml:lang="EN">Water Supply and Sanitation</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="15667C62F1F8">
+  <transaction ref="AD1C3EE5DD4A">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1670044.2</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">6777898</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
    </sector>
-   <sector code="3008" vocabulary="99">
-    <narrative xml:lang="EN">Water Supply and Sanitation</narrative>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="4CC8A17CC15E">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1518222</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="3009" vocabulary="99">
-    <narrative xml:lang="EN">Nutrition</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="4CC8A17CC15E">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1518222</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="3009" vocabulary="99">
-    <narrative xml:lang="EN">Nutrition</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="1B1F42AE7C5D">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">4251021.6</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="4005" vocabulary="99">
-    <narrative xml:lang="EN">Social Assistance</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="1B1F42AE7C5D">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">4251021.6</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="4005" vocabulary="99">
-    <narrative xml:lang="EN">Social Assistance</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="7C9C59CE91F5">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1670044.2</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="7C9C59CE91F5">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1670044.2</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="5003" vocabulary="99">
-    <narrative xml:lang="EN">Financial Sector</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="CD67E629D2B7">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">2732799.6</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="CD67E629D2B7">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">2732799.6</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="B0EECDF8B560">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1214577.6</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7002" vocabulary="99">
-    <narrative xml:lang="EN">Disaster Readiness</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="B0EECDF8B560">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1214577.6</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7002" vocabulary="99">
-    <narrative xml:lang="EN">Disaster Readiness</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2018" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
@@ -1301,64 +1085,10 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="06118F54AEA8">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">99286</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="015977E3B22E">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
    <value currency="USD" value-date="2020-03-31">6351688</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="E2843B3FA1CD">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">3496430</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="52010" vocabulary="1">
-    <narrative xml:lang="EN">Food Assistance</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="ET"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
-    <usg:regular-account code="12"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="14981A3502EB">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3853128</value>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="52010" vocabulary="1">
     <narrative xml:lang="EN">Food Assistance</narrative>
@@ -1391,6 +1121,24 @@
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
+  <transaction ref="E2843B3FA1CD">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">3496430</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <transaction ref="B1AFCB128356">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
@@ -1405,6 +1153,42 @@
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="06118F54AEA8">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">99286</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="14981A3502EB">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3853128</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
     <usg:regular-account code="12"></usg:regular-account>
    </usg:treasury-account>
@@ -1437,6 +1221,222 @@
    </sector>
    <sector code="7001" vocabulary="99">
     <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="2BA836BA07DE">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-09-30"></transaction-date>
+   <value currency="USD" value-date="2016-09-30">18189000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="4005" vocabulary="99">
+    <narrative xml:lang="EN">Social Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="2BA836BA07DE">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-09-30"></transaction-date>
+   <value currency="USD" value-date="2016-09-30">18189000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="4005" vocabulary="99">
+    <narrative xml:lang="EN">Social Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="BAE9B491624E">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">15473311.55</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="4005" vocabulary="99">
+    <narrative xml:lang="EN">Social Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="BAE9B491624E">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">15473311.55</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="4005" vocabulary="99">
+    <narrative xml:lang="EN">Social Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="46835FBE4D41">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">3626260</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="4005" vocabulary="99">
+    <narrative xml:lang="EN">Social Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="46835FBE4D41">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">3626260</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="4005" vocabulary="99">
+    <narrative xml:lang="EN">Social Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="1B1F42AE7C5D">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">4251021.6</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="4005" vocabulary="99">
+    <narrative xml:lang="EN">Social Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="1B1F42AE7C5D">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">4251021.6</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="4005" vocabulary="99">
+    <narrative xml:lang="EN">Social Assistance</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="2FBB84A6EA9C">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1436092</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="3008" vocabulary="99">
+    <narrative xml:lang="EN">Water Supply and Sanitation</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="2FBB84A6EA9C">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1436092</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="3008" vocabulary="99">
+    <narrative xml:lang="EN">Water Supply and Sanitation</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="15667C62F1F8">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1670044.2</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="3008" vocabulary="99">
+    <narrative xml:lang="EN">Water Supply and Sanitation</narrative>
+   </sector>
+   <recipient-country code="ET"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="2278">Public Law 480 Title II Grants</usg:main-account>
+    <usg:regular-account code="12"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="15667C62F1F8">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1670044.2</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="52010" vocabulary="1">
+    <narrative xml:lang="EN">Food Assistance</narrative>
+   </sector>
+   <sector code="3008" vocabulary="99">
+    <narrative xml:lang="EN">Water Supply and Sanitation</narrative>
    </sector>
    <recipient-country code="ET"></recipient-country>
    <usg:treasury-account>

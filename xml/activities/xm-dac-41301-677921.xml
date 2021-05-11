@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="5234" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="5234" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41301-677921</iati-identifier>
   <reporting-org ref="XM-DAC-41301" type="40">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
@@ -51,15 +51,12 @@
    <value currency="USD" value-date="2020-04-29">500000</value>
   </budget>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-12-31">500000</value>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">500000</value>
    <description>
-    <narrative xml:lang="EN">Total incoming funds to 31 December 2016</narrative>
+    <narrative xml:lang="EN">Total commitment from 01 April 2020 to 30 June 2020</narrative>
    </description>
-   <provider-org ref="XM-DAC-41301">
-    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
-   </provider-org>
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
@@ -70,11 +67,11 @@
    </description>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">500000</value>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">52598.27</value>
    <description>
-    <narrative xml:lang="EN">Total commitment from 01 April 2020 to 30 June 2020</narrative>
+    <narrative xml:lang="EN">Total expenditure from 01 October 2020 to 31 December 2020</narrative>
    </description>
   </transaction>
   <transaction>
@@ -89,19 +86,22 @@
    </provider-org>
   </transaction>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">52598.27</value>
-   <description>
-    <narrative xml:lang="EN">Total expenditure from 01 October 2020 to 31 December 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">-473048.22</value>
    <description>
     <narrative xml:lang="EN">Total incoming funds from 01 October 2020 to 31 December 2020</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41301">
+    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-12-31">500000</value>
+   <description>
+    <narrative xml:lang="EN">Total incoming funds to 31 December 2016</narrative>
    </description>
    <provider-org ref="XM-DAC-41301">
     <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>

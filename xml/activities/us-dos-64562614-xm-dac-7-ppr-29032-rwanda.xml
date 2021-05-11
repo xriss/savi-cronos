@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="oneacrefund-activities" dstore:index="6" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="oneacrefund-activities" dstore:index="6" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-DOS-64562614-XM-DAC-7-PPR-29032/Rwanda</iati-identifier>
   <reporting-org ref="US-DOS-64562614" type="21">
    <narrative xml:lang="EN">One Acre Fund</narrative>
@@ -36,16 +36,16 @@
    <email>whitney.mcferron@oneacrefund.org</email>
    <website>http://www.oneacrefund.org</website>
   </contact-info>
-  <sector code="31181" percentage="25" vocabulary="1">
-   <narrative xml:lang="EN">Percentage divided evenly among the four components of One Acre Fund&apos;s core model.</narrative>
-  </sector>
   <sector code="31150" percentage="25" vocabulary="1">
    <narrative xml:lang="EN">Percentage divided evenly among the four components of One Acre Fund&apos;s core model.</narrative>
   </sector>
-  <sector code="31193" percentage="25" vocabulary="1">
+  <sector code="31181" percentage="25" vocabulary="1">
    <narrative xml:lang="EN">Percentage divided evenly among the four components of One Acre Fund&apos;s core model.</narrative>
   </sector>
   <sector code="31192" percentage="25" vocabulary="1">
+   <narrative xml:lang="EN">Percentage divided evenly among the four components of One Acre Fund&apos;s core model.</narrative>
+  </sector>
+  <sector code="31193" percentage="25" vocabulary="1">
    <narrative xml:lang="EN">Percentage divided evenly among the four components of One Acre Fund&apos;s core model.</narrative>
   </sector>
   <collaboration-type code="1"></collaboration-type>
@@ -54,71 +54,6 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <related-activity ref="US-DOS-64562614-XM-DAC-7-PPR-29032-1" type="1"></related-activity>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">Core program scale</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Final &apos;Actual&apos; figures will be shared in 2020 Q4 or 2021 Q1, upon completion of One Acre Fund&apos;s rigorous evaluation activities.</narrative>
-   </description>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Farm families participating in One Acre Fund&apos;s core program.</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="N/A"></target>
-     <actual value="385,000">
-      <comment>
-       <narrative xml:lang="EN">We are excited to report that our Rwanda program is achieving another year of rapid growth, fueled by high farmer demand for our services. In 2019, we served 385,000 farm families &#x2013; putting us on an exciting trajectory to achieve transformative scale countrywide.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="464859">
-      <comment>
-       <narrative xml:lang="EN">We reached 618,000 farm families in Rwanda through our core program in 2020, adding 235,000 clients and expanding by 62%. Key to this breakthrough growth included tech solutions for enabling operations in the COVID-19 context &#x2014; in particular, nation-wide scale-up of USSD enrollment has allowed client signup and product ordering without face-to-face contact with our staff. A further key underlying factor in our expansion this year was robust government support; we were encouraged by the government to expand to reach each of Rwanda&#x2019;s agricultural districts where we had not yet established operations. This invitation reflects the government&#x2019;s deep trust in our program and our strong support for government priorities.</narrative>
-      </comment>
-     </target>
-     <actual value="TBD"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">Systems-Change scale</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Final &apos;Actual&apos; figures will be shared in 2020 Q4 or 2021 Q1, upon completion of One Acre Fund&apos;s rigorous evaluation activities.</narrative>
-   </description>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Farm families reached through systems - change unit.</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="N/A"></target>
-     <actual value="2340000">
-      <comment>
-       <narrative xml:lang="EN">After years of scaling our partnerships, Rwanda has come to present a special opportunity for achieving true whole country change. 1AF now works in every major channel to meet the farmer where she is (core program for farmers who value credit and group engagement, rural retail for farmers who prefer to pay cash for inputs, extension channel for farmers who prefer free services), and across most productivity factors (seed production and demand stimulation, fertilizer demand stimulation, best agricultural practice, poultry, and trees).</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2704000">
-      <comment>
-       <narrative xml:lang="EN">Rwanda continues to represent one of our largest, most impactful, and uniquely dynamic programs. Our strong alignment with the Rwandan government&apos;s national priorities continues to boost our long-term goal of reaching every farming household country-wide through our core program or partnerships. In 2020, this work reached over 3 million farmer touchpoints (individual project interactions); projects sought to catalyze local hybrid seed production, improve agricultural extension services, and expand the country&apos;s rural retail sector.</narrative>
-      </comment>
-     </target>
-    </period>
-   </indicator>
-  </result>
   <result aggregation-status="0" type="2">
    <title>
     <narrative xml:lang="EN">Social Return on Investment (SROI)</narrative>
@@ -156,6 +91,38 @@
   </result>
   <result aggregation-status="0" type="2">
    <title>
+    <narrative xml:lang="EN">Systems-Change scale</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Final &apos;Actual&apos; figures will be shared in 2020 Q4 or 2021 Q1, upon completion of One Acre Fund&apos;s rigorous evaluation activities.</narrative>
+   </description>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Farm families reached through systems - change unit.</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="N/A"></target>
+     <actual value="2340000">
+      <comment>
+       <narrative xml:lang="EN">After years of scaling our partnerships, Rwanda has come to present a special opportunity for achieving true whole country change. 1AF now works in every major channel to meet the farmer where she is (core program for farmers who value credit and group engagement, rural retail for farmers who prefer to pay cash for inputs, extension channel for farmers who prefer free services), and across most productivity factors (seed production and demand stimulation, fertilizer demand stimulation, best agricultural practice, poultry, and trees).</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2704000">
+      <comment>
+       <narrative xml:lang="EN">Rwanda continues to represent one of our largest, most impactful, and uniquely dynamic programs. Our strong alignment with the Rwandan government&apos;s national priorities continues to boost our long-term goal of reaching every farming household country-wide through our core program or partnerships. In 2020, this work reached over 3 million farmer touchpoints (individual project interactions); projects sought to catalyze local hybrid seed production, improve agricultural extension services, and expand the country&apos;s rural retail sector.</narrative>
+      </comment>
+     </target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
     <narrative xml:lang="EN">Impact</narrative>
    </title>
    <description>
@@ -183,6 +150,39 @@
        <narrative xml:lang="EN">We are still analyzing data from the 2020 harvest, so our impact estimates remain preliminary. Based on the information we currently have, we foresee a likely impact shortfall relative to 2019 levels ($118) due to a difficult weather year in key operating areas, and challenges delivering training given COVID-19 (e.g., no group trainings, fewer one-on-one visits to farmers fields).</narrative>
       </comment>
      </target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Core program scale</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Final &apos;Actual&apos; figures will be shared in 2020 Q4 or 2021 Q1, upon completion of One Acre Fund&apos;s rigorous evaluation activities.</narrative>
+   </description>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Farm families participating in One Acre Fund&apos;s core program.</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="N/A"></target>
+     <actual value="385,000">
+      <comment>
+       <narrative xml:lang="EN">We are excited to report that our Rwanda program is achieving another year of rapid growth, fueled by high farmer demand for our services. In 2019, we served 385,000 farm families &#x2013; putting us on an exciting trajectory to achieve transformative scale countrywide.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="464859">
+      <comment>
+       <narrative xml:lang="EN">We reached 618,000 farm families in Rwanda through our core program in 2020, adding 235,000 clients and expanding by 62%. Key to this breakthrough growth included tech solutions for enabling operations in the COVID-19 context &#x2014; in particular, nation-wide scale-up of USSD enrollment has allowed client signup and product ordering without face-to-face contact with our staff. A further key underlying factor in our expansion this year was robust government support; we were encouraged by the government to expand to reach each of Rwanda&#x2019;s agricultural districts where we had not yet established operations. This invitation reflects the government&#x2019;s deep trust in our program and our strong support for government priorities.</narrative>
+      </comment>
+     </target>
+     <actual value="TBD"></actual>
     </period>
    </indicator>
   </result>

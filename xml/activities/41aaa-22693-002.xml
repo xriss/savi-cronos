@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unops-et" dstore:index="19" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="unops-et" dstore:index="19" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>41AAA-22693-002</iati-identifier>
   <reporting-org ref="41AAA" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
@@ -15,10 +15,10 @@ Essential supplies provided to the Africa Center for Disease Control and Prevent
 
 The project underscores UNOPS commitment to supporting COVID-19 response efforts around the world. This includes helping to strengthen capacity in developing countries in early treatment, risk reduction and management of the pandemic. UNOPS, as part of UN-wide COVID-19 recovery efforts, aims to enhance access to essential health-care services and help provide effective, quality and affordable essential medical supplies for the most vulnerable populations through its emergency procurement capabilities.</narrative>
   </description>
-  <participating-org ref="41AAA" role="4" type="40">
+  <participating-org ref="41AAA" role="2" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
   </participating-org>
-  <participating-org ref="41AAA" role="2" type="40">
+  <participating-org ref="41AAA" role="4" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
@@ -125,18 +125,6 @@ The project underscores UNOPS commitment to supporting COVID-19 response efforts
   </location>
   <location>
    <name>
-    <narrative xml:lang="EN">S&#xE3;o Tom&#xE9; and Pr&#xED;ncipe</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">S&#xE3;o Tom&#xE9; and Pr&#xED;ncipe</narrative>
-   </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>0.186360 6.613081</pos>
-   </point>
-   <location-class code="4"></location-class>
-  </location>
-  <location>
-   <name>
     <narrative xml:lang="EN">Sierra Leone</narrative>
    </name>
    <description>
@@ -173,6 +161,18 @@ The project underscores UNOPS commitment to supporting COVID-19 response efforts
   </location>
   <location>
    <name>
+    <narrative xml:lang="EN">S&#xE3;o Tom&#xE9; and Pr&#xED;ncipe</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">S&#xE3;o Tom&#xE9; and Pr&#xED;ncipe</narrative>
+   </description>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>0.186360 6.613081</pos>
+   </point>
+   <location-class code="4"></location-class>
+  </location>
+  <location>
+   <name>
     <narrative xml:lang="EN">Zimbabwe</narrative>
    </name>
    <description>
@@ -193,39 +193,12 @@ The project underscores UNOPS commitment to supporting COVID-19 response efforts
    <period-end iso-date="2023-12-31"></period-end>
    <value currency="USD" value-date="2020-08-01">7700000</value>
   </budget>
-  <transaction ref="22693-002_2020_2023">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">7700000</value>
-   <description>
-    <narrative xml:lang="EN">Total partner commitment</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">KOICA Korea International Cooperation Agency</narrative>
-   </provider-org>
-   <receiver-org ref="41AAA">
-    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction ref="22693-002_202012">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-01"></transaction-date>
    <value currency="USD" value-date="2020-12-01">15506</value>
    <description>
     <narrative xml:lang="EN">Expenditure for 2020</narrative>
-   </description>
-   <provider-org ref="41AAA">
-    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction ref="22693-002_202101">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-01"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">2008202</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for 2021-January</narrative>
    </description>
    <provider-org ref="41AAA">
     <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
@@ -244,6 +217,18 @@ The project underscores UNOPS commitment to supporting COVID-19 response efforts
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction ref="22693-002_202101">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">2008202</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for 2021-January</narrative>
+   </description>
+   <provider-org ref="41AAA">
+    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction ref="22693-002_202103">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-01"></transaction-date>
@@ -254,6 +239,21 @@ The project underscores UNOPS commitment to supporting COVID-19 response efforts
    <provider-org ref="41AAA">
     <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
    </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction ref="22693-002_2020_2023">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">7700000</value>
+   <description>
+    <narrative xml:lang="EN">Total partner commitment</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">KOICA Korea International Cooperation Agency</narrative>
+   </provider-org>
+   <receiver-org ref="41AAA">
+    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <document-link format="TEXT/HTML" url="https://data.unops.org/index.htm#SegmentCode=ORG&amp;FocusCode=DATA_PROJECTS&amp;EntityCode=PROJECT_ID&amp;EntityValue=22693-002">

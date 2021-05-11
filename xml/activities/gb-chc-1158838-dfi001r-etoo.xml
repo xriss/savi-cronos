@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="tff-et" dstore:index="1" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="tff-et" dstore:index="1" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1158838-DFI001R-ETOO</iati-identifier>
   <reporting-org ref="GB-CHC-1158838" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">The Freedom Fund</narrative>
@@ -18,14 +18,14 @@ programme).</narrative>
 2. Surge capacity for NGO advocacy, to monitor needs of  vulnerable groups, ensure government response is appropriate and reaching those who need assistance. 
 3. Microgrants to savings &amp; loans groups, self-help groups, and other existing community structures to provide credit and help absorb financial shocks.</narrative>
   </description>
+  <participating-org activity-id="DFI001R" ref="GB-CHC-1158838" role="2" type="21">
+   <narrative xml:lang="EN">The Freedom Fund</narrative>
+  </participating-org>
   <participating-org activity-id="DFI001R" ref="GB-CHC-1158838" role="4" type="21">
    <narrative xml:lang="EN">The Freedom Fund</narrative>
   </participating-org>
   <participating-org activity-id="DFI001R" ref="GB-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office</narrative>
-  </participating-org>
-  <participating-org activity-id="DFI001R" ref="GB-CHC-1158838" role="2" type="21">
-   <narrative xml:lang="EN">The Freedom Fund</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-06-02" type="1"></activity-date>
@@ -35,38 +35,10 @@ programme).</narrative>
    <period-end iso-date="2020-10-30"></period-end>
    <value currency="GBP" value-date="2020-10-28">84569</value>
   </budget>
-  <transaction humanitarian="1" ref="DFI001R-ETOO-1">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-06-18"></transaction-date>
-   <value currency="GBP" value-date="2020-10-28">39749</value>
-   <provider-org provider-activity-id="300901" ref="GB-GOV-1" type="10"></provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-1158838-DFI001R-ETOO" ref="GB-CHC-1158838" type="21">
-    <narrative xml:lang="EN">International NGO</narrative>
-   </receiver-org>
-   <sector code="72010" vocabulary="1"></sector>
-   <flow-type code="30"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction humanitarian="1" ref="DFI001R-ETOO-2">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-08-25"></transaction-date>
-   <value currency="GBP" value-date="2020-10-28">44820</value>
-   <provider-org provider-activity-id="300901" ref="GB-GOV-1" type="10"></provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-1158838-DFI001R-ETOO" ref="GB-CHC-1158838" type="21">
-    <narrative xml:lang="EN">International NGO</narrative>
-   </receiver-org>
-   <sector code="72010" vocabulary="1"></sector>
-   <flow-type code="30"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction humanitarian="1" ref="DFI001R-ETOO-3">
+  <transaction humanitarian="1" ref="DFI001R-ETOO-7">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-08-20"></transaction-date>
-   <value currency="GBP" value-date="2020-10-28">77</value>
+   <value currency="GBP" value-date="2020-10-28">3844</value>
    <provider-org provider-activity-id="300901" ref="GB-CHC-1158838" type="21"></provider-org>
    <receiver-org type="24">
     <narrative xml:lang="EN">In-country partner</narrative>
@@ -105,6 +77,20 @@ programme).</narrative>
    <aid-type code="B03" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction humanitarian="1" ref="DFI001R-ETOO-3">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-20"></transaction-date>
+   <value currency="GBP" value-date="2020-10-28">77</value>
+   <provider-org provider-activity-id="300901" ref="GB-CHC-1158838" type="21"></provider-org>
+   <receiver-org type="24">
+    <narrative xml:lang="EN">In-country partner</narrative>
+   </receiver-org>
+   <sector code="15150" vocabulary="1"></sector>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction humanitarian="1" ref="DFI001R-ETOO-6">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-08-20"></transaction-date>
@@ -114,20 +100,6 @@ programme).</narrative>
     <narrative xml:lang="EN">In-country partner</narrative>
    </receiver-org>
    <sector code="72010" vocabulary="1"></sector>
-   <flow-type code="30"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction humanitarian="1" ref="DFI001R-ETOO-7">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-08-20"></transaction-date>
-   <value currency="GBP" value-date="2020-10-28">3844</value>
-   <provider-org provider-activity-id="300901" ref="GB-CHC-1158838" type="21"></provider-org>
-   <receiver-org type="24">
-    <narrative xml:lang="EN">In-country partner</narrative>
-   </receiver-org>
-   <sector code="15150" vocabulary="1"></sector>
    <flow-type code="30"></flow-type>
    <finance-type code="110"></finance-type>
    <aid-type code="B03" vocabulary="1"></aid-type>
@@ -266,6 +238,34 @@ programme).</narrative>
    <provider-org provider-activity-id="300901" ref="GB-CHC-1158838" type="21"></provider-org>
    <receiver-org type="24">
     <narrative xml:lang="EN">In-country partner</narrative>
+   </receiver-org>
+   <sector code="72010" vocabulary="1"></sector>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="DFI001R-ETOO-1">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-18"></transaction-date>
+   <value currency="GBP" value-date="2020-10-28">39749</value>
+   <provider-org provider-activity-id="300901" ref="GB-GOV-1" type="10"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1158838-DFI001R-ETOO" ref="GB-CHC-1158838" type="21">
+    <narrative xml:lang="EN">International NGO</narrative>
+   </receiver-org>
+   <sector code="72010" vocabulary="1"></sector>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="DFI001R-ETOO-2">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-08-25"></transaction-date>
+   <value currency="GBP" value-date="2020-10-28">44820</value>
+   <provider-org provider-activity-id="300901" ref="GB-GOV-1" type="10"></provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1158838-DFI001R-ETOO" ref="GB-CHC-1158838" type="21">
+    <narrative xml:lang="EN">International NGO</narrative>
    </receiver-org>
    <sector code="72010" vocabulary="1"></sector>
    <flow-type code="30"></flow-type>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="5001" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="5001" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41301-684601</iati-identifier>
   <reporting-org ref="XM-DAC-41301" type="40">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
@@ -11,13 +11,13 @@
   <description type="2">
    <narrative xml:lang="FR">am&#xE9;liorer la s&#xE9;curit&#xE9; alimentaire et nutritionnelle des populations vuln&#xE9;rable et renforcer la r&#xE9;silience face &#xE0; l?impact socio-&#xE9;conomique de la pand&#xE9;mie COVID-19 en Guin&#xE9;e Bissau.</narrative>
   </description>
-  <participating-org role="1"></participating-org>
   <participating-org ref="XM-DAC-41301" role="2">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-41301" role="4">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
   </participating-org>
+  <participating-org role="1"></participating-org>
   <other-identifier ref="UTF /GBS/037/GBS" type="A1"></other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-08-04" type="2">
@@ -55,19 +55,19 @@
    </description>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">2000000</value>
-   <description>
-    <narrative xml:lang="EN">Total incoming funds from 01 July 2020 to 30 September 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">364705.77</value>
    <description>
     <narrative xml:lang="EN">Total expenditure from 01 October 2020 to 31 December 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2000000</value>
+   <description>
+    <narrative xml:lang="EN">Total incoming funds from 01 July 2020 to 30 September 2020</narrative>
    </description>
   </transaction>
  </iati-activity>

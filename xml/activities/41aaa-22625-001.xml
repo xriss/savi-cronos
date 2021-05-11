@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unops-dk" dstore:index="51" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="unops-dk" dstore:index="51" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>41AAA-22625-001</iati-identifier>
   <reporting-org ref="41AAA" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
@@ -13,10 +13,10 @@
 
 The cooperation supports IsDB member countries with combatting COVID-19 through emergency procurement services of medical supplies and equipment. UNOPS is the first United Nations organization to be included in IsDB&#x2019;s COVID-19 Global Coordination Platform for the provision of health procurement services. The platform aims to ensure greater efficiency, transparency and better governance in COVID-19 response efforts.</narrative>
   </description>
-  <participating-org ref="41AAA" role="4" type="40">
+  <participating-org ref="41AAA" role="2" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
   </participating-org>
-  <participating-org ref="41AAA" role="2" type="40">
+  <participating-org ref="41AAA" role="4" type="40">
    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
@@ -59,39 +59,12 @@ The cooperation supports IsDB member countries with combatting COVID-19 through 
    <period-end iso-date="2022-12-31"></period-end>
    <value currency="USD" value-date="2020-05-24">17364230</value>
   </budget>
-  <transaction ref="22625-001_2020_2022">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">17364230</value>
-   <description>
-    <narrative xml:lang="EN">Total partner commitment</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Maldives</narrative>
-   </provider-org>
-   <receiver-org ref="41AAA">
-    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction ref="22625-001_202012">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-01"></transaction-date>
    <value currency="USD" value-date="2020-12-01">202808</value>
    <description>
     <narrative xml:lang="EN">Expenditure for 2020</narrative>
-   </description>
-   <provider-org ref="41AAA">
-    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction ref="22625-001_202101">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-01"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">322</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for 2021-January</narrative>
    </description>
    <provider-org ref="41AAA">
     <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
@@ -110,6 +83,18 @@ The cooperation supports IsDB member countries with combatting COVID-19 through 
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction ref="22625-001_202101">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">322</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for 2021-January</narrative>
+   </description>
+   <provider-org ref="41AAA">
+    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction ref="22625-001_202103">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-01"></transaction-date>
@@ -120,6 +105,21 @@ The cooperation supports IsDB member countries with combatting COVID-19 through 
    <provider-org ref="41AAA">
     <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
    </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction ref="22625-001_2020_2022">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">17364230</value>
+   <description>
+    <narrative xml:lang="EN">Total partner commitment</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Maldives</narrative>
+   </provider-org>
+   <receiver-org ref="41AAA">
+    <narrative xml:lang="EN">United Nations Office for Project Services</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <document-link format="TEXT/HTML" url="https://data.unops.org/index.htm#SegmentCode=ORG&amp;FocusCode=DATA_PROJECTS&amp;EntityCode=PROJECT_ID&amp;EntityValue=22625-001">

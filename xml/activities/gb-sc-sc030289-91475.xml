@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="mce-activities" dstore:index="43" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="mce-activities" dstore:index="43" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-SC-SC030289-91475</iati-identifier>
   <reporting-org ref="GB-SC-SC030289" type="21">
    <narrative xml:lang="EN">MERCY CORPS EUROPE</narrative>
@@ -17,14 +17,14 @@
 2. Micro, Small and Medium Enterprises (MSMEs) active in the health and food sectors are able to continue their operations and adapt to the new context.
 3. Local agricultural initiatives are able to increase their production, reduce their costs and/or provide substitutes to imported products.</narrative>
   </description>
-  <participating-org activity-id="400004003" ref="XM-DAC-7" role="1" type="10">
-   <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
-  </participating-org>
   <participating-org role="2" type="21">
    <narrative xml:lang="EN">MERCY CORPS</narrative>
   </participating-org>
   <participating-org role="4" type="21">
    <narrative xml:lang="EN">MERCY CORPS</narrative>
+  </participating-org>
+  <participating-org activity-id="400004003" ref="XM-DAC-7" role="1" type="10">
+   <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-07-15" type="1"></activity-date>
@@ -66,23 +66,40 @@
    <period-end iso-date="2021-06-30"></period-end>
    <value currency="EUR" value-date="2020-07-30">646519</value>
   </budget>
-  <transaction humanitarian="0" ref="91475-EXP-3">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="EUR" value-date="2021-03-31">81816</value>
-   <description>
-    <narrative xml:lang="EN">Mercy Corps Expenditure</narrative>
-   </description>
-   <provider-org ref="GB-SC-SC030289" type="21">
-    <narrative xml:lang="EN">Mercy Corps</narrative>
-   </provider-org>
-  </transaction>
   <transaction humanitarian="0" ref="91475-INC-1">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="EUR" value-date="2020-09-30">564614</value>
    <description>
     <narrative xml:lang="EN">Funds incoming from the Donor</narrative>
+   </description>
+   <provider-org provider-activity-id="400004003" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">DUTCH EMBASSY</narrative>
+   </provider-org>
+   <receiver-org ref="GB-SC-SC030289" type="21">
+    <narrative xml:lang="EN">Mercy Corsps Europe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="0" ref="91475-INC-2">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">325213</value>
+   <description>
+    <narrative xml:lang="EN">Funds incoming from the Donor</narrative>
+   </description>
+   <provider-org provider-activity-id="400004003" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">DUTCH EMBASSY</narrative>
+   </provider-org>
+   <receiver-org ref="GB-SC-SC030289" type="21">
+    <narrative xml:lang="EN">Mercy Corsps Europe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="0" ref="91475-INCOMMITM.">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">1188662</value>
+   <description>
+    <narrative xml:lang="EN">Incoming commitment</narrative>
    </description>
    <provider-org provider-activity-id="400004003" ref="XM-DAC-7" type="10">
     <narrative xml:lang="EN">DUTCH EMBASSY</narrative>
@@ -102,20 +119,6 @@
     <narrative xml:lang="EN">Mercy Corps</narrative>
    </provider-org>
   </transaction>
-  <transaction humanitarian="0" ref="91475-INC-2">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">325213</value>
-   <description>
-    <narrative xml:lang="EN">Funds incoming from the Donor</narrative>
-   </description>
-   <provider-org provider-activity-id="400004003" ref="XM-DAC-7" type="10">
-    <narrative xml:lang="EN">DUTCH EMBASSY</narrative>
-   </provider-org>
-   <receiver-org ref="GB-SC-SC030289" type="21">
-    <narrative xml:lang="EN">Mercy Corsps Europe</narrative>
-   </receiver-org>
-  </transaction>
   <transaction humanitarian="0" ref="91475-EXP-2">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -127,19 +130,16 @@
     <narrative xml:lang="EN">Mercy Corps</narrative>
    </provider-org>
   </transaction>
-  <transaction humanitarian="0" ref="91475-INCOMMITM.">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">1188662</value>
+  <transaction humanitarian="0" ref="91475-EXP-3">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="EUR" value-date="2021-03-31">81816</value>
    <description>
-    <narrative xml:lang="EN">Incoming commitment</narrative>
+    <narrative xml:lang="EN">Mercy Corps Expenditure</narrative>
    </description>
-   <provider-org provider-activity-id="400004003" ref="XM-DAC-7" type="10">
-    <narrative xml:lang="EN">DUTCH EMBASSY</narrative>
+   <provider-org ref="GB-SC-SC030289" type="21">
+    <narrative xml:lang="EN">Mercy Corps</narrative>
    </provider-org>
-   <receiver-org ref="GB-SC-SC030289" type="21">
-    <narrative xml:lang="EN">Mercy Corsps Europe</narrative>
-   </receiver-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://drive.google.com/file/d/1xZLDPf-xi_J2Dq4VlBDbVoOhiezy1zg4/view?usp=sharing">
    <title>
@@ -148,6 +148,14 @@
    <category code="A08"></category>
    <language code="EN"></language>
    <document-date iso-date="2020-10-30"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/VND.MS-EXCEL" url="https://aidstream.org/files/documents/Forsa-+-Progress-Financial-Report-Jul-Dec-20-(002)-20210319050300.xlsx">
+   <title>
+    <narrative xml:lang="EN">Semi- Annual Financial Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-02-26"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://aidstream.org/files/documents/Mercy-Corps-Lebanon_FORSA-+-Q2-Progress-Report_-Oct-to-Dec-20210305120348.-2020.pdf">
    <title>
@@ -162,14 +170,6 @@
    </title>
    <category code="A08"></category>
    <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/VND.MS-EXCEL" url="https://aidstream.org/files/documents/Forsa-+-Progress-Financial-Report-Jul-Dec-20-(002)-20210319050300.xlsx">
-   <title>
-    <narrative xml:lang="EN">Semi- Annual Financial Report</narrative>
-   </title>
-   <category code="A08"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2021-02-26"></document-date>
   </document-link>
   <result type="1">
    <title>
@@ -211,6 +211,46 @@
   </result>
   <result type="1">
    <title>
+    <narrative xml:lang="EN">Output 1.1: SMEs receive technical and in-kind assistance</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Towards Outcome 1: Micro, Small and Medium Enterprises (MSMEs) active in the health and the  food sectors are able to continue their operations and adapt to the new context</narrative>
+   </description>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Output 1.1b: # of individuals employed at  supported MSMEs</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-07-15"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="TBD"></target>
+     <actual value="125">
+      <comment>
+       <narrative xml:lang="EN">Q1: 0
+Q2: 125</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Output 1.1.a: # of selected MSMEs who  receive support (disaggregated by type of  support, geographic area)</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-07-15"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="27"></target>
+     <actual value="16">
+      <comment>
+       <narrative xml:lang="EN">Q1: 0
+Q2: 16</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
     <narrative xml:lang="EN">Output 2.2: Number of individuals benefiting  from services/ products of supported agricultural  initiative</narrative>
    </title>
    <description>
@@ -228,46 +268,6 @@
       <comment>
        <narrative xml:lang="EN">Q1: 0
 Q2: TBD</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Output 1.1: SMEs receive technical and in-kind assistance</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Towards Outcome 1: Micro, Small and Medium Enterprises (MSMEs) active in the health and the  food sectors are able to continue their operations and adapt to the new context</narrative>
-   </description>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Output 1.1.a: # of selected MSMEs who  receive support (disaggregated by type of  support, geographic area)</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-07-15"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="27"></target>
-     <actual value="16">
-      <comment>
-       <narrative xml:lang="EN">Q1: 0
-Q2: 16</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Output 1.1b: # of individuals employed at  supported MSMEs</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-07-15"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="TBD"></target>
-     <actual value="125">
-      <comment>
-       <narrative xml:lang="EN">Q1: 0
-Q2: 125</narrative>
       </comment>
      </actual>
     </period>

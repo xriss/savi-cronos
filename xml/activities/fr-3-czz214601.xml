@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="afd-global" dstore:index="2767" hierarchy="2" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="afd-global" dstore:index="2767" hierarchy="2" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>FR-3-CZZ214601</iati-identifier>
   <reporting-org ref="FR-3" type="10">
    <narrative xml:lang="FR">AFD</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="FR">ECOMORE 2 apour ambition de renforcer les dispositifs de surveillance et de lutte contre les maladies &#xE9;pid&#xE9;miques et de formuler des recommandations dans les 5 pays b&#xE9;n&#xE9;ficiaires (Cambodge, Laos, Vietnam, Birmanie, Philippines). Le top-up propos&#xE9; de 2 M euros vise &#xE0; aider les instituts partenaires de l&apos;IP dans les  5 pays concern&#xE9;s &#xE0; faire face &#xE0; la crise &#xE9;pid&#xE9;mique du COVID-19 par l&apos;achat d&apos;&#xE9;quipements de protection des personnels et la mise &#xE0; disposition d&apos;un expert virologue.</narrative>
   </description>
-  <participating-org ref="FR" role="1" type="10">
-   <narrative xml:lang="FR">France</narrative>
-  </participating-org>
   <participating-org ref="FR-3" role="3" type="10">
    <narrative xml:lang="FR">AFD</narrative>
+  </participating-org>
+  <participating-org ref="FR" role="1" type="10">
+   <narrative xml:lang="FR">France</narrative>
   </participating-org>
   <participating-org role="4">
    <narrative xml:lang="FR">INSTITUT PASTEUR PARIS</narrative>
@@ -24,11 +24,11 @@
   <activity-date iso-date="2018-02-09" type="1"></activity-date>
   <activity-date iso-date="2018-02-09" type="2"></activity-date>
   <activity-date iso-date="2022-06-30" type="3"></activity-date>
-  <recipient-country code="VN" percentage="20">
-   <narrative xml:lang="FR">VIET-NAM</narrative>
-  </recipient-country>
   <recipient-country code="MM" percentage="20">
    <narrative xml:lang="FR">BIRMANIE (MYANMAR)</narrative>
+  </recipient-country>
+  <recipient-country code="LA" percentage="20">
+   <narrative xml:lang="FR">LAOS, REPUBLIQUE DEMOCRATIQUE POPULAIRE</narrative>
   </recipient-country>
   <recipient-country code="PH" percentage="20">
    <narrative xml:lang="FR">PHILIPPINES</narrative>
@@ -36,8 +36,8 @@
   <recipient-country code="KH" percentage="20">
    <narrative xml:lang="FR">ROYAUME DU CAMBODGE</narrative>
   </recipient-country>
-  <recipient-country code="LA" percentage="20">
-   <narrative xml:lang="FR">LAOS, REPUBLIQUE DEMOCRATIQUE POPULAIRE</narrative>
+  <recipient-country code="VN" percentage="20">
+   <narrative xml:lang="FR">VIET-NAM</narrative>
   </recipient-country>
   <location>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">

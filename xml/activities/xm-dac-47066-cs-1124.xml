@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="339" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="339" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-CS.1124</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,18 +11,18 @@
   <description>
    <narrative xml:lang="EN">In order to promote the stabilization of conflict-affected communities and/or other communities with intensive needs based on conflict assessments previously conducted by IOM Iraq&#x2019;s Community Stabilization Unit, IOM seeks to provide the Government of Iraq with support to address two of the country&#x2019;s most pressing challenges of reintegration of families with a perceived affiliation to ISIL to return to and co-exist with their communities of origin and other conflict-affected communities (a secondary location of settlement), while also bolstering resilience to future waves of violent extremism within these communities; and the socio-economic reintegration of former combatants who have spontaneously disengaged and returned to their area of origin. In addition, IOM provides assistance to vulnerable communities in Iraq to sustain peace in the context of COVID-19 by addressing socio-economic impacts brought on by the pandemic.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-701-2-YK/IOM/89" ref="XM-DAC-701-2" role="1" type="10">
-   <narrative xml:lang="EN">Japan - Ministry of Foreign Affairs</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-701-2-YK/IOM/89" ref="XM-DAC-701-2" role="1" type="10">
+   <narrative xml:lang="EN">Japan - Ministry of Foreign Affairs</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2021-03-31" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2021-03-31" type="2">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-03-31" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <activity-date iso-date="2022-03-30" type="3">
    <narrative xml:lang="EN">Planned</narrative>
@@ -37,6 +37,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="IQ" percentage="100"></recipient-country>
+  <location ref="IQ">
+   <location-reach code="2"></location-reach>
+   <location-id code="IQ" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Iraq</narrative>
+   </name>
+   <administrative code="IQ" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -48,14 +56,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="IQ">
-   <location-reach code="2"></location-reach>
-   <location-id code="IQ" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Iraq</narrative>
-   </name>
-   <administrative code="IQ" vocabulary="A4"></administrative>
   </location>
   <sector code="CS" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Community Stabilization</narrative>

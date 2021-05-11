@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-mmr" dstore:index="109" hierarchy="2" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-mmr" dstore:index="109" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00123199</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -13,14 +13,14 @@
 products, and boosting communication skills during the pandemic, implemented under 
 Strengthening Accountability and Rule of Law  (SARL) Project</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
+  <participating-org ref="10503" role="1" type="10">
+   <narrative xml:lang="EN">MINISTRY OF FOREIGN AFFAIRS, NORWAY</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-41114" role="1">
    <narrative xml:lang="EN">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
   </participating-org>
-  <participating-org ref="10503" role="1" type="10">
-   <narrative xml:lang="EN">MINISTRY OF FOREIGN AFFAIRS, NORWAY</narrative>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-01-01" type="1"></activity-date>
@@ -54,11 +54,11 @@ Strengthening Accountability and Rule of Law  (SARL) Project</narrative>
    <location-class code="2"></location-class>
    <feature-designation code="PPLC"></feature-designation>
   </location>
-  <sector code="15151" percentage="100" vocabulary="1"></sector>
-  <sector code="16.5" percentage="100" vocabulary="8"></sector>
   <sector code="18" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Accelerate structural transformations</narrative>
   </sector>
+  <sector code="15151" percentage="100" vocabulary="1"></sector>
+  <sector code="16.5" percentage="100" vocabulary="8"></sector>
   <tag code="16.5" vocabulary="3"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Global COVID-19</narrative>
@@ -76,27 +76,33 @@ Strengthening Accountability and Rule of Law  (SARL) Project</narrative>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
+   <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">13674</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   <value currency="USD" value-date="2020-12-31">8581</value>
+   <provider-org ref="10503" type="10">
+    <narrative xml:lang="EN">MINISTRY OF FOREIGN AFFAIRS, NORWAY</narrative>
    </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00123199" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">79561</value>
+   <provider-org ref="XM-DAC-41114">
+    <narrative xml:lang="EN">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00123199" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">7171</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-10-31">21442</value>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">1021</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -113,35 +119,29 @@ Strengthening Accountability and Rule of Law  (SARL) Project</narrative>
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">1021</value>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-10-31">21442</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">79561</value>
-   <provider-org ref="XM-DAC-41114">
-    <narrative xml:lang="EN">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00123199" ref="XM-DAC-41114" type="40">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">7171</value>
+   <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="11"></transaction-type>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">8581</value>
-   <provider-org ref="10503" type="10">
-    <narrative xml:lang="EN">MINISTRY OF FOREIGN AFFAIRS, NORWAY</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00123199" ref="XM-DAC-41114" type="40">
+   <value currency="USD" value-date="2020-12-31">13674</value>
+   <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -159,12 +159,12 @@ Strengthening Accountability and Rule of Law  (SARL) Project</narrative>
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00107427" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00107734" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00109039" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00109305" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00122850" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00123200" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00107427" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

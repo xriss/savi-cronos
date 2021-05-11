@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="2009" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="2009" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27108436-A-06390-06:UG</iati-identifier>
   <reporting-org ref="NL-KVK-27108436" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
@@ -13,11 +13,7 @@
 
 CAFOT is a voluntary, non-governmental organization founded and initiated by group of 15 youths and elderscomprises of refugees and the host community with wealth of experience in community work in different fields. CAFOT is started in August of 2017 desired to engage the refugees youth in particular and the host community in comprehensive peace building, Hygiene and sanitation promotion and advocating for a quality education as a mean of building resilience and health living among the south Sudanese and host communities.</narrative>
   </description>
-  <participating-org ref="NL-KVK-27108436" role="2" type="21">
-   <narrative xml:lang="EN">Oxfam Novib</narrative>
-  </participating-org>
   <participating-org role="4" type="24">
-   <narrative xml:lang="EN">Community Action for Transformation</narrative>
    <narrative xml:lang="EN">1. HISTORY:
           Community Action for Transformation or CAFOT is started in August of 2017 desired to engage the refugees youth in particular and the host community in comprehensive peace building, Hygiene and sanitation promotion and advocating for a quality education as a mean of building resilience and health living among the south Sudanese and host communities. The organization was started by a group of young people with the vision; to create a safe and peaceful atmosphere for human race including his God-given plan, domestic and wild- life and to deliver socio-economic development. So far the organization has improved since its formation andit also has taken gender mainstreaming as co in achieving its vision through programming, planning, andimplementation.
 2. ACHIEVEMENTS:
@@ -47,25 +43,29 @@ Who are the social actors that benefit from the work? We target youth, (men, wom
        In the current board of director, out of seven members, the three are female. We have the Director who is a male and the program manager, while the position of the finance is a female , While the community mobilisers are a mixture of both male and female altogether.
 6.CURRENT BALANCE SHEET/FINANCIAL POSITION
        We have not yet received much funding as a newly established organization apart from being funded on activities basis. This means we always relay on the contribution of our members and the volunteers.</narrative>
+   <narrative xml:lang="EN">Community Action for Transformation</narrative>
   </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Oxfam Denmark (IBIS)</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-27108436" role="2" type="21">
+   <narrative xml:lang="EN">Oxfam Novib</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-27108436" role="3" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-06-01" type="1">
-   <narrative xml:lang="EN">start-planned</narrative>
-  </activity-date>
-  <activity-date iso-date="2020-06-01" type="2">
-   <narrative xml:lang="EN">start-actual</narrative>
+  <activity-date iso-date="2020-08-31" type="4">
+   <narrative xml:lang="EN">end-actual</narrative>
   </activity-date>
   <activity-date iso-date="2020-08-31" type="3">
    <narrative xml:lang="EN">end-planned</narrative>
   </activity-date>
-  <activity-date iso-date="2020-08-31" type="4">
-   <narrative xml:lang="EN">end-actual</narrative>
+  <activity-date iso-date="2020-06-01" type="2">
+   <narrative xml:lang="EN">start-actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-06-01" type="1">
+   <narrative xml:lang="EN">start-planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -83,8 +83,8 @@ Who are the social actors that benefit from the work? We target youth, (men, wom
   <sector code="3" percentage="100" vocabulary="99" vocabulary-uri="http://www.oxfamnovib.nl">
    <narrative xml:lang="EN">The right to life and security</narrative>
   </sector>
-  <sector code="74010" percentage="100" vocabulary="1"></sector>
   <sector code="10" percentage="100" vocabulary="10"></sector>
+  <sector code="74010" percentage="100" vocabulary="1"></sector>
   <tag code="1" vocabulary="2"></tag>
   <policy-marker code="3" significance="0" vocabulary="1"></policy-marker>
   <default-flow-type code="30"></default-flow-type>
@@ -94,19 +94,8 @@ Who are the social actors that benefit from the work? We target youth, (men, wom
   <budget type="2">
    <period-start iso-date="2020-06-01"></period-start>
    <period-end iso-date="2020-08-31"></period-end>
-   <value currency="EUR" value-date="2021-05-08">4500</value>
+   <value currency="EUR" value-date="2021-05-09">4500</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-07-01"></transaction-date>
-   <value currency="EUR" value-date="2020-07-01">4500</value>
-   <description>
-    <narrative xml:lang="EN">incoming transaction</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Oxfam Denmark (IBIS)</narrative>
-   </provider-org>
-  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-07-01"></transaction-date>
@@ -118,6 +107,17 @@ Who are the social actors that benefit from the work? We target youth, (men, wom
     <narrative xml:lang="EN">Community Action for Transformation</narrative>
    </receiver-org>
   </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-07-01"></transaction-date>
+   <value currency="EUR" value-date="2020-07-01">4500</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Oxfam Denmark (IBIS)</narrative>
+   </provider-org>
+  </transaction>
   <document-link format="APPLICATION/HTTP" url="https://atlas.oxfamnovib.nl/#/project/A-06390-06:UG">
    <title>
     <narrative xml:lang="EN">Atlas project browser</narrative>
@@ -127,12 +127,12 @@ Who are the social actors that benefit from the work? We target youth, (men, wom
    <document-date iso-date="2015-12-11"></document-date>
   </document-link>
   <related-activity ref="NL-KVK-27108436-000101" type="1"></related-activity>
+  <legacy-data name="grant-reference" value="1002092"></legacy-data>
+  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
   <legacy-data name="profit-centre" value="0000007104"></legacy-data>
   <legacy-data name="profit-centre-name" value="CO: Uganda (HECA)"></legacy-data>
   <legacy-data name="project" value="A-06390"></legacy-data>
   <legacy-data name="project-name" value="UG Covid-19 prep and response Apr-Jun20"></legacy-data>
-  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
-  <legacy-data name="grant-reference" value="1002092"></legacy-data>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">5260</narrative>
@@ -140,21 +140,6 @@ Who are the social actors that benefit from the work? We target youth, (men, wom
    <description>
     <narrative xml:lang="EN">Women and Men able to:  # of people (M/F) living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
    </description>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5260-A</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
-    </description>
-    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
-     <target value="5200"></target>
-    </period>
-   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">5260-B</narrative>
@@ -170,6 +155,21 @@ Who are the social actors that benefit from the work? We target youth, (men, wom
      <target value="4800"></target>
     </period>
    </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5260-A</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+    </description>
+    <reference code="5260-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-06-01"></period-start>
+     <period-end iso-date="2020-08-31"></period-end>
+     <target value="5200"></target>
+    </period>
+   </indicator>
   </result>
   <result aggregation-status="1" type="2">
    <title>
@@ -178,21 +178,6 @@ Who are the social actors that benefit from the work? We target youth, (men, wom
    <description>
     <narrative xml:lang="EN">Women and Men able to:  # of people (M/F) living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
    </description>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5260-1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
-    </description>
-    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
-     <target value="5200"></target>
-    </period>
-   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">5260-2</narrative>
@@ -206,6 +191,21 @@ Who are the social actors that benefit from the work? We target youth, (men, wom
      <period-start iso-date="2020-06-01"></period-start>
      <period-end iso-date="2020-08-31"></period-end>
      <target value="4800"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5260-1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to respond effectively to disasters</narrative>
+    </description>
+    <reference code="5260-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-06-01"></period-start>
+     <period-end iso-date="2020-08-31"></period-end>
+     <target value="5200"></target>
     </period>
    </indicator>
   </result>

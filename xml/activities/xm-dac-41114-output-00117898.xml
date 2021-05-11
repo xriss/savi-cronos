@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-pan" dstore:index="169" hierarchy="2" humanitarian="0" xml:lang="ES" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-pan" dstore:index="169" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="ES" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00117898</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="ES">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="ES">Implementaci&#xF3;n del Sistema de Gesti&#xF3;n de Metas, Centro de Gesti&#xF3;n y Transparencia Documental en el Ministerio de la Presidencia</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="ES">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="01070" role="1" type="10">
    <narrative xml:lang="ES">PAN-GOVERNMENT</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="ES">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2019-10-01" type="1"></activity-date>
@@ -49,14 +49,14 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPLC"></feature-designation>
   </location>
-  <sector code="15151" percentage="100" vocabulary="1"></sector>
-  <sector code="16.7" percentage="50" vocabulary="8"></sector>
-  <sector code="16.6" percentage="50" vocabulary="8"></sector>
   <sector code="18" percentage="100" vocabulary="99">
    <narrative xml:lang="ES">Accelerate structural transformations</narrative>
   </sector>
-  <tag code="16.7" vocabulary="3"></tag>
+  <sector code="15151" percentage="100" vocabulary="1"></sector>
+  <sector code="16.6" percentage="50" vocabulary="8"></sector>
+  <sector code="16.7" percentage="50" vocabulary="8"></sector>
   <tag code="16.6" vocabulary="3"></tag>
+  <tag code="16.7" vocabulary="3"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="ES">Global COVID-19</narrative>
   </humanitarian-scope>
@@ -67,9 +67,9 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="2">
-   <period-start iso-date="2021-01-01"></period-start>
-   <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2021-04-30">120503</value>
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2019-12-31">271700</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
@@ -77,71 +77,11 @@
    <value currency="USD" value-date="2020-12-31">500850</value>
   </budget>
   <budget status="2" type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">271700</value>
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-04-30">120503</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">101389</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="ES">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">4550</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="ES">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-04-30"></transaction-date>
-   <value currency="USD" value-date="2020-04-30">104098</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="ES">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">135850</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="ES">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="USD" value-date="2021-04-30">120503</value>
-   <provider-org ref="01070" type="10">
-    <narrative xml:lang="ES">PAN-GOVERNMENT</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00117898" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="ES">United Nations Development Programme</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">500850</value>
-   <provider-org ref="01070" type="10">
-    <narrative xml:lang="ES">PAN-GOVERNMENT</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00117898" ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="ES">United Nations Development Programme</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
@@ -164,6 +104,66 @@
    <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00117898" ref="XM-DAC-41114" type="40">
     <narrative xml:lang="ES">United Nations Development Programme</narrative>
    </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">500850</value>
+   <provider-org ref="01070" type="10">
+    <narrative xml:lang="ES">PAN-GOVERNMENT</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00117898" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="ES">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">120503</value>
+   <provider-org ref="01070" type="10">
+    <narrative xml:lang="ES">PAN-GOVERNMENT</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00117898" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="ES">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">135850</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="ES">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <value currency="USD" value-date="2020-04-30">104098</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="ES">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">4550</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="ES">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">101389</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="ES">United Nations Development Programme</narrative>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>

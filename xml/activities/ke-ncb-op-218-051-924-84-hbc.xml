@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="aaik-activities" dstore:index="5" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="aaik-activities" dstore:index="5" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>KE-NCB-OP/218/051/924/84-HBC</iati-identifier>
   <reporting-org ref="KE-NCB-OP/218/051/924/84" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">ActionAid International Kenya</narrative>
@@ -11,11 +11,11 @@
   <description type="2">
    <narrative xml:lang="EN">Contribute to the well-being and reduction of life threatening impacts of COVID-19 to communities in Kenya.</narrative>
   </description>
-  <participating-org activity-id="GB-CHC-274467-101112" crs-channel-code="21000" ref="GB-CHC-274467" role="1" type="21">
-   <narrative xml:lang="EN">ActionAid UK</narrative>
-  </participating-org>
   <participating-org activity-id="KE-NCB-OP-218-051-924-84-HBC" crs-channel-code="21000" ref="KE-NCB-OP-218-051-924-84" role="4" type="21">
    <narrative xml:lang="EN">ACTIONAID INTERNATIONAL KENYA</narrative>
+  </participating-org>
+  <participating-org activity-id="GB-CHC-274467-101112" crs-channel-code="21000" ref="GB-CHC-274467" role="1" type="21">
+   <narrative xml:lang="EN">ActionAid UK</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-04-27" type="2">
@@ -57,6 +57,21 @@
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="GBP" value-date="2020-04-27">500032</value>
   </budget>
+  <transaction humanitarian="0" ref="Expenditure for June and July 2020">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-12"></transaction-date>
+   <value currency="GBP" value-date="2020-08-12">43655</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure for June and July 2020</narrative>
+   </description>
+   <provider-org provider-activity-id="KE-NCB-OP/218/051/924/84-HBC" ref="KE-NCB-OP/218/051/924/84" type="21">
+    <narrative xml:lang="EN">ActionAid International Kenya</narrative>
+   </provider-org>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction humanitarian="0" ref="Fund allocation from AAUK to AAIK">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-04-27"></transaction-date>
@@ -88,21 +103,6 @@
    <receiver-org receiver-activity-id="KE-NCB-OP/218/051/924/84-HBC" ref="KE-NCB-OP/218/051/924/84" type="21">
     <narrative xml:lang="EN">ActionAid International Kenya</narrative>
    </receiver-org>
-   <flow-type code="30"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction humanitarian="0" ref="Expenditure for June and July 2020">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-12"></transaction-date>
-   <value currency="GBP" value-date="2020-08-12">43655</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure for June and July 2020</narrative>
-   </description>
-   <provider-org provider-activity-id="KE-NCB-OP/218/051/924/84-HBC" ref="KE-NCB-OP/218/051/924/84" type="21">
-    <narrative xml:lang="EN">ActionAid International Kenya</narrative>
-   </provider-org>
    <flow-type code="30"></flow-type>
    <finance-type code="110"></finance-type>
    <aid-type code="C01" vocabulary="1"></aid-type>

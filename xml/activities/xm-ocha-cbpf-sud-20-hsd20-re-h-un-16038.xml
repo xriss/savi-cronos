@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="unocha-cbpf-sudan-allocation-2020" dstore:index="33" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="unocha-cbpf-sudan-allocation-2020" dstore:index="33" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-OCHA-CBPF-SUD-20/HSD20/RE/H/UN/16038</iati-identifier>
   <reporting-org ref="XM-OCHA-CBPF" secondary-reporter="0" type="22">
    <narrative xml:lang="EN">United Nations Office for the Coordination of Humanitarian Affairs</narrative>
@@ -24,12 +24,6 @@ A case or cluster of cases is identified and triggers a lock-down and quarantine
 3.	Outbreak of COVID-19 in refugee camp or settlement &#x2013; refugees disperse and try to leave to country of origin (least likely):
 The baseline is scenario 1. However, the first suspect COVID-19 cases trigger a wave of departure from the refugee camp. Refugees try to either relocate to the hosting community or to travel to the nearest border point towards their country of origin. Many will become stranded in isolation in ad-hoc isolation / detention facilities, including at the border. COVID-19 outbreaks may occur at these ad-hoc isolation/detention facilities. There will be a call for humanitarian assistance services, and a COVID-19 medical response, at the ad-hoc isolation</narrative>
   </description>
-  <participating-org role="2" type="40">
-   <narrative xml:lang="EN">United Nations High Commissioner for Refugees</narrative>
-  </participating-org>
-  <participating-org role="4" type="40">
-   <narrative xml:lang="EN">United Nations High Commissioner for Refugees</narrative>
-  </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">International Humanitarian Charity Organization</narrative>
   </participating-org>
@@ -38,6 +32,12 @@ The baseline is scenario 1. However, the first suspect COVID-19 cases trigger a 
   </participating-org>
   <participating-org activity-id="XM-OCHA-CBPF-SUD15-2020" ref="XM-OCHA-CBPF-SUD15" role="1" type="40">
    <narrative xml:lang="EN">Sudan Humanitarian Fund</narrative>
+  </participating-org>
+  <participating-org role="2" type="40">
+   <narrative xml:lang="EN">United Nations High Commissioner for Refugees</narrative>
+  </participating-org>
+  <participating-org role="4" type="40">
+   <narrative xml:lang="EN">United Nations High Commissioner for Refugees</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-05-03" type="1"></activity-date>
@@ -92,10 +92,10 @@ The baseline is scenario 1. However, the first suspect COVID-19 cases trigger a 
    <value currency="USD" value-date="2020-06-04">500000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction humanitarian="1" ref="SUD15-16038">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-04"></transaction-date>
-   <value currency="USD" value-date="2020-06-04">500000</value>
+  <transaction humanitarian="1" ref="00012383">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-03"></transaction-date>
+   <value currency="USD" value-date="2020-06-03">500000</value>
    <provider-org provider-activity-id="XM-OCHA-CBPF-SUD15-2020" ref="XM-OCHA-CBPF-SUD15" type="40">
     <narrative xml:lang="EN">Sudan Humanitarian Fund</narrative>
    </provider-org>
@@ -103,10 +103,10 @@ The baseline is scenario 1. However, the first suspect COVID-19 cases trigger a 
     <narrative xml:lang="EN">United Nations High Commissioner for Refugees</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="00012383">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-03"></transaction-date>
-   <value currency="USD" value-date="2020-06-03">500000</value>
+  <transaction humanitarian="1" ref="SUD15-16038">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-04"></transaction-date>
+   <value currency="USD" value-date="2020-06-04">500000</value>
    <provider-org provider-activity-id="XM-OCHA-CBPF-SUD15-2020" ref="XM-OCHA-CBPF-SUD15" type="40">
     <narrative xml:lang="EN">Sudan Humanitarian Fund</narrative>
    </provider-org>

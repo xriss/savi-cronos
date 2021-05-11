@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="ec-intpa-998" dstore:index="3617" hierarchy="2" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="ec-intpa-998" dstore:index="3617" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XI-IATI-EC_INTPA-2018/404-106</iati-identifier>
   <reporting-org ref="XI-IATI-EC_INTPA" secondary-reporter="0" type="15">
    <narrative xml:lang="EN">European Commission - International Partnerships</narrative>
@@ -11,6 +11,9 @@
   <description type="1">
    <narrative xml:lang="EN">Improving working conditions, promoting labour and environmental standards and reducing labour rights abuses in the textile and garment industry:- SMEs and factories in the garment and textile sector, factory managers, owners, and workers in Myanmar are jointly improving the working conditions by enhancing transparency and compliance with social and environmental standards. - Consumers in Europe are increasing their knowledge and awareness on sustainable fashion. - All actors in the value</narrative>
   </description>
+  <participating-org activity-id="XI-IATI-EC_INTPA-2018/404-106" ref="N/A" role="4" type="15">
+   <narrative xml:lang="EN">EC_INTPA</narrative>
+  </participating-org>
   <participating-org activity-id="XI-IATI-EC_INTPA-2018/404-106" ref="XI-IATI-EC_INTPA" role="1" type="15">
    <narrative xml:lang="EN">European Commission - Directorate-General for International Partnerships (INTPA)</narrative>
   </participating-org>
@@ -20,20 +23,17 @@
   <participating-org activity-id="XI-IATI-EC_INTPA-2018/404-106" ref="20000" role="2">
    <narrative xml:lang="EN">NON-GOVERNMENTAL ORGANISATIONS (NGOs) AND CIVIL SOCIETY</narrative>
   </participating-org>
-  <participating-org activity-id="XI-IATI-EC_INTPA-2018/404-106" ref="N/A" role="4" type="15">
-   <narrative xml:lang="EN">EC_INTPA</narrative>
-  </participating-org>
   <other-identifier ref="2017000026003" type="A2"></other-identifier>
   <other-identifier ref="XI-IATI-EC_DEVCO" type="B1"></other-identifier>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2018-12-21" type="1">
-   <narrative xml:lang="EN">Planned Start: 21-DEC-18</narrative>
-  </activity-date>
   <activity-date iso-date="2019-05-01" type="2">
    <narrative xml:lang="EN">Actual Start: 01-MAY-19</narrative>
   </activity-date>
   <activity-date iso-date="2022-04-30" type="3">
    <narrative xml:lang="EN">Planned End: 30-APR-22</narrative>
+  </activity-date>
+  <activity-date iso-date="2018-12-21" type="1">
+   <narrative xml:lang="EN">Planned Start: 21-DEC-18</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -55,23 +55,17 @@
     <narrative xml:lang="EN">Belgium, France, Germany, Burma/Myanmar, Netherlands</narrative>
    </description>
   </location>
+  <sector code="41081" percentage="20" vocabulary="1">
+   <narrative xml:lang="EN">Environmental education/training</narrative>
+  </sector>
   <sector code="16070" percentage="50" vocabulary="1">
    <narrative xml:lang="EN">Labour Rights</narrative>
   </sector>
   <sector code="25040" percentage="30" vocabulary="1">
    <narrative xml:lang="EN">Responsible Business Conduct</narrative>
   </sector>
-  <sector code="41081" percentage="20" vocabulary="1">
-   <narrative xml:lang="EN">Environmental education/training</narrative>
-  </sector>
   <tag code="1" vocabulary="2">
    <narrative xml:lang="EN">SDG 01: No Poverty</narrative>
-  </tag>
-  <tag code="10" vocabulary="2">
-   <narrative xml:lang="EN">SDG 10: Reduced Inequality</narrative>
-  </tag>
-  <tag code="12" vocabulary="2">
-   <narrative xml:lang="EN">SDG 12: Responsible Consumption and Production</narrative>
   </tag>
   <tag code="5" vocabulary="2">
    <narrative xml:lang="EN">SDG 05: Gender Equality</narrative>
@@ -82,42 +76,48 @@
   <tag code="8" vocabulary="2">
    <narrative xml:lang="EN">SDG 08: Decent Work and Economic Growth</narrative>
   </tag>
+  <tag code="10" vocabulary="2">
+   <narrative xml:lang="EN">SDG 10: Reduced Inequality</narrative>
+  </tag>
+  <tag code="12" vocabulary="2">
+   <narrative xml:lang="EN">SDG 12: Responsible Consumption and Production</narrative>
+  </tag>
   <tag code="COVID-19" vocabulary="99"></tag>
-  <policy-marker code="1" significance="1" vocabulary="1">
-   <narrative xml:lang="EN">Gender Equality</narrative>
-  </policy-marker>
-  <policy-marker code="2" significance="2" vocabulary="1">
-   <narrative xml:lang="EN">Aid to Environment</narrative>
-  </policy-marker>
-  <policy-marker code="3" significance="1" vocabulary="1">
-   <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
-  </policy-marker>
-  <policy-marker code="4" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Trade Development</narrative>
-  </policy-marker>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
-  </policy-marker>
-  <policy-marker code="6" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
-  </policy-marker>
-  <policy-marker code="7" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
   </policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention to Combat Desertification</narrative>
   </policy-marker>
-  <policy-marker code="9" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
+  <policy-marker code="7" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
   </policy-marker>
-  <policy-marker code="10" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Disaster Risk Reduction (DRR)</narrative>
+  <policy-marker code="6" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
+  </policy-marker>
+  <policy-marker code="2" significance="2" vocabulary="1">
+   <narrative xml:lang="EN">Aid to Environment</narrative>
   </policy-marker>
   <policy-marker code="11" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Disability</narrative>
   </policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Disaster Risk Reduction (DRR)</narrative>
+  </policy-marker>
+  <policy-marker code="1" significance="1" vocabulary="1">
+   <narrative xml:lang="EN">Gender Equality</narrative>
+  </policy-marker>
   <policy-marker code="12" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Nutrition</narrative>
+  </policy-marker>
+  <policy-marker code="3" significance="1" vocabulary="1">
+   <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
+  </policy-marker>
+  <policy-marker code="9" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
+  </policy-marker>
+  <policy-marker code="4" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Trade Development</narrative>
   </policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -151,22 +151,6 @@
   </planned-disbursement>
   <planned-disbursement type="1">
    <period-start iso-date="2021-01-01"></period-start>
-   <period-end iso-date="2022-07-01"></period-end>
-   <value currency="EUR" value-date="2021-04-29">462732</value>
-   <provider-org provider-activity-id="XI-IATI-EC_INTPA-2018/404-106" type="15">
-    <narrative xml:lang="EN">XI-IATI-EC_INTPA</narrative>
-   </provider-org>
-  </planned-disbursement>
-  <planned-disbursement type="1">
-   <period-start iso-date="2021-01-01"></period-start>
-   <period-end iso-date="2022-07-01"></period-end>
-   <value currency="EUR" value-date="2021-04-29">462732</value>
-   <provider-org provider-activity-id="XI-IATI-EC_INTPA-2018/404-106" type="15">
-    <narrative xml:lang="EN">XI-IATI-EC_INTPA</narrative>
-   </provider-org>
-  </planned-disbursement>
-  <planned-disbursement type="1">
-   <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-05-01"></period-end>
    <value currency="EUR" value-date="2021-04-29">231000</value>
    <provider-org provider-activity-id="XI-IATI-EC_INTPA-2018/404-106" type="15">
@@ -177,6 +161,22 @@
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-05-01"></period-end>
    <value currency="EUR" value-date="2021-04-29">231000</value>
+   <provider-org provider-activity-id="XI-IATI-EC_INTPA-2018/404-106" type="15">
+    <narrative xml:lang="EN">XI-IATI-EC_INTPA</narrative>
+   </provider-org>
+  </planned-disbursement>
+  <planned-disbursement type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2022-07-01"></period-end>
+   <value currency="EUR" value-date="2021-04-29">462732</value>
+   <provider-org provider-activity-id="XI-IATI-EC_INTPA-2018/404-106" type="15">
+    <narrative xml:lang="EN">XI-IATI-EC_INTPA</narrative>
+   </provider-org>
+  </planned-disbursement>
+  <planned-disbursement type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2022-07-01"></period-end>
+   <value currency="EUR" value-date="2021-04-29">462732</value>
    <provider-org provider-activity-id="XI-IATI-EC_INTPA-2018/404-106" type="15">
     <narrative xml:lang="EN">XI-IATI-EC_INTPA</narrative>
    </provider-org>

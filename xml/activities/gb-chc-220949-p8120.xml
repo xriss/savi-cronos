@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="gb-chc-220949-activities" dstore:index="44" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="gb-chc-220949-activities" dstore:index="44" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>GB-CHC-220949-P8120</iati-identifier>
   <reporting-org ref="GB-CHC-220949" type="21">
    <narrative xml:lang="EN">British Red Cross</narrative>
@@ -17,14 +17,14 @@ BRC completed an evaluation of one of the programmes; Cash-For-Work (CFW) throug
 &#xC2;&#xA0;
 &#xC2;</narrative>
   </description>
-  <participating-org role="4">
-   <narrative xml:lang="EN">Iraqi Red Crescent Society</narrative>
+  <participating-org ref="GB-CHC-220949" role="2">
+   <narrative xml:lang="EN">British Red Cross</narrative>
   </participating-org>
   <participating-org role="4">
    <narrative xml:lang="EN">French Red Cross</narrative>
   </participating-org>
-  <participating-org ref="GB-CHC-220949" role="2">
-   <narrative xml:lang="EN">British Red Cross</narrative>
+  <participating-org role="4">
+   <narrative xml:lang="EN">Iraqi Red Crescent Society</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-03-02" type="2"></activity-date>
@@ -38,46 +38,14 @@ BRC completed an evaluation of one of the programmes; Cash-For-Work (CFW) throug
     <narrative xml:lang="EN">Iraq, Ninewa Governorate, Sinjar District</narrative>
    </name>
   </location>
-  <sector code="998" percentage="34" vocabulary="2"></sector>
   <sector code="140" percentage="33" vocabulary="2"></sector>
   <sector code="930" percentage="33" vocabulary="2"></sector>
+  <sector code="998" percentage="34" vocabulary="2"></sector>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <transaction humanitarian="1" ref="GB-CHC-220949-P8120-001-001">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-17"></transaction-date>
-   <value currency="EUR" value-date="2020-12-17">58050</value>
-   <description>
-    <narrative xml:lang="EN">Dear all,&#xC2;&#xA0;
-Please see attached the Iraq GAD for your sign off. A clause needs to be added to ensure compliance for counter terrorism, this will be done via an addendum. For urgency please see the clause description below and the email attached which evidences the FRC will be able to&#xC2;&#xA0;adhere to this. 
-5.9 The BRC is prohibited from providing support (either explicit or implicit) for terrorism or having any link or engagement with a terrorist organisation.&#xC2;&#xA0; While at all times acting in accordance with the Fundamental Principles, the Partner will ensure that any procurements above the value of &#xC2;&#xA3;5,000 (GBP) (or equivalent in local currency) using the funds or assets provided under this Arrangement are not made available or used to provide support to individuals, groups or entities associated with terrorism by using an online solution provided by the BRC to conduct individual checks on prospective and existing long-standing suppliers. All checks carried out should be reported back to BRC in line with the reporting schedule above (as per the GAD).
-Please note I will do an addendum as a matter of priority.
-&#xC2;&#xA0;
-Amy
-&#xC2;&#xA0;
-&#xC2;&#xA0;
-&#xC2;&#xA0;
-&#xC2;&#xA0;
-&#xC2;&#xA0;
-&#xC2;&#xA0;
-Many thanks,&#xC2;&#xA0;
-Amy&#xC2;</narrative>
-   </description>
-   <provider-org ref="GB-CHC-220949" type="21">
-    <narrative xml:lang="EN">British Red Cross</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">French Red Cross</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <flow-type code="30"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
   <transaction humanitarian="1" ref="GB-CHC-220949-P8120-001-001">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-17"></transaction-date>
@@ -131,6 +99,38 @@ Many thanks,&#xC2;&#xA0;
 Amy&#xC2;</narrative>
    </description>
    <provider-org provider-activity-id="GB-CHC-220949-P8120-001" ref="GB-CHC-220949" type="21">
+    <narrative xml:lang="EN">British Red Cross</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">French Red Cross</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="GB-CHC-220949-P8120-001-001">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-17"></transaction-date>
+   <value currency="EUR" value-date="2020-12-17">58050</value>
+   <description>
+    <narrative xml:lang="EN">Dear all,&#xC2;&#xA0;
+Please see attached the Iraq GAD for your sign off. A clause needs to be added to ensure compliance for counter terrorism, this will be done via an addendum. For urgency please see the clause description below and the email attached which evidences the FRC will be able to&#xC2;&#xA0;adhere to this. 
+5.9 The BRC is prohibited from providing support (either explicit or implicit) for terrorism or having any link or engagement with a terrorist organisation.&#xC2;&#xA0; While at all times acting in accordance with the Fundamental Principles, the Partner will ensure that any procurements above the value of &#xC2;&#xA3;5,000 (GBP) (or equivalent in local currency) using the funds or assets provided under this Arrangement are not made available or used to provide support to individuals, groups or entities associated with terrorism by using an online solution provided by the BRC to conduct individual checks on prospective and existing long-standing suppliers. All checks carried out should be reported back to BRC in line with the reporting schedule above (as per the GAD).
+Please note I will do an addendum as a matter of priority.
+&#xC2;&#xA0;
+Amy
+&#xC2;&#xA0;
+&#xC2;&#xA0;
+&#xC2;&#xA0;
+&#xC2;&#xA0;
+&#xC2;&#xA0;
+&#xC2;&#xA0;
+Many thanks,&#xC2;&#xA0;
+Amy&#xC2;</narrative>
+   </description>
+   <provider-org ref="GB-CHC-220949" type="21">
     <narrative xml:lang="EN">British Red Cross</narrative>
    </provider-org>
    <receiver-org>

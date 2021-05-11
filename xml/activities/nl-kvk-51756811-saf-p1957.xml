@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="solidaridad-activity" dstore:index="76" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="solidaridad-activity" dstore:index="76" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://iatistandard.org/203/schema/downloads/iati-activities-schema.xsd">
   <iati-identifier>NL-KVK-51756811-SAF-P1957</iati-identifier>
   <reporting-org ref="NL-KVK-51756811" type="21">
    <narrative xml:lang="EN">Solidaridad</narrative>
@@ -11,20 +11,20 @@
   <description type="1">
    <narrative xml:lang="EN">In Zambia the different components of our livestock project are coming together with a more solid involvement from the local leadership. An excursion spurred the adoption of holistic grassland management, following the concept of high density planned rotation on 60,700 hectares. 300 cattle farmers were additionally trained in good practices of controlled burning, intercropping and manure compositing. The use of our cattle grading mobile application is becoming functional, providing both a tool for making better business deals and serving as an awareness building tool for cattle farmers. The combination of 23 village saving and loan associations (VSLA&#x2019;s) used by 435 famers, with training of 61 youth on entrepreneurship and improved leather treatment in 4 village factories with 52 trainees, provides a powerful emerging combination of downstream value creation for the rural communities. The impact is clear with improved yields for maize (35%) and better calving rates (85%) leading to a higher income (103,000 euros collectively) and increased participation of youth and women (nearing 50%). A business model is emerging and even with Covid-19, the targets were surpassed in 2020, while ramping up the services and numbers of beneficiaries will be the major challenge for 2021.</narrative>
   </description>
-  <participating-org ref="NL-KVK-51756811" role="4" type="21">
-   <narrative xml:lang="EN">Solidaridad</narrative>
-  </participating-org>
   <participating-org role="4">
    <narrative xml:lang="EN">Chrispin Amasi</narrative>
-  </participating-org>
-  <participating-org role="4">
-   <narrative xml:lang="EN">Wilson Mutale</narrative>
   </participating-org>
   <participating-org role="4">
    <narrative xml:lang="EN">John Lawrence</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-41150939" role="1" type="21">
    <narrative xml:lang="EN">Solidaridad Europe</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-51756811" role="4" type="21">
+   <narrative xml:lang="EN">Solidaridad</narrative>
+  </participating-org>
+  <participating-org role="4">
+   <narrative xml:lang="EN">Wilson Mutale</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2018-01-01" type="1"></activity-date>
@@ -38,9 +38,9 @@
   </contact-info>
   <recipient-country code="ZM" percentage="100"></recipient-country>
   <sector code="43040" percentage="100" vocabulary="1"></sector>
-  <policy-marker code="7" significance="1" vocabulary="1"></policy-marker>
-  <policy-marker code="6" significance="1" vocabulary="1"></policy-marker>
   <policy-marker code="4" significance="1" vocabulary="1"></policy-marker>
+  <policy-marker code="6" significance="1" vocabulary="1"></policy-marker>
+  <policy-marker code="7" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -76,8 +76,141 @@
   </transaction>
   <result aggregation-status="0" type="1">
    <title>
+    <narrative xml:lang="EN">Producer groups established and strengthened</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of local platforms, networks, producer groups established and strengthened</narrative>
+    </title>
+    <reference code="KPI 9530" vocabulary="99"></reference>
+    <baseline value="0" year="2017"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="5"></target>
+     <actual value="23"></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of local platforms, networks, producer groups established and strengthened</narrative>
+    </title>
+    <reference code="KPI 9507" vocabulary="99"></reference>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="5"></target>
+     <actual value="25">
+      <comment>
+       <narrative xml:lang="EN">1) Itebe 2) Mwanachingwala 3) Munenga</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of local platforms, networks, producer groups established and strengthened</narrative>
+    </title>
+    <reference code="KPI 6288" vocabulary="99"></reference>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <target value="5"></target>
+     <actual value="3">
+      <comment>
+       <narrative xml:lang="EN">1) Itebe
+2) Mwanachingwala
+3) Munenga</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Proven good practices in agriculture, mining &amp; industry available</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of tools and models that facilitate the implementation of GP developed and tes</narrative>
+    </title>
+    <reference code="KPI 9526" vocabulary="99"></reference>
+    <baseline value="0" year="2017"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="10"></target>
+     <actual value="3"></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of tools and models that facilitate the implementation of GP developed and tes</narrative>
+    </title>
+    <reference code="KPI 9531" vocabulary="99"></reference>
+    <baseline value="0" year="2017"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="3"></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of tools and models that facilitate the implementation of GP developed and tes</narrative>
+    </title>
+    <reference code="KPI 9508" vocabulary="99"></reference>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="1"></target>
+     <actual value="3">
+      <comment>
+       <narrative xml:lang="EN">Community Natural Resources Management Committee (CNRMC) model Live Cattle GRading App has been developed water troughs constructed for water sharing</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of tools and models that facilitate the implementation of GP developed and tes</narrative>
+    </title>
+    <reference code="KPI 6290" vocabulary="99"></reference>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <target value="1"></target>
+     <actual value="2">
+      <comment>
+       <narrative xml:lang="EN">Community Natural Resources Management Committee (CNRMC) model
+Live Cattle GRading App has been developed</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
     <narrative xml:lang="EN">Farmers, workers, miners are trained in good practices</narrative>
    </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of farmers/miners/workers (m/f) trained to adopt good practices</narrative>
+    </title>
+    <reference code="KPI 9523" vocabulary="99"></reference>
+    <baseline value="0" year="2017"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="390"></target>
+     <actual value="414"></actual>
+    </period>
+   </indicator>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of farmers/miners/workers (m/f) trained to adopt good practices</narrative>
@@ -112,24 +245,24 @@
      </actual>
     </period>
    </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of farmers/miners/workers (m/f) trained to adopt good practices</narrative>
-    </title>
-    <reference code="KPI 9523" vocabulary="99"></reference>
-    <baseline value="0" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="390"></target>
-     <actual value="414"></actual>
-    </period>
-   </indicator>
   </result>
   <result aggregation-status="0" type="3">
    <title>
     <narrative xml:lang="EN">Sustainable and Inclusive Sectors</narrative>
    </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of hectares under sustainable mgmt</narrative>
+    </title>
+    <reference code="KPI 9532" vocabulary="99"></reference>
+    <baseline value="0" year="2017"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="60500"></target>
+     <actual value="60700"></actual>
+    </period>
+   </indicator>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of hectares under sustainable mgmt</narrative>
@@ -158,139 +291,6 @@
      <period-end iso-date="2019-12-31"></period-end>
      <target value="0"></target>
      <actual value="60700"></actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of hectares under sustainable mgmt</narrative>
-    </title>
-    <reference code="KPI 9532" vocabulary="99"></reference>
-    <baseline value="0" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="60500"></target>
-     <actual value="60700"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Producer groups established and strengthened</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of local platforms, networks, producer groups established and strengthened</narrative>
-    </title>
-    <reference code="KPI 6288" vocabulary="99"></reference>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <target value="5"></target>
-     <actual value="3">
-      <comment>
-       <narrative xml:lang="EN">1) Itebe
-2) Mwanachingwala
-3) Munenga</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of local platforms, networks, producer groups established and strengthened</narrative>
-    </title>
-    <reference code="KPI 9507" vocabulary="99"></reference>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="5"></target>
-     <actual value="25">
-      <comment>
-       <narrative xml:lang="EN">1) Itebe 2) Mwanachingwala 3) Munenga</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of local platforms, networks, producer groups established and strengthened</narrative>
-    </title>
-    <reference code="KPI 9530" vocabulary="99"></reference>
-    <baseline value="0" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="5"></target>
-     <actual value="23"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Proven good practices in agriculture, mining &amp; industry available</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of tools and models that facilitate the implementation of GP developed and tes</narrative>
-    </title>
-    <reference code="KPI 6290" vocabulary="99"></reference>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <target value="1"></target>
-     <actual value="2">
-      <comment>
-       <narrative xml:lang="EN">Community Natural Resources Management Committee (CNRMC) model
-Live Cattle GRading App has been developed</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of tools and models that facilitate the implementation of GP developed and tes</narrative>
-    </title>
-    <reference code="KPI 9508" vocabulary="99"></reference>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="1"></target>
-     <actual value="3">
-      <comment>
-       <narrative xml:lang="EN">Community Natural Resources Management Committee (CNRMC) model Live Cattle GRading App has been developed water troughs constructed for water sharing</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of tools and models that facilitate the implementation of GP developed and tes</narrative>
-    </title>
-    <reference code="KPI 9531" vocabulary="99"></reference>
-    <baseline value="0" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2"></target>
-     <actual value="3"></actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of tools and models that facilitate the implementation of GP developed and tes</narrative>
-    </title>
-    <reference code="KPI 9526" vocabulary="99"></reference>
-    <baseline value="0" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="10"></target>
-     <actual value="3"></actual>
     </period>
    </indicator>
   </result>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="236" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="236" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200733</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -8,6 +8,15 @@
   <title>
    <narrative xml:lang="EN">Selam Ahun! &#x201C;Peace Now&#x201D;</narrative>
   </title>
+  <description type="3">
+   <narrative xml:lang="EN">- Women and men in Addis Ababa and other regions of Ethiopia
+- Direct- 35,122 
+- Indirect- 80,000 and communities in 9 Kebelles of Yabello woreda. 
+
+
+     The direct beneficiaries are Women In Oromia region, In Yabello woreda where there is an existing conflict.  And also, Women in Addis Ababa and other regions who will be reached through free legal aid services and most vulnerable women who will be provided with survivors&apos; fund for transportation and court fees. 
+The Indirect beneficiaries are Family numbers of beneficiaries, youth, men, and other communities in 9 Kebeles of Yabello Woreda in Oromia region.</narrative>
+  </description>
   <description type="1">
    <narrative xml:lang="EN">In Ethiopia, which has a highly diverse population, conflict threatens to challenge peaceful coexistence and the stability of the country in which over 51% are women. Since ethnic and religious violence has caused instability in most of the country. Disunity and intolerance are on the rise. The crisis has led to the destruction of houses and community infrastructure, disruption of livelihoods leading to massive displacement.  If left unchecked, the conflict will drive the country into deeper poverty and fragility. In this, the impact on society will be detrimental and women will lose the most, as they become prime target for political violence. They will not only suffer from increased gender-based violence but also undergo traumatic experience during conflict-induced displacement. 
 
@@ -38,29 +47,20 @@ In addition, Cordaid Ethiopia plans to work in partnership with the Ministry of 
   <description type="2">
    <narrative xml:lang="EN">This project primarily aims to improve and sustain protection of women&#x2019;s right and their involvement on conflict prevention  and  increase women&#x2019;s access and utility of the formal and informal justice structure.</narrative>
   </description>
-  <description type="3">
-   <narrative xml:lang="EN">- Women and men in Addis Ababa and other regions of Ethiopia
-- Direct- 35,122 
-- Indirect- 80,000 and communities in 9 Kebelles of Yabello woreda. 
-
-
-     The direct beneficiaries are Women In Oromia region, In Yabello woreda where there is an existing conflict.  And also, Women in Addis Ababa and other regions who will be reached through free legal aid services and most vulnerable women who will be provided with survivors&apos; fund for transportation and court fees. 
-The Indirect beneficiaries are Family numbers of beneficiaries, youth, men, and other communities in 9 Kebeles of Yabello Woreda in Oromia region.</narrative>
-  </description>
-  <participating-org ref="NL-KVK-41160054" role="2" type="21">
-   <narrative xml:lang="EN">Cordaid Global Office</narrative>
-  </participating-org>
   <participating-org ref="NL-KVK-41160054" role="4" type="21">
    <narrative xml:lang="EN">Cordaid Ethiopia</narrative>
   </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">HUNDEE Oromo Grassroots Development Initiative</narrative>
+  <participating-org ref="NL-KVK-41160054" role="1" type="21">
+   <narrative xml:lang="EN">Cordaid Global Office</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-41160054" role="2" type="21">
+   <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Ethiopian Women Lawyers Association</narrative>
   </participating-org>
-  <participating-org ref="NL-KVK-41160054" role="1" type="21">
-   <narrative xml:lang="EN">Cordaid Global Office</narrative>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">HUNDEE Oromo Grassroots Development Initiative</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-01-01" type="1"></activity-date>
@@ -106,27 +106,13 @@ The Indirect beneficiaries are Family numbers of beneficiaries, youth, men, and 
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of communities reached (SJ)</narrative>
-    </title>
-    <reference code="PE0.02" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="9">
-      <location ref="ET"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="9"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
      <narrative xml:lang="EN">Number of beneficiaries reached (SJ)</narrative>
     </title>
     <reference code="PE0.01" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="66532" year="2020">
+     <location ref="ET"></location>
+     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+    </baseline>
     <baseline iso-date="2020-12-31" value="65581" year="2020">
      <location ref="ET"></location>
      <dimension name="Gender - genre" value="Female - feminin"></dimension>
@@ -135,20 +121,16 @@ The Indirect beneficiaries are Family numbers of beneficiaries, youth, men, and 
      <location ref="ET"></location>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
     </baseline>
-    <baseline iso-date="2020-12-31" value="66532" year="2020">
-     <location ref="ET"></location>
-     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-    </baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="65581">
-      <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
      <actual value="66532">
       <location ref="ET"></location>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="65581">
+      <location ref="ET"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
      <actual value="951">
       <location ref="ET"></location>
@@ -164,6 +146,24 @@ The Indirect beneficiaries are Family numbers of beneficiaries, youth, men, and 
      <period-start iso-date="2020-09-04"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="35122"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of communities reached (SJ)</narrative>
+    </title>
+    <reference code="PE0.02" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="9">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="9"></target>
     </period>
    </indicator>
   </result>
@@ -194,24 +194,6 @@ The Indirect beneficiaries are Family numbers of beneficiaries, youth, men, and 
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of researches conducted to support policy development</narrative>
-    </title>
-    <reference code="PE1.26" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="1">
-      <location ref="ET"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-30"></period-end>
-     <target value="1"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
      <narrative xml:lang="EN">DD6: Number of implementing partners in security and justice projects</narrative>
     </title>
     <description>
@@ -229,6 +211,24 @@ The Indirect beneficiaries are Family numbers of beneficiaries, youth, men, and 
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-30"></period-end>
      <target value="2"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of researches conducted to support policy development</narrative>
+    </title>
+    <reference code="PE1.26" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1">
+      <location ref="ET"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-30"></period-end>
+     <target value="1"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -262,15 +262,15 @@ The Indirect beneficiaries are Family numbers of beneficiaries, youth, men, and 
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="103">
-      <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
      <actual value="120">
       <location ref="ET"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="103">
+      <location ref="ET"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
     <period>

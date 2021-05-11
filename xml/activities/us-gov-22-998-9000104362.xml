@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unitedstates-998-part-20" dstore:index="2855" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unitedstates-998-part-20" dstore:index="2855" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="http://www.foreignassistance.gov" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>US-GOV-22-998-9000104362</iati-identifier>
   <reporting-org ref="US-USAGOV" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
@@ -11,6 +11,10 @@
   <description>
    <narrative xml:lang="EN">Direct loans to foreign private-sector enterprises from target countries, typically issued through a U.S. sponsor or borrower. The loan tenor is typically between 5 and 25 years, with a maximum of 30 years, depending on the type of project and its debt servicing capability. Interest and fees will vary depending on the project.</narrative>
   </description>
+  <participating-org role="4" type="70">
+   <narrative xml:lang="EN">SMALL ENTERPRISE ASSISTANCE FUNDS</narrative>
+   <usg:duns-number>938963295</usg:duns-number>
+  </participating-org>
   <participating-org ref="US-USAGOV" role="1" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
   </participating-org>
@@ -19,10 +23,6 @@
   </participating-org>
   <participating-org ref="US-GOV-22" role="3" type="10">
    <narrative xml:lang="EN">U.S. International Development Finance Corporation</narrative>
-  </participating-org>
-  <participating-org role="4" type="70">
-   <narrative xml:lang="EN">SMALL ENTERPRISE ASSISTANCE FUNDS</narrative>
-   <usg:duns-number>938963295</usg:duns-number>
   </participating-org>
   <other-identifier ref="US-GOV" type="B1">
    <owner-org ref="US-USAGOV">
@@ -77,11 +77,11 @@
    <description>
     <narrative xml:lang="EN">Committed Obligations</narrative>
    </description>
-   <sector code="24030" vocabulary="1">
-    <narrative xml:lang="EN">Formal sector financial intermediaries</narrative>
-   </sector>
    <sector code="5003" vocabulary="99">
     <narrative xml:lang="EN">Financial Sector</narrative>
+   </sector>
+   <sector code="24030" vocabulary="1">
+    <narrative xml:lang="EN">Formal sector financial intermediaries</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>

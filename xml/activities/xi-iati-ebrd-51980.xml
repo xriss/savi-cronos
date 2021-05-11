@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="ebrd-activity" dstore:index="645" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.01">
+ <iati-activity default-currency="EUR" dstore:dataset="ebrd-activity" dstore:index="645" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XI-IATI-EBRD-51980</iati-identifier>
   <reporting-org ref="XI-IATI-EBRD" type="40">
    <narrative xml:lang="EN">European Bank for Reconstruction and Development</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">Provision of short-term liquidity line in the amount of EUR 25 million that  will allow Petrol d.d. Ljubljana (the &quot;Company&quot;, &quot;Petrol&quot;) to actively manage  working capital needs across business lines in light of increased sales  volatility caused by the Covid-19 outbreak.</narrative>
   </description>
-  <participating-org role="4">
-   <narrative xml:lang="EN">PETROL DD</narrative>
-  </participating-org>
   <participating-org ref="XI-IATI-EBRD" role="1" type="40">
    <narrative xml:lang="EN">European Bank for Reconstruction and Development</narrative>
+  </participating-org>
+  <participating-org role="4">
+   <narrative xml:lang="EN">PETROL DD</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-06-24" type="1"></activity-date>
@@ -67,13 +67,6 @@
    <flow-type code="50"></flow-type>
    <finance-type code="411"></finance-type>
   </transaction>
-  <document-link format="TEXT/HTML" url="http://www.ebrd.com/what-we-do/strategies-and-policies.html">
-   <title>
-    <narrative xml:lang="EN">Country Strategy</narrative>
-   </title>
-   <category code="A09"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="TEXT/HTML" url="http://www.ebrd.com/work-with-us/project-finance/project-summary-documents.html">
    <title>
     <narrative xml:lang="EN">Project Summary Document - Transition Impact Environmental Social Summary</narrative>
@@ -86,6 +79,13 @@
     <narrative xml:lang="EN">Project Summary Document</narrative>
    </title>
    <category code="A02"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://www.ebrd.com/what-we-do/strategies-and-policies.html">
+   <title>
+    <narrative xml:lang="EN">Country Strategy</narrative>
+   </title>
+   <category code="A09"></category>
    <language code="EN"></language>
   </document-link>
   <document-link format="TEXT/HTML" url="https://ecepp.ebrd.com/delta/noticeSearchResults.html">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-ma" dstore:index="129" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-ma" dstore:index="129" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-72060819CA00001</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -11,6 +11,9 @@
   <description>
    <narrative xml:lang="EN">Youth Electronic Transfers (YET) activity is an innovative and cost effective approach to provide technical assistance using digital grants to Moroccan Youth.</narrative>
   </description>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">GiveDirectly</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
@@ -19,9 +22,6 @@
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">GiveDirectly</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2019-04-12" type="1"></activity-date>
@@ -47,6 +47,28 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="4"></default-tied-status>
+  <transaction ref="1D1C87BA05E2">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">3000000</value>
+   <description>
+    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
+   </description>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="12264" vocabulary="1">
+    <narrative xml:lang="EN">COVID-19 control</narrative>
+   </sector>
+   <sector code="3005" vocabulary="99">
+    <narrative xml:lang="EN">Other Public Health Threats</narrative>
+   </sector>
+   <recipient-country code="MA"></recipient-country>
+   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <transaction ref="D9FD99B80163">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-06-30"></transaction-date>
@@ -152,28 +174,6 @@
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
     <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="1D1C87BA05E2">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">3000000</value>
-   <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
-   </description>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="12264" vocabulary="1">
-    <narrative xml:lang="EN">COVID-19 control</narrative>
-   </sector>
-   <sector code="3005" vocabulary="99">
-    <narrative xml:lang="EN">Other Public Health Threats</narrative>
-   </sector>
-   <recipient-country code="MA"></recipient-country>
-   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>

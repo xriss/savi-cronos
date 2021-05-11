@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="739" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="739" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-DP.2221</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,24 +11,24 @@
   <description>
    <narrative xml:lang="EN">IOM is addressing the public health and humanitarian concerns of internally displaced people living in congested and unsanitary locations in Ethiopia through activities in the sectors of camp coordination and camp management; water, sanitation, and hygiene, health (WASH), and protection. This project aims to mitigate the spread of COVID-19 in these sites through infection, prevention, and control; risk communication and community engagement; access to WASH, and continuity of essential services.</narrative>
   </description>
-  <participating-org activity-id="US-GOV-1-AGREEMENT NO.720FDA20IO0" ref="US-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">United States Agency for International Development (USAID)</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="US-GOV-1-AGREEMENT NO.720FDA20IO0" ref="US-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">United States Agency for International Development (USAID)</narrative>
+  </participating-org>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2020-07-27" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-07-27" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2021-04-26" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2021-04-26" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-07-27" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-04-26" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -42,6 +42,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="ET" percentage="100"></recipient-country>
+  <location ref="ET">
+   <location-reach code="2"></location-reach>
+   <location-id code="ET" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Ethiopia</narrative>
+   </name>
+   <administrative code="ET" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -54,22 +62,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="ET">
-   <location-reach code="2"></location-reach>
-   <location-id code="ET" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Ethiopia</narrative>
-   </name>
-   <administrative code="ET" vocabulary="A4"></administrative>
-  </location>
   <sector code="DP" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Internally Displaced Persons</narrative>
   </sector>
-  <sector code="01" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
-   <narrative xml:lang="EN">Movement, Emergency and Post-Crisis Migration Management</narrative>
-  </sector>
   <sector code="72010" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
+  <sector code="01" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
+   <narrative xml:lang="EN">Movement, Emergency and Post-Crisis Migration Management</narrative>
   </sector>
   <humanitarian-scope code="ET_IOM_20" type="2" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/appeals.pdf">
    <narrative xml:lang="EN">Ethiopia Crisis Response Plan 2020</narrative>

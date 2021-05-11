@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="1490" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="1490" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27108436-A-05823-28:UG</iati-identifier>
   <reporting-org ref="NL-KVK-27108436" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
@@ -35,7 +35,13 @@ The CCT Project also proposes to mainstream Gender and Protection issues to addr
 
 Overall, the CCT Project will guided by the Core Humanitarian Standards - applying &#x2018;do no harm&#x2019; principle and SOPs in all its interventions at host and refugee communities.</narrative>
   </description>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">IKEA Foundation</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-27108436" role="2" type="21">
+   <narrative xml:lang="EN">Oxfam Novib</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-27108436" role="3" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
   </participating-org>
   <participating-org role="4" type="24">
@@ -74,24 +80,18 @@ SORUDA has adequate human and logistic resources
 Community presence and existence
 Ability to quickly respond to emergency situations in the community.</narrative>
   </participating-org>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">IKEA Foundation</narrative>
-  </participating-org>
-  <participating-org ref="NL-KVK-27108436" role="3" type="21">
-   <narrative xml:lang="EN">Oxfam Novib</narrative>
-  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-10-01" type="1">
-   <narrative xml:lang="EN">start-planned</narrative>
-  </activity-date>
-  <activity-date iso-date="2020-10-01" type="2">
-   <narrative xml:lang="EN">start-actual</narrative>
+  <activity-date iso-date="2020-12-31" type="4">
+   <narrative xml:lang="EN">end-actual</narrative>
   </activity-date>
   <activity-date iso-date="2020-12-31" type="3">
    <narrative xml:lang="EN">end-planned</narrative>
   </activity-date>
-  <activity-date iso-date="2020-12-31" type="4">
-   <narrative xml:lang="EN">end-actual</narrative>
+  <activity-date iso-date="2020-10-01" type="2">
+   <narrative xml:lang="EN">start-actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-10-01" type="1">
+   <narrative xml:lang="EN">start-planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -109,8 +109,8 @@ Ability to quickly respond to emergency situations in the community.</narrative>
   <sector code="3" percentage="100" vocabulary="99" vocabulary-uri="http://www.oxfamnovib.nl">
    <narrative xml:lang="EN">The right to life and security</narrative>
   </sector>
-  <sector code="72010" percentage="100" vocabulary="1"></sector>
   <sector code="4" percentage="100" vocabulary="10"></sector>
+  <sector code="72010" percentage="100" vocabulary="1"></sector>
   <tag code="1" vocabulary="2"></tag>
   <policy-marker code="3" significance="0" vocabulary="1"></policy-marker>
   <default-flow-type code="30"></default-flow-type>
@@ -120,19 +120,8 @@ Ability to quickly respond to emergency situations in the community.</narrative>
   <budget type="2">
    <period-start iso-date="2020-10-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="EUR" value-date="2021-05-08">24997</value>
+   <value currency="EUR" value-date="2021-05-09">24997</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-01"></transaction-date>
-   <value currency="EUR" value-date="2020-11-01">24997</value>
-   <description>
-    <narrative xml:lang="EN">incoming transaction</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">IKEA Foundation</narrative>
-   </provider-org>
-  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-11-01"></transaction-date>
@@ -144,6 +133,17 @@ Ability to quickly respond to emergency situations in the community.</narrative>
     <narrative xml:lang="EN">SORUDA SORUDA</narrative>
    </receiver-org>
   </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-11-01"></transaction-date>
+   <value currency="EUR" value-date="2020-11-01">24997</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">IKEA Foundation</narrative>
+   </provider-org>
+  </transaction>
   <document-link format="APPLICATION/HTTP" url="https://atlas.oxfamnovib.nl/#/project/A-05823-28:UG">
    <title>
     <narrative xml:lang="EN">Atlas project browser</narrative>
@@ -152,50 +152,12 @@ Ability to quickly respond to emergency situations in the community.</narrative>
    <language code="EN"></language>
    <document-date iso-date="2015-12-11"></document-date>
   </document-link>
+  <legacy-data name="grant-reference" value="1001704"></legacy-data>
+  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
   <legacy-data name="profit-centre" value="0000007104"></legacy-data>
   <legacy-data name="profit-centre-name" value="CO: Uganda (HECA)"></legacy-data>
   <legacy-data name="project" value="A-05823"></legacy-data>
   <legacy-data name="project-name" value="ELNHA Phase II"></legacy-data>
-  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
-  <legacy-data name="grant-reference" value="1001704"></legacy-data>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">5380</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Projects and programmes more effective:  # cases where Oxfam Novib/partners implement recommendations derived from learning trajectories.</narrative>
-   </description>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5380-A</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">evidence products (track records, cases, evaluations etc.) produced that assess Oxfam Novib&#x2019;s programmes and projects effectiveness and quality.</narrative>
-    </description>
-    <reference code="5380-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="400"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">5380-A</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">evidence products (track records, cases, evaluations etc.) produced that assess Oxfam Novib&#x2019;s programmes and projects effectiveness and quality.</narrative>
-    </description>
-    <reference code="5380-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <actual value="1107"></actual>
-    </period>
-   </indicator>
-  </result>
   <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">5380</narrative>
@@ -213,9 +175,9 @@ Ability to quickly respond to emergency situations in the community.</narrative>
     <reference code="5380-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="400"></target>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="400"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -228,9 +190,47 @@ Ability to quickly respond to emergency situations in the community.</narrative>
     <reference code="5380-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="400"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">5380</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Projects and programmes more effective:  # cases where Oxfam Novib/partners implement recommendations derived from learning trajectories.</narrative>
+   </description>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5380-A</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">evidence products (track records, cases, evaluations etc.) produced that assess Oxfam Novib&#x2019;s programmes and projects effectiveness and quality.</narrative>
+    </description>
+    <reference code="5380-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <actual value="400"></actual>
+     <actual value="1107"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">5380-A</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">evidence products (track records, cases, evaluations etc.) produced that assess Oxfam Novib&#x2019;s programmes and projects effectiveness and quality.</narrative>
+    </description>
+    <reference code="5380-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="400"></target>
     </period>
    </indicator>
   </result>

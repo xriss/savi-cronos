@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="wvi-activities" dstore:index="56" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="wvi-activities" dstore:index="56" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-EIN-95-3202116-SO</iati-identifier>
   <reporting-org ref="US-EIN-95-3202116" type="21">
    <narrative xml:lang="EN">World Vision International</narrative>
@@ -11,12 +11,6 @@
   <description>
    <narrative xml:lang="EN">Breakdown of expenditure by World Vision Somalia from 2017 onwards.</narrative>
   </description>
-  <participating-org ref="US-EIN-95-3202116" role="3" type="21">
-   <narrative xml:lang="EN">World Vision International</narrative>
-  </participating-org>
-  <participating-org role="4" type="21">
-   <narrative xml:lang="EN">World Vision Somalia</narrative>
-  </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Australia</narrative>
   </participating-org>
@@ -32,6 +26,9 @@
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Hong Kong</narrative>
   </participating-org>
+  <participating-org ref="US-EIN-95-3202116" role="3" type="21">
+   <narrative xml:lang="EN">World Vision International</narrative>
+  </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Ireland</narrative>
   </participating-org>
@@ -46,6 +43,9 @@
   </participating-org>
   <participating-org ref="NL-KVK-41179943" role="1" type="21">
    <narrative xml:lang="EN">World Vision Netherlands</narrative>
+  </participating-org>
+  <participating-org role="4" type="21">
+   <narrative xml:lang="EN">World Vision Somalia</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Switzerland</narrative>
@@ -93,12 +93,36 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">53860</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">28215</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Somalia within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Somalia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">36074</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Somalia within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">18765</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
@@ -117,162 +141,6 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">9463605</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">64789</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">2869</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">1526885</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">24128</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">4648592</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">573590</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">24388522</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">14598237</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">9174340</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">81832</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">2940018</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Somalia within FY 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">161415</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Somalia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2018-09-30"></transaction-date>
@@ -285,12 +153,36 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1662405</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">3610285</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Somalia within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Somalia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">5356523</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">7947</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
@@ -309,17 +201,53 @@
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">147896</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2172</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Somalia within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Somalia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">105030</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Somalia within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">24867</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">2869</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
@@ -333,17 +261,41 @@
    </provider-org>
    <sector code="112" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">2355143</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2411</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Somalia within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Education in Somalia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
    </provider-org>
    <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">115</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Somalia within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">24128</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
@@ -357,17 +309,53 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">23487541</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">121859</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Somalia within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Somalia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">35141</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Somalia within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">11832</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">573590</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
@@ -381,17 +369,53 @@
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">21055753</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">864970</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Somalia within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Somalia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">566537</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">48840</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">14598237</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
@@ -405,17 +429,53 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">8651281</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">6291531</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Somalia within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Somalia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">915451</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">1424</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">81832</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
@@ -429,12 +489,12 @@
    </provider-org>
    <sector code="140" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">3346108</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">4213</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Somalia within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Somalia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
@@ -443,10 +503,34 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">28215</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">765</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Somalia within FY 2019</narrative>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">53860</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">161415</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Somalia within FY 2018</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
@@ -465,372 +549,12 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">3610285</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">20112585</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2172</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">94948</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2411</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1373196</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">121859</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">10218018</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">864970</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">25471187</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">6291531</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">11779458</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">4213</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">3277610</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Somalia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">36074</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Somalia within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">533751</value>
    <description>
     <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Somalia within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">5356523</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">6116971</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">105030</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Somalia within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">15488</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Somalia within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">115</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Somalia within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1560908</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Somalia within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">35141</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Somalia within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">15267452</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Somalia within FY 2020</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">566537</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">17896214</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">915451</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">12560719</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">765</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3573298</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Somalia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">18765</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
@@ -849,12 +573,48 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">7947</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">9463605</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1662405</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Somalia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">20112585</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Somalia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">6116971</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
@@ -873,17 +633,101 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">24867</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">64789</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Somalia within FY 2017</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">147896</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Somalia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">94948</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Somalia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">15488</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Somalia within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">1526885</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">2355143</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Somalia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1373196</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Somalia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1560908</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Somalia within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
   </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
@@ -897,12 +741,48 @@
    </provider-org>
    <sector code="112" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">11832</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">4648592</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">23487541</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Somalia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">10218018</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Somalia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">15267452</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Somalia within FY 2020</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
@@ -921,12 +801,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">48840</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">24388522</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">21055753</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Somalia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">25471187</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Somalia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">17896214</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
@@ -945,12 +861,48 @@
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">1424</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">9174340</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Somalia within FY21 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">8651281</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Somalia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">11779458</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Somalia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">12560719</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Somalia</narrative>
@@ -968,6 +920,54 @@
     <narrative xml:lang="EN">World Vision Somalia</narrative>
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">2940018</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Somalia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">3346108</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Somalia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">3277610</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Somalia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3573298</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Somalia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Somalia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
   </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>

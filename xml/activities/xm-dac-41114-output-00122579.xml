@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-sdn" dstore:index="575" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-sdn" dstore:index="575" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00122579</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">Darfur Community Peace and Stability Fund (DCPSF) 2020- DPI-COVID-19-02 to response to COVID-19 emergency preparedness.</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="12400" role="1" type="40">
    <narrative xml:lang="EN">MPTFO - Darfur Community Peace and Stability Fund</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-07-01" type="1"></activity-date>
@@ -49,16 +49,16 @@
    <location-class code="1"></location-class>
    <feature-designation code="ADM1"></feature-designation>
   </location>
-  <sector code="16050" percentage="100" vocabulary="1"></sector>
-  <sector code="3.3" percentage="33.33" vocabulary="8"></sector>
-  <sector code="16.7" percentage="33.33" vocabulary="8"></sector>
-  <sector code="16.6" percentage="33.33" vocabulary="8"></sector>
   <sector code="17" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Eradicate poverty in all its forms and dimensions</narrative>
   </sector>
-  <tag code="3.3" vocabulary="3"></tag>
-  <tag code="16.7" vocabulary="3"></tag>
+  <sector code="16.6" percentage="33.33" vocabulary="8"></sector>
+  <sector code="16.7" percentage="33.33" vocabulary="8"></sector>
+  <sector code="16050" percentage="100" vocabulary="1"></sector>
+  <sector code="3.3" percentage="33.33" vocabulary="8"></sector>
   <tag code="16.6" vocabulary="3"></tag>
+  <tag code="16.7" vocabulary="3"></tag>
+  <tag code="3.3" vocabulary="3"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Global COVID-19</narrative>
   </humanitarian-scope>
@@ -75,23 +75,14 @@
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">3500</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   <value currency="USD" value-date="2020-12-31">53500</value>
+   <provider-org ref="12400" type="40">
+    <narrative xml:lang="EN">MPTFO - Darfur Community Peace and Stability Fund</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">50000</value>
-   <provider-org ref="XM-DAC-41114" type="40">
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00122579" ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">Government of Sudan, Republic of the</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -108,15 +99,24 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">53500</value>
-   <provider-org ref="12400" type="40">
-    <narrative xml:lang="EN">MPTFO - Darfur Community Peace and Stability Fund</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00122579" ref="XM-DAC-41114" type="40">
+   <value currency="USD" value-date="2020-12-31">50000</value>
+   <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Government of Sudan, Republic of the</narrative>
    </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">3500</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -134,11 +134,11 @@
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00128632" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00122578" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00122580" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00122581" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00122582" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00128632" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

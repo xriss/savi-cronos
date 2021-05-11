@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="ciuk-startfunding" dstore:index="52" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="ciuk-startfunding" dstore:index="52" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-292506-GB785</iati-identifier>
   <reporting-org ref="GB-CHC-292506" type="21">
    <narrative xml:lang="EN">CARE International UK</narrative>
@@ -11,17 +11,17 @@
   <description>
    <narrative xml:lang="EN">Early anticipation action to mitigate risk of COVID-19 transmission and clusters in high risk areas on theTimor-Leste/ Indonesia land border. This project will respond to gaps and unmet needs for preparation against COVID-19</narrative>
   </description>
-  <participating-org ref="GB-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">DFID</narrative>
-  </participating-org>
-  <participating-org ref="GB-CHC-202918" role="3" type="21">
-   <narrative xml:lang="EN">Oxfam GB</narrative>
-  </participating-org>
   <participating-org ref="GB-CHC-292506" role="4" type="21">
    <narrative xml:lang="EN">CARE International UK</narrative>
   </participating-org>
   <participating-org ref=";" role="4" type="22">
    <narrative xml:lang="EN">CARE National Office</narrative>
+  </participating-org>
+  <participating-org ref="GB-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">DFID</narrative>
+  </participating-org>
+  <participating-org ref="GB-CHC-202918" role="3" type="21">
+   <narrative xml:lang="EN">Oxfam GB</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
   <activity-date iso-date="2020-04-11" type="2"></activity-date>
@@ -49,6 +49,20 @@
    <value currency="GBP" value-date="2020-04-11">36214.2</value>
   </budget>
   <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-21"></transaction-date>
+   <value currency="GBP" value-date="2020-05-21">32922</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement of funds</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-CHC-292506-GB785" ref="GB-CHC-292506">
+    <narrative xml:lang="EN">CARE International UK</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id=";" ref=";">
+    <narrative xml:lang="EN">CARE International Timor-Leste</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-08-03"></transaction-date>
    <value currency="GBP" value-date="2020-08-03">-1257.3</value>
@@ -74,20 +88,6 @@
    </provider-org>
    <receiver-org receiver-activity-id="GB-CHC-292506-GB785" ref="GB-CHC-292506">
     <narrative xml:lang="EN">CARE International UK</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-21"></transaction-date>
-   <value currency="GBP" value-date="2020-05-21">32922</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement of funds</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-CHC-292506-GB785" ref="GB-CHC-292506">
-    <narrative xml:lang="EN">CARE International UK</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id=";" ref=";">
-    <narrative xml:lang="EN">CARE International Timor-Leste</narrative>
    </receiver-org>
   </transaction>
  </iati-activity>

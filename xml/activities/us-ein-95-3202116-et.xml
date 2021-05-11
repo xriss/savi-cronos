@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="wvi-activities" dstore:index="23" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="wvi-activities" dstore:index="23" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-EIN-95-3202116-ET</iati-identifier>
   <reporting-org ref="US-EIN-95-3202116" type="21">
    <narrative xml:lang="EN">World Vision International</narrative>
@@ -11,17 +11,14 @@
   <description>
    <narrative xml:lang="EN">Breakdown of expenditure by World Vision Ethiopia from 2017 onwards.</narrative>
   </description>
-  <participating-org ref="US-EIN-95-3202116" role="3" type="21">
-   <narrative xml:lang="EN">World Vision International</narrative>
-  </participating-org>
-  <participating-org role="4" type="21">
-   <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-  </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Australia</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Canada</narrative>
+  </participating-org>
+  <participating-org role="4" type="21">
+   <narrative xml:lang="EN">World Vision Ethiopia</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Finland</narrative>
@@ -34,6 +31,9 @@
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Hong Kong</narrative>
+  </participating-org>
+  <participating-org ref="US-EIN-95-3202116" role="3" type="21">
+   <narrative xml:lang="EN">World Vision International</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Japan</narrative>
@@ -93,12 +93,48 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">701</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1674510</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Ethiopia within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1599970</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Ethiopia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1540038</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">574563</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -117,12 +153,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">12005232</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1363078</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Ethiopia within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">808785</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Ethiopia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2471228</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">886293</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -141,12 +213,48 @@
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">2825</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">5769418</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Ethiopia within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">6630224</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Ethiopia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">5539834</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">881300</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Ethiopia within FY21</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -165,12 +273,48 @@
    </provider-org>
    <sector code="112" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">50242</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">9466139</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Ethiopia within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Education in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">8988931</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Ethiopia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">8621310</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">1164430</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -189,12 +333,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">15786385</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">198707</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Ethiopia within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">213194</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Ethiopia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">215224</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">111239</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -213,12 +393,48 @@
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">851036</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">5200495</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Ethiopia within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">5528551</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Ethiopia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3541561</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">499687</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -237,12 +453,48 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">1145946</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">21528534</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Ethiopia within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">28876335</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Ethiopia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">27149459</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">4162609</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -261,12 +513,12 @@
    </provider-org>
    <sector code="140" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">1104828</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">13038589</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Ethiopia within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Ethiopia within FY 2018</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -275,10 +527,46 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1674510</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">18351378</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Ethiopia within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Ethiopia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">20535765</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">2314369</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">701</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Ethiopia within FY 2017</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -297,372 +585,12 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1363078</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">16955097</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">5769418</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">454789</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">9466139</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1013242</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">198707</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">14955810</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">5200495</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1813201</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">21528534</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">853803</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">13038589</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">353228</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Ethiopia within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1599970</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
    <value currency="USD" value-date="2019-09-30">564153</value>
    <description>
     <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">808785</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">29478112</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">6630224</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">3359</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">8988931</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">960860</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">213194</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">13072528</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">5528551</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">979215</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">28876335</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1020291</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">18351378</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">3657468</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Ethiopia within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1540038</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -681,12 +609,48 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">2471228</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">117730</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">12005232</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Ethiopia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">16955097</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">29478112</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Ethiopia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -705,12 +669,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">5539834</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">1473628</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">2825</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Ethiopia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">454789</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">3359</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Ethiopia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -729,12 +729,48 @@
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">8621310</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">87109</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Ethiopia within FY21</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">50242</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Ethiopia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1013242</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">960860</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Ethiopia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -753,12 +789,48 @@
    </provider-org>
    <sector code="112" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">215224</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">265761</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">15786385</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Ethiopia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">14955810</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">13072528</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Ethiopia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -777,12 +849,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3541561</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">14869843</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">851036</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Ethiopia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1813201</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">979215</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Ethiopia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -801,12 +909,48 @@
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">27149459</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">94215</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">1145946</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Ethiopia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">853803</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1020291</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Ethiopia within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>
@@ -825,186 +969,6 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">20535765</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1875440</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">574563</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">117730</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">886293</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">1473628</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">881300</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Ethiopia within FY21</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">87109</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Ethiopia within FY21</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">1164430</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">265761</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">111239</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">14869843</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">499687</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">94215</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">4162609</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -1017,12 +981,48 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">2314369</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">1104828</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Ethiopia within FY21 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Ethiopia within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">353228</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Ethiopia within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">3657468</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Ethiopia within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Ethiopia</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1875440</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Ethiopia within FY 2020 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Ethiopia</narrative>

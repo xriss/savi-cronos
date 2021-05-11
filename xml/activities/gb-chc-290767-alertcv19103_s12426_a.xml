@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="wjr_001-activities" dstore:index="9" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="wjr_001-activities" dstore:index="9" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-290767-ALERTCV19103_S12426_A</iati-identifier>
   <reporting-org ref="GB-CHC-290767" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">World Jewish Relief</narrative>
@@ -40,26 +40,26 @@ Regarding livelihood support, this project will target the most vulnerable and i
 
 Lastly, due to the heightened risk of  Gender Based Violence (GBV) and protection issues in the communities, we will involve the training of community activists on GBV issues, including a referral system to protect, defend and report cases in the target areas. In addition, at all distributions and activities, we will be distributing leaflets and conducting mass sensitisation campaigns highlight the risks of GBV, how to protect oneself, and how to report/respond to incidents.</narrative>
   </description>
-  <participating-org ref="GB-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">UK - Department for International Development (DFID)</narrative>
-  </participating-org>
-  <participating-org ref="GB-COH-213890" role="3" type="21">
-   <narrative xml:lang="EN">Save the Children UK</narrative>
+  <participating-org ref="GB-CHC-274467" role="4" type="21">
+   <narrative xml:lang="EN">ActionAid UK</narrative>
   </participating-org>
   <participating-org ref="mz-moj-64vq1" role="4" type="22">
    <narrative xml:lang="EN">Ajuda de Desenvolvimento de Povo para Povo (ADPP)</narrative>
   </participating-org>
-  <participating-org ref="GB-CHC-274467" role="4" type="21">
-   <narrative xml:lang="EN">ActionAid UK</narrative>
+  <participating-org ref="GB-COH-213890" role="3" type="21">
+   <narrative xml:lang="EN">Save the Children UK</narrative>
+  </participating-org>
+  <participating-org ref="GB-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">UK - Department for International Development (DFID)</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
   <activity-date iso-date="2020-12-11" type="2"></activity-date>
   <activity-date iso-date="2021-02-09" type="3"></activity-date>
   <recipient-country code="MZ" percentage="100"></recipient-country>
-  <sector code="31161" percentage="30" vocabulary="1"></sector>
-  <sector code="16010" percentage="10" vocabulary="1"></sector>
   <sector code="12261" percentage="10" vocabulary="1"></sector>
   <sector code="14032" percentage="50" vocabulary="1"></sector>
+  <sector code="16010" percentage="10" vocabulary="1"></sector>
+  <sector code="31161" percentage="30" vocabulary="1"></sector>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
@@ -69,10 +69,13 @@ Lastly, due to the heightened risk of  Gender Based Violence (GBV) and protectio
    <period-end iso-date="2021-03-30"></period-end>
    <value currency="GBP" value-date="2020-12-11">160019.8</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
+  <transaction humanitarian="1">
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-11"></transaction-date>
-   <value currency="GBP" value-date="2020-12-11">160019.6</value>
+   <value currency="GBP" value-date="2020-12-11">60977.71</value>
+   <description>
+    <narrative xml:lang="EN">ADPP Project spends</narrative>
+   </description>
   </transaction>
   <transaction humanitarian="1">
    <transaction-type code="3"></transaction-type>
@@ -82,13 +85,10 @@ Lastly, due to the heightened risk of  Gender Based Violence (GBV) and protectio
     <narrative xml:lang="EN">ActionAid project spends</narrative>
    </description>
   </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="3"></transaction-type>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-12-11"></transaction-date>
-   <value currency="GBP" value-date="2020-12-11">60977.71</value>
-   <description>
-    <narrative xml:lang="EN">ADPP Project spends</narrative>
-   </description>
+   <value currency="GBP" value-date="2020-12-11">160019.6</value>
   </transaction>
  </iati-activity>
 </iati-activities>

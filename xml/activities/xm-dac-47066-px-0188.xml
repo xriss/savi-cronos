@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1906" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1906" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-PX.0188</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -18,11 +18,11 @@
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-07-15" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-07-15" type="2">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-07-15" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <activity-date iso-date="2022-07-14" type="3">
    <narrative xml:lang="EN">Planned</narrative>
@@ -41,6 +41,30 @@
   <recipient-region code="35" percentage="100" vocabulary="2">
    <narrative xml:lang="EN">South-eastern Asia</narrative>
   </recipient-region>
+  <location ref="ID">
+   <location-reach code="2"></location-reach>
+   <location-id code="ID" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Indonesia</narrative>
+   </name>
+   <administrative code="ID" vocabulary="A4"></administrative>
+  </location>
+  <location ref="MY">
+   <location-reach code="2"></location-reach>
+   <location-id code="MY" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Malaysia</narrative>
+   </name>
+   <administrative code="MY" vocabulary="A4"></administrative>
+  </location>
+  <location ref="TH">
+   <location-reach code="2"></location-reach>
+   <location-id code="TH" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Thailand</narrative>
+   </name>
+   <administrative code="TH" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -52,14 +76,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="ID">
-   <location-reach code="2"></location-reach>
-   <location-id code="ID" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Indonesia</narrative>
-   </name>
-   <administrative code="ID" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -73,14 +89,6 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="MY">
-   <location-reach code="2"></location-reach>
-   <location-id code="MY" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Malaysia</narrative>
-   </name>
-   <administrative code="MY" vocabulary="A4"></administrative>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -92,14 +100,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="TH">
-   <location-reach code="2"></location-reach>
-   <location-id code="TH" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Thailand</narrative>
-   </name>
-   <administrative code="TH" vocabulary="A4"></administrative>
   </location>
   <sector code="PX" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Protection and Assistance to Vulnerable Migrants</narrative>

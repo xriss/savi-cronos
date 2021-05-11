@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="wvi-activities" dstore:index="17" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="wvi-activities" dstore:index="17" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-EIN-95-3202116-CD</iati-identifier>
   <reporting-org ref="US-EIN-95-3202116" type="21">
    <narrative xml:lang="EN">World Vision International</narrative>
@@ -11,12 +11,6 @@
   <description>
    <narrative xml:lang="EN">Breakdown of expenditure by World Vision Congo - Democratic Republic of from 2017 onwards.</narrative>
   </description>
-  <participating-org ref="US-EIN-95-3202116" role="3" type="21">
-   <narrative xml:lang="EN">World Vision International</narrative>
-  </participating-org>
-  <participating-org role="4" type="21">
-   <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-  </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Australia</narrative>
   </participating-org>
@@ -26,11 +20,17 @@
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Canada</narrative>
   </participating-org>
+  <participating-org role="4" type="21">
+   <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+  </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Germany</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Hong Kong</narrative>
+  </participating-org>
+  <participating-org ref="US-EIN-95-3202116" role="3" type="21">
+   <narrative xml:lang="EN">World Vision International</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Ireland</narrative>
@@ -96,12 +96,48 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">247902</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">440705</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">531207</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">416146</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">59387</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -120,12 +156,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">1888665</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">508648</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Congo - Democratic Republic of within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">454568</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Congo - Democratic Republic of within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1416227</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">31042</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -144,12 +216,48 @@
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">288148</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">4468418</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">4239568</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3359761</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">917317</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -168,12 +276,48 @@
    </provider-org>
    <sector code="112" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">178161</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">2850150</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Congo - Democratic Republic of within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Education in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">6435230</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Congo - Democratic Republic of within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">6472365</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">1295585</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -192,12 +336,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">321317</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">212413</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Congo - Democratic Republic of within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">5519</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Congo - Democratic Republic of within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">-69007</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">13882</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -216,12 +396,48 @@
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">5243277</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">3364602</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2063233</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3612728</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">135492</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -240,12 +456,48 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">8436129</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">2869945</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Congo - Democratic Republic of within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">3923666</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Congo - Democratic Republic of within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">5417273</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">592919</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Congo - Democratic Republic of within FY21</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -264,12 +516,12 @@
    </provider-org>
    <sector code="140" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">196199</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">2626284</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2018</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -278,10 +530,46 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">440705</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1999493</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1922719</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">218490</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">247902</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY 2017</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -300,372 +588,12 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">508648</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">12389973</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">4468418</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">577865</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">2850150</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">806602</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">212413</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">17731831</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">3364602</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">802584</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">2869945</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">6383753</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">2626284</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">875047</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">531207</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
    <value currency="USD" value-date="2019-09-30">1208804</value>
    <description>
     <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">454568</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">23564506</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">4239568</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1675519</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">6435230</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">576810</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">5519</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">13546652</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2063233</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2846236</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">3923666</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">8061731</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1999493</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1751221</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">416146</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -684,12 +612,48 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1416227</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">305542</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">1888665</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Congo - Democratic Republic of within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">12389973</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">23564506</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Congo - Democratic Republic of within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -708,12 +672,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3359761</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">2950924</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">288148</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">577865</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1675519</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -732,12 +732,48 @@
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">6472365</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">173551</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">178161</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Congo - Democratic Republic of within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">806602</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">576810</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Congo - Democratic Republic of within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -756,12 +792,48 @@
    </provider-org>
    <sector code="112" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">-69007</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">188990</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">321317</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Congo - Democratic Republic of within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">17731831</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">13546652</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Congo - Democratic Republic of within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -780,12 +852,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3612728</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">328095</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">5243277</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">802584</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2846236</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Congo - Democratic Republic of within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -804,12 +912,48 @@
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">5417273</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">2185318</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">8436129</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Congo - Democratic Republic of within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">6383753</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">8061731</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Congo - Democratic Republic of within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
@@ -828,186 +972,6 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1922719</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">2990888</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">59387</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">305542</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">31042</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">2950924</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">917317</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">173551</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">1295585</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">188990</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">13882</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">328095</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">135492</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">2185318</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">592919</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Congo - Democratic Republic of within FY21</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -1020,12 +984,48 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">218490</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">196199</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Congo - Democratic Republic of within FY21 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">875047</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1751221</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2990888</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Congo - Democratic Republic of within FY 2020 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Congo - Democratic Republic of</narrative>

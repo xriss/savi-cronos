@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="gb-chc-220949-activities" dstore:index="94" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="gb-chc-220949-activities" dstore:index="94" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>GB-CHC-220949-P8222</iati-identifier>
   <reporting-org ref="GB-CHC-220949" type="21">
    <narrative xml:lang="EN">British Red Cross</narrative>
@@ -15,20 +15,20 @@ During the recent years, parts of Ethiopia, Sudan and Djibouti have been affecte
 As leading humanitarian actors and front-line responders, often where others do not have access, the components of the Red Cross and Red Crescent Movement are present in all three countries and coordinate closely to respond to critical needs of people affected by multiple vulnerabilities, particularly in the fields of protection, health, psychosocial support (PSS), restoring family links (RFL), economic security and water and sanitation,
 The IFRC and the ICRC have launched coordinated appeals, seeking a total of CHF 47 million to scale up humanitarian activities and strengthen coordination systems in a multi-country approach</narrative>
   </description>
-  <participating-org ref="XM-DAC-21018" role="4">
-   <narrative xml:lang="EN">IFRC</narrative>
+  <participating-org ref="GB-CHC-220949" role="2">
+   <narrative xml:lang="EN">British Red Cross</narrative>
   </participating-org>
   <participating-org ref="DK-CVR-20700211" role="4">
    <narrative xml:lang="EN">Danish Red Cross</narrative>
   </participating-org>
   <participating-org role="4">
-   <narrative xml:lang="EN">Red Crescent Society of Djibouti</narrative>
-  </participating-org>
-  <participating-org role="4">
    <narrative xml:lang="EN">Ethiopian Red Cross Society</narrative>
   </participating-org>
-  <participating-org ref="GB-CHC-220949" role="2">
-   <narrative xml:lang="EN">British Red Cross</narrative>
+  <participating-org ref="XM-DAC-21018" role="4">
+   <narrative xml:lang="EN">IFRC</narrative>
+  </participating-org>
+  <participating-org role="4">
+   <narrative xml:lang="EN">Red Crescent Society of Djibouti</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-11-04" type="2"></activity-date>
@@ -51,6 +51,25 @@ The IFRC and the ICRC have launched coordinated appeals, seeking a total of CHF 
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <transaction humanitarian="1" ref="GB-CHC-220949-P8222-001-001">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-08"></transaction-date>
+   <value currency="EUR" value-date="2020-12-08">17614</value>
+   <description>
+    <narrative xml:lang="EN">BRC contribution to SRCS Protection and PFA trained-volunteers, to support the Ethiopia Population Movement emergency operations and the influx of refugees into Eastern Sudan. Payment via Danish RC and to bridge the gap before the &#xC2;&#xA3;1mill PPL programme starts in 2021&#xC2;</narrative>
+   </description>
+   <provider-org ref="GB-CHC-220949" type="21">
+    <narrative xml:lang="EN">British Red Cross</narrative>
+   </provider-org>
+   <receiver-org ref="DK-CVR-20700211">
+    <narrative xml:lang="EN">Danish Red Cross</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
   <transaction humanitarian="1" ref="GB-CHC-220949-P8222-003-001">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-04-01"></transaction-date>
@@ -87,25 +106,6 @@ The IFRC and the ICRC have launched coordinated appeals, seeking a total of CHF 
    <flow-type code="30"></flow-type>
    <finance-type code="110"></finance-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
-  <transaction humanitarian="1" ref="GB-CHC-220949-P8222-001-001">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-08"></transaction-date>
-   <value currency="EUR" value-date="2020-12-08">17614</value>
-   <description>
-    <narrative xml:lang="EN">BRC contribution to SRCS Protection and PFA trained-volunteers, to support the Ethiopia Population Movement emergency operations and the influx of refugees into Eastern Sudan. Payment via Danish RC and to bridge the gap before the &#xC2;&#xA3;1mill PPL programme starts in 2021&#xC2;</narrative>
-   </description>
-   <provider-org ref="GB-CHC-220949" type="21">
-    <narrative xml:lang="EN">British Red Cross</narrative>
-   </provider-org>
-   <receiver-org ref="DK-CVR-20700211">
-    <narrative xml:lang="EN">Danish Red Cross</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <flow-type code="30"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
    <tied-status code="3"></tied-status>
   </transaction>
  </iati-activity>

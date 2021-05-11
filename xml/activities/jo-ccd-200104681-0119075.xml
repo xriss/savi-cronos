@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="JOD" dstore:dataset="sqf-activities" dstore:index="1" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="JOD" dstore:dataset="sqf-activities" dstore:index="1" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>JO-CCD-200104681-0119075</iati-identifier>
   <reporting-org ref="JO-CCD-200104681" secondary-reporter="0" type="70">
    <narrative xml:lang="EN">Leaders of Tomorrow</narrative>
@@ -77,51 +77,23 @@ During the last quarter (July, August, and September) one of the main activities
   </budget>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="JOD" value-date="2019-12-31">5060.67</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="JOD" value-date="2020-09-30">1357.77</value>
    <description>
-    <narrative xml:lang="EN">Personnel costs</narrative>
+    <narrative xml:lang="EN">Catering and materials</narrative>
    </description>
    <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+    <narrative xml:lang="EN">Covered cost of Catering and materials</narrative>
    </provider-org>
-   <receiver-org type="90">
-    <narrative xml:lang="EN">This is the Personnel costs that we paid to our staff member to implement the activities</narrative>
+   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
+    <narrative xml:lang="EN">Covered cost of Catering and materials</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </sector>
    <recipient-country code="JO">
-    <narrative xml:lang="EN">All our employees work in Jordan</narrative>
-   </recipient-country>
-   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
-   </recipient-region>
-   <flow-type code="35"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="A02" vocabulary="1"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="JOD" value-date="2019-12-31">316.2</value>
-   <description>
-    <narrative xml:lang="EN">Local transportation cost</narrative>
-   </description>
-   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">This was used to covered Local transportation costs to implement the activities of the project</narrative>
-   </provider-org>
-   <receiver-org type="70">
-    <narrative xml:lang="EN">This cost was paid to Careem, Uber, Gas companies</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </sector>
-   <recipient-country code="JO">
-    <narrative xml:lang="EN">The companies located in Jordan</narrative>
+    <narrative xml:lang="EN">The building is located in Jordan</narrative>
    </recipient-country>
    <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
@@ -133,23 +105,107 @@ During the last quarter (July, August, and September) one of the main activities
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="JOD" value-date="2019-12-31">782.48</value>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="JOD" value-date="2020-03-31">4866.49</value>
    <description>
-    <narrative xml:lang="EN">Marketing cost</narrative>
+    <narrative xml:lang="EN">Contractual costs</narrative>
    </description>
    <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </provider-org>
-   <receiver-org type="70">
-    <narrative xml:lang="EN">This cost used to do a marketing campaign through Facebook</narrative>
+   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
+    <narrative xml:lang="EN">Contractual costs are paid to individuals that we contract to implement the activities</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="250" vocabulary="99" vocabulary-uri="http://souqfann.com">
+   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </sector>
    <recipient-country code="JO">
-    <narrative xml:lang="EN">That payment happened in Jordan</narrative>
+    <narrative xml:lang="EN">All the individuals that we contract are located in Jordan</narrative>
+   </recipient-country>
+   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
+   </recipient-region>
+   <flow-type code="35"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="JOD" value-date="2020-06-30">5030.33</value>
+   <description>
+    <narrative xml:lang="EN">Contractual costs</narrative>
+   </description>
+   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
+    <narrative xml:lang="EN">Contractual costs are paid to individuals that we contract to implement the activities</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </sector>
+   <recipient-country code="JO">
+    <narrative xml:lang="EN">All the individuals that we contract are located in Jordan</narrative>
+   </recipient-country>
+   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
+   </recipient-region>
+   <flow-type code="35"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="JOD" value-date="2020-06-30">5030.33</value>
+   <description>
+    <narrative xml:lang="EN">Contractual costs</narrative>
+   </description>
+   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
+    <narrative xml:lang="EN">Contractual costs are paid to individuals that we contract to implement the activities</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </sector>
+   <recipient-country code="JO">
+    <narrative xml:lang="EN">All the individuals that we contract are located in Jordan</narrative>
+   </recipient-country>
+   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
+   </recipient-region>
+   <flow-type code="35"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="JOD" value-date="2020-09-30">51076.7</value>
+   <description>
+    <narrative xml:lang="EN">Contractual costs</narrative>
+   </description>
+   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
+    <narrative xml:lang="EN">Contractual costs are paid to individuals that we contract to implement the activities</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </sector>
+   <recipient-country code="JO">
+    <narrative xml:lang="EN">All the individuals that we contract are located in Jordan</narrative>
    </recipient-country>
    <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
@@ -178,34 +234,6 @@ During the last quarter (July, August, and September) one of the main activities
    </sector>
    <recipient-country code="JO">
     <narrative xml:lang="EN">All the individuals that we contract are located in Jordan</narrative>
-   </recipient-country>
-   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
-   </recipient-region>
-   <flow-type code="35"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="JOD" value-date="2019-12-31">1662.5</value>
-   <description>
-    <narrative xml:lang="EN">Office Rent</narrative>
-   </description>
-   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </provider-org>
-   <receiver-org type="90">
-    <narrative xml:lang="EN">This cost was paid to the owner of the building as a part of the office rent</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </sector>
-   <recipient-country code="JO">
-    <narrative xml:lang="EN">The building is located in Jordan</narrative>
    </recipient-country>
    <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
@@ -246,29 +274,113 @@ During the last quarter (July, August, and September) one of the main activities
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="JOD" value-date="2020-03-31">5344.34</value>
+   <value currency="JOD" value-date="2020-03-31">122.1</value>
    <description>
-    <narrative xml:lang="EN">Personnel costs</narrative>
+    <narrative xml:lang="EN">Local transportation cost</narrative>
    </description>
    <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+    <narrative xml:lang="EN">This was used to covered Local transportation costs to implement the activities of the project</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">This is the Personnel costs that we paid to our staff member to implement the activities</narrative>
+    <narrative xml:lang="EN">This cost was paid to Careem, Uber, Gas companies</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </sector>
    <recipient-country code="JO">
-    <narrative xml:lang="EN">All our employees work in Jordan</narrative>
+    <narrative xml:lang="EN">The companies located in Jordan</narrative>
    </recipient-country>
    <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
    </recipient-region>
    <flow-type code="35"></flow-type>
    <finance-type code="110"></finance-type>
-   <aid-type code="A02" vocabulary="1"></aid-type>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="JOD" value-date="2020-06-30">91.3</value>
+   <description>
+    <narrative xml:lang="EN">Local transportation cost</narrative>
+   </description>
+   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
+    <narrative xml:lang="EN">This was used to covered Local transportation costs to implement the activities of the project</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
+    <narrative xml:lang="EN">This cost was paid to Careem, Uber, Gas companies</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </sector>
+   <recipient-country code="JO">
+    <narrative xml:lang="EN">The companies located in Jordan</narrative>
+   </recipient-country>
+   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
+   </recipient-region>
+   <flow-type code="35"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="JOD" value-date="2020-09-30">1115.77</value>
+   <description>
+    <narrative xml:lang="EN">Local transportation cost</narrative>
+   </description>
+   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
+    <narrative xml:lang="EN">This was used to covered Local transportation costs to implement the activities of the project</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
+    <narrative xml:lang="EN">This cost was paid to Careem, Uber, Gas companies</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </sector>
+   <recipient-country code="JO">
+    <narrative xml:lang="EN">The companies located in Jordan</narrative>
+   </recipient-country>
+   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
+   </recipient-region>
+   <flow-type code="35"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="JOD" value-date="2019-12-31">316.2</value>
+   <description>
+    <narrative xml:lang="EN">Local transportation cost</narrative>
+   </description>
+   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
+    <narrative xml:lang="EN">This was used to covered Local transportation costs to implement the activities of the project</narrative>
+   </provider-org>
+   <receiver-org type="70">
+    <narrative xml:lang="EN">This cost was paid to Careem, Uber, Gas companies</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </sector>
+   <recipient-country code="JO">
+    <narrative xml:lang="EN">The companies located in Jordan</narrative>
+   </recipient-country>
+   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
+   </recipient-region>
+   <flow-type code="35"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="4" vocabulary="2"></aid-type>
    <tied-status code="3"></tied-status>
   </transaction>
   <transaction humanitarian="0">
@@ -286,6 +398,90 @@ During the last quarter (July, August, and September) one of the main activities
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </sector>
+   <recipient-country code="JO">
+    <narrative xml:lang="EN">That payment happened in Jordan</narrative>
+   </recipient-country>
+   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
+   </recipient-region>
+   <flow-type code="35"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="JOD" value-date="2020-06-30">389.96</value>
+   <description>
+    <narrative xml:lang="EN">Marketing cost</narrative>
+   </description>
+   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
+    <narrative xml:lang="EN">This cost used to do a marketing campaign through Facebook</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </sector>
+   <recipient-country code="JO">
+    <narrative xml:lang="EN">That payment happened in Jordan</narrative>
+   </recipient-country>
+   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
+   </recipient-region>
+   <flow-type code="35"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="JOD" value-date="2020-09-30">1372.73</value>
+   <description>
+    <narrative xml:lang="EN">Marketing cost</narrative>
+   </description>
+   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
+    <narrative xml:lang="EN">This cost used to do a marketing campaign through Facebook</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </sector>
+   <recipient-country code="JO">
+    <narrative xml:lang="EN">That payment happened in Jordan</narrative>
+   </recipient-country>
+   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
+    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
+   </recipient-region>
+   <flow-type code="35"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <tied-status code="3"></tied-status>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="JOD" value-date="2019-12-31">782.48</value>
+   <description>
+    <narrative xml:lang="EN">Marketing cost</narrative>
+   </description>
+   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
+   </provider-org>
+   <receiver-org type="70">
+    <narrative xml:lang="EN">This cost used to do a marketing campaign through Facebook</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="250" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </sector>
    <recipient-country code="JO">
@@ -329,23 +525,23 @@ During the last quarter (July, August, and September) one of the main activities
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="JOD" value-date="2020-03-31">122.1</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="JOD" value-date="2020-09-30">831.25</value>
    <description>
-    <narrative xml:lang="EN">Local transportation cost</narrative>
+    <narrative xml:lang="EN">Office Rent</narrative>
    </description>
    <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">This was used to covered Local transportation costs to implement the activities of the project</narrative>
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">This cost was paid to Careem, Uber, Gas companies</narrative>
+    <narrative xml:lang="EN">This cost was paid to the owner of the building as a part of the office rent</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </sector>
    <recipient-country code="JO">
-    <narrative xml:lang="EN">The companies located in Jordan</narrative>
+    <narrative xml:lang="EN">The building is located in Jordan</narrative>
    </recipient-country>
    <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
@@ -357,23 +553,23 @@ During the last quarter (July, August, and September) one of the main activities
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="JOD" value-date="2020-03-31">4866.49</value>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="JOD" value-date="2019-12-31">1662.5</value>
    <description>
-    <narrative xml:lang="EN">Contractual costs</narrative>
+    <narrative xml:lang="EN">Office Rent</narrative>
    </description>
    <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">Contractual costs are paid to individuals that we contract to implement the activities</narrative>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">This cost was paid to the owner of the building as a part of the office rent</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </sector>
    <recipient-country code="JO">
-    <narrative xml:lang="EN">All the individuals that we contract are located in Jordan</narrative>
+    <narrative xml:lang="EN">The building is located in Jordan</narrative>
    </recipient-country>
    <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
@@ -413,118 +609,6 @@ During the last quarter (July, August, and September) one of the main activities
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="JOD" value-date="2020-06-30">91.3</value>
-   <description>
-    <narrative xml:lang="EN">Local transportation cost</narrative>
-   </description>
-   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">This was used to covered Local transportation costs to implement the activities of the project</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">This cost was paid to Careem, Uber, Gas companies</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </sector>
-   <recipient-country code="JO">
-    <narrative xml:lang="EN">The companies located in Jordan</narrative>
-   </recipient-country>
-   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
-   </recipient-region>
-   <flow-type code="35"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="JOD" value-date="2020-06-30">389.96</value>
-   <description>
-    <narrative xml:lang="EN">Marketing cost</narrative>
-   </description>
-   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">This cost used to do a marketing campaign through Facebook</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </sector>
-   <recipient-country code="JO">
-    <narrative xml:lang="EN">That payment happened in Jordan</narrative>
-   </recipient-country>
-   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
-   </recipient-region>
-   <flow-type code="35"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="JOD" value-date="2020-06-30">5030.33</value>
-   <description>
-    <narrative xml:lang="EN">Contractual costs</narrative>
-   </description>
-   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">Contractual costs are paid to individuals that we contract to implement the activities</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </sector>
-   <recipient-country code="JO">
-    <narrative xml:lang="EN">All the individuals that we contract are located in Jordan</narrative>
-   </recipient-country>
-   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
-   </recipient-region>
-   <flow-type code="35"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="JOD" value-date="2020-06-30">5030.33</value>
-   <description>
-    <narrative xml:lang="EN">Contractual costs</narrative>
-   </description>
-   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">Contractual costs are paid to individuals that we contract to implement the activities</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </sector>
-   <recipient-country code="JO">
-    <narrative xml:lang="EN">All the individuals that we contract are located in Jordan</narrative>
-   </recipient-country>
-   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
-   </recipient-region>
-   <flow-type code="35"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="JOD" value-date="2020-09-30">5344.37</value>
    <description>
@@ -553,142 +637,58 @@ During the last quarter (July, August, and September) one of the main activities
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="JOD" value-date="2020-09-30">1115.77</value>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="JOD" value-date="2020-03-31">5344.34</value>
    <description>
-    <narrative xml:lang="EN">Local transportation cost</narrative>
+    <narrative xml:lang="EN">Personnel costs</narrative>
    </description>
    <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">This was used to covered Local transportation costs to implement the activities of the project</narrative>
+    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">This cost was paid to Careem, Uber, Gas companies</narrative>
+    <narrative xml:lang="EN">This is the Personnel costs that we paid to our staff member to implement the activities</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </sector>
    <recipient-country code="JO">
-    <narrative xml:lang="EN">The companies located in Jordan</narrative>
+    <narrative xml:lang="EN">All our employees work in Jordan</narrative>
    </recipient-country>
    <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
    </recipient-region>
    <flow-type code="35"></flow-type>
    <finance-type code="110"></finance-type>
-   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="A02" vocabulary="1"></aid-type>
    <tied-status code="3"></tied-status>
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="JOD" value-date="2020-09-30">1372.73</value>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="JOD" value-date="2019-12-31">5060.67</value>
    <description>
-    <narrative xml:lang="EN">Marketing cost</narrative>
+    <narrative xml:lang="EN">Personnel costs</narrative>
    </description>
    <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">This cost used to do a marketing campaign through Facebook</narrative>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">This is the Personnel costs that we paid to our staff member to implement the activities</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
    </sector>
    <recipient-country code="JO">
-    <narrative xml:lang="EN">That payment happened in Jordan</narrative>
+    <narrative xml:lang="EN">All our employees work in Jordan</narrative>
    </recipient-country>
    <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
     <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
    </recipient-region>
    <flow-type code="35"></flow-type>
    <finance-type code="110"></finance-type>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="JOD" value-date="2020-09-30">51076.7</value>
-   <description>
-    <narrative xml:lang="EN">Contractual costs</narrative>
-   </description>
-   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">Contractual costs are paid to individuals that we contract to implement the activities</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </sector>
-   <recipient-country code="JO">
-    <narrative xml:lang="EN">All the individuals that we contract are located in Jordan</narrative>
-   </recipient-country>
-   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
-   </recipient-region>
-   <flow-type code="35"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="JOD" value-date="2020-09-30">831.25</value>
-   <description>
-    <narrative xml:lang="EN">Office Rent</narrative>
-   </description>
-   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">This cost was paid to the owner of the building as a part of the office rent</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </sector>
-   <recipient-country code="JO">
-    <narrative xml:lang="EN">The building is located in Jordan</narrative>
-   </recipient-country>
-   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
-   </recipient-region>
-   <flow-type code="35"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <tied-status code="3"></tied-status>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="JOD" value-date="2020-09-30">1357.77</value>
-   <description>
-    <narrative xml:lang="EN">Catering and materials</narrative>
-   </description>
-   <provider-org provider-activity-id="JO-CCD-200104681" ref="4249b2ca-04b4-43fb-92b9-4cbe81bf25ca" type="70">
-    <narrative xml:lang="EN">Covered cost of Catering and materials</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-7-PPR-4000003150" type="90">
-    <narrative xml:lang="EN">Covered cost of Catering and materials</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="1" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Leaders of Tomorrow/SouqFann</narrative>
-   </sector>
-   <recipient-country code="JO">
-    <narrative xml:lang="EN">The building is located in Jordan</narrative>
-   </recipient-country>
-   <recipient-region code="589" vocabulary="99" vocabulary-uri="http://souqfann.com">
-    <narrative xml:lang="EN">Jordan is a part of the Middle East region</narrative>
-   </recipient-region>
-   <flow-type code="35"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="A02" vocabulary="1"></aid-type>
    <tied-status code="3"></tied-status>
   </transaction>
   <document-link format="APPLICATION/VND.MS-EXCEL" url="https://aidstream.org/files/documents/Action_Plan_Shiraka_Jan_Oct_2020-20200413010434.xlsx">

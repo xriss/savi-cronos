@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="unocha-cbpf-car-allocation-2020" dstore:index="49" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="unocha-cbpf-car-allocation-2020" dstore:index="49" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-OCHA-CBPF-CAR-20/HCF10/RA3/NFI/UN/16693</iati-identifier>
   <reporting-org ref="XM-OCHA-CBPF" secondary-reporter="0" type="22">
    <narrative xml:lang="EN">United Nations Office for the Coordination of Humanitarian Affairs</narrative>
@@ -19,6 +19,15 @@ Les lignes d&#x2019;actions &#xE0; consid&#xE9;rer dans ce projet sont
 - Distribution de kits Nfi/Abris
 - Renforcement r&#xE9;ponse Covid19</narrative>
   </description>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">Association Agropastorale de NDA</narrative>
+  </participating-org>
+  <participating-org activity-id="XM-OCHA-CBPF-CAR17-2020" ref="XM-OCHA-CBPF-CAR17" role="1" type="40">
+   <narrative xml:lang="EN">CAR Humanitarian Fund</narrative>
+  </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">Centre  pour la Promotion et la D&#xE9;fense des Droits de lenfant</narrative>
+  </participating-org>
   <participating-org role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration</narrative>
   </participating-org>
@@ -26,38 +35,13 @@ Les lignes d&#x2019;actions &#xE0; consid&#xE9;rer dans ce projet sont
    <narrative xml:lang="EN">International Organization for Migration</narrative>
   </participating-org>
   <participating-org role="4" type="22">
-   <narrative xml:lang="EN">Association Agropastorale de NDA</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">Centre  pour la Promotion et la D&#xE9;fense des Droits de lenfant</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
    <narrative xml:lang="EN">JUPEDEC (United Youth for the Protection of the Environment and Community Development)</narrative>
-  </participating-org>
-  <participating-org activity-id="XM-OCHA-CBPF-CAR17-2020" ref="XM-OCHA-CBPF-CAR17" role="1" type="40">
-   <narrative xml:lang="EN">CAR Humanitarian Fund</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-08-01" type="1"></activity-date>
   <activity-date iso-date="2020-08-01" type="2"></activity-date>
   <activity-date iso-date="2021-01-31" type="3"></activity-date>
   <activity-date iso-date="2021-01-31" type="4"></activity-date>
-  <contact-info>
-   <organisation>
-    <narrative xml:lang="EN"></narrative>
-   </organisation>
-   <department>
-    <narrative xml:lang="EN"></narrative>
-   </department>
-   <person-name>
-    <narrative xml:lang="EN">Mohamed Kamara</narrative>
-   </person-name>
-   <job-title>
-    <narrative xml:lang="EN">Program Manager</narrative>
-   </job-title>
-   <telephone>72724952</telephone>
-   <email>mohkamara@iom.int</email>
-  </contact-info>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN"></narrative>
@@ -73,6 +57,22 @@ Les lignes d&#x2019;actions &#xE0; consid&#xE9;rer dans ce projet sont
    </job-title>
    <telephone>72694464</telephone>
    <email>lbadio@iom.int</email>
+  </contact-info>
+  <contact-info>
+   <organisation>
+    <narrative xml:lang="EN"></narrative>
+   </organisation>
+   <department>
+    <narrative xml:lang="EN"></narrative>
+   </department>
+   <person-name>
+    <narrative xml:lang="EN">Mohamed Kamara</narrative>
+   </person-name>
+   <job-title>
+    <narrative xml:lang="EN">Program Manager</narrative>
+   </job-title>
+   <telephone>72724952</telephone>
+   <email>mohkamara@iom.int</email>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="CF" percentage="100"></recipient-country>
@@ -119,10 +119,10 @@ Les lignes d&#x2019;actions &#xE0; consid&#xE9;rer dans ce projet sont
    <value currency="USD" value-date="2020-08-04">59623.35</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction humanitarian="1" ref="CAR17-16693">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-08-04"></transaction-date>
-   <value currency="USD" value-date="2020-08-04">351970.08</value>
+  <transaction humanitarian="1" ref="00012770">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-30"></transaction-date>
+   <value currency="USD" value-date="2020-07-30">351970.08</value>
    <provider-org provider-activity-id="XM-OCHA-CBPF-CAR17-2020" ref="XM-OCHA-CBPF-CAR17" type="40">
     <narrative xml:lang="EN">CAR Humanitarian Fund</narrative>
    </provider-org>
@@ -130,10 +130,10 @@ Les lignes d&#x2019;actions &#xE0; consid&#xE9;rer dans ce projet sont
     <narrative xml:lang="EN">International Organization for Migration</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="00012770">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-07-30"></transaction-date>
-   <value currency="USD" value-date="2020-07-30">351970.08</value>
+  <transaction humanitarian="1" ref="CAR17-16693">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-08-04"></transaction-date>
+   <value currency="USD" value-date="2020-08-04">351970.08</value>
    <provider-org provider-activity-id="XM-OCHA-CBPF-CAR17-2020" ref="XM-OCHA-CBPF-CAR17" type="40">
     <narrative xml:lang="EN">CAR Humanitarian Fund</narrative>
    </provider-org>

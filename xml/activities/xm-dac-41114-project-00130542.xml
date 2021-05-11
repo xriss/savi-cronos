@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-mmr" dstore:index="134" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-mmr" dstore:index="134" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-PROJECT-00130542</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -11,20 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">Strengthening COVID-19 Recovery and Resilient Livelihoods in Myanmar as a consequence of the COVID-19 pandemic.</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
-  </participating-org>
-  <participating-org ref="XM-DAC-41114" role="2" type="40">
-   <narrative xml:lang="EN">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+  <participating-org ref="GB-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">DEPARTMENT FOR INTERNATIONAL DEVELOPMENT (DFID)</narrative>
   </participating-org>
   <participating-org ref="00141" role="1" type="10">
    <narrative xml:lang="EN">GOVERNMENT OF JAPAN</narrative>
-  </participating-org>
-  <participating-org ref="00311" role="1" type="70">
-   <narrative xml:lang="EN">PRIVATE SECTOR</narrative>
-  </participating-org>
-  <participating-org ref="12711" role="1">
-   <narrative xml:lang="EN">UNDP Funding Windows</narrative>
   </participating-org>
   <participating-org ref="13298" role="1" type="40">
    <narrative xml:lang="EN">MPTF-Women&apos;s  Empowerment and Resilient Inclusive Communities in Rakhine in Myanmar(JMM00)</narrative>
@@ -32,11 +23,20 @@
   <participating-org ref="13556" role="1" type="40">
    <narrative xml:lang="EN">MPTFO-UN COVID-19 Response &amp; Recovery Fund</narrative>
   </participating-org>
-  <participating-org ref="GB-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">DEPARTMENT FOR INTERNATIONAL DEVELOPMENT (DFID)</narrative>
+  <participating-org ref="00311" role="1" type="70">
+   <narrative xml:lang="EN">PRIVATE SECTOR</narrative>
+  </participating-org>
+  <participating-org ref="12711" role="1">
+   <narrative xml:lang="EN">UNDP Funding Windows</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-41114" role="1">
    <narrative xml:lang="EN">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="2" type="40">
+   <narrative xml:lang="EN">UNITED NATIONS DEVELOPMENT PROGRAMME</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-09-01" type="1"></activity-date>
@@ -49,9 +49,9 @@
   <recipient-country code="MM" percentage="100">
    <narrative xml:lang="EN">Myanmar</narrative>
   </recipient-country>
+  <sector code="13.1" percentage="33.33" vocabulary="8"></sector>
   <sector code="16050" percentage="50" vocabulary="1"></sector>
   <sector code="74020" percentage="50" vocabulary="1"></sector>
-  <sector code="13.1" percentage="33.33" vocabulary="8"></sector>
   <sector code="8.1" percentage="33.33" vocabulary="8"></sector>
   <sector code="8.3" percentage="33.33" vocabulary="8"></sector>
   <tag code="13.1" vocabulary="3"></tag>

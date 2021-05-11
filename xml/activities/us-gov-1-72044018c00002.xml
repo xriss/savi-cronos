@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-vn" dstore:index="99" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-vn" dstore:index="99" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-72044018C00002</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -11,6 +11,9 @@
   <description>
    <narrative xml:lang="EN">USAID Linkages for Small and Medium Enterprises (LinkSME) aims to strengthen the supplier-buyer relationships between Vietnamese small and medium enterprises (SMEs) and multinationals located in Vietnam to help local firms participate in global value chains. USAID LinkSME will improve the business environment by lowering costs for multinationals located in Vietnam to source locally while representing a huge opportunity to grow Vietnams SME sector and build its middle class, major consumers of American products. The project is also helping to improve Vietnams regional competitiveness, by making it a more attractive and predictable investment climate and supporting the Indo Pacific Strategys competitiveness pillar.</narrative>
   </description>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">International Executive Service Corps</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
@@ -19,9 +22,6 @@
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">International Executive Service Corps</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2018-09-05" type="1"></activity-date>
@@ -47,39 +47,25 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="4"></default-tied-status>
-  <transaction ref="598A69F4D808">
+  <transaction ref="8C48D4783AE7">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">918891</value>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">5000000</value>
+   <description>
+    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
+   </description>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   <sector code="12264" vocabulary="1">
+    <narrative xml:lang="EN">COVID-19 control</narrative>
    </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
+   <sector code="5006" vocabulary="99">
+    <narrative xml:lang="EN">Private Sector Competitiveness</narrative>
    </sector>
    <recipient-country code="VN"></recipient-country>
+   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="E296CAD6DB9C">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">4031934</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33120" vocabulary="1">
-    <narrative xml:lang="EN">Trade facilitation</narrative>
-   </sector>
-   <sector code="5002" vocabulary="99">
-    <narrative xml:lang="EN">Trade and Investment</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
@@ -93,96 +79,6 @@
    </sector>
    <sector code="5006" vocabulary="99">
     <narrative xml:lang="EN">Private Sector Competitiveness</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="BE702F6A9C8D">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-31"></transaction-date>
-   <value currency="USD" value-date="2018-12-31">75995.44</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="6AA38F5D8DB6">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-03-31"></transaction-date>
-   <value currency="USD" value-date="2019-03-31">662652.67</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="D4DA3E8F5DCB">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-30"></transaction-date>
-   <value currency="USD" value-date="2019-06-30">180242.89</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="0343CCD9BFE9">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-30"></transaction-date>
-   <value currency="USD" value-date="2019-06-30">696978.27</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33120" vocabulary="1">
-    <narrative xml:lang="EN">Trade facilitation</narrative>
-   </sector>
-   <sector code="5002" vocabulary="99">
-    <narrative xml:lang="EN">Trade and Investment</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="0AB85981B1CD">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">986038.04</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33120" vocabulary="1">
-    <narrative xml:lang="EN">Trade facilitation</narrative>
-   </sector>
-   <sector code="5002" vocabulary="99">
-    <narrative xml:lang="EN">Trade and Investment</narrative>
    </sector>
    <recipient-country code="VN"></recipient-country>
    <usg:treasury-account>
@@ -205,96 +101,6 @@
    <recipient-country code="VN"></recipient-country>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="F5285709D832">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">5000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33120" vocabulary="1">
-    <narrative xml:lang="EN">Trade facilitation</narrative>
-   </sector>
-   <sector code="5002" vocabulary="99">
-    <narrative xml:lang="EN">Trade and Investment</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2014" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="3F19EB1E87C9">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">1096329.64</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33120" vocabulary="1">
-    <narrative xml:lang="EN">Trade facilitation</narrative>
-   </sector>
-   <sector code="5002" vocabulary="99">
-    <narrative xml:lang="EN">Trade and Investment</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="B921886C9833">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">636010.62</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33120" vocabulary="1">
-    <narrative xml:lang="EN">Trade facilitation</narrative>
-   </sector>
-   <sector code="5002" vocabulary="99">
-    <narrative xml:lang="EN">Trade and Investment</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="EA8774443661">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">579301</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33120" vocabulary="1">
-    <narrative xml:lang="EN">Trade facilitation</narrative>
-   </sector>
-   <sector code="5002" vocabulary="99">
-    <narrative xml:lang="EN">Trade and Investment</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="5AD5D7868DC4">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">37276.2</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33120" vocabulary="1">
-    <narrative xml:lang="EN">Trade facilitation</narrative>
-   </sector>
-   <sector code="5002" vocabulary="99">
-    <narrative xml:lang="EN">Trade and Investment</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
     <usg:main-account code="1021">Development Assistance</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -335,46 +141,6 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="B4D92A3AB488">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">1000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="8C48D4783AE7">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">5000000</value>
-   <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
-   </description>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="12264" vocabulary="1">
-    <narrative xml:lang="EN">COVID-19 control</narrative>
-   </sector>
-   <sector code="5006" vocabulary="99">
-    <narrative xml:lang="EN">Private Sector Competitiveness</narrative>
-   </sector>
-   <recipient-country code="VN"></recipient-country>
-   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="56B65C7FEFF9">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -393,16 +159,250 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
+  <transaction ref="598A69F4D808">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">918891</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="BE702F6A9C8D">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="USD" value-date="2018-12-31">75995.44</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="6AA38F5D8DB6">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-03-31"></transaction-date>
+   <value currency="USD" value-date="2019-03-31">662652.67</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="D4DA3E8F5DCB">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-30"></transaction-date>
+   <value currency="USD" value-date="2019-06-30">180242.89</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="B4D92A3AB488">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">1000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
+   </sector>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="E296CAD6DB9C">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">4031934</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5002" vocabulary="99">
+    <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33120" vocabulary="1">
+    <narrative xml:lang="EN">Trade facilitation</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="0343CCD9BFE9">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-30"></transaction-date>
+   <value currency="USD" value-date="2019-06-30">696978.27</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5002" vocabulary="99">
+    <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33120" vocabulary="1">
+    <narrative xml:lang="EN">Trade facilitation</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="F5285709D832">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">5000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5002" vocabulary="99">
+    <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33120" vocabulary="1">
+    <narrative xml:lang="EN">Trade facilitation</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2014" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="0AB85981B1CD">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">986038.04</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5002" vocabulary="99">
+    <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33120" vocabulary="1">
+    <narrative xml:lang="EN">Trade facilitation</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="3F19EB1E87C9">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">1096329.64</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5002" vocabulary="99">
+    <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33120" vocabulary="1">
+    <narrative xml:lang="EN">Trade facilitation</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="B921886C9833">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">636010.62</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5002" vocabulary="99">
+    <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33120" vocabulary="1">
+    <narrative xml:lang="EN">Trade facilitation</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="EA8774443661">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">579301</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5002" vocabulary="99">
+    <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33120" vocabulary="1">
+    <narrative xml:lang="EN">Trade facilitation</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="5AD5D7868DC4">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">37276.2</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="5002" vocabulary="99">
+    <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33120" vocabulary="1">
+    <narrative xml:lang="EN">Trade facilitation</narrative>
+   </sector>
+   <recipient-country code="VN"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2017" end="2018"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <transaction ref="2BBB3CE32272">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">655498.16</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33120" vocabulary="1">
-    <narrative xml:lang="EN">Trade facilitation</narrative>
-   </sector>
    <sector code="5002" vocabulary="99">
     <narrative xml:lang="EN">Trade and Investment</narrative>
+   </sector>
+   <sector code="33120" vocabulary="1">
+    <narrative xml:lang="EN">Trade facilitation</narrative>
    </sector>
    <recipient-country code="VN"></recipient-country>
    <usg:treasury-account>

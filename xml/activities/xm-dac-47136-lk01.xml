@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="gggi-activities" dstore:index="139" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="gggi-activities" dstore:index="139" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47136-LK01</iati-identifier>
   <reporting-org ref="XM-DAC-47136" type="40">
    <narrative xml:lang="EN">Global Green Growth Institute</narrative>
@@ -45,10 +45,10 @@
   </contact-info>
   <recipient-country code="LK" percentage="100"></recipient-country>
   <recipient-region code="679" percentage="100" vocabulary="1"></recipient-region>
-  <sector code="41010" percentage="100" vocabulary="1"></sector>
   <sector code="MS" percentage="100" vocabulary="99" vocabulary-uri="https://aidstream.org/reference/codelist/XM-DAC-47136/sector">
    <narrative xml:lang="EN">Multi-Sectoral</narrative>
   </sector>
+  <sector code="41010" percentage="100" vocabulary="1"></sector>
   <policy-marker code="2" significance="1" vocabulary="1"></policy-marker>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -67,25 +67,6 @@
     <narrative xml:lang="EN">Expenditure</narrative>
    </description>
   </transaction>
-  <result aggregation-status="1" type="3">
-   <title>
-    <narrative xml:lang="EN">Sri Lanka&#x2019;s green growth is reflected in the transport, energy and forestry sectors.</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Government reports</narrative>
-   </description>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">n/a</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="69"></actual>
-    </period>
-   </indicator>
-  </result>
   <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Sri Lanka&#x2019;s country program established and in-country operation initiated</narrative>
@@ -116,34 +97,13 @@
     <narrative xml:lang="EN">Country Planning Framework developed, approved and nationally launched</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">Government endorsement of the CPF</narrative>
     <narrative xml:lang="EN">Copy of the Launched CPF</narrative>
+    <narrative xml:lang="EN">Government endorsement of the CPF</narrative>
    </description>
    <indicator ascending="1" measure="2">
     <title>
      <narrative xml:lang="EN">CPF approved</narrative>
      <narrative xml:lang="EN">Number of initiated advisory outputs that inform decisions on green growth investments</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-06-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="69"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">At least two projects are formulated and initiated (with mobilization of additional earmarked resources)</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Project documents</narrative>
-    <narrative xml:lang="EN">Government endorsement</narrative>
-    <narrative xml:lang="EN">earmarked donor identification and proposal submission</narrative>
-   </description>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">Two projects on advisory outputs that inform decisions on green growth investments are designed and initiated</narrative>
     </title>
     <period>
      <period-start iso-date="2019-06-01"></period-start>
@@ -163,8 +123,48 @@
    <indicator ascending="1" measure="2">
     <title>
      <narrative xml:lang="EN">Country presence established</narrative>
-     <narrative xml:lang="EN">Key staff and resources hired for confirmed projects</narrative>
      <narrative xml:lang="EN">Gender balance in staffing</narrative>
+     <narrative xml:lang="EN">Key staff and resources hired for confirmed projects</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-06-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="69"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">At least two projects are formulated and initiated (with mobilization of additional earmarked resources)</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Government endorsement</narrative>
+    <narrative xml:lang="EN">Project documents</narrative>
+    <narrative xml:lang="EN">earmarked donor identification and proposal submission</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Two projects on advisory outputs that inform decisions on green growth investments are designed and initiated</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-06-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="69"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="3">
+   <title>
+    <narrative xml:lang="EN">Sri Lanka&#x2019;s green growth is reflected in the transport, energy and forestry sectors.</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Government reports</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">n/a</narrative>
     </title>
     <period>
      <period-start iso-date="2019-06-01"></period-start>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-ly" dstore:index="9" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-ly" dstore:index="9" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-72067019CA00001</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -11,6 +11,9 @@
   <description>
    <narrative xml:lang="EN">(Libya):  .The Local Governance and Civil Society (LGCS) activity increases the capacity of targeted institutions to coordinate, plan, and manage the delivery of services at the municipal level; enhance the ability of communities to identify and address local priority issues; and strengthen linkages between national and sub-national systems in a state of nascent decentralization.  Working together, these objectives help the Government of Libya to demonstrate responsiveness to the needs of its citizens.  USAID supports municipalities in Libya&apos;s west, east, and south to improve citizen-level service delivery and other non-sectoral services that are seen and felt by citizens on a daily basis.  USAID will work with 30 municipalities, as well as community-associated civil society organizations (CSOs) to address locally-identified problems and sources of grievances.  This activity will also support local partners to work constructively with central government institutions to expand municipal resources to respond to citizen concerns.  This activity also supports the USG&apos;s response to the COVID-19 crisis in Libya by providing crisis response training to relevant municipal staff, providing technical assistance to municipalities&apos; crisis response units, and providing in-kind and technical assistance to mitigate specific second-order effects of the crisis..This program is designed to maximize flexibility and responsiveness.  It includes a quarterly work plan review and update cycles, and a rolling geographic selection that allows flexibility to pivot the program where needed.  USAID maintains funding flexibility in out-years to be as responsive as possible to a range of circumstances, including emerging priorities for Libya.</narrative>
   </description>
+  <participating-org role="4" type="70">
+   <narrative xml:lang="EN">Development Alternatives, Inc.</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
@@ -19,9 +22,6 @@
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="70">
-   <narrative xml:lang="EN">Development Alternatives, Inc.</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2019-07-08" type="1"></activity-date>
@@ -47,16 +47,60 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <transaction ref="62302A4478ED">
+  <transaction ref="D745857B6FF2">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">3500000</value>
+   <description>
+    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
+   </description>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="12264" vocabulary="1">
+    <narrative xml:lang="EN">COVID-19 control</narrative>
+   </sector>
+   <sector code="3005" vocabulary="99">
+    <narrative xml:lang="EN">Other Public Health Threats</narrative>
+   </sector>
+   <recipient-country code="LY"></recipient-country>
+   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="C4C48C6F5B03">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">594597.99</value>
+   <description>
+    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
+   </description>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="12264" vocabulary="1">
+    <narrative xml:lang="EN">COVID-19 control</narrative>
+   </sector>
+   <sector code="3005" vocabulary="99">
+    <narrative xml:lang="EN">Other Public Health Threats</narrative>
+   </sector>
+   <recipient-country code="LY"></recipient-country>
+   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="C2A19A68A855">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2087500</value>
+   <value currency="USD" value-date="2019-09-30">3100000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15110" vocabulary="1">
-    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
    </sector>
-   <sector code="2002" vocabulary="99">
-    <narrative xml:lang="EN">Good Governance</narrative>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
    </sector>
    <recipient-country code="LY"></recipient-country>
    <usg:treasury-account>
@@ -65,20 +109,38 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="62302A4478ED">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">286437.49</value>
+  <transaction ref="60F43E50DB99">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">2650000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15110" vocabulary="1">
-    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+   <sector code="2004" vocabulary="99">
+    <narrative xml:lang="EN">Civil Society</narrative>
    </sector>
-   <sector code="2002" vocabulary="99">
-    <narrative xml:lang="EN">Good Governance</narrative>
+   <sector code="15150" vocabulary="1">
+    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
    </sector>
    <recipient-country code="LY"></recipient-country>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="CA9F8EAEE3D6">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">1000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="15220" vocabulary="1">
+    <narrative xml:lang="EN">Civilian peace-building, conflict prevention and resolution</narrative>
+   </sector>
+   <sector code="1006" vocabulary="99">
+    <narrative xml:lang="EN">Conflict Mitigation and Reconciliation</narrative>
+   </sector>
+   <recipient-country code="LY"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
     <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -90,42 +152,6 @@
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="15112" vocabulary="1">
     <narrative xml:lang="EN">Decentralisation and support to subnational government</narrative>
-   </sector>
-   <sector code="2002" vocabulary="99">
-    <narrative xml:lang="EN">Good Governance</narrative>
-   </sector>
-   <recipient-country code="LY"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="C2A19A68A855">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">3100000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="LY"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="131A0A291DC7">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">651062.51</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15110" vocabulary="1">
-    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
    </sector>
    <sector code="2002" vocabulary="99">
     <narrative xml:lang="EN">Good Governance</narrative>
@@ -173,20 +199,20 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="AD404EE67A40">
-   <transaction-type code="3"></transaction-type>
+  <transaction ref="E4412AF8AEB2">
+   <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">1058476</value>
+   <value currency="USD" value-date="2020-06-30">1750000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15110" vocabulary="1">
-    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+   <sector code="15112" vocabulary="1">
+    <narrative xml:lang="EN">Decentralisation and support to subnational government</narrative>
    </sector>
    <sector code="2002" vocabulary="99">
     <narrative xml:lang="EN">Good Governance</narrative>
    </sector>
    <recipient-country code="LY"></recipient-country>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
     <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
@@ -198,24 +224,6 @@
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="15112" vocabulary="1">
     <narrative xml:lang="EN">Decentralisation and support to subnational government</narrative>
-   </sector>
-   <sector code="2002" vocabulary="99">
-    <narrative xml:lang="EN">Good Governance</narrative>
-   </sector>
-   <recipient-country code="LY"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="731A8D1C5DD9">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">91523.61</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15110" vocabulary="1">
-    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
    </sector>
    <sector code="2002" vocabulary="99">
     <narrative xml:lang="EN">Good Governance</narrative>
@@ -245,100 +253,6 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="CA9F8EAEE3D6">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">1000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15220" vocabulary="1">
-    <narrative xml:lang="EN">Civilian peace-building, conflict prevention and resolution</narrative>
-   </sector>
-   <sector code="1006" vocabulary="99">
-    <narrative xml:lang="EN">Conflict Mitigation and Reconciliation</narrative>
-   </sector>
-   <recipient-country code="LY"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="B93D62F306D5">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">1100000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15110" vocabulary="1">
-    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
-   </sector>
-   <sector code="2002" vocabulary="99">
-    <narrative xml:lang="EN">Good Governance</narrative>
-   </sector>
-   <recipient-country code="LY"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="E4412AF8AEB2">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">1750000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15112" vocabulary="1">
-    <narrative xml:lang="EN">Decentralisation and support to subnational government</narrative>
-   </sector>
-   <sector code="2002" vocabulary="99">
-    <narrative xml:lang="EN">Good Governance</narrative>
-   </sector>
-   <recipient-country code="LY"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="60F43E50DB99">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">2650000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="15150" vocabulary="1">
-    <narrative xml:lang="EN">Democratic participation and civil society</narrative>
-   </sector>
-   <sector code="2004" vocabulary="99">
-    <narrative xml:lang="EN">Civil Society</narrative>
-   </sector>
-   <recipient-country code="LY"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="D745857B6FF2">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">3500000</value>
-   <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
-   </description>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="12264" vocabulary="1">
-    <narrative xml:lang="EN">COVID-19 control</narrative>
-   </sector>
-   <sector code="3005" vocabulary="99">
-    <narrative xml:lang="EN">Other Public Health Threats</narrative>
-   </sector>
-   <recipient-country code="LY"></recipient-country>
-   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="3E9ABC59D8B4">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -357,16 +271,70 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="C3C8FCFED990">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">484172.65</value>
+  <transaction ref="62302A4478ED">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2087500</value>
    <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2002" vocabulary="99">
+    <narrative xml:lang="EN">Good Governance</narrative>
+   </sector>
    <sector code="15110" vocabulary="1">
     <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
    </sector>
+   <recipient-country code="LY"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="62302A4478ED">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">286437.49</value>
+   <disbursement-channel code="2"></disbursement-channel>
    <sector code="2002" vocabulary="99">
     <narrative xml:lang="EN">Good Governance</narrative>
+   </sector>
+   <sector code="15110" vocabulary="1">
+    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+   </sector>
+   <recipient-country code="LY"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="131A0A291DC7">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">651062.51</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2002" vocabulary="99">
+    <narrative xml:lang="EN">Good Governance</narrative>
+   </sector>
+   <sector code="15110" vocabulary="1">
+    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+   </sector>
+   <recipient-country code="LY"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="B93D62F306D5">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">1100000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2002" vocabulary="99">
+    <narrative xml:lang="EN">Good Governance</narrative>
+   </sector>
+   <sector code="15110" vocabulary="1">
+    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
    </sector>
    <recipient-country code="LY"></recipient-country>
    <usg:treasury-account>
@@ -375,24 +343,56 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="C4C48C6F5B03">
+  <transaction ref="AD404EE67A40">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">594597.99</value>
-   <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
-   </description>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">1058476</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="12264" vocabulary="1">
-    <narrative xml:lang="EN">COVID-19 control</narrative>
+   <sector code="2002" vocabulary="99">
+    <narrative xml:lang="EN">Good Governance</narrative>
    </sector>
-   <sector code="3005" vocabulary="99">
-    <narrative xml:lang="EN">Other Public Health Threats</narrative>
+   <sector code="15110" vocabulary="1">
+    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
    </sector>
    <recipient-country code="LY"></recipient-country>
-   <usg:humanitarian-scope code="EP-2020-000012-001"></usg:humanitarian-scope>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2022"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="731A8D1C5DD9">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">91523.61</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2002" vocabulary="99">
+    <narrative xml:lang="EN">Good Governance</narrative>
+   </sector>
+   <sector code="15110" vocabulary="1">
+    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+   </sector>
+   <recipient-country code="LY"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="C3C8FCFED990">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">484172.65</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="2002" vocabulary="99">
+    <narrative xml:lang="EN">Good Governance</narrative>
+   </sector>
+   <sector code="15110" vocabulary="1">
+    <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+   </sector>
+   <recipient-country code="LY"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
     <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>

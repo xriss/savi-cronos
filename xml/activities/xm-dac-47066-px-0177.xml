@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1898" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1898" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-PX.0177</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,24 +11,24 @@
   <description>
    <narrative xml:lang="EN">IOM is looking to collaborate with sister UN agencies to facilitate technical support on awareness raising messages targeting employers and employees on preventative measures to contribute to the containment of COVID-19. IOM will cooperate with Public Authority for Manpower (PAM) on fine-tuning and the production of video messages addressing temporary contractual workers (TWCs) and employers on measures and vital instructions to guide them on preventing their containment and protect their communities, companies and camps. In parallel, IOM will procure PPE hygiene kits in accordance with the World Health Organization (WHO) instructions on effective facial masking to prevent contagion. The masks and other tools will be disseminated among vulnerable TCW communities with no access to prevention measures and residing in heavily congested community camps/housing.</narrative>
   </description>
-  <participating-org activity-id="KW-KIPCO" ref="KW-KIPCO" role="1" type="70">
-   <narrative xml:lang="EN">Kuwait Projects Company (KIPCO)</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="KW-KIPCO" ref="KW-KIPCO" role="1" type="70">
+   <narrative xml:lang="EN">Kuwait Projects Company (KIPCO)</narrative>
+  </participating-org>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2020-05-21" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-05-21" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2021-01-21" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2021-01-21" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-05-21" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-01-21" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -41,6 +41,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="KW" percentage="100"></recipient-country>
+  <location ref="KW">
+   <location-reach code="2"></location-reach>
+   <location-id code="KW" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Kuwait</narrative>
+   </name>
+   <administrative code="KW" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -52,14 +60,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="KW">
-   <location-reach code="2"></location-reach>
-   <location-id code="KW" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Kuwait</narrative>
-   </name>
-   <administrative code="KW" vocabulary="A4"></administrative>
   </location>
   <sector code="PX" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Protection and Assistance to Vulnerable Migrants</narrative>

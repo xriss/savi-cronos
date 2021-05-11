@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-998" dstore:index="3063" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-998" dstore:index="3063" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-7200AA20CA00025</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -47,70 +47,16 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="4"></default-tied-status>
-  <transaction ref="48B0E12E9F0C">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">66326</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="91010" vocabulary="1">
-    <narrative xml:lang="EN">Operating Expenses</narrative>
-   </sector>
-   <sector code="8001" vocabulary="99">
-    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
-   </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="45DAE508D763">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">2000000</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="11220" vocabulary="1">
-    <narrative xml:lang="EN">Primary education</narrative>
-   </sector>
    <sector code="4001" vocabulary="99">
     <narrative xml:lang="EN">Basic Education</narrative>
    </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="19137F81452D">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">3000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="11420" vocabulary="1">
-    <narrative xml:lang="EN">Higher education</narrative>
-   </sector>
-   <sector code="4002" vocabulary="99">
-    <narrative xml:lang="EN">Higher Education</narrative>
-   </sector>
-   <recipient-region code="998"></recipient-region>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1021">Development Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="33CEF56E6397">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">2855485.28</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="91010" vocabulary="1">
-    <narrative xml:lang="EN">Operating Expenses</narrative>
-   </sector>
-   <sector code="8001" vocabulary="99">
-    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   <sector code="11220" vocabulary="1">
+    <narrative xml:lang="EN">Primary education</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -124,11 +70,11 @@
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">66326</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="11420" vocabulary="1">
-    <narrative xml:lang="EN">Higher education</narrative>
-   </sector>
    <sector code="8001" vocabulary="99">
     <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   </sector>
+   <sector code="11420" vocabulary="1">
+    <narrative xml:lang="EN">Higher education</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>
@@ -142,11 +88,65 @@
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">179150.7</value>
    <disbursement-channel code="2"></disbursement-channel>
+   <sector code="8001" vocabulary="99">
+    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   </sector>
    <sector code="11420" vocabulary="1">
     <narrative xml:lang="EN">Higher education</narrative>
    </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="48B0E12E9F0C">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">66326</value>
+   <disbursement-channel code="2"></disbursement-channel>
    <sector code="8001" vocabulary="99">
     <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   </sector>
+   <sector code="91010" vocabulary="1">
+    <narrative xml:lang="EN">Operating Expenses</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="33CEF56E6397">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2855485.28</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="8001" vocabulary="99">
+    <narrative xml:lang="EN">Direct Administrative Costs</narrative>
+   </sector>
+   <sector code="91010" vocabulary="1">
+    <narrative xml:lang="EN">Operating Expenses</narrative>
+   </sector>
+   <recipient-region code="998"></recipient-region>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1021">Development Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="19137F81452D">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">3000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="4002" vocabulary="99">
+    <narrative xml:lang="EN">Higher Education</narrative>
+   </sector>
+   <sector code="11420" vocabulary="1">
+    <narrative xml:lang="EN">Higher education</narrative>
    </sector>
    <recipient-region code="998"></recipient-region>
    <usg:treasury-account>

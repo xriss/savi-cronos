@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-jo" dstore:index="234" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-jo" dstore:index="234" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-278-IL-DO3-MOH-JHFR-04</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -14,14 +14,14 @@
   <participating-org ref="US-GOV-11" role="1" type="10">
    <narrative xml:lang="EN">Department of State</narrative>
   </participating-org>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">Government - Country unknown</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="2" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="10">
-   <narrative xml:lang="EN">Government - Country unknown</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2018-12-01" type="1"></activity-date>
@@ -96,52 +96,16 @@
     <usg:regular-account code="19"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="5F954121979E">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">3723830</value>
-   <disbursement-channel code="1"></disbursement-channel>
-   <sector code="13020" vocabulary="1">
-    <narrative xml:lang="EN">Reproductive health care</narrative>
-   </sector>
-   <sector code="3006" vocabulary="99">
-    <narrative xml:lang="EN">Maternal and Child Health</narrative>
-   </sector>
-   <recipient-country code="JO"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="5F954121979E">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">3723830</value>
-   <disbursement-channel code="1"></disbursement-channel>
-   <sector code="13020" vocabulary="1">
-    <narrative xml:lang="EN">Reproductive health care</narrative>
-   </sector>
-   <sector code="3006" vocabulary="99">
-    <narrative xml:lang="EN">Maternal and Child Health</narrative>
-   </sector>
-   <recipient-country code="JO"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction ref="975EF80471A5">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-06-30">1276170</value>
    <disbursement-channel code="1"></disbursement-channel>
-   <sector code="13030" vocabulary="1">
-    <narrative xml:lang="EN">Family planning</narrative>
-   </sector>
    <sector code="3007" vocabulary="99">
     <narrative xml:lang="EN">Family Planning and Reproductive Health</narrative>
+   </sector>
+   <sector code="13030" vocabulary="1">
+    <narrative xml:lang="EN">Family planning</narrative>
    </sector>
    <recipient-country code="JO"></recipient-country>
    <usg:treasury-account>
@@ -155,11 +119,47 @@
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-06-30">1276170</value>
    <disbursement-channel code="1"></disbursement-channel>
+   <sector code="3007" vocabulary="99">
+    <narrative xml:lang="EN">Family Planning and Reproductive Health</narrative>
+   </sector>
    <sector code="13030" vocabulary="1">
     <narrative xml:lang="EN">Family planning</narrative>
    </sector>
-   <sector code="3007" vocabulary="99">
-    <narrative xml:lang="EN">Family Planning and Reproductive Health</narrative>
+   <recipient-country code="JO"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="5F954121979E">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">3723830</value>
+   <disbursement-channel code="1"></disbursement-channel>
+   <sector code="3006" vocabulary="99">
+    <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   </sector>
+   <sector code="13020" vocabulary="1">
+    <narrative xml:lang="EN">Reproductive health care</narrative>
+   </sector>
+   <recipient-country code="JO"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="5F954121979E">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">3723830</value>
+   <disbursement-channel code="1"></disbursement-channel>
+   <sector code="3006" vocabulary="99">
+    <narrative xml:lang="EN">Maternal and Child Health</narrative>
+   </sector>
+   <sector code="13020" vocabulary="1">
+    <narrative xml:lang="EN">Reproductive health care</narrative>
    </sector>
    <recipient-country code="JO"></recipient-country>
    <usg:treasury-account>

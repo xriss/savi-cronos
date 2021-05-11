@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2020" dstore:index="269" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2020" dstore:index="269" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:cerf="http://cerf-gms.unocha.org/CERF01" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-OCHA-CERF-20-UF-WOM-004</iati-identifier>
   <reporting-org ref="XM-OCHA-CERF" type="40">
    <narrative xml:lang="EN">UNOCHA - Central Emergency Response Fund (CERF)</narrative>
@@ -56,22 +56,6 @@
   <transaction humanitarian="1" ref="XM-OCHA-CERF-20-UF-WOM-004">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-11-17"></transaction-date>
-   <value currency="USD" value-date="2020-11-17">960054</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement to CERF Project Emergency Protection and GBV Response for Women and Girls in Host Communities and GBV Shelters.</narrative>
-   </description>
-   <provider-org ref="XM-OCHA-CERF" type="40">
-    <narrative xml:lang="EN">OCHA Central Emergency Response Fund (CERF)</narrative>
-   </provider-org>
-   <receiver-org ref="XM-DAC-41146">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72050" vocabulary="1"></sector>
-  </transaction>
-  <transaction humanitarian="1" ref="XM-OCHA-CERF-20-UF-WOM-004">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-11-17"></transaction-date>
    <value currency="USD" value-date="2020-11-17">240014</value>
    <description>
     <narrative xml:lang="EN">Disbursement to CERF Project Emergency Protection and GBV Response for Women and Girls in Host Communities and GBV Shelters.</narrative>
@@ -84,6 +68,22 @@
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="72010" vocabulary="1"></sector>
+  </transaction>
+  <transaction humanitarian="1" ref="XM-OCHA-CERF-20-UF-WOM-004">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-17"></transaction-date>
+   <value currency="USD" value-date="2020-11-17">960054</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement to CERF Project Emergency Protection and GBV Response for Women and Girls in Host Communities and GBV Shelters.</narrative>
+   </description>
+   <provider-org ref="XM-OCHA-CERF" type="40">
+    <narrative xml:lang="EN">OCHA Central Emergency Response Fund (CERF)</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-41146">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72050" vocabulary="1"></sector>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.unocha.org/cerf/sites/default/files/CERF/HCRCReports/20-UF-UGA-45310-NR01_Uganda_RCHC.Report.pdf">
    <title>
@@ -98,17 +98,17 @@
   </conditions>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Output 1</narrative>
+    <narrative xml:lang="EN">Output 3</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">[Increased access to emergency SGBV services through integrated and survivor-centered life-saving service delivery]</narrative>
+    <narrative xml:lang="EN">Reduce GBV risks by supporting access to protection, time-critical life-saving unrestricted multi-purpose cash transfers for access to basic needs, and livelihoods for survivors of GBV. This will enable survivors to for example secure residential housing  away from perpetrators,   enable them access food, clothing and other lifesaving needs as a way of regaining and sustaining recovery, self-confidence, self-reliance and attainment of their dignity.</narrative>
    </description>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 1.1</narrative>
+     <narrative xml:lang="EN">Indicator 3.2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">[Number of women and girls accessing life-saving mental and psychosocial support services]</narrative>
+     <narrative xml:lang="EN">[#of women and girls&#x2019; survivors of SGBV supported with   multipurpose cash transfer]</narrative>
     </description>
     <period>
      <period-start iso-date="2020-11-17"></period-start>
@@ -117,10 +117,54 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
+     <narrative xml:lang="EN">Indicator 3.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">[Number of women and girls Identified in need of support for multipurpose cash transfer]</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-11-17"></period-start>
+     <period-end iso-date="2021-11-16"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 3.3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">[Number of women and girls&#x2019; survivors of SGBV trained in Financial literacy   and linked to livelihoods opportunities]</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-11-17"></period-start>
+     <period-end iso-date="2021-11-16"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 1</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">[Increased access to emergency SGBV services through integrated and survivor-centered life-saving service delivery]</narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
      <narrative xml:lang="EN">Indicator 1.2</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">[Number of women and girls accessing legal services]</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-11-17"></period-start>
+     <period-end iso-date="2021-11-16"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 1.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">[Number of women and girls accessing life-saving mental and psychosocial support services]</narrative>
     </description>
     <period>
      <period-start iso-date="2020-11-17"></period-start>
@@ -149,10 +193,10 @@
    </description>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 2.1</narrative>
+     <narrative xml:lang="EN">Indicator 2.3</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">[Number of women and girls (inc men and boys) sensitized on SGBV and PSEA]</narrative>
+     <narrative xml:lang="EN">Number of community support structures such as paralegals and volunteer psychosocial counsellors trained]</narrative>
     </description>
     <period>
      <period-start iso-date="2020-11-17"></period-start>
@@ -173,54 +217,10 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 2.3</narrative>
+     <narrative xml:lang="EN">Indicator 2.1</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Number of community support structures such as paralegals and volunteer psychosocial counsellors trained]</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-11-17"></period-start>
-     <period-end iso-date="2021-11-16"></period-end>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Output 3</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Reduce GBV risks by supporting access to protection, time-critical life-saving unrestricted multi-purpose cash transfers for access to basic needs, and livelihoods for survivors of GBV. This will enable survivors to for example secure residential housing  away from perpetrators,   enable them access food, clothing and other lifesaving needs as a way of regaining and sustaining recovery, self-confidence, self-reliance and attainment of their dignity.</narrative>
-   </description>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 3.1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">[Number of women and girls Identified in need of support for multipurpose cash transfer]</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-11-17"></period-start>
-     <period-end iso-date="2021-11-16"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 3.2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">[#of women and girls&#x2019; survivors of SGBV supported with   multipurpose cash transfer]</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-11-17"></period-start>
-     <period-end iso-date="2021-11-16"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 3.3</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">[Number of women and girls&#x2019; survivors of SGBV trained in Financial literacy   and linked to livelihoods opportunities]</narrative>
+     <narrative xml:lang="EN">[Number of women and girls (inc men and boys) sensitized on SGBV and PSEA]</narrative>
     </description>
     <period>
      <period-start iso-date="2020-11-17"></period-start>

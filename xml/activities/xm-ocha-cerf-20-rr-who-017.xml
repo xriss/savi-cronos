@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2020" dstore:index="122" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2020" dstore:index="122" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:cerf="http://cerf-gms.unocha.org/CERF01" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-OCHA-CERF-20-RR-WHO-017</iati-identifier>
   <reporting-org ref="XM-OCHA-CERF" type="40">
    <narrative xml:lang="EN">UNOCHA - Central Emergency Response Fund (CERF)</narrative>
@@ -46,14 +46,14 @@
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
+  <recipient-country code="BF" percentage="8"></recipient-country>
   <recipient-country code="CF" percentage="11"></recipient-country>
-  <recipient-country code="TD" percentage="8"></recipient-country>
   <recipient-country code="HT" percentage="8.0001"></recipient-country>
   <recipient-country code="KP" percentage="9"></recipient-country>
   <recipient-country code="LB" percentage="12"></recipient-country>
   <recipient-country code="SD" percentage="26"></recipient-country>
   <recipient-country code="SY" percentage="18"></recipient-country>
-  <recipient-country code="BF" percentage="8"></recipient-country>
+  <recipient-country code="TD" percentage="8"></recipient-country>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Global        COVID-19        2020</narrative>
   </humanitarian-scope>
@@ -95,6 +95,50 @@
   </conditions>
   <result aggregation-status="0" type="1">
    <title>
+    <narrative xml:lang="EN">Output 7</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Case management (Pillar 7) &#x2013; Burkina Faso, CAR, DPRK, Haiti, Lebanon, Sudan</narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 7.2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% Case Fatality amongst probable and/or confirmed hospitalized COVID cases by age groups and sex</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 7.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% of countries that have a clinical referral system in place to&#xA0;care for COVID-19 cases</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 7.3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of ICU beds provided to priority countries to complement national capacity</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
     <narrative xml:lang="EN">Output 1</narrative>
    </title>
    <description>
@@ -118,6 +162,182 @@
     </title>
     <description>
      <narrative xml:lang="EN">% of Countries with a functional multi-sectoral, multi-partner coordination mechanism for COVID-19 preparedness and response</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 6</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Infection prevention and control (Pillar 6) &#x2013; Burkina Faso, CAR, Haiti, Lebanon, Sudan</narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 6.2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% of COVID-19 healthcare facilities with triage capacity</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 6.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% of countries that have a national IPC programme and WASH standards within all healthcare facilities</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 6.4</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% of countries that have national occupational safety and health plans or programmes for health workers</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 6.3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of new confirmed cases in healthcare workers</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 5</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">National laboratories (Pillar 5) &#x2013; Burkina Faso, CAR, DPRK, Haiti, Lebanon, Sudan, Syria</narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 5.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% Countries with COVID-19 laboratory test capacity</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 5.3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% of countries scoring 100% on EQAP</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 5.4</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% of suspected cases tested</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 5.2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number and % of countries participating in EQAP</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 8</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Operational support and logistics (Pillar 8) , CAR, Syria</narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 8.2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% of country supported to surge oxygen capacity (of those requesting)</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 8.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% of medical masks (3 plies) provided against need</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 4</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Points of entry (Pillar 4) , CAR, DPRK, Sudan</narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 4.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% of Countries which produce and distribute messages at Points of Entry for both travelers and those using the PoE facilities</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-02-03"></period-start>
+     <period-end iso-date="2020-11-02"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 4.2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">of Countries in which all designated PoE have public health emergency contingency plans</narrative>
     </description>
     <period>
      <period-start iso-date="2020-02-03"></period-start>
@@ -166,22 +386,10 @@
    </description>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 3.1</narrative>
+     <narrative xml:lang="EN">Indicator 3.4</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Number of new confirmed cases nationwide, disaggregated by age group and sex</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 3.2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Total number of deaths in confirmed cases, nationwide, disaggregated by sex by week</narrative>
+     <narrative xml:lang="EN">Number of countries testing for COVID and reporting routinely through sentinel surveillance (ILI, SARI, ARI) or non-sentinel surveillance sites through the GISRS or another WHO platform</narrative>
     </description>
     <period>
      <period-start iso-date="2020-02-03"></period-start>
@@ -202,30 +410,10 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 3.4</narrative>
+     <narrative xml:lang="EN">Indicator 3.1</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Number of countries testing for COVID and reporting routinely through sentinel surveillance (ILI, SARI, ARI) or non-sentinel surveillance sites through the GISRS or another WHO platform</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Output 4</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Points of entry (Pillar 4) , CAR, DPRK, Sudan</narrative>
-   </description>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 4.1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% of Countries which produce and distribute messages at Points of Entry for both travelers and those using the PoE facilities</narrative>
+     <narrative xml:lang="EN">Number of new confirmed cases nationwide, disaggregated by age group and sex</narrative>
     </description>
     <period>
      <period-start iso-date="2020-02-03"></period-start>
@@ -234,198 +422,10 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 4.2</narrative>
+     <narrative xml:lang="EN">Indicator 3.2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">of Countries in which all designated PoE have public health emergency contingency plans</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Output 5</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">National laboratories (Pillar 5) &#x2013; Burkina Faso, CAR, DPRK, Haiti, Lebanon, Sudan, Syria</narrative>
-   </description>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 5.1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% Countries with COVID-19 laboratory test capacity</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 5.2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Number and % of countries participating in EQAP</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 5.3</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% of countries scoring 100% on EQAP</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 5.4</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% of suspected cases tested</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Output 6</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Infection prevention and control (Pillar 6) &#x2013; Burkina Faso, CAR, Haiti, Lebanon, Sudan</narrative>
-   </description>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 6.1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% of countries that have a national IPC programme and WASH standards within all healthcare facilities</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 6.2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% of COVID-19 healthcare facilities with triage capacity</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 6.3</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Number of new confirmed cases in healthcare workers</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 6.4</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% of countries that have national occupational safety and health plans or programmes for health workers</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Output 7</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Case management (Pillar 7) &#x2013; Burkina Faso, CAR, DPRK, Haiti, Lebanon, Sudan</narrative>
-   </description>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 7.1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% of countries that have a clinical referral system in place to&#xA0;care for COVID-19 cases</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 7.2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% Case Fatality amongst probable and/or confirmed hospitalized COVID cases by age groups and sex</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 7.3</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Number of ICU beds provided to priority countries to complement national capacity</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Output 8</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Operational support and logistics (Pillar 8) , CAR, Syria</narrative>
-   </description>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 8.1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% of medical masks (3 plies) provided against need</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-02-03"></period-start>
-     <period-end iso-date="2020-11-02"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 8.2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% of country supported to surge oxygen capacity (of those requesting)</narrative>
+     <narrative xml:lang="EN">Total number of deaths in confirmed cases, nationwide, disaggregated by sex by week</narrative>
     </description>
     <period>
      <period-start iso-date="2020-02-03"></period-start>

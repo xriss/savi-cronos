@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="92" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="92" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200423</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -20,11 +20,11 @@
   <participating-org ref="NL-KVK-41160054" role="2" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
-  <participating-org ref="NL-KVK-41160054" role="4" type="21">
-   <narrative xml:lang="EN">Cordaid Myanmar</narrative>
-  </participating-org>
   <participating-org ref="NL-KVK-41160054" role="1" type="21">
    <narrative xml:lang="EN">Cordaid Mensen in Nood</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-41160054" role="4" type="21">
+   <narrative xml:lang="EN">Cordaid Myanmar</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">KMSS - Karuna Mission Social Solidarity (Caritas Myanmar)</narrative>
@@ -69,6 +69,61 @@
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
+    <narrative xml:lang="EN">Prevention and response to COVID-19 pandemic</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">COV-I1: Number of people receiving COVID-19 related assistance</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">COVID-19 related assistance: Any activities relating to preparedness, prevention or response to COVID-19 as defined within the Global HRP.</narrative>
+    </description>
+    <reference code="COV-I1" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="2960">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="1030">
+      <location ref="MM"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1930">
+      <location ref="MM"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="80"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
     <narrative xml:lang="EN">Sustainable Livelihoods Thematic Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
@@ -94,20 +149,6 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2018-10-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <actual value="2">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-03-31"></period-end>
-     <actual value="2">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2019-04-01"></period-start>
      <period-end iso-date="2019-06-30"></period-end>
      <actual value="0">
@@ -139,6 +180,20 @@
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="1">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-10-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <actual value="2">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-03-31"></period-end>
+     <actual value="2">
       <location ref="MM"></location>
      </actual>
     </period>
@@ -150,9 +205,12 @@
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of Participatory Disaster Risk Analysis (PDRAs) done at community/local level</narrative>
+     <narrative xml:lang="EN">Number of CSOs/NGOs and other stakeholders able to collaborate/facilitate the resilience process at district/municipality level</narrative>
     </title>
-    <reference code="SU1.02" vocabulary="99"></reference>
+    <description>
+     <narrative xml:lang="EN">Other stakeholders include government, private sector, INGOs; (Note: process has 5 key steps: participatory disaster risk analysis, joint resilience action planning, confirmed set-up of multi-stakeholder platform, implementation of resilience action plan, and M&amp;E and advocacy)</narrative>
+    </description>
+    <reference code="SU1.05" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2018-04-01"></period-start>
      <period-end iso-date="2018-06-30"></period-end>
@@ -168,36 +226,8 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2018-10-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-03-31"></period-end>
-     <actual value="13">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2019-04-01"></period-start>
      <period-end iso-date="2019-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-09-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
      <actual value="0">
       <location ref="MM"></location>
      </actual>
@@ -212,30 +242,54 @@
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="13">
+     <actual value="0">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="13">
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-03-31"></period-end>
+     <actual value="1">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-09-30"></period-end>
+     <actual value="1">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="3">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
      <period-start iso-date="2018-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="13"></target>
+     <target value="1"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of direct beneficiaries enhanced their resilience through community level resilience activities</narrative>
+     <narrative xml:lang="EN">Number of advocacy trajectories done by CSOs and/or Cordaid towards government parties and/or donors, regarding the inclusion of resilience in their policies</narrative>
     </title>
-    <reference code="SU1.04" vocabulary="99"></reference>
+    <description>
+     <narrative xml:lang="EN">Supported / funded by Cordaid private funds (MiN) or other backdonors (non-PfR)</narrative>
+    </description>
+    <reference code="SU1.12" vocabulary="99"></reference>
     <period>
-     <period-start iso-date="2018-04-01"></period-start>
+     <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-06-30"></period-end>
      <actual value="0">
       <location ref="MM"></location>
@@ -243,13 +297,6 @@
     </period>
     <period>
      <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2018-09-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-10-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <actual value="0">
       <location ref="MM"></location>
@@ -257,57 +304,127 @@
     </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-03-31"></period-end>
+     <period-end iso-date="2019-06-30"></period-end>
      <actual value="0">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2019-04-01"></period-start>
-     <period-end iso-date="2019-06-30"></period-end>
-     <actual value="1126">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-09-30"></period-end>
-     <actual value="795">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
-     <actual value="1393">
+     <actual value="0">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="4004">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2960">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="26">
+     <actual value="0">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
      <period-start iso-date="2018-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="7886"></target>
+     <target value="1"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of publications/other materials on enhanced (community) resilience (&quot;evidence&quot;) made by CSO/NGO partners and/or field staff</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Supported / funded by Cordaid private funds (MiN) or other backdonors (non-PfR)</narrative>
+    </description>
+    <reference code="SU1.10" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-06-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-06-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="1">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="6">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="3"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of CSOs/NGOs trained on how to advocate for the inclusion of (community) resilience in policies and programs of government and/or donors</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Supported / funded by Cordaid private funds (MiN) or other backdonors (non-PfR)</narrative>
+    </description>
+    <reference code="SU1.11" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-06-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-06-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <actual value="1">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -393,9 +510,9 @@
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of DRR/Resilience committees established and functioning at local level</narrative>
+     <narrative xml:lang="EN">Number of direct beneficiaries enhanced their resilience through community level resilience activities</narrative>
     </title>
-    <reference code="SU1.03" vocabulary="99"></reference>
+    <reference code="SU1.04" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2018-04-01"></period-start>
      <period-end iso-date="2018-06-30"></period-end>
@@ -411,6 +528,13 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2018-10-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-03-31"></period-end>
      <actual value="0">
@@ -420,7 +544,81 @@
     <period>
      <period-start iso-date="2019-04-01"></period-start>
      <period-end iso-date="2019-06-30"></period-end>
-     <actual value="13">
+     <actual value="1126">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="1393">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="26">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="2960">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="4004">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-09-30"></period-end>
+     <actual value="795">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="7886"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of Participatory Disaster Risk Analysis (PDRAs) done at community/local level</narrative>
+    </title>
+    <reference code="SU1.02" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2018-04-01"></period-start>
+     <period-end iso-date="2018-06-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2018-09-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-10-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-04-01"></period-start>
+     <period-end iso-date="2019-06-30"></period-end>
+     <actual value="0">
       <location ref="MM"></location>
      </actual>
     </period>
@@ -446,16 +644,23 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-03-31"></period-end>
+     <actual value="13">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
+     <actual value="13">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <actual value="16">
+     <actual value="13">
       <location ref="MM"></location>
      </actual>
     </period>
@@ -463,83 +668,6 @@
      <period-start iso-date="2018-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="13"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of CSOs/NGOs and other stakeholders able to collaborate/facilitate the resilience process at district/municipality level</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Other stakeholders include government, private sector, INGOs; (Note: process has 5 key steps: participatory disaster risk analysis, joint resilience action planning, confirmed set-up of multi-stakeholder platform, implementation of resilience action plan, and M&amp;E and advocacy)</narrative>
-    </description>
-    <reference code="SU1.05" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2018-04-01"></period-start>
-     <period-end iso-date="2018-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2018-09-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-03-31"></period-end>
-     <actual value="1">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-04-01"></period-start>
-     <period-end iso-date="2019-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-09-30"></period-end>
-     <actual value="1">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="3">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -583,23 +711,9 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="561">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
      <actual value="242">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="51">
       <location ref="MM"></location>
      </actual>
     </period>
@@ -611,6 +725,20 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="51">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="561">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2018-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2030"></target>
@@ -618,14 +746,11 @@
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of publications/other materials on enhanced (community) resilience (&quot;evidence&quot;) made by CSO/NGO partners and/or field staff</narrative>
+     <narrative xml:lang="EN">Number of DRR/Resilience committees established and functioning at local level</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN">Supported / funded by Cordaid private funds (MiN) or other backdonors (non-PfR)</narrative>
-    </description>
-    <reference code="SU1.10" vocabulary="99"></reference>
+    <reference code="SU1.03" vocabulary="99"></reference>
     <period>
-     <period-start iso-date="2018-01-01"></period-start>
+     <period-start iso-date="2018-04-01"></period-start>
      <period-end iso-date="2018-06-30"></period-end>
      <actual value="0">
       <location ref="MM"></location>
@@ -633,69 +758,27 @@
     </period>
     <period>
      <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
+     <period-end iso-date="2018-09-30"></period-end>
      <actual value="0">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-06-30"></period-end>
+     <period-end iso-date="2019-03-31"></period-end>
      <actual value="0">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
      <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="1">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="6">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="3"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of CSOs/NGOs trained on how to advocate for the inclusion of (community) resilience in policies and programs of government and/or donors</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Supported / funded by Cordaid private funds (MiN) or other backdonors (non-PfR)</narrative>
-    </description>
-    <reference code="SU1.11" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2018-06-30"></period-end>
+     <period-end iso-date="2019-09-30"></period-end>
      <actual value="0">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <actual value="1">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
+     <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <actual value="0">
       <location ref="MM"></location>
@@ -703,101 +786,29 @@
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="0">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of advocacy trajectories done by CSOs and/or Cordaid towards government parties and/or donors, regarding the inclusion of resilience in their policies</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Supported / funded by Cordaid private funds (MiN) or other backdonors (non-PfR)</narrative>
-    </description>
-    <reference code="SU1.12" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2018-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
+     <period-start iso-date="2019-04-01"></period-start>
      <period-end iso-date="2019-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Sustainable Livelihoods Corporate Indicators</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of communities reached (RI)</narrative>
-    </title>
-    <reference code="SU0.02" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
      <actual value="13">
       <location ref="MM"></location>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="13">
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="16">
       <location ref="MM"></location>
      </actual>
     </period>
@@ -807,148 +818,11 @@
      <target value="13"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of beneficiaries reached (RI)</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">No. of people who have been reached directly or indirectly by Cordaid and/or partners - i.e. people who have become more resilient to disasters and other risks</narrative>
-    </description>
-    <reference code="SU0.01" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="2852">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="3838">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="6690">
-      <location ref="MM"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="33450">
-      <location ref="MM"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="13757">
-      <location ref="MM"></location>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="13772">
-      <location ref="MM"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="6800">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="6957">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="17705"></target>
-    </period>
-   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Sustainable Livelihoods Corporate Indicators</narrative>
+   </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of Resilience Action Plans developed at community/local level</narrative>
@@ -986,13 +860,6 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2019-04-01"></period-start>
-     <period-end iso-date="2019-06-30"></period-end>
-     <actual value="13">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2019-07-01"></period-start>
      <period-end iso-date="2019-09-30"></period-end>
      <actual value="0">
@@ -1009,6 +876,13 @@
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
      <actual value="0">
       <location ref="MM"></location>
      </actual>
@@ -1021,92 +895,8 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="13"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of communities implementing Resilience measures</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">No. of targeted communities which have been supported by Cordaid and/or partners and (raise funds for and) carry out their action plans by implementing resilience interventions at the community/ local level</narrative>
-    </description>
-    <reference code="SU0.04" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2018-04-01"></period-start>
-     <period-end iso-date="2018-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2018-09-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-10-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-03-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2019-04-01"></period-start>
      <period-end iso-date="2019-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-09-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="6">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-03-31"></period-end>
-     <actual value="7">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="13">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
      <actual value="13">
       <location ref="MM"></location>
      </actual>
@@ -1201,83 +991,432 @@
      <target value="1"></target>
     </period>
    </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
-   </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (RI)</narrative>
     </title>
-    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <description>
+     <narrative xml:lang="EN">No. of people who have been reached directly or indirectly by Cordaid and/or partners - i.e. people who have become more resilient to disasters and other risks</narrative>
+    </description>
+    <reference code="SU0.01" vocabulary="99"></reference>
     <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2017-12-31"></period-end>
      <actual value="0">
       <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
      </actual>
      <actual value="0">
       <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
      </actual>
      <actual value="0">
       <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
       <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
      </actual>
      <actual value="0">
       <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
      <actual value="0">
       <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
       <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
      </actual>
      <actual value="0">
       <location ref="MM"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
      <actual value="0">
       <location ref="MM"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
      <actual value="0">
       <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
       <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
      </actual>
      <actual value="0">
       <location ref="MM"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="1930">
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="13757">
       <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
-     <actual value="1030">
+     <actual value="13772">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="6957">
       <location ref="MM"></location>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="6800">
+      <location ref="MM"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="6690">
+      <location ref="MM"></location>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="33450">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="3838">
+      <location ref="MM"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="2852">
+      <location ref="MM"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2018-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="600"></target>
+     <target value="17705"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of communities implementing Resilience measures</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">No. of targeted communities which have been supported by Cordaid and/or partners and (raise funds for and) carry out their action plans by implementing resilience interventions at the community/ local level</narrative>
+    </description>
+    <reference code="SU0.04" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2018-04-01"></period-start>
+     <period-end iso-date="2018-06-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2018-09-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-10-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-03-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-04-01"></period-start>
+     <period-end iso-date="2019-06-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-09-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="13">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="13">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="6">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-03-31"></period-end>
+     <actual value="7">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="13"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of communities reached (RI)</narrative>
+    </title>
+    <reference code="SU0.02" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2017-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="13">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="13">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="13"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Access to Life saving basic services provided</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people provided with sanitation services in response to COVID-19</narrative>
+    </title>
+    <reference code="COV.SL.01.b" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="220"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people provided with PPE in response to COVID-19</narrative>
+    </title>
+    <reference code="COV.SL.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="30"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -1290,24 +1429,20 @@
      <period-end iso-date="2019-12-31"></period-end>
      <actual value="0">
       <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
      </actual>
      <actual value="0">
       <location ref="MM"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2960">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
      <actual value="6">
       <location ref="MM"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
@@ -1316,11 +1451,530 @@
       <location ref="MM"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
+     <actual value="2960">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
     </period>
     <period>
      <period-start iso-date="2018-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="30"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="1030">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1930">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="600"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of coordinated advocacy efforts aimed at averting the negative effects of the COVID-19 crisis on vulnerable people</narrative>
+    </title>
+    <reference code="COV.CC.06" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="2">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">People&apos;s Resilience to Future Outbreaks Strengthened &amp; Sustained Food Security &amp; Livelihood of vulnerable people</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
+    </title>
+    <reference code="COV.CC.05" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="6">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="5">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="2960">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="30"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="1030">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1930">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="600"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of coordinated advocacy efforts aimed at averting the negative effects of the COVID-19 crisis on vulnerable people</narrative>
+    </title>
+    <reference code="COV.CC.06" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="2">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Strengthened Health Systems and Access to Resilient Health Services</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
+    </title>
+    <reference code="COV.CC.05" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="6">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="5">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="2960">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="30"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="1030">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1930">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="600"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of coordinated advocacy efforts aimed at averting the negative effects of the COVID-19 crisis on vulnerable people</narrative>
+    </title>
+    <reference code="COV.CC.06" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="2">
+      <location ref="MM"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Strengthened responsiveness and accountability of security, justice and Civic Space</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
+    </title>
+    <reference code="COV.CC.05" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="6">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
+     </actual>
+     <actual value="5">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
+     </actual>
+     <actual value="2960">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="30"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-07-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="1030">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1930">
+      <location ref="MM"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="600"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -1363,24 +2017,20 @@
      <period-end iso-date="2019-12-31"></period-end>
      <actual value="0">
       <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
      </actual>
      <actual value="0">
       <location ref="MM"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
+     <actual value="0">
+      <location ref="MM"></location>
+      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
+     </actual>
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2960">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
      <actual value="6">
       <location ref="MM"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
@@ -1389,610 +2039,15 @@
       <location ref="MM"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="30"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Access to Life saving basic services provided</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
-    </title>
-    <reference code="COV.CC.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="1930">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="1030">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="600"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
-    </title>
-    <reference code="COV.CC.05" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
      <actual value="2960">
       <location ref="MM"></location>
       <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
      </actual>
-     <actual value="6">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
-     </actual>
-     <actual value="5">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
-     </actual>
     </period>
     <period>
      <period-start iso-date="2018-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="30"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of coordinated advocacy efforts aimed at averting the negative effects of the COVID-19 crisis on vulnerable people</narrative>
-    </title>
-    <reference code="COV.CC.06" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people provided with sanitation services in response to COVID-19</narrative>
-    </title>
-    <reference code="COV.SL.01.b" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="220"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people provided with PPE in response to COVID-19</narrative>
-    </title>
-    <reference code="COV.SL.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="30"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">People&apos;s Resilience to Future Outbreaks Strengthened &amp; Sustained Food Security &amp; Livelihood of vulnerable people</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
-    </title>
-    <reference code="COV.CC.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="1930">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="1030">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="600"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
-    </title>
-    <reference code="COV.CC.05" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2960">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="6">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
-     </actual>
-     <actual value="5">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="30"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of coordinated advocacy efforts aimed at averting the negative effects of the COVID-19 crisis on vulnerable people</narrative>
-    </title>
-    <reference code="COV.CC.06" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Strengthened responsiveness and accountability of security, justice and Civic Space</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached through COVID-19 Awareness Raising &amp; Prevention activities</narrative>
-    </title>
-    <reference code="COV.CC.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="1930">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-     <actual value="1030">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="600"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of IEC materials on COVID-19 distributed</narrative>
-    </title>
-    <reference code="COV.CC.05" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2960">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="People"></dimension>
-     </actual>
-     <actual value="6">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Health Facilities"></dimension>
-     </actual>
-     <actual value="5">
-      <location ref="MM"></location>
-      <dimension name="COVID IEC Materials Distribution Groups" value="Other"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="30"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of coordinated advocacy efforts aimed at averting the negative effects of the COVID-19 crisis on vulnerable people</narrative>
-    </title>
-    <reference code="COV.CC.06" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="2">
-      <location ref="MM"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1"></target>
     </period>
    </indicator>
   </result>
@@ -2023,61 +2078,6 @@
      <period-start iso-date="2018-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="13"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Prevention and response to COVID-19 pandemic</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">COV-I1: Number of people receiving COVID-19 related assistance</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">COVID-19 related assistance: Any activities relating to preparedness, prevention or response to COVID-19 as defined within the Global HRP.</narrative>
-    </description>
-    <reference code="COV-I1" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-07-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="MM"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="1930">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="1030">
-      <location ref="MM"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="2960">
-      <location ref="MM"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-07-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="80"></target>
     </period>
    </indicator>
   </result>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="166" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="166" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-100-0011</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -17,17 +17,17 @@
   <description type="1">
    <narrative xml:lang="EN">countries that are aleady facing humanitarian emergencies or instability, armed conflict and violence and at the same time are now challenged with the Covid-19.</narrative>
   </description>
+  <participating-org role="1">
+   <narrative xml:lang="EN">Heineken</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-21018" role="4" type="21">
+   <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-40409352" role="1" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-40409352" role="2" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-  </participating-org>
-  <participating-org ref="XM-DAC-21018" role="4" type="21">
-   <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
-  </participating-org>
-  <participating-org role="1">
-   <narrative xml:lang="EN">Heineken</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-04-13" type="2">
@@ -54,11 +54,11 @@
   <sector code="EP" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Epidemic</narrative>
   </sector>
-  <sector code="2" percentage="100" vocabulary="98">
-   <narrative xml:lang="EN">Response</narrative>
-  </sector>
   <sector code="72010" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
+  <sector code="2" percentage="100" vocabulary="98">
+   <narrative xml:lang="EN">Response</narrative>
   </sector>
   <humanitarian-scope code="MDR00005" type="2" vocabulary="99" vocabulary-uri="http://ifrc.org/appeals"></humanitarian-scope>
   <collaboration-type code="1"></collaboration-type>

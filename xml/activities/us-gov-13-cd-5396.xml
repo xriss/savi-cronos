@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unitedstates-cd" dstore:index="844" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unitedstates-cd" dstore:index="844" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="http://www.foreignassistance.gov" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>US-GOV-13-CD-5396</iati-identifier>
   <reporting-org ref="US-USAGOV" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
@@ -11,9 +11,6 @@
   <description>
    <narrative xml:lang="EN">Th purpose of this project is to provide funding to John Ntonta to develop a mobile app that can function offline and contains a library of educational business articles and podcasts to help current beneficiaries learn from home. Due to the increase fear of contracting COVID-19, many citizens avoid leaving their homes to ensure their health and safety. Through this application, they can receive education while staying within the comfort of their homes. This mobile application will also help maintain regular communication with beneficiaries, stakeholders and staff. In addition, due to the loss of 80% of revenue during the past 2 months, staff did not receive their salary. Therefore, a portion of the fund will be used to cover staff salary.</narrative>
   </description>
-  <participating-org ref="US-USAGOV" role="1" type="10">
-   <narrative xml:lang="EN">The federal government of the United States</narrative>
-  </participating-org>
   <participating-org ref="US-GOV-13" role="2" type="10">
    <narrative xml:lang="EN">African Development Foundation</narrative>
   </participating-org>
@@ -22,6 +19,9 @@
   </participating-org>
   <participating-org role="4" type="15">
    <narrative xml:lang="EN">Kadiwaku Family Foundation</narrative>
+  </participating-org>
+  <participating-org ref="US-USAGOV" role="1" type="10">
+   <narrative xml:lang="EN">The federal government of the United States</narrative>
   </participating-org>
   <other-identifier ref="US-GOV" type="B1">
    <owner-org ref="US-USAGOV">
@@ -80,11 +80,11 @@
    <description>
     <narrative xml:lang="EN">Obligation</narrative>
    </description>
-   <sector code="32130" vocabulary="1">
-    <narrative xml:lang="EN">Small and medium-sized enterprises (SME) development</narrative>
-   </sector>
    <sector code="5000" vocabulary="99">
     <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <sector code="32130" vocabulary="1">
+    <narrative xml:lang="EN">Small and medium-sized enterprises (SME) development</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>

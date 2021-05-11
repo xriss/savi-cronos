@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="rvo-01" dstore:index="2384" hierarchy="2" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="rvo-01" dstore:index="2384" hierarchy="2" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27378529-MHPSS21004</iati-identifier>
   <reporting-org ref="NL-KVK-27378529" secondary-reporter="0" type="10">
    <narrative xml:lang="EN">Netherlands Enterprise Agency</narrative>
@@ -43,6 +43,14 @@
    </receiver-org>
   </transaction>
   <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="EUR" value-date="2021-04-30">10425</value>
+   <receiver-org type="90">
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-04-13"></transaction-date>
    <value currency="EUR" value-date="2021-04-13">2551.5</value>
@@ -51,14 +59,6 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-04-13"></transaction-date>
    <value currency="EUR" value-date="2021-04-13">34750</value>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-04-30"></transaction-date>
-   <value currency="EUR" value-date="2021-04-30">10425</value>
-   <receiver-org type="90">
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
   </transaction>
   <related-activity ref="NL-KVK-27378529-4000003042" type="1"></related-activity>
  </iati-activity>

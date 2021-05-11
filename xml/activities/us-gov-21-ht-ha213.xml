@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unitedstates-ht-part-2" dstore:index="223" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unitedstates-ht-part-2" dstore:index="223" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="http://www.foreignassistance.gov" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>US-GOV-21-HT-HA213</iati-identifier>
   <reporting-org ref="US-USAGOV" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
@@ -11,9 +11,6 @@
   <description>
    <narrative xml:lang="EN">Mouvement Paysan de l&apos;Acul du Nord (MPA) will work with 600 member-families to develop their production processing and sale of manioc and associated crops such as pumpkins sweet potatoes and beans in Camp Louise and La Souffri&#xE8;re two sections communales o. Mouvement Paysan de l&apos;Acul du Nord (MPA) will work with 600 member-families to develop their production processing and sale of manioc and associated crops such as pumpkins sweet potatoes and beans in Camp Louise and La Souffri&#xE8;re two sections communales of Acul du Nord near Cap-Ha&#xEF;tien.. This amendment provides MPA an additional six months and $55,000 to conduct activities to address issues related to the COVID-19 pandemic, including by providing reliable information to stop the spread of COVID and purchasing locally-sourced protective equipment and sanitation kits, reaching 23,000 residents in the Nord and Nord-Est departments. As part of this amendment, MPA is mobilizing an additional $19,650 in counterpart resources to the grant agreement.</narrative>
   </description>
-  <participating-org ref="US-USAGOV" role="1" type="10">
-   <narrative xml:lang="EN">The federal government of the United States</narrative>
-  </participating-org>
   <participating-org ref="US-GOV-21" role="2" type="10">
    <narrative xml:lang="EN">Inter-American Foundation</narrative>
    <usg:office-name>Inter-American Foundation</usg:office-name>
@@ -24,6 +21,9 @@
   <participating-org role="4" type="15">
    <narrative xml:lang="EN">Mouvement Paysan de l&apos;Acul du Nord</narrative>
    <usg:duns-number>816303112</usg:duns-number>
+  </participating-org>
+  <participating-org ref="US-USAGOV" role="1" type="10">
+   <narrative xml:lang="EN">The federal government of the United States</narrative>
   </participating-org>
   <other-identifier ref="US-GOV" type="B1">
    <owner-org ref="US-USAGOV">
@@ -159,30 +159,11 @@
    </usg:treasury-account>
   </transaction>
   <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-22"></transaction-date>
-   <value currency="USD" value-date="2020-05-22">55000</value>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-03-13"></transaction-date>
+   <value currency="USD" value-date="2018-03-13">19260</value>
    <description>
-    <narrative xml:lang="EN">Obligates the award for the Award Implementing Organization to carry out the activities set forth in Annex A of the grant agreement.</narrative>
-   </description>
-   <sector code="31120" vocabulary="1">
-    <narrative xml:lang="EN">Agricultural development</narrative>
-   </sector>
-   <sector code="5005" vocabulary="99">
-    <narrative xml:lang="EN">Agriculture</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="3100">Inter-American Foundation</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-03-02"></transaction-date>
-   <value currency="USD" value-date="2018-03-02">82500</value>
-   <description>
-    <narrative xml:lang="EN">Obligates the award for the Award Implementing Organization to carry out the activities set forth in Annex A of the grant agreement.</narrative>
+    <narrative xml:lang="EN">Disbursement of funds to the Award Implementing Organizatoin to carry out the activities set forth in Annex A of the grant agreement.</narrative>
    </description>
    <sector code="31120" vocabulary="1">
     <narrative xml:lang="EN">Agricultural development</narrative>
@@ -215,11 +196,11 @@
    </usg:treasury-account>
   </transaction>
   <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-13"></transaction-date>
-   <value currency="USD" value-date="2018-03-13">19260</value>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2018-03-02"></transaction-date>
+   <value currency="USD" value-date="2018-03-02">82500</value>
    <description>
-    <narrative xml:lang="EN">Disbursement of funds to the Award Implementing Organizatoin to carry out the activities set forth in Annex A of the grant agreement.</narrative>
+    <narrative xml:lang="EN">Obligates the award for the Award Implementing Organization to carry out the activities set forth in Annex A of the grant agreement.</narrative>
    </description>
    <sector code="31120" vocabulary="1">
     <narrative xml:lang="EN">Agricultural development</narrative>
@@ -229,6 +210,25 @@
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2018" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="3100">Inter-American Foundation</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-05-22"></transaction-date>
+   <value currency="USD" value-date="2020-05-22">55000</value>
+   <description>
+    <narrative xml:lang="EN">Obligates the award for the Award Implementing Organization to carry out the activities set forth in Annex A of the grant agreement.</narrative>
+   </description>
+   <sector code="31120" vocabulary="1">
+    <narrative xml:lang="EN">Agricultural development</narrative>
+   </sector>
+   <sector code="5005" vocabulary="99">
+    <narrative xml:lang="EN">Agriculture</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="3100">Inter-American Foundation</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>

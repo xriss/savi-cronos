@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="NOK" dstore:dataset="nrc-activities" dstore:index="55" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="NOK" dstore:dataset="nrc-activities" dstore:index="55" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NO-BRC-977538319-SOFM2024</iati-identifier>
   <reporting-org ref="NO-BRC-977538319" type="21">
    <narrative xml:lang="EN">Norwegian Refugee Council</narrative>
@@ -37,20 +37,20 @@
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="NOK" value-date="2020-12-31">12922746</value>
-   <description>
-    <narrative xml:lang="EN">2020 Q4 Cumulative Expenditure</narrative>
-   </description>
-  </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="NOK" value-date="2020-09-30">9699509</value>
    <description>
     <narrative xml:lang="EN">2020 Q3 Cumulative Expenditure</narrative>
+   </description>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="NOK" value-date="2020-12-31">12922746</value>
+   <description>
+    <narrative xml:lang="EN">2020 Q4 Cumulative Expenditure</narrative>
    </description>
   </transaction>
  </iati-activity>

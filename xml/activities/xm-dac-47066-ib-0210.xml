@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1181" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1181" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-IB.0210</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,18 +11,18 @@
   <description>
    <narrative xml:lang="EN">The project aims at providing support to enhance preparedness and response to the current COVID-19 pandemic. On the one hand, through collaborating with law enforcement authorities in Egypt, IOM will provide capacity building support focusing on health management at borders in response to COVID-19 within the country. On the other hand, this project responds to the particular challenges countries around the word, including in North Africa, are facing in the field of return management during the pandemic. In order to help Egypt and North African states to navigate the challenges posed by COVID-19 in this area, the current proposal includes the development and induction to a guidance toolbox on rights-based return management and cooperation in the COVID-19 context.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-7-6-EGY2020-21" ref="XM-DAC-7-6" role="1" type="10">
-   <narrative xml:lang="EN">Netherlands - Ministry of Justice &amp; Security (migration)</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-7-6-EGY2020-21" ref="XM-DAC-7-6" role="1" type="10">
+   <narrative xml:lang="EN">Netherlands - Ministry of Justice &amp; Security (migration)</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-11-01" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-11-01" type="2">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-11-01" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <activity-date iso-date="2021-05-14" type="3">
    <narrative xml:lang="EN">Planned</narrative>
@@ -40,18 +40,6 @@
   <recipient-region code="15" percentage="100" vocabulary="2">
    <narrative xml:lang="EN">Northern Africa</narrative>
   </recipient-region>
-  <location>
-   <location-reach code="1"></location-reach>
-   <name>
-    <narrative xml:lang="EN">IOM Country Office - DZ</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>36.7604 3.0282</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="3"></location-class>
-   <feature-designation code="BLDO"></feature-designation>
-  </location>
   <location ref="DZ">
    <location-reach code="2"></location-reach>
    <location-id code="DZ" vocabulary="A4"></location-id>
@@ -59,18 +47,6 @@
     <narrative xml:lang="EN">Algeria</narrative>
    </name>
    <administrative code="DZ" vocabulary="A4"></administrative>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <name>
-    <narrative xml:lang="EN">IOM Country Office - EG</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>30.072358 31.221377</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="3"></location-class>
-   <feature-designation code="BLDO"></feature-designation>
   </location>
   <location ref="EG">
    <location-reach code="2"></location-reach>
@@ -88,6 +64,62 @@
    </name>
    <administrative code="EH" vocabulary="A4"></administrative>
   </location>
+  <location ref="LY">
+   <location-reach code="2"></location-reach>
+   <location-id code="LY" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Libya</narrative>
+   </name>
+   <administrative code="LY" vocabulary="A4"></administrative>
+  </location>
+  <location ref="MA">
+   <location-reach code="2"></location-reach>
+   <location-id code="MA" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Morocco</narrative>
+   </name>
+   <administrative code="MA" vocabulary="A4"></administrative>
+  </location>
+  <location ref="SD">
+   <location-reach code="2"></location-reach>
+   <location-id code="SD" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Sudan</narrative>
+   </name>
+   <administrative code="SD" vocabulary="A4"></administrative>
+  </location>
+  <location ref="TN">
+   <location-reach code="2"></location-reach>
+   <location-id code="TN" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Tunisia</narrative>
+   </name>
+   <administrative code="TN" vocabulary="A4"></administrative>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
+    <narrative xml:lang="EN">IOM Country Office - DZ</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>36.7604 3.0282</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="3"></location-class>
+   <feature-designation code="BLDO"></feature-designation>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
+    <narrative xml:lang="EN">IOM Country Office - EG</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>30.072358 31.221377</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="3"></location-class>
+   <feature-designation code="BLDO"></feature-designation>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -99,14 +131,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="LY">
-   <location-reach code="2"></location-reach>
-   <location-id code="LY" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Libya</narrative>
-   </name>
-   <administrative code="LY" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -120,14 +144,6 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="MA">
-   <location-reach code="2"></location-reach>
-   <location-id code="MA" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Morocco</narrative>
-   </name>
-   <administrative code="MA" vocabulary="A4"></administrative>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -139,14 +155,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="SD">
-   <location-reach code="2"></location-reach>
-   <location-id code="SD" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Sudan</narrative>
-   </name>
-   <administrative code="SD" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -160,22 +168,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="TN">
-   <location-reach code="2"></location-reach>
-   <location-id code="TN" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Tunisia</narrative>
-   </name>
-   <administrative code="TN" vocabulary="A4"></administrative>
-  </location>
+  <sector code="15190" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
+  </sector>
   <sector code="IB" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Immigration and Borders</narrative>
   </sector>
   <sector code="04" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Regulating Migration</narrative>
-  </sector>
-  <sector code="15190" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
   </sector>
   <policy-marker code="1" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project with some but insufficient inclusion of gender issues</narrative>

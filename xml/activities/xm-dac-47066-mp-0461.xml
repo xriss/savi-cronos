@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1546" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1546" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-MP.0461</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -18,17 +18,17 @@
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
-  <activity-date iso-date="2020-05-29" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-05-29" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2020-07-31" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-07-31" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-05-29" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-07-31" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -41,6 +41,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="ID" percentage="100"></recipient-country>
+  <location ref="ID">
+   <location-reach code="2"></location-reach>
+   <location-id code="ID" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Indonesia</narrative>
+   </name>
+   <administrative code="ID" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -53,22 +61,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="ID">
-   <location-reach code="2"></location-reach>
-   <location-id code="ID" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Indonesia</narrative>
-   </name>
-   <administrative code="ID" vocabulary="A4"></administrative>
-  </location>
+  <sector code="72010" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
   <sector code="MP" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Migr Health Assist for Crisis Aff Pops</narrative>
   </sector>
   <sector code="02" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Migration Health</narrative>
-  </sector>
-  <sector code="72010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
   <policy-marker code="0" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project with no inclusion of gender issues</narrative>

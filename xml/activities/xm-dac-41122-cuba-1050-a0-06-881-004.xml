@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unicef-cuba" dstore:index="49" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-cuba" dstore:index="49" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Cuba-1050/A0/06/881/004</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -12,6 +12,12 @@
    <narrative xml:lang="ES">Contribute to the response plan for the prevention and control of COVID-19, in territories of greater transmissibility, so that
 children and their families can receive health care of higher quality and hygienic conditions to contain the disease spreading.</narrative>
   </description>
+  <participating-org ref="XI-IATI-EC_ECHO" role="1" type="40">
+   <narrative xml:lang="EN">European Commission / ECHO</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+  </participating-org>
   <participating-org ref="KR-GOV-010" role="1" type="10">
    <narrative xml:lang="EN">Republic of Korea</narrative>
   </participating-org>
@@ -19,27 +25,21 @@ children and their families can receive health care of higher quality and hygien
    <narrative xml:lang="EN">UNAIDS</narrative>
   </participating-org>
   <participating-org role="1" type="40">
-   <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-  </participating-org>
-  <participating-org ref="XI-IATI-EC_ECHO" role="1" type="40">
-   <narrative xml:lang="EN">European Commission / ECHO</narrative>
-  </participating-org>
-  <participating-org role="1" type="40">
    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
   </participating-org>
-  <participating-org role="3" type="40">
+  <participating-org ref="KR-GOV-010" role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
   <participating-org ref="XI-IATI-EC_ECHO" role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
-  <participating-org ref="KR-GOV-010" role="4" type="40">
+  <participating-org ref="XM-DAC-41110" role="4" type="40">
+   <narrative xml:lang="EN">UNICEF</narrative>
+  </participating-org>
+  <participating-org role="3" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
   <participating-org role="4" type="40">
-   <narrative xml:lang="EN">UNICEF</narrative>
-  </participating-org>
-  <participating-org ref="XM-DAC-41110" role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
   <other-identifier ref="41122-Cuba-1050/A0/06/881/004" type="B1">
@@ -108,42 +108,6 @@ children and their families can receive health care of higher quality and hygien
    <location-reach code="1"></location-reach>
    <location-id vocabulary="1"></location-id>
    <name>
-    <narrative xml:lang="EN">La Habana</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">La Habana</narrative>
-   </description>
-   <activity-description>
-    <narrative xml:lang="EN"></narrative>
-   </activity-description>
-   <administrative level="2" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>23.08333 -82.3</pos>
-   </point>
-   <exactness code="1"></exactness>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <location-id vocabulary="1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Provincia de Villa Clara</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">Provincia de Villa Clara</narrative>
-   </description>
-   <activity-description>
-    <narrative xml:lang="EN"></narrative>
-   </activity-description>
-   <administrative level="2" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>22.56667 -80</pos>
-   </point>
-   <exactness code="1"></exactness>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <location-id vocabulary="1"></location-id>
-   <name>
     <narrative xml:lang="EN">Havana</narrative>
    </name>
    <description>
@@ -155,6 +119,24 @@ children and their families can receive health care of higher quality and hygien
    <administrative level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>22.494514 -80.163978</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id vocabulary="1"></location-id>
+   <name>
+    <narrative xml:lang="EN">La Habana</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">La Habana</narrative>
+   </description>
+   <activity-description>
+    <narrative xml:lang="EN"></narrative>
+   </activity-description>
+   <administrative level="2" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>23.08333 -82.3</pos>
    </point>
    <exactness code="1"></exactness>
   </location>
@@ -176,23 +158,35 @@ children and their families can receive health care of higher quality and hygien
    </point>
    <exactness code="1"></exactness>
   </location>
-  <sector code="21-03-98" percentage="1" vocabulary="99">
-   <narrative xml:lang="EN">Technical assistance - HSS</narrative>
-  </sector>
-  <sector code="21-03-10" percentage="0.8" vocabulary="99">
-   <narrative xml:lang="EN">HSS - Health systems procurement and supplies management</narrative>
-  </sector>
-  <sector code="21-03-18" percentage="72.8" vocabulary="99">
-   <narrative xml:lang="EN">Public health emergencies, including disease outbreaks</narrative>
-  </sector>
-  <sector code="21-06-02" percentage="2" vocabulary="99">
-   <narrative xml:lang="EN">Paediatric ART</narrative>
-  </sector>
-  <sector code="24-02-12" percentage="22" vocabulary="99">
-   <narrative xml:lang="EN">WASH in emergencies - institutions (schools, health care facilities, ECD centres) response including menstrual hygiene management</narrative>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id vocabulary="1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Provincia de Villa Clara</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">Provincia de Villa Clara</narrative>
+   </description>
+   <activity-description>
+    <narrative xml:lang="EN"></narrative>
+   </activity-description>
+   <administrative level="2" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>22.56667 -80</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
+  <sector code="6" percentage="22" vocabulary="7">
+   <narrative xml:lang="EN">Clean Water and Sanitation</narrative>
   </sector>
   <sector code="21-01-01" percentage="1.4" vocabulary="99">
    <narrative xml:lang="EN">Community and home based maternal and newborn care</narrative>
+  </sector>
+  <sector code="3" percentage="78" vocabulary="7">
+   <narrative xml:lang="EN">Good Health and Well-being</narrative>
+  </sector>
+  <sector code="21-03-10" percentage="0.8" vocabulary="99">
+   <narrative xml:lang="EN">HSS - Health systems procurement and supplies management</narrative>
   </sector>
   <sector code="12110" percentage="1.8" vocabulary="1">
    <narrative xml:lang="EN">Health policy and administrative management</narrative>
@@ -200,20 +194,26 @@ children and their families can receive health care of higher quality and hygien
   <sector code="72010" percentage="72.8" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
-  <sector code="13040" percentage="2" vocabulary="1">
-   <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+  <sector code="21-06-02" percentage="2" vocabulary="99">
+   <narrative xml:lang="EN">Paediatric ART</narrative>
   </sector>
   <sector code="74020" percentage="22" vocabulary="1">
    <narrative xml:lang="EN">Public finance management (PFM)</narrative>
   </sector>
+  <sector code="21-03-18" percentage="72.8" vocabulary="99">
+   <narrative xml:lang="EN">Public health emergencies, including disease outbreaks</narrative>
+  </sector>
   <sector code="13020" percentage="1.4" vocabulary="1">
    <narrative xml:lang="EN">Reproductive health care</narrative>
   </sector>
-  <sector code="3" percentage="78" vocabulary="7">
-   <narrative xml:lang="EN">Good Health and Well-being</narrative>
+  <sector code="13040" percentage="2" vocabulary="1">
+   <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
   </sector>
-  <sector code="6" percentage="22" vocabulary="7">
-   <narrative xml:lang="EN">Clean Water and Sanitation</narrative>
+  <sector code="21-03-98" percentage="1" vocabulary="99">
+   <narrative xml:lang="EN">Technical assistance - HSS</narrative>
+  </sector>
+  <sector code="24-02-12" percentage="22" vocabulary="99">
+   <narrative xml:lang="EN">WASH in emergencies - institutions (schools, health care facilities, ECD centres) response including menstrual hygiene management</narrative>
   </sector>
   <sector code="11" percentage="100" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
    <narrative xml:lang="EN">Water Sanitation Hygiene</narrative>
@@ -269,130 +269,262 @@ children and their families can receive health care of higher quality and hygien
    </receiver-org>
   </planned-disbursement>
   <capital-spend percentage="0"></capital-spend>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">185661</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">European Commission / ECHO</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">185661</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">European Commission / ECHO</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">424901</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">European Commission / ECHO</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">424901</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">European Commission / ECHO</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">37985</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">37985</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">35635</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">35635</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">507500</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Republic of Korea</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">507500</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Republic of Korea</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">15310</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNAIDS</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">15310</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNAIDS</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">1617</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNAIDS</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">1617</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNAIDS</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">50027</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">50027</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">154000</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">154000</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">2595</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="USD" value-date="2020-07-31">4483</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">2724</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
    <value currency="USD" value-date="2020-08-31">56951</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">259</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">4173</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">26949</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">466</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">1434</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">33240</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">15527</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">741</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">73</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">-3450</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -415,8 +547,8 @@ children and their families can receive health care of higher quality and hygien
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">5385</value>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">73</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -427,8 +559,8 @@ children and their families can receive health care of higher quality and hygien
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">197855</value>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="USD" value-date="2020-11-30">3691</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -452,6 +584,18 @@ children and their families can receive health care of higher quality and hygien
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">-3450</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">154681</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -463,8 +607,8 @@ children and their families can receive health care of higher quality and hygien
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">4483</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">259</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -475,8 +619,8 @@ children and their families can receive health care of higher quality and hygien
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">2038</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">5385</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -487,8 +631,20 @@ children and their families can receive health care of higher quality and hygien
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">2038</value>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">1434</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">26949</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -511,8 +667,56 @@ children and their families can receive health care of higher quality and hygien
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">2724</value>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">466</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">741</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">197855</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">2038</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">33240</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -533,42 +737,6 @@ children and their families can receive health care of higher quality and hygien
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="USD" value-date="2020-07-31">2595</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="USD" value-date="2020-11-30">3691</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">50027</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction humanitarian="1" ref="Disbursement">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
@@ -581,243 +749,73 @@ children and their families can receive health care of higher quality and hygien
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">154000</value>
+   <value currency="USD" value-date="2021-03-31">15527</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">185661</value>
-   <description>
     <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">European Commission / ECHO</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">507500</value>
+   <value currency="USD" value-date="2021-03-31">2038</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">Republic of Korea</narrative>
+    <narrative xml:lang="EN"></narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">1617</value>
+   <value currency="USD" value-date="2021-03-31">4173</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">UNAIDS</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">35635</value>
-   <description>
     <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">424901</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">European Commission / ECHO</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">15310</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNAIDS</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">37985</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">50027</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">154000</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">185661</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">European Commission / ECHO</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">507500</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Republic of Korea</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">1617</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNAIDS</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">35635</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">424901</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">European Commission / ECHO</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">15310</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNAIDS</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">37985</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <document-link format="TEXT/HTML" url="http://www.unicef.org/infobycountry/cuba.html">
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/CUB_UNDAF_SNU_-_matriz_cifras_ajustadas_PNUD.pdf">
    <title>
-    <narrative xml:lang="EN">Country Office Website</narrative>
+    <narrative xml:lang="EN">Cuba United Nations Development Assistance Framework</narrative>
    </title>
-   <category code="A12"></category>
+   <category code="A01"></category>
    <language code="EN"></language>
-   <document-date iso-date="2016-01-05"></document-date>
+   <document-date iso-date="2014-01-01"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="https://open.unicef.org/country-details/?y=2021&amp;measure=b&amp;country=Cuba&amp;output=1050/A0/06/881/004">
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/cuba/cada-nino-sobrevive-y-prospera">
    <title>
-    <narrative xml:lang="EN">Output web page</narrative>
+    <narrative xml:lang="EN">UNICEF Programmes in Cuba (Every Child Survives and Thrives)</narrative>
    </title>
-   <category code="A12"></category>
-   <category code="A08"></category>
+   <category code="A01"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-03-31"></document-date>
+   <document-date iso-date="2020-02-01"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Cuba-2019-COAR.pdf">
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/cuba/monitoreo-y-evaluacion">
    <title>
-    <narrative xml:lang="EN">Cuba 2019 Annual Report</narrative>
+    <narrative xml:lang="EN">UNICEF Programmes in Cuba (Monitoring and Evaluation)</narrative>
    </title>
-   <category code="A08"></category>
+   <category code="A01"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-02-20"></document-date>
+   <document-date iso-date="2020-02-01"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Cuba_2018_COAR.pdf">
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/CUBA-SRM-2014-2018-22Mar13.pdf">
    <title>
-    <narrative xml:lang="EN">Cuba 2018 Annual Report</narrative>
+    <narrative xml:lang="EN">Cuba Country Programme Document 2014-2018 Results Matrix</narrative>
    </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
+   <category code="A02"></category>
    <language code="EN"></language>
-   <document-date iso-date="2018-12-31"></document-date>
+   <document-date iso-date="2013-09-06"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/2013-PL2-Cuba_CPD-final_approved-English.pdf">
    <title>
@@ -843,45 +841,13 @@ children and their families can receive health care of higher quality and hygien
    <language code="EN"></language>
    <document-date iso-date="2019-08-21"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/CUBA-SRM-2014-2018-22Mar13.pdf">
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_become_a_supplier.html">
    <title>
-    <narrative xml:lang="EN">Cuba Country Programme Document 2014-2018 Results Matrix</narrative>
+    <narrative xml:lang="EN">Become a Supplier</narrative>
    </title>
-   <category code="A02"></category>
+   <category code="A04"></category>
    <language code="EN"></language>
-   <document-date iso-date="2013-09-06"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/CUB_UNDAF_SNU_-_matriz_cifras_ajustadas_PNUD.pdf">
-   <title>
-    <narrative xml:lang="EN">Cuba United Nations Development Assistance Framework</narrative>
-   </title>
-   <category code="A01"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2014-01-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/cuba/cada-nino-sobrevive-y-prospera">
-   <title>
-    <narrative xml:lang="EN">UNICEF Programmes in Cuba (Every Child Survives and Thrives)</narrative>
-   </title>
-   <category code="A01"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2020-02-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/cuba/monitoreo-y-evaluacion">
-   <title>
-    <narrative xml:lang="EN">UNICEF Programmes in Cuba (Monitoring and Evaluation)</narrative>
-   </title>
-   <category code="A01"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2020-02-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/evaldatabase/index_103872.html">
-   <title>
-    <narrative xml:lang="EN">2019 Cuba: Evaluaci&#xF3;n del efecto de las guias alimentarias para ni&#xF1;os y ni&#xF1;as menores de dos a&#xF1;os</narrative>
-   </title>
-   <category code="A07"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2020-02-01"></document-date>
+   <document-date iso-date="2016-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unicef.org/about/partnerships/index_60043.html">
    <title>
@@ -890,22 +856,6 @@ children and their families can receive health care of higher quality and hygien
    <category code="A04"></category>
    <language code="EN"></language>
    <document-date iso-date="2017-06-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/ContractAward?agencyEnglishAbbreviation=UNICEF">
-   <title>
-    <narrative xml:lang="EN">UNICEF Contract Awards through the UN Global Marketplace</narrative>
-   </title>
-   <category code="A06"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-10-06"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_become_a_supplier.html">
-   <title>
-    <narrative xml:lang="EN">Become a Supplier</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2016-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/about/partnerships/index_60074.html">
    <title>
@@ -923,6 +873,48 @@ children and their families can receive health care of higher quality and hygien
    <language code="EN"></language>
    <document-date iso-date="2017-09-26"></document-date>
   </document-link>
+  <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/ContractAward?agencyEnglishAbbreviation=UNICEF">
+   <title>
+    <narrative xml:lang="EN">UNICEF Contract Awards through the UN Global Marketplace</narrative>
+   </title>
+   <category code="A06"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-10-06"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Cuba_2018_COAR.pdf">
+   <title>
+    <narrative xml:lang="EN">Cuba 2018 Annual Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2018-12-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/evaldatabase/index_103872.html">
+   <title>
+    <narrative xml:lang="EN">2019 Cuba: Evaluaci&#xF3;n del efecto de las guias alimentarias para ni&#xF1;os y ni&#xF1;as menores de dos a&#xF1;os</narrative>
+   </title>
+   <category code="A07"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-02-01"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://open.unicef.org/country-details/?y=2021&amp;measure=b&amp;country=Cuba&amp;output=1050/A0/06/881/004">
+   <title>
+    <narrative xml:lang="EN">Output web page</narrative>
+   </title>
+   <category code="A08"></category>
+   <category code="A12"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-03-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Cuba-2019-COAR.pdf">
+   <title>
+    <narrative xml:lang="EN">Cuba 2019 Annual Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-02-20"></document-date>
+  </document-link>
   <document-link format="TEXT/HTML" url="http://www.unicef.org/about/partnerships/index_60043.html">
    <title>
     <narrative xml:lang="EN">Frameworks for Partnerships</narrative>
@@ -930,22 +922,6 @@ children and their families can receive health care of higher quality and hygien
    <category code="A09"></category>
    <language code="EN"></language>
    <document-date iso-date="2017-06-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_27009.html">
-   <title>
-    <narrative xml:lang="EN">UNICEF Supply Contract Awards</narrative>
-   </title>
-   <category code="A11"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-10-06"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25947.html">
-   <title>
-    <narrative xml:lang="EN">Bidding Opportunities</narrative>
-   </title>
-   <category code="A10"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-12-31"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25983.html">
    <title>
@@ -955,6 +931,14 @@ children and their families can receive health care of higher quality and hygien
    <language code="EN"></language>
    <document-date iso-date="2012-05-15"></document-date>
   </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25947.html">
+   <title>
+    <narrative xml:lang="EN">Bidding Opportunities</narrative>
+   </title>
+   <category code="A10"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-12-31"></document-date>
+  </document-link>
   <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/Notice?agencyEnglishAbbreviation=UNICEF">
    <title>
     <narrative xml:lang="EN">UNICEF Tender Notices through the UN Global Marketplace</narrative>
@@ -962,6 +946,22 @@ children and their families can receive health care of higher quality and hygien
    <category code="A10"></category>
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_27009.html">
+   <title>
+    <narrative xml:lang="EN">UNICEF Supply Contract Awards</narrative>
+   </title>
+   <category code="A11"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-10-06"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://www.unicef.org/infobycountry/cuba.html">
+   <title>
+    <narrative xml:lang="EN">Country Office Website</narrative>
+   </title>
+   <category code="A12"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2016-01-05"></document-date>
   </document-link>
   <related-activity ref="1050/A0/06/881 EVERY CHILD SURVIVES AND THRIVES" type="1"></related-activity>
   <conditions attached="1">
@@ -979,7 +979,7 @@ children and their families can receive health care of higher quality and hygien
    </description>
    <indicator ascending="0">
     <title>
-     <narrative xml:lang="EN">Number of health facilities that received UNICEF support to maintain essential maternal, newborn and child health services since COVID-19 disruptions; disaggregated by type of support [COVID]  vi) introduction of oxygen therapy</narrative>
+     <narrative xml:lang="EN">Number of pregnant women, adolescents and children living with HIV on antiretrovirals with UNICEF support at the end of the reporting period according to national guidelines [COVID]  iii) Adolescents 10-19, total</narrative>
     </title>
     <description>
      <narrative xml:lang="EN"></narrative>
@@ -993,14 +993,14 @@ children and their families can receive health care of higher quality and hygien
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:48">
+     <target value="2020:13">
       <location></location>
       <dimension></dimension>
       <comment>
        <narrative xml:lang="EN"></narrative>
       </comment>
      </target>
-     <actual value="2020:48">
+     <actual value="2020:0">
       <location></location>
       <dimension></dimension>
       <comment>
@@ -1075,7 +1075,7 @@ children and their families can receive health care of higher quality and hygien
    </indicator>
    <indicator ascending="0">
     <title>
-     <narrative xml:lang="EN">Number of pregnant women, adolescents and children living with HIV on antiretrovirals with UNICEF support at the end of the reporting period according to national guidelines [COVID]  iii) Adolescents 10-19, total</narrative>
+     <narrative xml:lang="EN">Number of health facilities that received UNICEF support to maintain essential maternal, newborn and child health services since COVID-19 disruptions; disaggregated by type of support [COVID]  vi) introduction of oxygen therapy</narrative>
     </title>
     <description>
      <narrative xml:lang="EN"></narrative>
@@ -1089,14 +1089,14 @@ children and their families can receive health care of higher quality and hygien
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2020:13">
+     <target value="2020:48">
       <location></location>
       <dimension></dimension>
       <comment>
        <narrative xml:lang="EN"></narrative>
       </comment>
      </target>
-     <actual value="2020:0">
+     <actual value="2020:48">
       <location></location>
       <dimension></dimension>
       <comment>

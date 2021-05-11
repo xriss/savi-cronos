@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="helpage_international-activities" dstore:index="24" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="helpage_international-activities" dstore:index="24" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-COH-1762840-ASR102-CP10-01</iati-identifier>
   <reporting-org ref="GB-COH-1762840" type="21">
    <narrative xml:lang="EN">HelpAge International</narrative>
@@ -26,10 +26,10 @@ cared safe</narrative>
   <participating-org ref="GB-CHC-1128267-8" role="1" type="21">
    <narrative xml:lang="EN">Age International</narrative>
   </participating-org>
-  <participating-org ref="GB-COH-1762840" role="4">
+  <participating-org ref="GB-COH-1762840" role="1">
    <narrative xml:lang="EN">HelpAge International</narrative>
   </participating-org>
-  <participating-org ref="GB-COH-1762840" role="1">
+  <participating-org ref="GB-COH-1762840" role="4">
    <narrative xml:lang="EN">HelpAge International</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
@@ -56,8 +56,8 @@ cared safe</narrative>
   <recipient-country code="TH" percentage="100">
    <narrative xml:lang="EN">Thailand</narrative>
   </recipient-country>
-  <sector code="74020" percentage="50" vocabulary="1"></sector>
   <sector code="72010" percentage="50" vocabulary="1"></sector>
+  <sector code="74020" percentage="50" vocabulary="1"></sector>
   <policy-marker code="HC" vocabulary="99" vocabulary-uri="https://helpage.sharepoint.com/:w:/s/Operations2/Edb-pIuRExFOh4VJef0FD3gBda8kj_jAGwxAEcGyUw1Xag?e=W5dO2">
    <narrative xml:lang="EN">Health and care</narrative>
   </policy-marker>
@@ -73,17 +73,6 @@ cared safe</narrative>
    <period-end iso-date="2020-06-26"></period-end>
    <value currency="GBP" value-date="2020-05-15">30769</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="GBP" value-date="2020-05-31">19444</value>
-   <description>
-    <narrative xml:lang="EN">Incoming Funds for period 2020/002</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Age International</narrative>
-   </provider-org>
-  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
@@ -170,6 +159,17 @@ cared safe</narrative>
    <value currency="GBP" value-date="2020-12-31">141</value>
    <description>
     <narrative xml:lang="EN">Expenditure for period 2020/009</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Age International</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="GBP" value-date="2020-05-31">19444</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Funds for period 2020/002</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">Age International</narrative>

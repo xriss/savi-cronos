@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="simavi-201801" dstore:index="38" hierarchy="1" xml:lang="NL" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="simavi-201801" dstore:index="38" hierarchy="1" iati-activities:version="2.03" xml:lang="NL" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-40594571-WASH First - Kenya - Covid 19</iati-identifier>
   <reporting-org ref="NL-KVK-40594571" type="21">
    <narrative xml:lang="NL">Stichting Simavi</narrative>
@@ -11,27 +11,27 @@
   <description>
    <narrative xml:lang="NL">In order to prevent and further combat the spread of the coronavirus disease 2019 (COVID-19), through WASH First programme, the WASH SDG Consortium partners are scaling up their efforts to access water, sanitation and hygiene (WASH) in the most vulnerable countries, supporting local communities and governments, with information, awareness raising and improved access to WASH.</narrative>
   </description>
-  <participating-org ref="NL-KVK-40594571" role="2" type="21">
-   <narrative xml:lang="NL">Stichting Simavi</narrative>
-  </participating-org>
   <participating-org role="4" type="23">
-   <narrative xml:lang="NL">Neighbours Initiative Alliance</narrative>
+   <narrative xml:lang="NL">Kenya Water and Sanitation Civil Society Network</narrative>
   </participating-org>
   <participating-org role="4" type="23">
    <narrative xml:lang="NL">Kenya Water for Health Organization</narrative>
   </participating-org>
   <participating-org role="4" type="23">
-   <narrative xml:lang="NL">Kenya Water and Sanitation Civil Society Network</narrative>
+   <narrative xml:lang="NL">Neighbours Initiative Alliance</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-40594571" role="2" type="21">
+   <narrative xml:lang="NL">Stichting Simavi</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="NL">WASH Alliance Society of Kenya</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-09-01" type="1">
-   <narrative xml:lang="NL">Datum start (gepland)</narrative>
-  </activity-date>
   <activity-date iso-date="2022-02-28" type="3">
    <narrative xml:lang="NL">Datum eind (gepland)</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-09-01" type="1">
+   <narrative xml:lang="NL">Datum start (gepland)</narrative>
   </activity-date>
   <activity-date iso-date="2020-09-01" type="2">
    <narrative xml:lang="NL">Datum start (werkelijk)</narrative>
@@ -108,70 +108,6 @@
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-03-01"></transaction-date>
-   <value currency="EUR" value-date="2021-03-01">45000</value>
-   <receiver-org>
-    <narrative xml:lang="NL">Kenya Water and Sanitation Civil Society Network</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-10-26"></transaction-date>
-   <value currency="EUR" value-date="2020-10-26">52500</value>
-   <receiver-org>
-    <narrative xml:lang="NL">Kenya Water and Sanitation Civil Society Network</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-02-22"></transaction-date>
-   <value currency="EUR" value-date="2021-02-22">31500</value>
-   <receiver-org>
-    <narrative xml:lang="NL">Kenya Water for Health Organization</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-11-02"></transaction-date>
-   <value currency="EUR" value-date="2020-11-02">36750</value>
-   <receiver-org>
-    <narrative xml:lang="NL">Kenya Water for Health Organization</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-02-22"></transaction-date>
-   <value currency="EUR" value-date="2021-02-22">32989.69</value>
-   <receiver-org>
-    <narrative xml:lang="NL">Neighbours Initiative Alliance</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-11-02"></transaction-date>
-   <value currency="EUR" value-date="2020-11-02">38487.97</value>
-   <receiver-org>
-    <narrative xml:lang="NL">Neighbours Initiative Alliance</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-02-22"></transaction-date>
-   <value currency="EUR" value-date="2021-02-22">64489.5</value>
-   <receiver-org>
-    <narrative xml:lang="NL">WASH Alliance Society of Kenya</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-11-09"></transaction-date>
-   <value currency="EUR" value-date="2020-11-09">75237.75</value>
-   <receiver-org>
-    <narrative xml:lang="NL">WASH Alliance Society of Kenya</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
    <value currency="EUR" value-date="2020-10-31">1201.46</value>
@@ -195,70 +131,82 @@
     <narrative xml:lang="NL">niet-arbeidskosten</narrative>
    </description>
   </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-26"></transaction-date>
+   <value currency="EUR" value-date="2020-10-26">52500</value>
+   <receiver-org>
+    <narrative xml:lang="NL">Kenya Water and Sanitation Civil Society Network</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-01"></transaction-date>
+   <value currency="EUR" value-date="2021-03-01">45000</value>
+   <receiver-org>
+    <narrative xml:lang="NL">Kenya Water and Sanitation Civil Society Network</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-02"></transaction-date>
+   <value currency="EUR" value-date="2020-11-02">36750</value>
+   <receiver-org>
+    <narrative xml:lang="NL">Kenya Water for Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-22"></transaction-date>
+   <value currency="EUR" value-date="2021-02-22">31500</value>
+   <receiver-org>
+    <narrative xml:lang="NL">Kenya Water for Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-02"></transaction-date>
+   <value currency="EUR" value-date="2020-11-02">38487.97</value>
+   <receiver-org>
+    <narrative xml:lang="NL">Neighbours Initiative Alliance</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-22"></transaction-date>
+   <value currency="EUR" value-date="2021-02-22">32989.69</value>
+   <receiver-org>
+    <narrative xml:lang="NL">Neighbours Initiative Alliance</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-09"></transaction-date>
+   <value currency="EUR" value-date="2020-11-09">75237.75</value>
+   <receiver-org>
+    <narrative xml:lang="NL">WASH Alliance Society of Kenya</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-22"></transaction-date>
+   <value currency="EUR" value-date="2021-02-22">64489.5</value>
+   <receiver-org>
+    <narrative xml:lang="NL">WASH Alliance Society of Kenya</narrative>
+   </receiver-org>
+  </transaction>
   <related-activity ref="NL-KVK-40594571-WASH First - Covid 19" type="1"></related-activity>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="NL">WASH First</narrative>
     <narrative xml:lang="EN">WASH First</narrative>
+    <narrative xml:lang="NL">WASH First</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Nr of people that are reached through mass media</narrative>
+     <narrative xml:lang="EN">Amount of PPE that have been provided directly to people</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Nr of people that are reached through mass media</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-09-01"></period-start>
-     <period-end iso-date="2022-02-28"></period-end>
-     <target value="0"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Nr of people trained on COVID transmission reduction</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nr of people trained on COVID transmission reduction</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-09-01"></period-start>
-     <period-end iso-date="2022-02-28"></period-end>
-     <target value="0"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Nr of WASH providers supported on safe supply and provision</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nr of WASH providers supported on safe supply and provision</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-09-01"></period-start>
-     <period-end iso-date="2022-02-28"></period-end>
-     <target value="0"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Nr of handwashing facilities provided directly</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nr of handwashing facilities provided directly</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-09-01"></period-start>
-     <period-end iso-date="2022-02-28"></period-end>
-     <target value="0"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Nr of water points constructed or rehabilitated</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nr of water points constructed or rehabilitated using programme funds</narrative>
+     <narrative xml:lang="EN">Amount of PPE that have been provided directly to people</narrative>
     </description>
     <period>
      <period-start iso-date="2020-09-01"></period-start>
@@ -281,10 +229,88 @@
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
+     <narrative xml:lang="EN">Nr of WASH providers supported on safe supply and provision</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nr of WASH providers supported on safe supply and provision</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-09-01"></period-start>
+     <period-end iso-date="2022-02-28"></period-end>
+     <target value="0"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Nr of handwashing facilities provided directly</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nr of handwashing facilities provided directly</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-09-01"></period-start>
+     <period-end iso-date="2022-02-28"></period-end>
+     <target value="0"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
      <narrative xml:lang="EN">Nr of hygiene kits provided directly to ppl</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Nr of hygiene kits provided directly to ppl</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-09-01"></period-start>
+     <period-end iso-date="2022-02-28"></period-end>
+     <target value="0"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Nr of people that are reached directly with awareness raising activities</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nr of people that are reached directly with awareness raising activities</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-09-01"></period-start>
+     <period-end iso-date="2022-02-28"></period-end>
+     <target value="0"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Nr of people that are reached through mass media</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nr of people that are reached through mass media</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-09-01"></period-start>
+     <period-end iso-date="2022-02-28"></period-end>
+     <target value="0"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Nr of people trained on COVID transmission reduction</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nr of people trained on COVID transmission reduction</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-09-01"></period-start>
+     <period-end iso-date="2022-02-28"></period-end>
+     <target value="0"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Nr of people using water points constructed/rehabilitated</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nr of people using water points constructed/rehabilitated</narrative>
     </description>
     <period>
      <period-start iso-date="2020-09-01"></period-start>
@@ -311,6 +337,19 @@
     </title>
     <description>
      <narrative xml:lang="EN">Nr of soaps, disinfection equipm. provided directly to ppl</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-09-01"></period-start>
+     <period-end iso-date="2022-02-28"></period-end>
+     <target value="0"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Nr of water points constructed or rehabilitated</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nr of water points constructed or rehabilitated using programme funds</narrative>
     </description>
     <period>
      <period-start iso-date="2020-09-01"></period-start>
@@ -333,10 +372,10 @@
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Total nr of ppl provided with soap, disinfection equipm.</narrative>
+     <narrative xml:lang="EN">Number of people are using sanitation facilities constructed/rehabilitated</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Total nr of ppl provided with soap, disinfection equipm.</narrative>
+     <narrative xml:lang="EN">Number of people are using sanitation facilities constructed/rehabilitated</narrative>
     </description>
     <period>
      <period-start iso-date="2020-09-01"></period-start>
@@ -346,10 +385,10 @@
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Amount of PPE that have been provided directly to people</narrative>
+     <narrative xml:lang="EN">Total nr of ppl provided with soap, disinfection equipm.</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Amount of PPE that have been provided directly to people</narrative>
+     <narrative xml:lang="EN">Total nr of ppl provided with soap, disinfection equipm.</narrative>
     </description>
     <period>
      <period-start iso-date="2020-09-01"></period-start>
@@ -363,45 +402,6 @@
     </title>
     <description>
      <narrative xml:lang="EN">Total number of people who are provided with PPE.</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-09-01"></period-start>
-     <period-end iso-date="2022-02-28"></period-end>
-     <target value="0"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Nr of people using water points constructed/rehabilitated</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nr of people using water points constructed/rehabilitated</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-09-01"></period-start>
-     <period-end iso-date="2022-02-28"></period-end>
-     <target value="0"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people are using sanitation facilities constructed/rehabilitated</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Number of people are using sanitation facilities constructed/rehabilitated</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-09-01"></period-start>
-     <period-end iso-date="2022-02-28"></period-end>
-     <target value="0"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Nr of people that are reached directly with awareness raising activities</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nr of people that are reached directly with awareness raising activities</narrative>
     </description>
     <period>
      <period-start iso-date="2020-09-01"></period-start>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="cgiar-activities-grants" dstore:index="2701" hierarchy="1" xml:lang="EN" xmlns:cgiar="https://www.cgiar.org/dashboards/" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="cgiar-activities-grants" dstore:index="2701" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:cgiar="https://www.cgiar.org/dashboards/" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47015-19322_Bilateral_Germany-GIZ-DeutscheGesellschaftfurInternationaleZusammenarbeitGmbH_ICRISAT</iati-identifier>
   <reporting-org ref="XM-DAC-47015" type="80">
    <narrative xml:lang="EN">CGIAR</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">A $448,000 Bilateral grant from Germany-GIZ-Deutsche Gesellschaft f&#xFC;r Internationale Zusammenarbeit GmbH to ICRISAT for Covid-19 cascading impacts: Re-shaping staple food value chains in Zimbabwe</narrative>
   </description>
-  <participating-org cgiar:centre-ref="XM-DAC-47057" role="4" type="80">
-   <narrative xml:lang="EN">International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)</narrative>
-  </participating-org>
   <participating-org cgiar:id="CGIAR-ORG:331" ref="XM-DAC-5-52" role="1" type="10">
    <narrative xml:lang="EN">Germany-GIZ-Deutsche Gesellschaft f&#xFC;r Internationale Zusammenarbeit GmbH</narrative>
+  </participating-org>
+  <participating-org cgiar:centre-ref="XM-DAC-47057" role="4" type="80">
+   <narrative xml:lang="EN">International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)</narrative>
   </participating-org>
   <other-identifier ref="NEW" type="A1">
    <owner-org ref="XM-DAC-47105">
@@ -26,13 +26,6 @@
   <activity-date iso-date="2020-12-01" type="1"></activity-date>
   <activity-date iso-date="2020-12-01" type="2"></activity-date>
   <activity-date iso-date="2022-11-30" type="3"></activity-date>
-  <contact-info type="1">
-   <organisation>
-    <narrative xml:lang="EN">CGIAR</narrative>
-   </organisation>
-   <email>data@cgiar.org</email>
-   <website>https://www.cgiar.org/</website>
-  </contact-info>
   <contact-info type="2">
    <organisation>
     <narrative xml:lang="EN">International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)</narrative>
@@ -43,6 +36,13 @@
    <mailing-address>
     <narrative xml:lang="EN">Patancheru 502324 Telangana, India</narrative>
    </mailing-address>
+  </contact-info>
+  <contact-info type="1">
+   <organisation>
+    <narrative xml:lang="EN">CGIAR</narrative>
+   </organisation>
+   <email>data@cgiar.org</email>
+   <website>https://www.cgiar.org/</website>
   </contact-info>
   <recipient-country code="IN" percentage="100"></recipient-country>
   <location>

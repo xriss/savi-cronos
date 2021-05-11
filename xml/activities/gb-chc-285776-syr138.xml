@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="cafod-syria" dstore:index="1" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="GBP" dstore:dataset="cafod-syria" dstore:index="1" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-285776-SYR138</iati-identifier>
   <reporting-org ref="GB-CHC-285776" type="21">
    <narrative xml:lang="EN">CAFOD</narrative>
@@ -17,11 +17,11 @@ COVID-19 crisis led to massive economic losses in Syria and it has exacerbated p
 Therefore, the project will include multipurpose cash to cover basic living needs (food security, shelter and NFIs and Medication), protection activities such as literacy courses, social cohesion activities with youth, psychosocial support to elderly people, income generating activities through trainings, cash grants and toolkit distributions.
 The project will take place in Homs city and Al-Qusayr in rural Homs.</narrative>
   </description>
-  <participating-org activity-id="SYR138" ref="GB-CHC-285776" role="1" type="21">
-   <narrative xml:lang="EN">Catholic Agency For Overseas Development (CAFOD)</narrative>
-  </participating-org>
   <participating-org activity-id="SYR138" role="4" type="22">
    <narrative xml:lang="EN">Caritas Syria</narrative>
+  </participating-org>
+  <participating-org activity-id="SYR138" ref="GB-CHC-285776" role="1" type="21">
+   <narrative xml:lang="EN">Catholic Agency For Overseas Development (CAFOD)</narrative>
   </participating-org>
   <other-identifier ref="SYR138" type="A1"></other-identifier>
   <activity-status code="2"></activity-status>
@@ -48,18 +48,18 @@ The project will take place in Homs city and Al-Qusayr in rural Homs.</narrative
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="GBP" value-date="2020-06-01">50000</value>
   </budget>
-  <transaction ref="54258">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-07-30"></transaction-date>
-   <value currency="GBP" value-date="2020-07-30">47000</value>
-   <provider-org provider-activity-id="GB-CHC-285776">
-    <narrative xml:lang="EN">CAFOD General Funds</narrative>
-   </provider-org>
-  </transaction>
   <transaction ref="54259">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-07-30"></transaction-date>
    <value currency="GBP" value-date="2020-07-30">3000</value>
+   <provider-org provider-activity-id="GB-CHC-285776">
+    <narrative xml:lang="EN">CAFOD General Funds</narrative>
+   </provider-org>
+  </transaction>
+  <transaction ref="54258">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-07-30"></transaction-date>
+   <value currency="GBP" value-date="2020-07-30">47000</value>
    <provider-org provider-activity-id="GB-CHC-285776">
     <narrative xml:lang="EN">CAFOD General Funds</narrative>
    </provider-org>

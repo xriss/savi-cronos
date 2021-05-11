@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unitedstates-so" dstore:index="277" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unitedstates-so" dstore:index="277" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="http://www.foreignassistance.gov" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>US-GOV-13-SO-5333</iati-identifier>
   <reporting-org ref="US-USAGOV" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
@@ -11,9 +11,6 @@
   <description>
    <narrative xml:lang="EN">IPRT will address the COVID-19 impact/emergency in local communities in Somalia by implementing health related programs tailored specifically for healthcare workers. IPRT will set up a business innovation center that support enterprises affected by the pandemic. IPRT will host the training and place trainees in Hargeisa and Burao.</narrative>
   </description>
-  <participating-org ref="US-USAGOV" role="1" type="10">
-   <narrative xml:lang="EN">The federal government of the United States</narrative>
-  </participating-org>
   <participating-org ref="US-GOV-13" role="2" type="10">
    <narrative xml:lang="EN">African Development Foundation</narrative>
   </participating-org>
@@ -22,6 +19,9 @@
   </participating-org>
   <participating-org role="4" type="15">
    <narrative xml:lang="EN">Institute for Practical Research Training (IPRT)</narrative>
+  </participating-org>
+  <participating-org ref="US-USAGOV" role="1" type="10">
+   <narrative xml:lang="EN">The federal government of the United States</narrative>
   </participating-org>
   <other-identifier ref="US-GOV" type="B1">
    <owner-org ref="US-USAGOV">
@@ -80,11 +80,11 @@
    <description>
     <narrative xml:lang="EN">COVID-19 Disbursement</narrative>
    </description>
-   <sector code="11330" vocabulary="1">
-    <narrative xml:lang="EN">Vocational training</narrative>
-   </sector>
    <sector code="5000" vocabulary="99">
     <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <sector code="11330" vocabulary="1">
+    <narrative xml:lang="EN">Vocational training</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
@@ -99,11 +99,11 @@
    <description>
     <narrative xml:lang="EN">Obligation</narrative>
    </description>
-   <sector code="11330" vocabulary="1">
-    <narrative xml:lang="EN">Vocational training</narrative>
-   </sector>
    <sector code="5000" vocabulary="99">
     <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <sector code="11330" vocabulary="1">
+    <narrative xml:lang="EN">Vocational training</narrative>
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>

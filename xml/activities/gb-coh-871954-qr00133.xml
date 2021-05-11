@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="pa-activity" dstore:index="629" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="pa-activity" dstore:index="629" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-COH-871954-QR00133</iati-identifier>
   <reporting-org ref="GB-COH-871954" type="21">
    <narrative xml:lang="EN">Practical Action</narrative>
@@ -11,14 +11,14 @@
   <description type="1">
    <narrative xml:lang="EN">The project focuses on city-wide sanitation through demonstration of appropriate and sustainable sanitation service delivery in two cities, i.e., Dhenkanal and Angul Municipalities of Odisha. The main aim of the initiative was to inform support frameworks at the State and National levels to enable replicability.</narrative>
   </description>
+  <participating-org ref="DAC-1601" role="1" type="60">
+   <narrative xml:lang="EN">Bill and Melinda Gates Foundation (BMGF)</narrative>
+  </participating-org>
+  <participating-org ref="DAC-1601" role="1" type="60">
+   <narrative xml:lang="EN">Bill and Melinda Gates Foundation (BMGF)</narrative>
+  </participating-org>
   <participating-org ref="GB-COH-871954" role="4" type="21">
    <narrative xml:lang="EN">Practical Action</narrative>
-  </participating-org>
-  <participating-org ref="DAC-1601" role="1" type="60">
-   <narrative xml:lang="EN">Bill and Melinda Gates Foundation (BMGF)</narrative>
-  </participating-org>
-  <participating-org ref="DAC-1601" role="1" type="60">
-   <narrative xml:lang="EN">Bill and Melinda Gates Foundation (BMGF)</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
   <activity-date iso-date="2014-11-26" type="1"></activity-date>
@@ -59,20 +59,6 @@
    <period-end iso-date="2019-03-31"></period-end>
    <value currency="GBP" value-date="2018-04-01">642815.65</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="GBP" value-date="2019-12-31">289588.91</value>
-   <description>
-    <narrative xml:lang="EN">Income Received from BMGF PN Project IND97006</narrative>
-   </description>
-   <provider-org ref="DAC-1601">
-    <narrative xml:lang="EN">Bill and Melinda Gates Foundation (BMGF)</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="GB-COH-871954 - QR00133" ref="GB-COH-871954">
-    <narrative xml:lang="EN">Practical Action</narrative>
-   </receiver-org>
-  </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
@@ -136,6 +122,20 @@
    <provider-org provider-activity-id="GB-COH-871954 - QR00133" ref="GB-COH-871954">
     <narrative xml:lang="EN">Practical Action</narrative>
    </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="GBP" value-date="2019-12-31">289588.91</value>
+   <description>
+    <narrative xml:lang="EN">Income Received from BMGF PN Project IND97006</narrative>
+   </description>
+   <provider-org ref="DAC-1601">
+    <narrative xml:lang="EN">Bill and Melinda Gates Foundation (BMGF)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="GB-COH-871954 - QR00133" ref="GB-COH-871954">
+    <narrative xml:lang="EN">Practical Action</narrative>
+   </receiver-org>
   </transaction>
  </iati-activity>
 </iati-activities>

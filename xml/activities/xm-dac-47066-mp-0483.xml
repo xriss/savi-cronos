@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1564" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1564" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-MP.0483</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,24 +11,24 @@
   <description>
    <narrative xml:lang="EN">The project aims to enhance national preparedness and response efforts in relation to COVID-19 In Angola and Mozambique. This includes increasing preparedness and response capacities at points of entry and improving migrant access to timely, context-specific, and accurate information on COVID-19 prevention measures in Angola; and improving multi-stakeholder coordination and partnership mechanisms in Mozambique.</narrative>
   </description>
-  <participating-org activity-id="PT-GOV-OIM-144/2020" ref="PT-GOV" role="1" type="10">
-   <narrative xml:lang="EN">Portugal - Ministry of Foreign Affairs</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="PT-GOV-OIM-144/2020" ref="PT-GOV" role="1" type="10">
+   <narrative xml:lang="EN">Portugal - Ministry of Foreign Affairs</narrative>
+  </participating-org>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2020-04-17" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-04-17" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2021-03-31" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2021-03-31" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-04-17" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-03-31" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -44,6 +44,22 @@
   <recipient-region code="202" percentage="100" vocabulary="2">
    <narrative xml:lang="EN">Sub-Saharan Africa</narrative>
   </recipient-region>
+  <location ref="AO">
+   <location-reach code="2"></location-reach>
+   <location-id code="AO" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Angola</narrative>
+   </name>
+   <administrative code="AO" vocabulary="A4"></administrative>
+  </location>
+  <location ref="MZ">
+   <location-reach code="2"></location-reach>
+   <location-id code="MZ" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Mozambique</narrative>
+   </name>
+   <administrative code="MZ" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -55,14 +71,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="AO">
-   <location-reach code="2"></location-reach>
-   <location-id code="AO" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Angola</narrative>
-   </name>
-   <administrative code="AO" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -76,22 +84,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="MZ">
-   <location-reach code="2"></location-reach>
-   <location-id code="MZ" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Mozambique</narrative>
-   </name>
-   <administrative code="MZ" vocabulary="A4"></administrative>
-  </location>
+  <sector code="72010" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
   <sector code="MP" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Migr Health Assist for Crisis Aff Pops</narrative>
   </sector>
   <sector code="02" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Migration Health</narrative>
-  </sector>
-  <sector code="72010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
   <policy-marker code="1" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project with some but insufficient inclusion of gender issues</narrative>

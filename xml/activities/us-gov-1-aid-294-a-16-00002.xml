@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="usaid-ps" dstore:index="232" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-ps" dstore:index="232" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-AID-294-A-16-00002</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -11,6 +11,9 @@
   <description>
    <narrative xml:lang="EN">The Envision Gaza 2020 Project aims to sustain the lives of conflict-affected Palestinians in Gaza and contributes to their resilience.</narrative>
   </description>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">Catholic Relief Services</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
@@ -19,9 +22,6 @@
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">Catholic Relief Services</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2016-04-15" type="1"></activity-date>
@@ -43,50 +43,6 @@
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
-  <location>
-   <location-reach code="2"></location-reach>
-   <name>
-    <narrative xml:lang="EN">Al Bayuk</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>31.27491 34.29416</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-  </location>
-  <location>
-   <location-reach code="2"></location-reach>
-   <name>
-    <narrative xml:lang="EN">Al Maghazi Camp</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>31.42268 34.38554</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-  </location>
-  <location>
-   <location-reach code="2"></location-reach>
-   <name>
-    <narrative xml:lang="EN">Al Qarara</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>31.37620 34.33556</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-  </location>
-  <location>
-   <location-reach code="2"></location-reach>
-   <name>
-    <narrative xml:lang="EN">An Nuseirat Camp</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>31.44834 34.39196</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -141,6 +97,61 @@
    </point>
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Gaza Strip</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>31.40640 34.29653</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+  </location>
+  <location>
+   <location-reach code="2"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Al Bayuk</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>31.27491 34.29416</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
+  <location>
+   <location-reach code="2"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Al Maghazi Camp</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>31.42268 34.38554</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
+  <location>
+   <location-reach code="2"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Al Qarara</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>31.37620 34.33556</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
+  <location>
+   <location-reach code="2"></location-reach>
+   <name>
+    <narrative xml:lang="EN">An Nuseirat Camp</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>31.44834 34.39196</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
   </location>
   <location>
    <location-reach code="2"></location-reach>
@@ -198,15 +209,15 @@
    <location-class code="2"></location-class>
   </location>
   <location>
-   <location-reach code="1"></location-reach>
+   <location-reach code="2"></location-reach>
    <name>
-    <narrative xml:lang="EN">Gaza Strip</narrative>
+    <narrative xml:lang="EN">Jabalya Camp</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>31.40640 34.29653</pos>
+    <pos>31.53266 34.49902</pos>
    </point>
    <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
+   <location-class code="2"></location-class>
   </location>
   <location>
    <location-reach code="2"></location-reach>
@@ -215,17 +226,6 @@
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>31.52069 34.48896</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-  </location>
-  <location>
-   <location-reach code="2"></location-reach>
-   <name>
-    <narrative xml:lang="EN">Jabalya Camp</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>31.53266 34.49902</pos>
    </point>
    <exactness code="2"></exactness>
    <location-class code="2"></location-class>
@@ -244,21 +244,21 @@
   <location>
    <location-reach code="2"></location-reach>
    <name>
-    <narrative xml:lang="EN">Khuza&apos;a</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>31.30981 34.36091</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="3"></location-class>
-  </location>
-  <location>
-   <location-reach code="2"></location-reach>
-   <name>
     <narrative xml:lang="EN">Northern Gaza Strip</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>31.50426 34.46820</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+  </location>
+  <location>
+   <location-reach code="2"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Rafah Camp</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>31.28974 34.24506</pos>
    </point>
    <exactness code="2"></exactness>
    <location-class code="2"></location-class>
@@ -277,361 +277,19 @@
   <location>
    <location-reach code="2"></location-reach>
    <name>
-    <narrative xml:lang="EN">Rafah Camp</narrative>
+    <narrative xml:lang="EN">Khuza&apos;a</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>31.28974 34.24506</pos>
+    <pos>31.30981 34.36091</pos>
    </point>
    <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
+   <location-class code="3"></location-class>
   </location>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <transaction ref="95D4D0307EF4">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-06-30"></transaction-date>
-   <value currency="USD" value-date="2016-06-30">7000000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="95D4D0307EF4">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-30"></transaction-date>
-   <value currency="USD" value-date="2016-06-30">64400</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="5DC403745F7E">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-09-30"></transaction-date>
-   <value currency="USD" value-date="2016-09-30">382300</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="801975B9D996">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-12-31">646300</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="0A0528ED8485">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-31"></transaction-date>
-   <value currency="USD" value-date="2017-03-31">1051300</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="6885F9DB4506">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-30"></transaction-date>
-   <value currency="USD" value-date="2017-06-30">2024800</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="9B16DADCF8E8">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">2650120.79</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="968380F82C6E">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-12-31">180779.21</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="6F2BD9E1F1C8">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-31"></transaction-date>
-   <value currency="USD" value-date="2018-12-31">-3363.16</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="E551655A2094">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-03-31"></transaction-date>
-   <value currency="USD" value-date="2019-03-31">3363.16</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="5A78D694886D">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2017-03-31"></transaction-date>
-   <value currency="USD" value-date="2017-03-31">6500000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="2803CC144A95">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-12-31">1597256.19</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="74C20F44FAE9">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-31"></transaction-date>
-   <value currency="USD" value-date="2018-03-31">1512943.81</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="0D68E12972C1">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-30"></transaction-date>
-   <value currency="USD" value-date="2018-06-30">1901400</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="6A5E6F09A118">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1002000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="B94FF684DAD4">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-31"></transaction-date>
-   <value currency="USD" value-date="2018-12-31">120300</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="4B6867FF437A">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-03-31"></transaction-date>
-   <value currency="USD" value-date="2019-03-31">299536.84</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="0372272785F7">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-30"></transaction-date>
-   <value currency="USD" value-date="2019-06-30">23900</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="F7017322C432">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">15663.16</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction humanitarian="1" ref="A8350A1666AD">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-04-30"></transaction-date>
@@ -721,78 +379,6 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction ref="606D33DABEA0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">-484093</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="075EEF7B5E7E">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">3500</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="4F8DF44C6F10">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">480593</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction ref="C980D0F6A8B1">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">-480593</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="PS"></recipient-country>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
-    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction humanitarian="1" ref="9AFFE4F92E5E">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
@@ -878,6 +464,420 @@
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2020" end="2021"></usg:fiscal-funding-year>
     <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="95D4D0307EF4">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-06-30"></transaction-date>
+   <value currency="USD" value-date="2016-06-30">7000000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="95D4D0307EF4">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-06-30"></transaction-date>
+   <value currency="USD" value-date="2016-06-30">64400</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="5DC403745F7E">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-09-30"></transaction-date>
+   <value currency="USD" value-date="2016-09-30">382300</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="801975B9D996">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-12-31">646300</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="5A78D694886D">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2017-03-31"></transaction-date>
+   <value currency="USD" value-date="2017-03-31">6500000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="0A0528ED8485">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-03-31"></transaction-date>
+   <value currency="USD" value-date="2017-03-31">1051300</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="6885F9DB4506">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-06-30"></transaction-date>
+   <value currency="USD" value-date="2017-06-30">2024800</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="9B16DADCF8E8">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">2650120.79</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="968380F82C6E">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-12-31">180779.21</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="2803CC144A95">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-12-31">1597256.19</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="74C20F44FAE9">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-03-31"></transaction-date>
+   <value currency="USD" value-date="2018-03-31">1512943.81</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="0D68E12972C1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-06-30"></transaction-date>
+   <value currency="USD" value-date="2018-06-30">1901400</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="6A5E6F09A118">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1002000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="6F2BD9E1F1C8">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="USD" value-date="2018-12-31">-3363.16</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="B94FF684DAD4">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="USD" value-date="2018-12-31">120300</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="E551655A2094">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-03-31"></transaction-date>
+   <value currency="USD" value-date="2019-03-31">3363.16</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="4B6867FF437A">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-03-31"></transaction-date>
+   <value currency="USD" value-date="2019-03-31">299536.84</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="0372272785F7">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-30"></transaction-date>
+   <value currency="USD" value-date="2019-06-30">23900</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="F7017322C432">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">15663.16</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="606D33DABEA0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-484093</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="075EEF7B5E7E">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">3500</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="4F8DF44C6F10">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">480593</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2016"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction ref="C980D0F6A8B1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">-480593</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+   </sector>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="PS"></recipient-country>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2016" end="2017"></usg:fiscal-funding-year>
+    <usg:main-account code="1037">Economic Support Fund</usg:main-account>
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>

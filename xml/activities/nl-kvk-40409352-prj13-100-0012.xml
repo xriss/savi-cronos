@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="170" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="170" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-100-0012</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -9,22 +9,22 @@
    <narrative xml:lang="EN">COVID-19 Response Haiti</narrative>
   </title>
   <description type="1">
-   <narrative xml:lang="EN">This project addresses the emergence of the COVID-19 pandemic in Haiti.</narrative>
-  </description>
-  <description type="1">
    <narrative xml:lang="EN">Haiti</narrative>
   </description>
-  <participating-org ref="NL-KVK-40409352" role="1" type="21">
-   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-  </participating-org>
-  <participating-org ref="NL-KVK-40409352" role="2" type="21">
-   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-  </participating-org>
+  <description type="1">
+   <narrative xml:lang="EN">This project addresses the emergence of the COVID-19 pandemic in Haiti.</narrative>
+  </description>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Haiti Red Cross Society</narrative>
   </participating-org>
   <participating-org role="1">
    <narrative xml:lang="EN">Swiss Embassy Haiti</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-40409352" role="1" type="21">
+   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-40409352" role="2" type="21">
+   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-04-14" type="2">
@@ -51,11 +51,11 @@
   <sector code="EP" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Epidemic</narrative>
   </sector>
-  <sector code="2" percentage="100" vocabulary="98">
-   <narrative xml:lang="EN">Response</narrative>
-  </sector>
   <sector code="72010" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
+  <sector code="2" percentage="100" vocabulary="98">
+   <narrative xml:lang="EN">Response</narrative>
   </sector>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="30"></default-flow-type>
@@ -69,8 +69,8 @@
   </budget>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-02-12"></transaction-date>
-   <value currency="EUR" value-date="2021-02-12">6609</value>
+   <transaction-date iso-date="2020-05-19"></transaction-date>
+   <value currency="EUR" value-date="2020-05-19">75536</value>
    <description>
     <narrative xml:lang="EN">Disbursement</narrative>
    </description>
@@ -82,23 +82,23 @@
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-12-15"></transaction-date>
-   <value currency="EUR" value-date="2020-12-15">18317</value>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-10"></transaction-date>
+   <value currency="EUR" value-date="2020-08-10">12275</value>
    <description>
-    <narrative xml:lang="EN">Incoming Commitment</narrative>
+    <narrative xml:lang="EN">Disbursement</narrative>
    </description>
-   <provider-org>
-    <narrative xml:lang="EN">Swiss Embassy Haiti</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-100-0012" ref="NL-KVK-40409352" type="21">
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-100-0012" ref="NL-KVK-40409352" type="21">
     <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Haiti Red Cross Society</narrative>
    </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-08-10"></transaction-date>
-   <value currency="EUR" value-date="2020-08-10">12275</value>
+   <transaction-date iso-date="2021-02-12"></transaction-date>
+   <value currency="EUR" value-date="2021-02-12">6609</value>
    <description>
     <narrative xml:lang="EN">Disbursement</narrative>
    </description>
@@ -124,17 +124,17 @@
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-19"></transaction-date>
-   <value currency="EUR" value-date="2020-05-19">75536</value>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-15"></transaction-date>
+   <value currency="EUR" value-date="2020-12-15">18317</value>
    <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
+    <narrative xml:lang="EN">Incoming Commitment</narrative>
    </description>
-   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-100-0012" ref="NL-KVK-40409352" type="21">
-    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   <provider-org>
+    <narrative xml:lang="EN">Swiss Embassy Haiti</narrative>
    </provider-org>
-   <receiver-org type="22">
-    <narrative xml:lang="EN">Haiti Red Cross Society</narrative>
+   <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-100-0012" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
    </receiver-org>
   </transaction>
   <related-activity ref="NL-KVK-40409352-PRJ13-100" type="1"></related-activity>

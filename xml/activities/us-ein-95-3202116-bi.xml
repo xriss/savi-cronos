@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="wvi-activities" dstore:index="9" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="wvi-activities" dstore:index="9" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-EIN-95-3202116-BI</iati-identifier>
   <reporting-org ref="US-EIN-95-3202116" type="21">
    <narrative xml:lang="EN">World Vision International</narrative>
@@ -11,14 +11,11 @@
   <description>
    <narrative xml:lang="EN">Breakdown of expenditure by World Vision Burundi from 2017 onwards.</narrative>
   </description>
-  <participating-org ref="US-EIN-95-3202116" role="3" type="21">
-   <narrative xml:lang="EN">World Vision International</narrative>
+  <participating-org role="1" type="21">
+   <narrative xml:lang="EN">World Vision Australia</narrative>
   </participating-org>
   <participating-org role="4" type="21">
    <narrative xml:lang="EN">World Vision Burundi</narrative>
-  </participating-org>
-  <participating-org role="1" type="21">
-   <narrative xml:lang="EN">World Vision Australia</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Canada</narrative>
@@ -31,6 +28,9 @@
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Hong Kong</narrative>
+  </participating-org>
+  <participating-org ref="US-EIN-95-3202116" role="3" type="21">
+   <narrative xml:lang="EN">World Vision International</narrative>
   </participating-org>
   <participating-org role="1" type="21">
    <narrative xml:lang="EN">World Vision Korea</narrative>
@@ -75,12 +75,48 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">48</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">73272</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Burundi within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">60922</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Burundi within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">44927</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Burundi within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="160" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">-2007</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Burundi within FY21</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -99,12 +135,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">30387</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1488744</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Burundi within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2784312</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Burundi within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">4737077</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">15261</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Disaster Management in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -123,12 +195,48 @@
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">167152</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1966552</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Burundi within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2184945</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Burundi within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">2829550</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">-687025</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Burundi within FY21</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -147,12 +255,48 @@
    </provider-org>
    <sector code="112" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">1570643</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">5171841</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Burundi within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Education in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">5252990</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Burundi within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1960011</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Burundi within FY 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">743044</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Education in Burundi within FY21</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -171,12 +315,36 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">73</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">-50752</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Burundi within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">27188</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Burundi within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">-393</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Food Assistance in Burundi within FY 2020</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -195,12 +363,48 @@
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">1156480</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">2948513</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Burundi within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2857137</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Burundi within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">6314974</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">686644</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -219,12 +423,48 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">832673</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">3239982</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Burundi within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">5367760</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Burundi within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">5819923</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">3057739</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Livelihoods in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -243,12 +483,12 @@
    </provider-org>
    <sector code="140" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="1">
+  <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2017-09-30"></transaction-date>
-   <value currency="USD" value-date="2017-09-30">198120</value>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">947232</value>
    <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Burundi within FY 2017</narrative>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Burundi within FY 2018</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -257,10 +497,46 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">73272</value>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2450131</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Burundi within FY 2018</narrative>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Burundi within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">1726872</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">-152173</value>
+   <description>
+    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">48</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Burundi within FY 2017</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -279,348 +555,12 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1488744</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">101117</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1966552</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">66816</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">5171841</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">1432191</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">-50752</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">2948513</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">963087</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">3239982</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">885412</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">947232</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-09-30"></transaction-date>
-   <value currency="USD" value-date="2018-09-30">644464</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Burundi within FY 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">60922</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
    <value currency="USD" value-date="2019-09-30">747</value>
    <description>
     <narrative xml:lang="EN">Humanitarian expenditure on Child Protection &amp; Participation in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2784312</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1456</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2184945</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">45836</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">5252990</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">15894</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">27188</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2857137</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2697815</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">5367760</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">1171775</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">2450131</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">-1179</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Burundi within FY 2019</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">44927</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Burundi within FY 2020</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -639,12 +579,36 @@
    </provider-org>
    <sector code="160" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">4737077</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">30387</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Burundi within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">101117</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1456</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Burundi within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -663,12 +627,48 @@
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">2829550</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">387708</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="720" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">167152</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Burundi within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">66816</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">45836</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Burundi within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -687,12 +687,48 @@
    </provider-org>
    <sector code="151" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1960011</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">32401</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Burundi within FY 2020</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Burundi within FY21</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="151" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">1570643</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Burundi within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">1432191</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">15894</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Burundi within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -711,24 +747,60 @@
    </provider-org>
    <sector code="112" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">-393</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">27562</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Food Assistance in Burundi within FY 2020</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Education in Burundi within FY21</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="112" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">73</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Food Assistance in Burundi within FY 2017</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
    </provider-org>
    <sector code="720" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">6314974</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">1156480</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Burundi within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">963087</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">2697815</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Burundi within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -747,12 +819,48 @@
    </provider-org>
    <sector code="122" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">5819923</value>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">40564</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="122" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">832673</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Burundi within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">885412</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="430" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">1171775</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Livelihoods in Burundi within FY 2019</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>
@@ -771,150 +879,6 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">1726872</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2020-09-30">118397</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="140" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">-2007</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Child Protection &amp; Participation in Burundi within FY21</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="160" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">15261</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Disaster Management in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">387708</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Disaster Management in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="720" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">-687025</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Drivers of Sustainability in Burundi within FY21</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">32401</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Drivers of Sustainability in Burundi within FY21</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="151" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">743044</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Education in Burundi within FY21</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">27562</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Education in Burundi within FY21</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="112" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">686644</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Health and Nutrition in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="1">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">40564</value>
-   <description>
-    <narrative xml:lang="EN">Humanitarian expenditure on Health and Nutrition in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="122" vocabulary="2"></sector>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">3057739</value>
-   <description>
-    <narrative xml:lang="EN">Development expenditure on Livelihoods in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">World Vision Burundi</narrative>
-   </provider-org>
-   <sector code="430" vocabulary="2"></sector>
-  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -927,12 +891,48 @@
    </provider-org>
    <sector code="430" vocabulary="2"></sector>
   </transaction>
-  <transaction humanitarian="0">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">-152173</value>
+   <transaction-date iso-date="2017-09-30"></transaction-date>
+   <value currency="USD" value-date="2017-09-30">198120</value>
    <description>
-    <narrative xml:lang="EN">Development expenditure on Water and Sanitation in Burundi within FY21 including expenditure on Covid-19 emergency response</narrative>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Burundi within FY 2017</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2018-09-30"></transaction-date>
+   <value currency="USD" value-date="2018-09-30">644464</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Burundi within FY 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-30">-1179</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Burundi within FY 2019</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">World Vision Burundi</narrative>
+   </provider-org>
+   <sector code="140" vocabulary="2"></sector>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-09-30"></transaction-date>
+   <value currency="USD" value-date="2020-09-30">118397</value>
+   <description>
+    <narrative xml:lang="EN">Humanitarian expenditure on Water and Sanitation in Burundi within FY 2020 including expenditure on Covid-19 emergency response</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">World Vision Burundi</narrative>

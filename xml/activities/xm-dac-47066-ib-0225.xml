@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1193" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1193" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-IB.0225</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,18 +11,18 @@
   <description>
    <narrative xml:lang="EN">The overall objective of this joint programme (JP) is to strengthen capacities of three countries (Guinea, Liberia and Sierra Leone) for cross-border collaboration on migration and health management in an area known as Parrot&apos;s Beak, where borders of the three countries meet. The JP will enhance integrated management of the states&apos; borders and promote exchanges to better control illegal activities as well as other risks to which border communities are particularly vulnerable. Increased cooperation will reduce human trafficking and the prevalence of gender-based violence; minimize the spread of COVID-19; improve cross-border social cohesion; and protect human rights. The participating organizations in this JP are IOM, UNDP, WHO and ITC.</narrative>
   </description>
-  <participating-org activity-id="XI-IATI-UNPF-MPTF-124692" ref="XI-IATI-UNPF" role="1" type="40">
-   <narrative xml:lang="EN">UN Pooled Funds - Global Compact on Migration (MPTF)</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XI-IATI-UNPF-MPTF-124692" ref="XI-IATI-UNPF" role="1" type="40">
+   <narrative xml:lang="EN">UN Pooled Funds - Global Compact on Migration (MPTF)</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-11-12" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-11-12" type="2">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-11-12" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <activity-date iso-date="2023-05-11" type="3">
    <narrative xml:lang="EN">Planned</narrative>
@@ -40,6 +40,30 @@
   <recipient-region code="11" percentage="100" vocabulary="2">
    <narrative xml:lang="EN">Western Africa</narrative>
   </recipient-region>
+  <location ref="GN">
+   <location-reach code="2"></location-reach>
+   <location-id code="GN" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Guinea</narrative>
+   </name>
+   <administrative code="GN" vocabulary="A4"></administrative>
+  </location>
+  <location ref="LR">
+   <location-reach code="2"></location-reach>
+   <location-id code="LR" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </name>
+   <administrative code="LR" vocabulary="A4"></administrative>
+  </location>
+  <location ref="SL">
+   <location-reach code="2"></location-reach>
+   <location-id code="SL" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Sierra Leone</narrative>
+   </name>
+   <administrative code="SL" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -51,14 +75,6 @@
    <exactness code="2"></exactness>
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
-  </location>
-  <location ref="GN">
-   <location-reach code="2"></location-reach>
-   <location-id code="GN" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Guinea</narrative>
-   </name>
-   <administrative code="GN" vocabulary="A4"></administrative>
   </location>
   <location>
    <location-reach code="1"></location-reach>
@@ -72,14 +88,6 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="LR">
-   <location-reach code="2"></location-reach>
-   <location-id code="LR" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </name>
-   <administrative code="LR" vocabulary="A4"></administrative>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -92,22 +100,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="SL">
-   <location-reach code="2"></location-reach>
-   <location-id code="SL" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Sierra Leone</narrative>
-   </name>
-   <administrative code="SL" vocabulary="A4"></administrative>
-  </location>
+  <sector code="15190" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
+  </sector>
   <sector code="IB" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Immigration and Borders</narrative>
   </sector>
   <sector code="04" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Regulating Migration</narrative>
-  </sector>
-  <sector code="15190" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
   </sector>
   <policy-marker code="1" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project with some but insufficient inclusion of gender issues</narrative>

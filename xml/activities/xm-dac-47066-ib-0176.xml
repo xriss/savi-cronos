@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1158" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1158" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-IB.0176</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,24 +11,24 @@
   <description>
    <narrative xml:lang="EN">The overall objective of the project is to ensure effective and accessible health service for COVID-19 patients in Moldova, with a focus on vulnerable groups. In order to achieve this objective, the project activities will allow improving access to personal protective equipment (PPE) for front line workers in the health system and non-health agencies (police, penitentiaries, etc.) to ensure the efficient and safe provision of public services during the COVID-19 crisis. Additionally, it will assist most vulnerable categories and their dependents with immediate supplies (e.g. food and sanitizers). The project will enhance the capacities of the border police in the points of entry to ensure infection control and management.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-41141-MPTF-121444" ref="XM-DAC-41141" role="1" type="40">
-   <narrative xml:lang="EN">UN COVID-19 Response and Recovery Fund - MPTF</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-41141-MPTF-121444" ref="XM-DAC-41141" role="1" type="40">
+   <narrative xml:lang="EN">UN COVID-19 Response and Recovery Fund - MPTF</narrative>
+  </participating-org>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2020-05-11" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-05-11" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2020-11-10" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-11-10" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-05-11" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-11-10" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -41,6 +41,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="MD" percentage="100"></recipient-country>
+  <location ref="MD">
+   <location-reach code="2"></location-reach>
+   <location-id code="MD" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">Moldova (the Republic of)</narrative>
+   </name>
+   <administrative code="MD" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -53,22 +61,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="MD">
-   <location-reach code="2"></location-reach>
-   <location-id code="MD" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">Moldova (the Republic of)</narrative>
-   </name>
-   <administrative code="MD" vocabulary="A4"></administrative>
-  </location>
+  <sector code="15190" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
+  </sector>
   <sector code="IB" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Immigration and Borders</narrative>
   </sector>
   <sector code="04" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Regulating Migration</narrative>
-  </sector>
-  <sector code="15190" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
   </sector>
   <policy-marker code="2B" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Project which targets a gender and/or focuses on gender issues (targeted)</narrative>

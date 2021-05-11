@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="NZD" dstore:dataset="mfat-iati-solomon-islands" dstore:index="18" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="NZD" dstore:dataset="mfat-iati-solomon-islands" dstore:index="18" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NZ-1-ACT-0101037</iati-identifier>
   <reporting-org ref="NZ-1" type="10">
    <narrative xml:lang="EN">New Zealand Ministry of Foreign Affairs and Trade</narrative>
@@ -25,8 +25,8 @@ This activity is currently in design, and&#xA0;will likely&#xA0;focus on interve
    <narrative xml:lang="EN">Tourism Solomons</narrative>
   </participating-org>
   <activity-status code="1"></activity-status>
-  <activity-date iso-date="2021-04-01" type="1"></activity-date>
   <activity-date iso-date="2019-12-03" type="2"></activity-date>
+  <activity-date iso-date="2021-04-01" type="1"></activity-date>
   <activity-date iso-date="2025-06-30" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
@@ -46,6 +46,8 @@ This activity is currently in design, and&#xA0;will likely&#xA0;focus on interve
   <sector code="33181" percentage="10" vocabulary="1"></sector>
   <sector code="33210" percentage="90" vocabulary="1"></sector>
   <policy-marker code="1" significance="0" vocabulary="1"></policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1"></policy-marker>
+  <policy-marker code="11" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="2" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="3" significance="1" vocabulary="1"></policy-marker>
   <policy-marker code="4" significance="1" vocabulary="1"></policy-marker>
@@ -54,8 +56,6 @@ This activity is currently in design, and&#xA0;will likely&#xA0;focus on interve
   <policy-marker code="7" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1"></policy-marker>
   <policy-marker code="9" significance="0" vocabulary="1"></policy-marker>
-  <policy-marker code="10" significance="0" vocabulary="1"></policy-marker>
-  <policy-marker code="11" significance="0" vocabulary="1"></policy-marker>
   <collaboration-type code="3"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -66,6 +66,42 @@ This activity is currently in design, and&#xA0;will likely&#xA0;focus on interve
    <period-end iso-date="2021-06-30"></period-end>
    <value currency="NZD" value-date="2021-03-29">13000</value>
   </budget>
+  <transaction ref="420550">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-03-29"></transaction-date>
+   <value currency="NZD" value-date="2021-03-29">13000</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="70">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="359693">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-03-04"></transaction-date>
+   <value currency="NZD" value-date="2020-03-04">250000</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="378543">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-02"></transaction-date>
+   <value currency="NZD" value-date="2020-06-02">250000</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="342594">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-03"></transaction-date>
@@ -126,18 +162,6 @@ This activity is currently in design, and&#xA0;will likely&#xA0;focus on interve
     <narrative xml:lang="EN">Pending Approval</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="359693">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-04"></transaction-date>
-   <value currency="NZD" value-date="2020-03-04">250000</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="362120">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-03-10"></transaction-date>
@@ -147,18 +171,6 @@ This activity is currently in design, and&#xA0;will likely&#xA0;focus on interve
    </description>
    <provider-org ref="NZ-1" type="10"></provider-org>
    <receiver-org type="70">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction ref="378543">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-02"></transaction-date>
-   <value currency="NZD" value-date="2020-06-02">250000</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="10">
     <narrative xml:lang="EN">Pending Approval</narrative>
    </receiver-org>
   </transaction>
@@ -180,18 +192,6 @@ This activity is currently in design, and&#xA0;will likely&#xA0;focus on interve
    <value currency="NZD" value-date="2021-03-01">7800</value>
    <description>
     <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="70">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction ref="420550">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-03-29"></transaction-date>
-   <value currency="NZD" value-date="2021-03-29">13000</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
    </description>
    <provider-org ref="NZ-1" type="10"></provider-org>
    <receiver-org type="70">

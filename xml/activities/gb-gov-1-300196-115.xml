@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="fcdo-sd" dstore:index="280" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="fcdo-sd" dstore:index="280" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-GOV-1-300196-115</iati-identifier>
   <reporting-org ref="GB-GOV-1" type="10">
    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office</narrative>
@@ -20,14 +20,14 @@
   <participating-org ref="XM-DAC-41121" role="4" type="40">
    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
   </participating-org>
-  <other-identifier ref="300196-115" type="A1">
-   <owner-org ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </owner-org>
-  </other-identifier>
   <other-identifier ref="GB-1" type="B1">
    <owner-org ref="GB-GOV-1">
     <narrative xml:lang="EN">FCDO previous reporting-org identifier</narrative>
+   </owner-org>
+  </other-identifier>
+  <other-identifier ref="300196-115" type="A1">
+   <owner-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
    </owner-org>
   </other-identifier>
   <activity-status code="2"></activity-status>
@@ -71,20 +71,6 @@
    <value currency="GBP" value-date="2020-07-20">5100000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="REFCO1">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-07-26"></transaction-date>
-   <value currency="GBP" value-date="2020-07-26">8100000</value>
-   <description>
-    <narrative xml:lang="EN">This is an outgoing commitment to United Nations High Commissioner for Refugees (UNHCR) of &#xA3;8,100,000.00</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-GOV-1-300196-115" ref="GB-GOV-1">
-    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
-   </provider-org>
-   <receiver-org ref="XM-DAC-41121" type="40">
-    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="8973860">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-07-31"></transaction-date>
@@ -121,6 +107,20 @@
     <narrative xml:lang="EN">Emergency / Humanitarian Assistance</narrative>
    </description>
    <provider-org ref="GB-GOV-1">
+    <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-41121" type="40">
+    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="REFCO1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-07-26"></transaction-date>
+   <value currency="GBP" value-date="2020-07-26">8100000</value>
+   <description>
+    <narrative xml:lang="EN">This is an outgoing commitment to United Nations High Commissioner for Refugees (UNHCR) of &#xA3;8,100,000.00</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-GOV-1-300196-115" ref="GB-GOV-1">
     <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office (FCDO)</narrative>
    </provider-org>
    <receiver-org ref="XM-DAC-41121" type="40">

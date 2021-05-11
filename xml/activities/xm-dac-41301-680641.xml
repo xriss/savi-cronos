@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="5052" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="5052" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41301-680641</iati-identifier>
   <reporting-org ref="XM-DAC-41301" type="40">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
@@ -49,14 +49,6 @@
    <value currency="USD" value-date="2020-04-24">538695.78</value>
   </budget>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">22829.55</value>
-   <description>
-    <narrative xml:lang="EN">Total expenditure from 01 April 2020 to 30 June 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-06-30">538406.88</value>
@@ -65,15 +57,20 @@
    </description>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">538695.97</value>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">288.9</value>
    <description>
-    <narrative xml:lang="EN">Total incoming funds from 01 April 2020 to 30 June 2020</narrative>
+    <narrative xml:lang="EN">Total commitment from 01 October 2020 to 31 December 2020</narrative>
    </description>
-   <provider-org ref="XM-DAC-301">
-    <narrative xml:lang="EN">Canada</narrative>
-   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">22829.55</value>
+   <description>
+    <narrative xml:lang="EN">Total expenditure from 01 April 2020 to 30 June 2020</narrative>
+   </description>
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
@@ -92,12 +89,15 @@
    </description>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">288.9</value>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">538695.97</value>
    <description>
-    <narrative xml:lang="EN">Total commitment from 01 October 2020 to 31 December 2020</narrative>
+    <narrative xml:lang="EN">Total incoming funds from 01 April 2020 to 30 June 2020</narrative>
    </description>
+   <provider-org ref="XM-DAC-301">
+    <narrative xml:lang="EN">Canada</narrative>
+   </provider-org>
   </transaction>
  </iati-activity>
 </iati-activities>

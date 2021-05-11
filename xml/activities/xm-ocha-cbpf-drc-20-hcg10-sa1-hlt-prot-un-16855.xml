@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="unocha-cbpf-drc-allocation-2020" dstore:index="74" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="unocha-cbpf-drc-allocation-2020" dstore:index="74" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-OCHA-CBPF-DRC-20/HCG10/SA1/HLT-PROT/UN/16855</iati-identifier>
   <reporting-org ref="XM-OCHA-CBPF" secondary-reporter="0" type="22">
    <narrative xml:lang="EN">United Nations Office for the Coordination of Humanitarian Affairs</narrative>
@@ -36,23 +36,23 @@ Pour la Protection (VBG)
 - 257 survivantes de VBG b&#xE9;n&#xE9;ficiaires d&#x2019;une r&#xE9;insertion socio-&#xE9;conomique
 Ce projet sera ex&#xE9;cut&#xE9; pour un budget total de 2 223 331.60 $</narrative>
   </description>
-  <participating-org role="2" type="40">
-   <narrative xml:lang="EN">United Nations Population Fund</narrative>
-  </participating-org>
-  <participating-org role="4" type="40">
-   <narrative xml:lang="EN">United Nations Population Fund</narrative>
-  </participating-org>
   <participating-org role="4" type="21">
    <narrative xml:lang="EN">Adventist Development and Relief Agency</narrative>
-  </participating-org>
-  <participating-org role="4" type="21">
-   <narrative xml:lang="EN">MEDECIN D&apos;AFRIQUE</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Caritas D&#xE9;veloppement Kananga</narrative>
   </participating-org>
   <participating-org activity-id="XM-OCHA-CBPF-DRC24-2020" ref="XM-OCHA-CBPF-DRC24" role="1" type="40">
    <narrative xml:lang="EN">DRC Humanitarian Fund</narrative>
+  </participating-org>
+  <participating-org role="4" type="21">
+   <narrative xml:lang="EN">MEDECIN D&apos;AFRIQUE</narrative>
+  </participating-org>
+  <participating-org role="2" type="40">
+   <narrative xml:lang="EN">United Nations Population Fund</narrative>
+  </participating-org>
+  <participating-org role="4" type="40">
+   <narrative xml:lang="EN">United Nations Population Fund</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-12-01" type="1"></activity-date>
@@ -73,22 +73,6 @@ Ce projet sera ex&#xE9;cut&#xE9; pour un budget total de 2 223 331.60 $</narrati
    </job-title>
    <telephone>0819505038</telephone>
    <email>hounton@unfpa.org</email>
-  </contact-info>
-  <contact-info>
-   <organisation>
-    <narrative xml:lang="EN"></narrative>
-   </organisation>
-   <department>
-    <narrative xml:lang="EN"></narrative>
-   </department>
-   <person-name>
-    <narrative xml:lang="EN">Polycarpe Takou</narrative>
-   </person-name>
-   <job-title>
-    <narrative xml:lang="EN">Coordonateur Humanitaire</narrative>
-   </job-title>
-   <telephone>0810604424</telephone>
-   <email>takou@unfpa.org</email>
   </contact-info>
   <contact-info>
    <organisation>
@@ -122,16 +106,24 @@ Ce projet sera ex&#xE9;cut&#xE9; pour un budget total de 2 223 331.60 $</narrati
    <telephone>0812686317</telephone>
    <email>matondo@unfpa.org</email>
   </contact-info>
+  <contact-info>
+   <organisation>
+    <narrative xml:lang="EN"></narrative>
+   </organisation>
+   <department>
+    <narrative xml:lang="EN"></narrative>
+   </department>
+   <person-name>
+    <narrative xml:lang="EN">Polycarpe Takou</narrative>
+   </person-name>
+   <job-title>
+    <narrative xml:lang="EN">Coordonateur Humanitaire</narrative>
+   </job-title>
+   <telephone>0810604424</telephone>
+   <email>takou@unfpa.org</email>
+  </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="CD" percentage="100"></recipient-country>
-  <location ref="903">
-   <name>
-    <narrative xml:lang="EN">Kasai</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-6.42357200 20.79535900</pos>
-   </point>
-  </location>
   <location ref="902">
    <name>
     <narrative xml:lang="EN">Kasai Central</narrative>
@@ -146,6 +138,14 @@ Ce projet sera ex&#xE9;cut&#xE9; pour un budget total de 2 223 331.60 $</narrati
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-6.15003200 23.60000000</pos>
+   </point>
+  </location>
+  <location ref="903">
+   <name>
+    <narrative xml:lang="EN">Kasai</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-6.42357200 20.79535900</pos>
    </point>
   </location>
   <location ref="803">
@@ -178,10 +178,10 @@ Ce projet sera ex&#xE9;cut&#xE9; pour un budget total de 2 223 331.60 $</narrati
    <value currency="USD" value-date="2020-12-16">2040089.98</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction humanitarian="1" ref="DRC24-16855">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-16"></transaction-date>
-   <value currency="USD" value-date="2020-12-16">2223331.6</value>
+  <transaction humanitarian="1" ref="00013393">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-15"></transaction-date>
+   <value currency="USD" value-date="2020-12-15">2223331.6</value>
    <provider-org provider-activity-id="XM-OCHA-CBPF-DRC24-2020" ref="XM-OCHA-CBPF-DRC24" type="40">
     <narrative xml:lang="EN">DRC Humanitarian Fund</narrative>
    </provider-org>
@@ -189,10 +189,10 @@ Ce projet sera ex&#xE9;cut&#xE9; pour un budget total de 2 223 331.60 $</narrati
     <narrative xml:lang="EN">United Nations Population Fund</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="00013393">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-15"></transaction-date>
-   <value currency="USD" value-date="2020-12-15">2223331.6</value>
+  <transaction humanitarian="1" ref="DRC24-16855">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-16"></transaction-date>
+   <value currency="USD" value-date="2020-12-16">2223331.6</value>
    <provider-org provider-activity-id="XM-OCHA-CBPF-DRC24-2020" ref="XM-OCHA-CBPF-DRC24" type="40">
     <narrative xml:lang="EN">DRC Humanitarian Fund</narrative>
    </provider-org>

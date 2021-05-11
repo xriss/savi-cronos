@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="helpage_international-activities" dstore:index="401" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="GBP" dstore:dataset="helpage_international-activities" dstore:index="401" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-COH-1762840-TAN307-DF01-01</iati-identifier>
   <reporting-org ref="GB-COH-1762840" type="21">
    <narrative xml:lang="EN">HelpAge International</narrative>
@@ -11,26 +11,23 @@
   <description type="1">
    <narrative xml:lang="EN">i) Objective 1: Strengthening the capacity of older people structures in order to address the information gaps on COVID-19; promote referral linkages of suspected cases; and address isolation, psychosocial trauma and fear among older people: ii)To strengthen National health COVID-19 responsiveness in delivering COVID-19 Services, Guidance and advice for older people with NCDs and other conditions:</narrative>
   </description>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">African Woman&apos;s AIDS Working Group (AFRIWAG), Tanz</narrative>
+  </participating-org>
   <participating-org ref="GB-CHC-1128267-8" role="1" type="21">
    <narrative xml:lang="EN">Age International</narrative>
-  </participating-org>
-  <participating-org role="4">
-   <narrative xml:lang="EN">Smart Youth Effort For Advanced Community, Tanzani</narrative>
-  </participating-org>
-  <participating-org role="4">
-   <narrative xml:lang="EN">Relief to Development Society, Tanzania</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Good Samaritan Social Service Trust, Tanzania</narrative>
   </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">SAWATA Dodoma, Tanzania</narrative>
+  <participating-org ref="GB-COH-1762840" role="1">
+   <narrative xml:lang="EN">HelpAge International</narrative>
+  </participating-org>
+  <participating-org ref="GB-COH-1762840" role="4">
+   <narrative xml:lang="EN">HelpAge International</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Jumuhia ya Wazee (JUWAZA), Zanzibar</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">African Woman&apos;s AIDS Working Group (AFRIWAG), Tanz</narrative>
   </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">MAPERECE - Magu Poverty focus on Older People&apos;s Re</narrative>
@@ -38,14 +35,17 @@
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">MOROPEO - Morogoro Elderly Peoples Organisation, T</narrative>
   </participating-org>
+  <participating-org role="4">
+   <narrative xml:lang="EN">Relief to Development Society, Tanzania</narrative>
+  </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">SAWATA Dodoma, Tanzania</narrative>
+  </participating-org>
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Saidia Wazee Dodoma, Tanzania</narrative>
   </participating-org>
-  <participating-org ref="GB-COH-1762840" role="1">
-   <narrative xml:lang="EN">HelpAge International</narrative>
-  </participating-org>
-  <participating-org ref="GB-COH-1762840" role="4">
-   <narrative xml:lang="EN">HelpAge International</narrative>
+  <participating-org role="4">
+   <narrative xml:lang="EN">Smart Youth Effort For Advanced Community, Tanzani</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-06-22" type="1"></activity-date>
@@ -88,28 +88,6 @@
    <period-end iso-date="2020-10-30"></period-end>
    <value currency="GBP" value-date="2020-06-22">250000</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-07-31"></transaction-date>
-   <value currency="GBP" value-date="2020-07-31">250000</value>
-   <description>
-    <narrative xml:lang="EN">Incoming Funds for period 2020/004</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Age International</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-30"></transaction-date>
-   <value currency="GBP" value-date="2020-11-30">-93526</value>
-   <description>
-    <narrative xml:lang="EN">Incoming Funds for period 2020/008</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Age International</narrative>
-   </provider-org>
-  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
@@ -630,6 +608,28 @@
    <value currency="GBP" value-date="2020-12-31">10205</value>
    <description>
     <narrative xml:lang="EN">Expenditure for period 2020/009</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Age International</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-07-31"></transaction-date>
+   <value currency="GBP" value-date="2020-07-31">250000</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Funds for period 2020/004</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Age International</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-11-30"></transaction-date>
+   <value currency="GBP" value-date="2020-11-30">-93526</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Funds for period 2020/008</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">Age International</narrative>

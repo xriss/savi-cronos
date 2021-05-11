@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="undp-pak" dstore:index="96" hierarchy="2" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="undp-pak" dstore:index="96" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00122852</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">MAGP response to Covid-19-support to the government to communicate timely and effectively with the citizens on preventive measures  to reduce the spread of the disease</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="13237" role="1" type="40">
    <narrative xml:lang="EN">MPTF-UN Sustainable Development Framework Fund For Pakistan(2018-2022)</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-07-09" type="1"></activity-date>
@@ -89,16 +89,16 @@
    <location-class code="1"></location-class>
    <feature-designation code="ADM2"></feature-designation>
   </location>
-  <sector code="15151" percentage="100" vocabulary="1"></sector>
-  <sector code="16.7" percentage="33.33" vocabulary="8"></sector>
-  <sector code="16.6" percentage="33.33" vocabulary="8"></sector>
-  <sector code="10.3" percentage="33.33" vocabulary="8"></sector>
   <sector code="18" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Accelerate structural transformations</narrative>
   </sector>
-  <tag code="16.7" vocabulary="3"></tag>
-  <tag code="16.6" vocabulary="3"></tag>
+  <sector code="10.3" percentage="33.33" vocabulary="8"></sector>
+  <sector code="15151" percentage="100" vocabulary="1"></sector>
+  <sector code="16.6" percentage="33.33" vocabulary="8"></sector>
+  <sector code="16.7" percentage="33.33" vocabulary="8"></sector>
   <tag code="10.3" vocabulary="3"></tag>
+  <tag code="16.6" vocabulary="3"></tag>
+  <tag code="16.7" vocabulary="3"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Global COVID-19</narrative>
   </humanitarian-scope>
@@ -115,21 +115,15 @@
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-10-31"></transaction-date>
-   <value currency="USD" value-date="2020-10-31">2259</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">33492</value>
+   <provider-org ref="13237" type="40">
+    <narrative xml:lang="EN">MPTF-UN Sustainable Development Framework Fund For Pakistan(2018-2022)</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-08-31"></transaction-date>
-   <value currency="USD" value-date="2020-08-31">2043</value>
-   <provider-org ref="XM-DAC-41114" type="40">
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00122852" ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -145,15 +139,21 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">33492</value>
-   <provider-org ref="13237" type="40">
-    <narrative xml:lang="EN">MPTF-UN Sustainable Development Framework Fund For Pakistan(2018-2022)</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00122852" ref="XM-DAC-41114" type="40">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">2043</value>
+   <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="USD" value-date="2020-10-31">2259</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -171,9 +171,9 @@
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00108127" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00108113" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00121549" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00108127" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

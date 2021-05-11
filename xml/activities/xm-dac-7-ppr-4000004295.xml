@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="minbuza_nl-activities20202021" dstore:index="334" hierarchy="1" xml:lang="NL" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="minbuza_nl-activities20202021" dstore:index="334" hierarchy="1" iati-activities:version="2.03" xml:lang="NL" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-7-PPR-4000004295</iati-identifier>
   <reporting-org ref="XM-DAC-7" type="10">
    <narrative xml:lang="EN">Ministry of Foreign Affairs of the Netherlands</narrative>
@@ -11,6 +11,9 @@
   <description type="1">
    <narrative xml:lang="NL">Ten behoeve van de bestrijding van COVID-19 worden er art-sen, medicijnen, Personal Protection Equipment (PPE) en bea-demingsapparatuur naar Suriname gestuurd. Het bekostigen van de vervoerskosten van de betrokken artsen is dus 1 afzon-derlijk element van de overkoepelende BZ bijdrage van EUR 1.115.312,91.</narrative>
   </description>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">Ministerie Van Vws</narrative>
+  </participating-org>
   <participating-org ref="XM-DAC-7" role="1" type="10">
    <narrative xml:lang="EN">Ministry of Foreign Affairs of the Netherlands</narrative>
   </participating-org>
@@ -19,9 +22,6 @@
   </participating-org>
   <participating-org ref="XM-DAC-7" role="3" type="10">
    <narrative xml:lang="EN">Ministry of Foreign Affairs of the Netherlands</narrative>
-  </participating-org>
-  <participating-org role="4" type="10">
-   <narrative xml:lang="EN">Ministerie Van Vws</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-06-19" type="1"></activity-date>
@@ -44,32 +44,32 @@
   <sector code="12191" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Medical services</narrative>
   </sector>
-  <policy-marker code="1" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Gender Equality</narrative>
-  </policy-marker>
-  <policy-marker code="2" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid to Environment</narrative>
-  </policy-marker>
-  <policy-marker code="3" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
-  </policy-marker>
-  <policy-marker code="4" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Trade Development</narrative>
-  </policy-marker>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
-  </policy-marker>
-  <policy-marker code="6" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
-  </policy-marker>
-  <policy-marker code="7" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
   </policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention to Combat Desertification</narrative>
   </policy-marker>
+  <policy-marker code="7" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
+  </policy-marker>
+  <policy-marker code="6" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
+  </policy-marker>
+  <policy-marker code="2" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid to Environment</narrative>
+  </policy-marker>
+  <policy-marker code="1" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Gender Equality</narrative>
+  </policy-marker>
+  <policy-marker code="3" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
+  </policy-marker>
   <policy-marker code="9" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health</narrative>
+  </policy-marker>
+  <policy-marker code="4" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Trade Development</narrative>
   </policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -139,8 +139,19 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-04-15"></transaction-date>
-   <value currency="EUR" value-date="2021-04-15">4498</value>
+   <transaction-date iso-date="2020-12-29"></transaction-date>
+   <value currency="EUR" value-date="2020-12-29">67413</value>
+   <provider-org ref="XM-DAC-7">
+    <narrative xml:lang="NL">Ministry of Foreign Affairs of the Netherlands</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="NL">Ministerie Van Vws</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-29"></transaction-date>
+   <value currency="EUR" value-date="2020-12-29">67413</value>
    <provider-org ref="XM-DAC-7">
     <narrative xml:lang="NL">Ministry of Foreign Affairs of the Netherlands</narrative>
    </provider-org>
@@ -150,8 +161,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-29"></transaction-date>
-   <value currency="EUR" value-date="2020-12-29">67413</value>
+   <transaction-date iso-date="2021-04-15"></transaction-date>
+   <value currency="EUR" value-date="2021-04-15">4498</value>
    <provider-org ref="XM-DAC-7">
     <narrative xml:lang="NL">Ministry of Foreign Affairs of the Netherlands</narrative>
    </provider-org>
@@ -163,17 +174,6 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-04-16"></transaction-date>
    <value currency="EUR" value-date="2021-04-16">4498</value>
-   <provider-org ref="XM-DAC-7">
-    <narrative xml:lang="NL">Ministry of Foreign Affairs of the Netherlands</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="NL">Ministerie Van Vws</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-29"></transaction-date>
-   <value currency="EUR" value-date="2020-12-29">67413</value>
    <provider-org ref="XM-DAC-7">
     <narrative xml:lang="NL">Ministry of Foreign Affairs of the Netherlands</narrative>
    </provider-org>

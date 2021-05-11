@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unitedstates-ke" dstore:index="159" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unitedstates-ke" dstore:index="159" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="http://www.foreignassistance.gov" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>US-GOV-13-KE-4802</iati-identifier>
   <reporting-org ref="US-USAGOV" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
@@ -11,9 +11,6 @@
   <description>
    <narrative xml:lang="EN">Sector:Micro finance Beneficiaries:3916 Small scale entrepreneurs and Farmers, including 2516 women. The project funds will be used to equip the organization with computers, with the right micro credit software, buy safes for the main office and satellite offices; train staff in good governance and best micro credit practices; and train staff in financial management; develop policies for finances; human resources; and procurement; and purchase office equipment.. Sector:Micro finance Beneficiaries:3916 Small scale entrepreneurs and Farmers, including 2516 women. The project funds will be used to equip the organization with computers, with the right micro credit software, buy safes for the main office and satelli. This is the Partner cooperative agreement in Kenya. Funds are used to support staff salaries and benefits, program monitoring expenses, office and vehicle expenses, an annual audit, training, and other small administrative expenses. Funds disbursed to provide liquidity in light of unanticipated shocks impacting project activities and grantee enterprises due to the COVID-19 pandemic. Funds to assist with project needs in light of fund shortage due to COVID-19.</narrative>
   </description>
-  <participating-org ref="US-USAGOV" role="1" type="10">
-   <narrative xml:lang="EN">The federal government of the United States</narrative>
-  </participating-org>
   <participating-org ref="US-GOV-13" role="2" type="10">
    <narrative xml:lang="EN">African Development Foundation</narrative>
   </participating-org>
@@ -22,6 +19,9 @@
   </participating-org>
   <participating-org role="4" type="15">
    <narrative xml:lang="EN">Ndithini Community Development Association</narrative>
+  </participating-org>
+  <participating-org ref="US-USAGOV" role="1" type="10">
+   <narrative xml:lang="EN">The federal government of the United States</narrative>
   </participating-org>
   <other-identifier ref="US-GOV" type="B1">
    <owner-org ref="US-USAGOV">
@@ -70,6 +70,11 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget>
+   <period-start iso-date="2017-10-01"></period-start>
+   <period-end iso-date="2018-09-30"></period-end>
+   <value currency="USD" value-date="2017-10-01">98061</value>
+  </budget>
+  <budget>
    <period-start iso-date="2018-10-01"></period-start>
    <period-end iso-date="2019-09-30"></period-end>
    <value currency="USD" value-date="2018-10-01">1808.48</value>
@@ -79,15 +84,10 @@
    <period-end iso-date="2020-09-30"></period-end>
    <value currency="USD" value-date="2019-10-01">98061.01</value>
   </budget>
-  <budget>
-   <period-start iso-date="2017-10-01"></period-start>
-   <period-end iso-date="2018-09-30"></period-end>
-   <value currency="USD" value-date="2017-10-01">98061</value>
-  </budget>
   <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-22"></transaction-date>
-   <value currency="USD" value-date="2019-02-22">2211.38</value>
+   <transaction-date iso-date="2018-08-01"></transaction-date>
+   <value currency="USD" value-date="2018-08-01">2073.94</value>
    <description>
     <narrative xml:lang="EN">Disbursement</narrative>
    </description>
@@ -98,45 +98,7 @@
     <narrative xml:lang="EN">Economic Development - General</narrative>
    </sector>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-06"></transaction-date>
-   <value currency="USD" value-date="2019-12-06">3917.64</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <sector code="25010" vocabulary="1">
-    <narrative xml:lang="EN">Business Policy and Administration</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-26"></transaction-date>
-   <value currency="USD" value-date="2019-02-26">2257.24</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <sector code="25010" vocabulary="1">
-    <narrative xml:lang="EN">Business Policy and Administration</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2019"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2018" end="2018"></usg:fiscal-funding-year>
     <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>
@@ -161,123 +123,9 @@
    </usg:treasury-account>
   </transaction>
   <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-06-14"></transaction-date>
-   <value currency="USD" value-date="2018-06-14">98061</value>
-   <description>
-    <narrative xml:lang="EN">Obligation</narrative>
-   </description>
-   <sector code="25010" vocabulary="1">
-    <narrative xml:lang="EN">Business Policy and Administration</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-10"></transaction-date>
-   <value currency="USD" value-date="2020-03-10">23868.79</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <sector code="25010" vocabulary="1">
-    <narrative xml:lang="EN">Business Policy and Administration</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-25"></transaction-date>
-   <value currency="USD" value-date="2020-02-25">13192.68</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <sector code="25010" vocabulary="1">
-    <narrative xml:lang="EN">Business Policy and Administration</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-05-03"></transaction-date>
-   <value currency="USD" value-date="2019-05-03">2231.94</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <sector code="43010" vocabulary="1">
-    <narrative xml:lang="EN">Multisector aid</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2019" end="2019"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-12"></transaction-date>
-   <value currency="USD" value-date="2020-03-12">2361.9</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <sector code="25010" vocabulary="1">
-    <narrative xml:lang="EN">Business Policy and Administration</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-28"></transaction-date>
-   <value currency="USD" value-date="2020-09-28">10166.05</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <sector code="25010" vocabulary="1">
-    <narrative xml:lang="EN">Business Policy and Administration</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-27"></transaction-date>
-   <value currency="USD" value-date="2019-09-27">1808.48</value>
+   <transaction-date iso-date="2019-02-22"></transaction-date>
+   <value currency="USD" value-date="2019-02-22">2211.38</value>
    <description>
     <narrative xml:lang="EN">Disbursement</narrative>
    </description>
@@ -295,8 +143,8 @@
   </transaction>
   <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-08-21"></transaction-date>
-   <value currency="USD" value-date="2020-08-21">18624.58</value>
+   <transaction-date iso-date="2019-02-26"></transaction-date>
+   <value currency="USD" value-date="2019-02-26">2257.24</value>
    <description>
     <narrative xml:lang="EN">Disbursement</narrative>
    </description>
@@ -307,64 +155,7 @@
     <narrative xml:lang="EN">Economic Development - General</narrative>
    </sector>
    <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-01"></transaction-date>
-   <value currency="USD" value-date="2018-08-01">2073.94</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <sector code="25010" vocabulary="1">
-    <narrative xml:lang="EN">Business Policy and Administration</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2018" end="2018"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-09-15"></transaction-date>
-   <value currency="USD" value-date="2020-09-15">1118.82</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <sector code="25010" vocabulary="1">
-    <narrative xml:lang="EN">Business Policy and Administration</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
-    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
-    <usg:regular-account code="11"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-13"></transaction-date>
-   <value currency="USD" value-date="2020-05-13">1767.33</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <sector code="25010" vocabulary="1">
-    <narrative xml:lang="EN">Business Policy and Administration</narrative>
-   </sector>
-   <sector code="5000" vocabulary="99">
-    <narrative xml:lang="EN">Economic Development - General</narrative>
-   </sector>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
+    <usg:fiscal-funding-year begin="2019" end="2019"></usg:fiscal-funding-year>
     <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>
@@ -403,6 +194,215 @@
    </sector>
    <usg:treasury-account>
     <usg:fiscal-funding-year begin="2019" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-27"></transaction-date>
+   <value currency="USD" value-date="2019-09-27">1808.48</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <sector code="25010" vocabulary="1">
+    <narrative xml:lang="EN">Business Policy and Administration</narrative>
+   </sector>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-06"></transaction-date>
+   <value currency="USD" value-date="2019-12-06">3917.64</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <sector code="25010" vocabulary="1">
+    <narrative xml:lang="EN">Business Policy and Administration</narrative>
+   </sector>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-25"></transaction-date>
+   <value currency="USD" value-date="2020-02-25">13192.68</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <sector code="25010" vocabulary="1">
+    <narrative xml:lang="EN">Business Policy and Administration</narrative>
+   </sector>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-10"></transaction-date>
+   <value currency="USD" value-date="2020-03-10">23868.79</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <sector code="25010" vocabulary="1">
+    <narrative xml:lang="EN">Business Policy and Administration</narrative>
+   </sector>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-12"></transaction-date>
+   <value currency="USD" value-date="2020-03-12">2361.9</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <sector code="25010" vocabulary="1">
+    <narrative xml:lang="EN">Business Policy and Administration</narrative>
+   </sector>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-13"></transaction-date>
+   <value currency="USD" value-date="2020-05-13">1767.33</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <sector code="25010" vocabulary="1">
+    <narrative xml:lang="EN">Business Policy and Administration</narrative>
+   </sector>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-21"></transaction-date>
+   <value currency="USD" value-date="2020-08-21">18624.58</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <sector code="25010" vocabulary="1">
+    <narrative xml:lang="EN">Business Policy and Administration</narrative>
+   </sector>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-15">1118.82</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <sector code="25010" vocabulary="1">
+    <narrative xml:lang="EN">Business Policy and Administration</narrative>
+   </sector>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-28"></transaction-date>
+   <value currency="USD" value-date="2020-09-28">10166.05</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <sector code="25010" vocabulary="1">
+    <narrative xml:lang="EN">Business Policy and Administration</narrative>
+   </sector>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2020" end="2020"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-05-03"></transaction-date>
+   <value currency="USD" value-date="2019-05-03">2231.94</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <sector code="43010" vocabulary="1">
+    <narrative xml:lang="EN">Multisector aid</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2019" end="2019"></usg:fiscal-funding-year>
+    <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
+    <usg:regular-account code="11"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="0">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2018-06-14"></transaction-date>
+   <value currency="USD" value-date="2018-06-14">98061</value>
+   <description>
+    <narrative xml:lang="EN">Obligation</narrative>
+   </description>
+   <sector code="25010" vocabulary="1">
+    <narrative xml:lang="EN">Business Policy and Administration</narrative>
+   </sector>
+   <sector code="5000" vocabulary="99">
+    <narrative xml:lang="EN">Economic Development - General</narrative>
+   </sector>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2018" end="2018"></usg:fiscal-funding-year>
     <usg:main-account code="0700">African Development Foundation, Funds Appropriated to the President</usg:main-account>
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>

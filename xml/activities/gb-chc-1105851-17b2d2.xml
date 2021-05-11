@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="caid-activity" dstore:index="512" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="GBP" dstore:dataset="caid-activity" dstore:index="512" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1105851-17B2D2</iati-identifier>
   <reporting-org ref="GB-CHC-1105851" type="21">
    <narrative xml:lang="EN">Christian Aid</narrative>
@@ -60,20 +60,6 @@ Improved access to basic medical supplies</narrative>
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="GBP" value-date="2020-04-01">20000</value>
   </budget>
-  <transaction ref="4e7cc59c-2219-eb11-b466-005056be001c-i">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-11-06"></transaction-date>
-   <value currency="GBP" value-date="2020-11-06">20000</value>
-   <description>
-    <narrative xml:lang="EN">Internal allocation from income source to partner Project</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-CHC-1105851-21D93B" ref="GB-CHC-1105851" type="21">
-    <narrative xml:lang="EN">Christian Aid</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-1105851-17B2D2" ref="GB-CHC-1105851" type="21">
-    <narrative xml:lang="EN">Christian Aid</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="4e7cc59c-2219-eb11-b466-005056be001c-o">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-11-06"></transaction-date>
@@ -86,6 +72,20 @@ Improved access to basic medical supplies</narrative>
    </provider-org>
    <receiver-org type="22">
     <narrative xml:lang="EN">Methodist Development and Relief Agency</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="4e7cc59c-2219-eb11-b466-005056be001c-i">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-11-06"></transaction-date>
+   <value currency="GBP" value-date="2020-11-06">20000</value>
+   <description>
+    <narrative xml:lang="EN">Internal allocation from income source to partner Project</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-CHC-1105851-21D93B" ref="GB-CHC-1105851" type="21">
+    <narrative xml:lang="EN">Christian Aid</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1105851-17B2D2" ref="GB-CHC-1105851" type="21">
+    <narrative xml:lang="EN">Christian Aid</narrative>
    </receiver-org>
   </transaction>
   <transaction ref="62aba187-2319-eb11-b466-005056be001c">

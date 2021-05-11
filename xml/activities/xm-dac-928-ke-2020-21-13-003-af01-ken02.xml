@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="who-ken" dstore:index="189" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="USD" dstore:dataset="who-ken" dstore:index="189" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-928-KE-2020-21-13.003.AF01.KEN02</iati-identifier>
   <reporting-org ref="XM-DAC-928" type="40">
    <narrative xml:lang="EN">World Health Organization</narrative>
@@ -12,13 +12,13 @@
    <narrative xml:lang="EN">Acute health emergencies rapidly responded to, leveraging relevant national and international capacities</narrative>
   </description>
   <participating-org role="1" type="10">
+   <narrative xml:lang="EN">Department for International Development (DFID), United Kingdom</narrative>
+  </participating-org>
+  <participating-org role="1" type="10">
    <narrative xml:lang="EN">Federal Foreign Office, Germany</narrative>
   </participating-org>
   <participating-org role="1" type="70">
    <narrative xml:lang="EN">Germany</narrative>
-  </participating-org>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">Department for International Development (DFID), United Kingdom</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-928" role="2" type="40">
    <narrative xml:lang="EN">World Health Organization</narrative>
@@ -91,6 +91,25 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-04-27">0</value>
   </budget>
+  <transaction humanitarian="1" ref="Expenditure">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-03-31"></transaction-date>
+   <value currency="USD" value-date="2021-03-31">713964</value>
+   <description>
+    <narrative xml:lang="EN">Staff and other personnel costs</narrative>
+   </description>
+   <provider-org ref="XM-DAC-928">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+   <sector code="72010" vocabulary="1">
+    <narrative xml:lang="EN"></narrative>
+   </sector>
+   <flow-type code="10"></flow-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction humanitarian="1" ref="Incoming Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-04-19"></transaction-date>
@@ -146,25 +165,6 @@
     <narrative xml:lang="EN">72010</narrative>
    </sector>
    <flow-type code="20"></flow-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">713964</value>
-   <description>
-    <narrative xml:lang="EN">Staff and other personnel costs</narrative>
-   </description>
-   <provider-org ref="XM-DAC-928">
-    <narrative xml:lang="EN">World Health Organization</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
-   <sector code="72010" vocabulary="1">
-    <narrative xml:lang="EN"></narrative>
-   </sector>
-   <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136904/1/ccsbrief_ken_en.pdf">

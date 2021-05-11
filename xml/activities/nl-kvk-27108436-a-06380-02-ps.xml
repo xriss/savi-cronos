@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="2000" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="onl-activity" dstore:index="2000" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-27108436-A-06380-02:PS</iati-identifier>
   <reporting-org ref="NL-KVK-27108436" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
@@ -12,11 +12,16 @@
    <narrative xml:lang="EN">PMRS is  a member of health cluster which includes all national and international healthcare actors. PMRS, therefore, has access toinformation and provides the health cluster#s coordinator and the WHO with key updates and information from their end on adaily basis.
 Oxfam will provide hygiene and personal protective equipment to both mobile clinics and healthcare centres. PMRS has their own medical staff (physicians and nurses) who are able to detect COVID-19 suspected cases, provide curative support for symptoms, and refer them to MOH emergency committees and the Palestine Red Crescent Society (PRCS) who are responsible to conduct PCR tests and transfer severe cases to designated hospitals.</narrative>
   </description>
+  <participating-org ref="GB-CHC-202918" role="1" type="10">
+   <narrative xml:lang="EN">OXFAM GB</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-27108436" role="2" type="21">
    <narrative xml:lang="EN">Oxfam Novib</narrative>
   </participating-org>
+  <participating-org ref="NL-KVK-27108436" role="3" type="21">
+   <narrative xml:lang="EN">Oxfam Novib</narrative>
+  </participating-org>
   <participating-org role="4" type="24">
-   <narrative xml:lang="EN">Palestinian Medical Relief Society</narrative>
    <narrative xml:lang="EN">PMRS is a grassroots, community-based Palestinian health organization. PMRS was founded in 1979 by a group of Palestinian doctors and health professionals seeking to supplement the decayed and inadequate health infrastructure caused by years of Israeli military occupation. It is non-profit, voluntary, and one of the largest health NGOs in Palestine. PMRS national health programs emphasize prevention, education, community participation, and the empowerment of people.
 
 Since its inception, PMRS has grownfrom a small nucleusof volunteer health workers responding to the increasing healthcare needs in underserved areas, to a leading Palestinian health non-governmental organization (NGO). PMRS now extends its services to over 1.4 million Palestinians in theWest Bank and Gaza Strip, providing improved models of healthcare that are built on sound scientific bases and specifically adapted to the Palestinian context.  In the years prior to the Intifada, PMRS made a significant contribution to the creation of aPalestinian national health infrastructure, replacing the fragmented health system inherited from years of Israeli occupation.
@@ -28,25 +33,20 @@ In addition, PMRS has developed its strategy to build model health programs, suc
 At the same time PMRS is highly involved in policy making at national level, to influence the adoption of legislation that supports civil society and the creation of a modern democratic state. PMRS works on this with other Palestinian NGOs through the Palestinian NGO network (PNGO) and other joint forums that link between the public and NGO sectors.
 
 PMRS in Gaza employs about 100 people spread between the headquarters in Gaza City, its four clinics, one non communicable diseases (NCD) centre and two rehabilitation centers.  The organization also runs two mobile clinics which provide emergency primary health care to communities in marginalized and/or isolatedareas.  It also conducts awareness activities on various health, hygiene and social issues affecting peoples quality of life.  PMRSrelies on its network of around 150 volunteers to reach out to all levels of society all over the Strip.  First aid teams have beenactivated to face the emergency and save lives.  Moreover, PMRS has agreements with the Gaza Ministry of Health according to which the former refers patients  in need of secondary health care to the latter hospitals.</narrative>
-  </participating-org>
-  <participating-org ref="GB-CHC-202918" role="1" type="10">
-   <narrative xml:lang="EN">OXFAM GB</narrative>
-  </participating-org>
-  <participating-org ref="NL-KVK-27108436" role="3" type="21">
-   <narrative xml:lang="EN">Oxfam Novib</narrative>
+   <narrative xml:lang="EN">Palestinian Medical Relief Society</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-03-27" type="1">
-   <narrative xml:lang="EN">start-planned</narrative>
-  </activity-date>
-  <activity-date iso-date="2020-03-27" type="2">
-   <narrative xml:lang="EN">start-actual</narrative>
+  <activity-date iso-date="2020-04-30" type="4">
+   <narrative xml:lang="EN">end-actual</narrative>
   </activity-date>
   <activity-date iso-date="2020-04-30" type="3">
    <narrative xml:lang="EN">end-planned</narrative>
   </activity-date>
-  <activity-date iso-date="2020-04-30" type="4">
-   <narrative xml:lang="EN">end-actual</narrative>
+  <activity-date iso-date="2020-03-27" type="2">
+   <narrative xml:lang="EN">start-actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-03-27" type="1">
+   <narrative xml:lang="EN">start-planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -64,8 +64,8 @@ PMRS in Gaza employs about 100 people spread between the headquarters in Gaza Ci
   <sector code="3" percentage="100" vocabulary="99" vocabulary-uri="http://www.oxfamnovib.nl">
    <narrative xml:lang="EN">The right to life and security</narrative>
   </sector>
-  <sector code="74010" percentage="100" vocabulary="1"></sector>
   <sector code="4" percentage="100" vocabulary="10"></sector>
+  <sector code="74010" percentage="100" vocabulary="1"></sector>
   <tag code="1" vocabulary="2"></tag>
   <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
    <narrative xml:lang="EN">Novel Coronavirus Outbreak - Jan 2020</narrative>
@@ -78,18 +78,18 @@ PMRS in Gaza employs about 100 people spread between the headquarters in Gaza Ci
   <budget type="2">
    <period-start iso-date="2020-03-27"></period-start>
    <period-end iso-date="2020-04-30"></period-end>
-   <value currency="EUR" value-date="2021-05-08">35637</value>
+   <value currency="EUR" value-date="2021-05-09">35637</value>
   </budget>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-08-01"></transaction-date>
-   <value currency="EUR" value-date="2020-08-01">-175</value>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-01"></transaction-date>
+   <value currency="EUR" value-date="2020-05-01">35812</value>
    <description>
-    <narrative xml:lang="EN">incoming transaction</narrative>
+    <narrative xml:lang="EN">Oxfam GB own funds OGB</narrative>
    </description>
-   <provider-org provider-activity-id="GB-CHC-202918" ref="GB-CHC-202918">
-    <narrative xml:lang="EN">OXFAM GB</narrative>
-   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Palestinian Medical Relief Society</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -114,15 +114,15 @@ PMRS in Gaza employs about 100 people spread between the headquarters in Gaza Ci
    </provider-org>
   </transaction>
   <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-05-01"></transaction-date>
-   <value currency="EUR" value-date="2020-05-01">35812</value>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-08-01"></transaction-date>
+   <value currency="EUR" value-date="2020-08-01">-175</value>
    <description>
-    <narrative xml:lang="EN">Oxfam GB own funds OGB</narrative>
+    <narrative xml:lang="EN">incoming transaction</narrative>
    </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Palestinian Medical Relief Society</narrative>
-   </receiver-org>
+   <provider-org provider-activity-id="GB-CHC-202918" ref="GB-CHC-202918">
+    <narrative xml:lang="EN">OXFAM GB</narrative>
+   </provider-org>
   </transaction>
   <document-link format="APPLICATION/HTTP" url="https://atlas.oxfamnovib.nl/#/project/A-06380-02:PS">
    <title>
@@ -132,12 +132,12 @@ PMRS in Gaza employs about 100 people spread between the headquarters in Gaza Ci
    <language code="EN"></language>
    <document-date iso-date="2015-12-11"></document-date>
   </document-link>
+  <legacy-data name="grant-reference" value="1002077"></legacy-data>
+  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
   <legacy-data name="profit-centre" value="0000007018"></legacy-data>
   <legacy-data name="profit-centre-name" value="OPT/I MENA"></legacy-data>
   <legacy-data name="project" value="A-06380"></legacy-data>
   <legacy-data name="project-name" value="COVID-19 CAT Response"></legacy-data>
-  <legacy-data name="oxfamnovib-view-type" value="EXT"></legacy-data>
-  <legacy-data name="grant-reference" value="1002077"></legacy-data>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">5160</narrative>
@@ -147,12 +147,12 @@ PMRS in Gaza employs about 100 people spread between the headquarters in Gaza Ci
    </description>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5160-A</narrative>
+     <narrative xml:lang="EN">5160-B</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+     <narrative xml:lang="EN">men directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
     </description>
-    <reference code="5160-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5160-B" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-03-27"></period-start>
@@ -162,12 +162,12 @@ PMRS in Gaza employs about 100 people spread between the headquarters in Gaza Ci
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5160-B</narrative>
+     <narrative xml:lang="EN">5160-A</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">men directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
+     <narrative xml:lang="EN">women directly supported by Oxfam Novib/partners to enhance their capabilities</narrative>
     </description>
-    <reference code="5160-B" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5160-A" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-03-27"></period-start>
@@ -185,12 +185,12 @@ PMRS in Gaza employs about 100 people spread between the headquarters in Gaza Ci
    </description>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5160-1</narrative>
+     <narrative xml:lang="EN">5160-2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to be better prepared and reduce disaster risks</narrative>
+     <narrative xml:lang="EN">men living in poverty and injustice use their enhanced knowledge and skills to be better prepared and reduce disaster risks</narrative>
     </description>
-    <reference code="5160-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5160-2" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-03-27"></period-start>
@@ -200,12 +200,12 @@ PMRS in Gaza employs about 100 people spread between the headquarters in Gaza Ci
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">5160-2</narrative>
+     <narrative xml:lang="EN">5160-1</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">men living in poverty and injustice use their enhanced knowledge and skills to be better prepared and reduce disaster risks</narrative>
+     <narrative xml:lang="EN">women living in poverty and injustice use their enhanced knowledge and skills to be better prepared and reduce disaster risks</narrative>
     </description>
-    <reference code="5160-2" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
+    <reference code="5160-1" indicator-uri="https://oxfam.box.com/s/2l7ktb7otlfcoflkmqp9gp4eg68oexgn" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-03-27"></period-start>

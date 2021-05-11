@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="caid-activity" dstore:index="122" hierarchy="2" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="GBP" dstore:dataset="caid-activity" dstore:index="122" hierarchy="2" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1105851-438D2D</iati-identifier>
   <reporting-org ref="GB-CHC-1105851" type="21">
    <narrative xml:lang="EN">Christian Aid</narrative>
@@ -19,14 +19,14 @@
   <description type="2">
    <narrative xml:lang="EN">Awareness created within the communities for peaceful coexistence and COVID-19 trauma healing for community members .</narrative>
   </description>
+  <participating-org role="4">
+   <narrative xml:lang="EN">ACROSS</narrative>
+  </participating-org>
   <participating-org ref="GB-CHC-1105851" role="1">
    <narrative xml:lang="EN">Christian Aid</narrative>
   </participating-org>
   <participating-org ref="GB-CHC-1105851" role="2">
    <narrative xml:lang="EN">Christian Aid</narrative>
-  </participating-org>
-  <participating-org role="4">
-   <narrative xml:lang="EN">ACROSS</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2019-05-01" type="2"></activity-date>
@@ -45,8 +45,8 @@
   <recipient-country code="SS" percentage="100">
    <narrative xml:lang="EN">South Sudan</narrative>
   </recipient-country>
-  <sector code="TACKLING VIOLENCE" percentage="50" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
   <sector code="CONFLICT TRANSFORMATION" percentage="50" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
+  <sector code="TACKLING VIOLENCE" percentage="50" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
@@ -56,20 +56,6 @@
    <period-end iso-date="2020-03-31"></period-end>
    <value currency="GBP" value-date="2019-04-01">39609.06</value>
   </budget>
-  <transaction ref="770a666e-f17a-e911-8a29-005056be001c-i">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-05-23"></transaction-date>
-   <value currency="GBP" value-date="2019-05-23">39609.06</value>
-   <description>
-    <narrative xml:lang="EN">Internal allocation from income source to partner Project</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-CHC-1105851-875001" ref="GB-CHC-1105851" type="21">
-    <narrative xml:lang="EN">Christian Aid</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-1105851-438D2D" ref="GB-CHC-1105851" type="21">
-    <narrative xml:lang="EN">Christian Aid</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="770a666e-f17a-e911-8a29-005056be001c-o">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-05-23"></transaction-date>
@@ -82,6 +68,20 @@
    </provider-org>
    <receiver-org type="22">
     <narrative xml:lang="EN">ACROSS</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="770a666e-f17a-e911-8a29-005056be001c-i">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-05-23"></transaction-date>
+   <value currency="GBP" value-date="2019-05-23">39609.06</value>
+   <description>
+    <narrative xml:lang="EN">Internal allocation from income source to partner Project</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-CHC-1105851-875001" ref="GB-CHC-1105851" type="21">
+    <narrative xml:lang="EN">Christian Aid</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1105851-438D2D" ref="GB-CHC-1105851" type="21">
+    <narrative xml:lang="EN">Christian Aid</narrative>
    </receiver-org>
   </transaction>
   <transaction ref="a91396b8-f57a-e911-8a29-005056be001c">

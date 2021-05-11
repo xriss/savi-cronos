@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="CHF" dstore:dataset="sdc_ch-210426" dstore:index="3137" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="CHF" dstore:dataset="sdc_ch-210426" dstore:index="3137" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>CH-4-2020001183</iati-identifier>
   <reporting-org ref="CH-4" type="10">
    <narrative xml:lang="EN">Swiss Agency for Development and Cooperation (SDC)</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">No description for this activity available at this point. Description indisponible pour cette activit&#xE9;.</narrative>
   </description>
-  <participating-org ref="CH-4" role="1" type="10">
-   <narrative xml:lang="EN">Swiss Agency for Development and Cooperation (SDC)</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-41114" role="4" type="40">
    <narrative xml:lang="EN">Programme des Nations Unies pour le d&#xE9;veloppement</narrative>
+  </participating-org>
+  <participating-org ref="CH-4" role="1" type="10">
+   <narrative xml:lang="EN">Swiss Agency for Development and Cooperation (SDC)</narrative>
   </participating-org>
   <other-identifier ref="7F-10517.01.05" type="A1"></other-identifier>
   <activity-status code="2"></activity-status>
@@ -40,10 +40,10 @@
    <narrative xml:lang="EN">Pays en d&#xE9;veloppement, non sp&#xE9;cifi&#xE9;</narrative>
   </recipient-region>
   <sector code="12110" percentage="20" vocabulary="1"></sector>
-  <sector code="16010" percentage="30" vocabulary="1"></sector>
   <sector code="15110" percentage="50" vocabulary="1"></sector>
-  <policy-marker code="6" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
+  <sector code="16010" percentage="30" vocabulary="1"></sector>
+  <policy-marker code="5" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
   <policy-marker code="8" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention to Combat Desertification</narrative>
@@ -51,17 +51,17 @@
   <policy-marker code="7" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
   </policy-marker>
+  <policy-marker code="6" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
+  </policy-marker>
   <policy-marker code="2" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid to Environment</narrative>
   </policy-marker>
-  <policy-marker code="5" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
+  <policy-marker code="1" significance="1" vocabulary="1">
+   <narrative xml:lang="EN">Gender Equality</narrative>
   </policy-marker>
   <policy-marker code="9" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
-  </policy-marker>
-  <policy-marker code="1" significance="1" vocabulary="1">
-   <narrative xml:lang="EN">Gender Equality</narrative>
   </policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -69,19 +69,19 @@
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <transaction ref="7F-10517.01.05">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="CHF" value-date="2020-12-31">2000000</value>
-   <description>
-    <narrative xml:lang="EN">Outgoing Commitment</narrative>
-   </description>
-  </transaction>
-  <transaction ref="7F-10517.01.05">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="CHF" value-date="2020-12-31">2000000</value>
    <description>
     <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+  </transaction>
+  <transaction ref="7F-10517.01.05">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="CHF" value-date="2020-12-31">2000000</value>
+   <description>
+    <narrative xml:lang="EN">Outgoing Commitment</narrative>
    </description>
   </transaction>
   <conditions attached="0"></conditions>

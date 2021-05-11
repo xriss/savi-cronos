@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="unitedstates-998-part-12" dstore:index="1101" hierarchy="1" humanitarian="0" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unitedstates-998-part-12" dstore:index="1101" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="http://www.foreignassistance.gov" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>US-GOV-21-998-LA202</iati-identifier>
   <reporting-org ref="US-USAGOV" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
@@ -11,15 +11,15 @@
   <description>
    <narrative xml:lang="EN">The COVID-19 pandemic and ensuing economic crisis has exacerbated existing inequalities in Latin America, with a disproportionate effect on women, youth, Afro-descendant, Indigenous, and other marginalized populations. At the IAF, we support community-led approaches to creating economic opportunity. Together with our cooperator, the Young Americas Business Trust (YABT), we will launch the InnovAction Challenge competition, which invites young adult entrepreneurs to submit their business ideas that respond to the needs of grassroots communities resulting from COVID-19. The InnovAction Challenge will identify 20 finalists and four winners, who will each receive a awards package valued at $15,000 in seed capital and technical assistance combined to launch or grow their businesses. The initiative will also catalyze a larger private sector response to the crisis.</narrative>
   </description>
-  <participating-org ref="US-USAGOV" role="1" type="10">
-   <narrative xml:lang="EN">The federal government of the United States</narrative>
-  </participating-org>
   <participating-org ref="US-GOV-21" role="2" type="10">
    <narrative xml:lang="EN">Inter-American Foundation</narrative>
    <usg:office-name>Inter-American Foundation</usg:office-name>
   </participating-org>
   <participating-org ref="US-GOV-21" role="3" type="10">
    <narrative xml:lang="EN">Inter-American Foundation</narrative>
+  </participating-org>
+  <participating-org ref="US-USAGOV" role="1" type="10">
+   <narrative xml:lang="EN">The federal government of the United States</narrative>
   </participating-org>
   <participating-org role="4" type="23">
    <narrative xml:lang="EN">Young Americas Business Trust</narrative>
@@ -69,14 +69,14 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget>
-   <period-start iso-date="2020-10-01"></period-start>
-   <period-end iso-date="2021-09-30"></period-end>
-   <value currency="USD" value-date="2020-10-01">94600</value>
-  </budget>
-  <budget>
    <period-start iso-date="2019-10-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
    <value currency="USD" value-date="2019-10-01">94600</value>
+  </budget>
+  <budget>
+   <period-start iso-date="2020-10-01"></period-start>
+   <period-end iso-date="2021-09-30"></period-end>
+   <value currency="USD" value-date="2020-10-01">94600</value>
   </budget>
   <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>

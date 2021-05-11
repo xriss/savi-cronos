@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="iadb-uy" dstore:index="34" hierarchy="1" linked-data-uri="https://www.iadb.org/en/project/UR-L1172" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="iadb-uy" dstore:index="34" hierarchy="1" iati-activities:version="2.02" linked-data-uri="https://www.iadb.org/en/project/UR-L1172" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XI-IATI-IADB-UR-L1172</iati-identifier>
   <reporting-org ref="XI-IATI-IADB" type="40">
    <narrative xml:lang="EN">Inter-American Development Bank</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="EN">Emergency Support for Vulnerable Populations Affected by Coronavirus</narrative>
    <narrative xml:lang="ES">Apoyo de Emergencia a Poblaciones Vulnerables Afectadas por Coronavirus</narrative>
-   <narrative xml:lang="PT">N/A</narrative>
+   <narrative xml:lang="EN">Emergency Support for Vulnerable Populations Affected by Coronavirus</narrative>
    <narrative xml:lang="FR">N/A</narrative>
+   <narrative xml:lang="PT">N/A</narrative>
   </title>
   <description type="1">
-   <narrative xml:lang="EN">COVID-19 - The development objective of the project is to contribute to guarantee minimum levels of welfare for vulnerable populations due to the crisis triggered by COVID-19. The specific objective is to support minimum levels of income and employment for people affected by the Coronavirus, in the short run and during recovery.</narrative>
    <narrative xml:lang="ES">COVID-19 - El objetivo de desarrollo general del proyecto es contribuir a asegurar niveles m&#xED;nimos de calidad de vida de las personas vulnerables frente a la crisis causada por el COVID-19. Su objetivo espec&#xED;fico es apoyar niveles m&#xED;nimos de ingreso y de empleo de personas afectadas por el coronavirus en el periodo inmediato y durante la recuperaci&#xF3;n.</narrative>
+   <narrative xml:lang="EN">COVID-19 - The development objective of the project is to contribute to guarantee minimum levels of welfare for vulnerable populations due to the crisis triggered by COVID-19. The specific objective is to support minimum levels of income and employment for people affected by the Coronavirus, in the short run and during recovery.</narrative>
   </description>
-  <participating-org ref="ORC" role="3" type="40">
-   <narrative xml:lang="EN">Ordinary capital</narrative>
-  </participating-org>
   <participating-org ref="XI-IATI-IADB" role="1" type="40">
    <narrative xml:lang="EN">INTER-AMERICAN DEVELOPMENT BANK</narrative>
+  </participating-org>
+  <participating-org ref="ORC" role="3" type="40">
+   <narrative xml:lang="EN">Ordinary capital</narrative>
   </participating-org>
   <other-identifier ref="UR-L1172" type="A1">
    <owner-org>
@@ -65,8 +65,8 @@
    <exactness code="2"></exactness>
    <feature-designation code="PPLC"></feature-designation>
   </location>
-  <sector code="IS-POV" percentage="100" vocabulary="99"></sector>
   <sector code="16010" percentage="100" vocabulary="1"></sector>
+  <sector code="IS-POV" percentage="100" vocabulary="99"></sector>
   <tag code="COVID-19" vocabulary="99"></tag>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="20"></default-flow-type>
@@ -279,14 +279,6 @@
    <value currency="USD" value-date="2024-08-01">6767500</value>
   </budget>
   <capital-spend percentage="100"></capital-spend>
-  <transaction ref="1/31/2021-UR-L1172-3-ORC">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">65000000</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement in first quarter of 2021</narrative>
-   </description>
-  </transaction>
   <transaction ref="8/31/2020-UR-L1172-2-ALL">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
@@ -295,18 +287,26 @@
     <narrative xml:lang="EN">Commitment in third quarter of 2020</narrative>
    </description>
   </transaction>
-  <document-link format="TEXT/HTML" url="https://www.iadb.org/en/project/UR-L1172">
-   <title>
-    <narrative xml:lang="EN">UR-L1172</narrative>
-   </title>
-   <category code="A12"></category>
-   <language code="EN"></language>
-  </document-link>
+  <transaction ref="1/31/2021-UR-L1172-3-ORC">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-31">65000000</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement in first quarter of 2021</narrative>
+   </description>
+  </transaction>
   <document-link format="APPLICATION/VND.OPENXMLFORMATS-OFFICEDOCUMENT.SPREADSHEETML.SHEET" url="http://idbdocs.iadb.org/wsdocs/getdocument.aspx?docnum=EZSHARE-504778069-56">
    <title>
     <narrative xml:lang="EN">IDB Project Procurement Awarded Contracts - All Countries.xlsx</narrative>
    </title>
    <category code="A06"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.iadb.org/en/project/UR-L1172">
+   <title>
+    <narrative xml:lang="EN">UR-L1172</narrative>
+   </title>
+   <category code="A12"></category>
    <language code="EN"></language>
   </document-link>
   <conditions attached="0"></conditions>

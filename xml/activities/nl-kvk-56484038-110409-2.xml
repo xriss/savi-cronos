@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="icco-cooperation-activity" dstore:index="409" hierarchy="2" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" dstore:dataset="icco-cooperation-activity" dstore:index="409" hierarchy="2" iati-activities:version="2.03" xml:lang="EN" xmlns:akvo="http://akvo.org/iati-activities" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-56484038-110409-2</iati-identifier>
   <reporting-org ref="NL-KVK-56484038" type="21">
    <narrative xml:lang="EN">Foundation ICCO</narrative>
@@ -22,15 +22,15 @@ As one of the Dutch organizations part of the DLJR, ICCO together with its local
 
 Hundee implements in Arero Woreda and mainly focuses on Food Security and Livelihoods, Multi Purpose Cash transfers and Covid-19 related WASH activities.</narrative>
   </description>
-  <participating-org ref="NL-KVK-41197577" role="1" type="21">
-   <narrative xml:lang="EN">SOS Children&apos;s Villages The Netherlands</narrative>
-  </participating-org>
   <participating-org ref="00003804" role="4" type="22">
    <narrative xml:lang="EN">Hundee, Oromo Grassroots Development Initiative</narrative>
   </participating-org>
+  <participating-org ref="NL-KVK-41197577" role="1" type="21">
+   <narrative xml:lang="EN">SOS Children&apos;s Villages The Netherlands</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2020-04-22" type="1">
-   <narrative xml:lang="EN">Planned start date</narrative>
+  <activity-date iso-date="2020-12-31" type="4">
+   <narrative xml:lang="EN">Actual end date</narrative>
   </activity-date>
   <activity-date iso-date="2020-04-01" type="2">
    <narrative xml:lang="EN">Actual start date</narrative>
@@ -38,8 +38,8 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
   <activity-date iso-date="2020-10-21" type="3">
    <narrative xml:lang="EN">Planned end date</narrative>
   </activity-date>
-  <activity-date iso-date="2020-12-31" type="4">
-   <narrative xml:lang="EN">Actual end date</narrative>
+  <activity-date iso-date="2020-04-22" type="1">
+   <narrative xml:lang="EN">Planned start date</narrative>
   </activity-date>
   <recipient-country code="ET" percentage="100"></recipient-country>
   <location ref="LOC-3709">
@@ -53,15 +53,15 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <sector code="72010" percentage="49" vocabulary="1"></sector>
-  <sector code="99810" percentage="17" vocabulary="1"></sector>
-  <sector code="53030" percentage="17" vocabulary="1"></sector>
-  <sector code="72040" percentage="17" vocabulary="1"></sector>
   <sector code="2" percentage="25" vocabulary="7"></sector>
-  <sector code="6" percentage="75" vocabulary="7"></sector>
   <sector code="2.1" percentage="50" vocabulary="8"></sector>
-  <sector code="6.1" percentage="50" vocabulary="8"></sector>
   <sector code="2.1.2" percentage="100" vocabulary="9"></sector>
+  <sector code="53030" percentage="17" vocabulary="1"></sector>
+  <sector code="6" percentage="75" vocabulary="7"></sector>
+  <sector code="6.1" percentage="50" vocabulary="8"></sector>
+  <sector code="72010" percentage="49" vocabulary="1"></sector>
+  <sector code="72040" percentage="17" vocabulary="1"></sector>
+  <sector code="99810" percentage="17" vocabulary="1"></sector>
   <policy-marker code="14" significance="2" vocabulary="99">
    <narrative xml:lang="EN">Disaster Management (new)</narrative>
   </policy-marker>
@@ -130,41 +130,10 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of people provided with resources to protect and start rebuilding livelihood assets</narrative>
-    </title>
-    <reference code="ICCO-239" indicator-uri="https://icco.promeva.nl/indicators.jsp?id=1" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-11-01"></period-end>
-     <target value="1500"></target>
-     <actual value="1500">
-      <comment>
-       <narrative xml:lang="EN">Target reached by Q3</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
      <narrative xml:lang="EN">Number of cash transfers</narrative>
     </title>
     <reference code="ICCO-274" indicator-uri="https://icco.promeva.nl/indicators.jsp?id=1" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-29"></period-end>
-     <target value="4800">
-      <comment>
-       <narrative xml:lang="EN">Number of people reached by unrestricted and unconditional cash transfers</narrative>
-      </comment>
-     </target>
-     <actual value="4800">
-      <comment>
-       <narrative xml:lang="EN">One time cash transfer was done in Arero. The cash tranfer in Gursum has been delayed due to the security situation in the area. However, beneficiaries were selected and the necessary preparations were undergoing to conduct the first cash transfer in Gursum soon in early August.</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2020-06-29"></period-start>
      <period-end iso-date="2020-06-29"></period-end>
@@ -176,6 +145,20 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
      <actual value="1">
       <comment>
        <narrative xml:lang="EN">One time cash transfer was done in Arero. The cash tranfer in  Gursum has been delayed due to the security situation in the area.  However, beneficiaries were  selected and the necessary preparations  were  undergoing to conduct  the  first cash transfer in Gursum  soon in early August.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-29"></period-end>
+     <target value="4800">
+      <comment>
+       <narrative xml:lang="EN">Number of people reached by unrestricted and unconditional cash transfers</narrative>
+      </comment>
+     </target>
+     <actual value="4800">
+      <comment>
+       <narrative xml:lang="EN">One time cash transfer was done in Arero. The cash tranfer in Gursum has been delayed due to the security situation in the area. However, beneficiaries were selected and the necessary preparations were undergoing to conduct the first cash transfer in Gursum soon in early August.</narrative>
       </comment>
      </actual>
     </period>
@@ -204,6 +187,23 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
      <actual value="4800"></actual>
     </period>
    </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people provided with resources to protect and start rebuilding livelihood assets</narrative>
+    </title>
+    <reference code="ICCO-239" indicator-uri="https://icco.promeva.nl/indicators.jsp?id=1" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-11-01"></period-end>
+     <target value="1500"></target>
+     <actual value="1500">
+      <comment>
+       <narrative xml:lang="EN">Target reached by Q3</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
   </result>
   <result aggregation-status="0" type="2">
    <title>
@@ -211,20 +211,43 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
    </title>
    <indicator ascending="1" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of people reached with hygiene promotion/awareness raising activities</narrative>
+    </title>
+    <reference code="ICCO-246" indicator-uri="https://icco.promeva.nl/indicators.jsp?id=1" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-06-29"></period-start>
+     <period-end iso-date="2020-11-01"></period-end>
+     <target value="25000"></target>
+     <actual value="100000">
+      <comment>
+       <narrative xml:lang="EN">Local radios were used in addition to mini-media and hence the coverage was beyond target kebeles and districts which was appreciated and liked by local government &amp; community.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-29"></period-end>
+     <target value="25000"></target>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">The activity will be implemented  in next reporting period.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-11-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="25000"></target>
+     <actual value="100000"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of people having regular access to soap to meet hygienic needs</narrative>
     </title>
     <reference code="ICCO-241" indicator-uri="https://icco.promeva.nl/indicators.jsp?id=1" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-29"></period-end>
-     <target value="2500"></target>
-     <actual value="1850">
-      <comment>
-       <narrative xml:lang="EN">The  implementation of the activity   was delayed due to security problem in Oromia/Ethiopia.</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2020-06-29"></period-start>
      <period-end iso-date="2020-11-01"></period-end>
@@ -232,6 +255,16 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
      <actual value="2500">
       <comment>
        <narrative xml:lang="EN">Score per 30/09/2020</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-29"></period-end>
+     <target value="2500"></target>
+     <actual value="1850">
+      <comment>
+       <narrative xml:lang="EN">The  implementation of the activity   was delayed due to security problem in Oromia/Ethiopia.</narrative>
       </comment>
      </actual>
     </period>
@@ -249,20 +282,6 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
     <reference code="ICCO-244" indicator-uri="https://icco.promeva.nl/indicators.jsp?id=1" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-29"></period-end>
-     <target value="2500">
-      <comment>
-       <narrative xml:lang="EN">These people will also be reached by the distribution of soap.</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">The activity will be implemented  in next reporting period.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-06-29"></period-start>
      <period-end iso-date="2020-11-01"></period-end>
      <target value="2500">
@@ -277,6 +296,20 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-29"></period-end>
+     <target value="2500">
+      <comment>
+       <narrative xml:lang="EN">These people will also be reached by the distribution of soap.</narrative>
+      </comment>
+     </target>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">The activity will be implemented  in next reporting period.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-11-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2500">
@@ -285,39 +318,6 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
       </comment>
      </target>
      <actual value="8000"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people reached with hygiene promotion/awareness raising activities</narrative>
-    </title>
-    <reference code="ICCO-246" indicator-uri="https://icco.promeva.nl/indicators.jsp?id=1" vocabulary="99"></reference>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-29"></period-end>
-     <target value="25000"></target>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">The activity will be implemented  in next reporting period.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-06-29"></period-start>
-     <period-end iso-date="2020-11-01"></period-end>
-     <target value="25000"></target>
-     <actual value="100000">
-      <comment>
-       <narrative xml:lang="EN">Local radios were used in addition to mini-media and hence the coverage was beyond target kebeles and districts which was appreciated and liked by local government &amp; community.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-11-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="25000"></target>
-     <actual value="100000"></actual>
     </period>
    </indicator>
   </result>
@@ -332,12 +332,6 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
     <reference code="ICCO-277" indicator-uri="https://icco.promeva.nl/indicators.jsp?id=1" vocabulary="99"></reference>
     <baseline value="0" year="2020"></baseline>
     <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-29"></period-end>
-     <target value="50"></target>
-     <actual value="45"></actual>
-    </period>
-    <period>
      <period-start iso-date="2020-06-29"></period-start>
      <period-end iso-date="2020-11-01"></period-end>
      <target value="50"></target>
@@ -346,6 +340,12 @@ Hundee implements in Arero Woreda and mainly focuses on Food Security and Liveli
        <narrative xml:lang="EN">Score per 30/09/2020</narrative>
       </comment>
      </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-29"></period-end>
+     <target value="50"></target>
+     <actual value="45"></actual>
     </period>
     <period>
      <period-start iso-date="2020-11-01"></period-start>

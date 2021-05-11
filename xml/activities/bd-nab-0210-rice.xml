@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="BDT" dstore:dataset="aab-activities" dstore:index="5" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity default-currency="BDT" dstore:dataset="aab-activities" dstore:index="5" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>BD-NAB-0210-RICE</iati-identifier>
   <reporting-org ref="BD-NAB-0210" type="21">
    <narrative xml:lang="EN">ActionAid Bangladesh</narrative>
@@ -11,14 +11,14 @@
   <description type="1">
    <narrative xml:lang="EN">Provide Multipurpose cash grants to targeted households and setup hand washing points in project working areas to ensure the hygiene practice and to reduce the speeding of the COVID-19 virus. Conduct awareness raising sessions on COVID-19. This support was provided to the RICE project participants as a cash grants to support their livelihoods and meet their basic needs during lockdown. And it also helps to avoid negative coping mechanism during lockdown period.</narrative>
   </description>
-  <participating-org ref="41AAA" role="1" type="40">
-   <narrative xml:lang="EN">United Nations Office for Project Services (UNOPS)</narrative>
-  </participating-org>
   <participating-org activity-id="BD-NAB-0210-RICE" ref="BD-NAB-0210" role="2" type="21">
    <narrative xml:lang="EN">ActionAid Bangladesh</narrative>
   </participating-org>
   <participating-org role="4" type="24">
    <narrative xml:lang="EN">Bangladesh Association for Community Education (BACE)</narrative>
+  </participating-org>
+  <participating-org ref="41AAA" role="1" type="40">
+   <narrative xml:lang="EN">United Nations Office for Project Services (UNOPS)</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
   <activity-date iso-date="2019-12-01" type="2"></activity-date>
@@ -37,43 +37,37 @@
   <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
-  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <default-aid-type code="4" vocabulary="2"></default-aid-type>
-  <default-aid-type code="I" vocabulary="3"></default-aid-type>
   <default-aid-type code="1" vocabulary="4"></default-aid-type>
+  <default-aid-type code="4" vocabulary="2"></default-aid-type>
+  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-aid-type code="I" vocabulary="3"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="1">
    <period-start iso-date="2019-12-01"></period-start>
    <period-end iso-date="2020-05-31"></period-end>
    <value currency="BDT" value-date="2019-12-01">39807472.0629042</value>
   </budget>
-  <transaction humanitarian="1" ref="Funds allocated by UNOPS to AAB">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2019-12-01"></transaction-date>
-   <value currency="BDT" value-date="2019-12-01">39807472.0629042</value>
+  <transaction humanitarian="1" ref="AAB costs">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="BDT" value-date="2020-05-31">5644488.49</value>
    <description>
-    <narrative xml:lang="EN">Funds allocated by UNOPS to AAB</narrative>
+    <narrative xml:lang="EN">AAB costs</narrative>
    </description>
-   <provider-org ref="41AAA" type="40">
-    <narrative xml:lang="EN">UNOPS</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="BD-NAB-0210-RICE" ref="BD-NAB-0210" type="21">
+   <provider-org provider-activity-id="BD-NAB-0210-RICE" ref="BD-NAB-0210" type="21">
     <narrative xml:lang="EN">AAB</narrative>
-   </receiver-org>
+   </provider-org>
   </transaction>
-  <transaction humanitarian="1" ref="Funds received from UNOPS by AAB">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-01"></transaction-date>
-   <value currency="BDT" value-date="2019-12-01">39807472.06</value>
+  <transaction humanitarian="1" ref="AAB&apos;s support to partner&apos;s capacity building">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-05-31"></transaction-date>
+   <value currency="BDT" value-date="2020-05-31">2623776</value>
    <description>
-    <narrative xml:lang="EN">Funds transferred from UNOPS to AAB</narrative>
+    <narrative xml:lang="EN">AAB&apos;s support to partner&apos;s capacity building</narrative>
    </description>
-   <provider-org ref="41AAA" type="40">
-    <narrative xml:lang="EN">UNOPS</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="BD-NAB-0210-RICE" ref="BD-NAB-0210" type="21">
+   <provider-org provider-activity-id="BD-NAB-0210-RICE" ref="BD-NAB-0210" type="21">
     <narrative xml:lang="EN">AAB</narrative>
-   </receiver-org>
+   </provider-org>
   </transaction>
   <transaction humanitarian="1" ref="Funds allocated by AAB to BACE">
    <transaction-type code="2"></transaction-type>
@@ -87,6 +81,20 @@
    </provider-org>
    <receiver-org type="24">
     <narrative xml:lang="EN">BACE</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Funds allocated by UNOPS to AAB">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2019-12-01"></transaction-date>
+   <value currency="BDT" value-date="2019-12-01">39807472.0629042</value>
+   <description>
+    <narrative xml:lang="EN">Funds allocated by UNOPS to AAB</narrative>
+   </description>
+   <provider-org ref="41AAA" type="40">
+    <narrative xml:lang="EN">UNOPS</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="BD-NAB-0210-RICE" ref="BD-NAB-0210" type="21">
+    <narrative xml:lang="EN">AAB</narrative>
    </receiver-org>
   </transaction>
   <transaction humanitarian="1" ref="Funds transferred by AAB to BACE - tranche 1">
@@ -145,27 +153,19 @@
     <narrative xml:lang="EN">BACE</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="AAB costs">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="BDT" value-date="2020-05-31">5644488.49</value>
+  <transaction humanitarian="1" ref="Funds received from UNOPS by AAB">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-12-01"></transaction-date>
+   <value currency="BDT" value-date="2019-12-01">39807472.06</value>
    <description>
-    <narrative xml:lang="EN">AAB costs</narrative>
+    <narrative xml:lang="EN">Funds transferred from UNOPS to AAB</narrative>
    </description>
-   <provider-org provider-activity-id="BD-NAB-0210-RICE" ref="BD-NAB-0210" type="21">
-    <narrative xml:lang="EN">AAB</narrative>
+   <provider-org ref="41AAA" type="40">
+    <narrative xml:lang="EN">UNOPS</narrative>
    </provider-org>
-  </transaction>
-  <transaction humanitarian="1" ref="AAB&apos;s support to partner&apos;s capacity building">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-05-31"></transaction-date>
-   <value currency="BDT" value-date="2020-05-31">2623776</value>
-   <description>
-    <narrative xml:lang="EN">AAB&apos;s support to partner&apos;s capacity building</narrative>
-   </description>
-   <provider-org provider-activity-id="BD-NAB-0210-RICE" ref="BD-NAB-0210" type="21">
+   <receiver-org receiver-activity-id="BD-NAB-0210-RICE" ref="BD-NAB-0210" type="21">
     <narrative xml:lang="EN">AAB</narrative>
-   </provider-org>
+   </receiver-org>
   </transaction>
  </iati-activity>
 </iati-activities>

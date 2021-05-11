@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="219" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="219" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-114</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -36,11 +36,11 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="LB" percentage="100"></recipient-country>
-  <sector code="72010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Material relief assistance and services</narrative>
-  </sector>
   <sector code="IA" percentage="50" vocabulary="99">
    <narrative xml:lang="EN">Industrial accident</narrative>
+  </sector>
+  <sector code="72010" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
   <sector code="OT" percentage="50" vocabulary="99">
    <narrative xml:lang="EN">Miscelleanous accident</narrative>
@@ -56,8 +56,8 @@
    <period-end iso-date="2021-08-03"></period-end>
    <value currency="EUR" value-date="2020-08-03">3979520</value>
   </budget>
+  <related-activity ref="NL-KVK-40409352-PRJ13-114-0001" type="2"></related-activity>
   <related-activity ref="NL-KVK-40409352-PRJ13-114-0003" type="2"></related-activity>
   <related-activity ref="NL-KVK-40409352-PRJ13-114-0004" type="2"></related-activity>
-  <related-activity ref="NL-KVK-40409352-PRJ13-114-0001" type="2"></related-activity>
  </iati-activity>
 </iati-activities>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity dstore:dataset="iom-activity" dstore:index="1568" hierarchy="1" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="iom-activity" dstore:index="1568" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47066-MP.0487</iati-identifier>
   <reporting-org ref="XM-DAC-47066" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
@@ -11,24 +11,24 @@
   <description>
    <narrative xml:lang="EN">The project contributes towards the COVID-19 preparedness and response capacity of Border Health in South Sudan. The aim is to support point of entry partners in establishing/maintaining a system for identifying, assessing, and managing alert or suspected COVID-19 cases, or potentially exposed persons during entry screening.</narrative>
   </description>
-  <participating-org activity-id="XM-DAC-41122" ref="XM-DAC-41122" role="1" type="40">
-   <narrative xml:lang="EN">UNITED NATIONS CHILDREN&apos;S FUND</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
   </participating-org>
+  <participating-org activity-id="XM-DAC-41122" ref="XM-DAC-41122" role="1" type="40">
+   <narrative xml:lang="EN">UNITED NATIONS CHILDREN&apos;S FUND</narrative>
+  </participating-org>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2020-04-06" type="1">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-04-06" type="2">
    <narrative xml:lang="EN">Actual</narrative>
   </activity-date>
-  <activity-date iso-date="2020-09-30" type="3">
-   <narrative xml:lang="EN">Planned</narrative>
-  </activity-date>
   <activity-date iso-date="2020-09-30" type="4">
    <narrative xml:lang="EN">Actual</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-04-06" type="1">
+   <narrative xml:lang="EN">Planned</narrative>
+  </activity-date>
+  <activity-date iso-date="2020-09-30" type="3">
+   <narrative xml:lang="EN">Planned</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -40,6 +40,14 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="SS" percentage="100"></recipient-country>
+  <location ref="SS">
+   <location-reach code="2"></location-reach>
+   <location-id code="SS" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="EN">South Sudan</narrative>
+   </name>
+   <administrative code="SS" vocabulary="A4"></administrative>
+  </location>
   <location>
    <location-reach code="1"></location-reach>
    <name>
@@ -52,22 +60,14 @@
    <location-class code="3"></location-class>
    <feature-designation code="BLDO"></feature-designation>
   </location>
-  <location ref="SS">
-   <location-reach code="2"></location-reach>
-   <location-id code="SS" vocabulary="A4"></location-id>
-   <name>
-    <narrative xml:lang="EN">South Sudan</narrative>
-   </name>
-   <administrative code="SS" vocabulary="A4"></administrative>
-  </location>
+  <sector code="72010" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
   <sector code="MP" percentage="100" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Migr Health Assist for Crisis Aff Pops</narrative>
   </sector>
   <sector code="02" percentage="100" vocabulary="98" vocabulary-uri="https://data.iom.int/codelist/sector.pdf">
    <narrative xml:lang="EN">Migration Health</narrative>
-  </sector>
-  <sector code="72010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
   <policy-marker code="NA" vocabulary="99" vocabulary-uri="https://data.iom.int/codelist/genderpolicy.pdf">
    <narrative xml:lang="EN">Not applicable. Project where gender equality is not relevant.</narrative>

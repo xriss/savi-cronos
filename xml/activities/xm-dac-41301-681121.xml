@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="5020" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="5020" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41301-681121</iati-identifier>
   <reporting-org ref="XM-DAC-41301" type="40">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
@@ -11,14 +11,14 @@
   <description type="2">
    <narrative xml:lang="FR">mobiliser des ressources internes et externes pour renforcer l?appui au Gouvernement et r&#xE9;pondre aux besoins accrus des populations vuln&#xE9;rables</narrative>
   </description>
-  <participating-org role="1">
-   <narrative xml:lang="EN">SFR - SFERA</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-41301" role="2">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-41301" role="4">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
+  </participating-org>
+  <participating-org role="1">
+   <narrative xml:lang="EN">SFR - SFERA</narrative>
   </participating-org>
   <other-identifier ref="OSRO/SEN/001/SFR" type="A1"></other-identifier>
   <activity-status code="2"></activity-status>
@@ -49,14 +49,6 @@
    <value currency="USD" value-date="2020-05-15">300000.18</value>
   </budget>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">56788.46</value>
-   <description>
-    <narrative xml:lang="EN">Total expenditure from 01 April 2020 to 30 June 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-06-30">300000.18</value>
@@ -65,15 +57,12 @@
    </description>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">300000</value>
+   <value currency="USD" value-date="2020-06-30">56788.46</value>
    <description>
-    <narrative xml:lang="EN">Total incoming funds from 01 April 2020 to 30 June 2020</narrative>
+    <narrative xml:lang="EN">Total expenditure from 01 April 2020 to 30 June 2020</narrative>
    </description>
-   <provider-org>
-    <narrative xml:lang="EN">SFR - SFERA</narrative>
-   </provider-org>
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
@@ -90,6 +79,17 @@
    <description>
     <narrative xml:lang="EN">Total expenditure from 01 October 2020 to 31 December 2020</narrative>
    </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-06-30"></transaction-date>
+   <value currency="USD" value-date="2020-06-30">300000</value>
+   <description>
+    <narrative xml:lang="EN">Total incoming funds from 01 April 2020 to 30 June 2020</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">SFR - SFERA</narrative>
+   </provider-org>
   </transaction>
  </iati-activity>
 </iati-activities>

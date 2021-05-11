@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="5000" hierarchy="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="5000" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41301-683561</iati-identifier>
   <reporting-org ref="XM-DAC-41301" type="40">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
@@ -11,14 +11,14 @@
   <description type="2">
    <narrative xml:lang="EN">Increase access to food for highly vulnerable families across the country; and Increase household incomes and rehabilitate food security assets in areas with high levels of food insecurity</narrative>
   </description>
-  <participating-org role="1">
-   <narrative xml:lang="EN">KSC - King Salman Humanitarian Aid and Relief Centre</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-41301" role="2">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-41301" role="4">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
+  </participating-org>
+  <participating-org role="1">
+   <narrative xml:lang="EN">KSC - King Salman Humanitarian Aid and Relief Centre</narrative>
   </participating-org>
   <other-identifier ref="OSRO/YEM/006/KSC" type="A1"></other-identifier>
   <activity-status code="2"></activity-status>
@@ -49,19 +49,19 @@
    <value currency="USD" value-date="2020-10-11">4999999.79</value>
   </budget>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">458270.62</value>
-   <description>
-    <narrative xml:lang="EN">Total expenditure from 01 October 2020 to 31 December 2020</narrative>
-   </description>
-  </transaction>
-  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">4999999.79</value>
    <description>
     <narrative xml:lang="EN">Total commitment from 01 October 2020 to 31 December 2020</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">458270.62</value>
+   <description>
+    <narrative xml:lang="EN">Total expenditure from 01 October 2020 to 31 December 2020</narrative>
    </description>
   </transaction>
   <transaction>

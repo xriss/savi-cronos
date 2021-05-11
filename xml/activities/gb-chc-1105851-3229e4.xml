@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities>
- <iati-activity default-currency="GBP" dstore:dataset="caid-activity" dstore:index="210" hierarchy="2" humanitarian="1" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore">
+<iati-activities version="2.02">
+ <iati-activity default-currency="GBP" dstore:dataset="caid-activity" dstore:index="210" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1105851-3229E4</iati-identifier>
   <reporting-org ref="GB-CHC-1105851" type="21">
    <narrative xml:lang="EN">Christian Aid</narrative>
@@ -40,9 +40,9 @@
   <recipient-country code="BD" percentage="100">
    <narrative xml:lang="EN">Bangladesh</narrative>
   </recipient-country>
-  <sector code="WATER &amp; SANITATION" percentage="33.34" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
   <sector code="EMERGENCY RESPONSE &#x2013; HEALTH" percentage="33.33" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
   <sector code="EMERGENCY RESPONSE &#x2013; WATER, SANITATION AND HYGIENE" percentage="33.33" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
+  <sector code="WATER &amp; SANITATION" percentage="33.34" vocabulary="99" vocabulary-uri="https://Christianaid.org.uk"></sector>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
@@ -52,20 +52,6 @@
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="GBP" value-date="2020-04-01">34860</value>
   </budget>
-  <transaction ref="91fdf472-e344-eb11-8784-005056be001c-i">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-23"></transaction-date>
-   <value currency="GBP" value-date="2020-12-23">34860</value>
-   <description>
-    <narrative xml:lang="EN">Internal allocation from income source to partner Project</narrative>
-   </description>
-   <provider-org provider-activity-id="GB-CHC-1105851-C73A9F" ref="GB-CHC-1105851" type="21">
-    <narrative xml:lang="EN">Christian Aid</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="GB-CHC-1105851-3229E4" ref="GB-CHC-1105851" type="21">
-    <narrative xml:lang="EN">Christian Aid</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="91fdf472-e344-eb11-8784-005056be001c-o">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-12-23"></transaction-date>
@@ -78,6 +64,20 @@
    </provider-org>
    <receiver-org type="22">
     <narrative xml:lang="EN">Dushtha Shasthya Kendra (DSK)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="91fdf472-e344-eb11-8784-005056be001c-i">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-23"></transaction-date>
+   <value currency="GBP" value-date="2020-12-23">34860</value>
+   <description>
+    <narrative xml:lang="EN">Internal allocation from income source to partner Project</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-CHC-1105851-C73A9F" ref="GB-CHC-1105851" type="21">
+    <narrative xml:lang="EN">Christian Aid</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="GB-CHC-1105851-3229E4" ref="GB-CHC-1105851" type="21">
+    <narrative xml:lang="EN">Christian Aid</narrative>
    </receiver-org>
   </transaction>
   <related-activity ref="GB-CHC-1105851-C73A9F" type="1"></related-activity>
