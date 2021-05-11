@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="1107" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="fao-activity" dstore:index="1107" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41301-597854</iati-identifier>
   <reporting-org ref="XM-DAC-41301" type="40">
    <narrative xml:lang="EN">Food and Agriculture Organization (FAO)</narrative>
@@ -22,11 +22,11 @@
   </participating-org>
   <other-identifier ref="OSRO/INS/509/EC" type="A1"></other-identifier>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2005-03-01" type="2">
-   <narrative xml:lang="EN">actual start date</narrative>
-  </activity-date>
   <activity-date iso-date="2006-06-30" type="4">
    <narrative xml:lang="EN">actual end date</narrative>
+  </activity-date>
+  <activity-date iso-date="2005-03-01" type="2">
+   <narrative xml:lang="EN">actual start date</narrative>
   </activity-date>
   <contact-info type="4">
    <email>FAO-IATI-queries@fao.org</email>
@@ -49,14 +49,6 @@
    <value currency="USD" value-date="2005-03-01">7118710</value>
   </budget>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-12-31">6641006.04</value>
-   <description>
-    <narrative xml:lang="EN">Total expenditure to 31 December 2016</narrative>
-   </description>
-  </transaction>
-  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
    <value currency="USD" value-date="2016-12-31">7118710</value>
@@ -65,15 +57,12 @@
    </description>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-12-31">6705501.16</value>
+   <value currency="USD" value-date="2016-12-31">6641006.04</value>
    <description>
-    <narrative xml:lang="EN">Total incoming funds to 31 December 2016</narrative>
+    <narrative xml:lang="EN">Total expenditure to 31 December 2016</narrative>
    </description>
-   <provider-org ref="XM-DAC-42000">
-    <narrative xml:lang="EN">EU Institutions</narrative>
-   </provider-org>
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
@@ -81,6 +70,17 @@
    <value currency="USD" value-date="2017-06-30">-182917.13</value>
    <description>
     <narrative xml:lang="EN">Total incoming funds from 01 April 2017 to 30 June 2017</narrative>
+   </description>
+   <provider-org ref="XM-DAC-42000">
+    <narrative xml:lang="EN">EU Institutions</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-12-31">6705501.16</value>
+   <description>
+    <narrative xml:lang="EN">Total incoming funds to 31 December 2016</narrative>
    </description>
    <provider-org ref="XM-DAC-42000">
     <narrative xml:lang="EN">EU Institutions</narrative>

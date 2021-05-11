@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="ofid-activity1" dstore:index="1037" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="ofid-activity1" dstore:index="1037" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="iati-activities-schema.xsd">
   <iati-identifier>XI-IATI-OFID-1180</iati-identifier>
   <reporting-org ref="XI-IATI-OFID" type="40">
    <narrative xml:lang="EN">The OPEC Fund for International Development (OFID)</narrative>
@@ -11,11 +11,11 @@
   <description>
    <narrative xml:lang="EN">To provide harbour facilities on the islands to facilitate inter-island travel and to support fishing activities which was completely destroyed by the Tsunami of 26 December 2004.</narrative>
   </description>
-  <participating-org role="IMPLEMENTING" type="21">
-   <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>
-  </participating-org>
   <participating-org role="FUNDING">
    <narrative xml:lang="EN">Government, SFD, ISDB</narrative>
+  </participating-org>
+  <participating-org role="IMPLEMENTING" type="21">
+   <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>
   </participating-org>
   <participating-org ref="XI-IATI-OFID" role="FUNDING" type="40">
    <narrative xml:lang="EN">OFID</narrative>
@@ -39,11 +39,53 @@
   <default-tied-status code="5"></default-tied-status>
   <transaction>
    <transaction-type code="C"></transaction-type>
+   <transaction-date iso-date="2001-12-31"></transaction-date>
+   <value currency="USD" value-date="2001-12-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Commitment</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">OFID</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="C"></transaction-type>
+   <transaction-date iso-date="2003-12-31"></transaction-date>
+   <value currency="USD" value-date="2003-12-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Commitment</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">OFID</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="C"></transaction-type>
    <transaction-date iso-date="2008-04-12"></transaction-date>
    <value currency="USD" value-date="2008-04-12">5549260.03</value>
    <description>
     <narrative xml:lang="EN">Commitment</narrative>
    </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="D"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="USD" value-date="2014-12-31">1317778.61</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="D"></transaction-type>
@@ -396,39 +438,11 @@
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="C"></transaction-type>
-   <transaction-date iso-date="2001-12-31"></transaction-date>
-   <value currency="USD" value-date="2001-12-31">0</value>
-   <description>
-    <narrative xml:lang="EN">Commitment</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">OFID</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
    <transaction-type code="D"></transaction-type>
    <transaction-date iso-date="2002-12-31"></transaction-date>
    <value currency="USD" value-date="2002-12-31">0</value>
    <description>
     <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">OFID</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="C"></transaction-type>
-   <transaction-date iso-date="2003-12-31"></transaction-date>
-   <value currency="USD" value-date="2003-12-31">0</value>
-   <description>
-    <narrative xml:lang="EN">Commitment</narrative>
    </description>
    <provider-org>
     <narrative xml:lang="EN">OFID</narrative>
@@ -572,20 +586,6 @@
    </description>
    <provider-org>
     <narrative xml:lang="EN">OFID</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="D"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="USD" value-date="2014-12-31">1317778.61</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>
    </provider-org>
    <receiver-org>
     <narrative xml:lang="EN">Ministry of Construction and Public Infrastructure (MCPI)</narrative>

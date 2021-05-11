@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2018" dstore:index="360" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2018" dstore:index="360" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:cerf="http://cerf-gms.unocha.org/CERF01" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-OCHA-CERF-18-RR-CEF-108</iati-identifier>
   <reporting-org ref="XM-OCHA-CERF" type="40">
    <narrative xml:lang="EN">UNOCHA - Central Emergency Response Fund (CERF)</narrative>
@@ -47,6 +47,16 @@
   <location>
    <location-reach code="1"></location-reach>
    <name>
+    <narrative xml:lang="EN">Donggala, Indonesia</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-0.4233155&#xA0;119.8352303</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
     <narrative xml:lang="EN">Palu, Donggala, Sigi, Parigi Moutong, Indonesia</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
@@ -67,10 +77,10 @@
   <location>
    <location-reach code="1"></location-reach>
    <name>
-    <narrative xml:lang="EN">Donggala, Indonesia</narrative>
+    <narrative xml:lang="EN">Parigi Moutong, Indonesia</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-0.4233155&#xA0;119.8352303</pos>
+    <pos>0.5817607&#xA0;120.8039474</pos>
    </point>
    <exactness code="2"></exactness>
   </location>
@@ -81,16 +91,6 @@
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-1.3859904&#xA0;119.8815203</pos>
-   </point>
-   <exactness code="2"></exactness>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <name>
-    <narrative xml:lang="EN">Parigi Moutong, Indonesia</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>0.5817607&#xA0;120.8039474</pos>
    </point>
    <exactness code="2"></exactness>
   </location>
@@ -152,26 +152,6 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Output 2</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Children are vaccinated against Measles and Rubella</narrative>
-   </description>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Number of children vaccinated against MR</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2018-10-10"></period-start>
-     <period-end iso-date="2019-04-09"></period-end>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
     <narrative xml:lang="EN">Output 3</narrative>
    </title>
    <description>
@@ -179,10 +159,10 @@
    </description>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 3.1</narrative>
+     <narrative xml:lang="EN">Indicator 3.3</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Number of population protected from malaria</narrative>
+     <narrative xml:lang="EN">Number of Long Lasting Insecticide Nets distributed</narrative>
     </description>
     <period>
      <period-start iso-date="2018-10-10"></period-start>
@@ -203,10 +183,30 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 3.3</narrative>
+     <narrative xml:lang="EN">Indicator 3.1</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Number of Long Lasting Insecticide Nets distributed</narrative>
+     <narrative xml:lang="EN">Number of population protected from malaria</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2018-10-10"></period-start>
+     <period-end iso-date="2019-04-09"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 2</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Children are vaccinated against Measles and Rubella</narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 2.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of children vaccinated against MR</narrative>
     </description>
     <period>
      <period-start iso-date="2018-10-10"></period-start>
