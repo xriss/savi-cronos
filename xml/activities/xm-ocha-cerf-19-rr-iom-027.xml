@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2019" dstore:index="335" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2019" dstore:index="335" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:cerf="http://cerf-gms.unocha.org/CERF01" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-OCHA-CERF-19-RR-IOM-027</iati-identifier>
   <reporting-org ref="XM-OCHA-CERF" type="40">
    <narrative xml:lang="EN">UNOCHA - Central Emergency Response Fund (CERF)</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">The main objective of this IOM project is to contribute to the interruption of the chain of transmission of Ebola Virus Disease in North Kivu and Ituri. With this CERF grant, IOM will procure and distribute WASH supplies and rehabilitate 100 screening sites at different points of entry in DRC. The project will last six months and will benefit 45,000,000 people (mainly the ones crossing the border) including 20,175,750 women and 1,874,250 girls.</narrative>
   </description>
-  <participating-org activity-id="XM-OCHA-CERF" crs-channel-code="41147" ref="XM-OCHA-CERF" role="1" type="40">
-   <narrative xml:lang="EN">OCHA Central Emergency Response Fund (CERF)</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
+  </participating-org>
+  <participating-org activity-id="XM-OCHA-CERF" crs-channel-code="41147" ref="XM-OCHA-CERF" role="1" type="40">
+   <narrative xml:lang="EN">OCHA Central Emergency Response Fund (CERF)</narrative>
   </participating-org>
   <other-identifier ref="19-RR-IOM-027" type="A1">
    <owner-org ref="XM-OCHA-CERF">
@@ -101,10 +101,10 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 1.2</narrative>
+     <narrative xml:lang="EN">Indicator 1.5</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Nombre de PoE/PoC o&#xF9; le d&#xE9;pistage est fonctionnel 24/7</narrative>
+     <narrative xml:lang="EN">Nombre d&apos;&apos;alertes report&#xE9;es &#xE0; partir des PoE/PoC et partag&#xE9;es avec la commission de surveillance</narrative>
     </description>
     <period>
      <period-start iso-date="2019-09-12"></period-start>
@@ -125,10 +125,10 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 1.4</narrative>
+     <narrative xml:lang="EN">Indicator 1.2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Nombre de voyageurs traversant les PoE / PoC soumis &#xE0; un d&#xE9;pistage sanitaire</narrative>
+     <narrative xml:lang="EN">Nombre de PoE/PoC o&#xF9; le d&#xE9;pistage est fonctionnel 24/7</narrative>
     </description>
     <period>
      <period-start iso-date="2019-09-12"></period-start>
@@ -137,10 +137,10 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 1.5</narrative>
+     <narrative xml:lang="EN">Indicator 1.4</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Nombre d&apos;&apos;alertes report&#xE9;es &#xE0; partir des PoE/PoC et partag&#xE9;es avec la commission de surveillance</narrative>
+     <narrative xml:lang="EN">Nombre de voyageurs traversant les PoE / PoC soumis &#xE0; un d&#xE9;pistage sanitaire</narrative>
     </description>
     <period>
      <period-start iso-date="2019-09-12"></period-start>
@@ -169,18 +169,6 @@
    </description>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 2.1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nombre de contacts intercept&#xE9;s aux POE / POC et r&#xE9;f&#xE9;r&#xE9;s &#xE0; l&apos;&apos;&#xE9;quipe de surveillance</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2019-09-12"></period-start>
-     <period-end iso-date="2020-03-11"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
      <narrative xml:lang="EN">Indicator 2.2</narrative>
     </title>
     <description>
@@ -203,6 +191,18 @@
      <period-end iso-date="2020-03-11"></period-end>
     </period>
    </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 2.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nombre de contacts intercept&#xE9;s aux POE / POC et r&#xE9;f&#xE9;r&#xE9;s &#xE0; l&apos;&apos;&#xE9;quipe de surveillance</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2019-09-12"></period-start>
+     <period-end iso-date="2020-03-11"></period-end>
+    </period>
+   </indicator>
   </result>
   <result aggregation-status="0" type="1">
    <title>
@@ -211,6 +211,18 @@
    <description>
     <narrative xml:lang="EN">Les activit&#xE9;s de coordination transfrontali&#xE8;re, de cartographie de la mobilit&#xE9; de la population et de surveillance des flux sont renforc&#xE9;es</narrative>
    </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 3.3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nombre de rapports sur la cartographie de la mobilit&#xE9; de la population (PMM) et de surveillance du flux de population (FMP) produits et partag&#xE9;s avec les partenaires de la riposte &#xE0; Ebola</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2019-09-12"></period-start>
+     <period-end iso-date="2020-03-11"></period-end>
+    </period>
+   </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
      <narrative xml:lang="EN">Indicator 3.1</narrative>
@@ -235,18 +247,6 @@
      <period-end iso-date="2020-03-11"></period-end>
     </period>
    </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 3.3</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nombre de rapports sur la cartographie de la mobilit&#xE9; de la population (PMM) et de surveillance du flux de population (FMP) produits et partag&#xE9;s avec les partenaires de la riposte &#xE0; Ebola</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2019-09-12"></period-start>
-     <period-end iso-date="2020-03-11"></period-end>
-    </period>
-   </indicator>
   </result>
   <result aggregation-status="0" type="1">
    <title>
@@ -257,10 +257,10 @@
    </description>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 4.1</narrative>
+     <narrative xml:lang="EN">Indicator 4.2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Nombre de PoE / PoC fournissant des activit&#xE9;s de communication des risques dirig&#xE9;es par des communicateurs de risques comp&#xE9;tents</narrative>
+     <narrative xml:lang="EN">Nombre d&apos;&apos;activit&#xE9; de communication sur les risques et l&apos;&apos;engagement communautaire organis&#xE9;es</narrative>
     </description>
     <period>
      <period-start iso-date="2019-09-12"></period-start>
@@ -269,10 +269,10 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 4.2</narrative>
+     <narrative xml:lang="EN">Indicator 4.1</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Nombre d&apos;&apos;activit&#xE9; de communication sur les risques et l&apos;&apos;engagement communautaire organis&#xE9;es</narrative>
+     <narrative xml:lang="EN">Nombre de PoE / PoC fournissant des activit&#xE9;s de communication des risques dirig&#xE9;es par des communicateurs de risques comp&#xE9;tents</narrative>
     </description>
     <period>
      <period-start iso-date="2019-09-12"></period-start>

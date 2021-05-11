@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2018" dstore:index="244" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2018" dstore:index="244" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:cerf="http://cerf-gms.unocha.org/CERF01" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-OCHA-CERF-18-RR-WHO-029</iati-identifier>
   <reporting-org ref="XM-OCHA-CERF" type="40">
    <narrative xml:lang="EN">UNOCHA - Central Emergency Response Fund (CERF)</narrative>
@@ -47,6 +47,16 @@
   <location>
    <location-reach code="1"></location-reach>
    <name>
+    <narrative xml:lang="EN">Beni, Democratic Republic of the Congo</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>0.4990124&#xA0;29.4527538</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <name>
     <narrative xml:lang="EN">Les zones de sant&#xE9; touch&#xE9;es par l&#x2019;&#xE9;pid&#xE9;mie de la MVE dans les provinces du Nord Kivu et de l&#x2019;Ituri, Democratic Republic of the Congo</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
@@ -71,16 +81,6 @@
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>0.6050843&#xA0;29.3105141</pos>
-   </point>
-   <exactness code="2"></exactness>
-  </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <name>
-    <narrative xml:lang="EN">Beni, Democratic Republic of the Congo</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>0.4990124&#xA0;29.4527538</pos>
    </point>
    <exactness code="2"></exactness>
   </location>
@@ -188,50 +188,6 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Output 2</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Les alertes des cas sont examin&#xE9;es rapidement et la recherche active des cas est efficace</narrative>
-   </description>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% des alertes de cas sont suivis par une mission d&#x2019;investigation</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2018-08-15"></period-start>
-     <period-end iso-date="2019-02-14"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% des cas pour lesquels un &#xE9;chantillon a &#xE9;t&#xE9; pr&#xE9;lev&#xE9; pour diagnostic de laboratoire</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2018-08-15"></period-start>
-     <period-end iso-date="2019-02-14"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.3</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">% de relais communautaires volontaires form&#xE9;s impliqu&#xE9;s dans la recherche active des cas</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2018-08-15"></period-start>
-     <period-end iso-date="2019-02-14"></period-end>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
     <narrative xml:lang="EN">Output 3</narrative>
    </title>
    <description>
@@ -267,6 +223,50 @@
     </title>
     <description>
      <narrative xml:lang="EN">Nombre des centres de sant&#xE9; et h&#xF4;pitaux appuy&#xE9;s par le projet</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2018-08-15"></period-start>
+     <period-end iso-date="2019-02-14"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 2</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Les alertes des cas sont examin&#xE9;es rapidement et la recherche active des cas est efficace</narrative>
+   </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 2.3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% de relais communautaires volontaires form&#xE9;s impliqu&#xE9;s dans la recherche active des cas</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2018-08-15"></period-start>
+     <period-end iso-date="2019-02-14"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 2.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% des alertes de cas sont suivis par une mission d&#x2019;investigation</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2018-08-15"></period-start>
+     <period-end iso-date="2019-02-14"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 2.2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% des cas pour lesquels un &#xE9;chantillon a &#xE9;t&#xE9; pr&#xE9;lev&#xE9; pour diagnostic de laboratoire</narrative>
     </description>
     <period>
      <period-start iso-date="2018-08-15"></period-start>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="922" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.02">
+ <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="922" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-031-0019</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -8,12 +8,6 @@
   <title>
    <narrative xml:lang="EN">Ebola Virus Preparedness</narrative>
   </title>
-  <description type="1">
-   <narrative xml:lang="EN">On 1 August 2018, just one week after the declaration of the end of the Ebola outbreak in Equator province, the 10th Ebola epidemic of the DRC was declared in the provinces of North Kivu and Ituri, which are among the most populated provinces in the DRC that also share borders with Uganda and Rwanda.</narrative>
-  </description>
-  <description type="1">
-   <narrative xml:lang="EN">there is a tangible risk of EVD transmission in Uganda, especially as the affected area of Mbalako in Beni (DRC) is approximately 100 km from the western border of Uganda, with active cross-border movements in and out of Kasese, Bundibugyo, and Ntoroko districts.</narrative>
-  </description>
   <description type="2">
    <narrative xml:lang="EN">1. Risk communication and community engagement
 2. Infection, prevention and control (IPC)
@@ -26,17 +20,23 @@
   <description type="1">
    <narrative xml:lang="EN">Ntoroko, Bundibugyo, Kasese, Kisoro, Kanungu and Kabarole</narrative>
   </description>
-  <participating-org ref="NL-KVK-40409352" role="1" type="21">
-   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-  </participating-org>
-  <participating-org ref="NL-KVK-40409352" role="2" type="21">
-   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-  </participating-org>
+  <description type="1">
+   <narrative xml:lang="EN">On 1 August 2018, just one week after the declaration of the end of the Ebola outbreak in Equator province, the 10th Ebola epidemic of the DRC was declared in the provinces of North Kivu and Ituri, which are among the most populated provinces in the DRC that also share borders with Uganda and Rwanda.</narrative>
+  </description>
+  <description type="1">
+   <narrative xml:lang="EN">there is a tangible risk of EVD transmission in Uganda, especially as the affected area of Mbalako in Beni (DRC) is approximately 100 km from the western border of Uganda, with active cross-border movements in and out of Kasese, Bundibugyo, and Ntoroko districts.</narrative>
+  </description>
   <participating-org ref="XM-DAC-21018" role="4" type="21">
    <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-7" role="1" type="10">
    <narrative xml:lang="EN">Ministerie van Buitenlandse Zaken (BuZa)</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-40409352" role="1" type="21">
+   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-40409352" role="2" type="21">
+   <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
   <activity-date iso-date="2018-09-10" type="2">
@@ -63,11 +63,11 @@
   <sector code="EP" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Epidemic</narrative>
   </sector>
-  <sector code="2" percentage="100" vocabulary="98">
-   <narrative xml:lang="EN">Response</narrative>
-  </sector>
   <sector code="72010" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
+  <sector code="2" percentage="100" vocabulary="98">
+   <narrative xml:lang="EN">Response</narrative>
   </sector>
   <humanitarian-scope code="MDRUG041" type="2" vocabulary="99" vocabulary-uri="http://ifrc.org/appeals"></humanitarian-scope>
   <collaboration-type code="1"></collaboration-type>
@@ -130,15 +130,6 @@
     </title>
     <baseline year="2018"></baseline>
     <period>
-     <period-start iso-date="2018-09-10"></period-start>
-     <period-end iso-date="2018-12-10"></period-end>
-     <target value="149300">
-      <comment>
-       <narrative xml:lang="EN">Total number of people to be assisted</narrative>
-      </comment>
-     </target>
-    </period>
-    <period>
      <period-start iso-date="2019-05-07"></period-start>
      <period-end iso-date="2020-02-11"></period-end>
      <actual value="700000">
@@ -146,6 +137,15 @@
        <narrative xml:lang="EN">Total number of people assisted</narrative>
       </comment>
      </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-09-10"></period-start>
+     <period-end iso-date="2018-12-10"></period-end>
+     <target value="149300">
+      <comment>
+       <narrative xml:lang="EN">Total number of people to be assisted</narrative>
+      </comment>
+     </target>
     </period>
    </indicator>
   </result>

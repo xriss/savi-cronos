@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="771" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.02">
+ <iati-activity default-currency="EUR" dstore:dataset="nlrc-activities" dstore:index="771" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-035-0007</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -9,28 +9,28 @@
    <narrative xml:lang="EN">DR Congo - Ebola Virus Disease Outbreak (DOB)</narrative>
   </title>
   <description type="1">
-   <narrative xml:lang="EN">Twelve months on, the virus continues to transmit at worrying levels. As of 15 September 2019 there have been a total of 3,129 cases and 2,095 deaths. The outbreak is still spreading fast and in the past 21 days there have been 209 cases. It is likely that this number is higher and some cases may not have been reported due to insecurity. This is the tenth and largest Ebola outbreak ever experienced in DRC and the second largest outbreak in the world after the 2014 outbreak in West-Africa.</narrative>
-  </description>
-  <description type="1">
-   <narrative xml:lang="EN">The situation in North Kivu is exacerbated by weakened health systems, endemic health issues, highly insecure areas, political instability and migratory flows. There have been several cases reported in Goma and as this is a major city in DRC, it dramatically increases the chances the outbreak spreading unless it is contained immediately.</narrative>
-  </description>
-  <description type="2">
-   <narrative xml:lang="EN">Water, Sanitation &amp; Hygi&#xEB;ne. Medical &amp; first aid.</narrative>
+   <narrative xml:lang="EN">North Kivu</narrative>
   </description>
   <description type="3">
    <narrative xml:lang="EN">Population around the area of Ebola outbreak.</narrative>
   </description>
   <description type="1">
-   <narrative xml:lang="EN">North Kivu</narrative>
+   <narrative xml:lang="EN">The situation in North Kivu is exacerbated by weakened health systems, endemic health issues, highly insecure areas, political instability and migratory flows. There have been several cases reported in Goma and as this is a major city in DRC, it dramatically increases the chances the outbreak spreading unless it is contained immediately.</narrative>
   </description>
+  <description type="1">
+   <narrative xml:lang="EN">Twelve months on, the virus continues to transmit at worrying levels. As of 15 September 2019 there have been a total of 3,129 cases and 2,095 deaths. The outbreak is still spreading fast and in the past 21 days there have been 209 cases. It is likely that this number is higher and some cases may not have been reported due to insecurity. This is the tenth and largest Ebola outbreak ever experienced in DRC and the second largest outbreak in the world after the 2014 outbreak in West-Africa.</narrative>
+  </description>
+  <description type="2">
+   <narrative xml:lang="EN">Water, Sanitation &amp; Hygi&#xEB;ne. Medical &amp; first aid.</narrative>
+  </description>
+  <participating-org ref="XM-DAC-21018" role="4" type="21">
+   <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
+  </participating-org>
   <participating-org ref="NL-KVK-40409352" role="1" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-40409352" role="2" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-  </participating-org>
-  <participating-org ref="XM-DAC-21018" role="4" type="21">
-   <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2019-09-14" type="2">
@@ -57,11 +57,11 @@
   <sector code="EP" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Epidemic</narrative>
   </sector>
-  <sector code="2" percentage="100" vocabulary="98">
-   <narrative xml:lang="EN">Response</narrative>
-  </sector>
   <sector code="72010" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
+  <sector code="2" percentage="100" vocabulary="98">
+   <narrative xml:lang="EN">Response</narrative>
   </sector>
   <humanitarian-scope code="EP-2018-000049-COD" type="1" vocabulary="1-2"></humanitarian-scope>
   <humanitarian-scope code="MDRCD026" type="2" vocabulary="99" vocabulary-uri="http://ifrc.org/appeals"></humanitarian-scope>
@@ -75,6 +75,20 @@
    <period-end iso-date="2020-09-29"></period-end>
    <value currency="EUR" value-date="2019-09-14">244617</value>
   </budget>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-05"></transaction-date>
+   <value currency="EUR" value-date="2019-11-05">14930</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-035-0007" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-21018" type="21">
+    <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
@@ -98,20 +112,6 @@
    </provider-org>
    <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-035-0007" ref="NL-KVK-40409352" type="21">
     <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-05"></transaction-date>
-   <value currency="EUR" value-date="2019-11-05">14930</value>
-   <description>
-    <narrative xml:lang="EN">Disbursement</narrative>
-   </description>
-   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-035-0007" ref="NL-KVK-40409352" type="21">
-    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-   </provider-org>
-   <receiver-org ref="XM-DAC-21018" type="21">
-    <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
    </receiver-org>
   </transaction>
   <related-activity ref="NL-KVK-40409352-PRJ13-035" type="1"></related-activity>

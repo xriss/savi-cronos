@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2021" dstore:index="23" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2021" dstore:index="23" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:cerf="http://cerf-gms.unocha.org/CERF01" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-OCHA-CERF-21-RR-IOM-003</iati-identifier>
   <reporting-org ref="XM-OCHA-CERF" type="40">
    <narrative xml:lang="EN">UNOCHA - Central Emergency Response Fund (CERF)</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">The main objective of this project is to provide life-saving health to vulnerable communities in regions affected by, and those at risk of, Ebola. This IOM project activates health screening points with hand-washing stations at strategic locations in the affected health zones, conducts contact tracking of known contacts with infected persons, and raises awareness and infection prevention and control measures. The project provides life-saving assistance to 595,000 people, including 121,000 women, 114,000 men, 360,000 children, and 105,000 people with disabilities.</narrative>
   </description>
-  <participating-org activity-id="XM-OCHA-CERF" crs-channel-code="41147" ref="XM-OCHA-CERF" role="1" type="40">
-   <narrative xml:lang="EN">OCHA Central Emergency Response Fund (CERF)</narrative>
-  </participating-org>
   <participating-org ref="XM-DAC-47066" role="2" type="40">
    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
+  </participating-org>
+  <participating-org activity-id="XM-OCHA-CERF" crs-channel-code="41147" ref="XM-OCHA-CERF" role="1" type="40">
+   <narrative xml:lang="EN">OCHA Central Emergency Response Fund (CERF)</narrative>
   </participating-org>
   <other-identifier ref="21-RR-IOM-003" type="A1">
    <owner-org ref="XM-OCHA-CERF">
@@ -82,38 +82,6 @@
   </conditions>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Output 1</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Health surveillance of mobile populations is strengthened through the analysis of risks linked to mobility patterns.</narrative>
-   </description>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 1.1</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"># of population mobility mapping exercises (PMM) conducted</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2021-03-15"></period-start>
-     <period-end iso-date="2021-09-14"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 1.2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"># of active flow monitoring points setup to inform Ebola response and preparedness programming</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2021-03-15"></period-start>
-     <period-end iso-date="2021-09-14"></period-end>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
     <narrative xml:lang="EN">Output 2</narrative>
    </title>
    <description>
@@ -145,6 +113,18 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
+     <narrative xml:lang="EN">Indicator 2.4</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">% frontline POC/PoE workers trained on SOP on management of sick travellers and IPC measures at POC</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2021-03-15"></period-start>
+     <period-end iso-date="2021-09-14"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
      <narrative xml:lang="EN">Indicator 2.3</narrative>
     </title>
     <description>
@@ -155,12 +135,32 @@
      <period-end iso-date="2021-09-14"></period-end>
     </period>
    </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Output 1</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Health surveillance of mobile populations is strengthened through the analysis of risks linked to mobility patterns.</narrative>
+   </description>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 2.4</narrative>
+     <narrative xml:lang="EN">Indicator 1.2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">% frontline POC/PoE workers trained on SOP on management of sick travellers and IPC measures at POC</narrative>
+     <narrative xml:lang="EN"># of active flow monitoring points setup to inform Ebola response and preparedness programming</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2021-03-15"></period-start>
+     <period-end iso-date="2021-09-14"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 1.1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"># of population mobility mapping exercises (PMM) conducted</narrative>
     </description>
     <period>
      <period-start iso-date="2021-03-15"></period-start>
@@ -175,6 +175,18 @@
    <description>
     <narrative xml:lang="EN">Travellers and communities living around POC/POE and along mobility corridors are informed of the risks of disease and the measures to prevent and control the infection.</narrative>
    </description>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 3.4</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"># community engagement events organised per health area</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2021-03-15"></period-start>
+     <period-end iso-date="2021-09-14"></period-end>
+    </period>
+   </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
      <narrative xml:lang="EN">Indicator 3.1</narrative>
@@ -205,18 +217,6 @@
     </title>
     <description>
      <narrative xml:lang="EN">% travellers receiving information on risk communication</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2021-03-15"></period-start>
-     <period-end iso-date="2021-09-14"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 3.4</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN"># community engagement events organised per health area</narrative>
     </description>
     <period>
      <period-start iso-date="2021-03-15"></period-start>

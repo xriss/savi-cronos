@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.03">
- <iati-activity default-currency="EUR" dstore:dataset="france-ml" dstore:index="5" hierarchy="1" iati-activities:version="2.03" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.01">
+ <iati-activity default-currency="EUR" dstore:dataset="france-ml" dstore:index="5" hierarchy="1" iati-activities:version="2.01" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>FR-6-ML-ML-52</iati-identifier>
   <reporting-org ref="FR-6" type="10">
    <narrative xml:lang="FR">MAEDI</narrative>
@@ -11,11 +11,11 @@
   <description>
    <narrative xml:lang="FR">La France s&#x2019;associe aux autres partenaires techniques et financiers afin de soutenir le syst&#xE8;me de sant&#xE9; malien dans la r&#xE9;ponse &#xE0; cette &#xE9;pid&#xE9;mie en privil&#xE9;giant, d&#x2019;une part, les actions pr&#xE9;ventives, et, d&#x2019;autre part, les actions d&#x2019;urgence d&#xE8;s l&#x2019;apparition des premiers cas.</narrative>
   </description>
-  <participating-org ref="FR-6" role="1" type="10">
-   <narrative xml:lang="FR">MAEDI</narrative>
-  </participating-org>
   <participating-org role="4">
    <narrative xml:lang="FR">Expertise France</narrative>
+  </participating-org>
+  <participating-org ref="FR-6" role="1" type="10">
+   <narrative xml:lang="FR">MAEDI</narrative>
   </participating-org>
   <participating-org ref="FR-99" role="3" type="10">
    <narrative xml:lang="FR">Service de Coop&#xE9;ration et d&apos;Action Culturelle</narrative>
@@ -24,19 +24,6 @@
   <activity-date iso-date="2014-12-01" type="1"></activity-date>
   <activity-date iso-date="2016-12-31" type="3"></activity-date>
   <recipient-country code="ML" percentage="100"></recipient-country>
-  <location>
-   <location-reach code="1"></location-reach>
-   <location-id code="2460594" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="FR">Bamako Region</narrative>
-   </name>
-   <administrative code="2460594" level="1" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>12.65 -8</pos>
-   </point>
-   <location-class code="1"></location-class>
-   <feature-designation code="ADMD"></feature-designation>
-  </location>
   <location>
    <location-reach code="1"></location-reach>
    <location-id code="2451184" vocabulary="G1"></location-id>
@@ -63,6 +50,19 @@
    <location-class code="1"></location-class>
    <feature-designation code="ADMD"></feature-designation>
   </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="2460594" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="FR">Bamako Region</narrative>
+   </name>
+   <administrative code="2460594" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>12.65 -8</pos>
+   </point>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADMD"></feature-designation>
+  </location>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -79,8 +79,8 @@
   </transaction>
   <transaction ref="5-D">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-05-10"></transaction-date>
-   <value currency="EUR" value-date="2021-05-10">200000</value>
+   <transaction-date iso-date="2021-05-11"></transaction-date>
+   <value currency="EUR" value-date="2021-05-11">200000</value>
    <description>
     <narrative xml:lang="FR">Total disbursements</narrative>
    </description>

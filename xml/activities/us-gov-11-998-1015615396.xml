@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="unitedstates-998-part-22" dstore:index="719" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unitedstates-998-part-22" dstore:index="719" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="http://www.foreignassistance.gov" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>US-GOV-11-998-1015615396</iati-identifier>
   <reporting-org ref="US-USAGOV" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
@@ -11,6 +11,9 @@
   <description>
    <narrative xml:lang="EN">[Covers services supplied by other U.S. Government agencies not otherwise classified.]. SUPPLY/TRANSP/PROCUREMENT[Covers services supplied by other U.S. Government agencies not otherwise classified.]</narrative>
   </description>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">DFAS - ADDO/DE</narrative>
+  </participating-org>
   <participating-org ref="US-USAGOV" role="1" type="10">
    <narrative xml:lang="EN">The federal government of the United States</narrative>
   </participating-org>
@@ -20,9 +23,6 @@
   </participating-org>
   <participating-org ref="US-GOV-11" role="3" type="10">
    <narrative xml:lang="EN">U.S. Department of State</narrative>
-  </participating-org>
-  <participating-org role="4" type="10">
-   <narrative xml:lang="EN">DFAS - ADDO/DE</narrative>
   </participating-org>
   <other-identifier ref="US-GOV" type="B1">
    <owner-org ref="US-USAGOV">
@@ -84,9 +84,9 @@
    </usg:treasury-account>
   </transaction>
   <transaction humanitarian="0">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-10-21"></transaction-date>
-   <value currency="USD" value-date="2016-10-21">2200000</value>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-09-28"></transaction-date>
+   <value currency="USD" value-date="2016-09-28">2200000</value>
    <description>
     <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
    </description>
@@ -103,9 +103,9 @@
    </usg:treasury-account>
   </transaction>
   <transaction humanitarian="0">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-09-28"></transaction-date>
-   <value currency="USD" value-date="2016-09-28">2200000</value>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-10-21"></transaction-date>
+   <value currency="USD" value-date="2016-10-21">2200000</value>
    <description>
     <narrative xml:lang="EN">Original - OTH GOVT AG CONTR SV</narrative>
    </description>
@@ -140,11 +140,11 @@
     <usg:regular-account code="11"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <document-link format="TEXT/HTML" url="http://fpds.gov">
+  <document-link format="APPLICATION/PDF" url="https://www.state.gov/wp-content/uploads/2020/06/DRL-ROL_EvaluationReport_111919.pdf">
    <title>
-    <narrative xml:lang="EN">Federal Procurement Data System</narrative>
+    <narrative xml:lang="EN">Ex Post Evaluation of DRL Rule of Law (ROL) Programs (2011-2016)</narrative>
    </title>
-   <category code="A11"></category>
+   <category code="A07"></category>
    <language code="EN"></language>
   </document-link>
   <document-link format="TEXT/HTML" url="http://fbo.gov">
@@ -161,11 +161,11 @@
    <category code="A10"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.state.gov/wp-content/uploads/2020/06/DRL-ROL_EvaluationReport_111919.pdf">
+  <document-link format="TEXT/HTML" url="http://fpds.gov">
    <title>
-    <narrative xml:lang="EN">Ex Post Evaluation of DRL Rule of Law (ROL) Programs (2011-2016)</narrative>
+    <narrative xml:lang="EN">Federal Procurement Data System</narrative>
    </title>
-   <category code="A07"></category>
+   <category code="A11"></category>
    <language code="EN"></language>
   </document-link>
   <conditions attached="0"></conditions>

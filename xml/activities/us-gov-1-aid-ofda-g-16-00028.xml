@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="usaid-gn" dstore:index="256" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-gn" dstore:index="256" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-AID-OFDA-G-16-00028</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -13,6 +13,9 @@
    <narrative xml:lang="EN">USAID/OFDA Grant for West Africa Ebola</narrative>
    <narrative xml:lang="FR">USAID/OFDA Grant pour l&apos;Afrique de l&apos;ouest Ebola</narrative>
   </description>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">International Medical Corps</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
@@ -21,9 +24,6 @@
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">International Medical Corps</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2016-03-15" type="1"></activity-date>
@@ -226,11 +226,11 @@
    <transaction-date iso-date="2016-12-31"></transaction-date>
    <value currency="USD" value-date="2016-12-31">12071</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72050" vocabulary="1">
-    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
-   </sector>
    <sector code="7001" vocabulary="99">
     <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <sector code="72050" vocabulary="1">
+    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
    </sector>
    <recipient-country code="GN"></recipient-country>
    <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>
@@ -245,11 +245,11 @@
    <transaction-date iso-date="2019-03-31"></transaction-date>
    <value currency="USD" value-date="2019-03-31">-12071</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72050" vocabulary="1">
-    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
-   </sector>
    <sector code="7001" vocabulary="99">
     <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <sector code="72050" vocabulary="1">
+    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
    </sector>
    <recipient-country code="GN"></recipient-country>
    <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>

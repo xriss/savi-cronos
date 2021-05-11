@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="unpf-2015" dstore:index="4517" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unpf-2015" dstore:index="4517" hierarchy="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XI-IATI-UNPF-MPTF00109</iati-identifier>
   <reporting-org ref="XI-IATI-UNPF" type="40">
    <narrative xml:lang="EN">UN Pooled Funds</narrative>
@@ -11,14 +11,20 @@
   <description type="1">
    <narrative xml:lang="EN">Ebola Response MPTF</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="2" type="40">
-   <narrative xml:lang="EN">Multi-Partner Trust Fund Office</narrative>
+  <participating-org ref="BE-10" role="1" type="40">
+   <narrative xml:lang="EN">BELGIUM, Government of</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">BOLIVIA, Government of</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">CHINA, Government of</narrative>
+  </participating-org>
+  <participating-org ref="CZ" role="1" type="40">
+   <narrative xml:lang="EN">CZECH REPUBLIC, Government of</narrative>
+  </participating-org>
+  <participating-org ref="CA-4" role="1" type="40">
+   <narrative xml:lang="EN">Canada, Government of</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">GUYANA, Government of</narrative>
@@ -38,6 +44,9 @@
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">MAURITIUS, Government of</narrative>
   </participating-org>
+  <participating-org ref="XM-DAC-41114" role="2" type="40">
+   <narrative xml:lang="EN">Multi-Partner Trust Fund Office</narrative>
+  </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">PERU, Government of</narrative>
   </participating-org>
@@ -47,11 +56,17 @@
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">PORTUGAL, Government of</narrative>
   </participating-org>
+  <participating-org role="1" type="70">
+   <narrative xml:lang="EN">PRIVATE SECTOR</narrative>
+  </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">REPUBLIC of KOREA, Government of</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">RUSSIAN FEDERATION, Government of</narrative>
+  </participating-org>
+  <participating-org ref="CH-4" role="1" type="40">
+   <narrative xml:lang="EN">Swiss Agency for Development and Co-operation</narrative>
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">TOGO, Government of</narrative>
@@ -64,21 +79,6 @@
   </participating-org>
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">VENEZUELA, Government of</narrative>
-  </participating-org>
-  <participating-org role="1" type="70">
-   <narrative xml:lang="EN">PRIVATE SECTOR</narrative>
-  </participating-org>
-  <participating-org ref="BE-10" role="1" type="40">
-   <narrative xml:lang="EN">BELGIUM, Government of</narrative>
-  </participating-org>
-  <participating-org ref="CA-4" role="1" type="40">
-   <narrative xml:lang="EN">Canada, Government of</narrative>
-  </participating-org>
-  <participating-org ref="CH-4" role="1" type="40">
-   <narrative xml:lang="EN">Swiss Agency for Development and Co-operation</narrative>
-  </participating-org>
-  <participating-org ref="CZ" role="1" type="40">
-   <narrative xml:lang="EN">CZECH REPUBLIC, Government of</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2014-01-01" type="1"></activity-date>
@@ -102,9 +102,20 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">1581</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">TOGO, Government of</narrative>
+   <value currency="USD" value-date="2015-12-31">4545028</value>
+   <provider-org ref="BE-10" type="40">
+    <narrative xml:lang="EN">BELGIUM, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-12-31">4400000</value>
+   <provider-org ref="BE-10" type="40">
+    <narrative xml:lang="EN">BELGIUM, Government of</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
     <narrative xml:lang="EN">UN Pooled Funds</narrative>
@@ -113,9 +124,9 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">7050</value>
-   <provider-org type="70">
-    <narrative xml:lang="EN">PRIVATE SECTOR</narrative>
+   <value currency="USD" value-date="2015-12-31">1000000</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">BOLIVIA, Government of</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
     <narrative xml:lang="EN">UN Pooled Funds</narrative>
@@ -124,9 +135,9 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">20000</value>
+   <value currency="USD" value-date="2015-12-31">5000000</value>
    <provider-org type="40">
-    <narrative xml:lang="EN">HOLY SEE</narrative>
+    <narrative xml:lang="EN">CHINA, Government of</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
     <narrative xml:lang="EN">UN Pooled Funds</narrative>
@@ -135,9 +146,9 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">20000</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">MAURITIUS, Government of</narrative>
+   <value currency="USD" value-date="2015-12-31">205052</value>
+   <provider-org ref="CZ" type="40">
+    <narrative xml:lang="EN">CZECH REPUBLIC, Government of</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
     <narrative xml:lang="EN">UN Pooled Funds</narrative>
@@ -146,31 +157,9 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">30293</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">PORTUGAL, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">48479</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">PERU, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">50000</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">KAZAKHSTAN, Government of</narrative>
+   <value currency="USD" value-date="2015-12-31">3585176</value>
+   <provider-org ref="CA-4" type="40">
+    <narrative xml:lang="EN">Canada, Government of</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
     <narrative xml:lang="EN">UN Pooled Funds</narrative>
@@ -190,9 +179,152 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">20000</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">HOLY SEE</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">50000</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">KAZAKHSTAN, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">653120</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">LUXEMBOURG, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
    <value currency="USD" value-date="2015-12-31">100000</value>
    <provider-org type="40">
     <narrative xml:lang="EN">MALAYSIA, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">20000</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">MAURITIUS, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">48479</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">PERU, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">2041742</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">PHILIPPINES, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">30293</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">PORTUGAL, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">7050</value>
+   <provider-org type="70">
+    <narrative xml:lang="EN">PRIVATE SECTOR</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">5000000</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">REPUBLIC of KOREA, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">1000000</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">RUSSIAN FEDERATION, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">4927079</value>
+   <provider-org ref="CH-4" type="40">
+    <narrative xml:lang="EN">Swiss Agency for Development and Co-operation</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">1581</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">TOGO, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-12-31">1500000</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">TURKEY, Government of</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
     <narrative xml:lang="EN">UN Pooled Funds</narrative>
@@ -221,149 +353,6 @@
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">205052</value>
-   <provider-org ref="CZ" type="40">
-    <narrative xml:lang="EN">CZECH REPUBLIC, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">653120</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">LUXEMBOURG, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">1000000</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">BOLIVIA, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">1000000</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">RUSSIAN FEDERATION, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-12-31">1500000</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">TURKEY, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">2041742</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">PHILIPPINES, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">3585176</value>
-   <provider-org ref="CA-4" type="40">
-    <narrative xml:lang="EN">Canada, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-12-31">4400000</value>
-   <provider-org ref="BE-10" type="40">
-    <narrative xml:lang="EN">BELGIUM, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">4545028</value>
-   <provider-org ref="BE-10" type="40">
-    <narrative xml:lang="EN">BELGIUM, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">4927079</value>
-   <provider-org ref="CH-4" type="40">
-    <narrative xml:lang="EN">Swiss Agency for Development and Co-operation</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">5000000</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">CHINA, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">5000000</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">REPUBLIC of KOREA, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">5000000</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">VENEZUELA, Government of</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
-    <narrative xml:lang="EN">UN Pooled Funds</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
    <value currency="USD" value-date="2015-12-31">334150</value>
@@ -378,6 +367,17 @@
    <provider-org provider-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
     <narrative xml:lang="EN">UN Pooled Funds</narrative>
    </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">5000000</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">VENEZUELA, Government of</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-UNPF-MPTF00109" ref="XI-IATI-UNPF" type="40">
+    <narrative xml:lang="EN">UN Pooled Funds</narrative>
+   </receiver-org>
   </transaction>
   <related-activity ref="XI-IATI-UNPF-00092448" type="2"></related-activity>
   <related-activity ref="XI-IATI-UNPF-00092450" type="2"></related-activity>

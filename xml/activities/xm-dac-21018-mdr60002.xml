@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="CHF" dstore:dataset="ifrcrcs-act201903" dstore:index="54" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="CHF" dstore:dataset="ifrcrcs-act201906" dstore:index="32" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="iati-activities-schema.xsd">
   <iati-identifier>XM-DAC-21018-MDR60002</iati-identifier>
   <reporting-org ref="XM-DAC-21018" type="90">
    <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
@@ -11,9 +11,6 @@
   <description>
    <narrative xml:lang="EN">The IFRC launches Emergency appeals at the request of and in support of the National Society in the country of operation. Emergency operations are supported by partners from across the Red Cross Red Crescent Movement.</narrative>
   </description>
-  <participating-org ref="XM-DAC-21018" role="4" type="90">
-   <narrative xml:lang="EN">The IFRC always works together with the RCRC Society in the country of operation</narrative>
-  </participating-org>
   <participating-org role="1">
    <narrative xml:lang="EN">American Red Cross</narrative>
   </participating-org>
@@ -23,11 +20,14 @@
   <participating-org role="1">
    <narrative xml:lang="EN">Australian Red Cross</narrative>
   </participating-org>
-  <participating-org role="1">
-   <narrative xml:lang="EN">Danish Red Cross</narrative>
+  <participating-org ref="GB-CHC-220949" role="1" type="21">
+   <narrative xml:lang="EN">British Red Cross</narrative>
   </participating-org>
   <participating-org role="1">
    <narrative xml:lang="EN">DFID Partnership Allocations</narrative>
+  </participating-org>
+  <participating-org role="1">
+   <narrative xml:lang="EN">Danish Red Cross</narrative>
   </participating-org>
   <participating-org role="1">
    <narrative xml:lang="EN">European Commission - DG ECHO</narrative>
@@ -42,13 +42,13 @@
    <narrative xml:lang="EN">German Red Cross</narrative>
   </participating-org>
   <participating-org role="1">
-   <narrative xml:lang="EN">Icelandic Red Cross</narrative>
-  </participating-org>
-  <participating-org role="1">
    <narrative xml:lang="EN">ICRC</narrative>
   </participating-org>
   <participating-org role="1">
    <narrative xml:lang="EN">IFRC</narrative>
+  </participating-org>
+  <participating-org role="1">
+   <narrative xml:lang="EN">Icelandic Red Cross</narrative>
   </participating-org>
   <participating-org role="1">
    <narrative xml:lang="EN">Informa</narrative>
@@ -110,6 +110,9 @@
   <participating-org role="1">
    <narrative xml:lang="EN">The Canadian Red Cross Society</narrative>
   </participating-org>
+  <participating-org ref="XM-DAC-21018" role="4" type="90">
+   <narrative xml:lang="EN">The IFRC always works together with the RCRC Society in the country of operation</narrative>
+  </participating-org>
   <participating-org role="1">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
   </participating-org>
@@ -131,9 +134,6 @@
   <participating-org role="1">
    <narrative xml:lang="EN">World Cocoa Foundation</narrative>
   </participating-org>
-  <participating-org ref="GB-CHC-220949" role="1" type="21">
-   <narrative xml:lang="EN">British Red Cross</narrative>
-  </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2014-08-19" type="2"></activity-date>
   <activity-date iso-date="2017-03-31" type="3"></activity-date>
@@ -146,16 +146,32 @@
   </recipient-region>
   <sector code="72010" percentage="100" vocabulary="1"></sector>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <budget status="1" type="1">
-   <period-start iso-date="2014-08-19"></period-start>
-   <period-end iso-date="2017-03-31"></period-end>
-   <value currency="CHF" value-date="2014-08-19">2893667.0563</value>
-  </budget>
   <budget status="1" type="2">
    <period-start iso-date="2014-08-19"></period-start>
    <period-end iso-date="2017-03-31"></period-end>
    <value currency="CHF" value-date="2014-08-19">13270892.2266</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2014-08-19"></period-start>
+   <period-end iso-date="2017-03-31"></period-end>
+   <value currency="CHF" value-date="2014-08-19">2893667.0563</value>
+  </budget>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">318292.46</value>
+   <provider-org ref="DUS001">
+    <narrative xml:lang="EN">American Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="CHF" value-date="2019-12-31">-50507.08</value>
+   <provider-org ref="DUS001">
+    <narrative xml:lang="EN">American Red Cross</narrative>
+   </provider-org>
+  </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
@@ -183,49 +199,17 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">509936.7</value>
-   <provider-org ref="DCA001">
-    <narrative xml:lang="EN">The Canadian Red Cross Society</narrative>
+   <value currency="CHF" value-date="2014-12-31">151378.4</value>
+   <provider-org ref="DGB001">
+    <narrative xml:lang="EN">British Red Cross</narrative>
    </provider-org>
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">88541.3</value>
-   <provider-org ref="DCA001">
-    <narrative xml:lang="EN">The Canadian Red Cross Society</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">55177.9</value>
-   <provider-org ref="DCH001">
-    <narrative xml:lang="EN">Swiss Red Cross</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">571.7</value>
-   <provider-org ref="DCH003">
-    <narrative xml:lang="EN">Switzerland - Private Donors</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">835.4</value>
-   <provider-org ref="DCH003">
-    <narrative xml:lang="EN">Switzerland - Private Donors</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">21386.8</value>
-   <provider-org ref="DDE001">
-    <narrative xml:lang="EN">German Red Cross</narrative>
+   <value currency="CHF" value-date="2015-12-31">22831.68</value>
+   <provider-org ref="DGB001">
+    <narrative xml:lang="EN">British Red Cross</narrative>
    </provider-org>
   </transaction>
   <transaction>
@@ -266,22 +250,6 @@
    <value currency="CHF" value-date="2016-12-31">817.95</value>
    <provider-org ref="DEC010">
     <narrative xml:lang="EN">European Commission - DG ECHO</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">842141.73</value>
-   <provider-org ref="DES002">
-    <narrative xml:lang="EN">Spanish Government</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">-89074.73</value>
-   <provider-org ref="DES002">
-    <narrative xml:lang="EN">Spanish Government</narrative>
    </provider-org>
   </transaction>
   <transaction>
@@ -334,18 +302,10 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">151378.4</value>
-   <provider-org ref="DGB001">
-    <narrative xml:lang="EN">British Red Cross</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">22831.68</value>
-   <provider-org ref="DGB001">
-    <narrative xml:lang="EN">British Red Cross</narrative>
+   <value currency="CHF" value-date="2015-12-31">21386.8</value>
+   <provider-org ref="DDE001">
+    <narrative xml:lang="EN">German Red Cross</narrative>
    </provider-org>
   </transaction>
   <transaction>
@@ -354,22 +314,6 @@
    <value currency="CHF" value-date="2015-12-31">10000</value>
    <provider-org ref="DIC010">
     <narrative xml:lang="EN">ICRC</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">36100.52</value>
-   <provider-org ref="DIE001">
-    <narrative xml:lang="EN">Irish Red Cross Society</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">37051.65</value>
-   <provider-org ref="DIE001">
-    <narrative xml:lang="EN">Irish Red Cross Society</narrative>
    </provider-org>
   </transaction>
   <transaction>
@@ -383,22 +327,6 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">9652.51</value>
-   <provider-org ref="DIL003">
-    <narrative xml:lang="EN">Israel - Private Donors</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">47.61</value>
-   <provider-org ref="DIN037">
-    <narrative xml:lang="EN">Informa</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
    <value currency="CHF" value-date="2014-12-31">160000</value>
    <provider-org ref="DIS001">
     <narrative xml:lang="EN">Icelandic Red Cross</narrative>
@@ -407,249 +335,9 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">216883.98</value>
-   <provider-org ref="DIT001">
-    <narrative xml:lang="EN">Italian Red Cross</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="CHF" value-date="2016-12-31">-2251.98</value>
-   <provider-org ref="DIT001">
-    <narrative xml:lang="EN">Italian Red Cross</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">87578.71</value>
-   <provider-org ref="DJP001">
-    <narrative xml:lang="EN">Japanese Red Cross Society</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">52739.79</value>
-   <provider-org ref="DJP002">
-    <narrative xml:lang="EN">Japanese Government</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="CHF" value-date="2016-12-31">613306.13</value>
-   <provider-org ref="DJP002">
-    <narrative xml:lang="EN">Japanese Government</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="CHF" value-date="2017-12-31">5479.83</value>
-   <provider-org ref="DJP002">
-    <narrative xml:lang="EN">Japanese Government</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="CHF" value-date="2016-12-31">3965.43</value>
-   <provider-org ref="DKP010">
-    <narrative xml:lang="EN">KPMG Disaster Relief Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">20119.9</value>
-   <provider-org ref="DKP011">
-    <narrative xml:lang="EN">KPMG International Cooperative(KPMG-I)</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">2823.79</value>
-   <provider-org ref="DLU003">
-    <narrative xml:lang="EN">Luxembourg - Private Donors</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">33685.67</value>
-   <provider-org ref="DMC001">
-    <narrative xml:lang="EN">Red Cross of Monaco</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">-5494.42</value>
-   <provider-org ref="DMC001">
-    <narrative xml:lang="EN">Red Cross of Monaco</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="CHF" value-date="2016-12-31">1650.33</value>
-   <provider-org ref="DMC001">
-    <narrative xml:lang="EN">Red Cross of Monaco</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">24030.4</value>
-   <provider-org ref="DMC002">
-    <narrative xml:lang="EN">Monaco Government</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">376.09</value>
-   <provider-org ref="DNE010">
-    <narrative xml:lang="EN">Nestle</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">965447.91</value>
-   <provider-org ref="DNL001">
-    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">130369.79</value>
-   <provider-org ref="DNL001">
-    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="CHF" value-date="2016-12-31">35600</value>
-   <provider-org ref="DNZ001">
-    <narrative xml:lang="EN">New Zealand Red Cross</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">88606.85</value>
-   <provider-org ref="DON010">
-    <narrative xml:lang="EN">On Line donations</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">3967.37</value>
-   <provider-org ref="DON010">
-    <narrative xml:lang="EN">On Line donations</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">24110.1</value>
-   <provider-org ref="DPH001">
-    <narrative xml:lang="EN">The Philippine National Red Cross</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">367.21</value>
-   <provider-org ref="DPH013">
-    <narrative xml:lang="EN">Philips Foundation</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">9500.69</value>
-   <provider-org ref="DQA001">
-    <narrative xml:lang="EN">Qatar Red Crescent Society</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">199676</value>
-   <provider-org ref="DTH001">
-    <narrative xml:lang="EN">The Thai Red Cross Society</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">254781.73</value>
-   <provider-org ref="DUN013">
-    <narrative xml:lang="EN">UNDP - United Nations Development Programme</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="CHF" value-date="2016-12-31">2647.4</value>
-   <provider-org ref="DUN013">
-    <narrative xml:lang="EN">UNDP - United Nations Development Programme</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">46579.75</value>
-   <provider-org ref="DUN016">
-    <narrative xml:lang="EN">UNICEF - United Nations Children&apos;s Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="CHF" value-date="2016-12-31">322.97</value>
-   <provider-org ref="DUN016">
-    <narrative xml:lang="EN">UNICEF - United Nations Children&apos;s Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">6230</value>
-   <provider-org ref="DUN999">
-    <narrative xml:lang="EN">Unidentified donor</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">318292.46</value>
-   <provider-org ref="DUS001">
-    <narrative xml:lang="EN">American Red Cross</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="CHF" value-date="2014-12-31">66394.76</value>
-   <provider-org ref="DWO015">
-    <narrative xml:lang="EN">World Cocoa Foundation</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="CHF" value-date="2015-12-31">72203.06</value>
-   <provider-org ref="DWO015">
-    <narrative xml:lang="EN">World Cocoa Foundation</narrative>
+   <value currency="CHF" value-date="2015-12-31">47.61</value>
+   <provider-org ref="DIN037">
+    <narrative xml:lang="EN">Informa</narrative>
    </provider-org>
   </transaction>
   <transaction>
@@ -694,10 +382,346 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-02-28"></transaction-date>
-   <value currency="CHF" value-date="2019-02-28">1445.39</value>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="CHF" value-date="2019-12-31">1701.62</value>
    <provider-org ref="XM-DAC-21018">
     <narrative xml:lang="EN">International Federation of Red Cross and Red Crescent Societies</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">36100.52</value>
+   <provider-org ref="DIE001">
+    <narrative xml:lang="EN">Irish Red Cross Society</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">37051.65</value>
+   <provider-org ref="DIE001">
+    <narrative xml:lang="EN">Irish Red Cross Society</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">9652.51</value>
+   <provider-org ref="DIL003">
+    <narrative xml:lang="EN">Israel - Private Donors</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">216883.98</value>
+   <provider-org ref="DIT001">
+    <narrative xml:lang="EN">Italian Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="CHF" value-date="2016-12-31">-2251.98</value>
+   <provider-org ref="DIT001">
+    <narrative xml:lang="EN">Italian Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">52739.79</value>
+   <provider-org ref="DJP002">
+    <narrative xml:lang="EN">Japanese Government</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="CHF" value-date="2016-12-31">613306.13</value>
+   <provider-org ref="DJP002">
+    <narrative xml:lang="EN">Japanese Government</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="CHF" value-date="2017-12-31">5479.83</value>
+   <provider-org ref="DJP002">
+    <narrative xml:lang="EN">Japanese Government</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">87578.71</value>
+   <provider-org ref="DJP001">
+    <narrative xml:lang="EN">Japanese Red Cross Society</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="CHF" value-date="2016-12-31">3965.43</value>
+   <provider-org ref="DKP010">
+    <narrative xml:lang="EN">KPMG Disaster Relief Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">20119.9</value>
+   <provider-org ref="DKP011">
+    <narrative xml:lang="EN">KPMG International Cooperative(KPMG-I)</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">2823.79</value>
+   <provider-org ref="DLU003">
+    <narrative xml:lang="EN">Luxembourg - Private Donors</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">24030.4</value>
+   <provider-org ref="DMC002">
+    <narrative xml:lang="EN">Monaco Government</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">376.09</value>
+   <provider-org ref="DNE010">
+    <narrative xml:lang="EN">Nestle</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="CHF" value-date="2016-12-31">35600</value>
+   <provider-org ref="DNZ001">
+    <narrative xml:lang="EN">New Zealand Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">88606.85</value>
+   <provider-org ref="DON010">
+    <narrative xml:lang="EN">On Line donations</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">3967.37</value>
+   <provider-org ref="DON010">
+    <narrative xml:lang="EN">On Line donations</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">367.21</value>
+   <provider-org ref="DPH013">
+    <narrative xml:lang="EN">Philips Foundation</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">9500.69</value>
+   <provider-org ref="DQA001">
+    <narrative xml:lang="EN">Qatar Red Crescent Society</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">33685.67</value>
+   <provider-org ref="DMC001">
+    <narrative xml:lang="EN">Red Cross of Monaco</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">-5494.42</value>
+   <provider-org ref="DMC001">
+    <narrative xml:lang="EN">Red Cross of Monaco</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="CHF" value-date="2016-12-31">1650.33</value>
+   <provider-org ref="DMC001">
+    <narrative xml:lang="EN">Red Cross of Monaco</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">842141.73</value>
+   <provider-org ref="DES002">
+    <narrative xml:lang="EN">Spanish Government</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">-89074.73</value>
+   <provider-org ref="DES002">
+    <narrative xml:lang="EN">Spanish Government</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">55177.9</value>
+   <provider-org ref="DCH001">
+    <narrative xml:lang="EN">Swiss Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">571.7</value>
+   <provider-org ref="DCH003">
+    <narrative xml:lang="EN">Switzerland - Private Donors</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">835.4</value>
+   <provider-org ref="DCH003">
+    <narrative xml:lang="EN">Switzerland - Private Donors</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">509936.7</value>
+   <provider-org ref="DCA001">
+    <narrative xml:lang="EN">The Canadian Red Cross Society</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">88541.3</value>
+   <provider-org ref="DCA001">
+    <narrative xml:lang="EN">The Canadian Red Cross Society</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">965447.91</value>
+   <provider-org ref="DNL001">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">130369.79</value>
+   <provider-org ref="DNL001">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">24110.1</value>
+   <provider-org ref="DPH001">
+    <narrative xml:lang="EN">The Philippine National Red Cross</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">199676</value>
+   <provider-org ref="DTH001">
+    <narrative xml:lang="EN">The Thai Red Cross Society</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">254781.73</value>
+   <provider-org ref="DUN013">
+    <narrative xml:lang="EN">UNDP - United Nations Development Programme</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="CHF" value-date="2016-12-31">2647.4</value>
+   <provider-org ref="DUN013">
+    <narrative xml:lang="EN">UNDP - United Nations Development Programme</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">0</value>
+   <provider-org ref="DUN016">
+    <narrative xml:lang="EN">UNICEF - United Nations Children&apos;s Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">46579.75</value>
+   <provider-org ref="DUN016">
+    <narrative xml:lang="EN">UNICEF - United Nations Children&apos;s Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="CHF" value-date="2016-12-31">322.97</value>
+   <provider-org ref="DUN016">
+    <narrative xml:lang="EN">UNICEF - United Nations Children&apos;s Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">6230</value>
+   <provider-org ref="DUN999">
+    <narrative xml:lang="EN">Unidentified donor</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">0</value>
+   <provider-org ref="DUN999">
+    <narrative xml:lang="EN">Unidentified donor</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="CHF" value-date="2014-12-31">66394.76</value>
+   <provider-org ref="DWO015">
+    <narrative xml:lang="EN">World Cocoa Foundation</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="CHF" value-date="2015-12-31">72203.06</value>
+   <provider-org ref="DWO015">
+    <narrative xml:lang="EN">World Cocoa Foundation</narrative>
    </provider-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="http://adore.ifrc.org/Download.aspx?FileId=62778">
@@ -938,16 +962,16 @@
    <category code="A07"></category>
    <document-date iso-date="2015-12-15"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://adore.ifrc.org/Download.aspx?FileId=119929">
+  <document-link format="APPLICATION/PDF" url="http://adore.ifrc.org/Download.aspx?FileId=119933">
    <title>
-    <narrative xml:lang="EN">Emergency Plan of Action Revision No. 2</narrative>
+    <narrative xml:lang="EN">Emergency Appeal Revision No. 2</narrative>
    </title>
    <category code="A07"></category>
    <document-date iso-date="2016-01-07"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://adore.ifrc.org/Download.aspx?FileId=119933">
+  <document-link format="APPLICATION/PDF" url="http://adore.ifrc.org/Download.aspx?FileId=119929">
    <title>
-    <narrative xml:lang="EN">Emergency Appeal Revision No. 2</narrative>
+    <narrative xml:lang="EN">Emergency Plan of Action Revision No. 2</narrative>
    </title>
    <category code="A07"></category>
    <document-date iso-date="2016-01-07"></document-date>
@@ -959,19 +983,19 @@
    <category code="A07"></category>
    <document-date iso-date="2016-01-25"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://adore.ifrc.org/Download.aspx?FileId=122287">
-   <title>
-    <narrative xml:lang="EN">Combined Operations Update No. 31</narrative>
-   </title>
-   <category code="A07"></category>
-   <document-date iso-date="2016-03-18"></document-date>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://adore.ifrc.org/Download.aspx?FileId=130176">
    <title>
     <narrative xml:lang="EN">Audited Financial Statement, 28.03.2014 - 31.12.2014</narrative>
    </title>
    <category code="A07"></category>
    <document-date iso-date="2016-02-15"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://adore.ifrc.org/Download.aspx?FileId=122287">
+   <title>
+    <narrative xml:lang="EN">Combined Operations Update No. 31</narrative>
+   </title>
+   <category code="A07"></category>
+   <document-date iso-date="2016-03-18"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://adore.ifrc.org/Download.aspx?FileId=130942">
    <title>

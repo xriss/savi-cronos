@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.03">
- <iati-activity dstore:dataset="ia_nam-o27" dstore:index="84" hierarchy="1" humanitarian="1" iati-activities:version="2.03" linked-data-uri="https://ngoaidmap.org/projects/8118" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.02">
+ <iati-activity dstore:dataset="ia_nam-o27" dstore:index="84" hierarchy="1" humanitarian="1" iati-activities:linked-data-default="https://www.ngoaidmap.org" iati-activities:version="2.02" interactions-ngoaidmap:record-offset="0" interactions-ngoaidmap:total-records-available="222" linked-data-uri="https://ngoaidmap.org/projects/8118" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:interactions-ngoaidmap="https://www.ngoaidmap.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>US-EIN-13-3287064NAM-ERD-LR-14-8118</iati-identifier>
   <reporting-org ref="US-EIN-13-3287064NAM" secondary-reporter="1" type="21">
    <narrative xml:lang="EN">InterAction&apos;s NGO Aid Map</narrative>
@@ -38,14 +38,14 @@ In Sierra Leone, our Ebola emergency response activities include:
 
 (5) Distribution of medical equipment and sanitary materials from Episcopal Relief &amp;amp; Development&#x2019;s Ghana Regional Office have been shipped on two occasions to health facilities in Bo.</narrative>
   </description>
-  <participating-org ref="US-EIN-73-1635264" role="4" type="21">
-   <narrative xml:lang="EN">Episcopal Relief &amp; Development</narrative>
-  </participating-org>
   <participating-org role="4">
    <narrative xml:lang="EN">Anglican Diocese of Bo</narrative>
   </participating-org>
   <participating-org role="4">
    <narrative xml:lang="EN">Episcopal Church of Liberia</narrative>
+  </participating-org>
+  <participating-org ref="US-EIN-73-1635264" role="4" type="21">
+   <narrative xml:lang="EN">Episcopal Relief &amp; Development</narrative>
   </participating-org>
   <other-identifier ref="ERD-LR-14-8118" type="A1">
    <owner-org ref="US-EIN-13-3287064NAM">
@@ -53,11 +53,11 @@ In Sierra Leone, our Ebola emergency response activities include:
    </owner-org>
   </other-identifier>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2014-08-01" type="2">
-   <narrative xml:lang="EN">Actual start date of the activity</narrative>
-  </activity-date>
   <activity-date iso-date="2015-12-30" type="4">
    <narrative xml:lang="EN">Actual end date of the activity</narrative>
+  </activity-date>
+  <activity-date iso-date="2014-08-01" type="2">
+   <narrative xml:lang="EN">Actual start date of the activity</narrative>
   </activity-date>
   <contact-info type="1">
    <organisation>
@@ -70,8 +70,8 @@ In Sierra Leone, our Ebola emergency response activities include:
     <narrative xml:lang="EN">Senior Program Officer for International Emergency Response Coordination</narrative>
    </job-title>
    <email>nnesiah@episcopalrelief.org</email>
-   <website>https://www.episcopalrelief.org/press-and-resources/press-releases/2014-press-releases/responding-to-ebola-crisis-in-sierra-leone-and-liberia</website>
    <website>http://www.episcopalrelief.org</website>
+   <website>https://www.episcopalrelief.org/press-and-resources/press-releases/2014-press-releases/responding-to-ebola-crisis-in-sierra-leone-and-liberia</website>
   </contact-info>
   <recipient-country code="LR" percentage="50"></recipient-country>
   <recipient-country code="SL" percentage="50"></recipient-country>
@@ -139,22 +139,6 @@ In Sierra Leone, our Ebola emergency response activities include:
    <location-class code="1"></location-class>
    <feature-designation code="ADM1"></feature-designation>
   </location>
-  <location ref="gn_2588492">
-   <location-id code="2588492" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">River Cess</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">River Cess, Liberia (admin level 1)</narrative>
-   </description>
-   <administrative code="2588492" level="1" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>5.91667 -9.36667</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-   <feature-designation code="ADM1"></feature-designation>
-  </location>
   <location ref="gn_2403745">
    <location-id code="2403745" vocabulary="G1"></location-id>
    <name>
@@ -166,6 +150,22 @@ In Sierra Leone, our Ebola emergency response activities include:
    <administrative code="2403745" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>7.8 -12.0</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM1"></feature-designation>
+  </location>
+  <location ref="gn_2588492">
+   <location-id code="2588492" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">River Cess</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">River Cess, Liberia (admin level 1)</narrative>
+   </description>
+   <administrative code="2588492" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>5.91667 -9.36667</pos>
    </point>
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>

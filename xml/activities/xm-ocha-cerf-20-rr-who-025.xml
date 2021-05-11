@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2020" dstore:index="179" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity budget-not-provided="3" default-currency="USD" dstore:dataset="cerf-projectsfunded2020" dstore:index="179" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:cerf="http://cerf-gms.unocha.org/CERF01" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-OCHA-CERF-20-RR-WHO-025</iati-identifier>
   <reporting-org ref="XM-OCHA-CERF" type="40">
    <narrative xml:lang="EN">UNOCHA - Central Emergency Response Fund (CERF)</narrative>
@@ -92,22 +92,10 @@
    </description>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 1.1</narrative>
+     <narrative xml:lang="EN">Indicator 1.4</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Nombre de survivants pris en charge en soins m&#xE9;dicaux sous suivis</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-06-05"></period-start>
-     <period-end iso-date="2021-06-04"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 1.2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nombre de survivants suivis</narrative>
+     <narrative xml:lang="EN">Nombre de cas de d&#xE9;c&#xE8;s remont&#xE9;s dans l&#x2019;entourage des survivants</narrative>
     </description>
     <period>
      <period-start iso-date="2020-06-05"></period-start>
@@ -128,10 +116,22 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 1.4</narrative>
+     <narrative xml:lang="EN">Indicator 1.1</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Nombre de cas de d&#xE9;c&#xE8;s remont&#xE9;s dans l&#x2019;entourage des survivants</narrative>
+     <narrative xml:lang="EN">Nombre de survivants pris en charge en soins m&#xE9;dicaux sous suivis</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-06-05"></period-start>
+     <period-end iso-date="2021-06-04"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 1.2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nombre de survivants suivis</narrative>
     </description>
     <period>
      <period-start iso-date="2020-06-05"></period-start>
@@ -172,30 +172,6 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Indicator 2.2</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nombre d&#x2019;alertes de DC remont&#xE9;es par les RECOs de la surveillance &#xE0; base communautaire dans les 17 ZS</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-06-05"></period-start>
-     <period-end iso-date="2021-06-04"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.3</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Pourcentage de r&#xE9;alisation des supervisions formatives des RECOs par les IT des AS dans le cadre de la mise en &#x153;uvre de la SBC (chaque IT doit mener 4 supervisions au cours du mois et ceci pendant 6 mois, 100 IT sont impliqu&#xE9;s dans cette supervision des RECOs) dans les 6 ZS100% (/2400)</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-06-05"></period-start>
-     <period-end iso-date="2021-06-04"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
      <narrative xml:lang="EN">Indicator 2.4</narrative>
     </title>
     <description>
@@ -208,10 +184,34 @@
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
+     <narrative xml:lang="EN">Indicator 2.2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nombre d&#x2019;alertes de DC remont&#xE9;es par les RECOs de la surveillance &#xE0; base communautaire dans les 17 ZS</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-06-05"></period-start>
+     <period-end iso-date="2021-06-04"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
      <narrative xml:lang="EN">Indicator 2.5</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Nombre d&#x2019;&#xE9;quipes EIR fonctionnelles soit une EIR par ZS dans 17 ZS</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-06-05"></period-start>
+     <period-end iso-date="2021-06-04"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 2.3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Pourcentage de r&#xE9;alisation des supervisions formatives des RECOs par les IT des AS dans le cadre de la mise en &#x153;uvre de la SBC (chaque IT doit mener 4 supervisions au cours du mois et ceci pendant 6 mois, 100 IT sont impliqu&#xE9;s dans cette supervision des RECOs) dans les 6 ZS100% (/2400)</narrative>
     </description>
     <period>
      <period-start iso-date="2020-06-05"></period-start>
@@ -240,6 +240,18 @@
    </description>
    <indicator aggregation-status="0" ascending="1" measure="5">
     <title>
+     <narrative xml:lang="EN">Indicator 3.3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Nombre de centre de sant&#xE9; appuy&#xE9;s offrant des soins de sant&#xE9; essentiels aux personnes vuln&#xE9;rables ;</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-06-05"></period-start>
+     <period-end iso-date="2021-06-04"></period-end>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="5">
+    <title>
      <narrative xml:lang="EN">Indicator 3.1</narrative>
     </title>
     <description>
@@ -256,18 +268,6 @@
     </title>
     <description>
      <narrative xml:lang="EN">Nombre de structures sanitaires pratiquant la pr&#xE9;vention et le contr&#xF4;le de l&#x2019;infection (PCI).</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-06-05"></period-start>
-     <period-end iso-date="2021-06-04"></period-end>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">Indicator 3.3</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Nombre de centre de sant&#xE9; appuy&#xE9;s offrant des soins de sant&#xE9; essentiels aux personnes vuln&#xE9;rables ;</narrative>
     </description>
     <period>
      <period-start iso-date="2020-06-05"></period-start>

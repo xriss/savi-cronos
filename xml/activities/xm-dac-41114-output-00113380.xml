@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="undp-ssd" dstore:index="697" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="undp-ssd" dstore:index="697" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00113380</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -11,11 +11,11 @@
   <description type="1">
    <narrative xml:lang="EN">EBOLA VIRAL DISEASE (EVD) EMERGENCY PREPAREDNESS AND RESPONSE IN YEI RIVER STATE SOUTH SUDAN</narrative>
   </description>
-  <participating-org ref="XM-DAC-41114" role="4" type="40">
-   <narrative xml:lang="EN">United Nations Development Programme</narrative>
-  </participating-org>
   <participating-org ref="12267" role="1" type="40">
    <narrative xml:lang="EN">UNDP South Sudan Common Humanitarian Fund</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">United Nations Development Programme</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2018-12-01" type="1"></activity-date>
@@ -49,11 +49,11 @@
    <location-class code="1"></location-class>
    <feature-designation code="ADM1"></feature-designation>
   </location>
-  <sector code="16050" percentage="100" vocabulary="1"></sector>
-  <sector code="4.4" percentage="100" vocabulary="8"></sector>
   <sector code="17" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Eradicate poverty in all its forms and dimensions</narrative>
   </sector>
+  <sector code="16050" percentage="100" vocabulary="1"></sector>
+  <sector code="4.4" percentage="100" vocabulary="8"></sector>
   <tag code="4.4" vocabulary="3"></tag>
   <humanitarian-scope code="HSSD18" type="2" vocabulary="2-1">
    <narrative xml:lang="EN">Republic of South Sudan 2018</narrative>
@@ -71,21 +71,15 @@
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-02-29"></transaction-date>
-   <value currency="USD" value-date="2020-02-29">2675</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">267501</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   <value currency="USD" value-date="2019-12-31">270176</value>
+   <provider-org ref="12267" type="40">
+    <narrative xml:lang="EN">UNDP South Sudan Common Humanitarian Fund</narrative>
    </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00113380" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -101,15 +95,21 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="1"></transaction-type>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">270176</value>
-   <provider-org ref="12267" type="40">
-    <narrative xml:lang="EN">UNDP South Sudan Common Humanitarian Fund</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00113380" ref="XM-DAC-41114" type="40">
+   <value currency="USD" value-date="2019-12-31">267501</value>
+   <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </receiver-org>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-02-29"></transaction-date>
+   <value currency="USD" value-date="2020-02-29">2675</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -127,10 +127,10 @@
    </title>
    <category code="A12"></category>
   </document-link>
-  <related-activity ref="XM-DAC-41114-PROJECT-00116081" type="1"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00113377" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00113378" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00113379" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-PROJECT-00116081" type="1"></related-activity>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>

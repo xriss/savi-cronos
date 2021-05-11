@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="unicef-liberia" dstore:index="40" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.02">
+ <iati-activity default-currency="USD" dstore:dataset="unicef-liberia" dstore:index="40" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-41122-Liberia-2550/A0/08/807/003</iati-identifier>
   <reporting-org ref="XM-DAC-41122" secondary-reporter="0" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
@@ -12,52 +12,37 @@
    <narrative xml:lang="EN">Output 7.3: To promote life saving behaviors to prevent EVD, through social mobilization interventions including community
 engagements.</narrative>
   </description>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-  </participating-org>
-  <participating-org ref="SE-0" role="1" type="10">
-   <narrative xml:lang="EN">SIDA - Sweden</narrative>
-  </participating-org>
-  <participating-org ref="NL-KVK-27102631" role="1" type="30">
-   <narrative xml:lang="EN">Netherlands Committee for UNICEF</narrative>
-  </participating-org>
-  <participating-org ref="US-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
-  </participating-org>
-  <participating-org role="1" type="10">
-   <narrative xml:lang="EN">Liberia</narrative>
-  </participating-org>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-  </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Canada</narrative>
-  </participating-org>
-  <participating-org ref="XM-DAC-701-2" role="1" type="10">
-   <narrative xml:lang="EN">Japan</narrative>
-  </participating-org>
-  <participating-org role="1" type="30">
-   <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
-  </participating-org>
-  <participating-org role="1" type="40">
-   <narrative xml:lang="EN">UNDP - MDTF</narrative>
-  </participating-org>
-  <participating-org ref="DE-1" role="1" type="10">
-   <narrative xml:lang="EN">Germany</narrative>
-  </participating-org>
-  <participating-org ref="DE-1" role="4" type="40">
-   <narrative xml:lang="EN">UNICEF</narrative>
-  </participating-org>
-  <participating-org role="3" type="40">
-   <narrative xml:lang="EN">UNICEF</narrative>
-  </participating-org>
-  <participating-org ref="XM-DAC-701-2" role="4" type="40">
-   <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
   <participating-org role="1" type="30">
    <narrative xml:lang="EN">Consolidated Funds from NatComs</narrative>
   </participating-org>
-  <participating-org ref="US-GOV-1" role="4" type="40">
+  <participating-org ref="DE-1" role="1" type="10">
+   <narrative xml:lang="EN">Germany</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-701-2" role="1" type="10">
+   <narrative xml:lang="EN">Japan</narrative>
+  </participating-org>
+  <participating-org role="1" type="10">
+   <narrative xml:lang="EN">Liberia</narrative>
+  </participating-org>
+  <participating-org ref="NL-KVK-27102631" role="1" type="30">
+   <narrative xml:lang="EN">Netherlands Committee for UNICEF</narrative>
+  </participating-org>
+  <participating-org ref="SE-0" role="1" type="10">
+   <narrative xml:lang="EN">SIDA - Sweden</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">UNDP - MDTF</narrative>
+  </participating-org>
+  <participating-org role="1" type="40">
+   <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+  </participating-org>
+  <participating-org ref="DE-1" role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-27102631" role="4" type="40">
@@ -66,8 +51,23 @@ engagements.</narrative>
   <participating-org ref="SE-0" role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
   </participating-org>
+  <participating-org ref="US-GOV-1" role="4" type="40">
+   <narrative xml:lang="EN">UNICEF</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-701-2" role="4" type="40">
+   <narrative xml:lang="EN">UNICEF</narrative>
+  </participating-org>
+  <participating-org role="3" type="40">
+   <narrative xml:lang="EN">UNICEF</narrative>
+  </participating-org>
   <participating-org role="4" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
+  </participating-org>
+  <participating-org ref="US-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
+  </participating-org>
+  <participating-org role="1" type="30">
+   <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
   </participating-org>
   <other-identifier ref="41122-Liberia-2550/A0/08/807/003" type="B1">
    <owner-org>
@@ -149,14 +149,14 @@ engagements.</narrative>
    </point>
    <exactness code="1"></exactness>
   </location>
+  <sector code="91010" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Administrative costs (non-sector allocable)</narrative>
+  </sector>
   <sector code="26-03-04" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Community engagement, participation and accountability</narrative>
   </sector>
   <sector code="17" percentage="100" vocabulary="7">
    <narrative xml:lang="EN">Partnerships for the Goals</narrative>
-  </sector>
-  <sector code="91010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Administrative costs (non-sector allocable)</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.10.1" percentage="100" vocabulary="1">
@@ -177,9 +177,9 @@ engagements.</narrative>
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget type="2">
-   <period-start iso-date="2016-01-01"></period-start>
-   <period-end iso-date="2016-12-31"></period-end>
-   <value currency="USD" value-date="2021-03-31">83872</value>
+   <period-start iso-date="2014-01-01"></period-start>
+   <period-end iso-date="2014-12-31"></period-end>
+   <value currency="USD" value-date="2021-03-31">12915145</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2015-01-01"></period-start>
@@ -187,14 +187,14 @@ engagements.</narrative>
    <value currency="USD" value-date="2021-03-31">5181244</value>
   </budget>
   <budget type="2">
-   <period-start iso-date="2014-01-01"></period-start>
-   <period-end iso-date="2014-12-31"></period-end>
-   <value currency="USD" value-date="2021-03-31">12915145</value>
-  </budget>
-  <planned-disbursement type="2">
    <period-start iso-date="2016-01-01"></period-start>
    <period-end iso-date="2016-12-31"></period-end>
    <value currency="USD" value-date="2021-03-31">83872</value>
+  </budget>
+  <planned-disbursement type="2">
+   <period-start iso-date="2014-01-01"></period-start>
+   <period-end iso-date="2014-12-31"></period-end>
+   <value currency="USD" value-date="2021-03-31">12915145</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -214,9 +214,9 @@ engagements.</narrative>
    </receiver-org>
   </planned-disbursement>
   <planned-disbursement type="2">
-   <period-start iso-date="2014-01-01"></period-start>
-   <period-end iso-date="2014-12-31"></period-end>
-   <value currency="USD" value-date="2021-03-31">12915145</value>
+   <period-start iso-date="2016-01-01"></period-start>
+   <period-end iso-date="2016-12-31"></period-end>
+   <value currency="USD" value-date="2021-03-31">83872</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -225,22 +225,562 @@ engagements.</narrative>
    </receiver-org>
   </planned-disbursement>
   <capital-spend percentage="0"></capital-spend>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2018-12-31"></transaction-date>
-   <value currency="USD" value-date="2018-12-31">-9</value>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">113722</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
+    <narrative xml:lang="EN">Canada</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">113722</value>
+   <description>
     <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Canada</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">19299</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Canada</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">19299</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Canada</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">218</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Canada</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">218</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Canada</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">25000</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Consolidated Funds from NatComs</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">25000</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Consolidated Funds from NatComs</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">250550</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Germany</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">250550</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Germany</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">-375</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Germany</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">-375</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Germany</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">715163</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">715163</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">298508</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">298508</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">100103</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Japan</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">100103</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Japan</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">3166051</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">3166051</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">398036</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">398036</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-01-01">-3</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-01-01">-3</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="USD" value-date="2018-01-01">-3360</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="USD" value-date="2018-01-01">-3360</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Liberia</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">63573</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Netherlands Committee for UNICEF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">63573</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Netherlands Committee for UNICEF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">-355</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Netherlands Committee for UNICEF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">-355</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Netherlands Committee for UNICEF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">890461</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">SIDA - Sweden</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">890461</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">SIDA - Sweden</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">23870</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">SIDA - Sweden</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">23870</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">SIDA - Sweden</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">260189</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNDP - MDTF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">260189</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNDP - MDTF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">80077</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">80077</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">83872</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">83872</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">113645</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">113645</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">271142</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">271142</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">371525</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-01-01">371525</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">-14580</value>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">5894939</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -261,10 +801,10 @@ engagements.</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Expense">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">5894939</value>
+  <transaction humanitarian="0" ref="Disbursement">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="USD" value-date="2017-12-31">0</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -287,8 +827,8 @@ engagements.</narrative>
   </transaction>
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-03-31"></transaction-date>
-   <value currency="USD" value-date="2020-03-31">-6708</value>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="USD" value-date="2018-12-31">-9</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -309,562 +849,10 @@ engagements.</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-12-31"></transaction-date>
-   <value currency="USD" value-date="2018-01-01">-3360</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">715163</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">298508</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">-375</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Germany</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">80077</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">371525</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">63573</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Netherlands Committee for UNICEF</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">250550</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Germany</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">23870</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">SIDA - Sweden</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-01-01">218</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Canada</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">19299</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Canada</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">-355</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Netherlands Committee for UNICEF</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">83872</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-01-01">-3</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">398036</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">890461</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">SIDA - Sweden</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">113645</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">100103</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Japan</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">113722</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Canada</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">260189</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNDP - MDTF</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">25000</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Consolidated Funds from NatComs</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">3166051</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Commitment">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">271142</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2018-12-31"></transaction-date>
-   <value currency="USD" value-date="2018-01-01">-3360</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">715163</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">298508</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">-375</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Germany</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">80077</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">371525</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">United States Fund for UNICEF</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">250550</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Germany</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">63573</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Netherlands Committee for UNICEF</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">23870</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">SIDA - Sweden</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-01-01">218</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Canada</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">19299</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Canada</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">83872</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNICEF (FOR GR ALLOCATIONS ONLY)</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">890461</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">SIDA - Sweden</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">113645</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">100103</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Japan</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">-355</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Netherlands Committee for UNICEF</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-01-01">-3</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">398036</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">113722</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Canada</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">25000</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Consolidated Funds from NatComs</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">260189</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">UNDP - MDTF</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-01-01">3166051</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Liberia</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="1" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="USD" value-date="2016-01-01">271142</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Disbursement">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="USD" value-date="2017-12-31">0</value>
+   <value currency="USD" value-date="2019-12-31">-14580</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -873,14 +861,18 @@ engagements.</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <document-link format="TEXT/HTML" url="http://www.unicef.org/evaldatabase/index_60438.html">
-   <title>
-    <narrative xml:lang="EN">Liberia Evaluation Reports</narrative>
-   </title>
-   <category code="A07"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2018-12-31"></document-date>
-  </document-link>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-6708</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://liberia.un.org/sites/default/files/2019-09/UNDAF%202013-2017%20final%20version%20-%2030%20April%202013%20low%20res.pdf">
    <title>
     <narrative xml:lang="EN">Liberia United Nations Development Assistance Framework</narrative>
@@ -889,31 +881,29 @@ engagements.</narrative>
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="https://open.unicef.org/country-details/?y=2020&amp;measure=b&amp;country=Liberia&amp;output=2550/A0/08/807/003">
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/SRM-Liberia-9_March12_.pdf">
    <title>
-    <narrative xml:lang="EN">Output web page</narrative>
+    <narrative xml:lang="EN">Liberia Country Programme Document 2013-2017 Results Matrix</narrative>
    </title>
-   <category code="A12"></category>
-   <category code="A08"></category>
+   <category code="A02"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-03-31"></document-date>
+   <document-date iso-date="2012-09-14"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Liberia-2019-COAR.pdf">
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/Liberia-2013-2017-final_approved-English-14Sept2012.pdf">
    <title>
-    <narrative xml:lang="EN">Liberia 2019 Annual Report</narrative>
+    <narrative xml:lang="EN">Liberia Country Programme Document 2013-2017</narrative>
    </title>
-   <category code="A08"></category>
+   <category code="A02"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-02-20"></document-date>
+   <document-date iso-date="2012-09-14"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Liberia_2018_COAR.pdf">
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/Decision_2017-12-Extensions-SRS2017.pdf">
    <title>
-    <narrative xml:lang="EN">Liberia 2018 Annual Report</narrative>
+    <narrative xml:lang="EN">Liberia Country Programme Document Extension 1</narrative>
    </title>
-   <category code="A07"></category>
-   <category code="A08"></category>
+   <category code="A02"></category>
    <language code="EN"></language>
-   <document-date iso-date="2018-12-31"></document-date>
+   <document-date iso-date="2017-09-15"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/2018-L17-Decision-Extensions-ODS-EN.pdf">
    <title>
@@ -931,37 +921,13 @@ engagements.</narrative>
    <language code="EN"></language>
    <document-date iso-date="2019-07-30"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/Decision_2017-12-Extensions-SRS2017.pdf">
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_become_a_supplier.html">
    <title>
-    <narrative xml:lang="EN">Liberia Country Programme Document Extension 1</narrative>
+    <narrative xml:lang="EN">Become a Supplier</narrative>
    </title>
-   <category code="A02"></category>
+   <category code="A04"></category>
    <language code="EN"></language>
-   <document-date iso-date="2017-09-15"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/Liberia-2013-2017-final_approved-English-14Sept2012.pdf">
-   <title>
-    <narrative xml:lang="EN">Liberia Country Programme Document 2013-2017</narrative>
-   </title>
-   <category code="A02"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2012-09-14"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/execboard/files/SRM-Liberia-9_March12_.pdf">
-   <title>
-    <narrative xml:lang="EN">Liberia Country Programme Document 2013-2017 Results Matrix</narrative>
-   </title>
-   <category code="A02"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2012-09-14"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/liberia/">
-   <title>
-    <narrative xml:lang="EN">Country Office Website</narrative>
-   </title>
-   <category code="A12"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2016-01-05"></document-date>
+   <document-date iso-date="2016-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unicef.org/about/partnerships/index_60043.html">
    <title>
@@ -970,22 +936,6 @@ engagements.</narrative>
    <category code="A04"></category>
    <language code="EN"></language>
    <document-date iso-date="2017-06-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/ContractAward?agencyEnglishAbbreviation=UNICEF">
-   <title>
-    <narrative xml:lang="EN">UNICEF Contract Awards through the UN Global Marketplace</narrative>
-   </title>
-   <category code="A06"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-10-06"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_become_a_supplier.html">
-   <title>
-    <narrative xml:lang="EN">Become a Supplier</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2016-10-04"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/about/partnerships/index_60074.html">
    <title>
@@ -1003,6 +953,39 @@ engagements.</narrative>
    <language code="EN"></language>
    <document-date iso-date="2017-09-26"></document-date>
   </document-link>
+  <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/ContractAward?agencyEnglishAbbreviation=UNICEF">
+   <title>
+    <narrative xml:lang="EN">UNICEF Contract Awards through the UN Global Marketplace</narrative>
+   </title>
+   <category code="A06"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-10-06"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Liberia_2018_COAR.pdf">
+   <title>
+    <narrative xml:lang="EN">Liberia 2018 Annual Report</narrative>
+   </title>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2018-12-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://www.unicef.org/evaldatabase/index_60438.html">
+   <title>
+    <narrative xml:lang="EN">Liberia Evaluation Reports</narrative>
+   </title>
+   <category code="A07"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2018-12-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/about/annualreport/files/Liberia-2019-COAR.pdf">
+   <title>
+    <narrative xml:lang="EN">Liberia 2019 Annual Report</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2020-02-20"></document-date>
+  </document-link>
   <document-link format="TEXT/HTML" url="http://www.unicef.org/about/partnerships/index_60043.html">
    <title>
     <narrative xml:lang="EN">Frameworks for Partnerships</narrative>
@@ -1010,22 +993,6 @@ engagements.</narrative>
    <category code="A09"></category>
    <language code="EN"></language>
    <document-date iso-date="2017-06-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_27009.html">
-   <title>
-    <narrative xml:lang="EN">UNICEF Supply Contract Awards</narrative>
-   </title>
-   <category code="A11"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-10-06"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25947.html">
-   <title>
-    <narrative xml:lang="EN">Bidding Opportunities</narrative>
-   </title>
-   <category code="A10"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-12-31"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25983.html">
    <title>
@@ -1035,6 +1002,14 @@ engagements.</narrative>
    <language code="EN"></language>
    <document-date iso-date="2012-05-15"></document-date>
   </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25947.html">
+   <title>
+    <narrative xml:lang="EN">Bidding Opportunities</narrative>
+   </title>
+   <category code="A10"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-12-31"></document-date>
+  </document-link>
   <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/Notice?agencyEnglishAbbreviation=UNICEF">
    <title>
     <narrative xml:lang="EN">UNICEF Tender Notices through the UN Global Marketplace</narrative>
@@ -1042,6 +1017,31 @@ engagements.</narrative>
    <category code="A10"></category>
    <language code="EN"></language>
    <document-date iso-date="2017-12-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_27009.html">
+   <title>
+    <narrative xml:lang="EN">UNICEF Supply Contract Awards</narrative>
+   </title>
+   <category code="A11"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-10-06"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://open.unicef.org/country-details/?y=2020&amp;measure=b&amp;country=Liberia&amp;output=2550/A0/08/807/003">
+   <title>
+    <narrative xml:lang="EN">Output web page</narrative>
+   </title>
+   <category code="A08"></category>
+   <category code="A12"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-03-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/liberia/">
+   <title>
+    <narrative xml:lang="EN">Country Office Website</narrative>
+   </title>
+   <category code="A12"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2016-01-05"></document-date>
   </document-link>
   <related-activity ref="2550/A0/08/807 OUTCOME 7: ADVOC.,C4D, HIV&amp;AIDS &amp; PARTN." type="1"></related-activity>
   <conditions attached="1">

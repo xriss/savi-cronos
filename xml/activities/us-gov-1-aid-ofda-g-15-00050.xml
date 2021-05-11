@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="usaid-sl" dstore:index="194" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-sl" dstore:index="194" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-AID-OFDA-G-15-00050</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -11,6 +11,9 @@
   <description>
    <narrative xml:lang="EN">Rapid response, CCCs, social mobilization, and protection activities in Sierra Leone. PIHs intervention in Sierra Leone was guided by the following principles: Partnership with the public health sector, even in the context of an emergency response, avoiding the creation of parallel systems whenever possible; Maintaining the appropriate balance between quality, scale, and safety in all operations; The need to be nimble, flexible, and adaptable and to go where the need is, while collaborating and coordinating with diverse stakeholders; Comprehensive intervention across all levels of the health system (i.e., Ebola Treatment Units (ETUs), Community Care Centers (CCCs), and community-level engagement) to preserve the integrity of the health service delivery chain; Continuity between emergency response and long-term health system strengthening, which PIH is committed to pursue for years to come in Sierra Leone.</narrative>
   </description>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">Partners in Health, Inc.</narrative>
+  </participating-org>
   <participating-org ref="US-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
   </participating-org>
@@ -19,9 +22,6 @@
   </participating-org>
   <participating-org ref="US-GOV-1" role="3" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
-  </participating-org>
-  <participating-org role="4" type="22">
-   <narrative xml:lang="EN">Partners in Health, Inc.</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2014-10-01" type="1"></activity-date>
@@ -55,25 +55,6 @@
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="72010" vocabulary="1">
     <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="SL"></recipient-country>
-   <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="1" ref="469E0B0D88C4">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-03-31"></transaction-date>
-   <value currency="USD" value-date="2015-03-31">203412</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72050" vocabulary="1">
-    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
    </sector>
    <sector code="7001" vocabulary="99">
     <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
@@ -143,25 +124,6 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction humanitarian="1" ref="C3BE5BBB0BCF">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">-101668</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72050" vocabulary="1">
-    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="SL"></recipient-country>
-   <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction humanitarian="1" ref="D8B0DA2D188C">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2016-03-31"></transaction-date>
@@ -181,16 +143,54 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
+  <transaction humanitarian="1" ref="469E0B0D88C4">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-03-31"></transaction-date>
+   <value currency="USD" value-date="2015-03-31">203412</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <sector code="72050" vocabulary="1">
+    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
+   </sector>
+   <recipient-country code="SL"></recipient-country>
+   <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="1" ref="C3BE5BBB0BCF">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">-101668</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <sector code="72050" vocabulary="1">
+    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
+   </sector>
+   <recipient-country code="SL"></recipient-country>
+   <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
   <transaction humanitarian="1" ref="8736EBCC6D0D">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2016-03-31"></transaction-date>
    <value currency="USD" value-date="2016-03-31">101744</value>
    <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72050" vocabulary="1">
-    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
-   </sector>
    <sector code="7001" vocabulary="99">
     <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <sector code="72050" vocabulary="1">
+    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
    </sector>
    <recipient-country code="SL"></recipient-country>
    <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>

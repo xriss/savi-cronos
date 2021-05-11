@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" dstore:dataset="usaid-gn" dstore:index="260" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="USD" dstore:dataset="usaid-gn" dstore:index="260" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:usg="https://explorer.usaid.gov">
   <iati-identifier>US-GOV-1-AID-OFDA-IO-15-00034</iati-identifier>
   <reporting-org ref="US-GOV-1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -10,8 +10,8 @@
    <narrative xml:lang="FR">R&#xE9;ponse de secours de Fastering Ebola en Guin&#xE9;e.</narrative>
   </title>
   <description>
-   <narrative xml:lang="EN">Providing emergency Health, WASH and Protection in response to the Ebola outbreak in Guinea.</narrative>
    <narrative xml:lang="FR">Assurer la sant&#xE9;, le LAVAGE et la protection de secours en r&#xE9;ponse &#xE0; la manifestation d&apos;Ebola en Guin&#xE9;e.</narrative>
+   <narrative xml:lang="EN">Providing emergency Health, WASH and Protection in response to the Ebola outbreak in Guinea.</narrative>
   </description>
   <participating-org ref="US-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">U.S. Agency for International Development</narrative>
@@ -88,25 +88,6 @@
     <usg:regular-account code="72"></usg:regular-account>
    </usg:treasury-account>
   </transaction>
-  <transaction humanitarian="1" ref="5E5D3605A1F7">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2015-06-30"></transaction-date>
-   <value currency="USD" value-date="2015-06-30">1107000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72050" vocabulary="1">
-    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="GN"></recipient-country>
-   <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
   <transaction humanitarian="1" ref="7F75A4B8E286">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2015-09-30"></transaction-date>
@@ -133,25 +114,6 @@
    <disbursement-channel code="2"></disbursement-channel>
    <sector code="72010" vocabulary="1">
     <narrative xml:lang="EN">Material relief assistance and services</narrative>
-   </sector>
-   <sector code="7001" vocabulary="99">
-    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
-   </sector>
-   <recipient-country code="GN"></recipient-country>
-   <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>
-   <usg:treasury-account>
-    <usg:fiscal-funding-year begin="2015" end="2021"></usg:fiscal-funding-year>
-    <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
-    <usg:regular-account code="72"></usg:regular-account>
-   </usg:treasury-account>
-  </transaction>
-  <transaction humanitarian="1" ref="5FEC9CD5E7CE">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">1107000</value>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="72050" vocabulary="1">
-    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
    </sector>
    <sector code="7001" vocabulary="99">
     <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
@@ -231,6 +193,44 @@
    </sector>
    <sector code="7001" vocabulary="99">
     <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <recipient-country code="GN"></recipient-country>
+   <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="1" ref="5E5D3605A1F7">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2015-06-30"></transaction-date>
+   <value currency="USD" value-date="2015-06-30">1107000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <sector code="72050" vocabulary="1">
+    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
+   </sector>
+   <recipient-country code="GN"></recipient-country>
+   <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>
+   <usg:treasury-account>
+    <usg:fiscal-funding-year begin="2015" end="2021"></usg:fiscal-funding-year>
+    <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+    <usg:regular-account code="72"></usg:regular-account>
+   </usg:treasury-account>
+  </transaction>
+  <transaction humanitarian="1" ref="5FEC9CD5E7CE">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="USD" value-date="2015-12-31">1107000</value>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="7001" vocabulary="99">
+    <narrative xml:lang="EN">Protection, Assistance and Solutions</narrative>
+   </sector>
+   <sector code="72050" vocabulary="1">
+    <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
    </sector>
    <recipient-country code="GN"></recipient-country>
    <usg:humanitarian-scope type="1" vocabulary="99"></usg:humanitarian-scope>
