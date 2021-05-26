@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="234" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="233" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200774</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -108,52 +108,28 @@ Disabled: N/A</narrative>
    <value currency="EUR" value-date="2020-04-01">129155</value>
   </planned-disbursement>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="1">
+  <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (SL)</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+     <narrative xml:lang="EN">Number of people  who benefitted directly or indirectly with life-saving humanitarian assistance and/or resilient recovery services and/or disaster preparedness from activities in a humanitarian response implemented by Cordaid and implementing partners</narrative>
     </description>
     <reference code="SL0.01" vocabulary="99"></reference>
-    <baseline iso-date="2020-12-31" value="107443" year="2020">
-     <location ref="CF"></location>
-     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="82430" year="2020">
-     <location ref="CF"></location>
-     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="189873" year="2020">
-     <location ref="CF"></location>
-     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="95216" year="2020">
-     <location ref="CF"></location>
-     <dimension name="Gender - genre" value="Female - feminin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="93137" year="2020">
-     <location ref="CF"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="1520" year="2020">
-     <location ref="CF"></location>
-     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-    </baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="107443">
-      <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
      <actual value="82430">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
+     </actual>
+     <actual value="107443">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
      </actual>
      <actual value="189873">
       <location ref="CF"></location>
@@ -185,30 +161,69 @@ Disabled: N/A</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of people trained to provide COVID-19 Awareness Raising &amp; Prevention activities</narrative>
+    </title>
+    <reference code="COV.CC.02" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-06-30"></period-end>
+     <actual value="53">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="237">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="469">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="58">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-04-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="600"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of people provided with water in response to COVID-19</narrative>
     </title>
     <reference code="COV.SL.01.a" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="12043">
-      <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="11584">
-      <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
      <actual value="58993">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
      <actual value="52380">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="12043">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="11584">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
@@ -217,7 +232,7 @@ Disabled: N/A</narrative>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="8442">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
@@ -235,24 +250,24 @@ Disabled: N/A</narrative>
     <period>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
-     <actual value="15068">
-      <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="14493">
-      <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
      <actual value="73813">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
      <actual value="65537">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="15068">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="14493">
+      <location ref="CF"></location>
+      <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
@@ -261,7 +276,7 @@ Disabled: N/A</narrative>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="1803">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
@@ -269,45 +284,6 @@ Disabled: N/A</narrative>
      <period-start iso-date="2020-04-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="70000"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people trained to provide COVID-19 Awareness Raising &amp; Prevention activities</narrative>
-    </title>
-    <reference code="COV.CC.02" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-06-30"></period-end>
-     <actual value="53">
-      <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="237">
-      <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="469">
-      <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="58">
-      <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-04-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="600"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -454,17 +430,17 @@ Disabled: N/A</narrative>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="53">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
      <actual value="237">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
      <actual value="469">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
@@ -473,7 +449,7 @@ Disabled: N/A</narrative>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="58">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
@@ -627,17 +603,17 @@ Disabled: N/A</narrative>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="53">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
      <actual value="237">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
      <actual value="469">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
@@ -646,7 +622,7 @@ Disabled: N/A</narrative>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="58">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
@@ -800,17 +776,17 @@ Disabled: N/A</narrative>
      <period-end iso-date="2020-06-30"></period-end>
      <actual value="53">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
      <actual value="237">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
      <actual value="469">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
@@ -819,7 +795,7 @@ Disabled: N/A</narrative>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="58">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>

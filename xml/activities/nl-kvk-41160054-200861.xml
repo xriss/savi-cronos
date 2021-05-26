@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="261" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity dstore:dataset="cordaid-41160054-01" dstore:index="260" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-200861</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -96,72 +96,62 @@
   <related-activity ref="NL-KVK-41160054-200397" type="3"></related-activity>
   <related-activity ref="NL-KVK-41160054-200736" type="3"></related-activity>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="1">
+  <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of beneficiaries reached (HUM)</narrative>
+     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">No. of people reached directly or indirectly through the activities of a Cordaid Humanitarian Aid Intervention</narrative>
+     <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
+    </description>
+    <reference code="CSH-I1" vocabulary="99"></reference>
+    <baseline iso-date="2020-09-30" value="60" year="2020">
+     <location ref="AF"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="60">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="8129">
+      <location ref="AF"></location>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (SL)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of people  who benefitted directly or indirectly with life-saving humanitarian assistance and/or resilient recovery services and/or disaster preparedness from activities in a humanitarian response implemented by Cordaid and implementing partners</narrative>
     </description>
     <reference code="SL0.01" vocabulary="99"></reference>
-    <baseline iso-date="2020-12-31" value="5339" year="2020">
-     <location ref="AF"></location>
-     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="2850" year="2020">
-     <location ref="AF"></location>
-     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="0" year="2020">
-     <location ref="AF"></location>
-     <dimension name="Age (-35/35+)" value="Age -35"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="0" year="2020">
-     <location ref="AF"></location>
-     <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="0" year="2020">
-     <location ref="AF"></location>
-     <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="8189" year="2020">
-     <location ref="AF"></location>
-     <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="0" year="2020">
-     <location ref="AF"></location>
-     <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="4424" year="2020">
-     <location ref="AF"></location>
-     <dimension name="Gender - genre" value="Female - feminin"></dimension>
-    </baseline>
-    <baseline iso-date="2020-12-31" value="3765" year="2020">
-     <location ref="AF"></location>
-     <dimension name="Gender - genre" value="Male - masculin"></dimension>
-    </baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="5339">
-      <location ref="AF"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
      <actual value="2850">
       <location ref="AF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
+     </actual>
+     <actual value="5339">
+      <location ref="AF"></location>
+      <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
      </actual>
      <actual value="0">
       <location ref="AF"></location>
-      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+      <dimension name="Age (-35/35+)" value="Age 35 &gt;"></dimension>
      </actual>
      <actual value="0">
       <location ref="AF"></location>
-      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+      <dimension name="Age (-35/35+)" value="Age &lt; 35"></dimension>
      </actual>
      <actual value="0">
       <location ref="AF"></location>
@@ -188,32 +178,6 @@
      <period-start iso-date="2020-09-07"></period-start>
      <period-end iso-date="2020-10-22"></period-end>
      <target value="8575"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">CSH-I1:  Number of people benefitting from unconditional and unrestricted cash transfers</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Unconditional transfers are provided to beneficiaries without the recipient having to do anything in return in order to receive the assistance . Unrestricted transfers can be used entirely as the recipient chooses i.e. there are no restrictions on how the transfer is spent (Definitions of CALP). It can be delivered e.g. through local banks, shops, traders, local money transfer companies, remittance companies and post offices in either one or several instalments.</narrative>
-    </description>
-    <reference code="CSH-I1" vocabulary="99"></reference>
-    <baseline iso-date="2020-09-30" value="60" year="2020">
-     <location ref="AF"></location>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="60">
-      <location ref="AF"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="8129">
-      <location ref="AF"></location>
-     </actual>
     </period>
    </indicator>
   </result>
