@@ -1,33 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="1.03">
- <iati-activity default-currency="CHF" dstore:dataset="sdc_ch-150410" dstore:index="2107" hierarchy="1" iati-activities:version="1.03" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity dstore:dataset="sdc_ch-150410" dstore:index="2107" hierarchy="1" iati-activities:version="2.03" xml:lang="FR" xmlns:dstore="http://d-portal.org/xmlns/dstore" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>CH-4-2014001340</iati-identifier>
-  <reporting-org ref="CH-4" type="10">SDC</reporting-org>
-  <title>LBR: PHIL community base support Ebola</title>
-  <participating-org role="IMPLEMENTING" type="22">22000</participating-org>
-  <participating-org role="EXTENDING">CH-4</participating-org>
-  <participating-org role="FUNDING">CH-4</participating-org>
-  <other-identifier owner-name="SDC" owner-ref="CH-4">7F-09252.01-22000-251-12250-C01</other-identifier>
+  <reporting-org ref="CH-4" type="10">
+   <narrative xml:lang="FR">SDC</narrative>
+  </reporting-org>
+  <title>
+   <narrative xml:lang="FR">LBR: PHIL community base support Ebola</narrative>
+  </title>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="FR">22000</narrative>
+  </participating-org>
+  <participating-org role="1">
+   <narrative xml:lang="FR">CH-4</narrative>
+  </participating-org>
+  <participating-org role="3">
+   <narrative xml:lang="FR">CH-4</narrative>
+  </participating-org>
+  <other-identifier ref="7F-09252.01-22000-251-12250-C01" type="A9">
+   <owner-org ref="CH-4">
+    <narrative xml:lang="FR">SDC</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2014-12-01" type="START-ACTUAL"></activity-date>
-  <activity-date iso-date="2015-02-28" type="END-PLANNED"></activity-date>
+  <activity-date iso-date="2014-12-01" type="2">
+   <narrative xml:lang="FR"></narrative>
+  </activity-date>
+  <activity-date iso-date="2015-02-28" type="3">
+   <narrative xml:lang="FR"></narrative>
+  </activity-date>
   <contact-info type="1">
-   <organisation>Swiss Agency for Development and Cooperation SDC</organisation>
+   <organisation>
+    <narrative xml:lang="FR">Swiss Agency for Development and Cooperation SDC</narrative>
+   </organisation>
    <telephone>+41 58 462 44 12</telephone>
    <email>deza@eda.admin.ch</email>
    <website>http://www.sdc.admin.ch</website>
-   <mailing-address>Freiburgstrasse 130,  3003 Berne</mailing-address>
+   <mailing-address>
+    <narrative xml:lang="FR">Freiburgstrasse 130,  3003 Berne</narrative>
+   </mailing-address>
   </contact-info>
-  <recipient-country code="251" percentage="100">Lib&#xE9;ria</recipient-country>
-  <sector code="12250" percentage="100" vocabulary="1"></sector>
-  <policy-marker code="8" significance="0" vocabulary="DAC">Aid Targeting the Objectives of the Convention to Combat Desertification</policy-marker>
-  <policy-marker code="7" significance="0" vocabulary="DAC">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</policy-marker>
-  <policy-marker code="6" significance="0" vocabulary="DAC">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</policy-marker>
-  <policy-marker code="2" significance="0" vocabulary="DAC">Aid to Environment</policy-marker>
+  <recipient-country code="251" percentage="100">
+   <narrative xml:lang="FR">Lib&#xE9;ria</narrative>
+  </recipient-country>
+  <sector code="12250" percentage="100" vocabulary="1">
+   <narrative xml:lang="FR"></narrative>
+  </sector>
+  <policy-marker code="8" significance="0" vocabulary="1">
+   <narrative xml:lang="FR">Aid Targeting the Objectives of the Convention to Combat Desertification</narrative>
+  </policy-marker>
+  <policy-marker code="7" significance="0" vocabulary="1">
+   <narrative xml:lang="FR">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
+  </policy-marker>
+  <policy-marker code="6" significance="0" vocabulary="1">
+   <narrative xml:lang="FR">Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
+  </policy-marker>
+  <policy-marker code="2" significance="0" vocabulary="1">
+   <narrative xml:lang="FR">Aid to Environment</narrative>
+  </policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-tied-status code="5"></default-tied-status>
   <transaction>
-   <transaction-type code="C">Commitment</transaction-type>
+   <transaction-type code="2"></transaction-type>
    <value currency="CHF" value-date="2014-12-31">73300</value>
    <flow-type code="10"></flow-type>
    <finance-type code="110"></finance-type>
@@ -35,7 +69,7 @@
    <tied-status code="5"></tied-status>
   </transaction>
   <transaction>
-   <transaction-type code="D">Disbursement</transaction-type>
+   <transaction-type code="3"></transaction-type>
    <value currency="CHF" value-date="2014-12-31">65000</value>
    <flow-type code="10"></flow-type>
    <finance-type code="110"></finance-type>
